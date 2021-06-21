@@ -1,0 +1,40 @@
+{
+    "name": "griftlandswiki",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.21.1",
+        "fs-extra": "^10.0.0"
+    },
+    "scripts": {
+        "pull": "node -e \"require('./scripts/pullFromWeb.js')()\""
+    },
+    "devDependencies": {
+        "prettier": "^2.3.1",
+        "eslint": "^7.25.0"
+    },
+    "eslintConfig": {
+        "parserOptions": {
+            "ecmaVersion": 2020
+        },
+        "rules": {
+            "max-len": [
+                "warn",
+                {
+                    "code": 120
+                }
+            ],
+            "quotes": [
+                "warn",
+                "single",
+                "avoid-escape"
+            ]
+        }
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true,
+        "printWidth": 120,
+        "bracketSpacing": false
+    }
+}
