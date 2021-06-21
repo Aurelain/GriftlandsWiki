@@ -334,7 +334,7 @@ const writePages = (pages) => {
         if (type === 'text') {
             fs.writeFileSync(destination + '/' + fileName + '.' + TEXT_EXTENSION, content);
         } else {
-            const name = destination + '/' + fileName.replace(/\.[^.]+$/, '') + '.json';
+            const name = destination + '/' + fileName + '.json';
             fs.writeFileSync(name, JSON.stringify(content, null, 4));
         }
     }
