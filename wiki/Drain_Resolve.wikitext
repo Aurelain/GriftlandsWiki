@@ -1,0 +1,26 @@
+{{Reupload}}
+
+{{Card
+|character = Sal
+|rarity = Uncommon
+|cardtype = Manipulate
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Drain
+|upgrade2 = Mending Drain}}
+{{Quote|The conversation was quite energizing. Thank you.}}
+
+'''Drain Resolve''' is a 1-cost Uncommon '''Manipulate''' card for [[Sal]]. It removes 2 resolve from the target argument. Then you will gain 2 resolve. Then '''Drain Resolve''' will '''Expend'''
+
+==Upgrades==
+After accruing 7 experience '''Drain Resolve''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Drain.png|150px]]
+|[[File:Mending Drain.png|150px]]
+|-
+!Target argument loses 4 [[Resolve]]
+!You gain 4 [[Resolve]]
+|-
+|}

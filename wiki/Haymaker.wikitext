@@ -1,0 +1,24 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Combo]], [[Finisher]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Boosted Haymaker
+|upgrade2 = Rival's Haymaker}}
+{{Quote|Sound the damn bell! It's over!}}
+
+'''Haymaker''' is a 2-cost Uncommon '''Attack''' card for [[Sal]]. It deals 3-5 base damage. It has the effect "Spend all your '''Combo''': Deal 3 bonus damage per '''Combo'''. '''Finisher'''"
+
+==Upgrades==
+After accruing 5 experience '''Haymaker''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Haymaker.png|150px]]
+|[[File:Rival's Haymaker.png|150px]]
+|-
+!Increases the bonus damage.
+!Adds 2 Combo.
+|}

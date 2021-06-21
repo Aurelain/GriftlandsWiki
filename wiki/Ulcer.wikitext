@@ -1,0 +1,5 @@
+{{stub}}
+{{Card
+|cardtype = Status
+|keywords = [[Destroy]]
+|upgradeable = No}}

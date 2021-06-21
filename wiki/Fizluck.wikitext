@@ -1,0 +1,18 @@
+
+
+{{Infobox
+| name     = Fizluck
+| image    = Fizluck portrait.png
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Admiralty - Goon
+| ID       =
+}}{{quote|Fizluck prides himself on work well done, even if it's work that never needed doing.|Fizluck's Compendium Description}}'''Fizluck''' is a character in {{Gamename}} and a [[Admiralty]] Goon.
+
+== Death Loot ==
+If '''Fizluck''' is killed in combat, he will drop a [[Admiralty Intel]].
+[[File:Admiralty Intel.png|none|thumb]]
+<br />
+[[Category:Characters]]

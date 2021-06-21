@@ -1,0 +1,11 @@
+*Common block reasons
+** Abusing multiple accounts
+** Creating spam articles
+** Inserting false information
+** Inserting nonsense/gibberish into pages
+** Intimidating behavior/harassment
+** Removing content from pages
+** Spamming links to external sites
+** Unacceptable username
+** Vandalism
+** Spam/advertising bot

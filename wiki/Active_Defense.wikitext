@@ -1,0 +1,23 @@
+{{Card
+|rarity = Uncommon
+|cardtype = Maneuver
+|decktype = Battle
+|character = Sal
+|keywords = [[Defense]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Defense
+|upgrade2 = Enhanced Defense}}
+{{Quote|Being aware of all options can keep you safe and in fighting shape.}}
+'''Active Defense''' is a 1-cost Uncommon '''Maneuver''' card for [[Sal]]. It applies 4 Defense, which increases by 2 for each card discarded this turn.
+
+==Upgrades==
+After gaining 9 experience this card can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Defense.png|150px]]
+|[[File:Enhanced Defense.png|150px]]
+|-
+!Apply 6 [[Defense]].
+!Increase by '''3''' for each<br>card discarded this turn.
+|}

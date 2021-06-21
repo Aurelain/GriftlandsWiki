@@ -1,0 +1,13 @@
+{{stub}}
+
+The '''Rebel''' Title belongs to the low rankers in the [[Rise|Rise]].
+
+== Combat ==
+In Combat, Rebels start out with low Morale, starting at around half health. However, Rallying Strike improves theirMorale over time, causing them to panic less during long fights.
+
+=== Moves ===
+
+* Rallying Strike: Deal moderate damage and raise Morale
+
+== Other Info ==
+When you kill a Rebel you receive the card [[Guerilla Tactic]].

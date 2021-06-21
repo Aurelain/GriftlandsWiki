@@ -1,0 +1,11 @@
+{{stub}}
+
+The Hesh Outpost is a secret location in Murder Bay managed by two [[Cult of Hesh|Heshians]]: Murkot, a Shroke [[Luminari]], and Phrylotas, a [[Kra'deshi]] Priest. The outpost can be unlocked in [[Sal|Sal's]] run after aiding Murkot in carrying Spark to the Outpost, and convinving Phrylotas that you will not reveal the outpost's location.
+
+== Services ==
+
+Once a day, Sal can either ask Murkot for a sparring session or get a blessing from Phrylotas.
+
+*Sparring with Murkot will cause Sal to lose 5 Health and distribute 5 XP to the Battle Deck.
+
+*Asking Phrylotas to bless Sal will restore 15 Resolve.

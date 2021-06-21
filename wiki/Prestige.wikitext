@@ -1,0 +1,34 @@
+{{stub}}
+
+'''Prestige''' levels are toggle-able modifiers that increase the difficulty of the game. In return, players are rewarded an additional 10% XP per prestige activated. 
+The final day must be completed with the current unlocked prestige level to unlock the next prestige level, and prestige effects stack with each other as more are unlocked and added. you can not unlock new prestige levels if custom mode is turned on. You have to unlock new levels separately with every character.
+
+==Current Prestige levels==
+*[[File:Prestige level 0.png|32px|link=]] '''Level 0 (Normal)''' - ''"The entry level Griftlands experience. If you die, you can restart the day only once."''
+*[[File:Prestige level 1.png|32px|link=]] '''Level 1: The Griftlands strikes back''' — ''"You cannot restart the day when dying. Non-boss enemies have upgraded abilities, and have a chance to spawn as a promoted version. Negotiation opponents have improved arguments."''
+*[[File:Prestige level 2.png|32px|link=]] '''Level 2: Play every card carefully''' — ''"Non-boss enemies are stronger in battle. Negotiation opponents have increased resolve and damage. Bosses are stronger in battle."''
+*[[File:Prestige level 3.png|32px|link=]] '''Level 3: Getting hurt hurts''' — ''"Resolve is no longer restored after battle. Only heal 50% of your health and resolve when sleeping."''
+*[[File:Prestige level 4.png|32px|link=]] '''Level 4: Combat is deadly''' — ''"Allies are weaker in battle. Species Boons are more powerful in battle. Bosses are even stronger in battle."''
+*[[File:Prestige level 5.png|32px|link=]] '''Level 5: Strive for perfection''' — ''"Start with 20% less maximum health. Start with 20% less maximum resolve."''
+*[[File:Prestige level 6.png|32px|link=]] '''Level 6: Do more with less''' — ''"Everything costs 25% more Shills. Start with 1 fewer battle graft slots. Start with 1 fewer negotiation graft slots."''
+*[[File:Prestige level 7.png|32px|link=]] '''Level 7: Test your mettle''' — ''"You no longer earn Mettle, and your Mettle upgrades are disabled."''
+
+==Pre-Perks Update levels==
+In an older version of the game there were 15 total prestige levels (including level 0). Since there were way more levels, each only gave a 5% XP bonus. 
+*'''Prestige 0''' (Normal) — ''"The entry level Griftlands experience. If you die, you can restart the day only once."''
+*'''Prestige 1''' — ''"Non-boss enemies have upgraded abilities, and have a chance to spawn as a promoted version"''
+*'''Prestige 2''' — ''"Negotiation opponents have improved arguments."''
+*'''Prestige 3''' — ''"Bosses are stronger in battle."''
+*'''Prestige 4''' — ''"Resolve is no longer restored after battle."''
+*'''Prestige 5''' — ''"Non-Boss enemies are stronger in battle."''
+*'''Prestige 6''' — ''"Negotiation opponents have increased  resolve and damage."''
+*'''Prestige 7''' — ''"Allies are weaker in battle."''
+*'''Prestige 8''' — ''"Species boons are more powerful in battle."''
+*'''Prestige 9''' — ''"Only heal 50% of your health and resolve after sleeping."''
+*'''Prestige 10''' — ''"Everything costs 25% more shills."''
+*'''Prestige 11''' — ''"Bosses are even stronger in battle."''
+*'''Prestige 12''' — ''"Start with 20% less maximum health."''
+*'''Prestige 13''' — ''"Start with 20% less maximum resolve."''
+*'''Prestige 14''' — ''"Start with 1 fewer negotiation graft slots."''
+
+[[Category:Game]]

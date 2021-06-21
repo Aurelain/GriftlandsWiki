@@ -1,0 +1,12 @@
+{{Card
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = Gamble
+|upgradeable = Yes
+|expreq = 3
+|upgrade1 = 'Pale': 3 Cost
+|upgrade2 = 'Boosted': +2 maximum base damage}}
+
+'''Dilemma''' is an '''Diplomacy''' card for [[Rook]]. It deals 1-6 base damage for four actions, and costs 1 less action every time you '''Gamble''' until the end of your turn. '''Dilemma''' is part of the Gambler and Fixated card set.
+
+After accruing 3 experience '''Dilemma''' upgrades to be "Pale" costing 3 actions, or to be "Boosted" dealing 1-8 base damage.

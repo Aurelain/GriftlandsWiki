@@ -1,0 +1,41 @@
+<div class="fpbox" style="text-align: center;"><!-- BEGIN Welcome box-->
+<div class="welcome"><big>'''Welcome to'''</big><br>[[file:wiki.png|300px|link={{PAGENAME}}]]</div>
+<div><small>the ''{{Gamename}}''  guide by the players for the players.</small></div>
+<small>We are currently maintaining [[Special:Statistics|{{NUMBEROFPAGES}} pages ({{NUMBEROFARTICLES}} articles)]].
+
+Please feel free to contribute by creating new articles or expanding existing ones.</small>
+</div><!--END Welcome box-->
+
+<div class="fpbox mobilecollapsible expanded" style="text-align: center;"><!-- BEGIN Description box-->
+<div class="heading desktopcenter mobileleft">About {{Gamename}}</div>
+<div class="body" style="text-align: left;">
+[[Griftlands]] is a single-player deck building game created by [[Klei]], where everything is negotiable: money, loyalty, and even morality. Choose your character and make your fortune in the Griftlands.
+ 
+:'''Genre:'''        Roguelike, Deck Building
+:'''Developer:'''    Klei Entertainment
+:'''Publisher:'''    Klei Entertainment	
+:'''Release Date:''' TBA, currently in Early Access
+
+
+</div>
+<div class="heading desktopcenter mobileleft">Links</div>
+<div class="body" style="text-align:center">
+[https://www.klei.com/games/griftlands Official site] • [https://store.steampowered.com/app/601840/Griftlands/ Steam] • [https://www.epicgames.com/store/ru/product/griftlands/home Epic Games] • [https://forums.kleientertainment.com/forums/forum/147-griftlands/ Game forums]
+</div>
+</div><!--END Description box-->
+
+<div class="fpbox mobilecollapsible expanded" style="text-align: center;"><!-- BEGIN Videos box-->
+<div class="heading desktopcenter mobileleft">Featured video</div>
+<div class="body" style="text-align: center;">
+{{#ev:youtube|jtfYao-lr28|480|center|||autoplay=false}}
+</div>
+</div><!--END Videos box-->
+
+<div class="fpbox nomobile" style="text-align: center;"><!-- BEGIN Images box-->
+<div class="heading">Featured images</div>
+<div class="body">
+{{Featured images}}
+</div>
+</div><!--END Images box--><noinclude>
+
+[[Category:Front page sections]]</noinclude>

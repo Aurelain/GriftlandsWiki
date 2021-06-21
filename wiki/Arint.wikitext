@@ -1,0 +1,38 @@
+{{stub}}
+
+{{Character
+| name     = Arint
+| image    = Arint Mugshot.png
+| race     = Shroke
+| location = Havaria - Grout Bog
+| faction  = Spark Barons
+}}
+
+{{quote|I will be watching you, Grifter. I suggest you watch yourself.|Arint}}
+
+'''Arint''' is [[Fellemo|Fellemo's]] Lieutenant and Spark Baron stationed in Grout Bog. Arint takes her position very seriously, and is highly trusted by Fellemo to carry out her responsibilities. 
+
+== Background ==
+
+Arent is first met by Rook when attempting to contact Fellemo at the Spark Baron Regional Headquarters. If Rook Gives the dossier to the Rise, Arint will confront Rook at the dead drop on Night 3.
+
+== Negotiation ==
+
+Either [[Flekfis]] or '''Arint''' is fought on night 3 upon arriving at the dead drop. If probed for weakness through a negotiation attempt before the fight, Rook can gain 3 unique temporary cards for the fight:
+*[[Weakness: Dependent]]
+*[[Weakness: Telegraph]]
+*[[Blind Spot]]
+
+== Combat Attacks/Abilities ==
+Arint has a small amount of reliably strong attacks that she will cycle through until she reaches low HP (need specifics), at which point she will activate her Power Surge.
+
+* Staff Whip: Her basic attack. it deals around 7-9 damage on average and, upon hitting the player, will incept 3 Strange Chemical into your deck
+* Charge: She will not attack but instead lurch back as to charge her chest cannon. Depending on Prestige, she will gain 1-2 stacks of Charge after using the charge attack.
+* Chest Beam: She will fire her chest cannon, dealing high damage to all opponents. This damage is increased by 4 per Strange Chemical that is in your hand. She will repeat this attack for every stack of Charge she has. After a Chest Beam, all incepted cards of Strange Chemical are destroyed if they we're in your hand when she used the attack.
+* Power Surge: At a low HP, she will gain one stack of Power Surge. This changes her attack cycle to only use Power Surge until she surrenders or dies. While Power Surging, she will repeat the Power Surge attack, dealing higher damage than staff whip at a 13 average damage.
+
+Arint places a status card called [[Strange Chemical]] in your deck each time she lands an attack. Occasionally, she will prepare her chest cannon attack; this attack deals heavy damage in addition to +4 damage per '''Strange Chemical''' in your hand.
+
+:Arint drops [[Level Orange Clearance]] upon death.
+
+[[Category:Characters]][[Category:Enemies]][[Category:Spark Barons]][[Category:Shroke]]

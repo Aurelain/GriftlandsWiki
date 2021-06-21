@@ -1,0 +1,393 @@
+{{stub}}
+'''Grafts''' are items that can be collected by the player that have a range of positive effects. Each Hero is able to install a limited amount of grafts. Grafts come in two varieties, <span style="color:#ff9a5a">'''Battle Grafts'''</span> and <span style="color:#9c8eff">'''Negotiation Grafts'''</span>, and each come in four different grades of rarity: <span style="color:#ffffff">'''Common'''</span>, <span style="color:#c6efff">'''Uncommon'''</span>, <span style="color:#fff35a">'''Rare'''</span>, <span style="color:#ef82ce">'''Boss'''</span> and <span style="color:#ef82ce">'''Unique'''</span>.
+
+Common, uncommon, and rare grafts can be bought from Plocka. [[Plocka 'The Swab']] also sells additional graft slots for shills, but this also damages the Hero's current health. Unique grafts are available only in [[Brawl mode]] from the start.
+
+==Battle Grafts==
+{| class="wikitable sortable" style="text-align:center"
+!style="width:10%|Graft
+!style="width:12%|Rarity
+!style="width:34%|Installed Effect
+!style="width:10%|Upgrade
+!style="width:34%|Upgraded Effect
+|-
+|[[File:Graft armor plating.png|64px]]<br>'''Armor Plating'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Whenever you gain '''Charge''', gain 2 '''Defense'''.
+|[[File:Graft armor plating plus.png|64px]]<br>'''Stone Armor Plating'''
+|Whenever you gain '''Charge''', gain '''3 Defense'''.
+|-
+|[[File:Graft auto tracker.png|64px]]<br>'''Auto Tracker'''
+|data-sort-value="1"|{{Rarity|Common}}
+|At the start of each turn, apply 2 '''Mark''' to a random enemy.
+|[[File:Graft auto tracker plus.png|64px]]<br>'''Boosted Auto Tracker'''
+|At the start of each turn, apply '''3 Mark''' to a random enemy.
+|-
+|[[File:Graft buckshot.png|64px]]<br>'''Buckshot'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Apply 1 '''Wound''' to a random enemy at the beginning of your turn.
+|[[File:Graft buckshot plus.png|64px]]<br>'''Boosted Buckshot'''
+|Apply '''2 Wound''' to a random enemy at the beginning of your turn.
+|-
+|[[File:Graft buster.png|64px]]<br>'''Buster'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Whenever you break '''Defense''' with an attack, apply 2 '''Bleed''' and gain 4 '''Defense'''.
+|[[File:Graft buster plus.png|64px]]<br>'''Savage Buster'''
+|Whenever you break '''Defense''' with an attack, apply '''2 Bleed''' and gain 4 '''Defense'''.
+|-
+|[[File:Graft company band.png|64px]]<br>'''Company Band'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Pets have +10 health in battle.
+Note: Also fully heals all pets at time of install
+|[[File:Graft company band plus.png|64px]]<br>'''Boosted Company Band'''
+|Pets have '''+15''' health in battle.
+|-
+|[[File:Graft dark cowl.png|64px]]<br>'''Dark Cowl'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Start combat with 3 '''Combo'''.
+|[[File:Graft dark cowl plus.png|64px]]<br>'''Rival's Dark Cowl'''
+|Start combat with '''5 Combo'''.
+|-
+|[[File:Graft first blood.png|64px]]<br>'''First Blood'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Your first attack each combat deals an extra 4 '''Bleed'''.
+|[[File:Graft first blood plus.png|64px]]<br>'''Boosted First Blood'''
+|Your first attack each combat deals an extra '''6 Bleed'''.
+|-
+|[[File:Graft nailed glove.png|64px]]<br>'''Nailed Glove'''
+|data-sort-value="1"|{{Rarity|Common}}
+|When receiving damage, you only lose up to 4 '''Combo'''.
+|[[File:Graft nailed glove plus.png|64px]]<br>'''Boosted Nailed Glove'''
+|When receiving damage, you only lose up to '''2 Combo'''.
+|-
+|[[File:Graft predictive brawling.png|64px]]<br>'''Predictive Brawling'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Gain 1 '''Combo''' at the beginning of your turn.
+|[[File:Graft predictive brawling plus.png|64px]]<br>'''Rival's Predictive Brawling'''
+|Gain '''2 Combo''' at the beginning of your turn.
+|-
+|[[File:Graft recycler.png|64px]]<br>'''Recycler'''
+|data-sort-value="1"|{{Rarity|Common}}
+|The first time you '''Expend''' a card each turn, draw a card.
+|[[File:Graft recycler plus.png|64px]]<br>'''Visionary Recycler'''
+|The first time you '''Expend''' a card each turn, draw '''2''' cards.
+|-
+|[[File:Graft red bandana.png|64px]]<br>'''Red Bandana'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Your allies receive '''2 Power''' at the start of battle.
+|[[File:Graft red bandana plus.png|64px]]<br>'''Boosted Red Bandana'''
+|Your allies receive '''3 Power''' at the start of battle.
+|-
+|[[File:Graft snap talon.png|64px]]<br>'''Snap Talon'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Your attacks deal 2 bonus damage to targets with '''Bleed'''.
+|[[File:Graft snap talon plus.png|64px]]<br>'''Boosted Snap Talon'''
+|Your attacks deal '''3''' bonus damage to targets with '''Bleed'''.
+|-
+|[[File:Graft arterial scanner.png|64px]]<br>'''Boosted Arterial Scanner'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|'''Bleed''' decays 33% at the end of the turn instead of 50%.
+|[[File:Graft arterial scanner plus.png|64px]]<br>'''Arterial Scanner'''
+|'''Bleed''' decays '''20%''' at the end of the turn instead of 50%.
+|-
+|[[File:Graft body piercing.png|64px]]<br>'''Body Piercing'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|At the end of every turn, gain 1 '''Counter''' for every 3 '''Defense''' you have.
+|[[File:Graft body piercing plus.png|64px]]<br>'''Thorny Body Piercing'''
+|At the end of every turn, gain '''2 Counter''' for every 3 '''Defense''' you have.
+|-
+|[[File:Graft bottom edge.png|64px]]<br>'''Bottom Edge'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|All attacks gain +1 to minimum damage, up to their maximum damage.
+|[[File:Graft bottom edge plus.png|64px]]<br>'''Boosted Bottom Edge'''
+|All attacks gain '''+2''' to minimum damage, up to their maximum damage.
+|-
+|[[File:Graft predictive brawling.png|64px]]<br>'''Predictive Brawling'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|Gain 1 '''Combo''' at the beginning of your turn.
+|[[File:Graft predictive brawling plus.png|64px]]<br>'''Rival's Predictive Brawling'''
+|Gain '''2 Combo''' at the beginning of your turn.
+|-
+|[[File:Graft serrated edge.png|64px]]<br>'''Serrated Edge'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|Wound is twice as effective.
+|[[File:Graft serrated edge plus.png|64px]]<br>'''Boosted Serrated Edge'''
+|Wound is twice as effective and Cripple reduces damage by 50%.
+|-
+|[[File:Graft shell.png|64px]]<br>'''Shell'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|If you are outnumbered, gain 4 '''Defense''' and 3 '''Counter''' at the end of your turn.
+|[[File:Graft shell plus.png|64px]]<br>'''Thorny Shell'''
+|If you are outnumbered, gain '''6 Defense''' and '''4 Counter''' at the end of your turn.
+|-
+|[[File:Graft skeletal suspension.png|64px]]<br>'''Skeletal Suspension'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|At the end of your turn, gain '''Defense''' equal to 50% of your '''Combo'''.
+|[[File:Graft skeletal suspension plus.png|64px]]<br>'''Stone Skeletal Suspension'''
+|At the end of your turn, gain '''Defense''' equal to '''75%''' of your '''Combo'''.
+|-
+|[[File:Graft wounding barbs.png|64px]]<br>'''Wounding Barbs'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|Your first attack each battle applies 3 '''Wound'''.
+|[[File:Graft wounding barbs plus.png|64px]]<br>'''Deep Wounding Barbs'''
+|Your first attack each battle applies '''4 Wound'''.
+|-
+|[[File:Graft bloody mess.png|64px]]<br>'''Bloody Mess'''
+|data-sort-value="3"|{{Rarity|Rare}}
+|At the start of each turn, apply 1 '''Bleed''' to all enemies.
+|[[File:Graft bloody mess plus.png|64px]]<br>'''Savage Bloody Mess'''
+|At the start of each turn, apply '''2 Bleed''' to all enemies.
+|-
+|[[File:Graft cloister.png|64px]]<br>'''Cloister'''
+|data-sort-value="3"|{{Rarity|Rare}}
+|Deal 2 bonus damage while you have any '''Defence'''.
+|[[File:Graft cloister plus.png|64px]]<br>'''Boosted Cloister'''
+|Deal '''3''' bonus damage while you have any '''Defence'''.
+|-
+|[[File:Graft clot hammer.png|64px]]<br>'''Clot Hammer'''
+|data-sort-value="3"|{{Rarity|Rare}}
+|Attacking targets affected by '''Bleed''' grants 2 '''Defence'''.
+|[[File:Graft clot hammer plus.png|64px]]<br>'''Stone Clot Hammer'''
+|Attacking targets affected by '''Bleed''' grants '''3 Defence'''.
+|-
+|[[File:Graft counter band.png|64px]]<br>'''Counter Band'''
+|data-sort-value="3"|{{Rarity|Rare}}
+|Whenever you prevent all damage from an attack, gain 2 '''Combo'''.
+|[[File:Graft counter band plus.png|64px]]<br>'''Rival's Counter Band'''
+|Whenever you prevent all damage from an attack, gain '''3 Combo'''.
+|-
+|[[File:Graft booster clamp.png|64px]]<br>'''Booster Clamp'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|Gain 1 action at the start of your turn. Enemies no longer surrender.
+|[[File:Graft booster clamp plus.png|64px]]<br>'''Visionary Booster Clamp'''
+|Gain 1 action '''and draw 2 cards''' at the start of your turn. Enemies no longer surrender.
+|-
+|[[File:Graft calamity jar.png|64px]]<br>'''Calamity Jar'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|Gain 1 action at the start of your turn. You can no longer own a pet.
+|[[File:Graft calamity jar plus.png|64px]]<br>'''Visionary Calamity Jar'''
+|Gain 1 action '''and draw a card''' at the start of your turn. You can no longer own a pet.
+|-
+|[[File:Graft dangerous bulb.png|64px]]<br>'''Dangerous Bulb'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|Gain 1 action at the start of your turn. Take 3 damage at the end of every turn.
+|[[File:Graft dangerous bulb plus.png|64px]]<br>'''Visionary Dangerous Bulb'''
+|Gain 1 action '''and draw a card''' at the start of your turn. Take 3 damage at the end of every turn.
+|-
+|[[File:Graft quick charger.png|64px]]<br>'''Quick Charger'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|At the start of your turn, reduce the cost of a random card in your hand by 1 until played.
+|[[File:Graft quick charger plus.png|64px]]<br>'''Boosted Quick Charger'''
+|At the start of your turn, reduce the cost of a random card in your hand by '''2''' until played.
+|-
+|[[File:Graft quick strap.png|64px]]<br>'''Quick Strap'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|Gain 1 action at the start of your turn. Battle card upgrades now have 1 option fewer.
+|[[File:Graft quick strap plus.png|64px]]<br>'''Visionary Quick Strap'''
+|Gain 1 action '''and draw a card''' at the start of your turn. Battle card upgrades now have 1 option fewer.
+|-
+|[[File:Graft ether hook.png|64px]]<br>'''Ether Hook'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|At the start of each battle, '''Improvise+''' a random '''Ability''' card, it costs 0 until played.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft fused collider.png|64px]]<br>'''Fused Collider'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|All cards have a random cost between 0 and 2 and change cost when played or at the end of your turn.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft maelstrom spine.png|64px]]<br>'''Maelstrom Spine'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|Whenever you shuffle your deck, deal 4 damage to all enemies.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft merged glass.png|64px]]<br>'''Merged Glass'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|'''Defense''' is halved instead of removed at the start of your turn.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft tomb relic.png|64px]]<br>'''Tomb Relic'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|At the start of each turn, gain 1 action for every 6 cards in your discard.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft torrid clone.png|64px]]<br>'''Torrid Clone'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|The first card you play each turn is played twice.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft void chain.png|64px]]<br>'''Void Chain'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|At the start of each battle, a random creature joins your team for the duration of the battle.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft wraith needle.png|64px]]<br>'''Wraith Needle'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|Whenever you '''Expend''' a card, '''Improvise''' a random card.
+|colspan=2|Unupgradable
+|}
+
+==Negotiation Grafts==
+{| class="wikitable sortable" style="text-align:center"
+!style="width:10%|Graft
+!style="width:12%|Rarity
+!style="width:34%|Installed Effect
+!style="width:10%|Upgrade
+!style="width:34%|Upgraded Effect
+|-
+|[[File:Graft cerebral stimulants.png|64px]]<br>'''Cerebral Stimulants'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Draw one extra card per turn.
+|[[File:Graft cerebral stimulants plus.png|64px]]<br>'''Visionary Cerebral Stimulants'''
+|Draw '''2''' extra cards per turn.
+|-
+|[[File:Graft cludger.png|64px]]<br>'''Cludger'''
+|data-sort-value="1"|{{Rarity|Common}}
+|At the start of each turn, steal up to 4 '''Composure''' from a random enemy target.
+|[[File:Graft cludger plus.png|64px]]<br>'''Stone Cludger'''
+|At the start of each turn, steal up to '''6 Composure''' from a random enemy target.
+|-
+|[[File:Graft keenskin.png|64px]]<br>'''Keenskin'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Gain 2 '''Composure''' whenever an opponent's argument is dismissed by a card.
+|[[File:Graft keenskin plus.png|64px]]<br>'''Stone Keenskin'''
+|Gain '''4 Composure''' whenever an opponent's argument is dismissed by a card.
+|-
+|[[File:Graft reflexor heads.png|64px]]<br>'''Reflexor: Heads'''
+|data-sort-value="1"|{{Rarity|Common}}
+|At the start of each turn, '''Rig''' 2 '''Heads'''.
+|[[File:Graft reflexor heads plus.png|64px]]<br>'''Boosted Reflexor: Heads'''
+|At the start of each turn, '''Rig 4 Heads'''.
+|-
+|[[File:Graft reflexor snails.png|64px]]<br>'''Reflexor: Snails'''
+|data-sort-value="1"|{{Rarity|Common}}
+|At the start of each turn, '''Rig''' 2 '''Snails'''.
+|[[File:Graft reflexor snails plus.png|64px]]<br>'''Boosted Reflexor: Snails'''
+|At the start of each turn, '''Rig 4 Snails'''.
+|-
+|[[File:Graft shrieker.png|64px]]<br>'''Shrieker'''
+|data-sort-value="1"|{{Rarity|Common}}
+|Deal 1 damage to all enemy targets at the beginning of your turn.
+|[[File:Graft shrieker plus.png|64px]]<br>'''Boosted Shrieker'''
+|Deal '''2''' damage to all enemy targets at the beginning of your turn.
+|-
+|[[File:Graft chemical regulator.png|64px]]<br>'''Chemical Regulator'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|When installed, upgrade 3 random negotiation cards.
+|[[File:Graft chemical regulator plus.png|64px]]<br>'''Boosted Chemical Regulator'''
+|When installed, upgrade 3 additional random negotiation cards.
+|-
+|[[File:Graft disruptive glanworm.png|64px]]<br>'''Disruptive Glanworm'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|Start each negotiation with '''2 Dominance'''.
+|[[File:Graft disruptive glanworm plus.png|64px]]<br>'''Assertive Glanworm'''
+|Start each negotiation with '''4 Dominance'''.
+|-
+|[[File:Graft luminjectors.png|64px]]<br>'''Luminjectors'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|One of your arguments gains 2 resolve at the beginning of your turn.
+|[[File:Graft luminjectors plus.png|64px]]<br>'''Boosted Luminjectors'''
+|One of your arguments gains '''3''' resolve at the beginning of your turn.
+|-
+|[[File:Graft midbrain padding.png|64px]]<br>'''Midbrain Padding'''
+|data-sort-value="2"|{{Rarity|Uncommon}}
+|Apply 1 '''Composure''' on all arguments at the end of your turn.
+|[[File:Graft midbrain padding plus.png|64px]]<br>'''Stone Midbrain Padding'''
+|Apply '''2 Composure''' on all arguments at the end of your turn.
+|-
+|[[File:Graft mind spool.png|64px]]<br>'''Mind Spool'''
+|data-sort-value="3"|{{Rarity|Rare}}
+|Draw 3 extra cards at the start of your turn. At the end of your turn, take 1 damage for every card in your hand above 3.
+|[[File:Graft mind spool plus.png|64px]]<br>'''Visionary Mind Spool'''
+|Draw '''4''' extra cards at the start of your turn. At the end of your turn, take 1 damage for every card in your hand above 3.
+|-
+|[[File:Graft pons mite.png|64px]]<br>'''Pons Mite'''
+|data-sort-value="3"|{{Rarity|Rare}}
+|Increase the maximum damage of all cards by 1.
+|[[File:Graft pons mite plus.png|64px]]<br>'''Boosted Pons Mite'''
+|Increase the maximum damage of all cards by '''2'''. 
+|-
+|[[File:Graft brain spur.png|64px]]<br>'''Brain Spur'''
+|data-sort-value="3"|{{Rarity|Rare}}
+|Your first card played every turn also damages an additional random enemy argument.
+|[[File:Graft brain spur plus.png|64px]]<br>'''Wide Brain Spur'''
+|Your first card played every turn also damages additional '''2''' random enemy arguments.
+|-
+|[[File:Graft coactive orbslug.png|64px]]<br>'''Coactive Orbslug'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|Whenever you gain '''Influence''', deal 2 damage to a random enemy argument.
+|[[File:Graft coactive orbslug plus.png|64px]]<br>'''Boosted Coactive Orbslug'''
+|Whenever you gain '''Influence''', deal '''3''' damage to a random enemy argument.
+|-
+|[[File:Graft contractor.png|64px]]<br>'''Contractor'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|Whenever you gain '''Dominance''', deal 1 damage to all enemy targets.
+|[[File:Graft contractor plus.png|64px]]<br>'''Boosted Contractor'''
+|Whenever you gain '''Dominance''', deal '''2''' damage to all enemy targets.
+|-
+|[[File:Graft distributed processing.png|64px]]<br>'''Distributed Processing'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|Whenever you draw a Status card, draw a card.
+|[[File:Graft distributed processing plus.png|64px]]<br>'''Boosted Distributed Processing'''
+|Whenever you draw a Status card, draw a card.<br>50% chance to '''Expend''' the Status card.
+|-
+|[[File:Graft interior drill.png|64px]]<br>'''Interior Drill'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|At the start of your turn, reduce the cost of a random card in your hand by 1 until played.
+|[[File:Graft interior drill plus.png|64px]]<br>'''Boosted Interior Drill'''
+|At the start of your turn, reduce the cost of a random card in your hand by '''2''' until played.
+|-
+|[[File:Graft roller drum.png|64px]]<br>'''Roller Drum'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|Gain 1 action at the start of your turn. All Hostility cards deal 50% less damage.
+|[[File:Graft roller drum plus.png|64px]]<br>'''Visionary Roller Drum'''
+|Gain 1 action '''and draw a card''' at the start of your turn. All Hostility cards deal 50% less damage.
+|-
+|[[File:Graft three fingers.png|64px]]<br>'''Three Fingers'''
+|data-sort-value="4"|{{Rarity|Boss}}
+|Gain 1 action at the start of your turn. When installed, 2 random people will hate you.
+|[[File:Graft three fingers plus.png|64px]]<br>'''Visionary Three Fingers'''
+|Gain 1 action '''and draw a card''' at the start of your turn. When installed, 2 random people will hate you.
+|-
+|[[File:Graft collapsing defeat.png|64px]]<br>'''Collapsing Defeat'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|Whenever you fully mitigate damage, '''Incept''' 1 '''Doubt'''.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft critical expanse.png|64px]]<br>'''Critical Expanse'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|At the start of each turn, draw cards until your hand is full.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft dynamic reset.png|64px]]<br>'''Dynamic Reset'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|At the start of each turn, discard any number of cards and draw that many new cards.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft flawless casualty.png|64px]]<br>'''Flawless Casualty'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|While you have no arguments, all your cards deal double damage.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft force compression.png|64px]]<br>'''Force Compression'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|All cards that cost more than 1 action cost 1 action instead.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft immaculate swarm.png|64px]]<br>'''Immaculate Swarm'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|All cards deal 1 bonus damage per friendly argument.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft parlous concept.png|64px]]<br>'''Parlous Concept'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|Whenever you shuffle your deck, '''Improvise''' a random uncommon or rare card, it costs 1 less.
+|colspan=2|Unupgradable
+|-
+|[[File:Graft twined conquest.png|64px]]<br>'''Twinned Conquest'''
+|data-sort-value="4"|{{Rarity|Unique}}
+|Duplicate the first argument you create each turn.
+|colspan=2|Unupgradable
+|}
+
+[[Category:Game]]

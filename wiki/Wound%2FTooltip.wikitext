@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Wound</center>
+  |body=<center>Attacks inflict 1 bonus damage on this target.<br>At the beginning of their turn, reduce '''Wound''' by 1.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

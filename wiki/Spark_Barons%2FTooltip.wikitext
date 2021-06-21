@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Spark Barons</center>
+  |body=<center>A technocratic faction who retrofit new technology from ancient ruins — much to the Cult's displeasure.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

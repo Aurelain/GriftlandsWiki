@@ -1,0 +1,24 @@
+{{Reupload}}
+
+{{Card
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|upgradeable = Yes
+|expreq = 8
+|upgrade1 = Twisted Bluff
+|upgrade2 = Visionary Bluff}}
+{{Quote|I am dead serious.}}
+'''Bluff''' is a 1-cost Common '''Diplomacy''' card for [[Rook]]. While the coin is '''Heads''', the card cost 0. It draws 2 cards.
+
+==Upgrades==
+After accruing 8 experience '''Bluff''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Twisted Bluff.png|150px]]
+|[[File:Visionary Bluff.png|150px]]
+|-
+![[Snails]] instead of [[Heads]]; [[Replenish]]
+![[Replenish]]
+|}

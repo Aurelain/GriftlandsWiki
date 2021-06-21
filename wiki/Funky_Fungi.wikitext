@@ -1,0 +1,13 @@
+{{Card
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Parasite
+|keywords = [[Expend]], [[Parasite]], [[Hatch]]
+|expreq = 5}}
+{{Quote|It's like biting into a lumin battery!.}}
+
+'''Funky Fungi''' is a Rare battle [[Bog Parasites|Bog-Parasite]] for [[Rook]], it costs 1 actions and has the effect: "Upgrade all cards in your hand for the rest of this fight. Take 2 damage for each card upgraded'''Expend, Parasite, Hatch'''"
+
+==Hatch==
+When Funky Fungi Hatches, it's transformed into a unique battle Bog Parasite [[Bog Symbiosis]].

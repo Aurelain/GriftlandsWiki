@@ -1,0 +1,21 @@
+{| class="infoboxtable"
+|-
+! colspan="2" class="infoboxname" |  "{{{name}}}"
+|-
+{{#if: {{{image|}}} | ! colspan="2" {{!}} [[File:{{{image}}}|250x250px]] | {{#ifeq: {{NAMESPACE}} | Template | | [[Category:Infoboxes lacking images]]}} }}
+|-
+! colspan="2" class="infoboxdetails" | Details 
+|-
+{{#if: {{{race|}}} | {{!}} width=80 {{!}} <div>Species</div> {{!!}} {{{race}}} }}
+|-
+{{#if: {{{location|}}} | {{!}} <div>Location(s)</div> {{!!}} {{{location}}} }}
+|-
+{{#if: {{{source|}}} | {{!}} <div>Source</div> {{!!}} {{{source}}} }}
+|-
+{{#if: {{{reward|}}} | {{!}} <div>Reward</div> {{!!}} {{{reward}}} }}
+|-
+{{#if: {{{related|}}} | {{!}} <div>Related</div> {{!!}} {{{related}}} }}
+|-
+{{#if: {{{ID|}}} | {{!}} <div>ID</div> {{!!}} {{{ID}}} }}
+|}<noinclude>{{clear}}{{doc}}
+[[Category:Infobox templates]]</noinclude>

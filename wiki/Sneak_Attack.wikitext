@@ -1,0 +1,32 @@
+
+
+{{Card Infobox|cardtype=Attack|decktype=Battle|expreq=5|name=Sneak Attack|set=Common|upgrade1=Pale Sneak Attack: Spend 1 '''Combo''': This card deals max damage.|upgrade2=Tall Sneak Attack: 6-14 damage||image=Sneak Attack.png|cost=2}}
+
+''It was probably the cheapest shot I've ever seen in my life.''
+
+'''Sneak Attack''' is a 2-cost Common '''Attack''' card for [[Sal]]. It deals 6-12 base damage. It has the effect "Spend 2 '''Combo''': This card deals max damage.".
+
+== Upgrades ==
+After accruing 5 experience '''Sneak Attack''' is able to be upgraded.
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|'''Pale Sneak Attack'''
+|2
+|6-12
+|Spend 1 '''Combo''': This card deals max damage.
+|-
+|'''Tall Sneak Attack'''
+|2
+|6-14
+|Spend 2 '''Combo''': This card deals max damage.
+|}
+<br />[[Category:All cards]]
+[[Category:Battle cards]]
+[[Category:Sal cards]]
+[[Category:Attack cards]]
+[[Category:Common cards]]

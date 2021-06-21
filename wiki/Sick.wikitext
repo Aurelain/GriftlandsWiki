@@ -1,0 +1,7 @@
+{{Stub}}
+{{Card
+|rarity = 
+|decktype = Negotiation
+|cardtype = Status
+|character = Other}}
+1 Mana, Negotiation card, Unique Status, Removed upon sleep, Lose 2 resolve, Expend.

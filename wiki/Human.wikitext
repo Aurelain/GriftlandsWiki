@@ -1,0 +1,7 @@
+'''Humans''' are described as a soft-skinned species in [[{{Gamename}}]].
+== List of Humans ==
+* [[Sal]]
+* [[Rook]]
+{{stub}}
+[[Category:Species]]
+[[Category:Human]]

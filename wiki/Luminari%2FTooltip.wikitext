@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Luminari</center>
+  |body=<center>The Cult of Hesh's specialized and well-trained enforcers.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

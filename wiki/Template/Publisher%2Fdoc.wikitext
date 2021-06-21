@@ -1,0 +1,11 @@
+{{doc/start}}
+== Usage ==
+Edit this template to replace the name of the game publisher in all the [[:Category:Legal notices|Legal notices]]. If you wish to also link to the publishers site, you can specify the site url as follows:
+
+:{{Tlx|Publisher|http://game.site.com}}
+
+Result:
+:{{Publisher|http://game.site.com}}
+
+Alternatively, you can simply remove the logic and hardcode the url in the template, rather than using the unnamed variable: <code><nowiki>{{{1}}}</nowiki></code>. This will link to the publisher's site in all instances, rather than optionally.
+{{doc/end}}

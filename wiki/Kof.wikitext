@@ -1,0 +1,38 @@
+{{stub}}
+{{Infobox
+| name     = Kof
+| image    = Kof.jpg
+| race     = Jakes
+| location = The Gro n' Dog
+| source   = 
+| reward   = 
+| related  = 
+| ID       =
+| Boon     = First Aid
+| Bane     = 
+| Death Loot = Triage
+}}
+
+<!-- {{quote|.|Kof}} -->
+'''Kof''' is a [[Jakes|Jake Smuggler]] and a patron at [[The Gro n' Dog]]. 
+
+== Background ==
+This smuggler has a reputation for negotiating steep fees for his services. Perhaps the origin of the Havarian phrase "coughing up the cash". 
+
+== Be friend ==
+[[Buy them a drink]] at [[The Gro n' Dog]].
+
+== Negotiate ==
+[[Drunk]]: Gains a Drunk argument when negotiating.
+
+== Combat ==
+To be added.
+
+== Gallery ==
+<gallery>
+[[File:Kof Mugshot Friendly.png|thumb|Friendly Kof]]
+</gallery>
+
+[[Category:Characters]]
+[[Category:Jakes]]
+[[Category:The Gro n' Dog]]

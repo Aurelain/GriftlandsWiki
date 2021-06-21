@@ -1,0 +1,75 @@
+'''Rejecting the indifference of Hesh''' is the unofficial name for this Event.
+
+
+== Script ==
+''(You are approached by a member of the cult, the fire of conviction burning brightly in his eyes.)''
+
+Zealot: You! You have rejected the indifference of the mighty Hesh!
+
+Zealot: You must pay for your impudence!
+
+
+'''*Drop the name of a friendly Cult member*'''
+
+(Not added yet)
+
+
+'''*Defend yourself*'''
+
+(Not added yet)
+
+
+'''*Pay a tithe*'''
+
+(Not added yet)
+
+
+'''*Convince _____ You are faithful to Hesh*'''
+
+Sal: Rejected Hesh? Me?!
+
+Sal: I am shocked! ''Shocked'' that you would make such a claim!
+
+'''''<small>(Start Negotiation)</small>'''''
+
+
+'''<small>Win Negotiation:</small>'''
+
+Zealot: I have misjudged you, sister.
+
+Zealot: May Hesh's wrath fall upon your enemies before it falls upon you.
+
+
+'''<small>Lose Negotiation:</small>'''
+
+(Not yet Added)
+
+
+== Results ==
+A Zealot is accusing you of being a non-Believer. The outcomes are as follows:
+
+
+'''Drop the name of a friendly Cult member:'''
+
+- This option is only available if a member of the Cult [[Relationships|Likes]] or [[Relationships|Loves]] you.
+
+-This will end the [[Events|Event]] 
+
+
+'''Defend Yourself:'''
+
+-Sal will Initiate a fight with the Cult members.
+
+-The Fight will always have at least 1 Zealot Class and at most 2 Luminari (Never less then 1)
+
+
+'''Pay a tithe:'''
+
+-Give 25 shills 
+
+-This will end the [[Events|Event]] 
+
+
+'''Convince _____ You are faithful to Hesh:'''
+
+-Sal will initiate a negotiation with the Zealot

@@ -1,0 +1,42 @@
+{{Stub}}
+
+'''Luminari''' is a title belonging to the [[Cult of Hesh|Cult of Hesh]]. They are the private military force of the Cult, and are tasked with dealing with problems that require strength.
+
+== List of Luminari ==
+{| class="wikitable"
+|+
+!Name
+!Race
+!Description
+!Image
+|-
+|Ionis
+| rowspan="4" |Human
+|Few folks survive the rigorous training needed to become Luminari. Ionis wears it like a halo of sunshine.
+|
+|-
+|Mallowi
+|All Luminari are a bit stuck-up, but Mallowi's got sermons on the brain and a pike up his abyss.
+|[[File:Mallowi.jpg|250px]]
+|-
+|Tei Utaro
+|N/A
+|[[File:Tei Utaro.jpg|250px]]
+|-
+|Umriit
+|Luminari are supposed to wade in the deep water of their faith, but Umriit looks like she's got gills under her collar.
+|
+|-
+|Murkot
+|Shroke
+|None
+|[[File:Murkot.jpg|250px]]
+|-
+|Stollo
+|Kra'deshi(?)
+|Stollo has a name that slips off the tongue like a spit. You doubt he'll turn the other cheek in response.
+|
+|}
+
+==Trivia==
+*The Spark Baron Lieutenant, Arint, was headhunted from a Luminari training facility.

@@ -1,0 +1,8 @@
+<onlyinclude>{{Ambox
+| image = <div class="copyright-icon"></div>
+| type = {{{1|{{{text|{{{Text|Text?}}}}}}}}}
+| border = yellow
+| style = font-size:80%
+}}<br></onlyinclude>
+{{doc}}
+[[Category:Copyright templates|{{PAGENAME}}]]</noinclude>

@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Take Names</center>
+  |body=<center>Playing this card against a new unique character adds their name to the list.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

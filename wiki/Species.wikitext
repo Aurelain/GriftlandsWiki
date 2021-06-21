@@ -1,0 +1,18 @@
+'''Species''' appear in various form in the game [[Griftlands]].
+
+==List of Griftland species ==
+=== [[Human]] ===
+A common species in [[Havaria]]. Soft-skinned, colours can vary.
+Notable Humans: [[Sal]], [[Rook]]
+
+=== [[Jarackle‎]] ===
+Jarackle is humanoid species with a canine-like appearance. Their fur colour can vary.
+
+=== [[Kra'deshi‎]] ===
+Kra'deshi are a race of slug-like humanoids. 
+
+=== [[Shroke‎]] ===
+Shroke is a humanoid species with horn-like extensions on their heads. Their skin colour varies from a grey-light-blue or green or a greyish purple.
+Notable Shroke: [[Arint]], [[Hebbel]], [[Kashio]], [[Threekwa]]
+
+[[Category:Species]]

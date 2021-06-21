@@ -1,0 +1,5 @@
+{{doc/start}}
+Result: <code><nowiki>{{</nowiki></code>
+
+This template returns a pair of ''opening curly braces''.
+{{doc/end}}

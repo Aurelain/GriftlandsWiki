@@ -1,0 +1,14 @@
+<div class="nomobile">{{Ambox
+| image = [[Image:Merge-arrows.svg]]
+| type = {{#ifeq:{{NAMESPACE}}|File|It has been '''''suggested''''' that this file needs to be '''merged with [[{{{1}}}]].'''|It has been '''''suggested''''' that this article or section be '''merged with [[{{{1}}}]].'''}}
+| border = purple
+| info =
+{{#if:{{{2|}}}|* Reason: {{{2}}}
+* Please discuss this on the <includeonly>[[{{TALKPAGENAME}}|</includeonly><span class="pagetab">Discussion</span> page<includeonly>]]</includeonly>.|* Please see the <includeonly>[[{{TALKPAGENAME}}|</includeonly><span class="pagetab">Discussion</span><includeonly>]]</includeonly> page for reasoning.}}
+}}<br /></div><!--
+--><div class="mobileonly" style="text-align:center">{{#ifeq:{{NAMESPACE}}|File|It has been '''''suggested''''' that this file needs to be '''merged with [[{{{1}}}]].'''|It has been '''''suggested''''' that this article or section be '''merged with [[{{{1}}}]].'''}}<br />{{#if:{{{2|}}}|* Reason: {{{2}}}
+* Please discuss this on the <includeonly>[[{{TALKPAGENAME}}|</includeonly>Discussion page<includeonly>]]</includeonly>.|* Please see the <includeonly>[[{{TALKPAGENAME}}|</includeonly>Discussion<includeonly>]]</includeonly> page for reasoning.}}<br /></div><!--
+--><includeonly>[[Category:Pages to be merged]]</includeonly><noinclude>
+{{doc}}
+
+[[Category:Notice templates|{{PAGENAME}}]]</noinclude>

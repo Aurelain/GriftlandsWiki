@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Murder Bay</center>
+  |body=<center>The small patch of coastland in Havaria where the Deltrean Admiralty has established an outpost.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>The Grog n' Dog</center>
+  |body=<center>A homey but modest bar owned by Fssh.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

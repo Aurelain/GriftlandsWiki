@@ -1,0 +1,6 @@
+{{stub}}
+{{Character
+|faction = Spree}}
+'''Goni''' is a character in {{Gamename}}. He is one of the [[Spree]] and tries to track down [[Nand]].
+
+[[Category:Spree]]

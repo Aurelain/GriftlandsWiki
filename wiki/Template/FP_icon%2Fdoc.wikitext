@@ -1,0 +1,25 @@
+{{doc/start}}
+This template creates a main page icon with a text link underneath. As the page width narrows, a group of these icons will rearrange themselves onto as many lines as necessary. The group can be centered by enclosing the template calls in <code><nowiki><center> ... </center></nowiki></code> tags.
+
+== Customization ==
+* The vertical alignment can be changed from either top to bottom depending on the nature of the icons.
+* The default size of the icons can be changed, or the size parameter can be set.
+* The text links under the icons can be removed.
+
+== Example ==
+<code><nowiki><center></nowiki></code>
+:{{tlx|FP icon|Link-weapons.png|Special:Preferences}}
+:{{tlx|FP icon|Link-guides.png|https://google.com Google}} &mdash; This line demonstrates how to create an external link
+:{{tlx|FP icon|Link-locations.png|Project:Community portal{{(}}!{{)}}Locations}} &mdash; This line demonstrates how to change the display text for a given link
+:{{tlx|FP icon|Link-help.png|Special:Random|size{{=}}100px}} &mdash; This image has a size parameter
+<code><nowiki></center></nowiki></code>
+
+'''Generates''':
+<center>
+{{FP icon|Link-weapons.png|Main Page}}
+{{FP icon|Link-guides.png|https://google.com Google}}
+{{FP icon|Link-locations.png|Project:Community portal{{!}}Locations}}
+{{FP icon|Link-help.png|Special:Random|size=100px}}
+</center>
+
+{{doc/end}}

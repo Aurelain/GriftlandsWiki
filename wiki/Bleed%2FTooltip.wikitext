@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Bleed</center>
+  |body=<center>At the beginning of their turn, take damage equal to the count of '''Bleed''', then halve '''Bleed''' count.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

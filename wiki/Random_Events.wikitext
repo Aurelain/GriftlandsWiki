@@ -1,0 +1,51 @@
+When traveling, the player can have unforeseen encounters which are unrelated to the story or quests. Usually, at most one random event can spawn before progressing the story. The same indicator (a blue exclamation point interrupting the journey) is also used for some guaranteed quest-related encounters. 
+
+== Sal's Campaign ==
+
+[[Krog Approaches You, Wearing a Smile]]
+
+[[Shel's Event]]
+
+[[Injured Person]]
+
+[[As You're Passing by a Bubbling Tar Pit]]
+
+[[The Road Ahead is Blocked by a Group of Admiralty Officers]]
+
+[[You're Stopped on the Road by an Admiralty Patrol]]
+
+[[Someone Dressed an Awful Lot like a Shopkeeper]]
+
+[[A Spree Bandit Steps out Onto the Path]]
+
+[[A Mysterious Figure Approaches You]]
+
+[[You Come Across a Priest of the Cult of Hesh]]
+
+[[You Come Across a Lone Merchant]]
+
+[[Sitting Conspicuously by the Side of the Road]]
+
+[[This Part of the Road is Usually Pretty Quiet]]
+
+[[You're Stopped on the Road by a Civilian Bartender]]
+
+[[An Injured Admiralty Clerk Stumbles Towards You]]
+
+[[You are confronted by a scavenger (Plundak)]]
+
+[[You find a Jake sitting by the side of the road.]]
+
+== Rook's Campaign ==
+
+[[One of the Cult's Zealots Approaches]]
+
+[[You find a small patch of bogberries growing by the wayside]]
+
+[[You come across a plant that you recognize from a book]]
+
+== Smith's Campaign ==
+[[A Business Opportunity]]
+
+Beach Party 
+[[Category:Griftlands]]

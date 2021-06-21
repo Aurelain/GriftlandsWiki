@@ -1,0 +1,22 @@
+'''Heavy Laborer''' is a [[Civilian]] title. They work wherever some extra muscle is needed.
+
+== Combat ==
+In Combat, Heavy Laborers start with the '''Worn Out''' Condition. Each attack against a Heavy Laborer will decrease it by 1, and Stuns them whenever it reaches 0.
+
+=== Moves ===
+
+* Smack: A simple attack which deals moderate damage.
+* Gut Smash: A heavier attack which causes a Condition
+
+== Extra Info ==
+Their Boon is [[Heavy Lifting]], it has the Following effect: ''"At the start of each battle, gain 4 [[Defense]] and 2 [[Power|Temporary Power]]."''
+
+Their Bane is [[Whispered Rumors]], it has the following effect: ''"Opponents start with an additional argument each negotiation."''
+
+When you kill a Heavy Laborer, you will obtain the card [[Worker's Gloves]].
+
+
+
+
+<br />
+[[Category:Game]]

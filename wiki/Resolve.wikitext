@@ -1,0 +1,9 @@
+{{stub}}
+
+'''Resolve''' is an ability of the player and important for negotiatiation.
+When this is depleted, the player won't be able to negotiate about something.
+
+== Reload the ability ==
+Players can refill the energy needed for resolve and either have to sleep at night, consume certain beverages or win fights.
+
+[[Category:Abilities]]

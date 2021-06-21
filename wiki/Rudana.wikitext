@@ -1,0 +1,12 @@
+{{Character
+| name     = Rudana
+| image    = Rudana.jpg
+| race     = Human
+| location = 
+| faction  = 
+| faction2 = 
+| title    =
+}}
+'''Rudana''' is a character in [[{{Gamename}}]]. Rudana is offering a job in quest [[Attack Rival]], where Rudana wants the player to beat up a character named [[Ekel]].
+{{stub}}
+[[Category:Characters]]

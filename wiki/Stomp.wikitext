@@ -1,0 +1,32 @@
+
+
+{{Card Infobox|cardtype=Attack|decktype=Battle|expreq=5|name=Stomp|set=Common|upgrade1=Rooted Stomp: 6-6 damage|upgrade2=Boosted Stomp: 4-9 damage||image=Stomp.png|cost=1}}
+
+''That's gotta hurt.''
+
+'''Stomp''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 3-6 base damage. It has the effect "Spend 2 '''Combo''': this card costs 0.".
+
+== Upgrades ==
+After accruing 5 experience '''Stomp''' is able to be upgraded.
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|'''Rooted Stomp'''
+|1
+|6-6
+|Spend 2 '''Combo''': this card costs 0.
+|-
+|'''Boosted Stomp'''
+|1
+|4-9
+|Spend 2 '''Combo''': this card costs 0.
+|}
+<br />[[Category:All cards]]
+[[Category:Battle cards]]
+[[Category:Sal cards]]
+[[Category:Attack cards]]
+[[Category:Common cards]]

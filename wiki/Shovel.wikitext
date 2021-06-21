@@ -1,0 +1,8 @@
+{{Stub}}
+{{Card
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Defense]], [[Charge]], [[Expend]]
+|upgradeable = No
+|character = Rook}}

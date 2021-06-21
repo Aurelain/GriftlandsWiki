@@ -1,0 +1,27 @@
+{{stub}}{{Character
+|race = Shroke
+|faction = Spark Barons
+|title = Professional}}
+
+'''Plocka 'The Swab'''' is a [[Shroke]] [[Spark Barons|Spark Baron]] Professional. She is notable as a graft merchant, selling up to 3 (Common, Uncommon, Rare) at scaling prices. She is a unique character because of the fact that she appears as the graft vendor in all three characters' stories.
+
+==Encounters==
+
+===Hunting Kashio===
+In [[Sal|Sal's]] Story, Plocka can be one of the night merchants that Sal can help. In the Grog n' Dog, the Spark Baron describes her job for Sal as her standing behind her and looking tough. The actual job involves Sal having to cut the graft out of a Civilian Heavy Lifter who was behind on their extended credit for a graft they purchased from Plocka. Sal has the choice to:
+
+*Do as Plocka says
+**After doing so, the Heavy Lifter will hate Sal.
+*Convince her to give the Heavy Lifter more time
+**If she is successfully convinced, the Heavy Lifter will [[Relationships|Love]] Sal.
+*Refuse
+
+===The Bog Job===
+In [[Rook|Rook's]] Story, Plocka again sells grafts at the [[Jakes|Jakes']] Black Market. If Rook asks if Plocka shouldn't be reporting the Jakes to her superiors, she will say that she contains multitudes.
+
+=== The Inheritance ===
+In [[Smith|Smith's]] Story, Plocka can be found at the back of the Party Supply Store, again selling grafts.
+
+== Trivia ==
+
+* Plocka is the only character who can always appear in any character's story without RNG.

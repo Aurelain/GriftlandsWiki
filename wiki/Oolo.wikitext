@@ -1,0 +1,40 @@
+{{stub}}
+
+{{Infobox
+| name     = Oolo
+| image    = Oolo Mugshot.png
+| race     = Kra'deshi
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Deltrean Admiralty 
+| ID       =
+}}
+
+{{Quote|The Admiralty gets its cut or you get cut, understand? Now scoot. I have schemes to incubate, plots to hatch.|Oolo}}
+
+
+'''Oolo Ollowano''' is the [[Admiralty]] Intelligence Officer headquartered in [[Murder Bay]]. Calm, cool, and ruthlessly cunning, Oolo has a scheme for everything. Oolo is forced to deal with rampant corruption among her ranks. But, as long as they wear the badge and follow her orders, she can make an exception.
+
+== Encounters ==
+Oolo can only be encountered by [[Sal]] in Murder Bay. On Day 2, she is a possible contact to get into the auction, the other being the [[Spree]] Leader [[Nadan]]. If sided with, she provides a variety of quests to aid the Admiralty which pay well. If Sal sides with Nadan instead, she will be encountered as a Boss on Day 4 instead.
+
+== Background ==
+
+Oolo commands the Admiralty force present in Murder Bay. She is personally tasked with keeping goods moving between Havaria and the Deltrean Empire, though the Spree make no lack of effort in disrupting her enforcers.
+
+== Combat ==
+
+Oolo wields a [[Charged Disc]] and is accompanied by a pet Battle Oshnu. Her pet has 25 HP and will retreat into its shell when reaching 1 HP, regenerating back to full HP on the next turn unless knocked out by a stun.
+
+== Siding with Oolo ==
+
+
+
+=== Fight against Kashio ===
+During the fight against [[Kashio]], Oolo aids in the form of the Maneuver Card '''Call In Oolo'''. This attacks all enemies and applies Wound. This card is most useful when Kashio has a Holo Belt, as Oolo can dispel the holograms while dealing damage to Kashio herself.
+
+== Siding against Oolo ==
+On Day 4, Nadan will have Sal kidnap Oolo's brother, Foolo, to lure her into a trap. 
+[[Category:Characters]]
+[[Category:Kra'deshi]]

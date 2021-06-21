@@ -1,0 +1,48 @@
+{{Stub}}
+[[File:faction_bilebrokers.png|frameless|right]]
+Bilebrokers are mostly scholars and chemist, that have frequent dealing with [[Roaloch]].
+
+== Members ==
+{| class="wikitable"
+|+
+!Name
+!Title
+!Race
+!Description
+|-
+|Leesha
+| rowspan="2" |Chemist
+| rowspan="2" |Human
+|It's unclear whether Leesha's easygoing attitude is a result of her temperament, or the fumes radiating of her wares.
+|-
+|Ximmon
+|Ximmon doesn't typically announce his entrances.
+|}
+
+== Negotiation Behavior ==
+Negotiating with Bilebrokers is random and unpredictable. Their core argument makes planning ahead very difficult, as key card can often be discarded. Eccentricity can either be very beneficial for the player, or very detrimental. However, the player can find ways to take advantage of this argument. For example, playing a lot of low cost cards to cause the high cost cards to be discarded by their core argument.
+
+=== Purple Haze ===
+'''Purple Haze''' is the core argument of Bilebrokers. It has "Whenever you play a card, discard a random card in your hand and draw a card".
+
+=== Eccentricity ===
+On the 1st turn of the negotiation, an '''Eccentricity''' argument will be created. It has "All cards have a random cost between 0 and 2". This effect is in place for as long as the argument is active. '''Eccentricity Plus''' has "All cards have a random cost between 0 and 3" instead.
+
+=== Distracted ===
+At [[Difficulty]] 2 or higher, on the 3rd and the 9th turn, a '''Distracted''' inception will be incepted. It has "Whenever you play a card, your core argument takes 1 resolve damage. Reduce count by 1 whenever you play a card and at the end of your turn.". The amount of stacks incepted is equal to the current [[Difficulty]] times 1.5, rounded down.
+
+=== Curiosity ===
+Starting from the 4th turn, every 4 turns, a '''Curiosity''' bounty will be created. It has 3 [[Resolve]] and "When destroyed, draw up to your maximum hand size". By default, this is equal to 10, but can change with some effects.
+
+=== Damage ===
+Every turn, Bilebrokers will deal damage once.
+
+== Trivia ==
+*Purple Haze shares a name with a song played by the Jimi Hendrix Experience.
+*The Bilebrokers have the smallest amount of unique regular characters, at only 2: Leesha and Ximmon,
+**The faction with the smallest amount of total characters would be [[Rentoria]], with only one: [[Threekwa]].
+
+<br />
+[[Category:Stubs]]
+[[Category:Factions]]
+[[Category:Bilebrokers]]

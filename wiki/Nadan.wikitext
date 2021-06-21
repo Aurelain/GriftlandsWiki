@@ -1,0 +1,27 @@
+{{stub}}
+{{Character
+|race = Human
+|faction = Spree}}
+{{quote|Another day in the Feud, huh?|Nadan}}
+'''Nadan''' is a character in [[{{Gamename}}]] and [[Spree|the Spree]] leader of Murder Bay. He doesn't talk much, but rumors have it he's less brutish than his reputation suggests.
+
+==Background==
+Nadan leads the Spree in less of a commander role and more as a mentor and tactician, planning targets and distributing funds as needed, pulling strings from behind the curtains. He doesn't talk much and prefers having other Spree members handle his business for him. His face was terribly disfigured during an attack on an Admiralty shipment when a box packed with explosives was detonated. In the ensuing chaos, he was forced to flee and was shot in the face with a blaster pistol. It is revealed by Oolo that the explosion was an accident, but Nadan took the loss of his friends too personally and thus they hold a mutual grudge against each other. Nadan would see Oolo killed, though Oolo would rather see Nadan captured, if nothing else but to torture him for information he holds on Murder Bay.
+
+==Combat==
+'''Nadan''' fights using two katars. If fought by Sal, he frequently calls in Spree reinforcements and Fleads to assist him.
+
+==Siding with Nadan==
+If Nadan is joined by Sal, they complete several quests against the Admiralty before an opportunity arises to set up a trap for Oolo. Sal is tasked with kidnapping Oolo's brother, Foolo, a wealthy merchant making landfall to join the auction on day 5. This baits out Oolo in a rescue attempt and Oolo must be fought along with her pet [[Oshnu]]. Upon successfully killing Oolo, Nadan holds his end of the bargain up for Sal, getting her access to the auction through a secret tunnel.
+
+===Fight against Kashio===
+Nadan provides a 0 cost 3 use item that summons him to attack. He deals 1 powerful strike to Kashio instantly before retreating each use.
+
+==Siding against Nadan==
+If Oolo is sided with, a trap is set for Nadan using an Oshnu caravan, baiting the last caravan leaving Admiralty HQ heading to the auction. Nadan can be killed or captured. If killed, when returning to Oolo, she expresses severe disappointment in Sal, calling her "just another brainless thug." If captured, he attempts to bribe Sal into releasing him on their way back to Admiralty HQ. Accepting the bribe gives Sal one Unique Spree card from a pool of 3 cards. If released, Oolo expresses disappointment but says it was expected, and will just give her a future opportunity to capture him personally in the future. Denying Nadan's Bribe and turning him in will grant Sal Oolo's Boon.
+
+==Trivia==
+*Nadan reads poetry.
+*Nadan was formerly Kashio's protégé.
+
+[[Category:Characters]][[Category:Enemies]][[Category:Spree]]

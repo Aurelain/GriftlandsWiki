@@ -1,0 +1,3 @@
+'''Hatch''' is one of the card key words. It says "When this card's effect is triggered the specified number of times, it is destroyed and a special event occurs. The hatch counter is not changed while [[fatigued]]."
+
+[[Category:Keywords]]

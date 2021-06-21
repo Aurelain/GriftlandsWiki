@@ -1,0 +1,24 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Piercing]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Tall Dagger Throw
+|upgrade2 = Rooted Throw}}
+{{Quote|Don't worry, I have a spare.}}
+
+'''Dagger Throw''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It deals 4-6 '''Piercing''' base damage.
+
+==Upgrades==
+After accruing 9 experience '''Dagger Throw''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Tall Dagger Throw.png|150px]]
+|[[File:Rooted Throw.png|150px]]
+|-
+!Increased maximum damage.
+!Increased minimum damage.
+|}

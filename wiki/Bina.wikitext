@@ -1,0 +1,25 @@
+
+
+{{Infobox
+| name     = Bina
+| image    = Bina.png
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Jakes - Smuggler
+| ID       =
+}}{{quote|Bina comes from a long line of warriors, known for getting the job done.|Bina's Compendium Description}}'''Bina''' is a character in {{Gamename}} and a [[Jakes]] Smuggler.
+
+== Death Loot ==
+If '''Bina''' is killed in combat, she will drop a [[Triage]].
+[[File:Triage.png|none|thumb]]
+
+== Boon/Bane ==
+If '''Bina''' loves you, you will receive:
+
+=== First Aid ===
+Whenever you remove a debuff, '''Heal''' 5 health.
+[[File:Graft first aid.png|none|thumb]]
+<br />
+[[Category:Characters]]

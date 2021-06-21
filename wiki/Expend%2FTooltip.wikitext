@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Expend</center>
+  |body=<center>Remove this card for the rest of this battle/negotiation.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

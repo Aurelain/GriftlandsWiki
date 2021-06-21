@@ -1,0 +1,5 @@
+{{stub}}
+{{Character
+|race = Human
+|faction = Boggers}}
+'''Grimdellia''' is one of the bogger, the player may encounter her while playing [[Rook]]. She would ask the player to hatch "Deeper into the bog", if the player succeed they will gain her boon, if the player decide to keep the card they will gain her bane, if the player fail to hatch the card, Grimdellia would take the card back.

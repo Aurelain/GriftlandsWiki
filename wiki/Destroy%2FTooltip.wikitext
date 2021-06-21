@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Destroy</center>
+  |body=<center>Remove this card permanently.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

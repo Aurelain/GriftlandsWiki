@@ -1,0 +1,18 @@
+{{Infobox
+| name     = Eonwe
+| image    = Eonwe.jpg
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Cult of Hesh
+| ID       =
+}}'''Alo''' is a character in {{Gamename}} and a [[Cult of Hesh]] Boss.
+
+She appears as a possible first boss for [[Rook]]. She also shows up in a random event for [[Sal]], where she can choose to help Rook take out the assassin hunting him, Eonwe, for 300 shills.
+
+== Death Loot ==
+If '''Eonwe''' is killed in combat, she will drop a [[Lumin Bio-Accelerator]].
+[[File:Lumin Bio-Accelerator.png|none|thumb]]
+<br />
+[[Category:Characters]]

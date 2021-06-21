@@ -1,0 +1,104 @@
+{{stub}}
+
+'''Dockhand''' is a [[Jakes]] Title. Dockhands aid with the loading and unloading of ships in a port, and since they're Jakes, might also unload some illegal items for themselves as well.
+
+==Combat==
+In Combat, Dockhands are slippery targets that focus on weakening enemies rather than dealing brute damage. They start with the '''Cruelty''' Condition, which apply 2 Wound if not defended.
+
+'''Moves:'''
+
+*Slippery: Applies 2 Stacks of Evade, which nullify two attacks against them for one turn. While attacks with damage will not take effect, pure debuff cards can.
+
+==Negotiation==
+
+==Members==
+{| class="wikitable"
+|+Jake Dockhands
+!Name
+!Race
+!Description
+!Appearance
+|-
+|Brash
+| rowspan="5" |Human
+|Despite her name, Brash is actually pretty level-headed.
+|
+|-
+|Gree
+|Creepily enough, Gree has a reputation for singing her assassins contracts to their death. 
+|
+|-
+|Juke
+|Juke's a bit of a newcomer on the Havarian smuggling scene, but she makes up for it by charging a ruthless fee. 
+|
+|-
+|Minfen
+|You've heard Minfen used to be an indebted worker. Most aren't lucky enough to make it out. 
+|[[File:Minfen.jpg|250px]]
+|-
+|Pozgo
+|"Pozgo" was the legendary ruler of a long-forgotten planet. You wonder if ''this'' Pozgo lived up to his parent's expectations. 
+|
+|-
+|Cwoki
+| rowspan="2" |Kra'deshi
+|You've heard that Cwoki has a collection of trading cards depicting the upper echelon of the Hesian cult—from cardinals to archbishops.
+
+Of course, that's the Deltrean side. Unlikely Havarian clergy warrant any mention. 
+|[[File:Cwoki.jpg|250px]]
+|-
+|Krog
+|You'd bet your last shill that Krog knows his way around his own sleeve—preferably, though, you wouldn't bet against Krog. 
+|[[File:Krog.jpg|250px]]
+|-
+|Grunjax
+| rowspan="3" |Jarackle
+|Grunjax has a breath so rancid you can smell it after he's left the room. But he sure does have a nice smile. 
+|[[File:Grunjax.jpg|250px]]
+|-
+|Queek
+|Not all jakes do things by the book, but Queek's reputation, at least, is queeky clean. 
+|[[File:Queek.jpg|250px]]
+|-
+|Tlok
+|Most jarackles struggle to get the respect they deserve, so it says a lot that folks speak Tlok's name like he's one to watch out for. 
+|[[File:Tlok.jpg|250px]]
+|-
+|Ronno
+|Shroke
+|Apparently Ronno lost her hearing in her right earnub after a swamp gas explosion. Fortunately she hears extra-well out of the left one. 
+|
+|}
+
+== Other Info ==
+Their Boon is [[Bargaining]] and their Bane is [[Thin Skin]].
+
+When you kill a Dockhand, you receive the card [[Gaff]].
+
+==Promoted Dockhands==
+Promoted Dockhands are veterans of their trade, and use a Blunderbuster rather than a hook.
+{| class="wikitable"
+|+Promoted Dockhands
+!Name
+!Race
+!Description
+!Appearance
+|-
+|Wikka
+| rowspan="2" |Shroke
+|Not unusual for someone like Wikka, hard-headed and steel-toed, to do well in the jakes.
+|[[File:Wikka.jpg|link=https://griftlands.gamepedia.com/File:Wikka.jpg|frameless|319x319px]]
+|-
+|
+|
+|
+|}
+
+== Combat (Promoted) ==
+Promoted Dockhands differ somewhat from their counterparts, since they have a gun instead of a hook.
+*Blunderbuster: Shoots their Blunderbuster, dealing moderate damage.
+*Covering Fire: Throws a lumin grenade and shoots at it, dealing moderate damage and applying 1 Wound and 2 Exposed.
+*Slippery: Applies 2 Stacks of Evade.
+
+== Other Info (Promoted) ==
+Their Boon and Bane is the same.

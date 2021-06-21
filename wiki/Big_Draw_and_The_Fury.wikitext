@@ -1,0 +1,6 @@
+Big Draw and The Fury is the third [[Card Sets|Card Set]] unlocked with [[Sal]].
+
+It contains the Negotiation cards [[Planning]], [[Solid Point]] and [[Subtley]]. Planning and Subtley both draw cards, while Solid Point has an effect when drawn.
+
+It also contains the Battle cards [[Breather]], [[Blade Fury]] and [[Echo Strike]]. These cards are based on [[Combo]], Breather and Blade Fury use it up, while Echo Strike gains Combo.
+[[Category:Card sets]]

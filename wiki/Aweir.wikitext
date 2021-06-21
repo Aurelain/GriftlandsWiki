@@ -1,0 +1,18 @@
+
+
+{{Infobox
+| name     = Aweir
+| image    = Aweir.jpg
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Admiralty - Guard
+| ID       =
+}}{{quote|Folks often look to Aweir as a natural leader, even if the hierarchy doesn't necessarily agree.|Aweir's Compendium Description}}'''Aweir''' is a character in {{Gamename}} and an [[Admiralty]] Guard.
+
+== Death Loot ==
+If '''Aweir''' is killed in combat, she will drop an [[Admiralty Requisition]].
+[[File:Admiralty Requistion.png|none|thumb]]
+<br />
+[[Category:Characters]]

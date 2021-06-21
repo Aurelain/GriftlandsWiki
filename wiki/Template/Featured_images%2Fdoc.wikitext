@@ -1,0 +1,10 @@
+{{doc/start}}
+{{featured images}}
+
+== Using this template ==
+This template uses the [[gphelp:Extension:SlideBoxLightShow|SlideBoxLightShow]] extension to display a slideshow featuring some image (9 in this case, though the number can be much greater). The slideshow itself will be centered with respect to the section in which it is placed on the page. All the images included in the slideshow are centered with respect to each other and are scaled to a maximum width of 250px and/or a maximum height of 150px, whichever is smaller.
+
+This template could also include a mobile view alternative which used smaller, more mobile friendly dimensions.
+
+Follow the extension link for further information.
+{{doc/end}}

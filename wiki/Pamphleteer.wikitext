@@ -1,0 +1,20 @@
+{{stub}}
+
+'''Pamphleteer''' is a [[Rise]] Title. They provide manifestos and pamphlets to non-Rise, in the hopes of rallying others to the cause.
+
+=Members=
+
+=Combat=
+In combat, Pamphleteers serve more of a Support role, buffing their allies' morale and applying the Defect condition to double an attack's damage.
+===Moves===
+
+*Can Opener: Deals low damage and applies '''Defect''', which doubles the damage of the next attack against the target.
+*Swing: Deals high damage.
+*Incite: Buffs self with 3 Power.
+*Defend: A generic defensive move. Applies some Defense to themself.
+=Negotiation=
+
+== Other Info ==
+Their Bane is [[Slander]], it has the following effect: ''"When you murder a member of the Rise, lose 2 max resolve."''
+
+When you kill a Pamphleteer, you receive the card [[Rise Manifesto]].

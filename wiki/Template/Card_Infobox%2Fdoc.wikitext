@@ -1,0 +1,64 @@
+{{doc/start}}
+Use this infobox for all card pages. 
+
+== Usage ==
+<pre style="overflow: auto;">
+{{Card Infobox
+| name = 
+| image = 
+| set = 
+| decktype = 
+| cardtype = 
+| keywords =
+| upgradeable = 
+| expreq = 
+| upgrade1 = 
+| upgrade2 =
+| upgrade3 = 
+| upgrade4 =
+| upgrade5 = 
+| upgrade6 =
+| upgrade7 = 
+| upgrade8 =
+}}
+</pre>
+
+==Example==
+{{Card Infobox
+| name = Stab
+| image = Stab.png
+| set = Base
+| decktype = Battle
+| cardtype = Attack
+| keywords = None
+| upgradeable = Yes
+| expreq = 6
+| upgrade1 = 'of Clarity': 10 damage, '''Destroy'''
+| upgrade2 = 'of the Stone': Gain 2 Defense
+| upgrade3 = 'of Savagery': Apply 2 Bleed
+| upgrade4 = 'of the Deep': Apply 1 Wound
+| upgrade5 = 'of Vision': Draw a card
+| upgrade6 = 'of the Mirror': Attack twice
+| upgrade7 = 'of the Nail': Piercing
+| upgrade8 = 'Rooted': +2 minimum damage
+}}
+<pre style="overflow: auto;">
+{{Card Infobox
+| name = Stab
+| image = Stab.png
+| set = Base
+| decktype = Battle
+| cardtype = Attack
+| keywords = None
+| upgradeable = Yes
+| expreq = 6
+| upgrade1 = 'of Clarity': 10 damage, '''Destroy'''
+| upgrade2 = 'of the Stone': Gain 2 Defense
+| upgrade3 = 'of Savagery': Apply 2 Bleed
+| upgrade4 = 'of the Deep': Apply 1 Wound
+| upgrade5 = 'of Vision': Draw a card
+| upgrade6 = 'of the Mirror': Attack twice
+| upgrade7 = 'of the Nail': Piercing
+| upgrade8 = 'Rooted': +2 minimum damage
+}}
+</pre>{{clear}}{{doc/end}}

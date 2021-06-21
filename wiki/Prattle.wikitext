@@ -1,0 +1,31 @@
+{{Stub}}
+{{Card
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]], [[Prepare]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Focused Prattle
+|upgrade2 = Wide Prattle}}
+'''Prattle''' is a 1-cost  Uncommon '''Manipulation''' card for [[Rook]]. It had the effect "Apply 3 composure. If '''Prepared''': Apply 1 '''composure''' to all friendly arguments."
+
+==Upgrades==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Focused Prattle
+|1
+|NA
+|Apply 5 Composure. Prepared: Apply 1 Composure to all friendly arguments
+|-
+|Wide Prattle
+|1
+|NA
+|Apply 2 composure. Prepared: Apply 2 composure to all friendly arguments
+|}

@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Heal</center>
+  |body=<center>Restores health up to max.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

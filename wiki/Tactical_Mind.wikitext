@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Uncommon
+|cardtype = Manipulate
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Pale Mind
+|upgrade2 = Boosted Mind}}
+{{Quote|Smith squinted and thought long and hard. His diner order was finally falling into place.}}
+
+'''Tactical Mind''' is a 1-cost Uncommon '''Manipulate''' card for [[Sal]]. It will create the argument '''Tactical Mind'''. '''Tactical Mind''' will draw 1 extra card at the start of each turn. '''Tactical Mind''' is an argument with 5 resolve.
+
+==Upgrades==
+After accruing 9 experience '''Tactical Mind''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Pale Mind.png|150px]]
+|[[File:Boosted Mind.png|150px]]
+|-
+!Cost 1 action less
+!Draw 2 extra cards
+|-
+|}

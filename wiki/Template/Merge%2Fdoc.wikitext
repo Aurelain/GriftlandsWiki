@@ -1,0 +1,10 @@
+{{doc/start}}
+This template is used to suggest that a page should be merged with a different article.
+
+This template will add tagged pages to [[:Category:Pages to be merged]].
+
+==Usage==
+{{Tlx|Merge|Destination page|Reason}}
+
+Replace "destination page" above with the suggested article to merge with, and replace "reason" with a short description of the reason for doing so. The reason is technically optional, but omitting it is discouraged.
+{{doc/end}}

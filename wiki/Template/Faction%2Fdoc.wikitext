@@ -1,0 +1,17 @@
+{{Doc/start}}
+This template creates the faction icons from [[Griftlands]]. Use them where you need to display a faction.
+
+==Use==
+*<nowiki>{{Faction|Admiralty}}</nowiki> — {{Faction|Admiralty}}
+*<nowiki>{{Faction|Bilebrokers}}</nowiki> — {{Faction|Bilebrokers}}
+*<nowiki>{{Faction|Boggers}}</nowiki> — {{Faction|Boggers}}
+*<nowiki>{{Faction|Civilian}}</nowiki> — {{Faction|Civilian}}
+*<nowiki>{{Faction|Cult of Hesh}}</nowiki> — {{Faction|Cult of Hesh}}
+*<nowiki>{{Faction|Grifter}}</nowiki> — {{Faction|Grifter}}
+*<nowiki>{{Faction|Jakes}}</nowiki> — {{Faction|Jakes}}
+*<nowiki>{{Faction|Rentorians}}</nowiki> — {{Faction|Rentorians}}
+*<nowiki>{{Faction|Rise}}</nowiki> — {{Faction|Rise}}
+*<nowiki>{{Faction|Spark Barons}}</nowiki> — {{Faction|Spark Barons}}
+*<nowiki>{{Faction|Spree}}</nowiki> — {{Faction|Spree}}
+
+{{Doc/end}}

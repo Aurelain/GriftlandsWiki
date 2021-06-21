@@ -1,0 +1,25 @@
+
+
+{{Infobox
+| name     = Ellomen
+| image    = Ellomen portrait.png
+| race     = Kra'deshi
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Civilian - Wealthy Merchant
+| ID       =
+}}{{quote|Ellomen's head for business is famous throughout Murder Bay. But so is her lack of nerve.|Ellomen's Compendium Description}}'''Ellomen''' is a character in {{Gamename}} and a [[Civilian]] Wealthy Merchant.
+
+== Death Loot ==
+If '''Ellomen''' is killed in combat, she will drop a [[Spark Grenade]].
+[[File:Spark Grenade.png|none|thumb]]
+
+== Boon/Bane ==
+If '''Ellomen''' loves you, you will receive:
+
+=== Haggle Badge ===
+You can negotiate for greater quest rewards.
+[[File:Graft haggle badge.png|none|thumb]]
+<br />
+[[Category:Characters]]

@@ -1,0 +1,19 @@
+
+
+== Hand over all of your money ==
+
+Lose all shills.
+
+== Offer the {Civilian Downtrodden Merchant} a job ==
+
+# Hire {him/her} for 50 shills: Add them to your party.
+# Refuse the offer
+
+== Scare {him/her} away ==
+
+Begin a negotiation fight. The {Civilian Downtrodden Merchant} will have +10 resolve.
+
+== Defend yourself! ==
+
+Begin a combat.
+[[Category:Characters]]

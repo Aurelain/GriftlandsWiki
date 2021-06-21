@@ -1,0 +1,23 @@
+{{Card
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Ghost Strike
+|upgrade2 = Visionary Ghost Strike}}
+{{Quote|Kra'deshi pugilists tend to feint a lot of their strikes, waiting for the perfect opening.}}
+
+'''Ghost Strike''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 1-2 base damage. It has the effect "Draw a card. Discard this card: Your attacks deal max damage this turn."
+
+==Upgrades==
+After accruing 7 experience '''Ghost Strike''' is able to be upgraded.
+{| class="wikitable" style="text-align:center; width:305px;"
+|-
+|[[File:Boosted Ghost Strike.png|150px]]
+|[[File:Visionary Ghost Strike.png|150px]]
+|-
+!3-4 damage
+!Draw '''two''' cards.
+|}

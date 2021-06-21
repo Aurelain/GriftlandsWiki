@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Heal]], [[Expend]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Pale Churn
+|upgrade2 = Enduring Churn}}
+{{Quote|I picture it in my mind like a wave, and when it crashes it all just comes together.}}
+'''Churn''' is a 2-cost Rare '''Maneuver''' card for [[Sal]]. It says "Draw cards until you draw a Maneuver card and [[Heal]] 1 for each card drawn. The card costs 1 less until played. [[Expend]]. "
+
+==Upgrades==
+At 5 experience '''Churn''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Pale Churn.png|150px]]
+|[[File:Enduring Churn.png|150px]]
+|-
+!Costs 0.
+!No longer [[Expend]]s.
+|}

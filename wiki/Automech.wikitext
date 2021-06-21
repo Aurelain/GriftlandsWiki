@@ -1,0 +1,17 @@
+{{stub}}
+
+'''Automechs''' are Vagrant-Age humanoid robots pieced together and sold by [[Spark Barons]]. Originally discovered by [[Kashio]] in the [[Grout Bog]], they are extremely valuable due to their loyalty and dependability and can be programmed to follow orders as the owner sees fit.
+
+== Automech Enforcer ==
+
+Enforcers are the standard model Automech produced by the Spark Barons. They employ an arm mounted blaster that deals light damage in 4 shot bursts.
+
+== Cobblebot ==
+
+Pieced together from broken or stolen Enforcer parts, Cobblebots are guards programmed by Rise members deployed to fight against Spark Barons and creatures found in the Bog. They are essentially damaged Enforcers with lower max health and Rise decals/paint.
+
+== Bossbit ==
+
+See: [[Bossbit]]
+
+[[Category:Enemies]]

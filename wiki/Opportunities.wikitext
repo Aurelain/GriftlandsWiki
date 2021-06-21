@@ -1,0 +1,117 @@
+{{Tocright}}
+Opportunities are special events that occur on the map. Two opportunities will occur at once. The opportunities will disappear immediately after choosing a location, so it not possible to complete both.
+
+=Common Opportunities=
+These opportunities can occur in any campaign.
+
+==Search the Battlefield==
+A recent fight took place here, perhaps there's still some treasure to be found lying about.
+
+''You come across the signs of a recent battle. If there were any winners, they weren't the type to loot the battlefield.''
+
+''The bodies are still fresh. Best to grab something and run, before any beasts are drawn to the bloodshed.''
+
+* Grab [[Combat Gauze]], [[Salve]], [[Healing Vapors]], [[Tincture]], or [[Vial of Slurry]]. (You can do this quickly)
+** ''You pick up [item] and make tracks before you become a part of the buffet.'' '''Gain the item.'''
+* Search the crates for [[Combat Drone]], [[Vroc Whistle]], or [[Lumin Grenade]]. (This will take some time)
+** '''60%: '''''You struggle with the crate, but you're soon joined by the first of the scavengers.'' '''Gain the item. Battle easy [[monsters]] (self-defence).'''
+** '''40%: '''''You struggle with the crate, and the lid eventually pops off. Sure enough, you find what you're looking for, and make tracks while you still can.'' '''Gain the item.'''
+* Pull [[graft]] out of the mud. (This will make you vulnerable)
+** ''You wrestle with the loot lodged in the mud even as a mournful howl cuts through the air. It isn't long before you're joined by the pack.'' '''Install the graft. Battle difficult [[monsters]] (self-defence).'''
+* Leave empty handed
+** ''Rather than take any risks, you leave the battlefield behind.''
+After winning a fight: ''The bodies are growing ripe, and more scavengers are sure to be on their way. Best to cut while you're ahead.''
+
+==Meet up with friend==
+This opportunity has several sub-types, and always involves someone who likes or loves you.
+
+===Gift===
+Your friend has a gift for you.
+
+'''You have the opportunity to gain an item.'''
+
+===Socialize with friend===
+(Friend) is feeling friendly. Spending some time with them will restore (up to 10) Resolve, and make them like you more.
+
+'''The friend will always like you (not love you). When entering this location, you can chat with the friend to gain up to 10 resolve. They will then love you ("Socialized with them").'''
+
+===Get healed by friend===
+You're injured. (Friend) can heal you for (up to 20) HP
+
+'''You are healed for up to 20 HP. This opportunity only occurs if you are injured.'''
+
+===Assassination Ploy===
+(Friend) owes you, and is willing to make one of your enemies disappear.
+
+'''When entering this location, you can chat with the friend and ask them to assassinate a character who hates you without consequences. This will remove their social bane.'''
+
+===Friend wants to join you===
+(Friend) is looking for something to do today, if you need helpful company.
+
+'''When entering this location, you can chat with the friend and get them to join your party for free.'''
+
+===Debate with friend===
+Practice debate with (friend) to upgrade one of your negotiation cards. This will cost some resolve.
+
+'''You are given the option to upgrade one of a random selection of unupgraded negotiation cards at the cost of a small amount of resolve. This opportunity only occurs if there are cards available to upgrade (excluding cards with Hatch).'''
+
+===Spar with friend===
+Spar with (friend) to upgrade one of your battle cards. This will cost some health
+
+'''You are given the option to upgrade one of a random selection of unupgraded battle cards at the cost of a small amount of health. This opportunity only occurs if there are cards available to upgrade (excluding cards with Hatch).'''
+
+===Friend's Special Noodles===
+(Friend) is cooking up their special fortifying noodles. They increase your max health.
+
+'''You are given the option to eat your friends special noodles and gain 5 max health.'''
+
+==Friend in Trouble==
+Your friend (friend) is in trouble. You have a chance to save them before it's too late!
+
+'''The friend will be someone who likes or loves you. The attacker will be someone who does not like or love you.'''
+
+''You find (friend) under (attacker)'s heel, looking one blow away from the worst day of their life.''
+* Save (friend)
+** ''You make enough of a racket to draw (attacker)'s attention, and (friend) looks up at you with wide eyes.''
+*** Convince (attacker) to leave. '''Negotiate with the attacker. The friend will be on your side.'''
+**** '''Success: The attacker leaves. The friend will love you ("Saved their life").'''
+**** '''Failure: Battle the attacker (self defense). Upon victory, the friend will love you ("Saved their life").''' 
+*** Attack (attacker)
+**** '''Battle the attacker (self defense). Upon victory, the friend will love you ("Saved their life").''' 
+* Wait and see how it plays out
+** ''You stay hidden, and sure enough, that last blow falls—and (friend) falls lifeless to the ground. You slink away, telling yourself there was nothing you could've done.'' '''The friend dies.'''
+
+==Highway Robbery==
+Your friend (friend) has found a juicy target to rob.
+
+'''The friend will be a Spree who likes or loves you. The friend will ask if you'd like to rob a target.'''
+
+* Agree to the plan
+** ''The target doesn't look too rich, though—despite what (friend) said, (target)'s nothing more than bedraggled. All the same, you step onto the path once you have (target) where you want them.''
+***Convince (target) to give up their money
+**** '''Success: Divvy up the loot.'''
+**** '''Failure: The other two options remain.'''
+*** Attack (target)
+**** '''The target will hate you ("Robbed them"). Battle the target with your friend. Divvy up the loot.'''
+*** Let (target) pass
+**** '''If you did not attempt to convince: Your friend will have a diminshed opinion of you ("Passed up a robbery opportunity").'''
+**** '''If you attempted to convince: Nothing happens.'''
+* Back Out
+** '''Your friend will have a diminshed opinion of you ("Passed up a robbery opportunity").'''
+
+'''Divvy up the loot:'''
+* '''Friend is dead 
+** Take the loot.
+*** '''Take twice your share of the shills.'''
+* '''Friend is alive'''
+** Take a small share
+*** '''Take 25% of your share of the shills. The friend will love you ("Gave them a bigger cut of the loot").
+** Take your fair share
+*** '''Take your share of the shills.'''
+** Demand all of the loot
+*** '''Take twice your share of the shills. The friend will hate you ("Stole their share of the loot").'''
+
+=Sal Opportunities=
+=Rook Opportunities=
+
+[[Category:Griftlands]]

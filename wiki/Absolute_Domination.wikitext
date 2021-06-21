@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Ability]], [[Combo]], [[Expend]]
+|upgradeable = Yes
+|expreq = 3
+|upgrade1 = Initial Domination
+|upgrade2 = Pale Domination}}
+{{Quote|This is brutal to watch.}}
+'''Absolute Domination''' is a 3-cost Rare '''Maneuver''' card for [[Sal]]. It has the effect "[[Ability]]: While you have at least 8 [[Combo]], play your first attack each turn twice. [[Expend]]."
+
+==Upgrades==
+After accruing 3 experience '''Absolute Domination''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Initial Domination.png|150px]]
+|[[File:Pale Domination.png|150px]]
+|-
+![[Ambush]]
+!Costs 2.
+|}

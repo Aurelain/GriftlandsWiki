@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Defense]], [[Bleed]], [[Expend]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Pale Blood Guard
+|upgrade2 = Enduring Blood Guard}}
+{{Quote|The violence she brought on made it difficult for anyone to approach her.}}
+'''Blood Guard''' is a 1-cost Rare '''Maneuver''' card for [[Sal]]. It has the effect "For the rest of your turn, gain [[Defense]] equal to the amount of [[Bleed]] you apply. [[Expend]]"
+
+==Upgrades==
+After accruing 7 experience '''Blood Guard''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Pale Blood Guard.png|150px]]
+|[[File:Enduring Blood Guard.png|150px]]
+|-
+!Costs 0.
+!No longer [[Expend]]s.
+|}

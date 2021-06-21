@@ -1,0 +1,26 @@
+{{stub}}
+
+{{quote|The food's terrible, but 'no one eats it for the taste, that's for sure.'|Fssh}}
+
+The '''Grog n' Dog''' is a bar in [[Murder Bay]], [[Havaria]]. [[Fssh]], an old friend of [[Sal|Sal's]], is the current proprietor and Bartender. Fssh lets Sal stay at the bar while Sal prepares her move on [[Kashio]] and provides her with work, food, and drinks in the meantime. The Grog is apparently running a side angle, as no one comes for the food.
+
+== Services ==
+The Grog serves as Sal's temporary base of operations during her tenure at Murder Bay. As such, Sal can sleep, manage pet(s), and change her outfit here.
+
+As the Bartender, Fssh sells restorative drinks and food, which already comes at a 25% Discount. On the menu are:
+
+* 22 [[Shills|Shill]] Drinks, which restore 10 [[Resolve]] and insert Tipsy and Slurred Speech into your Battle and Negotiation Decks, respectively.
+* 22 Shill Meals, which restore 15 [[Health]] and insert Bloated into your Battle Deck. These cannot be bought if Sal has 3+ Bloated.
+* Three Item Cards based around Food and Drugs, which can be bought one at a time.
+
+Sal can also befriend Patrons (but not the bouncer or Night Merchants) to make them [[Relationships|Like]] Sal by buying them a drink for 45 Shills. This also has the same effects as buying a normal drink, so you can kill two [[Vroc|Vrocs]] with one grenade.
+
+== Patrons ==
+
+The bouncer, a [[Jakes|Smuggler]], is always present.  
+
+Before leaving on Day 1, there are no other guests. Otherwise, there are 2 guests in the day, and 4 guests at night. Unlike other enterprises, guests from all factions involved in Sal's Story can appear here. This includes the [[Admiralty]], [[Spree]], Jakes, [[Cult of Hesh]], [[Bilebrokers]], and [[Civilian|Civilians]]. A unique event involving a [[Rise]] [[Rebel]] can also potentially be encountered here.
+
+In the evening of Day 1, two of the Night Merchants [[Endo]], [[Phroluk 'Of the Beasts']], [[Plocka 'The Swab']], and [[Rake]] offer a quest. If Sal accepts the request of one merchant, the other will dislike her.
+
+[[Category:Locations]]

@@ -1,0 +1,20 @@
+
+
+{{Infobox
+| name     = Cadwa
+| image    = Cadwa portrait.png
+| race     = Kra'deshi
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Admiralty - Clerk
+| ID       =
+}}{{quote|The name 'Cadwa' comes from an old folk story about outsmarting a cruel foreman, but as a bureaucrat this Cadwa definitely has the upper hand.|Cadwa's Compendium Description}}
+
+'''Cadwa''' is a character in {{Gamename}} and a [[Admiralty]] Clerk.
+
+== Death Loot ==
+If '''Cadwa''' is killed in combat, she will drop a [[Letter Opener]].
+[[File:Letter Opener.png|none|thumb]]
+<br />
+[[Category:Characters]]

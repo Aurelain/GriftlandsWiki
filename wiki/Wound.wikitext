@@ -1,0 +1,8 @@
+'''Wound''' is a game [[Key Words|key word]].
+
+Increases damage taken by 1 per stack. Bonus is accumulative.
+
+==Effect==
+In game description: ''"Attacks inflict 1 bonus damage on this target. At the beginning of their turn, reduce '''Wound''' by 1."''
+
+[[Category:Keywords]]

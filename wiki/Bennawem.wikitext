@@ -1,0 +1,19 @@
+{{Infobox
+| name     = Bennawem
+| image    = Bennawem.jpg
+| race     = Kra'deshi
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Civilian - Wealthy Merchant
+| ID       =
+}}{{quote|He speaks with a Deltrean accent, implying he was born on the mainland.|Bennawem's Compendium Description}}'''Bennawem''' is a character in {{Gamename}} and an [[Civilian]] Wealthy Merchant.
+
+== Death Loot ==
+If '''Bennawem''' is killed in combat, he will drop a [[Spark Grenade]].
+[[File:Spark Grenade.png|none|thumb]]
+
+
+
+
+[[Category:Characters]]

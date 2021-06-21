@@ -1,0 +1,10 @@
+{{stub}}
+
+{{Infobox
+| name     = Hanbi
+| image    = hanbi.png
+| race     = Human(?)
+| location = Murder Bay
+}}
+
+'''Hanbi''' is a [[Jakes]] Assassin. He is usually encountered in [[Sal]]'s story, where he attempts to assassinate the hunter in her room.

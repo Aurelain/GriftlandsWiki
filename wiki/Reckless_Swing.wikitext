@@ -1,0 +1,22 @@
+{{Card
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Swing
+|upgrade2 = Focused Swing}}
+{{Quote|Jarackle Free-Fighting is a martial art with such a loose structure that it appears that no-one knows what they are doing.}}
+'''Reckless Swing''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 5 base damage. It has the effect "Discard a card."
+
+==Upgrades==
+After accruing 7 experience '''Reckless Swing''' is able to be upgraded.
+{| class="wikitable" style="text-align:center; width:305px;"
+|-
+|[[File:Boosted Swing.png|150px]]
+|[[File:Focused Swing.png|150px]]
+|-
+!8 damage
+!Draw a card.
+|}

@@ -1,0 +1,829 @@
+/* fonts */
+/* fonts */
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: local('OpenSans-Bold'), local('OpenSans-Bold'), url(/media/hydra/fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-BoldItalic';
+	src: local('OpenSans-BoldItalic'), local('OpenSans-BoldItalic'), url(/media/hydra/fonts/OpenSans-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-ExtraBold';
+	src: local('OpenSans-ExtraBold'), local('OpenSans-ExtraBold'), url(/media/hydra/fonts/OpenSans-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-ExtraBoldItalic';
+	src: local('OpenSans-ExtraBoldItalic'), local('OpenSans-ExtraBoldItalic'), url(/media/hydra/fonts/OpenSans-ExtraBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-Italic';
+	src: local('OpenSans-Italic'), local('OpenSans-Italic'), url(/media/hydra/fonts/OpenSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: local('OpenSans-Light'), local('OpenSans-Light'), url(/media/hydra/fonts/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-LightItalic';
+	src: local('OpenSans-LightItalic'), local('OpenSans-LightItalic'), url(/media/hydra/fonts/OpenSans-LightItalic.ttf) format('truetype');
+}
+
+
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: local('OpenSans-Regular'), local('OpenSans-Regular'), url(/media/hydra/fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-Semibold';
+	src: local('OpenSans-Semibold'), local('OpenSans-Semibold'), url(/media/hydra/fonts/OpenSans-Semibold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-SemiboldItalic';
+	src: local('OpenSans-SemiboldItalic'), local('OpenSans-SemiboldItalic'), url(/media/hydra/fonts/OpenSans-SemiboldItalic.ttf) format('truetype');
+}
+
+p {
+  font-family: "OpenSans-Regular";
+}
+
+/********** 
+Note that this loads before skin CSS, so selectors need to be more specific than the skin to override it.
+
+There will still be a "white flash" as the default (light) mobile css initially loads. To avoid this, you should first enable the Gadgets extension, then add https://help.gamepedia.com/Special:Gadgets/export/darkmobile to your wiki and rename this css file to MediaWiki:Gadget-darkmobile.css 
+**********/
+/*** mobile-specific style classes ***/
+.skin-minerva .nomobile {
+    display: none;
+}
+
+.skin-minerva .mobileleft {
+    text-align: left;
+}
+
+.skin-minerva .mobilecenter {
+    text-align: center;
+}
+
+.skin-minerva .mobileright {
+    text-align: right;
+}
+
+/********** 
+interface
+**********/
+/*** text colors ***/
+.skin-minerva #mw-mf-diffview #mw-mf-userinfo,
+.skin-minerva #mw-mf-diffview #mw-mf-userinfo .mw-mf-edit-count,
+.skin-minerva #mw-mf-diffview #mw-mf-userinfo .mw-mf-edit-count div,
+.skin-minerva #mw-mf-page-center,
+.skin-minerva .globalNotice,
+.skin-minerva .header-container.header-chrome,
+.skin-minerva .last-modified-bar a,
+.skin-minerva .last-modified-bar a:visited,
+.skin-minerva .last-modified-bar.active a,
+.skin-minerva .last-modified-bar.active a:visited,
+.skin-minerva .list-header,
+.skin-minerva .minerva-footer,
+.skin-minerva .mw-echo-ui-notificationItemWidget-content-actions-timestamp,
+.skin-minerva .mw-echo-ui-notificationItemWidget-content-message-header,
+.skin-minerva .mw-mf-user,
+.skin-minerva .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button,
+.skin-minerva .overlay-footer-container,
+.skin-minerva .overlay-header-container,
+.skin-minerva .page-list .component,
+.skin-minerva .page-list .info,
+.skin-minerva .page-list li > a,
+.skin-minerva .page-list.side-list .list-thumb,
+.skin-minerva .page-summary h2,
+.skin-minerva .page-summary h3,
+.skin-minerva .search-overlay,
+.skin-minerva .search-overlay .results,
+.skin-minerva .search-overlay .search-content,
+.skin-minerva .search-overlay .search-feedback,
+.skin-minerva .site-link-list .component,
+.skin-minerva .site-link-list .info,
+.skin-minerva .site-link-list li,
+.skin-minerva .site-link-list li > a,
+.skin-minerva .site-link-list.side-list .list-thumb,
+.skin-minerva .topic-title-list .component,
+.skin-minerva .topic-title-list .info,
+.skin-minerva .topic-title-list li > a,
+.skin-minerva .topic-title-list.side-list .list-thumb,
+.skin-minerva footer .last-modified-bar,
+.skin-minerva footer .last-modified-bar.active,
+.skin-minerva nav ul li a,
+.skin-minerva.navigation-enabled #mw-mf-page-center,
+.skin-minerva.primary-navigation-enabled,
+.skin-minerva.secondary-navigation-enabled,
+body.skin-minerva {
+    color: #eee;
+}
+
+.action-edit #editpage-copywarn,
+.action-edit #mw-anon-edit-warning,
+.action-edit #section_0,
+.action-edit .diff-ntitle,
+.action-edit .diff-otitle,
+.action-edit .mw-editTools,
+.action-edit .mw-editnotice,
+.action-edit .preview-limit-report-wrapper,
+.action-submit #editpage-copywarn,
+.action-submit #mw-anon-edit-warning,
+.action-submit #section_0,
+.action-submit .diff-ntitle,
+.action-submit .diff-otitle,
+.action-submit .mw-editTools,
+.action-submit .mw-editnotice,
+.action-submit .preview-limit-report-wrapper,
+.skin-minerva .heading-holder .tagline,
+.skin-minerva .mw-echo-ui-notificationItemWidget-content-message-body,
+.skin-minerva .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover,
+.skin-minerva nav ul li a:visited {
+    color: #ccc;
+}
+
+.skin-minerva .mw-ui-anchor.mw-ui-progressive,
+.skin-minerva .mw-ui-anchor.mw-ui-progressive:active,
+.skin-minerva .mw-ui-anchor.mw-ui-progressive:focus,
+.skin-minerva nav ul.hlist li a,
+.skin-minerva a,
+.skin-minerva a.external,
+.skin-minerva a.extiw,
+.skin-minerva a:visited {
+    color: #57FFFB;
+    font-family: "OpenSans-Regular";
+}
+
+.skin-minerva a.new {
+    color: #ea331d;
+}
+
+/*** interface colors ***/
+.client-js .skin-minerva .toc-mobile,
+.skin-minerva #mw-mf-diffview #mw-mf-userinfo,
+.skin-minerva .globalNotice,
+.skin-minerva .header-container.header-chrome,
+.skin-minerva .list-header,
+.skin-minerva .mw-echo-ui-bundleNotificationItemWidget-group,
+.skin-minerva .mw-echo-ui-crossWikiNotificationItemWidget-group,
+.skin-minerva .notifications-overlay .overlay-content,
+.skin-minerva .overlay-header-container,
+.skin-minerva .search-overlay .results,
+.skin-minerva .search-overlay .search-content,
+.skin-minerva .search-overlay .search-feedback {
+    background-color: #303030;
+}
+
+.skin-minerva .minerva-footer,
+.skin-minerva .overlay-footer-container,
+.skin-minerva nav {
+    background-color: #2c2c2c;
+}
+
+.client-js .skin-minerva .toc-mobile,
+.skin-minerva #mw-mf-diffview #mw-mf-userinfo,
+.skin-minerva .header,
+.skin-minerva .header-container,
+.skin-minerva .minerva-footer,
+.skin-minerva .mw-echo-ui-bundleNotificationItemWidget-separator,
+.skin-minerva .mw-echo-ui-crossWikiNotificationItemWidget-separator,
+.skin-minerva .mw-echo-ui-notificationItemWidget,
+.skin-minerva .mw-echo-ui-notificationItemWidget:last-child,
+.skin-minerva .overlay-footer-container,
+.skin-minerva .page-list li,
+.skin-minerva .search-overlay .search-content,
+.skin-minerva .site-link-list li,
+.skin-minerva .topic-title-list li,
+.skin-minerva footer .last-modified-bar,
+.skin-minerva footer > .post-content > h2,
+.skin-minerva nav .secondary-action,
+.skin-minerva nav ul li,
+.skin-minerva.ns-special .content-header {
+    border-color: #777;
+}
+
+.skin-minerva #mw-mf-page-center,
+.skin-minerva .search-overlay,
+.skin-minerva.navigation-enabled #mw-mf-page-center,
+.skin-minerva.primary-navigation-enabled,
+.skin-minerva.search-overlay,
+.skin-minerva.secondary-navigation-enabled,
+body.skin-minerva {
+    background: url("https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/3/3a/Bg.png/revision/latest");
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #CD93AF;
+    background-size: cover;
+}
+
+.skin-minerva .lazy-image-placeholder {
+    background-color: #090909;
+}
+
+.skin-minerva #content,
+.skin-minerva .mw-echo-ui-notificationsInboxWidget-toolbarWrapper,
+.skin-minerva.ns-special #content,
+.skin-minerva.ns-special #content form,
+.skin-minerva.ns-special .pre-content {
+       background: rgba(13, 122, 134, 0.7);
+}
+
+/*** basics ***/
+.center {
+    text-align: center;
+}
+
+.skin-minerva .content h1,
+.skin-minerva .content h2,
+.skin-minerva .pre-content h1,
+body.skin-minerva {
+    font-family: sans-serif;
+}
+
+/*** header and footer ***/
+.header {
+    border-width: 1px 0;
+    border-style: solid;
+}
+
+.header .branding-box {
+    padding-right: 1em;
+}
+
+.header-container.header-chrome {
+    box-shadow: 0 1px 1px rgba(100,100,100,0.2);
+}
+
+@supports (position:sticky) {
+    .header-container.header-chrome {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .overlay-enabled .header-container.header-chrome {
+        position: static;
+    }
+
+    .navigation-enabled .header-container.header-chrome {
+        z-index: 0;
+    }
+}
+
+.skin-minerva .globalNotice {
+    overflow: hidden;
+    padding: 0 0.5em 0.25em;
+}
+
+.skin-minerva .notification-count {
+    background: transparent;
+}
+
+/*** notifications ***/
+.skin-minerva .mw-echo-ui-bundleNotificationItemWidget-separator,
+.skin-minerva .mw-echo-ui-crossWikiNotificationItemWidget-separator,
+.skin-minerva .mw-echo-ui-notificationItemWidget,
+.skin-minerva .mw-echo-ui-notificationItemWidget:last-child {
+    background: rgba(0,0,0,0.1);
+}
+
+.skin-minerva .mw-echo-ui-notificationItemWidget-unread {
+    background: rgba(0,0,0,0.3);
+}
+
+.skin-minerva .mw-echo-ui-notificationItemWidget:hover {
+    background: rgba(0,0,0,0.2);
+}
+
+.skin-minerva .mw-echo-ui-notificationItemWidget-unread:hover {
+    background: rgba(0,0,0,0.4);
+}
+
+/*** search ***/
+.skin-minerva .page-list li .watch-this-article,
+.skin-minerva .site-link-list li .watch-this-article,
+.skin-minerva .topic-title-list li .watch-this-article {
+    top: 50%;
+    margin-top: -0.75em;
+}
+
+/*** navigation ***/
+.skin-minerva.navigation-enabled .transparent-shield {
+    background: rgba(50,50,50,0.9);
+}
+
+.skin-minerva nav ul li {
+    background: #090909;
+    width: 100%;
+}
+
+.skin-minerva nav ul li a:hover {
+    box-shadow: inset 4px 0 0 0 #24a3d5;
+}
+
+/*** last-modified bar ***/
+.skin-minerva footer .last-modified-bar {
+    background-color: #666;
+}
+
+/* recently changed page last-modified bar*/
+.skin-minerva footer .last-modified-bar.active {
+    background: #00af89;
+}
+
+/*** page history and diffs ***/
+.skin-minerva .minoredit {
+    color: #777;
+}
+
+.skin-minerva #mw-mf-diffview #mw-mf-userinfo {
+    z-index: 100;
+    box-shadow: 0 -1px 3px rgba(0,0,0,0.6);
+    opacity: 0.95;
+}
+
+/*** editor ***/
+.skin-minerva .editor-overlay-ve {
+    color: #000;
+}
+
+.skin-minerva .editor-overlay .wikitext-editor {
+    background: rgba(0,0,0,0.1);
+}
+
+/********** 
+content
+**********/
+/*** mobile front page collapse ***/
+.skin-minerva .fpbox.mobilecollapsible .heading a.togglecollapse {
+    display: block;
+    padding: 0 0 0 15px;
+}
+
+.skin-minerva .fpbox.mobilecollapsible .heading a.togglecollapse:active,
+.skin-minerva .fpbox.mobilecollapsible .heading a.togglecollapse:hover {
+    text-decoration: none;
+}
+
+.skin-minerva .fpbox.mobilecollapsible.collapsed .heading {
+    border: none;
+    margin-bottom: -4px;
+}
+
+.skin-minerva .fpbox.mobilecollapsible .heading a {
+    position: relative;
+}
+
+.skin-minerva .fpbox.mobilecollapsible .heading a:before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url("/skins/Vector/images/arrow-down.png");
+    background-image: linear-gradient(transparent,transparent),url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22 viewBox=%220 0 12 12%22%3E %3Cpath d=%22M11.05 3.996l-.965-1.053-4.035 3.86-3.947-3.86L1.05 3.996l5 5 5-5%22 fill=%22%23222%22/%3E %3C/svg%3E");
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -6px;
+}
+
+.skin-minerva .fpbox.mobilecollapsible.collapsed .heading a:before {
+    transform: rotate(-90deg);
+}
+
+.skin-minerva .fpbox.mobilecollapsible.collapsed .body {
+    display: none;
+}
+
+/*** navboxes ***/
+table.navbox {
+    border: 1px solid #aaaaaa;
+    clear: both;
+    font-size: 88%;
+    margin: auto;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    display: table !important;
+}
+
+/* Border between adjacent navboxes */
+table.navbox + table.navbox {
+    margin-top: -1px;
+}
+
+.navbox-abovebelow,
+.navbox-title,
+table.navbox th {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.navbox-group {
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    white-space: nowrap;
+}
+
+/* Base background */
+.navbox,
+.navbox-subgroup {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.navbox-list {
+    border-color: rgba(255, 255, 255, 0.2);
+    /* Must match background color */
+}
+
+/* Level 1 color */
+.navbox-title,
+table.navbox th {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Level 2 styling */
+.navbox-abovebelow,
+.navbox-group,
+.navbox-subgroup .navbox-title {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Level 3 styling */
+.navbox-subgroup .navbox-abovebelow,
+.navbox-subgroup .navbox-group {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Even row striping */
+.navbox-even {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Odd row striping */
+.navbox-odd {
+    background: transparent;
+}
+
+.collapseButton {
+    font-weight: normal;
+    width: auto;
+}
+
+.navbox .collapseButton {
+    width: 6em;
+}
+
+.navbar {
+    font-size: 88%;
+    font-weight: normal;
+}
+
+.navbox .navbar {
+    font-size: 100%;
+}
+
+table.collapsed tr.collapsible {
+    display: none;
+}
+
+/*** amboxes ***/
+.ambox {
+    background-color: rgba(100,100,100,0.5);
+    border-bottom-color: #383838;
+    border-right-color: #383838;
+    border-top-color: #383838;
+    border-collapse: collapse;
+    font-size: 95%;
+    margin: 0 auto 2px;
+    width: 80%;
+}
+
+.ambox-gray {
+    border-left-color: #383838;
+}
+
+.ambox.ambox-tiny {
+    font-size: 90%;
+    margin: 2px 0;
+    width: auto;
+}
+
+.ambox + .ambox {
+    margin-top: -2px;
+}
+
+.ambox-text {
+    padding: 0.25em 0.5em;
+}
+
+.ambox-image {
+    padding: 2px 0 2px 0.5em;
+    text-align: center;
+    width: 60px;
+}
+
+.ambox-tiny .ambox-image {
+    padding: 2px 0.5em;
+    text-align: left;
+    width: auto;
+}
+
+/* Ambox colors */
+.ambox-blue {
+    border-left: 10px solid #1e90ff;
+}
+
+.ambox-red {
+    border-left: 10px solid #b22222;
+}
+
+.ambox-orange {
+    border-left: 10px solid #f28500;
+}
+
+.ambox-yellow {
+    border-left: 10px solid #f4c430;
+}
+
+.ambox-purple {
+    border-left: 10px solid #9932cc;
+}
+
+.ambox-gray {
+    border-left: 10px solid #bba;
+}
+
+.ambox-green {
+    border-left: 10px solid #228b22;
+}
+
+/* Ambox small text */
+.amsmalltext {
+    font-size: smaller;
+    margin-left: 0.8em;
+    margin-top: 0.5em;
+}
+
+/* copyright images tweak */
+.copyright-icon {
+    background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/thumb/b/b6/Copyright.png/32px-Copyright.png");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cpath d='M100 200C44.772 200 0 155.228 0 100S44.772 0 100 0s100 44.772 100 100-44.772 100-100 100zm0-179.115c-43.694 0-79.115 35.421-79.115 79.115 0 43.694 35.421 79.115 79.115 79.115 43.694 0 79.115-35.421 79.115-79.115 0-43.694-35.421-79.115-79.115-79.115zm0 108.599c20.627 0 27.518-18.427 27.518-18.427h26.536s-7.847 43.734-54.054 43.734c-30.532 0-55.283-24.751-55.283-55.282 0-30.532 24.751-55.283 55.283-55.283 45.365 0 53.317 41.769 53.317 41.769h-26.781S118.966 69.533 100 69.533c-16.555 0-29.975 13.421-29.975 29.976s13.42 29.975 29.975 29.975z'/%3E%3C/svg%3E%0A");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 32px;
+    height: 32px;
+}
+
+/*** wikitables ***/
+.content table.wikitable {
+    display: table;
+}
+
+.content table.wikitable > * > tr > th,
+.content table.wikitable > tr > th {
+    background: rgba(0, 0, 0, 0.2);
+    border-color: rgba(100,100,100, 1);
+}
+
+.content table.wikitable,
+.content table.wikitable > * > tr > td,
+.content table.wikitable > tr > td {
+    border-color: rgba(100,100,100, 1);
+    background: rgba(100,100,100, 0.2);
+}
+
+/*** front page styles ***/
+.fpmain {
+    width: 100%;
+    overflow: hidden;
+}
+
+.fpbox {
+    margin: 5px;
+    padding: 5px;
+    overflow: auto;
+    background: rgba(255,255,255, 0.05);
+    border: 1px solid #505050;
+    box-shadow: 1px 1px 2px rgba(100,100,100, 0.5);
+}
+
+.fpbox.plain {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.fpbox .heading,
+.fpbox .mainheading,
+.fpbox .welcome {
+    margin: 0 0 10px;
+    padding: 0 0 5px;
+    overflow: auto;
+    border: 0;
+    border-bottom: 1px solid #505050;
+}
+
+.fpbox .mainheading,
+.fpbox .welcome {
+    font-size: 150%;
+    text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
+    border-bottom: 1px solid #57fffb;
+    color: #D0FCFE; /* change for hydra (light) wikis */
+    font-variant: small-caps;
+    font-family: "OpenSans-Bold";
+}
+
+.fpbox .heading {
+    text-align: center;
+    font-size: 132%;
+    text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
+    border-bottom: 1px solid #57fffb;
+    color: #D0FCFE; /* change for hydra (light) wikis */
+    font-variant: small-caps;
+    font-family: "OpenSans-Bold";
+}
+
+.linkslabel {
+    margin: 15px 5px 5px;
+    padding: 0 0 5px;
+    border-bottom: 2px solid #505050;
+}
+
+/* auto-resize front page video to fit smaller columns */
+.fpbox .embedvideo,
+.fpbox .embedvideowrap {
+    width: 100% !important;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.fpbox .embedvideowrap iframe {
+    width: 100% !important;
+}
+
+/*** Template:FP link styles ***/
+.fplinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    text-align: center;
+}
+
+.fplink-outer {
+    padding: 5px;
+    flex-basis: calc(25% - 10px);
+    width: calc(25% - 15px);
+    min-width: 115px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fplink-wide {
+    flex-basis: calc(33% - 10px);
+    width: calc(33% - 15px);
+}
+
+.fplink-fullwidth {
+    flex-basis: 100%;
+    width: calc(100% - 15px);
+    font-weight: bold;
+}
+
+.fplink {
+    padding: 0.5em;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: table;
+     background: #202020; 
+    background-image: -moz-linear-gradient(center top, #202020 0%, #505050 100%); 
+    background-image: -webkit-gradient(linear, center top, left bottom, color-stop(0%,#202020), color-stop(100%,#505050)); 
+    background-image: -webkit-linear-gradient(top, #202020 0%, #505050 100%); 
+    background-image: -o-linear-gradient(top, #202020 0%, #505050 100%); 
+    background-image: -ms-linear-gradient(top, #202020 0%, #505050 100%); 
+    background-image: linear-gradient(to bottom, #202020 0%, #505050 100%); 
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    color: #000000;
+}
+
+.fplink-fullwidth .fplink {
+    background: rgba(100,100,100,0.4);
+}
+
+.fplink-plain {
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+.fplink-inner {
+    display: table-row;
+}
+
+.fplink a {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fplink img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+/*** infoboxes ***/
+.infoboxtable {
+    max-width: 300px;
+    float: none;
+    padding: 0.25em;
+    display: table !important;
+    border-collapse: separate;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid;
+    border-top-color: #57FFFB;
+    border-bottom-color: #57FFFB;
+    border-left-color: rgba(0, 0, 0, 0.8);
+    border-right-color: rgba(0, 0, 0, 0.8);
+    border-radius:5px;
+    color: #57FFFB;
+}
+
+.infoboxname {
+    background-color: transparent; 
+    color: #ffe993;
+    padding: 5px;
+    background: #777;
+}
+
+.infoboxdetails {
+    color: #fff;
+    padding: 5px;
+    background-color: rgba(87, 255, 251,0.4); 
+}
+
+.infoboxtable div {
+    background-color: rgba(87, 255, 251,0.4); 
+    border: 2px solid inherit; 
+    border-radius: 5px; 
+    font-weight: bold;
+    text-align: right;
+    font-weight: bold;
+    padding: 1px 5px;
+}
+
+.infoboxover {
+	background-color: rgba(87,255,251,0.4);
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: #57FFFB;
+	border-right-color: transparent;
+	padding: 5px;
+	color: #57FFFB;
+	text-transform: uppercase;
+	border: 2px solid #57FFFB;
+	border-bottom: 0;
+	border-top: 0;
+	border-right: 0;
+}
+
+/*** invert icons for dark theme ***/
+.skin-minerva .copyright-icon,
+.fpbox.mobilecollapsible .heading a:before,
+.oo-ui-iconElement-icon {
+    filter:invert(1);
+}
+
+.mw-echo-ui-notificationItemWidget-icon,
+.mw-echo-ui-toggleReadCircleButtonWidget-circle,
+.mw-ui-icon:before {
+    filter:brightness(2);
+}
+
+#mw-mf-diffview .meta:before,
+.mw-echo-ui-notificationsInboxWidget-main-toolbar-top .oo-ui-iconElement-icon,
+.mw-mf-user:before,
+.search-overlay .clear:before {
+    filter:none;
+}

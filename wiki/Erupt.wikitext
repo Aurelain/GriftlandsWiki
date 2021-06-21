@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Common
+|cardtype = Hostility
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 10
+|upgrade1 = Boosted Erupt
+|upgrade2 = Pale Erupt}}
+{{Quote|Do you have any idea who I am!?}}
+
+'''Erupt''' is a '''Unplayable''' Common '''Hostility''' card for [[Sal]]. When '''Evoked''', it deals 2 base damage to a random enemy argument. To '''Evoke''', play 4 '''Hostility''' card in a single turn while this card is in your hand.
+
+==Upgrades==
+After accruing 10 experience '''Erupt''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Erupt.png|150px]]
+|[[File:Pale Erupt.png|150px]]
+|-
+!More damage
+!Cheaper [[Evoke]]
+|-
+|}

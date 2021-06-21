@@ -1,0 +1,20 @@
+{{stub}}
+{{Character
+|race = 
+|faction = 
+|title = }}
+'''Sparky''' is one of the boss that's fightable on [[Sal]] campaign on day 1, he have some learnable pattern and can charge his weapon for massive amount of damage.
+
+==Relationship==
+{{Boon/Bane
+|boonimage = system shock
+|boon = System Shock
+|boondesc = If you don't attack last turn, gain 2 Temporary Power.
+|baneimage = short circuit
+|bane = Short Circuit
+|banedesc = Whenever you gain [[Power]], take 2 damage.}}
+
+==Gallery==
+<gallery>
+File:Sparky.jpg
+</gallery>

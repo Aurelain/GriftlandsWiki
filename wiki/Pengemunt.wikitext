@@ -1,0 +1,21 @@
+{{stub}}
+
+{{Infobox
+| name     = Pengemunt
+| image    = Pengemunt.png
+| race     = Kra'deshi
+| location = Grout Bog - The Last Stand
+| source   = 
+| reward   = 
+| related  = Admiralty - Retired
+| ID       =
+}}
+
+{{quote|Looking for coins? I've got some good ones for trade.|Pengemunt}}
+
+'''Pengemunt''' is a former Admiralty Aerostat soldier found in The Last Stand by Rook. He recognizes Rook's Aerostat uniform upon meeting him and offers to trade squadron coins with Rook. His coins carry various boosted effects that allow Rook to strengthen his negotiations by complimenting his deck strengths or compensate for its weaknesses. You can only trade with him once per day, and his inventory changes at the start of each day.
+
+'''See:''' [[Rook#Lucky Coins|Lucky Coins]]
+
+[[Category:Merchants]]
+[[Category:Kra'deshi]]

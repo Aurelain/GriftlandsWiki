@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Uncommon
+|cardtype = Manipulate
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Pale Wind
+|upgrade2 = Visionary Wind}}
+{{Quote|I could do this all day.}}
+
+'''Second Wind''' is a 1-cost Uncommon '''Manipulate''' card for [[Sal]]. You will gain 1 action for every 3 cards in your discard pile. Then the card will '''Expend'''.
+
+==Upgrades==
+After accruing 7 experience '''Second Wind''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Pale Wind.png|150px]]
+|[[File:Visionary Wind.png|150px]]
+|-
+!Cost 1 action less
+!Draw a card
+|-
+|}

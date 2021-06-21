@@ -1,0 +1,27 @@
+{{doc/start}}
+
+This template is used to quote a person or source. The color of the quotes themselves should be changed to match the wiki skin color palette.
+
+== Usage ==
+<code><nowiki>{{Quote|This is a quote.}}</nowiki></code> prints:
+
+{{Quote|This is a quote.}}
+
+<code><nowiki>{{Quote|This is a quote.|Author}}</nowiki></code> prints:
+
+{{Quote|This is a quote.|Author}}
+
+<code><nowiki>{{Quote|This is a quote.|Author|subject}}</nowiki></code> prints:
+
+{{Quote|This is a quote.|Author|subject}}
+
+<code><nowiki>{{Quote|This is a quote.|[[Main Page|Some guy]]|subject}}</nowiki></code> prints:
+
+{{Quote|This is a quote.|[[Main Page|Some guy]]|subject}}
+
+<code><nowiki>{{Quote|This is a quote.|[[Main Page|Some guy]]|subject|Cleanup.svg}}</nowiki></code> prints:
+
+{{Quote|This is a quote.|[[Main Page|Some guy]]|subject|Cleanup.svg}}
+
+Images are automatically scaled in width to 64px.
+{{doc/end}}

@@ -1,0 +1,8 @@
+'''Defense''' is a game [[Key Words|key word]].
+
+Defend is a temporary stat applied to your health pool that resets to 0 at the start of each turn or is removed by attacks.
+
+==Effect==
+In game description: ''"Prevents attack damage for this turn."''
+
+[[Category:Keywords]]

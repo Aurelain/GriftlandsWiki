@@ -1,0 +1,31 @@
+{{stub}}
+
+{{Infobox
+| name     = Flekfis
+| image    = Flekfis Mugshot.png
+| race     = Jarackle
+| location = Havaria - Grout Bog
+| source   = 
+| reward   = 
+| related  = The Rise
+| ID       =
+}}
+
+'''Flekfis''' is [[Prindo Kalandra|Prindo Kalandra's]] second in command. Loyal, a staunch warrior, and a hulking presence, '''Flekfis''' has no qualms with throwing his weight around in a fight. However, his old age and size has begun to slow him down and thus is happy to serve as Kalandra's personal bodyguard.
+
+== Background==
+
+Flekfis is first met at a meeting point discovered by Rook by interrogating or beating the information out of a lone Rise operative. Skeptical of Rook at first, Flekfis is quick to credit Rook after Rook turns over the location of some vulnerable Spark Baron supplies to the Rise.
+
+== Combat ==
+
+Either '''Flekfis''' or [[Arint]] ambushes Rook on the night of Day 3 at the dead drop. Flekfis can be interrogated for weaknesses before the fight, granting several temporary cards that somewhat assist with his fight. Successful interrogation grants Rook temporary cards for the fight depending on the player's performance:
+*[[Weakness: Slow]]
+*[[Weakness: Inflammable]]
+*[[Weakness: Old Injury]]
+
+In addition to his weaknesses, Flekfis will shuffle 10 [[Assorted Junk]] item cards into the player's deck. Flekfis is slow, but extremely powerful, potentially killing Rook in 1 turn if the player is not prepared. Flekfis' attacks lose 1 damage for each card played on Rook's turn, so having a low cost hand or multiple Improvise cards is a must. Otherwise, Flekfis can prepare an attack called Whirlwind, dealing 5+ hits of 5-9 damage per hit, potentially killing Rook instantly. 
+
+:Flekfis drops his [[Force Spanner]] if Rook chooses to kill him.
+
+[[Category:Characters]][[Category:Enemies]][[Category:Rise]][[Category:Jarackle]]

@@ -1,0 +1,50 @@
+{{Card
+|cardtype = Maneuver
+|decktype = Battle
+|expreq = 9
+|rarity = Basic
+|upgrade1 = Promoted Fight Dirty: Improvise a card from a pool of upgraded special cards.
+|upgrade2 = Boosted Fight Dirty: '''Improvise+''' a card from a pool of special cards.}}
+{{Quote|I fight to win, not to make friends.}}
+
+'''Fight Dirty''' is a 1-cost Basic '''Maneuver''' card for [[Sal]]. It improvises a card from a pool of special cards. As a base card '''Fight Dirty''' is always part of the available card pool for [[Sal]].
+
+==Upgrades==
+After accruing 9 experience '''Fight Dirty''' is able to be upgraded.
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Effect
+|-
+|Promoted Fight Dirty
+|1
+|Improvise a card from a pool of upgraded special cards.
+|-
+|Boosted Fight Dirty
+|1
+|'''Improvise+''' a card from a pool of special cards.
+|}
+
+==Special Cards==
+'''Fight Dirty''' has several special cards in its pool, those being:
+* [[Throw Dust]]: 0-cost; Attack; Apply 1 '''Impair'''. '''Expend'''.
+* [[Hide]]: 0-cost; Maneuver; Gain 3 Defense. '''Expend'''.
+* [[Trip]]: 0-cost; Attack; Apply 2 '''Wound'''. '''Expend'''.
+* [[Slash]]: 0-cost; Attack; 1-2 damage; Apply 2 '''Bleed'''. '''Expend'''.
+* [[Scrounge]]: 0-cost; Maneuver; Draw 2 cards. '''Expend'''.
+* [[Enrage]]: 1-cost; Maneuver; Gain 1 '''Power''.'<nowiki/>''Expend'''.
+* [[Scrapper]]: 0-cost; Maneuver; Draw a card, discard a card. '''Expend'''.
+* [[Mud Tosser]]: 0-cost; Attack; 1-2 damage; Gain 2 combo. '''Expend'''.
+
+== Upgraded Special Cards ==
+'''Promoted Fight Dirty''' draws from a pool of "Boosted" versions of the same cards:
+
+* [[Boosted Throw Dust]]: 0-cost; Attack; Apply 2 '''Impair'''. '''Expend'''.
+*[[Boosted Hide]]: 0-cost; Maneuver; Gain 5 Defense. '''Expend'''.
+*[[Boosted Trip]]: 0-cost; Attack; Apply 3 '''Wound'''. '''Expend'''.
+*[[Boosted Slash]]: 0-cost; Attack; 1-2 damage; Apply 3 '''Bleed'''. '''Expend'''.
+*[[Boosted Scrounge]]: 0-cost; Maneuver; Draw 3 cards. '''Expend'''.
+*[[Pale Enrage]]: 0-cost; Maneuver; Gain 1 '''Power''.'<nowiki/>''Expend'''.
+*[[Boosted Scrapper]]: 0-cost; Maneuver; Draw 2 cards, discard 2 cards. '''Expend'''.
+*[[Boosted Mud Tosser]]: 0-cost; Attack; 2 damage; Gain 3 combo. '''Expend'''.

@@ -1,0 +1,80 @@
+'''Kra'deshi''' are a race of amphibian-like humanoids.
+
+== Biology ==
+The most notable features of a Kra'deshi are their eye stalks and green skin.
+
+All Kra'deshi boast a regenerative ability, which allows them to heal wounds quicker than other races.
+
+== Combat ==
+
+In-game, '''Kra'deshi Regeneration''' heals them by 2 health per turn.
+
+== Members ==
+{| class="wikitable"
+|+Kra'deshi
+!Name
+!Faction
+!Title
+!Description
+!Appearance
+|-
+|Smith
+|Grifter
+|N/A
+|N/A
+|
+|-
+|Bennawem
+| rowspan="9" |Civilian
+| rowspan="3" |Wealthy Merchant
+|
+|
+|-
+|Ellomen
+|
+|
+|-
+|Takt
+|
+|
+|-
+|Foolo
+|Dilletante
+|
+|
+|-
+|Gode
+|Foreman
+|
+|
+|-
+|Pazlock
+| rowspan="2" |Laborer
+|
+|
+|-
+|Yibbit
+|
+|
+|-
+|Meeni
+| rowspan="2" |Promoted Laborer
+|
+|
+|-
+|Reeni
+|
+|
+|-
+|Asnitho
+| rowspan="2" |Admiralty
+| rowspan="2" |Patrol Leader
+|
+|
+|-
+|Phinoon
+|
+|
+|}
+{{stub}}
+[[Category:Species]]

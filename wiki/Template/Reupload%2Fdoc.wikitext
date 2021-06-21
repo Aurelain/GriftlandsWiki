@@ -1,0 +1,10 @@
+{{doc/start}}
+This template is added at the top of image pages to mark images that need improved versions, such as a file that was uploaded only a placeholder or is of poor quality.
+
+Don't be afraid to remove these notices after uploading the file. Leaving these notices behind after addressing the problem is confusing to other wiki users.
+
+Any pages using this template will be automatically placed in the [[:Category:Images needing improvement|Images needing improvement]] category.
+
+==Usage==
+{{tlx|reupload|optional reason}}
+{{doc/end}}

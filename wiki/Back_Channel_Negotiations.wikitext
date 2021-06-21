@@ -1,0 +1,28 @@
+'''Back Channel Negotiations''' is a Combat and Negotiation quest.
+
+==Description==
+An [[Admiralty]] clerk is looking for a business partner amongst the Spree.
+
+Difficulty: ★☆☆☆☆
+
+==Combat==
+See Quest Variants.
+
+==Negotiation==
+* Present offer to Spree member.
+
+==Quest Variants==
+* The combat type is randomly chosen from the following options:
+** Sal and the questgiver are ambushed by the Spree member.
+** The Spree member and questgiver agree on a business deal but are attacked by observing Spree.
+** The Spree member and questgiver don't agree on a business deal, leading to two options:
+*** Betray the questgiver. This makes them hate you, but you get 50 additional shills from the Spree member.
+*** Fight the Spree member.
+
+== Rewards ==
+
+* Starting Bonus
+* 65 Shills
+*[[Quests|Extra Reward]]
+
+[[Category: Quests]]

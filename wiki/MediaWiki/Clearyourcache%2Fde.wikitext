@@ -1,0 +1,9 @@
+<!--{{#vardefine:nstest|{{#ifeq: {{NAMESPACENUMBER}}|2|user|MediaWiki}}}}{{int:otherlanguages}}: [[:bg:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Български]] • [[:de:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Deutsch]] • [[:el:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Ελληνικά]] • [[:en:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|English]] • [[:es:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Español]] • [[:fr:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Français]] • [[:hu:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Magyar]] • [[:it:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Italiano]] • [[:ja:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|日本語]] • [[:ko:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|한국어]] • [[:nl:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Nederlands]] • [[:pl:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Polski]] • [[:pt:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Português]] • [[:pt-br:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Português do Brasil]] • [[:ru:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Русский]] • [[:tr:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Türkçe]] • [[:zh:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|中文]]
+<hr>-->
+<span class="warning">'''CSS- und Javascript-Änderungen müssen den [[gphelp:Wiki design rules|Wiki-Designrichtlinien]] entsprechen.'''</span>
+<hr>
+'''Hinweis:''' Leere nach dem Speichern den Browser-Cache, um die Änderungen sehen zu können.
+* '''Firefox/Safari:''' ''Umschalttaste'' drücken und gleichzeitig ''Aktualisieren'' anklicken oder entweder ''Strg+F5'' oder ''Strg+R'' (''⌘+R'' auf dem Mac) drücken
+* '''Google Chrome:''' ''Umschalttaste+Strg+R'' (''⌘+Umschalttaste+R'' auf dem Mac) drücken
+* '''Internet Explorer:''' ''Strg+F5'' drücken oder ''Strg'' drücken und gleichzeitig ''Aktualisieren'' anklicken
+* '''Opera:''' ''Extras → Internetspuren löschen … → Individuelle Auswahl → Den kompletten Cache löschen''

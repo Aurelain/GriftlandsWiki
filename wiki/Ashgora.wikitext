@@ -1,0 +1,23 @@
+{{Character
+| name     = Ashgora
+| image    = Ashgora.png
+| race     = Human
+| location = Havaria - Murder Bay
+| faction  = Admiralty
+| faction2 = Patrol Leader
+}}
+
+{{quote|With a name like Ashgora it's clear he comes from pedigree. No doubt his parents wish he'd stop drowning in the gene pool.|Ashgora's Compendium Description}}'''Ashgora''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
+
+== Death Loot ==
+If '''Ashgora''' is killed in combat, he will drop a [[Spear Head]].
+[[File:Spear Head.png|none|thumb]]
+
+== Boon/Bane ==
+If '''Ashgora''' loves you, you will receive:
+
+=== Sparring ===
+Gain 1 bonus '''Defense''' on all cards that apply '''Defense'''.
+[[File:Graft sparring.png|none|thumb]]
+<br />
+[[Category:Characters]]

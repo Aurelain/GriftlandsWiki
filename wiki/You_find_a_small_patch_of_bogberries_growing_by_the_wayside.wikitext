@@ -1,0 +1,16 @@
+== Eat the rotten one ==
+Gain 5 max HP
+
+Lose 10 HP
+
+== Eat the red one ==
+Lose 5 HP
+
+== Eat the spotted one ==
+Lose 5 Resolve
+== Eat the purple one ==
+Heal 5 HP or more
+== Eat the blue one ==
+Heal 5 Resolve or more and gain !bloated
+== Eat the striped one ==
+Gain 5 Resolve

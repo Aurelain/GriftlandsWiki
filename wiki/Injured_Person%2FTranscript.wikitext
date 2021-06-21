@@ -1,0 +1,234 @@
+This is a transcript for the event [[Injured Person]].
+
+== Initial State ==
+ * {injured person} comes stumbling towards you, clutching {his/her} gut like it might fall out.
+ injured person:
+     Please! Help me!
+ player:
+     Hold on. What's happening?
+ injured person:
+     (If Admiralty)An admiralty patrol just attacked me! But I ain't done nothing wrong!
+     (If Spree)Spree! They're tryin' to kill me! Please, there ain't no one else who can help!
+
+=== Hide {injured person} until the danger passes ===
+ player:
+     Alright. Hide in the treeline and I'll keep them busy.
+ injured person:
+     Th-thank you! 
+ * {injured person} hobbles {his/her} way to the tree line and gets out of sight just in time.
+
+=== Agree to protect {injured person} ===
+ player:
+     (If Admiralty)Sounds like the Admiralty, all right. Get behind me.
+     (If Spree)They're dogged like that. All right, get behind me.
+ injured person:
+     Th-thank you!
+ * {injured person} wipes blood from their mouth and huddles in your shadow.
+
+=== Leave {injured person} to his/her fate ===
+ player:
+     (If Admiralty)Admiralty? No offense, but I'd rather not get involved.
+     (If Spree)Spree? Uh, I'd prefer to stay out of trouble.
+ injured person:
+     N-no! Please! You have to help me!
+ player:
+     Sorry, it's not my place.
+ * With a panicked yelp, {injured person} makes for the treeline. Likely the only help {he/she}'ll get there will be from hungry yotes.
+
+== Admiralty Arrive ==
+
+=== Intro ===
+ * Sure enough, the Admiralty patrol comes hot on {injured person}'s tail, breathless from the chase.
+ attacker:
+     Hey, you! We're looking for a wanted criminal. You seen 'em?
+
+=== Give up {injured person} ===
+ player:
+     Actually, you know what? I have. {injured_person} is all yours.
+ injured_person:
+     You said you'd help me!
+ player:
+     I did. But that's before I knew you were a <i>wanted criminal</i>, so it doesn't count.
+ attacker:
+     Thank you for your help, citizen! This one's been a thorn in our sides too long.
+
+=== Trick {attacker} into looking elsewhere ===
+ player:
+     Now that you mention it, I did see someone walk off towards the creek over there. 
+ attacker:
+     Hm, that's rough wood in that direction. Are you sure?
+
+=== Fail negotiation ===
+ player:
+     Yep, {injured person} was definitely headed in that direction.
+ attacker:
+     I didn't say {his/her} name. 
+ player:
+     Oh. Uh... oops?
+ attacker:
+     So it's an accomplice, is it? You're under arrest!
+
+=== Succeed negotiation ===
+ player:
+     Yeah, {he/she} looked real roughed up. I think {he/she} might've been concussed?
+ attacker:
+     Good—we'll catch {him/her} quick. Thanks for your help, grifter!
+    !exit
+ player:
+     No problem, Officer Brine-for-Brains.
+ * {injured person} emerges from the treeline, trembling like a beaten dog.
+ injured person:
+     Thank you—truly. Hesh must like me something fierce to put a hunter in my path.
+ player:
+     Hesh doesn't like you much if it lets you bleed out. Let's get you some help, huh?
+ * You help {injured person} to walk as gingerly as you can, but leave a string of profanities in their wake.
+
+=== Defend {injured person} after fail negotiation ===
+ player:
+     Yeah, that's right. An accomplice. So come and get me, switch scum!
+
+=== Give up {injured person} after fail negotiation ===
+ player:
+     Hey now, I'm no accomplice⁠—I have nothing to do with this. {He/She} is hiding right over there.
+ attacker:
+     That's more like it. Get out of here before you get yourself hurt.
+
+=== Intimidate {attacker} ===
+ player:
+     I'm a hunter, and I've just been contracted by {injured person} here to keep them alive.
+     Even if it means killing ''you'' to guarantee it.
+
+=== Fail intimidation ===
+ player:
+     So what's it gonna be, punk? Do you feel lucky?
+ attacker:
+     I do, actually. After all, I've got two suckers here instead of one.
+
+=== Succeed intimidation ===
+ player:
+     So how do you wanna end this? Alive, or dead?
+ attacker:
+     ...
+     Yeah? All {he/she} has is pocket lint anyway. Enjoy your ''contract'', hunter.
+ * {attacker} leaves in a hurry, with a few cautionary glances over {his/her} shoulder.
+ injured person:
+     Thank you—truly. Hesh must like me something fierce to put a hunter in my path on today of all days.
+ player:
+     He doesn't like you much if he lets you bleed out. Let's get you some help, huh?
+ * You help {injured person} to walk as gingerly as you can, but leave a string of profanities in their wake.
+
+=== Attack {attacker} ===
+ player:
+     You're gonna pay for what you did!
+
+=== Win fight ===
+ (If no one survives)* With the patrol dead, you motion for {injured person} to come with you and head off to seek help.
+ (If anyone survives)* The last of the patrol scatter and you head off with {injured_person} to find help.
+
+== Spree Arrive ==
+
+=== Intro ===
+ * The Spree are punctual, especially when there's a trail of blood to follow.
+ attacker:
+     Hey! You lookin' for trouble?
+
+=== Give up {injured person} ===
+ player:
+     You know what? I'm really not. I'm a hunter. So how about I leave you to your business, and you leave me to mine?
+ injured person:
+     W-what?! N-no! You said you would help me!
+ attacker:
+     We don't want no trouble with a hunter. Sod off, and we'll take care of the rest.
+ player:
+     Ruder than I'd like, but fair.
+ * You continue down the path, ignoring the screams you leave behind you.
+
+=== Trick {attacker} into looking elsewhere ===
+ player:
+     Not me, friend. I'm just minding my own business.
+     But now that you mention it, I ''did'' see a weeping wretch head off in the other direction.
+     Easy pickings for you, I imagine.
+ attacker:
+     Is that so?
+
+=== Fail negotiation ===
+ player:
+     Sure. They were limping and everything. Go that way, and you can't miss 'em.
+ attacker:
+     Funny, 'cause we just came from that direction, and I didn't see no wretch.
+     You're up to something!
+
+=== Succeed negotiation ===
+ attacker:
+     I was actually just thinking I should circle back and check again. Thanks for your help!
+ player:
+     No problem, scum.
+ attacker:
+ * {injured person} comes out of hiding once {attacker} has left.
+ injured person:
+     Thank you so much! You saved my life there.
+ player:
+     Let's get you somewhere safe.
+
+=== Defend {injured person} after fail negotiation ===
+ player:
+     You're not getting {him/her} without going through me!
+ agent:
+     Ha! Sounds like a plan!
+
+=== Give up {injured person} after fail negotiation ===
+ player:
+     Okay, okay, I'm sorry. They're hiding right over there!
+ agent:
+     That's more like it. Get out of here before you get hurt.
+
+=== Intimidate {attacker} ===
+ player:
+     I'm a hunter, and I've just been contracted by {injured person} here to keep them alive.
+     Even if it means killing ''you'' to guarantee it.
+
+=== Fail intimidation ===
+ player:
+     So what's it gonna be, punk? Do you feel lucky?
+ attacker:
+     I do, actually. After all, I've got two suckers here instead of one.
+
+=== Succeed intimidation ===
+ player:
+     So how do you wanna end this? Alive, or dead?
+ attacker:
+     ...
+     Yeah? All {he/she} has is pocket lint anyway. Enjoy your ''contract'', hunter.
+ * {attacker} leaves in a hurry, with a few cautionary glances over {his/her} shoulder.
+ injured person:
+     Thank you—truly. Hesh must like me something fierce to put a hunter in my path on today of all days.
+ player:
+     He doesn't like you much if he lets you bleed out. Let's get you some help, huh?
+ * You help {injured person} to walk as gingerly as you can, but leave a string of profanities in their wake.
+
+=== Attack {attacker} ===
+ player:
+     Look, we both know this ends in blood. So let's just get it over with.
+
+=== Win fight ===
+ (If no one survives)* With the Spree dead, {injured person} emerges shakily from the sidelines.
+ (If anyone survives)* The last of the group scatters, bleating a bit like flogged cattle.
+ injured person:
+     Thank you—truly. Hesh must like me something fierce to put a hunter in my path on today of all days.
+ player:
+     He doesn't like you much if he lets you bleed out. Let's get you some help, huh?
+ * You help {injured person} to walk as gingerly as you can, but leave a string of profanities in their wake.
+
+== Arrive At [[Better Living Chemist]] ==
+ * You help {injured person} through the door.
+ player:
+     There. You should be okay here.
+ injured person:
+     Thank you so much. I won't forget this.
+ * {injured person} stumbles off to tend to {his/her} wounds.
+
+== Injured Person Dies ==
+ injured person:
+     I'm not... going to make it...
+ * {injured person} dies.
+[[Category:Transcript]]

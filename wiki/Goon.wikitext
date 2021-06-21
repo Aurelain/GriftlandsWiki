@@ -1,0 +1,93 @@
+{{stub}}
+
+'''Goon''' is an [[Admiralty|Admiralty]] title, belonging to the common soldiers of the Admiralty. There are also '''Promoted Goons''', who do their jobs better.
+
+== Negotiation ==
+
+== Battle ==
+
+== Members ==
+=== Goons ===
+{| class="wikitable"
+|+
+!Name
+!Race
+!Description
+!Appearance
+|-
+|Ceni
+| rowspan="8" |Human
+|Ceni's squint suggests that he might be a slow reader. Best not to ask him about it, though.
+|
+|-
+|Dony
+|
+|
+|-
+|Efi
+|
+|
+|-
+|Fizluck
+|
+|
+|-
+|Peri
+|
+|
+|-
+|Rorok
+|
+|
+|-
+|Teema
+|
+|
+|-
+|Zex
+|
+|
+|-
+|Clove
+| rowspan="2" |Jarackle
+|Some folks believe the Admiralty brings order to the griftlands. Clove knows that if that's true, that's a tall one.
+|
+|-
+|Cobb
+|Surviving Admiralty bootcamp requires either the very cunning or the very resilient It's unclear if Cobb is either of these things.
+|
+|-
+|Fanda
+|Kra'deshi
+|
+|
+|-
+|Riito
+|Shroke
+|
+|
+|}
+
+=== Promoted Goons ===
+{| class="wikitable"
+|+
+!Name
+!Race
+!Description
+!Appearance
+|-
+|Bebus
+|Jarackle
+|None
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}

@@ -1,0 +1,4 @@
+{{copyrightbox
+|text=This work is licensed under the Creative Commons [http://creativecommons.org/licenses/by-sa/3.0/ Attribution-ShareAlike 3.0] License.
+}}<noinclude>
+[[Category:Copyright templates|{{PAGENAME}}]]</noinclude>

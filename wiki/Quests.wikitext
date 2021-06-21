@@ -1,0 +1,56 @@
+Each day in [[Griftlands]] is made up of a series of '''quests''', which involve some task or problem you must solve. Each quest has one or more [[combat]] or [[negotiation]] tasks, and often gives you some element of choice in how to complete these challenges.
+
+== Quest Structure ==
+When selecting a quest, each quest has a name, a short description, the quest's '''difficulty''' from one to five stars, the '''focus''', and a set of rewards. Quests can either be combat, negotiation, or combat and negotiation based, though the focus doesn't always dictate what you need to do.
+
+In Sal's campaign, you often choose one quest between three different quest givers. In both campaigns, major characters will also give a quest or a choice between two of them.
+
+While the dialogue and general structure of each individual quest is always the same, the characters involved are often random, or randomly selected from a certain faction or role.[[File:Griftlandsquestexample.png|0.5px|frame|center|An example quest header from Sal's campaign.]]
+
+== Rewards ==
+Quest rewards include [[shills]] based on the difficulty, and a randomly selected extra reward which is one of the following: bonus shills, upgrade a card, remove a card, restore either 20 health or 10 resolve, get an [[Items|item card]], or a choice between three [[grafts]] (for harder missions/some story missions). Neither of these rewards are given if you fail the quest.
+
+Some quests in Sal's campaign may give an initial bonus of a card choice. Additionally, many missions can give additional rewards/consequences based on what actions you take, such as changing [[relationships]]. 
+== Known quests ==
+{{stub}}
+
+=== Main Quests ===
+'''Sal's Campaign'''
+
+#[[Welcome to Havaria]]
+#[[Picking Sides]]
+#[[Getting Settled]]
+#[[Roaloch and Load]]
+#[[Final Pieces]]
+
+'''Rook's Campaign'''
+#[[Stepping in it]]
+
+<br />
+=== Side Quests ===
+'''Sal's Campaign'''
+
+*[[A Matter of Faith]]
+*[[Another Day Older and Deeper in Debt]]
+*[[Attack Rival]]
+*[[Back Channel Negotiations]]
+*[[Competing Bids]]
+*[[Early Retirement]]
+*[[Friend or Fanatic]]
+*[[Hit the Beach]]
+*[[Ice Cold]]
+*[[Internal Affairs]]
+*[[Meet me at the Crossroads]]
+*[[Middle Man]]
+*[[Private Security]]
+*[[Recon in Force]]
+*[[Secret Shopper]]
+*[[The Summoning]]
+*[[Travel Insurance]]
+*[[Travelling Salesgrifter]]
+
+'''Rook's Campaign'''
+
+<br />
+
+[[Category:Quests]]

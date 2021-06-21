@@ -1,0 +1,143 @@
+{{Tocright}}
+'''Perks''' are special unlockable skills that player can equip at the start of a run. Perks can be unlocked by spending points that player earn by completing [[Grifts]] as they play the game. Player can unlock up to three perk slots to use at a time, and there are 34 perks to unlock, split over five tiers.
+{{clear}}
+==List of Perks==
+===Tier 1===
+{| class="wikitable" style="text-align:center; width:100%"
+!style="width:20%"|Perk
+!style="width:80%"|Description
+|-
+|[[File:Perk benefits 01.png|100px]]<br>'''Benefits'''
+|At the start of the game, 1 random person will like you.
+|-
+|[[File:Perk good health 01.png|100px]]<br>'''Good Health'''
+|Gain 6 maximum Health.
+|-
+|[[File:Perk innate connection.png|100px]]<br>'''Innate Connection'''
+|New pets are immediately trained.
+|-
+|[[File:Perk perfect shape.png|100px]]<br>'''Perfect Shape'''
+|Gain 1 '''Power''' at the start of each battle.
+|-
+|[[File:Perk premium quality.png|100px]]<br>'''Premium Quality'''
+|The first graft you install is immediately upgraded.
+|-
+|[[File:Perk researcher.png|100px]]<br>'''Researcher'''
+|Gain 10 shills every time you use an item card with a charge.
+|-
+|[[File:Perk resolute 01.png|100px]]<br>'''Resolute'''
+|Gain 4 maximum Resolve.
+|-
+|[[File:Perk stamina 01.png|100px]]<br>'''Stamina'''
+|Fatigued starts 1 turn later than normal.
+|-
+|[[File:Perk swear jar.png|100px]]<br>'''Swear Jar'''
+|Start your run with an additional 75 shills.
+|-
+|[[File:Perk tough constitution.png|100px]]<br>'''Tough Constitution'''
+|Once per day, drink and eat without any repercussions.
+|}
+
+===Tier 2===
+{| class="wikitable" style="text-align:center; width:100%"
+!style="width:20%"|Perk
+!style="width:80%"|Description
+|-
+|[[File:Perk alert.png|100px]]<br>'''Alert'''
+|Draw 2 additional cards at the start of every battle and negotiation.
+|-
+|[[File:Perk animal bond.png|100px]]<br>'''Animal Bond'''
+|Eating food also restores the health of your pet.
+|-
+|[[File:Perk benefits 02.png|100px]]<br>'''Benefits II'''
+|At the start of the game, 2 random person will like you.
+|-
+|[[File:Perk charming.png|100px]]<br>'''Charming'''
+|At the start of each day, a random person that likes you will love you instead.
+|-
+|[[File:Perk good health 02.png|100px]]<br>'''Good Health II'''
+|Gain 9 maximum Health.
+|-
+|[[File:Perk gourmet.png|100px]]<br>'''Gourmet'''
+|Eating heals 8 bonus health and drinking restores 6 extra resolve.
+|-
+|[[File:Perk resolute 02.png|100px]]<br>'''Resolute II'''
+|Gain 6 maximum Resolve.
+|-
+|[[File:Perk stamina 02.png|100px]]<br>'''Stamina II'''
+|Fatigued starts 2 turn later than normal.
+|}
+
+===Tier 3===
+You can install at most 2 Perks from this tier.
+{| class="wikitable" style="text-align:center; width:100%"
+!style="width:20%"|Perk
+!style="width:80%"|Description
+|-
+|[[File:Perk ancient warrior.png|100px]]<br>'''Ancient Warrior'''
+|The first 2 cards you draft in each deck come with full xp.
+|-
+|[[File:Perk basic training.png|100px]]<br>'''Basic Training'''
+|The max XP on both your basic decks is halved.
+|-
+|[[File:Perk benefits 03.png|100px]]<br>'''Benefits III'''
+|At the start of the game, 3 random person will like you.
+|-
+|[[File:Perk good health 03.png|100px]]<br>'''Good Health III'''
+|Gain 12 maximum Health.
+|-
+|[[File:Perk handy.png|100px]]<br>'''Handy'''
+|All items have 1 additional use.
+|-
+|[[File:Perk resolute 03.png|100px]]<br>'''Resolute III'''
+|Gain 8 maximum Resolve.
+|-
+|[[File:Perk unencumbered.png|100px]]<br>'''Unencumbered'''
+|Gain 1 additional graft slot of each type.
+|}
+
+===Tier 4===
+You can install at most 2 Perks from this tier.
+{| class="wikitable" style="text-align:center; width:100%"
+!style="width:20%"|Perk
+!style="width:80%"|Description
+|-
+|[[File:Perk animal handler.png|100px]]<br>'''Animal Handling'''
+|You can own 1 additional pet.
+|-
+|[[File:Perk fast learner.png|100px]]<br>'''Fast Learner'''
+|Lower the max XP of all non-basic card by 2.
+|-
+|[[File:Perk forgiveness.png|100px]]<br>'''Forgiveness'''
+|At the start of each day, a random person that hates you will dislike you instead.
+|-
+|[[File:Perk socializer.png|100px]]<br>'''Socializer'''
+|Gain 1 maximum resolve whenever a new person loves you.
+|-
+|[[File:Perk survivalist.png|100px]]<br>'''Survivalist'''
+|After each battle, heal 4 health.
+|}
+
+===Tier 5===
+You can install at most 1 Perk from this tier.
+{| class="wikitable" style="text-align:center; width:100%"
+!style="width:20%"|Perk
+!style="width:80%"|Description
+|-
+|[[File:Perk expanded assortment.png|100px]]<br>'''Expanded Assortment'''
+|Graft draft have 1 additional option.
+|-
+|[[File:Perk partner in crime.png|100px]]<br>'''Partner In Crime'''
+|Once per day, you can hire someone who loves you to help you on a quest.
+|-
+|[[File:Perk perseverance.png|100px]]<br>'''Perseverance'''
+|When you would die, instead heal to 20 health. Only works once.
+|-
+|[[File:Perk terror.png|100px]]<br>'''Terror'''
+|Whenever you kill an enemy, increase the '''Panic''' of all their allies.
+|}
+
+==Trivia==
+*Perks system was introduced in ''[[Version History/Perks Update|Perks]]'' update.
+
+[[Category:Perks]]

@@ -1,0 +1,22 @@
+{{doc/start}}
+
+This template can be used to output the full wiki URL e.g. (<code><nowiki>http://help.gamepedia.com/index.php?title=</nowiki></code>) in plaintext or within a plainlink span using the fullurl magic word.
+
+This template is useful for actions, for example action=edit to link to the edit box.
+
+== Usage ==
+To use this template you put the name of the page you want and any actions you want to perform (anything that is after an &amp;).
+
+=== Examples ===
+<pre>{{fullurl|Blocks|action=edit}}</pre>
+Will output: <code><nowiki>//help.gamepedia.com/index.php?title=Blocks&action=edit</nowiki></code>
+
+<pre>{{fullurl|Blocks|action=edit|nolink=1}}</pre>
+Will output: <code><nowiki>http://help.gamepedia.com/index.php?title=Blocks&action=edit</nowiki></code>
+
+<pre>{{fullurl|Blocks|action=edit|text=Edit page}}</pre>
+Will output: <span class="plainlinks">[http://help.gamepedia.com/index.php?title=Blocks&action=edit Edit page]</span>
+
+=== Notes ===
+* All url parameters are kept within the same parameter. (<code><nowiki>{{fullurl|MediaWiki:Common.css|action=raw&ctype=text/css}}</nowiki></code> instead of <code><nowiki>{{fullurl|MediaWiki:Common.css|action=raw|ctype=text/css}}</nowiki></code>) 
+{{doc/end}}

@@ -1,0 +1,8 @@
+{{doc/start}}
+
+This template creates a direct link to edit a given wiki page.
+
+Usage: 
+ <nowiki>{{editlink|page}}</nowiki>
+ <nowiki>{{editlink|page|link text}}</nowiki>
+{{doc/end}}

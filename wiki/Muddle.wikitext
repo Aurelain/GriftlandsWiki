@@ -1,0 +1,31 @@
+{{Card
+|rarity = Rare
+|deckset = Battle
+|cardtype = Maneuver
+|expreq = 3
+|upgradeable = Yes
+|upgrade1 = Initial Muddle
+|upgrade2 = Pale Muddle
+|character = Rook}}
+{{Quote|I just can't seem to do anything right today...}}
+
+'''Muddle''' is a 2-cost '''Maneuver''' card for [[Rook]]. It has the effect, "Ability: Whenever you apply a debuff to an enemy, gain 2 Defense. Expend."
+
+==Upgrades==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effects
+|-
+|Initial Muddle
+|2
+|NA
+|Ability: whenever you apply a debuff to an enemy, gain 2 Defense. Expend. Ambush
+|-
+|Pale Muddle
+|1
+|NA
+|Ability: whenever you apply a debuff to an enemy, gain 2 Defense. Expend
+|}

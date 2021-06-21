@@ -1,0 +1,32 @@
+{{Card
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]], [[Threshold]], [[Scorched]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Chimney
+|upgrade2 = Tall Chimney}}
+{{Quote|Okay, be sure you hit them in the right spot, otherwise you aren't going to be too impressed.}}
+
+'''Chimney''' is a 1-cost '''Attack''' card for [[Rook]]. It deals 1-6 base damage. It has the effect "Apply 2 burn. Threshold 4: Apply 2 scorched."
+
+==Upgrades==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Boosted Chimney
+|1
+|1-6
+|Apply 4 burn. Threshold 4: apply 2 Scorched
+|-
+|Tall Chimney
+|1
+|1-8
+|Apply 2 burn. Threshold 4: Apply 2 Scorched
+|}

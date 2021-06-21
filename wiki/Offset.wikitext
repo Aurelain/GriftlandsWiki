@@ -1,0 +1,31 @@
+{{Card
+|decktype = Battle
+|cardtype = Maneuver
+|rarity = Rare
+|upgradable = Yes
+|expreq = 3
+|upgrade1 = Pale Offset
+|upgrade2 = Initial Offset
+|character = Rook}}
+{{Quote|Be sure to hit even harder when they are off balance. You aren't here to fight fair.}}
+
+'''Offset''' is a 2-cost '''Maneuver''' card for [[Rook]]. It has the effect "Ability: All you attacks deal 2 bonus damage if the target has a debuff. Expend."
+
+==Upgrades==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Pale Offset
+|1
+|NA
+|Ability: All your attacks deal 2 bonus damage if the target has a debuff. Expend
+|-
+|Initial Offset
+|2
+|NA
+|Ability: all you attacks deal 2 bonus damage if the target has a debuff. Expend. Ambush
+|}

@@ -1,0 +1,12 @@
+{{Doc/start}}
+This template creates the rarity icon from [[Griftlands]] with the appropriate colors.
+
+==Use==
+*<nowiki>{{Rarity|Basic}}</nowiki> — {{Rarity|Basic}}
+*<nowiki>{{Rarity|Common}}</nowiki> — {{Rarity|Common}}
+*<nowiki>{{Rarity|Uncommon}}</nowiki> — {{Rarity|Uncommon}}
+*<nowiki>{{Rarity|Rare}}</nowiki> — {{Rarity|Rare}}
+*<nowiki>{{Rarity|Boss}}</nowiki> — {{Rarity|Boss}}
+*<nowiki>{{Rarity|Unique}}</nowiki> — {{Rarity|Unique}}
+
+{{Doc/end}}

@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Heal]], [[Bleed]], [[Expend]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Boosted Leech
+|upgrade2 = Pale Leech}}
+{{Quote|It's a little gruesome, but the worms can put all that mess to work for you.}}
+
+'''Leech''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 0 base damage. It has the effect "Heal 1 health per Bleed on the target. Expend."
+
+==Upgrades==
+After accruing 5 experience '''Leech''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Leech.png|150px]]
+|[[File:Pale Leech.png|150px]]
+|-
+!style="width:155px"|[[Heal]] 2 health per [[Bleed]] on the target. [[Expend]]
+!style="width:155px"|[[Heal]] 1 health per [[Bleed]] on the target. [[Expend]]
+|}

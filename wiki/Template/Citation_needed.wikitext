@@ -1,0 +1,3 @@
+<includeonly><sup>[''[[wikipedia:Citation needed|<span title="This claim needs references to reliable sources">>citation&nbsp;needed</span>]]'']</sup><includeonly>{{ #switch: {{NAMESPACE}} | {{ns:2}} | {{TALKSPACE}} = <!-- no category for user or talk pages --> | #default = [[[Category:Citation needed]] }}</includeonly><noinclude>{{doc}}
+
+[[Category:Notice templates]]</noinclude>

@@ -1,0 +1,8 @@
+The normal Flead is a one-star enemy that is encountered in some missions, it is fairly easy to fight and often appears in groups. You can also obtain a Flead pet. When you kill a Flead you get a [[Mandible]].
+
+==Abilities and Stats==
+-Fleads always have ~6 [[Chitnous]].
+
+==Trivia==
+*There are two other enemies in the game, which are also Fleads: the [[Flead Queen]] and the [[Flead Larvae]].
+[[Category:Enemies]]

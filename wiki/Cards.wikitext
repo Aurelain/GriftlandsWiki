@@ -1,0 +1,111 @@
+{{stub}}
+
+ This page is under heavy reconstruction. Please see source comments for further information.
+
+<!-- Preemptively setting this page up. Adding in sections to organize the page as I start adding card pages in. Please do not edit or remove this commented section until I'm finished. If anyone feels like helping message me on my talk page and we'll work something out. Otherwise, ETA 09May2020 - Tempvirage
+
+last update - 01May2020
+_______________________________
+--Current progress:
+Editing image gallery of Rook's cards. 
+--To-do:
+;Edit gallery of
+:Status cards
+:Sal's cards
+:Smith's cards
+:Item cards
+
+;Create pages for every card (Surprisingly quick to do, unsurprisingly boring)
+:Status cards
+:Item cards
+:Sal's cards
+:Rook's cards
+:Smith's cards
+Pray Klei doesn't change every single card between Alpha and full release
+
+_______________________________
+--Completed: 
+Captured all of Rook's cards.
+Captured all of Sal's cards
+Captured all of Smith's cards (holding off on anything further with Smith until temp art is replaced with final release)
+Captured all Item cards
+Captured all Status cards
+
+
+----
+Add each new card to the battle/negotiation category as listed below in addition to [[category:card]]. Every card should be in 2 categories as a result. 
+New card pages should be created using (???-WIP) as a template.
+
+Ex.: 
+Fast Talk
+[Category:Cards]]
+[Category:Sal Cards_Negotiation]]
+
+
+== Cards ==
+
+[Category:Sal Cards_Battle]]
+[Category:Sal Cards_Negotiation]]
+=== Sal's Battle Cards ===
+=== Sal's Negotiation Cards ===
+
+
+[Category:Rook Cards_Battle]]
+[Category:Rook Cards_Negotiation]]
+=== Rook's Battle Cards ===
+=== Rook's Negotiation Cards ===
+
+
+[Category:Smith Battle Cards]]
+[Category:Smith Negotiation Cards]]
+=== Smith's Battle Cards ===
+=== Smith's Negotiation Cards ===
+
+[Category:Items]] - Use for all Item cards
+
+[Category:Status Cards]] - Use for all Status Cards
+
+-->
+
+== Cards ==
+
+Cards are the central focus of gameplay in {{gamename}}. Players start with a pre-built deck of 10 cards and build a deck of randomly offered '''cards''' that are rewarded through [[Quests]], purchased from [[Merchants]], or received from [[Events|random events]]. Available cards can be customized by enabling/disabling Card Sets in the options before starting a run.
+
+== Decks ==
+
+Players are provided 2 decks when starting the game; 1 Battle and 1 Negotiation deck. Each deck has their own card pool and can be customized throughout a run. Decks have a card limit of 50.
+
+=== Battle Cards ===
+
+'''Battle cards''' are used to perform actions in combat. Divided into primarily '''Maneuvers''' and '''Attacks''', a strong battle deck is required to survive in the Griftlands. 
+
+'''See:''' [[Battle Cards]]
+
+=== Negotiation Cards ===
+
+'''Negotiation cards''' are used in negotiations and are rewarded and upgraded separately from your battle deck. Having a strong negotiation deck is useful for opening up quest opportunities and completing quests peacefully to conserve Health.
+
+'''See:''' [[Negotiation Cards]]
+
+=== Status Cards ===
+
+'''Status Cards''' have a yellow border and are added to the player's decks through different actions. Eating food, drinking alcohol, certain random events, and some enemy attacks will all add status cards to your deck. Most status cards are strictly a nuisance, taking up hand and deck space. However, some status cards have an immediate effect when drawn causing them to be particularly punishing if not removed quickly. Some status cards cannot be played and cause damage or other effects at the end of the player turn. Discard effects are particularly useful for dealing with these types of status cards.
+
+'''See:''' [[Status Cards]]
+
+=== Item Cards ===
+
+'''Item Cards''' have a green border and can be purchased from merchants, received as a bonus quest reward, looted from dead enemies, and found through random events. Almost all items in the game have a '''limited use''' and are destroyed after playing them 1-3 times. In exchange for this, Items typically have fairly powerful effects and a large amount of Items have '''Replenish''' which ''mostly'' negates having the extra card in your deck.
+
+'''See:''' [[Items]]
+
+== How to ==
+
+Strategies and deck building tips are covered on the "How to play" page. Info on mechanics can be found on the battle and negotiation pages.
+:'''See:''' 
+*[[How to play guide of Griftlands#Deck Strategies|Deck Strategies]]
+*[[Battle]]
+*[[Negotiation]]
+
+
+[[Category:Cards]]

@@ -1,0 +1,13 @@
+{{doc/start}}
+==Usage==
+Usage is {{tlx|DisambigMsg|''what this article is about''|''what other article 1 is about''|''name of other article 1''|''what other article 2 is about''|''name of other article 2''|...)}}.  You can provide up to three pairs of "other article" parameters as you want (minimum one, of course).  
+
+For example, {{tlx|DisambigMsg|the quest Test|the Achievement |Test (achievement)}} will result in:
+{| style="padding-bottom:5px;padding-left:25px"
+|{{DisambigMsg|the quest Test|the Achievement |Test (achievement)}}
+|}
+{{tlx|DisambigMsg|the quest Test|the class|Test (class)|the achievement|Test (achievement)}} will result in:
+{| style="padding-bottom:5px;padding-left:25px"
+|{{DisambigMsg|the quest Test|the class|Test (class)|the achievement|Test (achievement)}}
+|}
+{{doc/end}}

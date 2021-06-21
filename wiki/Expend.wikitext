@@ -1,0 +1,3 @@
+'''Expend''' is one of the card key words. It says "Remove this card for the rest of this battle/negotiation."
+
+[[Category:Keywords]]

@@ -1,0 +1,20 @@
+'''Private Security''' is a Combat quest.
+
+==Description==
+{Storeowner} has heard that bandits are coming to rob their store, and is looking for help defending their property.
+
+==Combat==
+Combat is against Spree. You can instead leave the store, failing the quest and causing the storeowner to hate you.
+
+==Negotiation==
+* Convince guard of location to defend the property
+* Convince storeowner for one free item from their stock
+
+==Quest Variants==
+* If the quest is taken from the Noodle Shop, you will not have the option to negotiate for a free item.
+*If you have sided with the Spree, you will be presented with the option to side with the Spree and betray the storeowner, negotiate to make the Spree leave, or leave the store.
+** Siding with the Spree will give you shills but not the secondary reward. The storeowner will hate you for doing this.
+** The Spree have a -10 resolve modifier when negotiating, since you're on the same side.
+** Leaving the store will fail the quest.
+
+[[Category: Quests]]

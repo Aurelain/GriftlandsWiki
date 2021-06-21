@@ -1,0 +1,232 @@
+
+{{Character
+| name     = Rook
+| image    = Rook Portrait.png
+| race     = Human
+| location = Grout Bog
+| faction2  = Unknown - Formerly Admiralty 
+}}
+
+{{Quote|Well, at least ''I'm'' honest. Some of the time. As far as you know.|Rook}}
+
+'''Rook''' is a playable [[Heroes|Hero]] in Griftlands. He is a retired [[Admiralty]] Captain found traveling to the [[Grout Bog]] as a spy on an unknown job. In combat, Rook brandishes two custom energy pistols kept since his service in Aerostat. When he has to, he fights at a distance but is more than capable of fighting hand to hand, utilizing his pistols as melee weapons and his mechanical left leg to throw snap kicks.
+
+
+==Background==
+Not much is known about Rook's past. It's unclear if Rook is even his real name. What is known is he was previously enlisted as an Admiralty Captain and served as an infiltrator and spy. Klei released a digital short giving some background on how Rook lost his leg; While on an infiltration-and-theft job, he and his partner were compromised and fled through a hail of plasma bolts. While jumping the fence out, he was shot in the leg, forced to limp away to make his escape, and left his partner to be eaten by the local guard-vrac.
+
+<div class="fpvideo">{{#ev:youtube|phoB7SZfYYE|480||||autoplay=false}}</div>
+
+==Combat==
+Rook's battle decks revolve around 4 primary mechanics: '''Charge''', '''Overcharge''', '''Concentration''', and '''Burn/Scorch'''. Rook's pistols by default have 4 charge cells. Playing cards that require charges empty his cells, while each empty cell gives 1 Defense at the end of Rook's turn. Playing cards that grant charges when Rook's cells are already full grant him '''Overcharge''', which acts like Power and increase his damage by 1 per '''Overcharge'''. '''Burn''' acts similarly to bleed, where damage is dealt to the enemy for each stack of Burn on them. However, Burn also deals 50% damage to all other enemies on the same side of the field, and all burn stacks are lost at the end of each round. If an enemy is afflicted with '''Scorch''', burn is reduced by 50% each turn instead.
+
+===Pistols===
+[[File:Rook Pistols.jpg|thumb|Rook's Custom Pistols.]]
+Rook's '''Twin Military-Grade EH1076 Discharge Pistols, Modified''' are his weapons of choice. Their modular ammunition chambers are what allows Rook to attack his enemies with a variety of effects. During a limited-time event, the Admiralty Weaponsmith [[Frizz]] can also tweak Rook's pistols, adding or removing charge chambers. For free, Frizz will add/remove one charge chamber, and add/remove one more for 300 [[Shills]].
+
+His starting deck consists of the following cards:
+* 3x [[Hunker down]]
+* 1x [[Crank]]
+* 3x [[Blast]]
+* 2x [[Kick]]
+* 1x [[Hair Trigger]]
+* 1x [[Ammo Pouch]]
+
+
+==Negotiations==
+Rook's negotiation mechanic revolves around his '''Lucky Coin''' and a '''Gamble''' mechanic. Each time a card with '''Gamble''' is played, Rook flips his coin. Depending on the coin Rook owns, Heads and Snails have different effects.
+
+Rook also has access to a unique card called [[Blacklist]]. '''Blacklist''' scales in damage for each unique character it is used against, and can reach well over 20 damage before a run is over.
+
+His starting deck consists of the following cards:
+* 2x [[Call it]]
+* 3x [[Rationale]]
+* 3x [[Pleasantries]]
+* 2x [[Grumble]]
+* 1x [[Trickery]]
+
+===Lucky Coins===
+Rook has the option to swap his default '''spare coin''' for one of several different types with [[Pengemunt]] at '''The Last Stand'''. '''Pengemunt''' appears starting on Day 1 at '''The Last Stand''' and swaps his inventory at several points during Rook's campaign. Passing on trading with him your first time meeting '''Pengemunt''' will upgrade his inventory on the night of Day 1. Rook can also potentially earn a '''Weighted Coin''' through a random event.
+
+{| class="wikitable" style="text-align:center"
+!width="100"|Icon
+!width="100"|Name
+!width="100"|Available
+!width="600"|Effect
+|-
+|[[File:LuckyCoin Spare.png|70px]]
+|Spare Coin
+|Default Coin
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Apply 1 Composure to a random friendly argument.
+[[File:Icon Snails.png|20px|link=|Snails]] Deal 1 damage to a random enemy argument.
+|-
+|[[File:LuckyCoin Marsh.png|70px]]
+|Marsh Coin
+|Day 1
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Apply 2 Composure to a random friendly argument.
+[[File:Icon Snails.png|20px|link=|Snails]] Deal 1 damage to a random enemy argument.
+|-
+|[[File:LuckyCoin Mud.png|70px]]
+|Mud Coin
+|Day 1
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Apply 1 Composure to a random friendly argument.
+[[File:Icon Snails.png|20px|link=|Snails]] Deal 2 damage to a random enemy argument.
+|-
+|[[File:LuckyCoin Sifting.png|70px]]
+|Sifting Coin
+|Day 1
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Draw 1 card.
+[[File:Icon Snails.png|20px|link=|Snails]] Discard 1 card.
+|-
+|[[File:LuckyCoin Bog.png|70px]]
+|Bog Coin
+|Day 2
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Apply 2 Composure to a random friendly argument.
+[[File:Icon Snails.png|20px|link=|Snails]] Deal 2 damage to a random enemy argument.
+|-
+|[[File:LuckyCoin Emissary.png|70px]]
+|Emissary Coin
+|Day 2
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Gain 1 Influence
+[[File:Icon Snails.png|20px|link=|Snails]] Deal 2 damage to a random enemy argument.
+|-
+|[[File:LuckyCoin Psychic.png|70px]]
+|Psychic Coin
+|Day 2
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Incept 1 Doubt.
+[[File:Icon Snails.png|20px|link=|Snails]] Deal 2 damage to a random enemy argument.
+|-
+|[[File:LuckyCoin Seeker's.png|70px]]
+|Seeker's Coin
+|Day 2
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Draw 1 card.
+[[File:Icon Snails.png|20px|link=|Snails]] Deal 2 damage to a random enemy argument.
+|-
+|[[File:LuckyCoin Chaos.png|70px]]
+|Chaos Coin
+|Day 3
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Apply 2 Composure to a random friendly argument.
+[[File:Icon Snails.png|20px|link=|Snails]] Draw 1 card. Discard 1 card.
+|-
+|[[File:LuckyCoin Turtle.png|70px]]
+|Turtle Coin
+|Day 3
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Apply 3 Composure to your core argument.
+[[File:Icon Snails.png|20px|link=|Snails]] Apply 1 Composure to all of your arguments.
+|-
+|[[File:LuckyCoin Tyrant's.png|70px]]
+|Tyrant's Coin
+|Day 3
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] Apply 2 Composure to a random friendly argument.
+[[File:Icon Snails.png|20px|link=|Snails]] Gain 1 Dominance. 
+|-
+|[[File:LuckyCoin Weighted.png|70px]]
+|Krog's Weighted Coin
+|Random Event
+|align="left"|[[File:Icon Heads.png|20px|link=|Heads]] No added effect; 90% chance to land on Heads.
+[[File:Icon Snails.png|20px|link=|Snails]] No added effect; 90% chance to land on Heads.
+|}
+
+==Outfits==
+Rook has 3 unlockable '''Outfits'''.
+<gallery>
+Rook outfit - Aerostat.png|Aerostat Uniform
+Rook outfit - Saboteur.png|Saboteur
+Rook outfit - Shadow.png|Shadow
+</gallery>
+
+==Card Sets==
+Rook's unlock-able card sets are as follows:
+*[[Gambler and Fixated]]
+*[[Discard and Transaction]]
+*[[Spender and Stocked]]
+*Defensive and Threshold
+**[[Matter of Fact]]
+**[[Blockade]]
+**[[Prattle]]
+**[[Chimney]]
+**[[Striker]]
+**[[Trick Shot]]
+*Livid and Migrainer
+**[[Seethe]]
+**[[Ante]]
+**[[Tantrum]]
+**[[Muddle]]
+**[[Offset]]
+**[[Cataclysm]]
+*Inclined and Overcharged
+**[[Decency]]
+**[[Weight]]
+**[[Obligation]]
+**[[Shock Therapy]]
+**[[Jolt]]
+**[[Arc Deflection]]
+*Pickup and Shoot Out
+**[[Drawback]]
+**[[Radula]]
+**[[Square Up]]
+**[[Shill Shot]]
+**[[Spurs]]
+**[[Take Cover]]
+*Prepared and Brain Surgery
+**[[Compromise]]
+**[[Upright]]
+**[[Strategy]]
+**[[Ego Rip]]
+**[[Brain Tick]]
+**[[Psionic Storm]]
+*Activator and Options
+**[[Head Shot]]
+**[[Snail Bite]]
+**[[Red Herring]]
+**[[Squeeze]]
+**[[Fistful]]
+**[[Lifeline]]
+*Support and Swing
+**[[Fallout]]
+**[[Prominence]]
+**[[Pinch]]
+**[[Firestorm]]
+**[[Vent]]
+**[[Clear Shot]]
+
+==Bog Parasite==
+Shortly after arriving in Grout Bog, Rook is bit on the neck by an unknown insect. This adds one new card to each of his decks: '''[[Twig]]''' and '''[[Stem]]'''. These cards introduce a unique '''Parasite''' mechanic that have '''Hatch''' as a key word. '''Hatch''' causes these cards to evolve into a random new '''Parasite''', with higher rarity, each '''Parasite''' has a unique effect. The higher the rarity of the '''Parasite''', the better their effects get. Attempting to remove the cards will reduce Rook's max HP by 10 for each card.
+
+== NPC Encounters ==
+As an NPC, Rook is in the Grifter faction. He can rarely be found in other grifters' stories, through a random encounter.
+
+=== Sal ===
+If playing as Sal, Rook can be encountered as a fellow grifter, paying 300 Shills for protection. If the player accepts, one of Rook's first bosses will soon show up, either Eonwe or Threekwa. Either will give Sal the choice to stand down, rather than fight them. The actual choices are either:
+
+* Let Rook fight them alone.
+** If Rook is victorious, he says he is too tired to fight Sal, and will trudge on Hating Sal. The player is then given the choice to either fight Rook to finish him off, or let him go.
+
+or
+
+* Fight with Rook against the boss.
+** If the boss is spared, Rook will finish them off, surprising Sal. Rook will then Like Sal.
+** If the boss is killed by Sal, Rook will Love Sal.
+
+==Trivia==
+*Rook's original name was revealed as "Falcon", but was changed during development to "Rook". 
+*Rook has an infinite loop through the use of [[Gun Smoke]].
+
+== Galleries ==
+
+=== Facial Expressions ===
+<gallery>
+File:Rook Mugshot.png|alt=An image of Rook's mugshot, in Aerostat uniform. Stoic, blank, and with a great moustache.|Mugshot Rook.
+File:Raised Eyebrow Rook.jpg|alt=Aerostat Rook with an eyebrow raised questioningly.|Questioning Rook.
+File:Shrugging Rook.jpg|alt=Aerostat Rook shrugging at something.|Shrugging Rook.
+File:Happy Rook.jpg|alt=An image of Rook smiling, with his fabulous moustache pointing upwards at the ends.|Smug Rook.
+File:Thinking Rook.jpg|alt=An image of Rook thinking, with his hand on his chin.|Thinking Rook
+</gallery>
+
+=== Combat ===
+<br />
+
+{{stub}}
+[[Category:Heroes]]
+[[Category:Human]]
+[[Category:Grifter]]

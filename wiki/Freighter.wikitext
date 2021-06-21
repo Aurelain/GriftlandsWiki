@@ -1,0 +1,22 @@
+{{Card
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Restored Freighter
+|upgrade2 = Freighter+}}
+{{Quote|Sometimes it just takes determination.}}
+'''Freighter''' is a 2-cost Common '''Attack''' card for [[Sal]]. It deals 4 base damage. It has the effect "Deal bonus damage equal to the cost of your hand."
+
+==Upgrades==
+After accruing 5 experience '''Freighter''' is able to be upgraded.
+{| class="wikitable" style="text-align:center; width:305px;"
+|-
+|[[File:Restored Freighter.png|150px]]
+|[[File:Freighter-.png|150px]]
+|-
+!'''[[Replenish]]'''
+!6 damage
+|}

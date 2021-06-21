@@ -1,0 +1,7 @@
+{{stub}}
+{{Card
+|rarity = 
+|decktype = Negotiation
+|cardtype = Item
+|keywords = Influence
+|upgradeable = No}}

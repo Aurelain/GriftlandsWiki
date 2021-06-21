@@ -1,0 +1,31 @@
+Card Sets add extra cards to the game (meaning you can get them from card rewards), they can be unlocked by playing with the corresponding character.
+Before starting a run, you can choose which of your unlocked Card Sets you want to enable, remember that disabling any set, will put the run into custom mode (meaning you can't unlock new [[Prestige]] levels).
+Each character has 10 Card Sets and they always contain 3 Negotiation and Battle cards. 
+
+Also some Card Sets add new [[Outfits]], these can then be used even if the Card Set is disabled.
+
+== Sal's Card Sets ==
+* [[The Setup and The Crusher]]
+* [[Evoke and Bloody Mess]]
+* [[Big Draw and The Fury]]
+* [[Incept and Overwhelm]]
+* [[Action and Practice]]
+* [[Expend and Reflexes]]
+* [[Influence and Discarded]]
+* [[Aggression and Options]]
+* [[Arguments and Bar Fights]]
+* [[Distraction and Masters]]
+
+== Rook's Card Sets ==
+* [[Gambler and Fixated]]
+* [[Discard and Transaction]]
+* [[Spender and Stocked]]
+* [[Defensive and Threshold]]
+* [[Livid and Migrainer]]
+* [[Inclined and Overcharged]]
+* [[Pickup and Shoot Out]]
+* [[Prepared and Brain Surgery]]
+* [[Activator and Options]]
+* [[Support and Swing]]
+
+[[Category:Card sets]]

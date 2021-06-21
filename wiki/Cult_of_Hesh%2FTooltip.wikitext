@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Cult of Hesh</center>
+  |body=<center>The dominant religion in Havaria, whose adherents worship Hesh, an abyssal jellyfish god.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

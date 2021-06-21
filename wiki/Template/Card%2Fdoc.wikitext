@@ -1,0 +1,113 @@
+{{doc/start}}
+Use this infobox for all card pages. 
+
+==Usage==
+<pre style="overflow: auto;">
+{{Card
+|name = 
+|image = 
+|character = 
+|rarity = 
+|decktype = 
+|cardtype = 
+|keywords = 
+|upgradeable = 
+|expreq = 
+|upgrade1 = 
+|upgrade2 = 
+|upgrade3 = 
+|upgrade4 = 
+|upgrade5 = 
+|upgrade6 = 
+|upgrade7 = 
+|upgrade8 = 
+|upgrade9 =
+|upgrade10 =}}
+</pre>
+<pre style="overflow: auto; align:right">
+{{Card
+|name = card's name
+|image = card's image
+|character = Sal / Rook / Smith / Other / Enemy
+|rarity = Basic / Common / Uncommon / Rare / Unique
+|decktype = Battle / Negotiation
+|cardtype = Attack / Maneuver / Hostility / Diplomacy / Manipulate / Item / Status / Parasite / Score
+|keywords = card's keywords / None
+|upgradeable = Yes / No
+|expreq = the amount of experience needed to upgrade the card
+|upgrade1 = name of the first upgraded version
+|upgrade2 = name of the second upgraded version
+|upgrade3 = name of the third upgraded version
+|upgrade4 = name of the forth upgraded version
+|upgrade5 = name of the fifth upgraded version
+|upgrade6 = name of the sixth upgraded version
+|upgrade7 = name of the seventh upgraded version
+|upgrade8 = name of the eighth upgraded version
+|upgrade9 = name of the ninth upgraded version
+|upgrade10 = name of the tenth upgraded version}}
+</pre>
+
+==Notes==
+*If the <code>name</code> and/or <code>image</code> parameters are not specified, the infobox will use <code>pagename</code> as title and/or <code>pagename.png</code> as image.
+*Infobox adds category [[:Category:All cards]], and a category from [[:Category:Cards by character]], [[:Category:Cards by category]], [[:Category:Cards by type]] and [[:Category:Cards by rarity]], depending on the specified parameters.
+*The <code>character</code> parameter isn't displayed in the infobox, used only for adding corresponding category.
+
+==Example==
+{| class="infoboxtable"
+|-
+! colspan="2" class="infoboxname" | Stab
+|-
+! colspan="2" | [[File:Stab.png|250x250px]]
+|-
+! colspan="2" class="infoboxdetails" | Details 
+|-
+| width=90 |<div>Rarity</div>|| {{Rarity|Basic}}
+|-
+| width=90 |<div>Deck Type</div>|| {{Deck|Battle}}
+|-
+| width=90 |<div>Card Type</div>|| {{Type|Attack}}
+|-
+| width=90 |<div>Key Words</div>|| None
+|-
+! colspan="2" class="infoboxdetails" | Upgrades
+|-
+| width=90 |<div>Upgradeable</div>|| Yes
+|-
+| width=90 |<div>XP required</div>|| 6
+|-
+| width=90 |<div>Upgrade 1</div>|| Stab of Clarity
+|-
+| width=90 |<div>Upgrade 2</div>|| Stab of the Stone
+|-
+| width=90 |<div>Upgrade 3</div>|| Stab of Savagery
+|-
+| width=90 |<div>Upgrade 4</div>|| Stab of the Deep
+|-
+| width=90 |<div>Upgrade 5</div>|| Stab of Vision
+|-
+| width=90 |<div>Upgrade 6</div>|| Stab of the Mirror
+|-
+| width=90 |<div>Upgrade 7</div>|| Stab of the Nail
+|-
+| width=90 |<div>Upgrade 8</div>|| Rooted Stab
+|}
+<pre style="overflow: auto;">
+{{Card
+|name = Stab
+|image = Stab.png
+|character = Sal
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = None
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Stab of Clarity
+|upgrade2 = Stab of the Stone
+|upgrade3 = Stab of Savagery
+|upgrade4 = Stab of the Deep
+|upgrade5 = Stab of Vision
+|upgrade6 = Stab of the Mirror
+|upgrade7 = Stab of the Nail
+|upgrade8 = Rooted Stab}}
+</pre>{{clear}}{{doc/end}}

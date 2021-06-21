@@ -1,0 +1,7 @@
+{{Card
+|rarity = Common
+|cardtype = Parasite
+|decktype = Negotiation}}
+{{Quote|I keep hearing it, I'm sure you know the tune...}}
+
+Earworm is a common negotiation [[Bog Parasites|Bog-Parasite]] for [[Rook]] with the following card text: "If this is in your hand at the end of your turn, add another Earworm to your draw pile. Expend, Parasite, Hatch 5"

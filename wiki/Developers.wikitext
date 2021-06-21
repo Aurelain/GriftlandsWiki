@@ -1,0 +1,219 @@
+
+{{Infobox custom
+| name        = Klei Entertainment
+| image       = Klei Logo.png
+| row1 label  = Founded
+| row1 data   = July, 2005
+| row2 label  = Headquarters
+| row2 data   = Vancouver, Canada
+| row3 label  = Key People
+| row3 data   = Jamie Cheng, Jeffrey Agala
+| row4 label  = Official Site
+| row4 data   = https://www.klei.com/
+| row5 label  =
+| row5 data   =
+| row6 label  =
+| row6 data   =
+| row7 label  =
+| row7 data   =
+| row8 label  =
+| row8 data   =
+| row9 label  =
+| row9 data   =
+| row10 label =
+| row10 data  =
+}}
+
+'''Klei''' is an Independent game studio located in Vancouver, Canada. The studio was founded in July 2005 by Jamie Cheng. 
+
+== Other games by Klei: == 
+
+{| class="wikitable"
+|-
+! rowspan="2" | Year
+! rowspan="2" | Title
+! colspan="10" | Platform(s)
+! rowspan="2" | Notes
+|-
+! style="width:3em; font-size:90%" | [[wikipedia:Linux|Linux]]
+! style="width:3em; font-size:90%" | [[wikipedia:MacOS|Mac]]
+! style="width:3em; font-size:90%" | [[wikipedia:Windows|Win]]
+! style="width:3em; font-size:90%" | [[wikipedia:Nintendo DS|NDS]]
+! style="width:3em; font-size:90%" | [[wikipedia:Wii U|Wii U]]
+! style="width:3em; font-size:90%" | [[wikipedia:Nintendo Switch|Switch]]
+! style="width:3em; font-size:90%" | [[wikipedia:PlayStation 3|PS3]]
+! style="width:3em; font-size:90%" | [[wikipedia:PlayStation 4|PS4]]
+! style="width:3em; font-size:90%" | [[wikipedia:Xbox 360|X360]]
+! style="width:3em; font-size:90%" | [[wikipedia:PlayStation Portable|PSP]]
+|-
+| 2006
+| ''[[Wikipedia:Eets|Eets]]''
+|  No
+|  Yes
+|  Yes
+|  No
+|  No
+|  No
+|  No
+|  No
+|  No
+|  Yes
+|
+|-
+| 2008
+| ''[[Wikipedia:N+|N+]]''
+|  No
+|  No
+|  No
+|  Yes
+|  No
+|  No
+|  No
+|  No
+|  Yes
+|  Yes
+|
+|-
+| 2010
+| ''[[Wikipedia:Shank (video game)|Shank]]''
+|  Yes
+|  Yes
+|  Yes
+|  No
+|  No
+|  No
+|  Yes
+|  No
+|  Yes
+|  No
+|
+|-
+| 2012
+| ''[[Wikipedia:Shank 2|Shank 2]]''
+|  Yes
+|  Yes
+|  Yes
+|  No
+|  No
+|  No
+|  Yes
+|  No
+|  Yes
+|  No
+|
+|-
+| 2012
+| ''[[Wikipedia:Mark of the Ninja|Mark of the Ninja]]''
+|  Yes
+|  Yes
+|  Yes
+|  No
+|  No
+|  Yes
+|  No
+|  No
+|  Yes
+|  No
+|
+|-
+| 2012
+| ''[[Wikipedia:Torchlight II|Torchlight II]]''
+|  No
+|  No
+|  Yes
+|  No
+|  No
+|  No
+|  No
+|  No
+|  No
+|  No
+|  Cinematics only
+|-
+| 2013
+| ''[[Wikipedia:Don't Starve|Don't Starve]]''
+|  Yes
+|  Yes
+|  Yes
+|  No
+|  Yes
+|  Yes
+|  No
+|  Yes
+|  No
+|  No
+|Also on iOS
+|-
+| 2014
+| ''[[Wikipedia:Eets Munchies|Eets Munchies]]''
+|  Yes
+|  Yes
+|  Yes
+|  No
+|  No
+|  No
+|  No
+|  No
+|  No
+|  No
+|  Also on iOS
+|-
+| 2015
+| ''[[Wikipedia:Invisible, Inc.|Invisible, Inc]]''
+|  Yes
+|  Yes
+|  Yes
+|  No
+|  No
+|  No
+|  No
+|  Yes
+|  No
+|  No
+|
+|-
+| 2015
+| ''[[Wikipedia:Don't Starve Together|Don't Starve Together]]''
+|  Yes
+|  Yes
+|  Yes
+|  No
+|  No
+|  No
+|  No
+|  Yes
+|  No
+|  No
+|
+|-
+| 2019
+| ''[[Wikipedia:Hot Lava|Hot Lava]]''
+|  Yes
+|  Yes
+|  Yes
+|  No
+|  No
+|  No
+|  No
+|  No
+|  No
+|  No
+|
+|-
+| 2019
+| ''[[Wikipedia:Oxygen Not Included|Oxygen Not Included]]''
+|  Yes
+|  Yes
+|  Yes
+|  No
+|  No
+|  No
+|  No
+|  No
+|  No
+|  No
+|
+|-
+|}
+
+[[Category:Game]]

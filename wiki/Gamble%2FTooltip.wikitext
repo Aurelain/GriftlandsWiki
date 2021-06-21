@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Gamble</center>
+  |body=<center>Flip your coin.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

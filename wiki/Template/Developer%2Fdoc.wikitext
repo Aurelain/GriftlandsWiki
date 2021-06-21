@@ -1,0 +1,11 @@
+{{doc/start}}
+== Usage ==
+Edit this template to replace the name of the game developer in the [[:Category:Legal notices|legal notices]] and [[Template:Copyright game|copyright template]]. If you wish to also link to the developer's site, you can specify the site url as follows:
+
+:{{Tlx|Developer|https://game.site.com}}
+
+Result:
+:{{Developer|https://game.site.com}}
+
+Alternatively, you can simply remove the logic and hardcode the url in the template, rather than using the unnamed variable: <code><nowiki>{{{1}}}</nowiki></code>. This will link to the developer's site in all instances, rather than optionally.
+{{doc/end}}

@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Ability
+  |body=<center>Gain a condition for the rest of this battle.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

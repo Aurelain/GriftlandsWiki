@@ -1,0 +1,19 @@
+
+'''Factions''' are the various groups found throughout the Griftlands. Every character spoken to belongs to a faction and the faction determines what type of [[Relationships|relationship]] bonuses are gained from interacting with them.
+
+<!-- Leaving this stuff here as a list until I can create sub-categories and pages for each faction. 
+*[[Admiralty|The Admiralty]]
+*[[Bilebrokers]]
+*[[Boggers|The Boggers]]
+*[[Civilians|Civilian Laborers]]
+*[[Cult of Hesh|The Cult of Hesh]]
+*[[Grifters]]
+*[[Jakes|Jakes Smugglers]]
+*[[Rentorians]]
+*[[Rise|The Rise]]
+*[[Spark Barons|The Spark Barons]]
+*[[Spree|The Spree]]
+-->
+
+[[Category:Characters]]
+[[Category:Lore]]

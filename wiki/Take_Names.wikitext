@@ -1,0 +1,3 @@
+'''Take Names''' is one of the card key words.
+
+[[Category:Keywords]]

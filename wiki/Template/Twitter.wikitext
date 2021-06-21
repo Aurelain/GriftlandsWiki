@@ -1,0 +1,2 @@
+<includeonly><center><twitterfeed height="300" nofooter theme="dark" linkcolor="#3674b3">cursegamepedia</twitterfeed></center></includeonly><noinclude>{{doc}}
+[[Category:Templates|{{PAGENAME}}]]</noinclude>

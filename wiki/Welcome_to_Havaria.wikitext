@@ -1,0 +1,73 @@
+'''Welcome to Havaria''' is the introductory objective in [[Sal]]'s campaign.
+Sal arrives in the [[Grog n' Dog]] and talks to its owner, [[Fssh]].
+
+== Lost and Found ==
+Fssh will grant a choice between three out of the following starting bonuses, which were abandoned in the bar's lost and found:
+*[[File:Ic acquire combat.png|17px|link=]] '''War Stories:''' Draft 2 {{battle}} cards
+*[[File:Ic acquire negotiation.png|17px|link=]] '''Book of Kra'deshi Poems:''' Draft 2 {{negotiation}} cards
+*[[File:Ic levelup upgradecombat.png|17px|link=]] '''Training Manual:''' Upgrade a {{battle}} card
+*[[File:Ic levelup upgradenegotiation.png|17px|link=]] '''Faded Journal:''' Upgrade a {{negotiation}} card
+*[[File:Ic nav graft.png|17px|link=]] '''Slapdash Surgery:''' Add a {{battle}} graft slot
+*[[File:Ic nav graft.png|17px|link=]] '''Cranial Incision:''' Add a {{negotiation}} graft slot
+*[[File:Ic_nav_heal.png|17px|link=]] '''Rugged Compression Gear''' (max health +8 and max resolve +2)
+*[[File:Ic nav shills.png|17px|link=]] '''Coin Purse:''' Gain 100 {{shills}}
+*[[File:Ic nav give.png|17px|link=]] '''Boom Box:''' (contains any 2 of [[Lumin Grenade]], [[Spark Grenade]], [[Shrapnel Grenade]] or [[Crackler]])
+*[[File:Ic nav give.png|17px|link=]] '''Triage Kit:''' [[Healing Vapors]] x2
+*[[File:Ic nav give.png|17px|link=]] Receive [[Amnesiator]]
+
+
+Strategy note: If Fssh offers a card upgrade, the player can preview every random upgrade without needing to select that bonus.
+
+== Pick a Job ==
+
+Three generic NPCs owe Fssh a favor, and each offers Sal a job from the following list:
+
+* [[Another Day Older and Deeper in Debt]]
+* [[Asset Recovery]]
+* [[Attack Rival]]
+* [[Back Channel Negotiations]]
+* [[Bounty Hunter]]
+* [[Competing Bids]]
+* [[Debt Collection]]
+* [[Early Retirement]]
+* [[Friend or Fanatic]]
+* [[Hit the Beach]]
+* [[Internal Affairs]]
+* [[Repo Person]]
+* [[Recon in Force]]
+* [[Secret Shopper]]
+* [[Silence a Rival]]
+* [[Sing for your Supper]]
+* [[Travel Insurance]]
+
+The jobs have 3 different bonus rewards, which can be:
+
+* Bonus Money: Get a bonus payment of 30 {{shills}}
+* Remove a Card: Remove a card from one of your decks
+* Upgrade a Card: Upgrade a {{negotiation}} or {{battle}} card
+* Restoration: Restore 20 health or 10 resolve
+* Get a new card: Get an [[Items|Item]] or Unique card based on the quest or quest-giver
+
+== Night Merchants ==
+After completing two jobs, Fssh will tell you about night merchants and that she managed to invite two of them to the Grog n' Dog. There are four of them in total: [[Plocka]] 'The Swab', [[Phroluk]] 'Of the Beasts', [[Rake]] and [[Endo]]. Each one of them, if present, will give you a specific job to complete. When you choose one of them, the other one that was present will dislike you, which will raise his prices.
+
+NOTE: The merchant will only like you after completing the job for them
+
+The jobs are:
+
+* Help Phroluk defeat the grawkit without killing it ({{battle}})
+* Help Endo to kill some beasts ({{battle}})
+* Help Rake in dealing with an angry creditor ({{negotiation}} or {{battle}})
+* Help Plocka extract a graft from a customer that's behind the payment (optional {{negotiation}}) (NOTE: not doing the negotiation gives a random common graft and the customer will hate you)
+
+After completing the job, the person that you chose will lead you to the night market. The night market is only available at night. Each merchant offers different services and wares:
+
+* Endo sells {{negotiation}} cards or can also remove a {{negotiation}} card for payment once a day
+* Rake sells {{battle}} cards or can also remove a {{battle}} card for payment once a day
+* Plocka 'The Swab' sells {{battle}} and {{negotiation}} grafts and can also add graft slots for shills and health loss
+* Phroluk 'of the Beasts' sells various monster-related item cards and random pets each day. He can also upgrade or heal your current pet (NOTE: upgrading a pet won't make it trained, it will just increase their health and damage)
+
+== Boss Fight ==
+After you discover the night market, you'll need to go to the Grog n' Dog. There you will encounter [[Kashio]]. After exchanging some words, she'll depart, leaving her bodyguard to deal with you. Before fighting with him, you have a chance to convince the bouncer of the Grog n' Dog to fight with you. The bodyguard will either be [[Sparky]] or [[Jeol]]. After defeating the boss, you'll need to rest, which will restore your health and resolve and progress you to the next day.
+
+[[Category:Sal Quests]]

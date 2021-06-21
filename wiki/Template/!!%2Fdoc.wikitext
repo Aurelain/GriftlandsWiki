@@ -1,0 +1,15 @@
+{{doc/start}}
+'''Result''': <code><nowiki>||</nowiki></code>
+
+This template is used inside other templates when a double pipe symbol is required.
+
+This template can be used to parse templates correctly in tables.
+
+<pre>
+{| some table
+|- some row
+|some cell || {{sometemplate{{!!}}someparameter=somevalue}}
+|}
+</pre>
+
+{{doc/end}}

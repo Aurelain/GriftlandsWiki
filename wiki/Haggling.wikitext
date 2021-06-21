@@ -1,0 +1,9 @@
+If the player has one or more [[Haggle Badge]] boon, the player can haggle for additional quest reward when accepting side quests. talk to the quest giver, and you will enter a special negotiation with the giver.
+
+In this negotiation, the opponent has 10 base [[Resolve]], and creates '''Bonus''' bounties. It has "When destroyed, add [[Shills]] equal to the current stacks to your bonus. Reduce by 25% at end of your turn. When destroyed, the owner gains 1 impatience. <span style="color:red">If you lose the negotiation, you lose all bonuses!</span>". A small bonus bounty(25%~50% original quest reward, low resolve) is always created, and a large bonus bounty(50%~150% original quest reward, maximum 99, high resolve) is created for each [[Haggle Badge]] the player has.
+
+By default, the player gain a 10-[[Shills|Shill]] bonus if they win the negotiation, but the reward will increase if the player destroyed one or more bonus bounties.
+
+The bonus is added to the quest reward, so the player still has to complete the quest in order to gain the reward from this negotiation.
+
+[[Category:Game]]

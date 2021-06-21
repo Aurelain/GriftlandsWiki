@@ -1,0 +1,24 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Ability]], [[Counter]], [[Bleed]], [[Expend]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Barbed Dawn
+|upgrade2 = Savage Defense}}
+{{Quote|Nobody knows who designed the original razor-dust emitters but there have been many copycats.}}
+
+'''Barbed Defense''' is a 1-cost Uncommon '''Maneuver''' card for [[Sal]]. It adds the '''Ability''' to apply 2 '''Bleed''' on '''Counter attacks'''. It is '''Expended''' after being played.
+
+==Upgrades==
+After gaining 7 experience this card can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Barbed Dawn.png|150px]]
+|[[File:Savage Defense.png|150px]]
+|-
+![[Ambush]]
+!3 [[Bleed]]
+|}

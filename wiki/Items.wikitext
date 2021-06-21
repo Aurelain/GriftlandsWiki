@@ -1,0 +1,7 @@
+'''Items''' in [[Griftlands]] are typically limited use cards distinguished by their dark green color. Items can be purchased from merchants, received as bonus quest rewards and from limited time events, or can be found through random events while traveling between '''Points of Interest'''. Other special circumstances can produce items that shuffle them into your deck, such as certain boss actions. Killing an enemy will typically drop an item that can be taken or thrown away at the battle summary page.
+
+== List of items ==
+
+See: [[:Category:Items]]
+
+[[Category:Cards]]

@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Parasite</center>
+  |body=<center>Removing this card from your deck lowers your maximum health by 10.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

@@ -1,0 +1,4 @@
+{{copyrightbox
+|text=This image comes from ''{{gamename}}'' or from websites created and owned by {{publisher}} or {{developer}}, who hold the copyright of ''{{gamename}}''. All trademarks and registered trademarks present in the image are proprietary to {{publisher}}. For more information, see the [[Project:Copyrights|copyright notice]].<br/>The use of images to illustrate articles concerning the subject of the images in question is believed to qualify as '''[[Wikipedia:fair use|fair use]]''' under [[Wikipedia:United States copyright law|United States copyright law]], as such display does not significantly impede the right of the copyright holder to sell the copyrighted material.
+}}<noinclude>
+[[Category:Copyright templates]]</noinclude>

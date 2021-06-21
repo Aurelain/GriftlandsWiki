@@ -1,0 +1,34 @@
+{{Card
+|rarity = Basic
+|cardtype = Diplomacy
+|decktype = Negotiation
+|character = Sal
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Inspirational Talk
+|upgrade2 = Visionary Fast Talk
+|upgrade3 = Pale Fast Talk
+|upgrade4 = Stone Fast Talk
+|upgrade5 = Clarity Fast Talk}}
+{{Quote|You're just looking at it wrong. Here, let me step you through it...}}
+
+'''Fast Talk''' is a 1-cost Basic '''Diplomacy''' card for [[Sal]]. It deals 1-3 base damage. As a base card '''Fast Talk''' is always part of the available card pool for [[Sal]].
+
+==Upgrades==
+After accruing 6 experience '''Fast Talk''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Inspirational Talk.png|150px]]
+|[[File:Visionary Fast Talk.png|150px]]
+|[[File:Pale Fast Talk.png|150px]]
+|[[File:Stone Fast Talk.png|150px]]
+|-
+!Gain 1 [[Influence]]
+!Draw a card
+!Spend 1 [[Influence]]: This card costs 0 to play
+!Gain 3 [[Composure]]
+|-
+|[[File:Clarity Fast Talk.png|150px]]
+|-
+![[Destroy]]
+|}

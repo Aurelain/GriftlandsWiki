@@ -1,0 +1,39 @@
+{| class="infoboxtable"
+|-
+! colspan="2" class="infoboxname" |  {{{name|{{PAGENAME}}}}}
+|-
+{{#if: {{{image|}}} | ! colspan="2" {{!}} [[File:{{{image}}}|250x250px]] | {{#ifexist: File:{{PAGENAME}}.png | ! colspan="2" {{!}} [[File:{{{image|{{PAGENAME}}.png}}}|250x250px]] | {{#ifeq: {{NAMESPACE}} | Template | | [[Category:Infoboxes lacking images]]}} }} }}
+|-
+! colspan="2" class="infoboxdetails" | Details 
+|-
+{{#if: {{{set|}}} | {{!}} width=80 {{!}}<div>Set</div>{{!!}} {{{set}}} }}
+|-
+{{#if: {{{decktype|}}} | {{!}} width=80 {{!}}<div>Deck Type</div>{{!!}} {{{decktype}}} }}
+|-
+{{#if: {{{cardtype|}}} | {{!}} width=80 {{!}}<div>Card Type</div>{{!!}} {{{cardtype}}} }}
+|-
+{{#if: {{{keywords|}}} | {{!}} width=80 {{!}}<div>Key Words</div>{{!!}} {{{keywords}}} }}
+|-
+! colspan="2" class="infoboxdetails" | Upgrades
+|-
+{{#if: {{{upgradeable|}}} | {{!}} width=80 {{!}}<div>Upgradeable</div>{{!!}} {{{upgradeable}}} }}
+|-
+{{#if: {{{expreq|}}} | {{!}} width=80 {{!}}<div>Exp. Required</div>{{!!}} {{{expreq}}} }}
+|-
+{{#if: {{{upgrade1|}}} | {{!}} width=80 {{!}}<div>Upgrade 1</div>{{!!}} {{{upgrade1}}} }}
+|-
+{{#if: {{{upgrade2|}}} | {{!}} width=80 {{!}}<div>Upgrade 2</div>{{!!}} {{{upgrade2}}} }}
+|-
+{{#if: {{{upgrade3|}}} | {{!}} width=80 {{!}}<div>Upgrade 3</div>{{!!}} {{{upgrade3}}} }}
+|-
+{{#if: {{{upgrade4|}}} | {{!}} width=80 {{!}}<div>Upgrade 4</div>{{!!}} {{{upgrade4}}} }}
+|-
+{{#if: {{{upgrade5|}}} | {{!}} width=80 {{!}}<div>Upgrade 5</div>{{!!}} {{{upgrade5}}} }}
+|-
+{{#if: {{{upgrade6|}}} | {{!}} width=80 {{!}}<div>Upgrade 6</div>{{!!}} {{{upgrade6}}} }}
+|-
+{{#if: {{{upgrade7|}}} | {{!}} width=80 {{!}}<div>Upgrade 7</div>{{!!}} {{{upgrade7}}} }}
+|-
+{{#if: {{{upgrade8|}}} | {{!}} width=80 {{!}}<div>Upgrade 8</div>{{!!}} {{{upgrade8}}} }}
+|}<noinclude>{{clear}}{{doc}}
+[[Category:Infobox templates]]</noinclude>

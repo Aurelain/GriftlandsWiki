@@ -1,0 +1,31 @@
+{{Stub}}
+{{Card
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Seethe
+|upgrade2 = Visionary Seethe
+|character = Rook}}
+
+'''Seethe'''  is a 1-cost uncommon '''Hostility''' card for [[Rook]]. It has the effect "Create 1 heated. Discard this card: Add a copy of this card to your draw pile. expend."
+
+== Upgrades ==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Boosted Seethe
+|1
+|NA
+|Create 2 heated. Discard this card. Add a copy of this card to you draw pile. Expend
+|-
+|Visionary Seethe
+|1
+|NA
+|Create 1 heated. Discard this card. Add a copy of this card to your draw pile and draw a card. Expend
+|}

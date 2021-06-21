@@ -1,0 +1,3 @@
+'''Parasite''' is one of the card key words. It says "Removing this card from your deck lowers your maximum health by 10."
+
+[[Category:Keywords]]

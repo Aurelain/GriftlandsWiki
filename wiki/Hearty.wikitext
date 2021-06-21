@@ -1,0 +1,6 @@
+'''Hearty''' is a negotiation card, that can be obtained from the [[Wandering Chef]] event.
+
+it costs 0 energy and restores 5 resolve, also it has destroy.
+
+<br />
+[[Category:Negotiation cards]]

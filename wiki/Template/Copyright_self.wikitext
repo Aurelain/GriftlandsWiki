@@ -1,0 +1,4 @@
+{{copyrightbox
+|text=This file has been released into the '''[[Wikipedia:Public domain|public domain]]''' by the copyright holder, its copyright has expired, or it is ineligible for copyright. This applies worldwide.
+}}<noinclude>
+[[Category:Copyright templates|{{PAGENAME}}]]</noinclude>

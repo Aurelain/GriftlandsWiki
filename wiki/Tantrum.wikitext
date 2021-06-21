@@ -1,0 +1,30 @@
+{{Card
+|rarity = Rare
+|cardtype=Hostility
+|decktype= Negotiation
+|upgradeable=Yes
+|expreq = 7
+|upgrade1 = Boosted Tantrum
+|upgrade2 = Enhanced Tantrum
+|character = Rook}}
+
+'''Tantrum''' is a 1-cost '''Hostility''' card for [[Rook]]. It has the effect "Discard up to 2 cards, gain Dominance equal to their combined cost."
+
+==Upgrades==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Boosted Tantrum
+|1
+|NA
+|Discard up to 2 cards, gain Dominance equal to their combined cost +2
+|-
+|Enhanced Tantrum
+|1
+|NA
+|Discard up to 3 cards, gain Dominance equal to their combined cost.
+|}

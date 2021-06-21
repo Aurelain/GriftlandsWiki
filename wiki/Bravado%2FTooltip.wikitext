@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Bravado
+  |body=<center>This card deals bonus damage equal to the number of Hostility cards played in a row this turn.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

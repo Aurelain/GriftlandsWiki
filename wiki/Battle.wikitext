@@ -1,0 +1,470 @@
+{{stub}}
+
+ All game mechanics are subject to change/tweaking as the game is still in Alpha. Verification will be needed upon full release.
+
+'''Battles''' are the core gameplay of [[{{Gamename}}]] aside from [[Negotiation]]. '''Battles''' are fought by spending Action Points on cards to use attacks, inflict statuses, and prepare other actions such as gaining defense.
+
+== Health ==
+
+'''Health''' is a stat for every character, including the player character and NPCs. When a character's health drops to zero, they die and is out of the game. If the hero loses all health, they die, ending the current run. Players are given 1 chance to restart from the beginning of the current day if they die, but only if it's at least day 2.
+
+{| class="wikitable"
+!Icon
+!Name
+!Description
+|-
+|align="center" width="100pt"|[[File:Healthbar.png|100px]]
+|align="center" width="100pt"|Health Bar
+|width="700pt"|The fight ends and the Hero dies if their health reaches 0.
+|-
+|align="center" width="100pt"|[[File:Icon Damage.png|50px]]
+|align="center" width="100pt"|Damage
+|width="700pt"|Damage being dealt to a target's health is displayed above the character.
+|-
+|align="center" width="100pt"|[[File:HealthbarDefense .png|100px]]
+|align="center" width="100pt"|Defend
+|width="700pt"|Defend is a temporary stat applied to your health pool that resets to 0 at the start of each turn or is removed by attacks.
+|-
+|align="center" width="100pt"|[[File:Icon DamagePierce.png|50px]]
+|align="center" width="100pt"|Piercing
+|width="700pt"|Some attacks deal '''piercing damage''', signified by a yellow icon. '''Pierce''' bypasses armor and deals damage directly to HP.
+|-
+|align="center" width="100pt"|[[File:Icon_DamageStatus.png|50px]]
+|align="center" width="100pt"|Attack w/ Status
+|width="700pt"|Some enemy attacks apply status effects that directly impact health and the amount of damage you take each turn. This includes effects like Bleed and Wound.
+|-
+|align="center" width="100pt"|[[File:Icon StatusAttack.png|50px]]
+|align="center" width="100pt"|Status
+|width="700pt"|This attack deals no damage but is guaranteed to inflict a status effect unless evaded.
+|-
+|align="center" width="100pt"|[[File:Icon Dead.png|50px]]
+|align="center" width="100pt"|Lethal
+|width="700pt"|If incoming damage would result in death for the target, a red skull appears next to the damage numbers.
+|}
+
+'''Notes:'''
+*'''Resting''' at the inn each night fully restores your '''HP''' and '''Resolve''' but resting can only be done after completing each day's story.
+*'''[[Merchants]]''' sell limited use items that can restore health, such as [[Salve]] and [[Healing Vapors]].
+*The bartender at the player's home([[Fssh]] for [[Sal]], [[Hebbel]] for [[Rook]]) sells food to the player. Eating food cost some shills, but will restore 15 [[Health]] and add a [[Bloated]] card to the player's battle deck. The player cannot buy more food if they have 3 or more [[Bloated]] card in their deck.
+*Status damage from secondary sources (such as burn applied on a different enemy) won't flag death or surrender warnings. Be careful not to accidentally murder targets with these effects if you intend to let them surrender.
+
+== Panic and Surrender ==
+
+A secondary stat to '''Health''', '''Panic Meter''' is the point at which the character panics. When an enemy's health drops below this threshold, they will panic, and they will run away(if they are an animal) or surrender(If they are sentient). '''Morale''' is the opposite of '''Panic Meter''', and is only displayed whenever the panic meter changes.
+
+When a sentient character panics, they will '''Surrender''', and will be unable to act for 3 turns. After 3 turns, they will '''Rally''', healing some amount of health, reducing their panic threshold, and become '''Rallied'''(a status effect that lasts for the rest of the fight, and has "this character deals 25% more damage"). The player can then make this character panic again.
+
+When every fighter on a team either: is killed, runs away, panics, or is a quitter(but not if all fighters on a team are quitters at the start), that team becomes defeated. At this point, the battle ends, and the player can decide to execute any survivors that are still there, or spare the remaining fighters. The player is not required to kill every enemy in order to win a fight(and often this is better than killing everyone).
+
+{| class="wikitable"
+!Icon
+!Name
+!Description
+|-
+| align="center" width="100pt" |[[File:Icon Panic.png|50px]]
+| align="center" width="100pt" |Panic Meter
+| width="700pt" |The threshold that determines when an enemy surrenders is called the '''Panic Meter''' and displays above their health bar.
+|-
+| align="center" width="100pt" |[[File:Icon Surrender.png|50px]]
+| align="center" width="100pt" |Surrender
+| width="700pt" |Targets who take damage equal to or exceeding their panic level will surrender and temporarily cease to attack.
+|-
+| align="center" width="100pt" |[[File:Icon Quitter.png|50px]]
+| align="center" width="100pt" |Quitter
+| width="700pt" |Enemies who are quitters will stop fighting if all their non-quitter allies surrender or perish. Quitter is a common effect on drones.
+|-
+| align="center" width="100pt" |[[File:Dauntless.png|50px]]
+| align="center" width="100pt" |Dauntless
+| width="700pt" |Dauntless enemies cannot panic if there are other enemies in the encounter that are not panicking.
+|}
+
+'''Notes:'''
+
+*Not all characters have a panic meter. The player character doesn't have one, as well as mechs.
+*Most creatures and people will not fight to the death unless specific circumstances are present, such as successfully being provoked into a fight via negotiation when  hated.
+*Animals panic easily, causing them to flee battle but outright killing them will cause an item to drop. Dropping their health as close to the panic threshold then finishing them off with a big attack can be quite useful for gaining powerful cards early on in a run. ex. [[Carapace]]
+*Panic can be directly increased by using specific cards such as [[Crackler]].
+*While most enemies have low max HP and a panic threshold of around 25%, [[Grawkit|some enemies]] have very high HP pools but an even higher panic threshold %, making [[Bog Doom]] especially powerful against them.
+*If an attack round hits an enemy's panic threshold, the surrender flag will display next to the damage being dealt. Dealing any more damage is not required if you plan to force all enemies to surrender unless you want to murder that character.
+
+== Combat Strength ==
+
+Each character has a combat strength rating that acts as a rough estimate on their battle prowess and difficulty to defeat. When previewing a fight, combat strength is shown as a star rating of 1-5 stars above the character's portrait.
+
+Bosses will have "high threat" text above of their character portrait instead of the usual star rating when allied or fighting through other event. ( need confirmation ) 
+
+For a list of characters and their combat strength, see: [[Characters]]
+
+== Killing and Murdering ==
+Killing is not required to win a battle. However, sometimes the enemies are killed, either accidentally or on purpose, by the player or another character. Killing an enemy has the following effects:
+
+* The player is rewarded the victim's death loot if they have one.
+* Some [[Shills]] will drop if the victim is sentient. The amount dropped depends on the victim's [[Renown(NPC stat)|Renown]].
+* If the player kills the victim(either with direct damage, player-inflicted status effects like [[Bleed]], or with execution), it is considered '''Murdering''', and if the fight is not isolated, either one of the following diplomatic consequences will be applied to the player(chosen randomly):
+** A friend of the victim(a member in the same faction) will [[Relationships|hate]] the player, giving them their bane. The friend is random, and can be anyone who doesn't hate the player before(even those who [[Relationships|loves]] the player previously).
+** A [[:Category:Murder Cards|Murder Card]] will be added to the player's negotiation deck, representing their reputation. This is the default choice if there are no one in the same faction as the victim.
+
+Notes:
+
+* If you let someone else deals the lethal blow, it is not considered murdering, and you can profit from the benefit of this death without suffering from the severe consequences.
+* If you inflicted a status effect such as [[Bleed]], a teammate inflict that effect onto the same target, and the target dies from the effect, the teammate is considered the killer, because they last inflicted the effect.
+* If the player causes the death, but does not directly attack the victim(for example, killing someone by exploding a [[Spark Mine]]), it does not count as a murder.
+
+== Negative Status Effects ==
+
+Many battle cards and ally/enemy attacks apply status effects to their targets. Referred to in game as '''debuffs''', most '''statuses stack''' which increases the power of the effect. Some enemies inflict statuses when attacking your hero while others add status cards to the player's deck.
+
+{| class="wikitable"
+!Icon
+!Name
+!Description
+|-
+|align="center" width="100pt"|[[File:Icon Status Bleed.png|50px]]
+|align="center" width="100pt"|Bleed
+|width="700pt"|Deals 1 damage per stack at the start of the turn. Damage is dealt before an attack around. Stacks are reduced by 50% after damage is dealt (can be reduced to a 33% loss using a certain graft).
+|-
+|align="center" width="100pt"|[[File:Icon Status Burn.png|50px]]
+|align="center" width="100pt"|Burn
+|width="700pt"|Deals 1 damage per stack at the start of the turn, then deals 50% of that damage to all other characters on the same side of the field. All stacks are removed after the burn damage is dealt (can be reduced to 50% loss with scorch).
+|-
+|align="center" width="100pt"|[[File:Icon Status Cleaved.png|50px]]
+|align="center" width="100pt"|Cleaved
+|width="700pt"|When applied to an ally, Cleaved prevents bleed status cards from being expended. When applied to an enemy, bleed no longer decays. Cleaved loses 1 stack at the start of the round.
+|-
+|align="center" width="100pt"|[[File:Icon Status Cripple.png|50px]]
+|align="center" width="100pt"|Impair
+|width="700pt"|Reduces the damage dealt by the afflicted by 33% (can be boosted to 50% using a special graft). Cripple is reduced by 1 at the end of every turn.
+|-
+|align="center" width="100pt"|[[File:Icon Status Exposed.png|50px]]
+|align="center" width="100pt"|Exposed
+|width="700pt"|Reduces defense gain by 50%. Reduces stack count by 1 each round.
+|-
+|align="center" width="100pt"|[[File:Icon Status Fatigued.png|50px]]
+|align="center" width="100pt"|Fatigue
+|width="700pt"|Cards will no longer gain xp. Automatically is applied after (6?) turns of combat. This effect can be removed but will reapply.
+|-
+|align="center" width="100pt"|[[File:Icon Status Marked.png|50px]]
+|align="center" width="100pt"|Marked
+|width="700pt"|
+|-
+|align="center" width="100pt"|[[File:Icon Status PowerTemp.png|50px]]
+|align="center" width="100pt"|Temporary Power
+|width="700pt"|Lose power at the end of your turn equal to the temporary power amount. This status can be removed by the player, which allows the player to permanently gain power for the remainder of battle. 
+|-
+|align="center" width="100pt"|[[File:Icon Status Scorch.png|50px]]
+|align="center" width="100pt"|Scorch
+|width="700pt"|Any burn applied to a scorched target loses 50% of burn stacks rather than 100%. Scorch loses 1 stack at the end of every turn.
+|-
+|align="center" width="100pt"|[[File:Icon Status StingingEyes.png|50px]]
+|align="center" width="100pt"|Stinging Eyes
+|width="700pt"|
+|-
+|align="center" width="100pt"|[[File:Icon Status Trauma.png|50px]]
+|align="center" width="100pt"|Trauma
+|width="700pt"|Each time this target is attacked, it gains 1 trauma stack. At 10 stacks, the target becomes traumatized, stunning them for that round.
+|-
+|align="center" width="100pt"|[[File:Icon Status WeakPoint.png|50px]]
+|align="center" width="100pt"|Defect
+|width="700pt"|
+|-
+|align="center" width="100pt"|[[File:Icon Status Wound.png|50px]]
+|align="center" width="100pt"|Wound
+|width="700pt"|Increases damage taken by 1 per stack. Bonus is accumulative. Wound is reduced by 1 at the end of every turn.
+|}
+
+'''Notes:'''
+*Most statuses become exceedingly powerful when stacked to high amounts. Building a deck around 1 or 2 specific statuses is an efficient way to increase your chance of success.
+*On the flip side, building a deck with various statuses can create interesting synergies with cards like [[Cataclysm]] and [[Brain Tick]].
+*Most allies inflict specific statuses or have low damage multi-hit attacks. Pairing wound with multiple allies is particularly strong.
+
+== Positive Status Effects ==
+
+:Some status effects can be applied to your hero directly as a buff. Buffs can be gained in various ways such as from playing ability cards, [[Relationships#Banes and Boons|social boons]], and [[grafts]].
+
+=== Universal Buffs ===
+
+{| class="wikitable"
+!Icon
+!Name
+!Description
+|-
+|align="center" width="100pt"|[[File:Icon Buff Counter.png|50px]]
+|align="center" width="100pt"|Counter
+|width="700pt"|Deals attack damage equal to the amount of counter back to any attacker each time the target is hit.
+|-
+|align="center" width="100pt"|[[File:Icon Buff Evasion.png|50px]]
+|align="center" width="100pt"|Evasion
+|width="700pt"|The next attack on the target will be evaded. Evasion loses 1 stack at the start of your turn.
+|-
+|align="center" width="100pt"|[[File:Icon Buff Healing.png|50px]]
+|align="center" width="100pt"|Healing
+|width="700pt"|Target will restore HP at the start of their next turn.
+|-
+|align="center" width="100pt"|[[File:Icon Buff Power.png|50px]]
+|align="center" width="100pt"|Power
+|width="700pt"|Increases all damage dealt by 1 per power. Power lasts until the end of the fight unless removed.
+|-
+|align="center" width="100pt"|[[File:Icon Buff Rallied.png|50px]]
+|align="center" width="100pt"|Rallied
+|width="700pt"|Increases all damage by 25%. Panic is drastically reduced.
+|-
+|align="center" width="100pt"|[[File:Icon Buff Targeted.png|50px]]
+|align="center" width="100pt"|Targeted
+|width="700pt"|All allies will only target this enemy.
+|}
+
+=== Sal Buffs and Abilities ===
+
+{| class="wikitable"
+!Icon
+!Name
+!Type
+!Description
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Barbed Defense]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Your ounter attacks apply 2 stacks of Bleed.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Boulder Stance]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Gain 1 Defense whenever you play a card.
+|-
+|align="center" width="100pt"|[[File:Icon Buff Combo.png|50px]]
+|align="center" width="100pt"|[[Sal#Combo and Finishers|Combo]]
+|align="center" width="70pt"|Resource
+|width="630pt"|An expendable resource used by '''finishers'''. Half of your combo is lost whenever you take unmitigated damage.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Deepstance]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Counter attacks apply 1 wound.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Efficient Disposal]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Deal 2 damage to a random enemy each time you discard a card.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Hemophage]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Heal for 1 whenever you apply a Bleed.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Inside Fighting]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Gain 1 combo each time you attack.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Into the Night]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Gain 1 Defense whenever you discard a card.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Ravenous]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Heal for 6 HP whenever an enemy dies.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Shadow Mastery]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Gain 1 temporary power each time you discard a card.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Spines]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Gain 1 counter any time you gain Defense.
+|-
+|align="center" width="100pt"|[[File:Icon Buff VitalStrikes.png|50px]]
+|align="center" width="100pt"|[[Vital Strikes]]
+|align="center" width="70pt"|Buff
+|width="630pt"|Attacks apply 1 wound for the rest of your turn.
+|}
+
+=== Rook Buffs and Abilities ===
+
+{| class="wikitable"
+!Icon
+!Name
+!Type
+!Description
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Backfire]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Gain 1 counter per stored charge at the end of your turn. (need confirmation if overcharge adds counter)
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Blinders]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Apply 1 '''Mark''' to a random enemy each time you spend charge. (Need to verify how this works with Fan the Hammer)
+|-
+|align="center" width="100pt"|[[File:Icon Charge.png|70px]]
+|align="center" width="100pt"|[[Rook#Charge|Charge]]
+|align="center" width="70pt"|Resource
+|width="630pt"|Pistol charges are used to add additional effects to some cards. Building charge above Rook's max charge capacity grants '''overcharge'''. Rook gains 1 '''defense''' at the end of his turn for each empty charge cell.
+|-
+|align="center" width="100pt"|[[File:Icon Buff Concentrate.png|50px]]
+|align="center" width="100pt"|Concentration
+|align="center" width="70pt"|Buff
+|width="630pt"|Increases the minimum damage of any attack card by 1 per stack. Rook loses half of his concentration each time he takes unmitigated damage.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Induction]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Draw a card whenever you spend Overcharge.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Muddle]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Gain 2 Defense whenever you apply a debuff to an enemy.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Offset]]
+|align="center" width="70pt"|Ability
+|width="630pt"|All of your attacks deal +2 damage if the target has a debuff.
+|-
+|align="center" width="100pt"|[[File:Icon Overcharge.png|50px]]
+|align="center" width="100pt"|[[Rook#Charge|Overcharge]]
+|align="center" width="70pt"|Resource
+|width="630pt"|Overcharge increase Rook's damage by 1 for each stack. Rook loses 50% of his overcharge (rounded down) at the end of his turn.
+|-
+|align="center" width="100pt"|[[File:Icon Ability Readied.png|50px]]
+|align="center" width="100pt"|[[Readied]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Gain 2 concentration each time you fully mitigate an attack.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Scatterphase]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Whenever you gain charge deal 2 damage to a random enemy.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Tank]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Gain 2 counter whenever you gain charge.
+|}
+
+=== Smith Buffs and Abilities ===
+
+{| class="wikitable"
+!Icon
+!Name
+!Type
+!Description
+|-
+|align="center" width="100pt"|[[File:Icon Buff Alleviate.png|50px]]
+|align="center" width="100pt"|[[Smith#Alleviate|Alleviate]]
+|align="center" width="70pt"|Buff
+|width="630pt"|Heals Smith from self-induced damage up to the full amount of Alleviate. Smith loses all Alleviate at the end of each turn. Does not heal back counter damage, etc.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Hoarder]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Keep up to 2 empty bottles in your hand at the end of your turn rather than discarding them.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|[[Masochist]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Whenever you take damage on your own turn, gain 1 temporary power.
+|-
+|align="center" width="100pt"|[[File:Icon Moxie.png|70px]]
+|align="center" width="100pt"|[[Smith#Moxie|Moxie]]
+|align="center" width="70pt"|Resource
+|width="630pt"|Randomly heals Smith up to the full amount of Moxie each turn. Smith loses half of his Moxie each turn, down to a minimum of 2. 
+|-
+|align="center" width="100pt"|[[File:Icon Ability Ratpack.png|50px]]
+|align="center" width="100pt"|[[Packrat]]
+|align="center" width="70pt"|Ability
+|width="630pt"|Adds an empty bottle to your hand each turn.
+|}
+
+=== Hostile Enemy Buffs ===
+
+:There are numerous unique buffs enemies can have in {{gamename}}. Some can safely be ignored, while others will make fights extremely difficult if not taken into account when planning turns.
+
+{| class="wikitable"
+!Icon
+!Name
+!Description
+|-
+|align="center" width="100pt"|[[File:Icon Trait Bilebroker.png|50px]]
+|align="center" width="100pt"|Chemist
+|width="700pt"|Attacks by this enemy have random effects. See: [[Bilebroker]]
+|-
+|align="center" width="100pt"|[[File:Icon Trait Flead.png|50px]]
+|align="center" width="100pt"|Chitinous
+|width="700pt"|The target enemy will gain (X) defense at the start of each turn. 
+|-
+|align="center" width="100pt"|[[File:Icon Trait Formation.png|50px]]
+|align="center" width="100pt"|Formation
+|width="700pt"|Grants all allies (X) defense at the end of the turn if this target did not take damage this turn.
+|-
+|align="center" width="100pt"|[[File:Icon Trait Jarackle.png|50px]]
+|align="center" width="100pt"|Jarackle's Instinct
+|width="700pt"|Gains 1 power at the start of battle.
+|-
+|align="center" width="100pt"|[[File:Icon Trait Jetpack.png|50px]]
+|align="center" width="100pt"|Jetpack
+|width="700pt"|Dealing (X) damage to this target prevents their attack for 1 turn.
+|-
+|align="center" width="100pt"|[[File:Icon Trait Kradeshi.png|50px]]
+|align="center" width="100pt"|Kra'deshi Regeneration
+|width="700pt"|Target heals for (X) at the end of the round.
+|-
+|align="center" width="100pt"|[[File:Icon Trait Krill.png|50px]]
+|align="center" width="100pt"|Anger
+|width="700pt"|Gains 1 power every time it's attacked. Periodically purges status effects.
+|-
+|align="center" width="100pt"|[[File:Icon Trait LastStand.png|50px]]
+|align="center" width="100pt"|Last Stand
+|width="700pt"|Target deals +25% damage when below 50% HP.
+|-
+|align="center" width="100pt"|[[File:Icon Trait Metallic.png|50px]]
+|align="center" width="100pt"|Metallic
+|width="700pt"|Target cannot be bled or wounded. Pierce does double damage.
+|-
+|align="center" width="100pt"|[[File:Icon Buff Multitudes.png|50px]]
+|align="center" width="100pt"|Multitudes
+|width="700pt"|If this enemy flees, another will replace it.
+|-
+|align="center" width="100pt"|[[File:Icon Trait Nimble.png|50px]]
+|align="center" width="100pt"|Nimble
+|width="700pt"|Target gains 1 evasion at the start of their turn.
+|-
+|align="center" width="100pt"|[[File:Icon Buff Opportunistic.png|50px]]
+|align="center" width="100pt"|Opportunistic
+|width="700pt"|Gain 3 power after taking damage from an attack.
+|-
+|align="center" width="100pt"|[[File:Icon Trait Shroke.png|50px]]
+|align="center" width="100pt"|Shroke Skin
+|width="700pt"|Gain 3 defense the first time taking damage each turn.
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|
+|width="700pt"|
+|}
+
+== Status Cards ==
+
+:'''Status cards''' are unique cards identified by their yellow border. Performing certain actions like drinking alcohol and eating food, while restoring resolve or HP, also adds status cards to your deck. Some boss and enemy attacks will also add status cards to your deck. Status cards are generally 1 time use (expend) that can be played to remove them from your deck and are meant to bloat your deck, but some also have an immediate negative effect upon drawing them. By default, resting at night removes all status cards from your deck.
+
+:'''See:''' [[Cards#Status Cards|Status Cards]]
+
+== Grafts ==
+
+:'''[[Grafts]]''' are items that are equipped and grant various buffs. '''Grafts''' can be purchased through the Black Market, gained as a reward from quests and random events, or dropped by bosses. Grafts are the only method a player can gain additional permanent '''Action Points'''.
+
+== Running Away ==
+
+:Players are given the option to run from fights. The player can run from many battles, including side quests and events.
+:Running away from the fight takes one turn, and must be decided at the beginning of the turn, after turn 3. After the enemy finishes their actions, the player runs away, and live to grift another day.
+:Running away has severe consequences:
+:* All party members will leave the party.
+:* Sentient allies will dislike you for abandoning them.
+:* The player gains a [[Coward]] card.
+:* The player may fail any active side quests.
+
+The player cannot run away from main quests.
+[[Category:Game]]

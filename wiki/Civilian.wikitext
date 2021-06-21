@@ -1,0 +1,221 @@
+{{Infobox custom|name=Civilian|image=Civilian_Emblem.png|row1 label=V.I.P(s)|row1 data=Foolo|row2 data=Everywhere|row2 label=Territory|row3 label=High Class Titles|row3 data=Dilettante, Wealthy Merchant, Foreman, Bartender, Downtrodden Merchant|row4 data=Laborer, Heavy Laborer|row4 label=Low Class Titles}}
+
+'''Civilians''' are a faction found everywhere in Havaria. While they are, by definition, factionless, they aid each other in negotiations and in combat. Civilians can be found everywhere, in workplaces, in shops, and at bars.
+
+Civilians have two classes: the wealthy and the poor. Civilians within the same wealth class will support each other in combat.
+
+== Members ==
+{| class="wikitable"
+|+
+High Class Civilians
+!Name
+!Title
+!Race
+!Description
+!Appearance
+|-
+|Foolo
+|Dilettante
+|Kra'deshi
+|[none]
+|
+|-
+|Irkrow
+| rowspan="4" |[[Bartender]]
+| rowspan="2" |Jarackle
+|A good bartender knows how to fix a drink. The better bartender knows how to fix a fight. Irkrow does both.
+|[[File:Irkrow.jpg|125px]]
+|-
+|Wrux
+|Wrux has never met a paying customer he didn't have patience for.
+|[[File:Wrux.jpg|125px]]
+|-
+|Koqy
+|Shroke
+|The Heshians say good food brings you closer to the divine. Koqy could be a priest
+|[[File:Koqy.jpg|125px]]
+|-
+|Rug
+|[[Kra'deshi]]
+|Where Rug walks, flavor follows, which is a sad consequence of a seasoned pouch full of bullet holes.
+|
+|-
+|Shel
+|Downtrodden Merchant
+|Human
+|Shel has a glint in her eye so sharp you could shuck an oyster off it.
+|[[File:Shel.jpg|125px]]
+|-
+|Sentru
+| rowspan="3" |[[Foreman]]
+|Shroke
+|Just because Sentru's in charge, doesn't mean the labor's any lighter.
+|[[File:Sentru.jpg|125px]]
+|-
+|Del
+|Human
+|Word is, Del fights for his workers. But nobody's ever really selfless in the griftlands, right?
+|[[File:Del.jpg|125px]]
+|-
+|Gode
+|Kra'deshi
+|Like most foremen, Gode prefers folks who can get the job done.
+|
+|-
+|Allyn
+| rowspan="6" |[[Wealthy Merchant]]
+|Shroke
+|Allyn's prices are fair, even when the skies aren't.
+|[[File:Allyn.jpg|125px]]
+|-
+|Lili
+| rowspan="2" |Human
+|Word is, Lili would sell hiw own grandmother if he thought he could buy her back at half price next week.
+|[[File:Lili.jpg|125px]]
+|-
+|Onnawor
+|You get the feeling Onnawor would do anything to turn a profit.
+|[[File:Onnawor.jpg|125px]]
+|-
+|Bennawem
+| rowspan="3" |Kra'deshi
+|He speaks with a Deltrean accent, implying he was born on the mainland.
+|[[File:Bennawem.jpg|125px]]
+|-
+|Ellomen
+|Ellomen's head for business is famous throughout [[Murder Bay]]. But so is her lack of nerve.
+|
+|-
+|Takt
+|Despite her name, Takt has none.
+|[[File:Takt.jpg|125px]]
+|}
+{| class="wikitable"
+|+<blockquote>Low Class Civilians</blockquote>
+!Name
+!Title
+!Race
+!Description
+!Appearance
+|-
+|Grumph
+| rowspan="2" |[[Oshnu Wrangler]]
+|Human
+| rowspan="2" |N/A
+|[[File:Grumph.jpg|125px]]
+|-
+|Ptchu
+|Jarackle
+|[[File:Ptchu.jpg|125px]]
+|-
+|Gumthow
+| rowspan="2" |[[Poor Merchant]]
+| rowspan="2" |Human
+| rowspan="2" |N/A
+|
+|-
+|Veerox
+|[[File:Veerox.jpg|125px]]
+|-
+|Chake
+| rowspan="6" |[[Heavy Laborer]]
+| rowspan="3" |Human
+|The laborer rubs his elbows like it's been ten years since they run out of grease.
+|[[File:Chake.jpg|125px]]
+|-
+|Orug
+|Whether it's heavy lifting or heavy hitting, Orug's not afraid to get heavy
+|[[File:Orug.jpg|125px]]
+|-
+|Pluk
+|Between the fuel stains and the fire in her eyes, it's easy to see a bit of yourself in Pluk.
+|[[File:Pluk.jpg|125px]]
+|-
+|Erbla
+| rowspan="2" |Jarackle
+|You might call Erbla radiant, but that's probably just the radiation.
+|[[File:Erbla.jpg|125px]]
+|-
+|Snack
+|N/A
+|[[File:Snack.jpg|125px]]
+|-
+|Gura
+|Shroke
+|If the strain in his brow is anything to go by, Gura might be open to a new line of work.
+|[[File:Gura.jpg|125px]]
+|-
+|Brill
+| rowspan="7" |[[Laborer]]
+| rowspan="3" |Jarackle
+|You wouldn't want Brill's job. But then, neither does Brill.
+|[[File:Brill.jpg|125px]]
+|-
+|Toeren
+|Toeren has the face of someone hard done by and almost done.
+|[[File:Toeren.jpg|125px]]
+|-
+|Viss
+|The life expectancy of the average laborer in Havaria isn't long. And Viss looks twice that old.
+|[[File:Viss.jpg|125px]]
+|-
+|Veep
+|Human
+|By the callouses on his hand and the heavy sigh on his lips, it's clear Veep has been worked to the bone
+|[[File:Veep.jpg|125px]]
+|-
+|Ekel
+|Shroke
+|Ekel's made a reputation of keeping her chin up and taking the blows that come her way. Not sure that's a reputation anyone should want, really.
+|
+|-
+|Pazlock
+| rowspan="4" |Kra'deshi
+|Some folks look like they can handle the rough life more than others. Pazlock? Yeah, he'll do.
+|[[File:Pazlock.jpg|125px]]
+|-
+|Yibbit
+|The hard times have taken their toll on Yibbit — but Yibbit doesn't seem to mide
+|[[File:Yibbit.jpg|125px]]
+|-
+|Meeni
+| rowspan="2" |Promoted Laborer
+|N/A
+|[[File:Meeni.jpg|125px]]
+|-
+|Reeni
+|In true Havarian fashion, Reeni's promoted status seems to have been prompted by something other than her lackluster work ethic.
+|[[File:Reeni.jpg|125px]]
+|}
+
+== Civilian Titles ==
+
+=== High Class ===
+
+==== Wealthy Merchant ====
+Wealthy Merchants are rich people who earned their money through trading, debt-broking, and other profitable activities. They are most often found in shops or on the road. Wealthy Merchants' '''Negotiation''' strategy is not actually hard to beat. However, they can easily drain you of your shills due to their Core Argument, which place cards in your deck that cost money to play, and also take up valuable space for other cards. In '''Combat''' , Wealthy Merchants throw a variety of grenades and mixtures to provide a variety of status effects to the enemy team. An enemy-exclusive attack is the Oshnu Bile Grenade, which only targets the player. This gives the Oshnu Stinging Eyes debuff, causing the player to target a random opponent whenever they attack.
+
+Foolo the Dilettante is mechanically similar to Wealthy Merchants.
+
+==== Foreman ====
+Foremen are people who overseer the work of Laborers and Heavy Laborers, ensuring that their work is kept at peak efficiency. They are usually located in workplaces, where they can command Laborers to do their job. The '''Negotiation''' strategy of the Foreman is to create several low-health arguments to slowly chip away at the player's Resolve. This is made harder by the fact that their Core Argument causes damage spilled-over from attacking their arguments to target the player instead. If forced to resort to '''Combat''', Foremen wield a simple pistol, which needs a reload whenever they attack a number of times. In between, Foremen can also attack with the blade on their pistol, albeit with weaker damage.
+
+==== Bartender ====
+Bartenders are merchants who sell food, drink, and sometimes drugs. Their usual location is, obviously, in bars. In negotiations, their Core Argument gets composure for each manipulation card you play. Periodically, they may get a "chaser" bounty which restores some resolve if you destroy it, at the cost of putting tipsy cards in your deck. In combat, they use a powerful shotgun attack which hits all opponents, but requires reloading between attacks. 
+
+=== Low Class ===
+
+==== Laborer ====
+Laborers are poor people who work to earn money, or are forced to do it for free. They are usually found in shops and workplaces, working for whoever's in charge. In a '''Negotiation''', the Laborer's Core Argument gives it 2 Composure every time the player creates an argument. In '''Combat''', Laborers use a pipe to Whack enemies, slowly buffing themselves with more power over time.
+
+==== Promoted Laborer ====
+<br />
+
+==== Heavy Laborer ====
+<br />
+== Trivia ==
+
+* Civilians are one of two factions that do not have a Boss, the other being the Bilebrokers.
+
+[[Category:Stubs]]
+[[Category:Factions]]

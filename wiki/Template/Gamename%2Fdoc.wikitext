@@ -1,0 +1,4 @@
+{{doc/start}}
+== Usage ==
+This template is used in the [[:Category:Legal notices|Legal notices]]. It takes the wiki <code><nowiki>{{SITENAME}}</nowiki></code> magic word and strips out the word "Wiki" leaving just the game name. In most instances this works perfectly. However, if your wiki's name doesn't match up with the game name, simply change this template to insert the text and/or links you want.
+{{doc/end}}

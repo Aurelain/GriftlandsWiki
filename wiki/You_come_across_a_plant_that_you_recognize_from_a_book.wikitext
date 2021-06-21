@@ -1,0 +1,25 @@
+== Taste the leaves ==
+Heal 5 Resolve
+
+If more than one is selected, Gain negotiation card: Horrible Rash
+== Taste the berries ==
+Nothing  
+
+If more than one is selected, Gain negotiation card: Horrible Rash
+== Taste the flowers ==
+Heal 5 Resolve 
+
+If more than one is selected, Gain negotiation card: Horrible Rash
+
+
+
+First Flower - Next Leaves = 10 heal and get card
+
+First Leaves - Next any = 5 heal and get card
+
+First berries - Next any = 5 heal and get card
+
+
+Horrible Rash
+
+Horrible Rash is a unique status card that applies Flustered when drawn.

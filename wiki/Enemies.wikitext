@@ -1,0 +1,68 @@
+{{stub}}
+
+'''Griftlands''' features a variety of different types of enemies to fight. Enemies can be broken down into 3 groups: Creatures, Humanoids, and Robots.
+
+== '''Creatures''' ==
+
+*[[Erchin]]
+*[[AutoDog|Feral AutoDog]]
+*[[Flead]]
+*[[Grawkit]]
+*[[Grout Knuckle]]
+*[[Oshnu]]
+*[[Vroc]]
+*[[Yote]]
+*[[Lumicyte]]
+
+== '''Robots''' ==
+
+*[[AutoDog|AutoDog]]
+*[[Automech|Automech Enforcer]]
+*[[Bossbit]]
+*[[Automech|Cobblebot]]
+*[[AutoDog|Cobbledog]]
+*[[Drone|Combat Drone]]
+*[[Drone|Support Drone]]
+
+== '''Humanoids''' ==
+'''Special Humanoids:'''
+
+*[[Arint]]
+*[[Flekfis]]
+*[[Kashio]]
+*[[Nadan]]
+*[[Oolo]]
+*[[Eonwe]]
+*[[Sparky]]
+*[[Jeol]]
+*[[Hanbi]]
+*[[Zyn]]
+*[[Threekwa]]
+*[[Glofriam]]
+
+'''Normal Humanoids:'''
+
+*[[Bartender]]
+*[[Dilettante]]
+*[[Downtrodden Merchant]]
+*[[Heavy Laborer]]
+*[[Laborer]]
+*[[Wealthy Merchant]]
+
+
+*[[Clerk]]
+*[[Coin Trader]]
+*[[Goon]]
+*[[Guard]]
+*[[Patrol Leader]]
+*[[Promoted Goon]]
+*[[Weaponsmith]]
+
+
+*[[Auctioneer]]
+*[[Luminari]]
+*[[Priest]]
+*[[Zealot]]
+
+<br />
+[[Category:Game]][[Category:Characters]][[Category:Enemies]]

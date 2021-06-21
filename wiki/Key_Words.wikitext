@@ -1,0 +1,75 @@
+{{stub}}
+
+ All game mechanics are subject to change/tweaking as the game is still in Alpha. Verification will be needed upon full release. 
+
+'''Key Words''' are the names assigned to specific card effects. Most cards have at least 1 '''key word''', with some having 3 or more. Upgrading a card typically alters the key word(s) in some way, by either adding, changing, or removing a key word. This mechanic allows players to customize their decks as they play to better fit their play-style or deck strengths.
+In addition to the '''Generic key words''', each character has '''Hero specific key words''' that are unique to their cards.
+
+=== Generic Key Words ===
+
+:*'''Draw''': Adds a card from your draw pile to your hand.
+:*'''Replenish''': When drawn, this card draws another card immediately.
+:*'''Improvise''': Generates three random cards for the player to choose 1 of to add to their hand. Similar to the "Discover" mechanic in Hearthstone.
+:*'''Improvise+''': Like Improvise, but you get to choose from five cards instead.
+:*'''Discard''': Discarding a card adds it to your discard pile and allows it to be shuffled and redrawn once your deck runs out of cards.
+:*'''Expend''': When played this card is removed from your deck until the end of battle.
+:*'''Destroy''': When played this card is permanently removed from your deck. This mechanic can be used to "thin" your deck and remove undesirable cards. Some basic card upgrades and most items have destroy as a key word.
+:*'''Ability:''' Gain a condition for the rest of battle.
+:*'''Ambush:''' Automatically placed in your hand st the start of battle/negotiation.
+:*'''Hatch:''' When this card reaches full xp, it is destroyed and triggers a special event.
+
+=== Generic Battle Key Words ===
+
+:*'''Defense:''' Prevents attack damage for this turn.
+:*'''Impair:''' Attack damage by this target is reduced by 33%. At the beginning of their turn, reduce Impair by 1.
+:*'''Wound:''' Attacks inflict 1 bonus damage on this target. At the beginning of their turn, reduce Wound by 1.
+:*'''Power:''' Attack damage is increased by 1.
+:*'''[[Bleed]]''': At the beginning of their turn, take damage equal tu the count of bleed, then halve bleed count (rounded down).
+:*'''Piercing:''' Ignores damage blocked by defense
+:*'''Panic:''' You can choose to win the battle if all enemies Panic. A fighter with Panic cannot act, and reduces their Panic by 1 at the end of the turn.
+
+=== Generic Negotiation Key Words ===
+
+:*'''Composure:''' Reduce resolve loss for one turn.
+:*'''Influence:''' All Diplomacy cards deal maximum damage. Influence is an argument with 2 resolve.
+:*'''Vulnerability:''' All resolve loss is increased by 1. Remove 1 stack at the start of your turn.
+:*'''Dominance:''' Hostility cards deal an additional +1 damage. Remove 1 stack at the start of your turn. Dominance is an argument with 2 resolve.
+
+=== Sal Battle Key Words ===
+
+:*'''[[Combo]]:''' Combo points are accumulated until they are spent by a Finisher. Lose half your Combo whenever you take damage.
+:*'''Finisher:''' Finishers spend all Combo points to enact powerful effects.
+:*'''Counter:''' Deal 1 damage back to the enemy when hit. Remove all Counter at the beginning of your turn.
+
+=== Sal Negotiation Key Words ===
+
+:*'''Incept:''' This effect is added to your opponent's arguments.
+:*'''Smarts:''' Gain an extra action at the start of your turn, then reduce Smarts by 1.
+:*'''Evoke:''' Once per turn, play this card for free from whereever it is when the specified requirements are met.
+<!--Need confirmation if Incept is Sal exclusive-->
+
+=== Rook Battle Key Words ===
+
+:*'''Concentration:''' Increases minimum damage of all attacks by 1. Halve your Concentraition when you take enemy damage.
+:*'''Burn:''' At the start of your turn, take damage equal to the stack of Burn and deal half as much to all allies. Remove all Burn.
+:*'''Scorched:''' Whenever Burn is triggered, remove 1 Scorched and half your Burn instead of removing all Burn.
+:*'''Ricochet:''' Whenever this target takes damage by an attack, deal that much damage to a random enemy target and reduce Ricochet by 1.
+:*'''Charge:''' Rook can store Charge in his empty cells. Charge can be used by certain card for additional effects.
+:*'''Overcharge:''' Increases max damage of all cards by 1 for each stack of Overcharge. Gaining Charge while Fully Charged generates Overcharge instead. Reduce Overcharge by half at the end of your turn.
+:*'''Mark:''' When you attack this target gain 1 Charge and reduce Mark by 1.
+:*'''Scanned:''' Whenever you attack this target, draw 1 card.
+
+=== Rook Negotiation Key Words ===
+*'''Gamble:''' Flip your Lucky Coin
+*'''Rig:''' Guarantees the result of your next gamble. Only one outcome can be rigged at a time.
+*'''Prepared:''' A card is Prepared if it is the left-most card in your hand.
+*'''Prepare:''' Choose a card in your hand and move it to the prepared (left-most) position.
+
+=== Smith Battle Key Words ===
+:*'''Moxie'''
+
+=== Smith Negotiation Key Words ===
+:*'''Renowned'''
+
+
+[[Category:Game]]

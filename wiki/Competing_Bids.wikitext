@@ -1,0 +1,50 @@
+Competing Bids is a quest in Sal's campaign.
+
+== Characters ==
+
+''I'm unsure of the exact faction options for each role, or if they can be completely random.''
+* Questgiver: Random [[Admiralty]] (Clerk?)
+* Target: Random (at least both [[Rise]] and [[Cult of Hesh]])
+* Informant: Random [[Civilian]] Laborer
+* Competitor: Random (at least both [[Jakes]] and [[Cult of Hesh]])
+
+== Story ==
+
+The questgiver wants you to hire and capture a bounty, and directs you to a bar to find them. The informant knows the target's location, though isn't willing to give it up easily. Here, you meet another hunter looking for the same bounty, and can choose to team up with them. Once you find info on the target's whereabouts, you can capture/kill them. On your way back to the questgiver, you'll encounter the competitor if they aren't working with you.
+
+== Options ==
+
+''If you know the result of actions I haven't completed, you can fill them in. Also, if you know a better way to format things, feel free.''
+
+==== The Bar ====
+
+* '''Convince the competitor to work with you:''' (Negotiation, see quest variations)
+* '''Intimidate the informant:''' (Negotiation, [[Intimidation]], the competitor is a heckler, The informant will dislike you)
+* '''Attack the informant:''' (Combat, The informant will dislike you)
+''unsure of results if informant is killed, quest likely failed''
+
+==== Target's Hiding Place ====
+* '''Intimidate them to come peacefully:''' (Negotiation, [[Intimidation]], the target will dislike you)
+* '''Take them by force:''' (Combat, the target will dislike you)
+
+==== Competitor Confronts You ====
+* '''Convince them to come peacefully:''' (Negotiation, ''unsure if intimidation'')
+* '''Defend yourself and your bounty:''' (Combat)
+* '''Give up the target:''' (''unsure of results, quest likely failed'')
+''unsure of results if your target is dead''
+
+==== End of Quest ====
+* '''Turn in the target:''' (End quest, receive rewards. Questgiver likes you, target hates you if alive)
+
+== Quest Variations ==
+If you convince your competitor to help, they'll assist you during the encounters with the informant and the target. You skip the encounter with them later, though at the end of the quest, you need to decide how much to pay them. ''unsure of what happens if they die helping you''
+
+* '''Generous Pay:''' (Lose most of the reward money, the competitor loves you)
+* '''Fair Pay:''' (Lose half of the reward money, the competitor likes you)
+* '''No pay:''' (the competitor hates you)
+
+== Strategy ==
+* Generally, it's good to pay the competitor well, as it's much cheaper than normally getting their boon.
+* Before taking this quest, check the target's role and see if you're willing to take their bane.
+
+[[Category:Quests]]

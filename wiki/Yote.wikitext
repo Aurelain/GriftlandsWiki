@@ -1,0 +1,35 @@
+{{stub}}
+[[File:Vroc during the Dialogue.png|center|frameless]]
+
+The '''Yote''' is an animal that can be encountered in {{gamename}}. Short for '''Crayote''', Yotes are fierce scavengers and will occasionally attack travelers. They are sometimes captured and trained as attack animals by Spree and Grifters. 
+
+For Pet Yotes, see: [[Pets#Crayote|Pet Crayote]]
+
+
+
+== Variations ==
+
+'''Yotes''' come in different forms, each with different attacks and stats. '''Wild Yotes''' are the most common variation found in [[Murder Bay]], while '''Spitting Yotes''' are fairly common in [[Grout Bog]].
+
+=== Wild Yote ===
+
+:Abilities/Attacks:
+:*Bristle - Gains 2 power for the first use or 2 '''defense''' if used more than once
+:*Savage Bite - Deals 3-4 '''damage''' twice
+:*Gnaw - Deals ~6 damage and applies 2 '''bleed'''
+
+=== Horned Yote ===
+
+:Abilities/Attacks:
+:*Information needed
+
+=== Spitting Yote ===
+
+:Abilities/Attacks:
+:*Information needed
+
+== Trivia ==
+:Yotes are almost never found roaming alone and sometimes attack in packs >4.
+:Yotes are seemingly quite intelligent, being able to understand basic verbal commands and emotions from their owner.
+
+[[Category:Enemies]]

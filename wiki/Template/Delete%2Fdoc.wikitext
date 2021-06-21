@@ -1,0 +1,16 @@
+{{doc/start}}
+This template will add tagged pages to [[:Category:Candidates for deletion]] or [[:Category:Candidates for speedy deletion]].
+
+''Note:'' Put the tag between <code>&lt;noinclude&gt; &lt;/noinclude&gt;</code> tags for deletion of transcluded pages.
+
+==Usage==
+{{tlx|delete|Regular deletion reason}}
+
+{{tlx|delete|Speedy deletion reason|speedy}}
+
+===Parameters===
+; parameter 1
+: reason for proposed deletion
+; parameter 2
+: Optional. For speedy deletions: <code>speedy</code>
+{{doc/end}}

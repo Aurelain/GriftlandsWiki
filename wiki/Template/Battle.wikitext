@@ -1,0 +1,5 @@
+<span style="color:#ff9a5a">battle</span><noinclude><br>
+==Use==
+<pre>{{battle}}</pre>
+
+[[Category:Formatting templates|{{PAGENAME}}]]</noinclude>

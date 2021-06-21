@@ -1,0 +1,16 @@
+{{stub}}
+'''Attack Rival''' is a difficulty <font color="#ffe066">&#9733; &#9734; &#9734; &#9734; &#9734;</font> quest with a focus on Combat.
+
+==Description==
+[[Rudana]] is offering you money to lay a beat-down upon [[Ekel]]. Just be careful not to take it too far - Ekel has to survive the process.
+
+==Rewards==
+: Starting Bonus
+:: Pick a card to help on the quest
+
+: 60 Shills
+
+: Restoration
+:: Restore <font color="#ff99b2">'''10 health'''</font> or <font color="#57FFFB">'''10 resolve'''</font>.
+
+[[Category:Quests]]

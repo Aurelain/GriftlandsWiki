@@ -1,0 +1,13 @@
+'''Meet me at the Crossroads''' is a side [[Quests|quest]] in [[Sal|Sal's]] campaign with a focus on [[Battle]].
+
+== Description ==
+Join a [[Spree]] member at an ambush point and help choose robbery targets. You'll get a cut of the loot, if you both survive.
+
+Difficulty: ★★☆☆☆
+
+== Rewards ==
+
+* Shills that you got out of robbing
+* Restoration - Restore 20 health or 10 resolve
+
+[[Category:Quests]]

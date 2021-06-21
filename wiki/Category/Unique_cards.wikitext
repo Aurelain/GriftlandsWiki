@@ -1,0 +1,2 @@
+Cards you're given through a run based on your actions, or that are spawned by other cards.
+[[Category:Cards by rarity]]

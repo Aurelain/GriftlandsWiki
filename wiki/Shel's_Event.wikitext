@@ -1,0 +1,7 @@
+== Shel's Event ==
+
+Ask about SHel (Normal conversation, nothing happened here)
+Hand over all of your money (Lose all money)
+Offer Shel a job (Then need to confirm, 50 gold)
+Scare her away (Negotiation, Shel will dislike)
+Defend yourself (Battle)

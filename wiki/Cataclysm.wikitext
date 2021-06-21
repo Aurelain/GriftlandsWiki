@@ -1,0 +1,31 @@
+{{Card
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Boosted Cataclysm
+|upgrade2 = Pale Cataclysm}}
+{{Quote|How did that storm happen inside? My head is still ringing.}}
+
+'''Cataclysm''' is a 2-cost '''Attack''' card for [[Rook]]. It deals a base damage of 3. It has the effect "Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed."
+
+==Upgrades==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effects
+|-
+|Boosted Cataclysm
+|2
+|5
+|Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed
+|-
+|Pale Cataclysm
+|1
+|3
+|Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed
+|}

@@ -1,0 +1,8 @@
+'''Counter''' is a battle card key word. It says "Deal X damage back to the enemy when hit. Remove all '''Counter''' at the beginning of your next turn." where X is the amount of '''Counter''' that you have. 
+
+==Trivia==
+'''Counter''' is called "Riposte" in the game files.
+
+Flavor Text: "Right back at you!"
+
+[[Category:Keywords]]

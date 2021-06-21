@@ -1,0 +1,41 @@
+{{doc/start}}
+This is just a generic infobox with a few sample fields
+== Usage ==
+<pre style="overflow: auto;">
+{{Infobox
+| name     = 
+| image    = 
+| race     = 
+| location = 
+| source   = 
+| reward   = 
+| related  = 
+| ID       =
+}}
+</pre>
+
+==Example==
+{{Infobox
+| name     = Hydra guy
+| image    = Curse hydra.png
+| race     = Plushie
+| location = Curse Headquarters
+| source   = [[User:Encredechine{{!}}Encredechine]]
+| reward   = {{Difficulty|diff1}}
+| related  = Fun
+| ID       =
+}}
+<pre style="overflow: auto;">
+{{Infobox
+| name     = Hydra guy
+| image    = Curse hydra.png
+| race     = Plushie
+| location = Curse Headquarters
+| source   = [[User:Encredechine{{!}}Encredechine]]
+| reward   = 
+| related  =
+| ID       =
+}}
+</pre>
+{{clear}}
+{{doc/end}}

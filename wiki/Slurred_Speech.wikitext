@@ -1,0 +1,6 @@
+{{stub}}
+{{Card
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Destroy]]
+|upgradeable = No}}

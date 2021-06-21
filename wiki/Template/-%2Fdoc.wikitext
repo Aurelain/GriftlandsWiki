@@ -1,0 +1,5 @@
+{{doc/start}}
+This template allows you to clear the left side, the right side, or both
+
+To clear the left, simply put {{tlx|-|left}}. To clear the right, put {{tlx|-|right}}. To clear both sides, put {{tl|-}}.
+{{doc/end}}

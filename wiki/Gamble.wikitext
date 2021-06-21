@@ -1,0 +1,6 @@
+'''Gamble''' is a game [[Key Words|key word]].
+
+==Effect==
+In game description: ''"Flip your coin."''
+
+[[Category:Keywords]]

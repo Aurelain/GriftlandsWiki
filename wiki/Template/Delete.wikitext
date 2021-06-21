@@ -1,0 +1,11 @@
+<div class="nomobile">{{Ambox
+| image = [[File:Icon_delete.png]]
+| type = '''This page is a [[:Category:Candidates for deletion|candidate for {{#ifeq:{{{2|}}}|speedy|(speedy)}} deletion]].'''
+| border = red
+| info = Reason: "''{{{1|No reason has been provided}}}''"
+}}<br /></div><!--
+--><div class="mobileonly" style="text-align:center">'''This page is a [[:Category:Candidates for deletion|candidate for {{#ifeq:{{{2|}}}|speedy|(speedy)}} deletion]].'''<br />Reason: "''{{{1|No reason has been provided}}}''"<br /></div><!--
+--><includeonly>{{ #ifeq: {{{2|}}} | speedy | [[Category:Candidates for speedy deletion|{{FULLPAGENAME}}]] | [[Category:Candidates for deletion|{{FULLPAGENAME}}]] }}</includeonly><noinclude>
+{{doc}}
+
+[[Category:Notice templates]]</noinclude>

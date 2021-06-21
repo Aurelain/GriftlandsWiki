@@ -1,0 +1,2 @@
+Cards that are applied to your character when they become injured, tired, or inebriated.
+[[Category:Cards by type]]

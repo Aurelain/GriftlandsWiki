@@ -1,0 +1,21 @@
+{{stub}}
+{{Character
+|race = Human
+|faction = Admiralty
+|title = Clerk}}
+
+'''Yunni''' is a character in [[{{Gamename}}]]. She appears in quest [[Another Day Older and Deeper in Debt]]. 
+
+==Relationship==
+{{Boon/Bane
+|boonimage = authorization
+|boon = Authorization
+|boondesc = Once a day, you can ask a nearby member of the [[Admiralty]] to help you in battle or negotiation.
+|baneimage = red tape
+|bane = Red Tape
+|banedesc = Members of the [[Admiralty]] will not help you in battle or negotiation.}}
+
+==Gallery==
+<gallery>
+Yunni.jpg
+</gallery>

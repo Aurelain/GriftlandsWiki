@@ -1,0 +1,8 @@
+{{Card
+|cardtype = Attack
+|decktype = Battle
+|rarity = Unique
+|character = Rook
+|upgradeable = No}}
+{{Quote|TAMPERING WITH THE AUTODOG WEAPONRY IS NOT RECOMMENDED.}}
+'''AutoDog Blaster''' is a 1-cost Unique '''Attack''' card for [[Rook]]. It deals 6-10 base damage. It has the effect "'''Piercing'''. '''Destroy''' after 3 uses.".

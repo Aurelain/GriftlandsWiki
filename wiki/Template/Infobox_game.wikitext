@@ -1,0 +1,33 @@
+<includeonly>{| class="infoboxtable"
+|-
+! colspan="2" class="infoboxname" | {{{title|No Title}}}
+|-style="text-align:center"
+{{#if: {{{image|}}} | {{!}} colspan="2" style="padding:0.5em;" {{!}} [[File:{{{image}}}|{{{size|290px}}}]] | {{!}} colspan="2" style="padding:0.5em;" {{!}} ''No image yet'' }}
+|-
+| <div>Developer(s)</div> || {{{developer|{{developer}}}}}
+|-
+| <div>Publisher(s)</div> || {{{publisher|{{publisher}}}}}
+|-
+{{#if: {{{engine|}}} | {{!}} <div>Engine</div> {{!!}} {{{engine}}} }}
+|-
+{{#if: {{{version|}}} | {{!}} <div>Version</div> {{!!}} {{{version}}} }}
+|-
+{{#if: {{{platform|}}} | {{!}} <div>Platform(s)</div> {{!!}} {{{platform}}} }}
+|-
+{{#if: {{{releasedate|}}} | {{!}} <div>Release date(s)</div> {{!!}} {{{releasedate}}} }}
+|-
+{{#if: {{{genre|}}} | {{!}} <div>Genre(s)</div> {{!!}} {{{genre}}} }}
+|-
+{{#if: {{{mode|}}} | {{!}} <div>Mode(s)</div> {{!!}} {{{mode}}} }}
+|-
+{{#if: {{{rating|}}} | {{!}} <div>Rating(s)</div> {{!!}} {{{rating}}} }}
+|-
+{{#if: {{{media|}}} | {{!}} <div>Media/distribution</div> {{!!}} {{{media}}} }}
+|-
+{{#if: {{{requirements|}}} | ! colspan="2" class="infoboxdetails" {{!}} System&nbsp;requirements }}
+|-
+{{#if: {{{requirements|}}} | {{!}} colspan="2" {{!}} {{{requirements}}} }}
+|}</includeonly><noinclude>{{clear}}{{doc}}
+
+[[Category:Infobox templates]]
+</noinclude>

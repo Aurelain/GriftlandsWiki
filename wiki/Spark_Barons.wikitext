@@ -1,0 +1,167 @@
+{{stub}}
+{{Infobox custom|image=Faction spark barons.png|name=Spark Barons|row1 data=[[Fellemo]], [[Kashio]], [[Arint]], [[Jeol]], [[Sparky]]|row1 label=V.I.P(s)|row2 label=Territory|row2 data=[[Grout Bog]]|row3 data=Regional Manager, Freelancer, [[Lieutenaunt]], Drone Master, Boss, [[Taskmaster]], [[Professional]], [[Security Guard]], Promoted Security Guard|row3 label=Titles}}{{Quote|The Barons are only interested in profiting off the tech we find (in the bog), not in understanding it. But those who don't study history are doomed to repeat it.|The Bilebroker}}
+A faction consisting of technocrats who take and retrofit [[Vagrant Age]] technology for modern use, much to the [[Cult of Hesh|Cult's]] displeasure. The '''Spark Barons''' control most of [[Grout Bog]] and employ indentured servitude to excavate the ancient ruins found within. The Barons are extremely wealthy due to their control over Grout Bog and the selling of vast amounts of advanced weapons and technology excavated from the ruins found there.
+
+'''Notable Barons:'''
+*[[Arint]]
+*[[Fellemo]]
+*[[Kashio]]
+*[[Plocka 'The Swab']]
+
+== Members ==
+{| class="wikitable"
+|+
+!Name
+!Race
+!Title
+!Description
+!Appearance
+|-
+|Arint
+| rowspan="2" |Shroke
+|Lieutenaunt
+|Arint was apparently head-hunted from a [[Luminari]] training facility, so she's no doubt fervent as she is mercenary.
+|[[File:Arint Mugshot.png|125px]]
+|-
+|Kashio
+|Freelancer
+|The biggest debt broker in [[Murder Bay]], Kashio was once an indentured laborer who earned herself a reputation as a self-made kingpin.
+|[[File:Kashio.jpg|125px]]
+|-
+|Fellemo
+|Kra'deshi
+|Regional Manager
+|None
+|[[File:Fellemo.jpg|125px]]
+|-
+|Jeol
+|Human
+|Drone Master
+|Jeol's blank gaze is a little unnerving, but you've cracked harder heads.
+|[[File:Jeol.jpg|125px]]
+|-
+|Sparky
+|Jarackle
+|Boss
+|None
+|[[File:Sparky.jpg|125px]]
+|-
+|Buleet
+|Shroke
+|Turncoat
+|You've met Buleet's type before, and they've always ended up dead.
+|[[File:Buleet.jpg|125px]]
+|-
+|Dillawno
+| rowspan="6" |Kra'deshi
+| rowspan="8" |[[Taskmaster]]
+|Dillawno is the Baron you commission when you want a complicated solution to a simple problem.
+|[[File:Dillawno.jpg|125px]]
+|-
+|Fallopallo
+|Fallopallo's brood is likely disappointed in his choice of career, considering Fallopallo was the name of a famous Heshian priest.
+|[[File:Fallopallo.jpg|125px]]
+|-
+|Frash
+|Frash is a trickster in kre'deshi myth, known for bringing fire from the stars to lesser lifeforms. Jury's out on wheter this Frash is equally patronizing.
+|[[File:Frash.jpg|125px]]
+|-
+|Keebee
+|Where most Spark Barons seek profit, Keebee seeks opportunities.
+|[[File:Keebee.jpg|125px]]
+|-
+|Sru
+|Sru isn't your typical kra'deshi name—you wonder if it's short for something.
+|[[File:Sru.jpg|125px]]
+|-
+|Vectorini
+|Vectorini once had a soft spot for laborers, until he lost an entire salvage to sticky fingers.
+|[[File:Vectorini.jpg|125px]]
+|-
+|Hrikit
+| rowspan="2" |Jarackle
+|Hrikit's name has the rough edges of the Rentorian dialect, but there is no hint of accent when she barks.
+|[[File:Hrikit.jpg|125px]]
+|-
+|Imiko
+|Laborers say Imiko is tough but fair—or was that tough but beware?
+|[[File:Imiko.jpg|125px]]
+|-
+|Astal
+|Kra'deshi
+| rowspan="6" |[[Professional]]
+|You're sure you've heard Astal's name spat by Heshians, which means he's undoubtedly quite the heretic.
+|[[File:Astal.jpg|125px]]
+|-
+|Iggory
+| rowspan="4" |Human
+|You can tell Iggory approaches by the florid waft emanating from his coat: the work of a pocket perfumer.
+|
+|-
+|Lopli
+|Lopli rose to notoriety with her invention of a self-swindler, a wallet so secure even Lopli can't open it.
+|[[File:Lopli.jpg|125px]]
+|-
+|Myrkot
+|You've seen Myrkot's name written on crates, but have never chanced to look inside any of them.
+|[[File:Myrkot.jpg|125px]]
+|-
+|Nodoloolis
+|Nodoloolis is named after an ancient city of the Vagrant Age, now rumored to sit at the bottom of the Deltrean sea.
+|[[File:Nodoloolis.jpg|125px]]
+|-
+|Plocka 'The Swab'
+|Shroke
+|Plocka keeps her purse strings tight, but she's been known to favor a friend in need.
+|[[File:Plocka.jpg|125px]]
+|-
+|Kheven
+| rowspan="3" |Human
+| rowspan="5" |[[Security Guard]]
+|Kheven doesn't seem to look entirely certain about his place in the world, but he's certainly hoping to make the best of it.
+|[[File:Kheven.jpg|125px]]
+|-
+|Quarryn
+|Rumor has it Quarryn earned his way into the Spark Barons by inventing an automatic nose-blower. Guess he can sniff out any opportunity.
+|[[File:Quarryn.jpg|125px]]
+|-
+|Rasma
+|Word is Rasma was the youngest Spark Baron to ever join the ranks, which does explain the cherubic shine in her eyes.
+|[[File:Rasma.jpg|125px]]
+|-
+|Tellomeer
+|Kra'deshi
+|This kra'deshi has a reputation for holding the group together, for good or ill.
+|[[File:Tellomeer.jpg|125px]]
+|-
+|Waandra
+|Jarackle
+|Waandra has an eye for appraising and a fist for taking, and she makes sure to use both.
+|[[File:Waandra.jpg|125px]]
+|-
+|Selaynia
+|Human
+| rowspan="2" |Promoted Security Guard
+|You're not sure what Selaynia invented to get himself into the Spark Barons, but if you had to guess, you wouldn't say mouthwash.
+|
+|-
+|Vasti
+|Human
+|Vasti seems like an egg that's about to hatch, and whatever comes out will have claws.
+|
+|}
+
+== Negotiation Pattern ==
+The Spark Barons Negotiate by continually taking the players cards hostage and gaining composure while dealing damage. Their patterns are relatively standard, however their appropriation ability can render many decks unplayable and force the player to focus down arguments instead of the core resolve.
+
+=== Appropriation ===
+Appropriation is the core argument of Spark Barons. Every turn starting from turn 2, Spark Barons will steal 2 cards from your deck and put them into Appropriated Arguments.
+
+=== Appropriated ===
+An Argument that is sent out every turn via the core argument. It's resolve is equal to (i need specifics, it may be difficulty or may be costs). Every time the Spark Baron takes their turn, they will steal 2 cards from the player at the end, unless that would bring the player to less than 5 cards in their hand. Destroying the argument will grant the player the hostage cards immediately into their current hand. This can be useful as to guarantee certain combos by letting certain cards be held hostage until you can pull off a strong combo.
+
+== Trivia ==
+* The symbol for the Spark Barons is a modified [[Shills]] symbol with a half-cog.
+* The original name for the Spark Barons was ''Clust Tycoons''.
+[[Category:Factions]]
+[[Category:Spark Barons]]

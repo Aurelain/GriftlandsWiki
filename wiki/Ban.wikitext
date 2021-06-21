@@ -1,0 +1,24 @@
+
+
+{{Infobox
+| name     = Ban
+| image    = Ban.jpg
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Jakes - Smuggler
+| ID       =
+}}{{quote|Ban can knock some sense into you— or out. Your choice.|Ban's Compendium Description}}'''Ban''' is a character in {{Gamename}} and a [[Jakes]] Smuggler.
+
+== Death Loot ==
+If '''Ban''' is killed in combat, she will drop a [[Triage]].
+[[File:Triage.png|none|thumb]]
+
+== Boon/Bane ==
+If '''Ban''' hates you, you will receive:
+
+===Fragile Health===
+Whenever you gain a debuff, take 2 damage.
+[[File:Graft fragile health.png|none|thumb]]
+[[Category:Characters]]

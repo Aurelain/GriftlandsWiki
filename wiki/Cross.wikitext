@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = Combo
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Rooted Cross
+|upgrade2 = Tall Cross}}
+{{Quote|Sure it's slow, but the follow up is amazing.}}
+
+'''Cross''' is a 2-cost Common '''Attack''' card for [[Sal]]. It deals 3-6 base damage. It has the effect "Gain '''Combo''' equal to damage dealt by this card.".
+
+==Upgrades==
+After accruing 5 experience '''Cross''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Rooted Cross.png|150px]]
+|[[File:Tall Cross.png|150px]]
+|-
+!style="width:155px"|Gain '''[[Combo]]''' equal to damage dealt by this card.
+!style="width:155px"|Gain '''[[Combo]]''' equal to damage dealt by this card.
+|}

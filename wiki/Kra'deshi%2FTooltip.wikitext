@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Kra'deshi</center>
+  |body=<center>An amphibious species, with large, matrilineal families, typically found in positions of wealth and influence.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

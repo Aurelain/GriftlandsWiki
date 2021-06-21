@@ -1,0 +1,9 @@
+<div class="nomobile">{{Ambox
+| image = [[File:Icon-stub.svg|44px|Stub]]
+| type = ''This article is a [[:Category:Stubs|stub]]. You can help {{SITENAME}} by {{fullurl|{{FULLPAGENAME}}|action{{=}}edit|text=expanding it}}.''
+| border = orange
+}}<br /></div><!--
+--><div class="mobileonly" style="text-align:center">''This article is a [[:Category:Stubs|stub]]. You can help {{SITENAME}} by {{fullurl|{{FULLPAGENAME}}|action{{=}}edit|text=expanding it}}.''<br /><br /></div><includeonly>[[Category:Stubs]]</includeonly><noinclude>
+{{doc}}
+
+[[Category:Notice templates]]</noinclude>

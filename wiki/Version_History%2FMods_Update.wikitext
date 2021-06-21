@@ -1,0 +1,189 @@
+[[File:Mods Update.gif|right|300px]]
+[[File:Mods Update poster.png|center|600px]]
+'''Mods Update''' was released on September 17, 2020<ref>[https://forums.kleientertainment.com/forums/topic/121801-griftlands-mods-update-now-available/ Griftlands: 'Mods' Update Now Available!] Posted on September 17, 2020.</ref>.
+
+==Update Information==
+This update adds Mod support, and a batch of new content!
+
+'''Mod Support'''
+
+Players can now add their own content to the game! Everything from cards to quests to whole new mechanics are open to modding. Check out instructions here, and check out the example mods on the workshop. 
+
+'''New Day 1 Boss'''
+
+Meet [[Buleet]], the [[Rise]] Turncoat. [[Sal]] can face this new challenger at the end of her first day. He's also been added to boss rush and brawl.
+
+'''New NPCS'''
+
+Luminitiates — these are low-level inductees to the Cult of Hesh. They are rare outside of the [[Pearl-on-Foam|Pearl]], but can be occasionally found supporting the Cult's operations throughout [[Havaria]].
+
+Promoted Priests — the standard-bearers of the Cult get a boost when playing in prestige mode. They'll ready the world for Hesh's awakening with their luminized scythes.
+
+Horned Yotes — they're yotes, but meaner, and with new death loot.
+
+'''New Daily: Negotiation Boss Rush'''
+
+Ever wanted to convince a Shroog not to eat you? Now you can! This new negotiation-based daily has been entered into the regular rotation, and has also been set to repeat for the next few days. 
+
+'''(a bit of) Smith'''
+
+Speaking of dailies, Smith will now be appearing in the daily runs. You can get some practice in with his cards before his story debut.
+
+<div class="mw-collapsible mw-collapsed">
+==Patch Notes==
+<div class="mw-collapsible-content">
+'''GAMEPLAY'''
+
+*Added 2 social grafts, boon and bane icons for the luminitiate.
+*The healing options in daily_protect_friend.lua now also heal your pet if you have one.
+*Fixed bug where upgrading a trained pet would make it lose the bonus health from being trained.
+*Make the dodgy scavenger only pick from stuff that currently exists, in case mods have been uninstalled.
+*Renamed the SILVER_TONGUE flag to WORDSMITH (we already have a graft called silver tongue!)
+*Added daily quest_id overrides for September 17th-19th in daily_util.lua to ensure the boss negotiation daily.
+*Fixed bug caused by negotiation with Nadan in a negotiation not marked with the Silver Tongue flag.
+*Fixed incorrect icon on the convo option to remove a negotiation card in daily_boss_negotiation.lua.
+*Added Flekfis to the negotiation daily.
+*Added new negotiation focused feats.
+*Added new feat combinations to daily_boss_negotiation.lua.
+*Balancing changes for Hanbi and the Shroog's negotiation behaviour.
+*Bug fixes and balancing changes for Nadan, Hanbi, Jeol, and the Shroog's negotiation behaviour.
+*Fixed bug where Kashio's duplicated core had full resolve.
+*Fixed bug where Aboslute Focus was checking source instead of target.
+*The effects of the Charming perk now happen after the day summary to avoid confusion.
+*New experiment: Negotiation Boss Rush Daily.
+*Prestige is now tracked separately for Brawl and Campaign. Your Brawl and Campaign prestige level have both been assigned to your currently attained max prestige.
+*Added Smith as an option for all the existing dailies (it's going live this time!)
+*Added card draft bounties: we track every time you don't pick a particular card. Cards accumulate an escalating money reward when you eventually pick them. This should incentivize trying new builds over the long term. 
+*Fixed bug in rook_story_black_market.lua where you could name drop the guard to the guard to gain access.
+*Hook up UI for Rook's new bogger outfit.
+*Suppress Foolo after being bound and gagged so he doesn't hinder the negotiation.
+*Fix crash unlocking perks with the gamepad.streamlined the pet return flow: When a pet flees, we spawn a specific story quest about them returning. it stays dormant for a random amount of time, and then fires a travel event. Removed the pet rescue oppo (because you just get the return guaranteed now.
+*Selected Mutators now apply if starting a new Story Mode campaign.
+*Fix cave encounter where you rescue a vroc from erchins, but the vroc dies.
+*Add a new concept of time to the game: Action count is a number that goes up whenever a quest changes state or you fight/negotiate in a new location or time. It's meant to track the player doing things in a way that can't be gamed by walking back and forth a lot. We can use it to make quests happen "later".
+*Swapped the final boss in daily_protect_friend.lua to be either Arint or Flekfis.
+*Fixed bug in daily_protect_friend.lua where Shel could die in the boss fight without you losing.
+*daily_protect_friend.lua now grants you a graft at the start of the challenge.
+*Updated the behaviour and max health of the Turncoat Boss.
+*Adjusted the behaviour of the rise turncoat boss slightly to ensure you get affected by voltaic early.
+*Fix Rook brawl crash if Pengemunt was killed in battle and the coin trader phase was activated.
+*Fixed bug where opponents weren't reacting to pets in negotiation - All pets should still bark/howl at the start.
+*Set up the SILVER_TONGUE negotiation flag.
+*Set up new negotiation behaviour for Jeol and the Shroog Added new negotiation-focused daily feats.
+*Fixed bug where the situation modifiers in handler_spree_prisoner_exchange.lua weren't applied properly.
+*Fixed bug where multiple stacks of weapons_supplier wouldn't let you get all the items.
+*Added new Rook outfit.
+*Innate Connection now checks if your pet is already trained.
+*agent:TrainPet() also checks if the agent is already a trained petFix amount of money being doubled when calculating score.
+*Added the Horned Crayote to the combat parties.
+*Fix edge-case crash if a Combat Drone surrenders and is replaced in battle due to Burn killing all allies.
+*When a fighter is replaced in battle, it should Flee so that its fight_status is updated to indicate it is no longer valid.
+*Set up a basic combat behaviour for the promoted priests.
+*Hooked up the new Horned Crayote.
+*Added a boon, bane and death loot for the Luminitiate.
+*Fixed bug in daily_boss_negotiation.lua where cancelling out of removing a card would not let you choose again.
+*Fixed dialogue bug in handler_admiralty_rescue_mission.lua.
+*The Complete Daily grift is only completed upon victory.
+
+'''CARDS'''
+
+*Fixed bug where Guilt Trip was not dealing damage.
+*The "Wanted!" argument now deals damage to your core instead of making it lose resolve. This means it respects shields from other arguments and is overall a clearer presentation.
+*Flekfis no longer uses his multi attack on the furst turn of negotiation.
+*Fixed descriptions of ravenous_plus, barbed_defense_plus, silent_shiv, deepstance_plus, and projector_plus.
+*Compromise: redesigned.
+*Fuel Canister: Clarified card text.
+*Fixed desc of MATERNAL_INSTINCTS_ARGUMENT.
+*Fixed missing DOWNGRADE tag in toughen_up_plus2d.
+*Voltaic now applies a static_buildup condition to better track incoming damage.
+*Added damage preview for static_buildup (shown as intent).
+*Reworked how Flekfis picks his intents in Silver Tongue negotiations to ensure consistency.
+*Defect damage multiplier now calculated after other additive modifiers.
+*Heshian Mask now uses POWER_LOSS instead of handling temp power with its own condition.
+*Memory Lock now triggers after Parietal Integrator.
+*Fix Sluggish crash when negotiating vs. Flekfis and handle the case where his core argument is shielded.
+*Added the Sleep It Off keyword for cards with a remove_timer (tipsy, bloated etc).
+*Fixed bug with Lumin Wine and clarified its description.
+*Tracer now correctly decrements at the end of the owner's turn.
+*Fixed bug where burst would apply bleed even if evaded.
+*Invalidated hits should be removed from the attack entirely, otherwise the hit array doesn't match the number of ON_HIT events. This could result in missing condition applications in presentation if the conditions got associated with the invalidated hit (eg. negative defense).
+*Reduced number of blade flash cards given by Waylay by 1.
+*Moved Weighted Coin from Uncommon to Rare.
+*Fixed bug where the preview (not actual damage) of intents affected by sitting_duck was incorrect.
+*Fix rooks charges not showing up.  
+*Adjusted max resolve on the Shroog's arguments.
+*Fixed bug with Flekfis' Sluggish.
+*Impatience now kicks in later and ramps up slower in Silver Tongue negotiations.
+*Added basic boss negotiation behaviour for Flekfis.
+*Adjusted the Shroog's and Hanbi's negotiation behaviour.
+*Changed the description of MATERNAL_INSTINCTS_ARGUMENT to not show the tooltip for SHROOGLET_ARGUMENT and SHROOG_FLOCK since it was crowding the screen.
+*Set up a negotiation behaviour for Bossbit.
+*Sequencer: specifies an item card.
+*Auxiliary: new design to avoid overlap with Utility Belt.
+*Added the BURNOUT mechanic to negotiation.
+*Set up a negotiation behaviour for Hanbi and Nadan.
+*Enabled the SILVER_TONGUE flag in daily_boss_negotiation.lua.
+*Adjusted negotiation behaviour for Jeol.
+*Fixed bug where the Shrooglet argument wasn't dealing damage.
+*Fixed bug where Diversion could exceed 12 maximum resolve.
+*Manually assign CARD_FLAGS.ITEM to all death loot.  The default-assignment was overriding flags on upgrades, causing for example Boosted Gaff to not be a melee attack.
+*Fix obscure crash when negotiating against spark barons if Doubt destroys an Appropriator that stole cards from the discards/draw deck.  *UpdateCardPlacement was cheating target_deck if it was not supplied, using the current card's deck as a default and throwing things out of order. So calls to UpdateCardPlacement need explicit arguments, such as from CARD_TRIGGERED_POST and the edge-case in HandleChooseCards where the cards-in-hand may be temporarily in the floating deck for presentation reasons.
+*Lifter Claw now officially improvises, and thus can trigger things like Crusher or Resonance.
+*Fixed bug where some RIG cards weren't using themselves as the source for the argument.
+*Boosted Muck: now 3 damage.
+*Gave the Yote Horn charges and reduced its damage.
+*Corrected inconsistencies when referring to enemies vs targets in card descriptions.
+*Reworked Seeker to not grant defend when discarded but to grant more defend when played.
+*Fixed bug caused by the To The Point feat.
+*Skimmer now correctly targets a random target.
+*Buff stone anchor slightly.
+*Fixed bug where Premium Quality wasn't copying the table of available upgrades correctly.
+*Added a condition for Buleet to explain that his attacks apply Galvanized.
+*Fixed bug where uses of Ancient Warrior were used up by unupgradable cards (such as item cards).
+*Fixed bug where Scatterphase didn't play Rook's Blast anim.
+
+'''UI'''
+
+*Fix cursor not being loaded from the data archive.
+*Move the auto-restore on click functionality from ChooseCardsPopup to NegotiationPanel, so that you can still click the discards/draw deck to *view them while the panel is hidden.
+*Aligning the Card Pack popup cards, so they don't overlap the title
+*Fix edge case where Travel locations were placed on top of eachother.
+*Fixed bug where the core argument would sometimes not be at the front of the argument ring.
+*Item upgrades show up in the CardDetailsPopup again, with a note that it may be upgraded via means other than xp.
+*DeckScreen should be locked when viewing from the GameOver screens (fixes being able to upgrade cards after the game is over).
+*Don't disable save buttons entirely if the save cannot be loaded, so that the run can still be deleted normally.
+*The order of upgraded cards shown when upgrading matches the order of cards shown when viewing card details via right-click.
+*Fixed bug where the 6th graft in the overlay would not show if you had exactly 6 grafts.
+*Simplify perk unlock animations and make them more responsive.  Scaling was causing layout mayhem.
+*Update perk tier labels when unlocking a perk, to refresh the counts.
+*Just disable clicking on perks that are already unlocked.
+*Fix Lumin Bio-Accelerator and certain other cards from becoming stuck onscreen when triggered.
+*Show base health/resolve on new game character select screen.
+*The cards tab in the Compendium now shows how many cards are shown, with filtering.
+*Making all the WidePanel widgets only show within the scissored area of the screen, instead of stretching across the window past it. This makes contents that are aligned to the widepanel's edges stay within the visible area of the screen.
+*Showing graft stacks on the main overlay. Removing unused InstalledGrafts and InstalledGraft widgets.
+*Merging the various tooltips on the Relationship Indicator into a single tooltip with a summary of all the relationship types and counts.
+*Connecting Rook's outfit-specific hero animations.
+*Fixed bug where the drone_goon's quips weren't localized.
+*Making the Accept button on the Pick Grafts screen the correct size.Showing an icon on upgrade-ready grafts in the main overlay. Also enabling hotkeys on the main overlay again.
+
+'''MISC'''
+
+*Added mod support!
+*Updated de/fr/ko/ptbr translations.
+*Fixed missing loc reference when smashing an auction item in auction_util.lua.
+*Audio: Smith VO lines and hook up.
+*Silence warnings loading name lists from old save files.  This class isn't save/loaded anymore.
+*Update parsing image markup in <nowiki><p></nowiki> tags to include the ’ quote, which sometimes appears in translations
+*Add loc_translator.parseNameDeclensions to parse name declensions for languages that need it.
+*Add loc macros for string-replacing name declensions with hover markup
+*An agent's name declensions are included in its loc_table.
+*Defer instantiation of BUILD_TESTER CharacterDef since it is not loaded as part of Content.DoLoad, but part of file inclusion, and CharacterDefs now require the current language to be loaded first.
+*Split Content.GetCharacterName into GenerateRandomName and GetName for clarity.
+*[GL] Tweaking the max icon limit on the main overlay icon containers to only cut off the icons if there are two or more above the limit. *Currently, if the limit is 2 and there are three icons, it'll show [icon][icon][+1], which is a waste, since the last slot could just have the last icon on it. This fixes that.
+</div></div>
+
+==References==
+<references />
+
+[[Category:Game updates]]

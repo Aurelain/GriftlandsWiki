@@ -1,0 +1,18 @@
+{{doc/start}}
+This is a simple template providing standardized formatting for entries in the {{Tlx|Admins}} template. 
+
+'''Usage''':
+:{{tlx|Wiki admin|account name|decoration (optional)}}
+
+<code>decoration</code> is optional, and will be placed after the username but before the talk and contribution links. Intended for use with language flags or titles.
+
+'''Note''': The template must be enclosed within a table and does not include a row break character.
+
+'''Example''':
+:{{tlx|Wiki admin|Game widow|(Wiki Team Lead) &#91;[File:Flag qc.svg|16px{{!}}Français{{!}}link{{=}}&#93;]}}
+
+'''Result''':
+{|
+{{Wiki admin|Game widow|(Wiki Team Lead) [[File:Flag qc.svg|16px|Français|link=]]}}
+|}
+{{doc/end}}

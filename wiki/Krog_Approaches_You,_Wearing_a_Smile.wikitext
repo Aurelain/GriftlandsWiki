@@ -1,0 +1,19 @@
+Krog approaches you wearing a smile like a grease stain.
+
+Krog: Bet you love a good thrill. Fancy a wager?
+
+Player: A wager?  What Kind?
+
+Krog: Just a game of chance, friend.
+
+Krog: I'll flip this shill, and you call it in the air.  Double your money if the fates are on your side.
+
+
+
+-Place a bet of 50 shills
+
+-Place a bet of 75 shills
+
+-Place a bet of 150 shills
+
+Note that heads has a 90% chance to land. This is based on Rook's campaign, where you can get Krog's Coin, having a 90% chance to land on heads.

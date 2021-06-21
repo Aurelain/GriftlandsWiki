@@ -1,0 +1,14 @@
+'''Internal Affairs''' is a side quest in Sal's campaign with a focus on battle.
+
+== Description ==
+A [[Admiralty|Guard]] wants you to beat up a [[Admiralty|Goon]]. But keep the violence covert, and be careful not to kill them.
+
+Difficulty: ★☆☆☆☆
+
+== Rewards ==
+
+* Starting Bonus
+* 60 shills
+* Upgrade Card - Upgrade a negotiation or battle card
+
+[[Category:Quests]]

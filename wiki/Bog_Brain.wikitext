@@ -1,0 +1,13 @@
+{{Card
+|rarity = Common
+|cardtype = Parasite
+|decktype = Battle
+|expreq = 4}}
+{{Quote|The headaches worsened, gouging out old memories. but in their stead, were visions of greater importance.}}
+
+Bog Brain is a common battle [[Bog Parasites|Bog-Parasite]] for [[Rook]], it costs 1 action and has the effect: "When this card is drawn, gain 2 Impair and draw 2 cards. Expend, Parasite, Hatch"
+
+Playing Bog Brain has no effect, except expending it and gaining experience with it.
+
+==Hatch==
+When Bog Brain Hatches, it's transformed into a random uncommon battle Bog Parasite, so [[Branch]], [[Delirium]] or [[Fever]].

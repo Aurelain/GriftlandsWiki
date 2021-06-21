@@ -1,0 +1,13 @@
+{{Card
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Parasite
+|keywords = [[Parasite]], [[Hatch]]
+|expreq = 4}}
+{{Quote|He pulled down the rags around his mouth to speak, the air filling with an awful electricity.}}
+
+Neurotic Haze is a common battle [[Bog Parasites|Bog-Parasite]] for [[Rook]], it costs 1 action and has the effect: "Discard 2 random cards from your hand and gain 2 actions. Parasite, Hatch"
+
+==Hatch==
+When Neurotic Haze hatches, it is transformed into a random uncommon battle Bog Parasite, so [[Branch]], [[Delirium]] or [[Fever]].

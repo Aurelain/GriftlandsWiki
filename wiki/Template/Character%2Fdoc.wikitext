@@ -1,0 +1,16 @@
+{{doc/start}}
+This is an infobox for all the characters in [[Griftlands]].
+== Usage ==
+<pre style="overflow: auto;">
+{{Character
+| name     = 
+| image    = 
+| race     = 
+| location = 
+| faction  = admiralty / bilebroker / boggers / civilian / cult of hesh / grifters / jakes / rentorians / rise / spark barons / spree
+| faction2 = any other
+| title    =
+}}
+</pre>
+{{clear}}
+{{doc/end}}

@@ -1,0 +1,27 @@
+{{Character
+| name     = Frizz
+| image    = Frizz Mugshot.png
+| race     = Jarackle
+| location = Havaria - Grout Bog
+| faction  = Admiralty
+}}
+
+{{Quote|You still using those old things?|Frizz}}
+
+'''Frizz''' is an active Admiralty Weaponsmith that appears in Grout Bog as a limited time event. Rook can visit Frizz to request an upgrade for his Custom EH1076 Pistols.  
+
+=== Background ===
+
+'''Frizz''' is a friend and former colleague of Rook. She met Rook when they were both rookies in Aerostat and built Rook's pistols to handle custom (and illegal) ammo. If asked, Frizz will offer to make a quick charge cell modification to Rook's pistols while she's on leave in Grout Bog. She can only be met once per run and will only be able to perform 1 modification before leaving.
+
+=== Services ===
+
+*Add or remove charge cell: +/-1 (free)
+*Add or remove charge cell: +/-2 (300 shills)
+{{stub}}
+
+
+[[Category:Characters]]
+[[Category:Admiralty]]
+[[Category:Merchants]]
+[[Category:Jarackle]]

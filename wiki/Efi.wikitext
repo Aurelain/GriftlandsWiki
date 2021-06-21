@@ -1,0 +1,18 @@
+
+
+{{Infobox
+| name     = Efi
+| image    = Efi portrait.png
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Admiralty - Goon
+| ID       =
+}}{{quote|It's clear that Efi is difficult to get along with. But aren't the most challenging conquests often the most rewarding?|Efi's Compendium Description}}'''Efi''' is a character in {{Gamename}} and a [[Admiralty]] Goon
+
+== Death Loot ==
+If '''Efi''' is killed in combat, he will drop [[Admiralty Intel]].
+[[File:Admiralty Intel.png|none|thumb]]
+<br />
+[[Category:Characters]]

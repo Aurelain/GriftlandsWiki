@@ -1,0 +1,11 @@
+'''Hit the Beach''' is is a side [[Quests|quest]] in [[Sal|Sal's]] campaign with a focus on [[Battle]].
+
+== Description ==
+A [[Jakes|Jake]] wants you to clear out some beasties from a desolate beach so that the Jakes can use it for smuggling
+
+== Rewards ==
+
+* Shills
+* Restoration - Restore 20 health or 10 resolve
+[[Category:Sal Quests]]
+[[Category:Side Quests]]

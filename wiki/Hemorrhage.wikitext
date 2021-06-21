@@ -1,0 +1,15 @@
+{{Card
+|character = Sal
+|rarity = Uncoming
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Bleed]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Piercing Hemorrhage
+|upgrade2 = Savage Hemorrhage}}
+
+'''Hemorrhage''' is an '''Attack''' card for [[Sal]]. It applies 3 '''[[Bleed]]''', and then deals damage equal to the target's '''Bleed'''. As a base card '''Hemorrhage''' is always part of the available card pool for [[Sal]].
+
+==Upgrades==
+After accruing 7 experience '''Hemorrhage''' upgrades to be "Piercing" dealing [[Piercing]] damage, or to be "Savage" applying 5 '''Bleed'''.

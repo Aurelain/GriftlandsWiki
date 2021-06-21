@@ -1,0 +1,31 @@
+<onlyinclude><includeonly><div class="fplink-outer plainlinks {{#switch:{{lc:{{{width|}}}}}|wide=fplink-wide|full=fplink-fullwidth}}">
+	<div class="fplink {{#switch:{{{plain|}}}|yes|true|1=fplink-plain}}">
+		{{#if:{{{image|}}}|<div class="fplink-inner {{#ifexist:Media:{{{image|}}}||nomobile}}">{{#ifexist:Media:{{{image|}}}
+				|[[File:{{{image|}}}|150x150px|link={{#if:{{{url|}}}
+					|{{{url|}}}
+					|{{{1|}}}
+				}}]]
+				|[[File:{{{image|}}}|Please upload an image]]
+			}}
+			</div>
+		}}{{#switch:{{#if:{{{image|}}}|{{{imageonly|}}}|}}
+			|yes|true|1=
+			|#default=<div class="fplink-inner">{{#if:{{{url|}}}
+				|{{#if:{{{1|}}}
+					|[{{{url}}} {{{1}}}]
+					|[{{{url}}}]
+				}}
+				|{{#if:{{{1|}}}
+					|{{#if:{{{2|}}}
+						|[[{{{1}}}|{{{2}}}]]
+						|[[{{{1}}}]]
+					}}
+				}}
+			}}
+			</div>
+		}}
+	</div>
+</div></includeonly></onlyinclude><noinclude>
+{{doc}}
+[[Category:Formatting templates]]
+</noinclude>

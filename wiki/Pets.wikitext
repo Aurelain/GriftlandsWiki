@@ -1,0 +1,84 @@
+{{stub}}
+
+<!--Pasting in a table for editing/future use to clean up the page.
+{| class="wikitable"
+!Icon
+!Name
+!Description
+|-
+|align="center" width="100pt"|
+|align="center" width="100pt"|
+|width="700pt"|
+|}
+-->
+
+
+'''Pets''' are animals that can be kept as allies. '''Pets''' can be upgraded through '''training''' by speaking with Phroluk. Just like hostile wild animals, pets will flee rather than panic and surrender once enough damage is done to them. '''Pets''' are unique from other types of allies in that they also have an effect on negotiations depending on the species. Pets can be stored at your room in the inn if their health drops too low and they regain all health when rested just like the Hero.
+
+== Crayote ==
+
+'''Crayotes''', or '''Yotes''' for short, can be found all across Havaria. A strange cross between a canine and insect, they have a canine-like appearance but grow a hard carapace and six limbs. They're vicious scavengers that move in packs, but this pack mentality also makes them easily trainable for combat.
+
+=== Yotes in Combat ===
+
+*Bristle: Pet gains +2 power.
+*(Savage Bite: Attacks twice and applies 1 bleed - Need confirmation on name and bleed stacks)
+
+=== Yotes in Negotiations ===
+
+*'''Untrained:''' The enemy gains an argument with 5 resolve that deals 2 damage to a random friendly argument each turn.
+*'''Trained:''' The player gains an argument with 5 resolve that deals 2 damage to a random enemy argument each turn.
+
+== Erchin ==
+
+'''Erchins''' are carnivores native to Grout Bog. 
+
+=== Erchins in Combat ===
+
+
+=== Erchins in Negotiations ===
+
+*'''Untrained:''' The enemy gains an argument with 4 resolve that increases all damage by 1.
+*'''Trained:''' The player gains an argument with 3 resolve that draws an additional card on every even turn.
+
+== Flead ==
+
+'''Fleads''' are large insects with power pincers. Strangely intelligent, they're fairly easy to train as attack animals.
+
+=== Fleads in Combat ===
+
+Just like their wild variant, Fleads gain flat defense every turn from '''chitinous'''.
+
+=== Fleads in Negotiations ===
+
+*'''Untrained:''' The enemy gains an argument with 4 resolve that forces all attacks to target your core argument.
+*'''Trained:''' The player gains an argument with 1 resolve that baits all enemy attacks. Gains 1 resolve at the start of each turn.
+
+== Shrooglet ==
+
+=== Shrooglets in Combat ===
+
+*'''Shrooglet Frenzy:''' Gains 1 Power whenever Shrooglet attacks. Lose 2 Power whenever Shrooglet takes damage. 
+
+=== Shrooglets in Negotiations ===
+
+*'''Untrained:''' The enemy gains an argument with 5 resolve that reduces the player's card draw count by 1.
+*'''Trained:''' The player gains an argument with 4 resolve that applies 2 composure to a random friendly argument at the start of every turn.
+
+== Vroc ==
+
+'''Vrocs''' are large, flightless birds typically trained for battle by the Admiralty. They have a large bony beak, horns, and powerful talons.
+
+=== Vrocs in Combat ===
+
+*'''Nimble:''' The pet gains 1 evasion that is removed at the start of the next turn.
+*'''Savage Bite:''' Attacks twice and applies 1 wound (Need confirmation if it applies 1 wound total or 1 wound per hit)
+*'''Howl:''' Grants the pet Vroc 5 defense. and gives you an extra action and draw the next turn
+*'''Charge:''' Single hit high damage attack
+
+=== Vrocs in Negotiations ===
+
+*'''Untrained:''' The player gains an argument with 3 resolve that deals 3 damage to a random enemy argument each turn. This argument is destroyed at the start of the next player turn.
+*'''Trained:''' The player gains an argument with 2 resolve that deals 5 damage to a random enemy argument each turn.
+
+[[Category:Game]]

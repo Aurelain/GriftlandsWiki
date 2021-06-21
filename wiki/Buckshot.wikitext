@@ -1,0 +1,7 @@
+{{stub}}
+'''Buckshot''' is a common battle graft.
+
+==Description==
+Apply 1 Wound to a random enemy at the beginning of your turn.
+
+[[Category:Grafts]]

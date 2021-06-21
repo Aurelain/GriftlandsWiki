@@ -1,0 +1,79 @@
+<div class="fpbox nomobile"><!-- BEGIN Content box-->
+<div class="heading">Content</div>
+<div class="body" style="text-transform:uppercase">
+{|style="width:100%"
+|style="text-align:right; width:50%" colspan="2"|<div class="navhov">[[Battle]] [[File:Navicon battle.png|64px|link=Battle]]&emsp;</div>
+|colspan="2" style="width:50%"|<div class="navhov">&emsp;[[File:Navicon negotiation.png|64px|link=Negotiation]] [[Negotiation]]</div>
+|-
+|style="text-align:right; width:45%"|<div class="navhov" style="margin-right:-30px">[[Cards]] [[File:Navicon cards.png|64px|link=Cards]]</div>
+|rowspan="3" colspan="2" style="text-align:center"|[[File:Char1.png|250px|link=Heroes]]<br><div style="margin-top:-35px; font-size:25px">[[Heroes]]</div>
+|style="width:45%"|<div class="navhov" style="margin-left:-30px">[[File:Navicon perks.png|64px|link=Perks]] [[Perks]]</div>
+|-
+|style="text-align:right"|<div class="navhov" style="margin-right:-30px">[[Grafts]] [[File:Navicon grafts.png|64px|link=Grafts]]</div>
+|<div class="navhov" style="margin-left:-30px">[[File:Navicon prestige.png|64px|link=Prestige]] [[Prestige]]</div>
+|-
+|style="text-align:right"|<div class="navhov" style="margin-right:-30px">[[:Category:Characters|People]] [[File:Navicon people.png|64px|link=Category:Characters]]</div>
+|<div class="navhov" style="margin-left:-30px">[[File:Navicon mutators.png|64px|link=Mutators]] [[Mutators]]</div>
+|}
+</div>
+</div><!-- END Content box-->
+
+<div class="fpbox mobileonly" id="fproles" style="text-align: center;"><!-- BEGIN Mobile content box-->
+<div class="heading desktopcenter mobileleft">Content</div>
+<div class="body"><div class="fplinks"><!--
+-->{{FP link|Heroes|width = wide}}<!--
+--></div><div style="text-transform:uppercase">
+[[File:Navicon battle.png|64px|link=Battle]] [[Battle]]<br>
+[[File:Navicon negotiation.png|64px|link=Negotiation]] [[Negotiation]]<br>
+[[File:Navicon cards.png|64px|link=Cards]] [[Cards]]<br>
+[[File:Navicon grafts.png|64px|link=Grafts]] [[Grafts]]<br>
+[[File:Navicon people.png|64px|link=Category:Characters]] [[:Category:Characters|People]]<br>
+[[File:Navicon perks.png|64px|link=Perks]] [[Perks]]<br>
+[[File:Navicon prestige.png|64px|link=Prestige]] [[Prestige]]<br>
+[[File:Navicon mutators.png|64px|link=Mutators]] [[Mutators]]
+</div>
+</div>
+</div><!-- END Mobile content box-->
+
+<div class="fpbox mobilecollapsible expanded" id="fproles" style="text-align: center;"><!-- BEGIN Other content box-->
+<div class="heading desktopcenter mobileleft">Other</div>
+<div class="body"><div class="fplinks"><!--
+-->{{FP link|Griftlands|width = wide}}<!--
+-->{{FP link|Developers|width = wide}}<!--
+-->{{FP link|System requirements|Requirements|width = wide}}<!--
+-->{{FP link|How to play guide of Griftlands|How to play|width = wide}}<!--
+-->{{FP link|Locations|width = wide}}<!--
+-->{{FP link|Quests|width = wide}}<!--
+--></div></div>
+</div><!-- END Other content box-->
+
+<div class="fpbox mobilecollapsible expanded" style="text-align: center"><!-- BEGIN Latest update box-->
+<div class="heading desktopcenter mobileleft">Latest update</div>
+<div class="body">
+[[File:Smith Day 3 Update poster.png|480px|link=Version History/Smith Day 3 Update]]
+</div>
+</div><!-- END Latest update box-->
+
+<div class="fpbox mobilecollapsible expanded" id="fpcommunity" style="text-align: center;"><!-- BEGIN Links box-->
+<div class="heading desktopcenter mobileleft">''Wiki community</div>
+<div class="body">
+{{FP link|Special:UserLogin/signup|Register|size=wide}}
+{{FP link|Project:Community portal|How to help|size=wide}}
+----
+<div class="nomobile">
+<div>To write a new article, just enter the article title in the box below or in the search box at the top of the page.</div>
+<inputbox>
+type=create
+break=no
+</inputbox>
+----
+<div style="text-align: left;">
+* '''Adding content'''
+** If you are unsure of what to do or how to create a page, search for a few articles on the same topic and see what they look like. You can always view the source code in a wiki and learn from what others have done.
+** An edit doesn't have to be massive; if you feel you don't want to create whole articles, then just fixing spelling errors and broken links is enough.</div>
+<div style="margin-right:10px">[[File:enemy1.png|150px|right|link=]]</div>
+----
+<div style="margin-top:40px">[[File:Discord icon.png|32px|link=https://discord.com/invite/upVSGA8]] [https://discord.com/invite/upVSGA8 Join Community Discord]</div>
+</div>
+</div></div><!--END Links box--><noinclude>
+[[Category:Front page sections]]</noinclude>

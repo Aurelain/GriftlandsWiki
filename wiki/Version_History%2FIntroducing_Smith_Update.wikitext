@@ -1,0 +1,493 @@
+[[File:Introducing Smith Update.gif|right|300px]]
+[[File:Introducing Smith Update poster.png|center|600px]]
+'''Introducing Smith Update''' was released on November 5, 2020<ref>[https://forums.kleientertainment.com/forums/topic/123141-griftlands-introducing-smith/ Griftlands: Introducing Smith!] Posted on November 5, 2020.</ref>.
+
+==Update Information==
+This update adds a third playable story character: '''[[Smith]]'''!
+
+Smith's story takes place on a unique map, with new locations, quests, and characters to interact with. Smith has his own negotiation and combat cards, and uses new exclusive mechanics.
+
+'''Play The First Two Days'''
+
+The first two days of Smith's story are currently playable. There are a lot of alternate quests to play in Smith's story, and you'd have to play through at least six times to see them all. Smith's final story will have 4 days, like Rook. You can unlock Smith by beating Rook's first day. You can unlock Smith's Brawl by reaching the end of his story as it exists now.
+
+'''Run History!'''
+
+We've also added a Run History screen, so you can look back at past victories and losses.
+
+'''New NPCs''' and, as always, there have been a whole slew of general fixes and balance changes.
+
+<div class="mw-collapsible mw-collapsed">
+==Patch Notes==
+<div class="mw-collapsible-content">
+'''GAMEPLAY'''
+
+*Added Smith!
+*New import fees: Pets foreign to murder bay cost a bit more to purchase.
+*Added Rook's Bogger outfit to his unlock track.
+*Asset Recovery: After discovering the location of the goods, you can still run away and turn in the quest without failure.
+*Fix on_runaway handler for Hit The Beach.
+*When running away, don't run if the enemy team has surrendered or the battle is otherwise over.
+*The option to hire someone in Brawl no checks if the agent is already in your party.
+*Added a new oppo for Smith with placeholder dialogue.
+*Make "pet_rescue" event specific to Sal.
+*Trade coins with Pengemunt requires a lucky coin.
+*New smith quest: Shoot the Messenger.
+*New def: Oshnu Wranglers.
+*New oppos for Smith.
+*Fix potential crash when a fighter flees to be replaced with a backup.
+*The default bandit masked head is now associated only with Shrokes.
+*Added two new Smith events (a regular and a follow up).
+*Try to Look Scary: Add no-flee flag.
+*Stunned fighters can't run away or be replaced by backup.
+*Bossbit can show up in plaxes (for mods).
+*Move ActData:InitializeAct before world region initialization. Again, for mods, this shouldn't change any behaviour for the base game.
+*Change daily seeding so it includes a hashed value instead of the rounded time, which causes blatant cycles due to its periodicity.
+*Use 'defend' anim for any entity that doesn't support 'dodge'.
+*Clean up Smith's store interactions, and add a special shopkeeper.
+*Added new Smith event.
+*The opinion events causing Sal's night merchants to dislike for you choosing to help the other merchant are shown in the corresponding option tooltips.
+*Added death loot for the Heshbladders.
+*Set up combat behaviour for the Heshbladders.
+*New Smith/Moreef quest: Three is a Party.
+*Snails have morale, so that they can be subdued.
+*Added a behaviour for Brut (still needs balancing and tweaks).
+*Added a new Smith event where Smith meets Rug.
+*Add missing shop dialog to Steven.
+*Added a new Smith event.
+*Oshnus can now negotiate!
+*Fix snail racing quest followup.
+*Fixed bug in event_wandering_chef_smith.lua.
+*Added a NO_REWARDS flag to daily_boss_rush.lua (the pack draft is still there after every fight).
+*Fixed bug in event_bladder_attack.lua.
+*Marking Smith's social boon as a boon, instead of bane.
+*Hooked up the new anims for the Oshnu Wranglers.
+*Add Poor merchants.
+*New Smith Quest: The Great Lumin Heist.
+*The option to reject payment in event_bladder_attack.lua now previews the change in relationship.
+*Added death loot for the Oshnu Wranglers.
+*Added and hooked up new boon and bane for the Oshnu Wranglers.
+*Added a basic behaviour for the twin bosses.
+*Added a new experiment to test the twin bosses (including harvested decks).
+*Added death loot for the poor merchant.
+*Set up behaviour for the Oshnu Wranglers.
+*Added a new event for Smith.
+*Fixed bug where side_smith_great_lumin_heist.lua repeated the follow up step infinitely.
+*New smith random event.
+*Fixed incorrect feats in daily_boss_rush.lua.
+*Added boon, bane and death loot for Weezil.
+*Added a bane for Brut.
+*Added a boon and bane for the second twin boss.
+*Use oshnu wranglers instead of laborers in the snail racing quest.
+*Added death loot and a boon for Brut.
+*Added a boon and bane for twin_boss1.
+*Updated Brut's behaviour.
+*Added a new experiment for Smith's day 1 bosses.
+*Disabled old experiments that were no longer in use.
+*Added death loot for the twin bosses.
+*New smith quest: side_smith_delicate_negotiations.
+*Simple oppo for any Hesh friend.
+*Fixed bug where event_stolen_wallet.lua would get stuck in a certain branch of the dialogue.
+*Fixed bug where the decks in Smith's day 2 boss experiment were not being applied.
+*Fixed bug where Animal Bond would heal just hovering over the convo option to eat.
+*Fixed Brenna skin.
+*Fssh now loves you by default.
+*Added a boon for Fssh and a bane for Kashio.
+*Fights in the boss rush daily now still give death loot but don't offer a draft.
+*Denikus now uses bandit captain negotiation behaviour (temp).
+*Fixed bug where Renown didn't show intents on its first turn.
+*Added a Boon for the Racing Oshnus.
+*New random Smith event.
+*Fix lonely oshnu leaving like a mercenary. It might leave, but not for that reason. :)
+*Added Brut to smith_defend_bar_day_1.lua.
+*Commented out negotiation_data on Andwanette and Denikus such that they use their inherited negotiation behaviour.
+*Added a basic behaviour for Mark Nine Nine and added it to the day2 boss experiment.
+*New Smith-Moreef quest: Bounced Out.
+*Added a Smith random event.
+*Moved Bordenkra to her own script and hooked up her anims.
+*New Smith random event.
+*New quest - The Ctenophorian Heresy - it adds 4 new unique cards which are as of yet unimplemented (details in the code comments).
+*Fix objective completion for the get_luminitiate objective of Three is a Party.
+*Great Lumin Heist- Fix quest location name '{dignitary}'s Boat'.
+*Great Lumin Heist- End convo after letting insider off the hook.
+*Add Smith random event.
+*Tune the money precondition for event_loan_shark which makes it really rare.
+*New Smith random event.
+*Added a basic combat behaviour for Bordenkra .
+*Smith's brawl is unlockable by beating Smith's extant story.
+*Shorten the brawls by a quest each day (brawls are supposed to be short and hard!)
+*Re-label smiths' brawl as his brawl, not his brawl preview.
+*Add smith bosses to brawls, boss rush.
+*Fix for spawning twin bosses like a normal boss (so that both show up).
+*Fix casting crash when casting Mark_nine_nine in the marriage quest.
+*Fix typo crash in Smith's story.
+*Fix bodyguard casting, stage entrances for Theroux showdown.
+*Smooth over first quest turn-in with Denikus (remove duplicate "receive bonus shills" narration bubble).
+*Added BOSS_FIGHT flag to Smith's day 1 boss fight.
+*Added a new condition for mark_ninenine.lua to round out its combat behaviour.
+*Added death loot for mark_ninenine.lua.
+*Removed Denikus from experiment_smith_twins.lua (he also doesn't help in the actual story).
+*Added boons, banes and death loot for Denikus and Andwanette.
+*New Smith Quest: Buyer Beware.
+*Fix bad location name that was crashing a quest.
+*A pass at a poor merchant negotiation behaviour.
+*Added combat behaviour for the poor merchants.
+*Fix GraftInstance:IsRemovable so that grafts are usually removable.
+*Hooked up two attacks and a skill for the poor merchants.
+*Fixed bug where the second twin boss wasn't showing up in smith_story_marriage_contract.lua.
+*Give relationship rewards if you manage to help the investigator capture/kill the assassin in smith_public_relations.
+*Give your chosen suitor plot armour as you are working for them, so that you can't pay to improve your relationship with them.
+*Suppress the suitor from participating in your negotiation to reconcile with Theroux.
+*Change the final fight of Smith buyer_beware (it's only day 1!!)
+*Andwanette hangs out at her home during day 2.
+*Hook up rich houses in the Pearl.
+*Fix Steven's portrait.
+*Fix sequence break in side_smith_great_lumin_heist.
+*Fix sequence break in smith_tei_ctenophorian_heresy if you skip ahead to the ritual.
+*Fix pledge amount for random tithing event.
+*New Smith random event.
+*Fix missing dialog when helping to haul a mech.
+*Fixed bug where three twins would show up instead of 2.
+*Fix sequence break if you manage to do the "impossible" negotiation in side_smith_bounced_out.lua.
+*Added the REQ_RENOWN requirement string.
+*Added death loot, boon and bane for Denikus and Bordenkra.
+*Fix missing reward in the wallet stolen event.
+*Fix Fellemo hindering you in the expedition negotiation with workers if he doesn't like you.
+*When you have a full team of battle reserves, any pets will be last in the queue to protect them from unnecessary danger.
+*Fix results of killing/beating the luminitiate in the ctenophorian heresy.
+*Add some Andwanette-specific dialog if you kill Theroux.
+*Make some player-character-specific dialog when eating noodles.
+*Don't have an oppo limit in the big battle in side_smith_delicate_negotiations.lua.
+*Moreef gives you a graft after beating the first boss.
+*Make it so that you can actually unlock smith by finishing day 1 of Rook.
+*Remove some placeholder dialog, hook up some un-hooked-up dialog.
+*Fix progression blocker in smiths' sandwich quest when using the Handy perk.
+*AgentUtil.TakeJob will add a work position if it doesn't already exist.  Fixes a crash with 'Smith Bounced Out'.
+*Steven does not have social_connections anymore.
+*Fix Moreef's reaction dialog when killing Smith's day 1 boss.
+*Fix quip sequence if you skip daggers in event_trail_of_daggers.
+*Fix up the patron tables for the three areas - no more boggers in the Pearl.
+*The battle in event_trail_of_daggers.lua is now self defence.
+*The quest give in side_private_security.lua now helps in the negotiation with the store guard
+*Give Andwanette her own house
+*Rename the 'VIP card' in the special event to 'VIP token' to avoid confusion.
+*Increase basic resolve gain from bartender drinks from 10 -> 15.
+*Reduce resolve restoration after battle from 33% to 20% of your lost resolve.
+*Shorten smith day 1 and 2 by one quest - the quests are longer than other characters' quests, so the days are too long with two 'jobs' per day. This should increase the overall difficulty, because you will have fewer card picks before the boss fights.
+*Fix location problem with oppo_friend_in_trouble.
+*Give the suitor plot armour before the actual marriage during smith day 2.
+*Add oppos to smith's first two days (I guess we forgot to turn these on?).
+*Rework structure of render_unto_hesh convo to avoid weird convo restart.
+*Make the merchant help you in the negotiation in three's a party.
+*Fix progression blocker in smith day 1 / 2 if you fail the first job given by your questgiver.
+*Fix some sequencing in bounced out.
+*Fix seq break in great lumin heist.
+*Fix party store map destination (you have to go through the front room).
+*Add Plocka to the party store back room.
+*Increase the countdown slightly for the lonely oshnu event.
+*Add stack support to the Throng boon.
+*Improve the dialog flow in event_break_it_down.lua.
+*Make the battlefield aftermath a sal-specific event.
+*Shut down assassin inquiry with the admiralty if you've already dealt with them.
+*Crash fix for old saves lacking a bouncer in the Moreef bar.
+*Fixed incorrect shill amount in side_secret_shopper.lua.
+*Fixed bug where the event_dodgy_scavenger.lua could select perks and boons/banes to sell you.
+*event_dodgy_scavenger.lua also filters out brawl grafts.
+*Releasing the racing oshnu at the Oshnudrome is now a hub option instead of a confront.
+*oppo_comedy_club.lua can no longer spawn if you are currently at the Moreef's bar. This prevents automatically triggering the oppo.immediately.
+*Fix not receiving an Injury card while hauling a mech, despite the option saying so.
+
+'''CARDS'''
+
+*Kindling: no longer removed by self damage.
+*Add a maximum argument count of 13 (including core) to prevent breaking the UI.
+*Wide Fixed has Expend, but is AOE.
+*Lumin Darts now uses the shared throw anim.
+*smith_defend_bar_day_1.lua now applies the shield to the core argument before adding supporter arguments.
+*Reworked targeting on Smith's Confrontational.
+*Revision: no longer tries to replace your core argument.
+*Nap: now calculates defend bonuses in its card text.
+*Muddle now gives 2 defense per debuff, by applying 2 stacks of muddle, for consistency.
+*Ditch: Fix crash if there are no cards to discard.
+*Fix upgraded Bravery from spawning the wrong modifier.
+*Added new Smith negotiation cards.
+*Fix desc for Wide Fixed.
+*Battle.Attack has its own damage accumulator so that you can query IsSource() to determine whether a given source is modifying the calculated damage. Defect uses this to determine whether it should remove itself.
+*Fixed: no longer Expend, and only reduced when attacked.
+*Renamed Smith's Scour to Ransack.
+*hot_air now gains 4 damage when you destroy it, instead of doubling.
+*Fixed smith using some old unused spree quips in negotiation.
+*Fix enemy NPCs acting if they were stunned by an ally NPC after your turn.
+*The Shroog now spawns a single shrooglet whenever it creates the Shroog Flock argument unless it already has shrooglets alive.
+*Fixed bug where Misanthropic wasn't attacking correctly and a separate bug where its damage label wasn't updated immediately.
+*Fix crash when negotiating with Buleet, who for now will use the Rise behaviour.
+*Balance change for Double Entendre to keep the two upgrades closer in power levels.
+*Lock-in preview damage after the player ends turn.
+*After the player turn, NPCs no longer reprepare another attack if the previous one becomes invalid (eg. because the target is no longer *valid, etc.).
+*Fix target weighting making targets invalid if they are the only option despite having 2 >= attackers already. This fixes a bug with *Targeting Core sometimes not re-assigning all attacking allies.
+*Targeting Core: can now target any fighter.
+*Fixed bug where Nadan's leap attack could apply bleed to the player as a condition instead of by incepting cards.
+*Fixed bugs with Intensify, Amplify, Forgo, and Pursue when affecting the same card multiple times.
+*Do Over: can no choose to Destroy temporary cards.
+*Fixed bug where evoked cards were not played correctly if marked as UNPLAYABLE.
+*Reworked Bog Pauldrons so it works for all characters.
+*Fixed bug where Evil Eye would not apply to cards that dealt damage multiple times.
+*Fixed bug cause by playing Circle Back with no target.
+*Fixed bug in powder_keg.
+*Fix Shield description when playing Amnesty.
+*Rise Manifesto card text should use Incept keyword.
+*Do Over: reduced cost to 2.
+*Scorched Earth: shows the number of non-hostile cards currently in the discards while in negotiation.
+*Fixed bug where counter wasn't triggered by cards with 0 as max damage (such as slug smash) even if they dealt damage.
+*Added upgrades for knuckle_down and overdrive.
+*Added second upgrade for Smith's Degrade and Stool Pigeon.
+*Lowered damage of flead_upgraded_shoot but increased its wound to 2, for parity with unupgraded flead.
+*Reduced alleviate amount on Looper by 1.
+*Reordered description of blademouth_beating to clarify its effect.
+*Fixed edge-case where Recoverable health could carry over to next turn in rare cases.
+*Reduced the damage of the Bogger Cultivators aoe attack but it now also applies exposed to non-player fighters.
+*Damage previews should now accurately reflect damage avoided by evasion.
+*Revised how unknown_concoction works to fix save/load bug.
+*All ScalarAccumulators in negotiation_engine.lua are now initialized before the negotiators to fix a bug with Confrontational.
+*Fixed bug where Stonewall wasn't triggering unless you removed all renown.
+*Bottle tracker accounts for bottles in the opening hand.
+*Fix a softlock in Moxie presentation by only showing if Smith is already idle, for now.
+*Fix crash related to Amnesty unshielding a modifier that was already removed.lua.
+*Fixed bug caused by CYBERNETIC_HEARING.
+*Fixed bug where Mark could be triggered despite attacks being evaded.
+*Bossbit's "Gas" can now be targeted by anything. Light still only targets Gas.
+*Fixed bug where Mirrored Degrade only hit 1 target on the second resolve.
+*Oshnu Slime now correctly decays.
+*Added missing upgrade highlight for Boosted Game.
+*Piston now displays a counter.
+*Added missing desc to Wide Fixed.
+*Escalate now expends.
+*Reworked Concussed to work for all characters.
+*Fixed bug where Rehearsal could not double the damage of a card multiple times.
+*Fixed bug where Veteran's Wire could prevent you from getting the shill bonus from picking cards with a bounty.
+*Fixed incorrect stool_pigeon upgrade.
+*Forced Adrenaline, Mouthwash: minor card text edits for consistency.
+*"Tiny Stinger" now passes itself as the source of the defend removal, this fixes bug with interactions chitinous.
+*The "The Spider" graft now refreshes the graft bar in the overlay to properly reflect its counter.
+*Tank and Scatterphase now both have damage/counter equal to their stacks rather than the effect and stacks being different.
+*warp_vial now transforms at the beginning of the turn exclusively, even if not in hand, to ensure that if it is improvised, it still has an effect.
+*warp_vial transformation should trigger before rejig.
+*Fixed incorrect adrenaline gain on lean_green_plus.
+*GASEOUS_HERD now shows the tooltip for INFLATED as well.
+*POWER_LOSS now triggers a turn later for NPCs so that they get to use the power before it is removed.
+*Temporary parasite cards will now hatch. Beware, lest the bog take you!
+*Default parasite hatch functions now pull from ALL defined cards flagged PARASITE.
+*Fixed incorrect target_count on twin_1_punch.
+*Fixed bug where destroying multiple auction item arguments in Sal's auction didn't remove/give multiple cards/grafts.
+*Tweaked the upgrades for gunlsinger .
+*Stonewall: nil-check delta on MODIFIER_CHANGED handler, which can be nil.
+*Fixed bug where Squeeze didn't calculate the cost of drawn cards correctly.
+*Clarified description of the Grout Monster's Enrage condition.
+*Fixed rare crash caused by chaos_theory.
+*Reworded the description of Hubris to match its effect.
+*Fixed missing card art and target_mod for tidepool_pods.
+*Added the Retribution buff for the twin bosses.
+*Updated desc of CHASER to be more clear.
+*Update Mixology wording so it only refers to drinking that restores resolve.
+*Fixed bug where Escalation affected damage from arguments.
+*Reworked Brag.
+*SINGLED_OUT is now marked as a debuff.
+*Fixed desc of rescind_plus2.
+*stun_gun can no longer stun if evaded.
+*Added a taunt card for Mark Nine Nine.
+*Chemist: number of stacks of Distracted are calculated in the behaviour instead of the modifier itself.  Fixes a crash if the argument is spawned by a player card.
+*Reworked Renown slightly so that it now decays by 1 every turn.
+*Fix "Singled Out" bonus damage being applied to allies.
+*Fix for multiple shield generators not being consumed after the first.
+*Fix Pure Incredulous not being playable if you have renown.
+*Fix potential crash with DELTA_RESOLVE handlers causing modifiers to be destroyed twice (eg. with Crafty+ and Confrontational).
+*Faster dropkicks.
+*Redesign Braggart.
+*Fix Magnetic Pulse not triggering when you Gamble.
+*Fix potential crash with Magnetic Pulse if there are no valid targets.
+*Fix crash using Domain.
+*Crash fix for Wrist Rocket.
+*Fix potential crash if certain Chain cards were returned from a Grout Loot Cluster.
+*Tall Brag now has a max_persuasion of 5.
+*Simmer can no longer pick 0-cost cards.
+*Fixed bug where unstable_drone wouldn't trigger its damage if you killed the drone before getting to 0 stacks.
+*Token of Hesh will try not to choose an argument that is already Shielded.
+*Fixed missing Frenzy upgrade.
+*Fixed flavour text of Into the Night.
+*Fixed bug where Parvenu was affecting all cards in hand.
+*Added 1 damage to batter_up for better interactions with things like evade.
+*The Twin bosses' Retribution is now triggered by panic as well as death.
+*Racing Snails now use the trained and untrained_pet arguments as support.
+*Fixed bug where self-targeted skills removed power from Conditioning.
+*Fixed bug where Boosted All Out chose the wrong number of cards.
+*Implemented the new cards in smith_tei_ctenophorian_heresy.lua.
+*Fixed bug where battle cards with VARIABLE_COST were not shown as having a variable cost.
+*Stoke can no longer prevent you from playing Executes.
+*Fix Piece of the Pie sometimes not being received.
+*Batter Up is now restrained.
+*Update Lumin Kunai, Twisted Figurine, Domain, to count from the cards_played list instead of managing their own count. This ensures they work if the card is dynamically added to your hand.
+*Underdriver: Fix crash if no cards were previously played.
+*Reworked Wild Rant.
+*Fix Brain Spur triggering for npc intents.
+*Evasion new effect wip, fixed Brut's smash following dust, and idle sparks on humanoid.
+*Fixed bug caused by predictive_blast.
+*Don't consume Tramautized if it isn't providing a damage bonus (eg. if it gets created during the ally phase).
+*Fixed bug where Cavalcade was targeted.
+*Fixed incorrect desc on Initial Fallout.
+*Know A Guy now passes the card as the source of removal rather than the hidden argument it creates.
+*Increased cost of Double Down by 1.
+*Added missing upgrade for Who?
+*Fix yield warning when during negotiation/battle preview fade.
+*Fix Inflated capitlization of owner name.
+*Fixed bug where Dominion didn't work with exactly 2 renown.
+*Mark Nine Nine now has a limit on when he can play Wound Up to avoid stacking too high.
+*Added the DEBUFF tag to Hemophiliac.
+*Added event priorities to sketchy_equipment and quality_materials.
+*Delay self damage floater if the fighter is busy.  Not sure this always 'works' but the idea is to delay the viz a bit so it collides less with attack presentation.
+*Fixed is now a debuff.
+*Added missing event priority on escalate.
+*Fixed bug where escalate wasn't doubling min_persuasion correctly.
+*Smith's hole_up now uses NEXT_TURN_DEFENSE rather than its own condition.
+*Nil-check damage for Sentenced's hit handler.
+*Death through self-damage protection correctly accounts for Power Through.
+*Add some missing CanPlayCard checks to some cards that apply self damage.
+*Glued is now a debuff.
+*Swap the order of Trickery's upgrades so they are consistent with other cards which have a similar split between upgraded and Improvise+. This means current save games will have the altered version of the card -- sorry!
+*Fix Hanbi's marks not giving him his rightful damage.
+*Fixed bug where Andwanettes drones appeared behind their target.
+*Assign correct agent owner on Unknown Concoction.
+*Confrontational now only gets triggered after the start of your first turn. This prevents unintended interactions with custom negotiations.
+*Hangunder: increase resolve gain to 5.
+*Moved Renown's decay to the start of your turn rather than the end of it. This solves the issue of enemies targeting renown that will disappear before the attack.
+*Fix bad state transition in the heresy quest.
+*Added nil check for npc_kashio.lua to prevent crashing in rare cases.
+*Fixed rare crash caused by slug smash if the card owner did not have the moxie tracker.
+*Fixed targeting on subtle setup.
+*Fixed bug where even_footing would sometimes target invalid arguments.
+*Fixed incorrect desc on the "Deliver Summons" card.
+*Even Footing no longer includes core arguments.
+*Added an additional attack for Oshnus that applies Glued.
+*Fixed bug where Traumatized could be exploited to double the damage of multiple allied attacks.
+*Increased damage of Razorglass by 1 and added an upgrade.
+*Add Composure keyword to Save Face.
+*Added nil-check to predictive_blast for targets with no prepared cards.
+* Boosted Shrewd is now playable even with no recoverable health.
+*Vanish will always remove a stack from itself when triggering, instead of potential from other Vanish arguments.
+*Negotiator:DestroyModifier now only calls OnBounty if the modifier has >0 stacks.
+
+'''UI'''
+
+*Showing the fighter difficulty stars on the Fighter Info popup. Also added a half-star, so that the displaying of fighter strength is more accurate both on the fighter popup and on the fight previews.
+*Adding boss fight preview animation to the Automech boss.
+*Fixing the wrong-facing arrow on the notifications widget after mouse hovers.
+*Showing an animation sequence when opening the Perks screen. The perk tiers animate in sequentially, and so do their respective perks. After all are animated in, the glows show up on the played perks.
+*Showing an animated frame on perks that the player has completed a run with.
+*Showing the square shield animation on regular arguments, with the shield-shaped one only on Core arguments.
+*Fix a bug where hovering over a character after selecting them on the New Game Screen would cancel the selection.
+*Adding a limit to the number of perks shown on the top bar at any given time.
+*Replacing the mods enable-button with a checkbox again.
+*Added gamepad support to the End of Day screen.
+*Don't show the loot screen if you are about to lose or win the negotiation Daily.
+*Adjusting the position of the selected character on the New Game screen, so it stays in the center, independently of the window aspect ratio/resolution.
+*Preventing the Characters Info sidebar block from consuming hovers/clicks intended for the character anims under it.
+*Fighter status change events animated asynchronously.  Notably, you won't have to wait for a single Erchin to flee for combat to proceed.
+*Showing the Custom Game warning in red on the New Game Screen.
+*Making the Perks selectable with gamepad on the New Game Screen.
+*Added a Perk Screen ingame, where one can see all currently active perks.
+*Smith's BOTTLE_TRACKER now listens for CARD_MOVED to determine when bottles are added/remove to prevent things like status_pinned from interfering with the tracking.
+*Fixing the layout when a new Perk is unlocked.
+*Fix end of preview message for Smith.
+*Hovering negotiation intents now shows damage arrows where applicable.
+*Preventing invalid acts from crashing the Run History Screen.
+*Making the progress widget on the New Game screen wider, to accommodate other languages.
+*Reserve overflow shown with a label instead of just a growing bar of portraits.
+*Adding more data to the Run History screen.
+*Adding Twin bosses slide animation.
+*Adding relationships information to the Run History screen. Saving dead agents to run history.
+*Making the deck buttons on the New Game screen clearer.
+*Showing the feats on the run history screen. Saving more data to the run history when ending a run.
+*Fix HistoryScreen crash referencing killed_by agent.
+*Add a floater for when Emergency Shield Generator activates.
+*Showing the number of cards on the deck buttons.
+*Showing money earned on the Run History Screen.
+*Added run decks, grafts, perks and mutators to the Run History screen.
+*Adding color to the Relationship counters on the Run History screen.
+*Adding gamepad support to the Run History Screen.
+*Making speech bubbles fade out when the negotiation/battle preview fades in.
+*Tint stage and bg when showing battle/negotiation preview panel.
+*Hooked up Smith's battle tutorial.
+*Fixing the bounding box of the Compendium filter, so their position doesn't change based on the ones that are focused (scaled).
+*Track references to cards_played in both negotiation and battle, rather than just the total number.
+*Update battle/negotiation panel background fade to appear in front of any convo options.
+*Allowing for a longer agent bio on the Relationship Screen.
+*Making the Target resolution options on the Options screen decrease quality from left to right, like all the other graphics options.
+*Adding number hotkeys to the Card and Graft draft screens.
+*Fix inconsistent 'killed by' character name in the run history screen.
+*Hiding the difficulty stars for the player agents.
+*Fixing the card damage sorting on the in-game deck.
+*Positioning the agent title correctly for agents without faction on the compendium.
+*Adding Boss compendium.
+*Add a quest icon to the Oshnudrome proprietor if you have a VIP token.
+*Make the right people show up in the boss compendium, and give titles to everyone.
+*You can now cancel out of upgrading cards in rook_story_expedition_picnic.lua without losing your reward.
+*UI healthbar hits.
+*Add 'Deltrean' trigger to codex entry.
+*Remove quest context on 'hire merc' option in brawl mode, causing unnecessary tooltips.
+*refresh plax sounds when plax_changed event fires.
+*Fix missing smith quest icons.
+*Add missing argument icons for custom lonely snail.
+*Fix some agent titles.
+*Remove Gaft from the random names list.
+
+'''MISC'''
+
+*Add a hit_sounds table to player defs mapping anims to damage type.
+*Moving health_change_player and health_change_enemy sounds into AnimFighter:DoHitResult, because they are actually hit sounds, not health bar sounds.
+*"Play"ing a sound in the debug audio panel will now use the same params as the original sound if they exist.
+*Add a Debug Audio option to the Debug menu of the AttackTester.
+*AttackTester now shows player defs at the top of the agent popup for convenience.
+*Fixed a lot of smith quest typos and crashes.
+*When serializing string table keys, use literal strings in case there are embedded newlines. (this was causing some rare save file corruption issues).
+*Prior to RememberDialog being called, ensure it receives a legitimate loc key.
+*Fix an error where legacy restarts weren't using the correct save file name, preserving the original run.
+*Added a nilcheck for "act" when getting high score. 
+*Add example of card upgrades to example mod.
+*Prevent Rook Day 3 Dead Drop crash by validating Flekfis' core argument before trying to add weaknesses.
+*Prevent out-of-date save data from crashing when viewing Unknown Concoction.
+*Added missing title for Buleet.
+*Added an (initial) Polish translation.
+*Fix fx not matching the play speed of the triggering anim.
+*Fix the looping anim task not being triggered at the right time when play speed changes mid-anim.
+*Audio: vo for Mark nine nine and Steven. 
+*Fix for robot talking (Steven!)
+*Fix Brut and Eeonwe's titles.
+*"Meet" characters who join a fight outside of conversation, for compendium accounting purposes.
+
+'''MODDING'''
+
+*OptionScreenButton have a highlight on/lose hover.
+*Support a generic button-type option to mod_options (see Shel's Adventure).
+*Add a HarvestStrings table to mod tables for localizing loose mod strings.
+*Harvest strings from the mod_options table.
+*Mod Screen: Hide Unsubscribe button if you are already unsubscribed.
+*Assign mod_id to ConvoStateGraph instances so convos can access the mod they are associated with.
+*Add basic mod support for exposing custom user settings in the OptionsScreen.
+*Mods can specify a dependency order by specifying load_before/load_after tables. Thanks RageLeague!
+*Default parasite hatch functions are exposed via Content.HatchNegotiationParasite and Content.HatchBattleParasite.
+*Localize mod_option spinner value klname strings.
+*Localize mod_option spinner value name strings.
+*Better type-checking when priority sorting the mods table.
+*Move ally images into their respective CharacterDefs for better extensibility.
+*Default mod aliases to the mod ID if not specified, so that the paths in Content.PLAX_DATA are aliased.
+*Clear Content.SORTED_PLAX_DATA when adding a new plax, so that it will be regenerated.
+*Fix plax saving for mods; the installPaths are unaliased so the paths need to be handled differently than they were.
+*Ensure new plaxes are associated with the same mod as the currently open plax by default (the combo box indicated as such, but the value wasn't being assigned if the combo box was left untouched).
+*Morning mail is now a global event so that it can be intercepted by more than just grafts.
+*Print errors loading local and dev mods into the log, in addition to showing the engine warning.
+*wide strings are no longer considered 'plain' by serpent, and will get escaped and quoted when being serialized out by serpent.
+</div></div>
+
+==References==
+<references />
+
+[[Category:Game updates]]

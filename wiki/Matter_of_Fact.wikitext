@@ -1,0 +1,33 @@
+{{Card Infobox
+|set = common
+|Decktype=negotiation
+|cardtype=Manipulate
+|upgradeable=yes
+|upgrade1=Pale matter of fact: costs 0
+|upgrade2=Sticky matter of fact: Card stays in hand
+|expreq=7}}
+'''Matter of Fact''' is a 1-cost Common '''Manipulation''' card for [[Rook]]. It has the effect "Lose Composure from all friendly arguments, deal damage equal to the Composure lost."
+
+== Upgrades ==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Pale Matter of fact
+|0
+|NA
+|Lose Composure from all friendly arguments, deal damage equal to the Composure lost
+|-
+|Sticky Matter of Fact
+|1
+|NA
+|Lose Composure from all friendly arguments, deal damage equal to the Composure lost. Sticky.
+|}
+
+[[Category:All cards]]
+[[Category:Rook cards]]
+[[Category:Manipulate cards]]
+[[Category:Common cards]]

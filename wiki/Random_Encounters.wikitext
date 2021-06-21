@@ -1,0 +1,221 @@
+{{Stub}}
+{{Merge|Random Events|they cover the same information}}
+
+== Wild animal attack ==
+''You hear a bustle from the hedgerow'' 
+
+''Wild animals!'' 
+
+'''1: Defend yourself!'''
+
+* Fight 2 [[Yote|Wild Yote]] (Default rewards)
+
+''You leave before any other wild beasts arrive.''
+
+<br />
+
+== Vroc for sale ==
+''[Pazlock] Hey. You want to buy a [[vroc]]? Real cheap. Just, ah... don't ask where it came from.''
+
+''[Pazlock] Or if it's healthy.''
+
+''[Pazlock] Or if it's trained.''
+
+''[Pazlock] But it's yours if you have the shills.''
+
+'''1: Ask about the [[vroc]]'''
+
+* ''[Sal] So is it...''
+* ''[Pazlock] I said don't ask about it!''
+* ''[Pazlock] Just take it or leave it.''
+
+'''2: Convince [[Pazlock]] to hand over the [[vroc]]'''
+
+* ''[Sal] Something tells me the [[vroc]] is more trouble than you bargained for. Why not just hand it over?''
+* Negotiation vs Pazlock (Opponent has +10 resolve: Doesn't want to give it up for free)
+* '''Win the negotiation'''
+**''[Sal] It must be giving you a lot of hassle. Is this really worth your time?''
+** ''[Pazlock] No, it's a menace. Honestly, you'd be doing me a favour.''
+** ''Pazlock kicks the covered cage to jostle the vroc, then wrestles it into a lead. When he returns, both Pazlock and the vroc are looking sour.''
+** ''[Pazlock] Here you go. One mongrel.''
+** ''The vroc looks at you quizzically, and then pees. Pazlock shuffles uncomfortably as the puddle spreads towards his boots.''
+** ''[Pazlock] Well, uh. Enjoy, I guess.''
+** ''You wonder if this was a good idea.''
+** Gain an Untrained [[Vroc]]
+
+'''3: Buy the Vroc'''
+
+* Give 100 Shills
+* Gain an Untrained [[Vroc]]
+
+'''4: Decline the offer'''
+
+
+== Admiralty planting contraband ==
+''You're stopped along the road by an Admiralty patrol, swinging their batons with some showmanship.''
+
+''[Admiralty Guard] You! Grifter! Get over here.''
+
+''There's a pompous curl to his lip that suggests you're in for a heap of trouble. Best watch yourself.''
+
+''[Admiralty Guard] You're under arrest for carrying contraband.''
+
+''[Sal] Wha---? Contraband? What contraband?!''
+
+''[Admiralty Guard] Oh, right.''
+
+''The Admiralty fumbles around in his pockets for a second, produces a Vial of Slurry, and hands it to you.''
+
+''[Admiralty Guard] There.''
+
+''[Admiralty Guard] As I was saying, you're under arrest for carrying contraband.''
+
+''[Admiralty Guard] The fine is 250 shills.''
+
+''The admiralty looks at you with smug satisfaction.''
+
+'''1: Pay the ridiculous 'fine''''
+
+* Pay 250 shills
+
+'''2: Negotiate a smaller 'fine''''
+
+* Negotiate vs the admiralty guard.
+* '''Win the negotiation'''
+** Reduce the 'fine' to 50 shills
+
+'''3: Refuse and defend yourself'''
+
+* ''[Sal] I don't respect your authority!''
+
+* Fight the admiralty guard and an untrained vroc (★★★☆☆ + ★☆☆☆☆ difficulty)
+* '''Win the fight through surrender'''
+**''[Sal] I'm keeping the Vial of slurry. And you're not getting a shill.''
+**''[Admiralty Guard] F-fair enough, I guess. But hey! You can't blame me for trying.''
+**''[Sal] I can. And I do.''
+**''You shoulder your way past the admiralty guard, leaving him to tend to his wounds''
+
+
+== Admiralty Toll Road ==
+''The road ahead is blocked by a group of Admiralty officers.''
+
+''[Admiralty guard] Hold it. This here's a toll road.''
+
+''[Sal] It is? Since when?''
+
+''[Admiralty guard] Since the ink-spitters up at headquarters said so.''
+
+''[Admiralty guard] The toll is 50 shills.''
+
+'''1: Pay the toll'''
+
+'''2: Convince the admiralty guard to leave you alone'''
+
+* ''[Sal] 50 shills? Do I look like I'm made of shills?''
+*''[Admiralty guard] You wanna use the road, you gotta pay.''
+*''[Admiralty guard] Doesn't matter what you look like. I'm not prejudiced.''
+*''[Sal] And what if I don't want to use the road?''
+* Negotiation vs the admiralty guard
+*'''Win the negotiation'''
+**''[Sal] What if I just stepped a little bit over there, off the path, and into the trees?''
+**''[Admiralty guard] What, in the brush?''
+**''[Admiralty guard] There's bugs and stuff in there.''
+**''[Sal] Terrifying. Will I have to pay the toll then?''
+**''[Admiralty guard] Huh. I suppose if I can't see you, then you never really crossed.''
+**''[Admiralty guard] And it saves me some paperwork besides.''
+**''The admiralty guard looks the other way while you slink into the trees. You travel through the brush for a spell before coming back onto the main road.''
+**''You check yourself over, and find a cuttlebeetle trying to lay its egg sac inside the cuff of your sleeve.''
+**''[Sal] Ugh.''
+**''You wipe the slime out as best you can and keep going.''
+
+'''3: Attack the admiralty guard.'''
+
+
+== Rook's Assassin ==
+''A grifter saunters toward you, a scheme burning brightly in his eyes.''
+
+''[Rook] Greetings, friend. Your timing is excellent.'' 
+
+''[Rook] I have a business offer for you, if your blades are for sale.''
+
+''[Sal] They might be. What's the scam?''
+
+''[Rook] No scam, just a simple protection job.''
+
+''[Rook] You see, I'm being tailed by an assassin.''
+
+''[Sal] You seem pretty relaxed for someone who's got a tail.''
+
+''[Rook] It's not the first time.''
+
+''[Rook] They're about to catch up with me. I'll give you 300 shills if you back me up.''
+
+'''1: Ask about the target''' 
+
+* ''[Sal] Who's after you?''
+* ''[Rook] Would that I knew.''
+* ''[Rook] Someone with more grudge than sense. Same as usual.''
+
+'''2: Ask about Rook'''
+
+* ''[Sal] I didn't know there were other grifters operating in Murder Bay.''
+* ''[Sal] What's your deal here?''
+* ''[Rook] I'm just passing through.''
+* ''[Rook] It's business.''
+* ''[Sal] What kind of business?''
+* ''[Rook] Personal business.''
+
+'''3: Agree to the deal'''
+
+* ''[Sal] Sounds good to me.'' 
+* Receive 300 shills.
+* ''[Rook] Excellent. Here's your pay.''
+* ''[Rook] Oh. Here they come. Hang back, and look intimidating, would you please?''
+* ''Sure enough, a lone figure soon approaches''
+* ''[Rook] Alright, 'friend'. That's close enough.''
+* ''[Eonwe] You're going to pay for what you've done, Rook.''
+* ''[Rook] I've heard that one before. Wasn't true then, isn't true now.''
+* ''[Rook] And now, my associate and I are going to put you down.''
+* ''[Eonwe] You really don't know who you're in business with, do you?''
+* ''[Eonwe] You'll just as likely get a shot in the back than whatever he's promised you.''
+* ''[Sal] And what's your offer?''
+* ''[Eonwe] Stand aside, or I'll bury you both.''
+* '''1: Attack Eonwe'''
+**''[Sal] Not good enough''
+** Boss fight vs Eonwe
+** '''Win the fight through surrender'''
+***''[Rook] You shouldn't have followed me again, Eonwe.''
+*** ''[Eonwe] It won't be the last time. What you did was unforgivable.''
+*** ''[Rook] Now that's just not true.''
+*** ''[Rook] I've already forgiven myself.''
+*** ''Rook executes Eonwe in cold blood''
+*** ''[Sal] Whoa! What the hell?''
+*** ''[Rook] You heard her. I'm not safe while she's still drawing breath.''
+*** ''[Sal] What did you do to make her so angry?''
+*** ''[Rook] I had a run-in with the Cult back in Pearl-on-Foam. It was just a job, but Eonwe is- er, was a zealot.''
+*** ''[Rook] There's nothing worse on Hesh's blue orb than someone who takes their religion seriously.''
+*** ''[Rook] Until next time.''
+*** ''Rook saunters off, a wary eye betraying his collected gait.''
+* '''2: Stand aside'''
+
+'''4: Refuse'''
+
+
+== Bandit Robbery ==
+''A bandit emerges from the shadows like a worm slithering out of the tar.''
+
+''[Spree Thug] Your shills or my shank. You make the call''
+
+'''1: (If allied with the Spree) Threaten to talk to Nadan'''
+
+'''2: Hand over ALL of your shills'''
+
+'''3: Convince them to take only half of your shills'''
+
+'''4: Convince the Spree Thug to leave you alone.'''
+
+'''5: Defend yourself.'''
+
+* Fight a Spree Thug and a Spree Thief (★★☆☆☆ + ★★☆☆☆ difficulty) with Advantage - You have first strike and a bonus action on the first turn
+* '''Win the fight through surrender'''
+** ''You leave before the trouble multiplies.''

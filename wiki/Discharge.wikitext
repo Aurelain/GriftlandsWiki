@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = 
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Mirrored Discharge
+|upgrade2 = Boosted Discharge}}
+{{Quote|Try to catch them off guard. They always come prepared.}}
+'''Discharge''' is a 2-cost Rare '''Attack''' card for [[Sal]]. It deals 2 damage and says "Target a random enemy for each card in your hand."
+
+==Upgrades==
+At 6 experience '''Blood Guard''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Mirrored Discharge.png|150px]]
+|[[File:Boosted Discharge.png|150px]]
+|-
+!Targets one additional time.
+!Deals 3 damage to each target.
+|}

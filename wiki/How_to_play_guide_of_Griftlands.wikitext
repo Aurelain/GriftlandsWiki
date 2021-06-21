@@ -1,0 +1,141 @@
+[[Griftlands]] by [[Klei]] will need a keyboard and a mouse for the controls. 
+{{stub}}
+
+ All game mechanics are subject to change/tweaking as the game is still in Alpha. Verification will be needed upon full release.
+
+=== Introduction ===
+
+:Griftlands is a story driven deck building rogue-like. The game revolves around gaining and using deck cards to initiate commands. Cards can be purchased from merchants, rewarded through quests, or gained through random events while moving across the map between points of interest. Player death is much more severe than your typical story/adventure game. As of Alpha build 406984, player death is permanent if you don't survive until at least day 2 and you can restart at the beginning of the current day once per run. Otherwise, you are forced to restart, but you are allowed to carry over 1 benefit from your current run. This is random and is pulled from your current list of relationships, items, and cards. At the beginning of a game, the player chooses between one of three characters: [[Sal]], [[Rook]], or [[Smith]] and is allowed to select various modifiers for their run. Your modifiable options include:
+* [[Card|Card Sets]]
+* [[Outfits]]
+* [[Prestige]]
+* [[Mutators]]
+
+==== Card Sets ====
+:Card Sets are unlocked as you play the game and provide 6 new cards (3 Negotiation and 3 Battle cards) that are added to the card pool of merchants, quests, and events. Each set can be enabled or disabled before you start your run, but once your run has begun you cannot modify card sets without completing your current run or starting over. Each hero has 10 unique sets to unlock.
+
+==== Outfits ====
+:Outfits are unlocked as you play and alter the appearance of your hero. They are cosmetic and do not affect gameplay. Your outfit can be changed at any time by visiting your room.
+
+==== Prestige ====
+:Prestige levels are unlocked as you beat the game and add various modifiers to your run. Each prestige level is accumulative and gives you an additional 5% xp per level. Prestige levels are mainly only for adding challenge to your run as the xp bonus is negligible.
+
+==== Mutators ====
+:[[Mutators]] are optional modifiers a player can select to apply to their run to make it more (or less) challenging. As of Alpha Build 406931 there are 17 mutators total. It is not recommended to apply any mutators your first time playing a character. While most are meant to add additional challenge, some are beneficial. Mutators can be randomized or toggled manually.
+
+==== Decks ====
+:Players are given two Card-Decks at the start of the game, '''Negotiation''' and '''Battle'''. These decks can be upgraded with various cards throughout a run, giving access to new mechanics and strategies as the game progresses. While some key words are shared, each [[Heroes|hero]] has their own unique mechanics that can be used.
+* [[Negotiation|Negotiation Deck]]
+* [[Battle|Battle Deck]]
+
+=== Gameplay Mechanics ===
+:Gameplay revolves around 2 types of conflict: [[Negotiation|Negotiations]] and [[Battle|Battles]]. Each conflict uses their own deck and have unique mechanics, but there are some shared key words between both deck types. The player has 4 resources at their disposal: Health, Resolve, Shills, and Action Points.
+:*'''Health''' - When the player's health reaches 0, their hero dies and it's game over.
+:*'''Resolve''' - When a hero's resolve reaches 0, they lose the current negotiation and can no longer engage in any more negotiations until resolve is brought above 0.
+:*'''Shills''' - Shills is the currency used in Havaria. Players can use shills to purchase goods, bribe enemies, or invest in their friends.
+:*'''Action Points''' - Action points are your primary resource in fights and determine how many cards you can play a turn. Default capacity is 3/3 but this can increase or decrease depending on grafts and status cards.
+
+:Each deck has 3 "piles": '''Draw''', '''Discard''', and '''Trash'''. Your draw pile contains all of the cards in your deck at the start of the fight. Your discard pile contains cards played from hand and discarded that fight and are returned to your deck at the fight's conclusion. The Trash lists any card(s) destroyed during the  fight and these cards are lost permanently once the fight ends.
+
+:Most cards have a small list of potential "key words" that describe their effect. Most cards when upgraded, change key words in some way. For a full list '''see:''' [[Key Words]]
+:*'''Draw''': Adds a card from your draw pile to your hand.
+:*'''Replenish''': When drawn, this card draws another card immediately.
+:*'''Improvise''': Generates random cards for the player to choose 1 of to add to their hand. Similar to the "Discover" mechanic in Hearthstone.
+:*'''Discard''': Discarding a card adds it to your discard pile and allows it to be shuffled and redrawn once your deck runs out of cards.
+:*'''Expend''': When played this card is removed from your deck until the end of battle.
+:*'''Destroy''': When played this card is permanently removed from your deck. This mechanic can be used to "thin" your deck and remove undesirable cards. Some basic card upgrades and most items have destroy as a key word.
+
+'''Experience''': 
+:Most cards gain experience each time you play them and can be upgraded once fully leveled. Cards continue to gain experience each time they're played during a battle up until '''fatigue''' is inflicted on the Hero. Leveling up a card allows you to '''upgrade''' the card, giving you the option to pick between 2 separate upgrade paths. Fully upgraded cards, items, and status cards never gain experience.
+
+'''Status Effects''':
+:Battle cards can have single (or multiple) status effects as an additional effect. Stacking multiple status effects can have very strong effects on the battle. Many of the Griftlands' monsters and inhabitants have unique status effects. It's important to always check what you're up against before executing your turn!
+
+'''Status Cards''':
+:Status cards are yellow in color and typically have the destroy key word. Status cards are gained when eating, drinking, and sometimes are inflicted by enemies and bosses. Their effects can be mild to severe depending on the source, with some having an effect when drawn such as removing an action point for that turn. Either way, they take up card slots in your deck and can be a pain when drawn as they use up hand space.
+
+'''Grafts''': 
+:Grafts are items that come in two varieties (battle/negotiation)and have a wide range of effects. They are used to apply additional stat modifiers to your character. Some graft effects are extremely potent while others can be worthless depending on your deck and play-style.
+
+===== Negotiations =====
+
+: [[Negotiation|Negotiations]], if successful, can be used to avoid or initiate fights, grant better quest rewards, or avoid paying fines. Failing negotiations can result in anything from missing out on unique story dialogue, cards, or even your hero's death if you're not prepared for a fight. While talking your way out of nearly every fight is possible, it's generally not a good idea as ultimately there are unavoidable fights that can get you killed if your battle deck cards are not leveled up enough. Your primary resource is called '''Resolve'''. Resolve acts as your HP during Negotiations. Lose all resolve, and you lose the Negotiation. 
+
+Negotiation cards come in 3 types"
+*'''Manipulation''' - Purple card back. Provides support effects, including card draw, composure, and creating new arguments.
+*'''Diplomacy''' - Green card back. Gains boosted damage and effects from '''Influence'''.
+*'''Hostility''' - Red card back. Gains accumulative damage when '''Dominance''' is created. 
+:[[File:Neg Card Examples.png|none|caption]]
+
+: '''Negotiation key words''': 
+*'''Composure''' - Temporary HP that acts as defense to your resolve and gets removed at the start of your next turn.
+*'''Influence''' - A resource stored as an argument that can be removed by your opponent. Boosts '''Diplomacy''' card damage.
+*'''Dominance''' - A resource stored as an argument that can be removed by your opponent. Boosts '''Hostility''' card damage.
+*'''Arguments''' - Persistent effects that can be targeted and removed from both sides of the field. Most arguments are stack-able but lose 1 stack per turn and have very low resolve.
+*'''Evoke''' - Play this card effect from hand immediately upon meeting the evoke requirement (ex. discard 4 cards)
+
+===== Battles =====
+
+: '''Battle key words''': Damage, Power, Defense, Counter, Cripple, Wound, Bleed, Heal
+
+:Pay attention to enemy statuses and read them at the start of every fight. Sometimes all it takes is misplaying once to put yourself in an unrecoverable situation. Most fights are designed in a way that you're forced to take small amounts of damage early on. Don't be afraid to weigh your HP as a resource, especially on the final fight of each night. Otherwise you may find yourself dragging fights out too long where big attacks reduce your HP by too much to survive the day.
+
+==== Deck Strategies ====
+
+:Smaller decks are typically better than large decks. There are exceptions to the rule, but it's usually much better to redraw 10 strong cards rather than having 30 cards mediocre cards. Status decks, specifically bleed and burn/scorch, can deal incredibly high damage but you must be stacking the effects every turn to get a good return on investment. That said, if your deck has 10-15 cards, it's good to have 1-2 Defense cards and 1 cripple to help negate big turns from fights, especially when facing crowds. Card draw is almost never worth the AP investment unless you've acquired an AP Graft and you're specifically building around discard with knuckle duster/wind-up. Other strategies exist, of course, but generally you're only going to find 2-3 cards worth actually building around in a run.
+
+Reducing Action Point cost is always the route to go on upgrades. If both upgrade options are bad but expend or destroy is offered, take them every time so you can draw your core build cards. Avoid drafting any 2 cost cards unless your deck already has none. Notable exceptions are Boulder Stance (if you have multiple improvise cards/0 cost card generation) and 
+
+Pairing these effects alongside thinning out bad cards works for general runs:
+*Bleed, Defense, Counter - Stack bleed in between defending hits; watch bleed hit for 20+ every turn
+*Scorch, Burn, -Charge OR defense - Apply Scorch and Burn, spend all charge for defense. Rinse and repeat.
+*Wound, Multi-hit - Stack Wound, let allies deal damage as you stall with defense
+*Wound, Defense, Pets/Allies - Same deal as multi-hit, but with friends
+*Concentrate (Vantage), Burn (Sear), Charge - Concentrate and overcharge both double dip on the damage of Sear
+
+===== Sal Strategies =====
+
+:Default HP - 65, Default Resolve - 30, Default Shills - 75
+
+: Unique Negotiation key words: None
+: Unique Battle key words: Combo
+
+===== Rook Strategies =====
+
+:Default HP - 48, Default Resolve - 36, Default Shills - 75
+
+:Rook's strong-suit is the free defense he gets from spending charge cells. Generally speaking, if his cells are empty and you either play a defense card or have a social boon that grants defense, he takes almost no damage from normal enemies. For this reason, getting the free charge cell expansion from the gunsmith is almost always the choice you want to go with. The trade off is without being able to apply cripple his HP drops fast. Once you get the hang of him, it's not uncommon to go all through day 1 and 2 without taking more than 10 damage total (on default difficulty).
+
+:Rook has a unique mechanic with his decks called '''Parasite'''. Upon arriving at Grout Bog, Rook is bitten by an unknown insect, and the ensuing effect restores resolve but adds two cards to his decks: '''Twig''' and '''Stem'''. Twig and Stem have random unique effects as they're leveled, called '''Hatch'''. Initially, these cards make his decks weak but can potentially add strong effects once leveled up... or make things worse. It is a parasite after all. Removing parasite cards from his deck costs 10 max HP, making his already small HP pool even smaller. This negative effect can be offset by using grafts or drafting a heavily defensive deck if a particularly nasty parasite is hatched and must be removed.
+
+ Potential '''parasites''': (List is incomplete)
+
+'''Negotiation Deck Parasite:'''
+:*Stage 0: Stem: Unplayable. Increases the cost of 1 card in hand by 1.
+:*Stage 1a: Drowsiness: Unplayable. Lose 1 action point when drawn and expend this card.
+:*Stage 1b: Earworm: 1 cost. If this card is in your hand at the end of your turn, add another Earworm to your draw pile. Expend when played.
+:*Stage 2a: Memory Lapse: When drawn, draws and plays a card with a random target for 0 action points. Expend both.
+:*Stage 2b: Hyperactive: 0 cost. While this card is in hand, all cards deal +2 damage. Lose 1 resolve for every card played.
+:*Stage 3a: Grandiosity
+:*Stage 3b: Flower: 1 cost. Play the top 3 cards in your draw pile for free. Lose resolve equal to 2x their combined cost.
+:*Stage 3c: Stutter: 1 cost. Play your next card twice. Gain 2 vulnerability and lose 4 resolve.
+
+'''Battle Deck Parasite:'''
+:*Stage 0: Twig: Unplayable. Deals 1 damage each time it is drawn.
+:*Stage 1: Fever: 0 cost. Remove all debuffs and take 1 damage per debuff removed. Expend.
+:*Stage 2: Branch
+:*Stage 3a: Neurotic Haze
+:*Stage 3b: Bough
+
+: Unique Negotiations key words: Sticky, Prepare
+: Unique Battle key words: Parasite, Hatch, Scorch, Burn, Charge, Overcharge, Ricochet
+
+===== Smith Strategies =====
+
+:Smith has not yet been released as of Alpha build 406931, but his key words include '''Empty Bottle''' and '''Moxie''', with his play-style centering around drinking and sacrificing HP as a resource for large attacks.
+
+: Unique Negotiations key words: Renowned
+: Unique Battle key words: Bottle, Moxie
+
+
+[[Category:game]]

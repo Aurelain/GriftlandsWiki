@@ -1,0 +1,31 @@
+{{Card
+|rarity = Uncommon
+|upgrade1 = Boosted Arc Deflection
+|upgrade2 = Thorny Arc Deflection
+|expreq = 7
+|upgradeable = Yes
+|decktype = Battle
+|cardtype = Maneuver
+|character = Rook}}
+{{Quote|When the pistols are spun up enough, you can actually get a pretty decent shield going.}}
+
+'''Arc Deflection''' is a 1-cost '''Maneuver''' card for [[Rook]]. It has the effect, "Spend 3 overcharge: Gain 2 defense and 1 counter for each overcharge spent."
+
+==Upgrades==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Boosted Arc Deflection
+|1
+|NA
+|Spend 4 overcharge: Gain 2 defense and 1 counter for each overcharge spent.
+|-
+|Thorny Arc Deflection
+|1
+|NA
+|Spend 3 overcharge: Gain 2 defense and 2 counter for each overcharge spent.
+|}

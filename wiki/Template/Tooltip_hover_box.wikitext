@@ -1,0 +1,5 @@
+<onlyinclude><div style="border-color: #07DCD6; border-width: 3px 1px 3px 1px; border-style: solid; background: #101B26; color: #373737; width: 25em; max-width: 25em">
+<div style="font-size: 120%; color:#07DCD6; padding:5px; text-align:center; background:#5E2E69;">{{#if:{{{title|}}}|{{{title}}}|{{BASEPAGENAME}}}}</div>
+<div style="color:#FFF; padding:10px;">{{#if:{{{body|}}}|{{{body}}}|}}</div>
+</div></onlyinclude>
+[[Category:Tooltip templates]]

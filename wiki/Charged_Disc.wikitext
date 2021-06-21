@@ -1,0 +1,5 @@
+{{Card
+|decktype = Battle
+|cardtype = Item
+|upgradeable = No}}
+'''Charged Disc''' is an Item Card. The card costs 1 Action to play. It hits all enemies, applies 2 Wound, and then Expends itself. It is the weapon of choice of Intelligence Officer [[Oolo]], and is also dropped by her.

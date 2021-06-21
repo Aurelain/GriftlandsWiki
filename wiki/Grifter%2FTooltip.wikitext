@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Grifter</center>
+  |body=<center>A name for any factionless settler, explorer, or opportunist who hails from the Havarian griftlands.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

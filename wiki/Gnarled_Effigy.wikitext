@@ -1,0 +1,6 @@
+{{stub}}
+{{Card
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Unplayable]]
+|upgradeable = No}}

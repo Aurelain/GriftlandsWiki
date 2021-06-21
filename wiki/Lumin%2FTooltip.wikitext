@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Lumin</center>
+  |body=<center>A biofuel harvested from the ocean floor, monopolized by the Cult of Hesh, and harvested by indentured labor.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

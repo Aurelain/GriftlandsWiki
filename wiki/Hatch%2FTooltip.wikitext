@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Hatch</center>
+  |body=<center>When this card reaches full XP, it is destroyed and triggers a special event.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

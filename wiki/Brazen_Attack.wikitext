@@ -1,0 +1,24 @@
+{{Card
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Impair]], [[Piercing]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Heavy Brazen Attack
+|upgrade2 = Boosted Brazen Attack}}
+{{Quote|Big and loud attack are riskier but leave your opponents reeling.}}
+
+'''Brazen Attack''' is a 2-cost Common '''Attack''' card for [[Sal]]. It deals 4-8 base damage. It has the effect "Apply 2 [[Impair]]. [[Piercing]].".
+
+==Upgrades==
+After accruing 7 experience '''Brazen Attack''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Heavy Brazen Attack.png|150px]]
+|[[File:Boosted Brazen Attack.png|150px]]
+|-
+!3 [[Impair]].
+!6-12 damage.
+|}

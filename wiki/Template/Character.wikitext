@@ -1,0 +1,33 @@
+{| class="infoboxtable"
+|-
+! colspan="2" class="infoboxname" |  {{{name|{{PAGENAME}}}}}
+|-
+{{#if: {{{image|}}} | ! colspan="2" {{!}} [[File:{{{image}}}|250x250px]] | {{#ifexist: File:{{PAGENAME}} portrait.png | ! colspan="2" {{!}} [[File:{{{image|{{PAGENAME}} portrait.png}}}|250x250px]] | {{#ifeq: {{NAMESPACE}} | Template | | [[Category:Infoboxes lacking images]]}} }} }}
+|-
+! colspan="2" class="infoboxdetails" | Details 
+|-
+{{#if: {{{race|}}} | {{!}} width=90 {{!}}<div>Race</div>{{!!}} {{{race}}} }}
+|-
+{{#if: {{{location|}}} | {{!}} width=90 {{!}}<div>Location(s)</div>{{!!}} {{{location}}} }}
+|-
+{{#if: {{{faction|}}} | {{!}} width=90 {{!}}<div>Faction</div> }}
+! colspan="2" class="infoboxdetails" {{!}} {{#switch: {{lc:{{{faction}}} }} 
+| admiralty = [[File:Faction admiralty.png{{!}}35px{{!}}link{{=}}Admiralty]]<br>[[Admiralty]]
+| bilebroker = [[File:faction_bilebrokers.png{{!}}35px{{!}}link{{=}}Bilebroker]]<br>[[Bilebroker]]
+| boggers = [[File:Faction boggers.png{{!}}35px{{!}}link{{=}}Boggers]]<br>[[Boggers]]
+| civilian = [[File:Faction citizen.png{{!}}35px{{!}}link{{=}}Civilian]]<br>[[Civilian]]
+| cult of hesh = [[File:Faction cult of hesh.png{{!}}35px{{!}}link{{=}}Cult of Hesh]]<br>[[Cult of Hesh]]
+| grifters = [[File:Faction grifter.png{{!}}35px{{!}}link{{=}}Grifters]]<br>[[Grifters]]
+| jakes = [[File:Faction jakes.png{{!}}35px{{!}}link{{=}}Jakes]]<br>[[Jakes]]
+| rentorians = [[File:Faction retorian.png{{!}}35px{{!}}link{{=}}Retorian]]<br>[[Retorian]]
+| rise = [[File:Faction rise.png{{!}}35px{{!}}link{{=}}Rise]]<br>[[Rise]]
+| spark barons = [[File:Faction spark barons.png{{!}}35px{{!}}link{{=}}Spark Barons]]<br>[[Spark Barons]]
+| spree = [[File:Faction spree.png{{!}}35px{{!}}link{{=}}Spree]]<br>[[Spree]]
+}}
+|-
+{{#if: {{{faction2|}}} | {{!}} width=90 {{!}}<div>Additional factions</div>{{!!}} {{{faction2}}} }}
+|-
+{{#if: {{{title|}}} | {{!}} width=90 {{!}}<div>Title</div>{{!!}} {{{title}}} }}
+|}
+{{#ifeq: {{NAMESPACE}} | Template | | <includeonly>[[Category:Characters]] {{#ifeq: {{lc:{{{faction}}}}} | admiralty | [[Category:Admiralty]] }} {{#ifeq: {{lc:{{{faction}}}}} | bilebroker | [[Category:Bilebroker]] }} {{#ifeq: {{lc:{{{faction}}}}} | boggers | [[Category:Boggers]] }} {{#ifeq: {{lc:{{{faction}}}}} | civilian | [[Category:Civilian]] }} {{#ifeq: {{lc:{{{faction}}}}} | cult of hesh | [[Category:Cult of Hesh]] }} {{#ifeq: {{lc:{{{faction}}}}} | grifters | [[Category:Grifter]] }} {{#ifeq: {{lc:{{{faction}}}}} | jakes | [[Category:Jakes]] }} {{#ifeq: {{lc:{{{faction}}}}} | rentorians | [[Category:Rentorians]] }} {{#ifeq: {{lc:{{{faction}}}}} | rise | [[Category:Rise]] }} {{#ifeq: {{lc:{{{faction}}}}} | spark barons | [[Category:Spark Barons]] }} {{#ifeq: {{lc:{{{faction}}}}} | spree | [[Category:Spree]] }}</includeonly> }}<noinclude>{{clear}}{{doc}}
+[[Category:Infobox templates]]</noinclude>

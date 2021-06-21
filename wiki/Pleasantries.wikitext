@@ -1,0 +1,42 @@
+{{Card
+|character = Rook
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Diplomacy
+|upgradeable = Yes
+|expreq = 8
+|upgrade1 = Decisive Pleasantries
+|upgrade2 = Cordial Pleasantries
+|upgrade3 = Rigged Pleasantries
+|upgrade4 = Tall Pleasantries
+|upgrade5 = Visionary Pleasantries
+|upgrade6 = Sifting Pleasantries
+|upgrade7 = Speculative Pleasantries
+|upgrade8 = Lucid Pleasantries}}
+{{Quote|Oh, I've been well thank you.}}
+'''Pleasantries''' is a 1-cost Basic '''Diplomacy''' card for [[Rook]]. It deals 1-3 base damage. While the coin is '''Heads''', it deals max damage.
+
+==Upgrades==
+Like every basic card, '''Pleasantries''' has more than two upgrades, from which it randomly picks 2 you can decide from.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Decisive Pleasantries.png|150px]]
+|[[File:Cordial  Pleasantries.png|150px]]
+|[[File:Rigged Pleasantries.png|150px]]
+|[[File:Tall Pleasantries.png|150px]]
+|-
+!Set the coin; [[Expend]]
+!Gain 1 [[Influence]]
+![[Rig]] 1 [[Heads]]
+!More max damage
+|-
+|[[File:Visionary Pleasantries.png|150px]]
+|[[File:Sifting Pleasantries.png|150px]]
+|[[File:Speculative Pleasantries.png|150px]]
+|[[File:Lucid Pleasantries.png|150px]]
+|-
+!Draw a card
+![[Prepare]] a card
+![[Gamble]]
+![[Destroy]]
+|}

@@ -1,0 +1,10 @@
+<div class="nomobile">{{Ambox
+| image = [[Image:Disambig.png|30px]]
+| type = ''This '''disambiguation''' page lists articles associated with the same title. If an [[Special:Whatlinkshere/{{NAMESPACE}}:{{PAGENAME}}|internal link]] referred you here, you may wish to change the link to point directly to the intended article.''
+| border = green
+}}<br /></div><!--
+--><div class="mobileonly" style="text-align:center">[[Image:Disambig.png|30px]] ''This '''disambiguation''' page lists articles associated with the same title. If an [[Special:Whatlinkshere/{{NAMESPACE}}:{{PAGENAME}}|internal link]] referred you here, you may wish to change the link to point directly to the intended article.''<br /></div><!--
+--><includeonly>[[Category:Disambiguations]]</includeonly><noinclude>
+{{doc}}
+
+[[Category:Notice templates|{{PAGENAME}}]]</noinclude>

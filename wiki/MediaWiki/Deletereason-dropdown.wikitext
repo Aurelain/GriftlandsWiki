@@ -1,0 +1,10 @@
+* Common delete reasons
+** Author request
+** Broken redirect
+** Copyright violation
+** Gibberish
+** Merged
+** Moved
+** Orphaned page
+** Spam article
+** Vandalism

@@ -1,0 +1,27 @@
+{| class="wikitable"
+!'''MINIMUM'''
+!'''RECOMMENDED'''
+|-
+|Requires a 64-bit processor and operating system
+|Requires a 64-bit processor and operating system
+|-
+|OS: Windows 7 (64 bit)
+|OS: Windows 7 (64 bit)
+|-
+|Processor: Dual Core 2 GHz (64 bit)
+|Processor: Dual Core 2 GHz (64 bit)
+|-
+|Memory: 4 GB RAM
+|Memory: 4 GB RAM
+|-
+|Graphics: Intel HD 4600 (AMD or NVIDIA equivalent)
+|Graphics: GTX 970 (Dedicated 4GB AMD or NVIDIA equivalent)
+|-
+|DirectX: Version 11
+|DirectX: Version 11
+|-
+|Storage: 4 GB available space
+|Storage: 4 GB available space
+|}
+
+[[Category:Game]]

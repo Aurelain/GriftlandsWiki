@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Bleed]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Rooted Burst
+|upgrade2 = Tall Burst}}
+{{Quote|The claws ripped right through his armor like it wasn't even there.}}
+
+'''Burst''' is a 2-cost Common '''Attack''' card for [[Sal]]. It deals 3-6 base damage. It has the effect "Apply '''[[Bleed]]''' equal to damage dealt by this card.".
+
+==Upgrades==
+After accruing 5 experience '''Burst''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Rooted Burst.png|150px]]
+|[[File:Tall Burst.png|150px]]
+|-
+!style="width:155px"|Apply '''[[Bleed]]''' equal to damage dealt by this card.
+!style="width:155px"|Apply '''[[Bleed]]''' equal to damage dealt by this card.
+|}

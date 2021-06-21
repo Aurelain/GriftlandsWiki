@@ -1,0 +1,92 @@
+{{doc/start}}
+
+The template is a notice template
+
+===Named parameters===
+:; |icon=: image file name for use on the left, e.g. "Stub.png"
+:; |image=: left (image) cell content, overrides <code>|icon=</code> if provided.
+:; |type=: top line text
+:; |info=: list of extra info
+:; |border=: border colour (defaults to green)
+::; red      : ambox-red (serious issue)
+::; yellow   : ambox-yellow (mild issue)
+::; green    : ambox-green (good!)
+::; purple   : ambox-purple (technical change)
+::; blue     : ambox-blue (notice)
+::; orange   : ambox-orange (stub colour)
+::; gray     : ambox-gray
+:; |format: <code>tiny</code> to display a small, left-aligned box showing only the <code>|type=</code> value; any other value displays the full ambox.
+:; |style=: extra style parameters ''(unlikely to be used)''
+
+== Examples ==
+
+=== Default ===
+{{Ambox
+| type = I am type
+| info = I am info
+}}
+
+=== Tiny ===
+{{Ambox
+| type = I am tiny
+| icon = Icon-template.png
+| format = tiny
+}}
+
+=== Red + image ===
+{{Ambox
+| image = [[Image:Icon-boilerplate.png]]
+| border = red
+| type = I am type
+| info =
+* I am info
+}}
+
+=== Yellow ===
+{{Ambox
+| border = yellow
+| type = I am type
+| info =
+* I am info
+}}
+
+=== Green ===
+{{Ambox
+| border = green
+| type = I am type
+| info =
+* I am info
+}}
+
+=== Purple ===
+{{Ambox
+| border = purple
+| type = I am type
+| info =
+* I am info
+}}
+
+=== Blue ===
+{{Ambox
+| border = blue
+| type = I am type
+| info =
+* I am info
+}}
+
+=== Orange ===
+{{Ambox
+| border = orange
+| type = I am type
+| info =
+* I am info
+}}
+
+=== Gray ===
+{{Ambox
+| border = gray
+| type = I am type
+| info =
+* I am info
+}}
+{{doc/end}}

@@ -1,0 +1,3 @@
+<includeonly><div class="nomobile" style="-moz-column-count: {{{1}}}; -webkit-column-count: {{{1}}}; column-count: {{{1}}};">{{{2}}}</div><div class="mobileonly">{{{2}}}</div></includeonly><noinclude>
+{{doc}}
+[[Category:Formatting templates|{{PAGENAME}}]]</noinclude>

@@ -1,0 +1,119 @@
+{{Infobox custom|image=Faction rise.png|name=Rise|row1 label=V.I.P(s)|row1 data=[[Kalandra]], [[Flekfis]]|row2 label=Territory|row2 data=[[Grout Bog]]|row3 label=Titles|row3 data=Organizer, [[Lieutenant]], [[Pamphleteer]], [[Radical]], [[Rebel]], Promoted Rebel}}
+
+{{Quote|When the time comes... I hope you remember who really believes in you.|Kalandra}}
+
+'''The Rise''' are a "loose group of union organizers and freedom fighters campaigning for workers' rights across [[Havaria]]." Most Rise members are found in [[Grout Bog]], serving as laborers for the [[Spark Barons]] excavating the ruins found beneath the bog. Some '''Rise''' members can be found in Murder Bay as well, spreading propaganda among the [[Jakes]]. Many of the '''Rise''' are severely in debt and are too poor to even eat daily meals.  
+
+'''Notable members:'''
+*'''Fallons (Sal's mother and father; deceased)'''
+*[[Flekfis]]
+*[[Prindo Kalandra]]
+
+== Members ==
+{| class="wikitable"
+|+
+!Name
+!Race
+!Title
+!Description
+!Appearance
+|-
+|Flekfis
+|Jarackle
+|[[Lieutenant]]
+|Flekfis believes in the cause and Kalandra both with the fervor of a beating drum.
+|[[File:Flekfis.jpg|125px]]
+|-
+|Kalandra
+|Human
+|[[Organizer]]
+|None
+|[[File:Kalandra.jpg|125px]]
+[[File:Forewoman Kalandra.jpg|125px]]
+|-
+|Cleme
+| rowspan="3" |Kra'deshi
+| rowspan="4" |[[Pamphleteer]]
+|There's a spark of justice in Cleme's eyes that makes you wonder what another life might have turned her into.
+|[[File:Cleme.jpg|125px]]
+|-
+|Kilka
+|Kilka has the look of someone who was promised a better hand than the one she got. She suspects someone cheated.
+|[[File:Kilka.jpg|125px]]
+|-
+|Kyrgian
+|Kra'deshi who find themselves in Kyrgian's position are typically orphans, runaways, or both.
+|[[File:Kyrgian.jpg|125px]]
+|-
+|Drabit
+|Human
+|Drabit was born in this life, but he's got no plans to die in it, too.
+|[[File:Drabit.jpg|125px]]
+|-
+|Hamund
+| rowspan="3" |Human
+| rowspan="4" |[[Radical]]
+|Hamund has never seen the bright side, if only because the bright side stays out of sight.
+|
+|-
+|Idri
+|Where trouble goes, Idri follows, always on the lookout for opportunity.
+|[[File:Idri.jpg|125px]]
+|-
+|Nophri
+|Nophri isn't known for his eloquence. Should give you an advantage.
+|[[File:Nophri.jpg|125px]]
+|-
+|Jand
+|Shroke
+|It takes a mean life to put that mean look in Jand's eye.
+|[[File:Jand.jpg|125px]]
+|-
+|Brenna
+|Kra'deshi
+| rowspan="6" |[[Rebel]]
+|Brenna is a true believer in the goals of the Rise, even if the Rise is not always a true believer in the goals of Brenna.
+|
+|-
+|Malo
+|Shroke
+|Word is, Malo used to be a foreman himself, before fortune and health conspired against him.
+|[[File:Malo.png|125px]]
+|-
+|Wade
+|Shroke
+|There are few Rise ambitious as Wade, but the movement wouldn't exist without folks like her.
+|[[File:Wade.png|125px]]
+|-
+|Nekdo
+|Jarackle
+|Nekdo doesn't know what the easy life looks like, but keeps his eyes peeled all the same.
+|[[File:Nekdo.jpg|125px]]
+|-
+|Veerin
+| rowspan="2" |Human
+|Veerin believes in the movement, but only as much as he can hold sway in it.
+|[[File:Veerin.jpg|125px]]
+|-
+|Zambul
+|When the winds of change come through Havaria, Zambul will be the one waiting with her sails unfurled.
+|
+|-
+|Galth
+| rowspan="2" |Kra'deshi
+| rowspan="2" |Promoted Rebel
+| rowspan="2" |None
+|[[File:Galth.jpg|125px]]
+|-
+|Tumus
+|[[File:Tumus.jpg|125px]]
+|}
+
+
+== Trivia ==
+
+* The Rise share voices with the [[Admiralty]].
+** As do the [[Cult of Hesh]] and male [[Boggers]].
+* Grifter [[Sal|Sal's]] parents were once part of the Rise.
+
+[[Category:Factions]]

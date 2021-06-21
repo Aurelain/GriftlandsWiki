@@ -1,0 +1,22 @@
+{{Card
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Tall Head Turner
+|upgrade2 = Visionary Head Turner}}
+{{Quote|Wait what was that?}}
+'''Head Turner''' is a 1-cost Uncommon '''Diplomacy''' card for [[Rook]]. It deals 1-4 base damage. While the coin is '''Heads''', it deals max damage. If '''Prepared''' you gain an action.
+
+==Upgrades==
+After accruing 9 experience '''Head Turner''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Tall Head Turner.png|150px]]
+|[[File:Visionary Head Turner.png|150px]]
+|-
+!More max damage
+![[Prepared]]: draw a card
+|}

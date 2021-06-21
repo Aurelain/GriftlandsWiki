@@ -1,0 +1,5 @@
+{{copyrightbox
+|text=
+This work is licensed under the [https://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License].
+}}<noinclude>
+[[Category:Copyright templates|{{PAGENAME}}]]</noinclude>

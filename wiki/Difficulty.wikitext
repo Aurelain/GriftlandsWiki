@@ -1,0 +1,60 @@
+'''Difficulty''' is a mechanic in Griftlands. It affects how difficult non-boss characters are to negotiate with or fight against, affect the quest rewards, determine what characters can be casted into a quest, and what characters are generated as a patrol team or backup. It increases over time as the player progresses, though challenging side quests can temporarily increase the difficulty currently by 1.
+
+Below is a table of difficulties for each campaign.
+{| class="wikitable" style="text-align: center;"
+! rowspan="2" |Campaign
+! colspan="2" |Day 1
+! colspan="2" |Day 2
+! colspan="2" |Day 3
+! colspan="2" |Day 4
+! colspan="2" |Day 5
+|-
+|Day
+|Night
+|Day
+|Night
+|Day
+|Night
+|Day
+|Night
+|Day
+|Night
+|-
+|[[Hunting Kashio]]
+|1
+|1
+|2
+|2
+|3
+|3
+|4
+|4
+|5
+| -
+|-
+|[[The Bog Job]]
+|1
+|1
+|2
+|2
+|3
+|3
+|4
+|<nowiki>-</nowiki>
+|<nowiki>-</nowiki>
+|<nowiki>-</nowiki>
+|-
+|Sal's [[Brawl]]
+|1
+|1
+|2
+|2
+|3
+|3
+|4
+|4
+|5
+|5
+|}
+
+[[Category:Game]]

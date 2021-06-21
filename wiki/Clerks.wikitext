@@ -1,0 +1,12 @@
+
+
+Clerk is a title in the [[Admiralty]].
+
+== Extra Info ==
+Clerks have the Boon [[Authorization]], it's effect is the following:  ''"Once a day, you can ask a nearby member of the Admiralty to help you in battle or negotiation."''
+
+Their Bane is [[Red Tape]], which has the following effect: ''"Members of the Admiralty will not help you in battle or negotiation."''
+
+If you kill a Clerk, you will receive a [[Letter Opener]].
+<br />
+[[Category:Characters]]

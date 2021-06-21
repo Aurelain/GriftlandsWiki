@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Defense</center>
+  |body=<center>Prevents attack damage for this turn.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

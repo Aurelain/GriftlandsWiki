@@ -1,0 +1,43 @@
+'''Bleed''' is a generic battle [[Key Words|key word]].
+
+==Effect==
+In game description: ''"At the beginning of their turn, take damage equal to the count of bleed, then halve bleed count."''
+
+When the Bleed count is halved, it always rounds down.
+
+==Cards==
+The following cards contain Bleed.
+
+Sal's cards:
+*[[Burst]]
+*[[Gash]]
+*[[Lacerate]]
+*[[Leech]]
+*[[Barnacle]]
+*[[Blademouth Beating]]
+*[[Bloodbath]]
+*[[Hemorrhage]]
+*[[Kra'deshi Barbstorm]]
+*[[Sharpen]]
+*[[Slice]]
+*[[Blood Guard]]
+*[[Hemophage]]
+*[[Gouge]]
+*[[Saber Grip]]
+*[[Slash]]
+*[[Thirst]]
+*[[Vertical Slash]]
+
+Smith's cards:
+*[[Batter Up]]
+
+Other cards:
+*[[Coyote Claw]]
+*[[Bleed (card)]] 
+*[[Heavy Cleaver]]
+*[[Nadan's Blade]]
+*[[Rentorian Force Glaive]]
+*[[Roloach Karambit]]
+*[[Zyn's Razor]]
+
+[[Category:Keywords]]

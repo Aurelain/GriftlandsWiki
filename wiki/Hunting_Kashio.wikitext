@@ -1,0 +1,125 @@
+{{Tocright}}
+{{quote|Sal escapes a life of servitude to claim the ultimate bounty—and get her revenge.}}
+
+Hunting Kashio is the first campaign for [[Sal]].
+
+= Timeline = 
+
+=== Day 1: Welcome to Havaria ===
+
+'''Morning'''
+
+Starting bonus
+
+Sidequest
+
+Limited Time Opportunity
+
+Sidequest
+
+'''Evening'''
+
+Limited Time Opportunity
+
+Night Merchant Quest
+
+Limited Time Opportunity
+
+Boss: [[Drone Master Jeol]] or [[Sparky]]. First, you can negotiate with the bouncer to add them to your party in the fight.
+
+=== Day 2: Picking Sides ===
+
+'''Morning'''
+
+Faction Quest
+
+Limited Time Opportunity
+
+Sidequest 
+
+'''Evening'''
+
+Boss: [[Zyn]] or [[Hanbi]]. First, you can negotiate with the boss to debuff them in the fight.
+
+=== Day 3: Getting Settled ===
+
+'''Morning'''
+
+Faction Quest
+
+Limited Time Opportunity
+
+Sidequest
+
+'''Evening'''
+
+Limited Time Opportunity
+
+[[Roaloch and Load]], boss is [[Slobbering Aberration Shroog]] or [[Crimson Drusk]]
+
+=== Day 4: Final Pieces ===
+
+'''Morning'''
+
+Sidequest
+
+'''Evening'''
+
+Limited Time Opportunity
+
+[[Capture Nadan]] or [[Kill Oolo]], boss is [[Nadan]] or [[Oolo]]
+
+=== Day 5: The Auction ===
+
+[[Auction Day]], boss is [[Kashio]]
+
+= Sidequests =
+
+
+* [[Another Day Older and Deeper in Debt]]
+* [[Asset Recovery]]
+* [[Attack Rival]]
+* [[Back Channel Negotiations]]
+* [[Bounty Hunter]]
+* [[Competing Bids]]
+* [[Debt Collection]]
+* [[Early Retirement]]
+* [[Friend or Fanatic]]
+* [[Hit the Beach]]
+* [[Internal Affairs]]
+* [[Meet Me at the Crossroads]]
+* [[Repo Person]]
+* [[Recon in Force]]
+* [[Secret Shopper]]
+* [[Silence a Rival]]
+* [[Sing for your Supper]]
+* [[Travel Insurance]]
+
+Upon acceptance, sidequests grant a card reward.
+
+With some exceptions, sidequests grant a base reward of shills, and a bonus reward:
+
+* Bonus Money: Get a bonus payment of [[shills]]
+* Remove a Card: Remove a card from one of your decks
+* Upgrade a Card: Upgrade a negotiation or battle card
+* Restoration: Restore 20 health or 10 resolve
+* Get a new card: Get an [[Items|Item]] or Unique card based on the quest or quest-giver
+
+Challenging quests have difficulty one star higher than the day, and have a [[Grafts|Graft]] for a bonus reward
+
+= Faction Quests =
+
+=== Nadan ===
+
+=== Oolo ===
+
+= Outposts =
+
+=== Cult of Hesh ===
+
+=== Rise ===
+
+= Limited Time Opportunities =
+
+= Random Events =
+{{stub}}

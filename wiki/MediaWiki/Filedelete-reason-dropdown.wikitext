@@ -1,0 +1,9 @@
+*Common delete reasons
+** Copyright violation
+** Duplicated file
+** Inappropriate content
+** Merged
+** Moved
+** Not used
+** Spam image
+** Uploader request

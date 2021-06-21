@@ -1,0 +1,35 @@
+Combo is a [[Key Words|Key Word]] exclusive to [[Sal]].
+
+==Effect==
+In game description: "Combo points are accumulated until they are spent by a Finisher. Lose half your Combo whenever you take damage."
+
+Extra info: Finishers always use up all Combo and do something per Combo spent. Something not mentioned, are cards, that spend a specific amount of Combo to activate an effect ([[Stomp]] for example). Also some cards, like [[Combination]], don't spend Combo, but have an effect when you have it.
+
+==Cards==
+'''''The following Cards include Combo:'''''
+
+Sal's cards:
+* [[Chamber]]
+* [[Combination]]
+* [[Cross]]
+* [[Reversal]]
+* [[Sneak Attack]]
+* [[Speciality]]
+* [[Stomp]]
+* [[Blade Fury]]
+* [[Breather]]
+* [[Carve]]
+* [[Echo Strike]]
+* [[Haymaker]]
+* [[Hit Bash]]
+* [[Shoulder Roll]]
+* [[Size Up]] 
+* [[Switch Blade]]
+* [[Follow Trough]]
+* [[Inside Fighting]]
+* [[Gut Shot]]
+* [[Hammer Grip]]
+* [[Mud Tosser]]
+* [[Rain of Blades]]
+
+[[Category:Keywords]]

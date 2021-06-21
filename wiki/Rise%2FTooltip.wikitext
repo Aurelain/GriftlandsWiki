@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Rise</center>
+  |body=<center>A loose group of union organizers and freedom fighters campaigning for workers' rights across Havaria.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

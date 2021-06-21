@@ -1,0 +1,27 @@
+
+
+{{Infobox
+| name     = Ash
+| image    = Ash.png
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Spree - Raider
+| ID       =
+}}{{quote|It's hard work being a bandit — even harder when you're hooked on the slurry. But Ash gets the job done.|Ash's Compendium Description}}
+
+'''Ash''' is a character in {{Gamename}} and a [[Spree]] Raider.
+
+== Death Loot ==
+If '''Ash''' is killed in combat, he will drop a [[Heavy Cleaver]].
+[[File:Heavy Cleaver.png|none|thumb]]
+
+== Boon/Bane ==
+If '''Ash''' hates you, you will receive:
+
+=== Brutality ===
+Status cards cost 1 additional action in battle.
+[[File:Graft brutality.png|none|thumb]]
+<br />
+[[Category:Characters]]

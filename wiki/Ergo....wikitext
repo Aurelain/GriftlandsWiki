@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Uncommon
+|cardtype = Manipulate
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Visionary Ergo...
+|upgrade2 = Boosted Ergo...}}
+{{Quote|Therefore...}}
+
+'''Ergo...''' is a 1-cost Uncommon '''Manipulate''' card for [[Sal]]. It will '''Improvise''' a card from your discard pile.
+
+==Upgrades==
+After accruing 7 experience '''Ergo...''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Visionary Ergo....png|150px]]
+|[[File:Boosted Ergo....png|150px]]
+|-
+![[Improvise]] 2 cards
+![[Improvise+]] 1 card
+|-
+|}

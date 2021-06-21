@@ -1,0 +1,13 @@
+{{doc/start}}
+{{twitter}}
+== Using this template ==
+This template, with the options as they are currently set, will display a twitter feed which is centered with respect to the section of the page where it is placed. It uses the background colour of the wiki and does not display the twitter feed footer.
+
+For more specific information on the Curse twitter extension, see [[gphelp:Extension:Curse_Twitter|Help wiki page]].
+
+=== Example for a dark-themed wiki ===
+<code><nowiki><center><twitterfeed nobackground nofooter theme="dark" linkcolor="#3674b3">cursegamepedia</twitterfeed></center></nowiki></code>
+
+=== Example for a light-themed wiki ===
+<code><nowiki><center><twitterfeed nobackground nofooter theme="light" linkcolor="#3674b3">cursegamepedia</twitterfeed></center></nowiki></code>
+{{doc/end}}

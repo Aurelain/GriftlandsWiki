@@ -1,0 +1,3 @@
+<includeonly><div style="clear:{{{1|both}}}"></div></includeonly><noinclude>
+{{doc}}
+[[Category:Formatting templates|{{PAGENAME}}]]</noinclude>

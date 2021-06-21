@@ -1,0 +1,19 @@
+{{stub}}
+'''Another Day Older and Deeper in Debt''' is a difficulty <font color="#ffe066">&#9733; &#9734; &#9734; &#9734; &#9734;</font> quest with a focus on Combat and Negotiation.
+
+==Description==
+A [[Heavy Laborer]] has gotten himself into some money trouble with another Heavy Laborer. Find a way for your hirer to either make money or pay it back slowly.
+
+==Rewards==
+: Starting Bonus
+:: Pick a card to help on the quest
+
+: 65 Shills
+
+: Upgrade Card
+:: Upgrade a negotiation or battle card
+
+== Trivia ==
+'''Another Day Older and Deeper in Debt''' is a line from the song "Sixteen Tons" by Merle Travis published in 1947. → [https://en.wikipedia.org/wiki/Sixteen_Tons Read more].
+
+[[Category:Quests]]

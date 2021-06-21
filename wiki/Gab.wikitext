@@ -1,0 +1,14 @@
+{{Card
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Gamble]], [[Evoke]], [[Prepare]], [[Unplayable]], [[Expend]]
+|upgradeable = Yes
+|expreq = 8
+|upgrade1 = Boosted Gab
+|upgrade2 = Twisted Gab}}
+'''Gab''' is a '''Manipulate''' card for [[Rook]]. When '''Evoked''' by changing the position of a card in your hand, it causes you to '''Gamble''' twice. '''Gab''' is part of the Gambler and Fixated card set.
+
+==Upgrades==
+After accruing 8 experience '''Gab''' upgrades to be "Boosted" '''Gambling''' thrice, or to be "Twisted" '''Gambling''' thrice and '''Evoking''' when a card is discarded.

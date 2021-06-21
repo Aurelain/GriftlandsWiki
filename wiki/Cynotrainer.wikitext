@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = 
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Visionary Cynotrainer
+|upgrade2 = Focused Cynotrainer}}
+{{Quote|Cybernetics and neuron enhancements give people an extra edge in battle. The rich ones anyways.}}
+'''Cynotrainer''' is a 1-cost Rare '''Maneuver''' card for [[Sal]]. It says "Discard a card. Double the damage on a random card in your hand this turn."
+
+==Upgrades==
+At 7 experience, '''Cynotrainer''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Visionary Cynotrainer.png|150px]]
+|[[File:Focused Cynotrainer.png|150px]]
+|-
+!Draw a card before you discard a card.
+!Double the damage of a chosen card instead of a random card.
+|}

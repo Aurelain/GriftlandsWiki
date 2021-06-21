@@ -1,0 +1,6 @@
+You can provoke a character that hates you into fighting you.
+
+When provoking, you are given special [[Insult]] cards that can help(or hinder) you negotiate. Successfully provoking a hated person will cause them to attack you, and they will not surrender. Killing them this way have no diplomatic consequences.
+
+No bystanders can join combat this way (except your [[Pets|Pet]]), though they can still help or hinder the negotiation.
+[[Category:Stubs]]

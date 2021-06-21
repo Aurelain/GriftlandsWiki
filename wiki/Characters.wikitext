@@ -1,0 +1,983 @@
+In {{gamename}}, '''Characters''' can be met while playing through the selected Hero's story. Most characters you meet have random locations that change between runs, meaning you won't always get the same quest from the same NPC. Story central NPC's such as Fssh and Kashio, however, do not change between runs, though your dialogue with them will change depending on choices made throughout the run. Each character has a [[relationships|relationship]] with the player that changes depending on your choices, potentially granting useful [[Relationships#Banes and Boons|Boons or harmful Banes]].
+
+== Playable Characters ==
+
+Each Hero has their own set of stats and unique mechanics. Sal is the starting Hero, with Rook and Smith becoming available to play after advancing through Sal's story.
+
+{| class="wikitable sortable"
+|-
+! Character !![[Health]]!![[Resolve]]!! Core Argument !! Core Battle Mechanics !! Core Negotiation Mechanics
+!Campaigns
+|-
+| [[Sal]] || 65 || 30 ||[[Sal#Sal's Savvy|Sal's Savvy]]||Bleed, Combo, Counter||Incept
+|[[Hunting Kashio]], [[Brawl]]
+|-
+| [[Rook]] || 48 || 36 ||[[Lucky Coin]]||(Over)Charge, Concentration, Burn, Scorch||Gamble, Prepare
+|[[The Bog Job]]
+|-
+| [[Smith]] || 70 || 26 ||Confrontational||Adrenaline, Alleviate, Moxie, Drink, Trauma||Renown
+|
+|}
+
+For more information on core mechanics, see: [[Battle]], [[Negotiation]]
+
+== Generic NPCs ==
+
+Below is a list of generic non-playable characters that can spawn in campaigns.
+
+{| class="wikitable sortable"
+|-
+! Faction !! Title !![[Negotiation#Renown|Rw]]!![[Battle#Combat Strength|Str]] !![[Social Boon]]!![[Social Bane]]
+![[Gifting|Gift]] Cost
+!Death Loot
+!Core Argument
+!Negotiation Support
+!Notes
+|-
+| rowspan="5" | [[Admiralty]] || Clerk || 3 || 1 ||[[Social Boon#Authorization|Authorization]]||[[Social Bane#Red Tape|Red Tape]]
+|150
+|[[Letter Opener]]
+| rowspan="4" |[[Abuse of Power]]
+| rowspan="5" |Incept 1 [[Wealth Extractor]] Argument
+(When destroyed, gain 30 [[Shills]])
+|
+|-
+| Goon || 1 || 2 ||[[Social Boon#Piece of the Pie|Piece of the Pie]]||[[Social Bane#Hunted|Hunted]]
+|100
+|[[Admiralty Intel]]
+|
+|-
+| Guard || 2 || 3 ||[[Social Boon#Commander|Commander]]||[[Social Bane#Lowered Rank|Lowered Rank]]
+|150
+|[[Admiralty Orders]]
+|
+|-
+| Patrol Leader || 3 || 4 ||[[Social Boon#Sparring|Sparring]]||[[Social Bane#Lowered Rank|Bully]]
+|200
+|[[Spear Head]]
+|
+|-
+|Investigator
+|4
+|3
+|[[Social Boon#Informant|Informant]]
+|[[Social Bane#Watched|Watched]]
+|200
+|
+|[[Investigator (Core Argument)]]
+|
+|-
+|[[Bilebroker]]
+|Chemist
+|2
+|2
+|[[Social Boon#Doze Bug|Doze Bug]]
+|[[Social Bane#Spiked Drink|Spiked Drink]]
+|100
+|[[Vapor Vial]]
+|[[Purple Haze]]
+|Restore [[Resolve]] equal to [[Difficulty]]
+|
+|-
+| rowspan="2" |[[Boggers]]
+|Cultivator
+|1
+|2
+|[[Social Boon#Inoculated|Inoculated]]
+|[[Social Bane#Bog Sensitive|Bog Sensitive]]
+|100
+|[[Bog Scimitar]]
+| rowspan="2" |[[Unshakable]]
+| rowspan="2" |Default(Deal Damage)
+|
+|-
+|Clobber
+|1
+|3
+|[[Social Boon#Bogger Pauldrons|Bogger Pauldrons]]
+|[[Social Bane#Concussed|Concussed]]
+|150
+|[[Swamp Smasher]]
+|
+|-
+| rowspan="7" |[[Civilian]]
+|Laborer
+|1
+|1
+|[[Social Boon#Voice of the People|Voice of the People]]
+|[[Social Bane#Elitist|Elitist]]
+|100
+|[[Anchor]]
+| rowspan="3" |[[Defensive]]
+| rowspan="3" |Gain 1 [[Stoic]]
+|
+|-
+|Heavy Laborer
+|1
+|2
+|[[Social Boon#Heavy Lifting|Heavy Lifting]]
+|[[Social Bane#Whispering Rumors|Whispering Rumors]]
+|100
+|[[Worker's Gloves]]
+|
+|-
+|Oshnu Wrangler
+|1
+|2
+|
+|
+|100
+|
+|
+|-
+|Foreman
+|2
+|2
+|[[Social Boon#Authority|Authority]]
+|[[Social Bane#Blacklisted|Blacklisted]]
+|100
+|[[Adrenaline Shot]]
+|[[Delegator]]
+| +1 Action
+|Wealthy
+|-
+|Poor Merchant
+|1
+|2
+|
+|
+|100
+|Defective Grenade
+|
+|
+|
+|-
+|Wealthy Merchant
+|3
+|2
+|[[Social Boon#Haggle Badge|Haggle Badge]]
+|[[Social Bane#Bad Credit|Bad Credit]]
+|150
+|[[Spark Grenade]]
+|[[Proposition]]
+|Gain 2 [[Deep Pockets]]
+|Wealthy
+|-
+|Bartender
+|3
+|3
+|[[Social Boon#Mixology|Mixology]]
+|[[Social Bane#Tainted Supplies|Tainted Supplies]]
+|150
+|[[Liquid Courage]]
+|[[On the House]]
+|Gain 3 [[Influence]]
+|Wealthy
+|-
+| rowspan="4" |[[Cult of Hesh]]
+|Priest
+|4
+|2
+|[[Social Boon#Bio-Feedback|Bio-Feedback]]
+|[[Social Bane#Bad Faith|Bad Faith]]
+|200
+|[[Heshian Amulet]]
+| rowspan="4" |[[Zeal]]
+| rowspan="4" |Gain 1 [[Grace of Hesh]]
+|
+|-
+|Luminitiate
+|1
+|1
+|[[Social Boon#Throng|Throng]]
+|[[Social Bane#Affiliation|Affiliation]]
+|100
+|[[Luminitiate Coin]]
+|
+|-
+|Zealot
+|2
+|3
+|[[Social Boon#Grace of Hesh|Grace of Hesh]]
+|[[Social Bane#Heshian Obscenity|Heshian Obscenity]]
+|150
+|[[Heshian Mask]]
+|
+|-
+|Luminari
+|3
+|3
+|[[Social Boon#Bell of Hesh|Bell of Hesh]]
+|[[Social Bane#Curse of Hesh|Curse of Hesh]]
+|150
+|[[Lumin Darts]]
+|
+|-
+| rowspan="3" |[[Jakes]]
+|Dockhand
+|1
+|2
+|[[Social Boon#Bargaining|Bargaining]]
+|[[Social Bane#Thin Skin|Thin Skin]]
+|100
+|[[Gaff]]
+| rowspan="3" |[[Double Edge]]
+| rowspan="3" |Incept 2 [[Flustered]]
+|
+|-
+|Smuggler
+|3
+|3
+|[[Social Boon#First Aid|First Aid]]
+|[[Social Bane#Fragile Health|Fragile Health]]
+|150
+|[[Triage]]
+|
+|-
+|Lifter
+|2
+|3
+|[[Social Boon#Quality Materials|Quality Materials]]
+|[[Social Bane#Back of the Line|Back of the Line]]
+|150
+|[[Lifter Claw]]
+|
+|-
+| rowspan="4" |[[Rise]]
+|Rebel
+|2
+|1
+|[[Social Boon#Morale Boost|Morale Boost]]
+|[[Social Bane#Civil Unrest|Civil Unrest]]
+|100
+|[[Guerrilla Tactics]]
+| rowspan="4" |[[Call to Rise]]
+| rowspan="4" |Gain 1 [[Rabble Rouser]]
+(Deal 1 damage for each stack)
+|
+|-
+|Valet
+|2
+|2
+|
+|
+|100
+|
+|
+|-
+|Pamphleteer
+|3
+|2
+|[[Social Boon#Propaganda Machine|Propaganda Machine]]
+|[[Social Bane#Slander|Slander]]
+|150
+|[[Rise Manifesto]]
+|
+|-
+|Radical
+|3
+|4
+|[[Social Boon#War Machine|War Machine]]
+|[[Social Bane#Depleted|Depleted]]
+|200
+|[[RPG]]
+|
+|-
+| rowspan="3" |[[Spark Barons|Spark Baron]]
+|Security Guard
+|2
+|2
+|[[Social Boon#Weapon Supplier|Weapon Supplier]]
+|[[Social Bane#Sketchy Equipment|Sketchy Equipment]]
+|100
+|[[Shock Core]]
+| rowspan="3" |[[Appropriator]]
+| rowspan="3" |Gain 2 [[Double Duty]]
+|
+|-
+|Taskmaster
+|4
+|3
+|[[Social Boon#Torpor Fiend|Torpor Fiend]]
+|[[Social Bane#Crisis|Crisis]]
+|200
+|[[Spark Cannon]]
+|
+|-
+|Professional
+|3
+|4
+|[[Social Boon#Spark Visor|Spark Visor]]
+|[[Social Bane#Faulty Armor|Faulty Armor]]
+|200
+|[[Utility Belt]]
+|
+|-
+| rowspan="4" |[[Spree]]
+|Thief
+|1
+|2
+|[[Social Boon#Surprise Attack|Surprise Attack]]
+|[[Social Bane#Outwitted|Outwitted]]
+|100
+| rowspan="2" |[[Makeshift Dagger]]
+| rowspan="4" |[[Short Fuse]]
+| rowspan="4" |Gain 1 [[Dominance]]
+|
+|-
+|Thug
+|1
+|2
+|[[Social Boon#King Hit|King Hit]]
+|[[Social Bane#Marked|Marked]]
+|100
+|
+|-
+|Raider
+|2
+|3
+|[[Social Boon#Regimented|Regimented]]
+|[[Social Bane#Brutality|Brutality]]
+|150
+| rowspan="2" |[[Heavy Cleaver]]
+|
+|-
+|Captain
+|4
+|4
+|[[Social Boon#Savagery|Savagery]]
+|[[Social Bane#Terrorized|Terrorized]]
+|200
+|
+|}
+
+=== Special NPCs ===
+
+These following NPCs are based on one of the generic NPCs. Unlike other generic NPCs, they can only spawn through specific quests. After they spawn, they may or may not be treated as other NPCs of the same type.
+
+{| class="wikitable sortable"
+!Name
+!Gender
+!Species
+!Faction
+!Title
+!Description
+!Plot Armor?
+!Notes
+|-
+|[[Brenna]]
+|Female
+|Kra'deshi
+|[[Rise]]
+|Rebel
+|Sells goods at [[Rise]] outpost in Sal's story.
+|If [[Rise Outpost]] is active
+|
+|-
+|[[Endo]]
+|Male
+|Human
+|[[Cult of Hesh]]
+|Priest
+|Negotiation shopkeeper in [[Sal]]'s story
+|Yes
+|
+|-
+|[[Krog]]
+|Male
+|Kra'deshi
+|[[Jakes]]
+|Dockhand
+|Offers to gamble with the player in random events
+|No
+|
+|-
+|[[Murkot]]
+|Male
+|Shroke
+|[[Cult of Hesh]]
+|Luminari
+|Luminari at the Hesh outpost in [[Sal]]'s story
+|If [[Hesh Outpost]] is active
+|
+|-
+|[[Phloruk]] "of the Beast"
+|Male
+|Shroke
+|[[Spree]]
+|Raider
+|Animal shopkeeper in [[Sal]]'s story
+|Yes
+|
+|-
+|[[Phryna]]
+|Female
+|Kra'deshi
+|[[Cult of Hesh]]
+|Priest
+|Priest at the Hesh outpost in [[Sal]]'s story
+|If [[Hesh Outpost]] is active
+|
+|-
+|[[Plocka]] "the Swab"
+|Female
+|Shroke
+|[[Spark Baron]]
+|Professional
+|Graft shopkeeper in [[Sal]]'s story
+|Yes
+|
+|-
+|[[Rake]]
+|Female
+|Human
+|[[Jakes]]
+|Smuggler
+|Combat shopkeeper in [[Sal]]'s story
+|Yes
+|
+|-
+|[[Rug]]
+|Male
+|Kra'deshi
+|[[Civilian]]
+|Bartender
+|Offers the player mystery food in random events
+|No
+|
+|-
+|[[Ximmon]]
+|Male
+|Human
+|[[Bilebroker]]
+|Chemist
+|Offers dangerous goods in random events.
+|No
+|
+|}
+
+== Non-Sentient NPCs ==
+
+Below is a list of non-sentient NPCs (mechs, creatures, etc.) that can be fought in {{gamename}}.
+
+For a list of pets, see: [[Pets]]
+
+{| class="wikitable sortable"
+!NPC Type
+!Death Loot
+!Support Negotiation
+!Notes
+|-
+|[[Crayote|Yote]]
+|
+|
+|
+|-
+|[[Crayote|Spitting Yote]]
+|
+|
+|
+|-
+|[[Erchin]]
+|
+|
+|
+|-
+|[[Vroc]]
+|
+|
+|
+|-
+|[[Flead]]
+|
+|
+|
+|-
+|[[Shrooglet]]
+|
+|
+|
+|-
+|[[Oshnu]]
+|
+|
+|
+|-
+|[[Drone|Combat Drone]]
+|
+|
+|
+|-
+|[[Autodog]]
+|
+|
+|
+|-
+|[[Autodog|Cobbledog]]
+|
+|
+|
+|-
+|[[AutoDog|Feral AutoDog]]
+|
+|
+|
+|-
+|[[Automech]]
+|
+|
+|
+|-
+|[[Automech|Cobblebot]]
+|
+|
+|
+|-
+|[[Grawkit]]
+|
+|
+|
+|}<br />
+
+== Unique NPCs ==
+
+Some NPCs have unique titles, unique negotiations, unique battle mechanics, and/or unique banes/boons.
+
+{| class="wikitable sortable"
+!Name
+!Gender
+!Species
+!Faction
+!Title
+![[Negotiation#Renown|Rw]]
+![[Battle#Combat Strength|Str]]
+![[Social Boon]]
+![[Social Bane]]
+![[Gifting|Gift]] Cost
+!Death Loot
+!Core Argument
+!Negotiation Support
+!Plot Armor?
+!Notes
+|-
+|[[Arint]]
+|Female
+|Shroke
+|[[Spark Barons|Spark Baron]]
+|Lieutenant
+|3
+|3
+|[[Social Boon#On The List|On The List]]
+|[[Social Bane#Faulty Connection|Faulty Connection]]
+|150
+|[[Level Orange Clearance]]
+|[[Arint's Weakness]](Boss)
+
+[[Appropriator]](Normal)
+|Gain 2 [[Double Duty]]
+|In [[The Bog Job]]
+|
+|-
+|[[Eonwe]]
+|Female
+|Human
+|[[Cult of Hesh]]
+|
+|3
+|2
+|[[Social Boon#Heshian Armature|Heshian Armature]]
+|[[Social Bane#Gremlins|Gremlins]]
+|150
+|[[Lumin Bio-Accelerator]]
+|[[Impassive]]
+|Default
+|No
+|
+|-
+|[[Lellyn Fellemo|Fellemo]]
+|Male
+|Kra'deshi
+|[[Spark Barons|Spark Baron]]
+|Regional Manager
+|5
+|3
+|[[Social Boon#Scheme|Scheme]]
+|[[Social Bane#Scandal|Scandal]]
+|250
+|[[Two Faced]]
+|[[Appropriator]]
+|Gain 2 [[Double Duty]]
+|In [[The Bog Job]]
+|
+|-
+|[[Flekfis]]
+|Male
+|Jarackle
+|[[Rise]]
+|Lieutenant
+|3
+|3
+|[[Social Boon#Gear Head|Gear Head]]
+|[[Social Bane#Wrenched|Wrenched]]
+|150
+|[[Force Spanner]]
+|[[Flekfis' Weakness]](Boss)
+
+[[Call to Rise]]
+|Gain 1 [[Rabble Rouser]]
+|In [[The Bog Job]]
+|
+|-
+|[[Foolo]]
+|Male
+|Kra'deshi
+|[[Civilian]]
+|Dilettante
+|4
+|3
+|[[Social Boon#Haggle Badge|Haggle Badge]]
+|[[Social Bane#Bad Credit|Bad Credit]]
+|200
+|[[Spark Grenade]]
+|[[Proposition]]
+|Gain 2 [[Deep Pockets]]
+|No
+|
+|-
+|[[Frizz]]
+|Female
+|Jarackle
+|[[Admiralty]]
+|Weaponsmith
+|3
+|1
+|[[Social Boon#Weapons Expert|Weapons Expert]]
+|[[Social Bane#Treachery|Treachery]]
+|150
+|[[Lumin Jolt]]
+|[[Abuse of Power]]
+|Incept 1 [[Wealth Extractor]] Argument
+|No
+|
+|-
+|[[Fssh]]
+|Female
+|Kra'deshi
+|[[Jakes]]
+|Bartender
+|3
+|3
+|[[Social Boon#Mixology|Mixology]]
+|[[Social Bane#Tainted Supplies|Tainted Supplies]]
+|N/A
+|[[Liquid Courage]]
+|[[On the House]]
+|Gain 3 [[Influence]]
+|Yes
+|Likes Sal by default.
+|-
+|[[Glofriam]]
+|Male
+|Shroke
+|[[Boggers|Bogger]]
+|High Priest
+|5
+|3
+|Default
+|Default
+|N/A
+|None
+|[[Faith in the Bog]](Boss)
+|Default
+|Yes
+|
+|-
+|[[Grimdellia]]
+|Female
+|Human
+|[[Boggers|Bogger]]
+|Bogger
+|2
+|2
+|[[Social Boon#Talisman|Talisman]]
+|[[Social Bane#Bogling|Bogling]]
+|100
+|[[Seedling]]
+|[[Purple Haze]]
+|Restore [[Resolve]] equal to [[Difficulty]]
+|No
+|
+|-
+|[[Hanbi]]
+|Male
+|Phicket
+|[[Jakes]]
+|Assassin
+|3
+|3
+|[[Social Boon#Steady Hands|Steady Hands]]
+|[[Social Bane#Fumbling Fingers|Fumbling Fingers]]
+|150
+|[[Hanbi's Power Supply]]
+|[[Double Edge]]
+|Incept 2 [[Flustered]]
+|No
+|
+|-
+|[[Hebbel]]
+|Male
+|Shroke
+|[[Spree]]
+|Bartender
+|3
+|3
+|[[Social Boon#Top Shelf|Top Shelf]]
+|[[Social Bane#Tainted Supplies|Tainted Supplies]]
+|150
+|[[Liquid Courage]]
+|[[On the House]]
+|Gain 3 [[Influence]]
+|In [[The Bog Job]]
+|
+|-
+|[[Hundruthor]]
+|Male
+|Kra'deshi
+|[[Cult of Hesh]]
+|Auctioneer
+|4
+|2
+|[[Social Boon#Bio-Feedback|Bio-Feedback]]
+|[[Social Bane#Bad Faith|Bad Faith]]
+|200
+|[[Heshian Amulet]]
+|[[Zeal]]
+|Gain 1 [[Grace of Hesh]]
+|No
+|
+|-
+|[[Jeol]]
+|Male
+|Human
+|[[Spark Barons|Spark Baron]]
+|Drone Master
+|4
+|2??
+|[[Social Boon#Drone Master|Drone Master]]
+|[[Social Bane#Drone Supplier|Drone Supplier]]
+|200
+|[[Unstable Drone]]
+|[[Appropriator]]
+|Gain 2 [[Double Duty]]
+|No
+|
+|-
+|[[Prindo Kalandra|Kalandra]]
+|Female
+|Human
+|[[Rise]]
+|Organizer
+|2
+|2
+|[[Social Boon#Excavator|Excavator]]
+|[[Social Bane#Buried|Buried]]
+|100
+|[[Battle Plan]]
+|[[Call to Rise]]
+|Gain 1 [[Rabble Rouser]]
+|In [[The Bog Job]]
+|
+|-
+|[[Kashio]]
+|Female
+|Shroke
+|[[Spark Barons|Spark Baron]]
+|Freelancer
+|5
+|5
+|None
+|None
+|N/A
+|None
+|Default
+|Gain 2 [[Double Duty]]
+|Yes
+|Hates Sal by default.
+|-
+|[[Nadan]]
+|Male
+|Human
+|[[Spree]]
+|Leader
+|4
+|4
+|[[Social Boon#Chieftain|Chieftain]]
+|[[Social Bane#Kill List|Kill List]]
+|200
+|[[Nadan's Blade]]
+|[[Short Fuse]]
+|Gain 1 [[Dominance]]
+|In [[Hunting Kashio]]
+|
+|-
+|[[Oolo]]
+|Female
+|Kra'deshi
+|[[Admiralty]]
+|Intelligence Officer
+|4
+|4
+|[[Social Boon#Admiralty Medals|Admiralty Medals]]
+|[[Social Bane#Wrong Papers|Wrong Papers]]
+|200
+|[[Charged Disc]]
+|[[Abuse of Power]]
+|Incept 1 [[Wealth Extractor]] Argument
+|In [[Hunting Kashio]]
+|
+|-
+|[[Pengemunt]]
+|Male
+|Kra'deshi
+|[[Admiralty]]
+|Coin Trader
+|3
+|4
+|[[Social Boon#Commander|Commander]]
+|[[Social Bane#Lowered Rank|Lowered Rank]]
+|200
+|[[Spear Head]]
+|[[Abuse of Power]]
+|Incept 1 [[Wealth Extractor]] Argument
+|In [[The Bog Job]]
+|
+|-
+|[[Plundak]]
+|Female
+|Human
+|[[Jakes]]
+|Dodgy Scavenger
+|1
+|2
+|[[Social Boon#Bargaining|Bargaining]]
+|[[Social Bane#Thin Skin|Thin Skin]]
+|100
+|[[Gaft|Gaff]]
+|[[Double Edge]]
+|Incept 2 [[Flustered]]
+|No
+|
+|-
+|[[Shel]]
+|Female
+|Human
+|[[Civilian]]
+|Downtrodden Merchant
+|3
+|2
+|[[Social Boon#Haggle Badge|Haggle Badge]]
+|[[Social Bane#Bad Credit|Bad Credit]]
+|150
+|[[Spark Grenade]]
+|[[Proposition]]
+|Gain 2 [[Deep Pockets]]
+|No
+|
+|-
+|[[Sparky]]
+|Male
+|Jarackle
+|[[Spark Barons|Spark Baron]]
+|Boss
+|4
+|1??
+|[[Social Boon#System Shock|System Shock]]
+|[[Social Bane#Short Circuit|Short Circuit]]
+|200
+|[[Sparky's Oppressor Cell]]
+|[[Appropriator]]
+|Gain 2 [[Double Duty]]
+|No
+|
+|-
+|[[Threekwa]]
+|Male
+|Shroke
+|[[Rentorian]]
+|Hunter
+|3
+|2
+|[[Social Boon#Rentorian Battle Armor|Rentorian Battle Armor]]
+|[[Social Bane#Informed Enemies|Informed Enemies]]
+|150
+|[[War Stories]]
+|[[Impassive]]
+|Default
+|No
+|
+|-
+|[[Zyn]]
+|Male
+|Phicket
+|[[Jakes]]
+|Assassin
+|1
+|4
+|[[Social Boon#Sharpened Blades|Sharpened Blades]]
+|[[Social Bane#Hemophiliac|Hemophiliac]]
+|200
+|[[Zyn's Razor]]
+|[[Double Edge]]
+|Incept 2 [[Flustered]]
+|No
+|
+|-
+|NPC [[Sal]]
+|Female
+|Human
+|[[Grifters|Grifter]]
+|
+|3
+|4
+|[[Social Boon#People Person|People Person]]
+|[[Social Bane#Wrong Side|Wrong Side]]
+|200
+|[[Red Scarf]]
+|[[Sal#Sal's Savvy|Sal's Savvy]]
+|Default
+|No
+|
+|-
+|NPC [[Rook]]
+|Male
+|Human
+|[[Grifters|Grifter]]
+|
+|4
+|3
+|[[Social Boon#Grumpy Scowl|Grumpy Scowl]]
+|[[Social Bane#Contagious|Contagious]]
+|200
+|[[Rook's Spare Coin]]
+|Default
+|Default
+|No
+|
+|}
+
+== Plot Armor ==
+Some NPCs have plot armor. Having a plot armor means:
+
+* Will not be assigned as generic cast in a quest, unless the quest explicitly requires that character.
+* Will not spawn as patrons unless otherwise specified.
+* Will not join combat with the player unless specifically encountered.
+* Cannot be [[Gifting|Gifted]] or [[Provoking|Provoked]].
+* Will not be affected by [[Mutators|First Impressions]].
+* This character will never hate you because you killed someone in their faction.
+
+Characters with plot armor can still die, unlike characters with [https://tvtropes.org/pmwiki/pmwiki.php/Main/PlotArmor Plot Armor] in movies, TV shows, or other games.
+
+Usually, characters with significant story relevance have plot armor. Many night merchants in [[Sal]]'s story also have plot armor.
+
+Sometimes, the plot armor is conditional. For example, [[Oolo]] has plot armor in Sal's main story, [[Hunting Kashio]], while she doesn't have plot armor in Rook's story(although she will never spawn) or in [[Brawl]].
+[[Category:Characters]]

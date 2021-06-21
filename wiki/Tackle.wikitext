@@ -1,0 +1,32 @@
+
+
+{{Card Infobox|cardtype=Attack|decktype=Battle|expreq=7|name=Tackle|set=Common|upgrade1=Boosted Tackle: Gain 4 '''Defense'''.|upgrade2=Thorny Tackle: 5-7 damage||image=Tackle.png|cost=1}}
+
+''Nobody got by me, I was a wall back in the day!''
+
+'''Tackle''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 3-5 base damage. It has the effect "Gain 2 '''Defense'''.".
+
+== Upgrades ==
+After accruing 7 experience '''Tackle''' is able to be upgraded.
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|'''Boosted Tackle'''
+|1
+|3-5
+|Gain 4 '''Defense'''.
+|-
+|'''Thorny Tackle'''
+|1
+|5-7
+|Gain 2 '''Defense'''.
+|}
+<br />[[Category:All cards]]
+[[Category:Battle cards]]
+[[Category:Sal cards]]
+[[Category:Attack cards]]
+[[Category:Common cards]]

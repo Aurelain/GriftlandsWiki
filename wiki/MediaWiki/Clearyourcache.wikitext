@@ -1,0 +1,9 @@
+<!--{{#vardefine:nstest|{{#ifeq: {{NAMESPACENUMBER}}|2|user|MediaWiki}}}}{{int:otherlanguages}}: [[:bg:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Български]] • [[:de:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Deutsch]] • [[:el:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Ελληνικά]] • [[:en:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|English]] • [[:es:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Español]] • [[:fr:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Français]] • [[:hu:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Magyar]] • [[:it:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Italiano]] • [[:ja:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|日本語]] • [[:ko:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|한국어]] • [[:nl:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Nederlands]] • [[:pl:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Polski]] • [[:pt:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Português]] • [[:pt-br:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Português do Brasil]] • [[:ru:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Русский]] • [[:tr:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Türkçe]] • [[:zh:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|中文]]
+<hr>-->
+<span class="warning">'''CSS and Javascript changes must comply with the [[:gphelp:Wiki design rules|wiki design rules]].'''</span>
+<hr>
+<strong>Note:</strong> After saving, you may have to bypass your browser's cache to see the changes.
+* <strong>Firefox / Safari:</strong> Hold <em>Shift</em> while clicking <em>Reload</em>, or press either <em>Ctrl-F5</em> or <em>Ctrl-R</em> (<em>⌘-R</em> on a Mac)
+* <strong>Google Chrome:</strong> Press <em>Ctrl-Shift-R</em> (<em>⌘-Shift-R</em> on a Mac)
+* <strong>Internet Explorer:</strong> Hold <em>Ctrl</em> while clicking <em>Refresh</em>, or press <em>Ctrl-F5</em>
+* <strong>Opera:</strong> Clear the cache in <em>Tools → Preferences</em>

@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Oshnu</center>
+  |body=<center>A domesticated giant snail, used for food, transport, and entertainment.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

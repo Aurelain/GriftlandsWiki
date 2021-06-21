@@ -1,0 +1,29 @@
+{{doc/start}}
+__NOTOC__
+This is a list of wiki administrators, both the Gamepedia staff members and the community-based administrators, listed on [[Project:Community portal]]. It takes one optional parameter:
+: <code>width</code> &ndash; which specifies the width of the list
+
+{{tlx|Wiki admin}} is used in this template to format admin entries.
+
+==Usage==
+:{{tlx|Admins|width}}
+
+==Modifying the list==
+Editing the source of this template will show commented-out examples of how to change the list. Gamepedia staff creating the wiki should remove the line about emailing and uncomment the {{Tlx|Wiki admin|Game Widow}} in that section and replace Game Widow with their own name.
+
+Community admins can be added by following the commented-out example in that section.
+
+If the wiki has a developer as an administrator, uncomment the Developer Administrators section and use {{Tlx|Wiki admin}} with their name, like in the community section.
+
+==Example==
+<div class="feature" style="border: 1px solid #505050; border-radius: 4px; margin: 5px; padding: 5px;">
+
+:{{tlx|Admins|width{{=}}300px}}
+
+'''Result:'''
+
+{{Admins|width=300px}}
+
+</div>
+
+{{doc/end}}

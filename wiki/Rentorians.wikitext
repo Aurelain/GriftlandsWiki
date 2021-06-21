@@ -1,0 +1,28 @@
+{{stub}}
+
+The '''Rentorians''' are citizens of [[Rentoria]], who are often in conflict with the [[Admiralty]]. Only two members are known to be in this faction: Threekwa, a Hunter, and Bordenkra, a Foreman.
+
+== Members ==
+{| class="wikitable"
+|+
+!Name
+!Title
+!Species
+!Description
+!Appearance
+|-
+|Threekwa
+|Hunter
+| rowspan="2" |Shroke
+|Threekwa. The name is a noble one in Rentorian lands, even if his actions in these parts speak otherwise.
+|[[File:Threekwa.jpg|125px]]
+|-
+|Bordenkra
+|Foreman
+|Bordenkra holds her head like if she gets it high enough, it'll be immune to the Havarian smells.
+|[[File:Bordenkra.jpg|125px]]
+|}
+
+== Trivia ==
+
+* Rentorians is the smallest faction in Griftlands, with only Threekwa and Bordenkra.

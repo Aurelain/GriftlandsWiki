@@ -1,0 +1,25 @@
+
+
+{{Infobox
+| name     = Chake
+| image    = Chake.jpg
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Civilian - Heavy Laborer
+| ID       =
+}}{{quote|The laborer rubs his elbows like it's been ten years since they ran out of grease.|Chake's Compendium Description}}'''Chake''' is a character in {{Gamename}} and a [[Civilian]] Heavy Laborer.
+
+== Death Loot ==
+If '''Chake''' is killed in combat, he will drop a [[Worker's Glove]].
+[[File:Worker's Glove.png|none|thumb]]
+
+== Boon/Bane ==
+If '''Chake''' hates you, you will receive:
+
+=== Whispered Rumors ===
+Opponents start with an additional argument each negotiation.
+[[File:Graft whispered rumors.png|none|thumb]]
+<br />
+[[Category:Characters]]

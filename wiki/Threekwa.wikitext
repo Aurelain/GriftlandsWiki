@@ -1,0 +1,31 @@
+{{stub}}
+
+{{Infobox
+| name     = Threekwa
+| title    = Hunter
+| image    = Threekwa.jpg
+| race     = Shroke
+| location = Havaria, Grout Bog
+| faction  = Rentorians
+| class    = Hunter
+}}
+
+{{quote|Besides, look at you. A bum leg. No pension, no friends. Maybe you should ''let'' me put you down.|Threekwa, to Rook}}
+
+'''Threekwa''' is a Boss who is usually fought by [[Rook]] in [[Grout Bog]]. A [[Rentoria|Rentorians]] Hunter, he formerly traded the secrets of his island nation with Rook. Years later, he would track Rook to his mission in Grout Bog and attempt to assassinate him.
+== Encounters ==
+=== Grout Bog ===
+Threekwa usually appears at the Grout Bog Dead Drop as a possible Boss, the other being the Heshite [[Eonwe]]. Rook is given the option to either Intimidate Threekwa into leaving, or fighting him.
+
+=== Murder Bay ===
+When playing as [[Sal]], the player can meet Rook in a random encounter. Rook will state that there is an assassin after him, which can possibly be Threekwa. Beforehand, if Sal decides to help Rook, he will pay 300 shills. When meeting Threekwa, he will offer Sal the option to stand down and keep the fight between him and Rook. If the player declines, she will fight Threekwa. After the battle, if the player accepts Threekwa's surrender, Rook will finish them off. If the player slays Threekwa, (To be found). If Sal stands down, Rook will Hate her and defeat Threekwa himself. Afterwards, Rook will say that he is too tired to fight Sal. She is then given the option to either let him go or finish Rook off.
+
+== Negotiation ==
+
+== Combat ==
+
+
+[[Category:Characters]]
+[[Category:Boss]]
+[[Category:Shroke]]
+[[Category:Stubs]]

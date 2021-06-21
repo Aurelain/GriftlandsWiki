@@ -1,0 +1,81 @@
+{{doc/start}}
+This template is for creating the styled links used within boxes on the front page: [[{{SITENAME}}]]. It relies heavily on CSS in [[MediaWiki:Common.css]], [[MediaWiki:Hydra.css]] / [[MediaWiki:Hydradark.css]] and [[MediaWiki:Mobile.css]].
+==Usage==
+Any group of {{tlx|FP link}} templates must be enclosed by an element with the class <code>fplinks</code>.
+===Internal (wiki) links===
+<pre>
+{{FP link | destination | display text /optional
+| image = file link /optional
+| width = <normal/wide/full> /optional
+| imageonly = <true/false> /optional
+| plain = <true/false> /optional
+}}
+</pre>
+===External links===
+<pre>
+{{FP link | url = destination | display text /optional
+| image = file link /optional
+| width = <normal/wide/full> /optional
+| imageonly = <true/false> /optional
+| plain = <true/false> /optional
+}}
+</pre>
+==Parameters==
+===Internal (wiki) links===
+;<code>''destination''</code> : Destination wiki page. '''Required'''.
+;<code>''display text''</code> : Optional text to display instead of the name of the destination page.
+
+===External links===
+;<code>|url=</code> : The destination URL. '''Required''' for external links.
+;<code>''display text''</code> : Optional text to display instead of the URL. If omitted, the full URL will be displayed.
+
+===Style parameters===
+
+;<code>|image=</code> : Optional image, to be displayed above the link.
+;<code>|width=</code> : Determines the size of the link box. <code>normal</code> links take up to 25% of the width of the containing element. <code>wide</code> links take up to 33% of the containing element. <code>full</code> links take the entire width of the containing element. If omitted, defaults to <code>normal</code>.
+;<code>|imageonly=</code> : When an image is specified, this determines whether to show only the image or both the image and the link. <code>true</code> will show only the image, <code>false</code> will show the link as well. If omitted, defaults to <code>false</code>.
+;<code>|plain=</code> : This provides an option to remove backgrounds and borders for certain links. <code>true</code> will remove visible styles, <code>false</code> will use the default styles. If omitted, defaults to <code>false</code>.
+
+==Examples==
+===Links only===
+<pre>
+<div class="fplinks">
+{{FP link | Main Page | Normal}}
+{{FP link | Main Page | Wide | width = wide}}
+{{FP link | Main Page | Plain | plain = true}}
+
+{{FP link | Main Page | Full width | width = full}}
+</div>
+</pre>
+
+<div class="fplinks">
+{{FP link | Main Page | Normal}}
+{{FP link | Main Page | Wide | width = wide}}
+{{FP link | Main Page | Plain | plain = true}}
+
+{{FP link | Main Page | Full width | width = full}}
+</div>
+
+===With images===
+<pre>
+<div class="fplinks">
+{{FP link | Main Page | With image | image = Wiki.png}}
+{{FP link | Main Page | Hidden text | image = Wiki.png | imageonly = true}}
+{{FP link | Main Page | Plain | image = Wiki.png | plain = true}}
+{{FP link | Main Page | Plain | image = Wiki.png | plain = true | imageonly = true}}
+
+{{FP link | Main Page | Wide with image | image = Wiki.png | width = wide}}
+{{FP link | Main Page | Wide hidden text | image = Wiki.png | width = wide | imageonly = true}}
+</div>
+</pre>
+
+<div class="fplinks">
+{{FP link | Main Page | With image | image = Wiki.png}}
+{{FP link | Main Page | Hidden text | image = Wiki.png | imageonly = true}}
+{{FP link | Main Page | Plain | image = Wiki.png | plain = true}}
+{{FP link | Main Page | Plain | image = Wiki.png | plain = true | imageonly = true}}
+
+{{FP link | Main Page | Wide with image | image = Wiki.png | width = wide}}
+{{FP link | Main Page | Wide hidden text | image = Wiki.png | width = wide | imageonly = true}}
+</div>
+{{doc/end}}

@@ -1,0 +1,183 @@
+{{stub}}
+'''The Jakes''' are a loose organization of merchants, smugglers, and free-agents living across Havaria. '''The Jakes''' mainly focus on maintaining open trade routes and running businesses with the [[Admiralty]] and [[Spark Barons]] throughout the region, though their dealings with corrupt officials and debt-brokers often leave them in severe debt instead.
+
+== Members ==
+{| class="wikitable"
+|+
+!Name
+!Species
+!Title
+!Description
+!Appearance
+|-
+|[[Plundak]]
+|Human
+|Dodgy Scavenger
+|None
+|[[File:Plundak.jpg|125px]]
+|-
+|[[Fssh]]
+|[[Kra'deshi]]
+| rowspan="2" |[[Bartender]]
+|The owner and proprietor of the Grog 'n Dog. She must be running a side angle, because nobody goes to the Grog for the food.
+|[[File:Fssh Mugshot.png|125px]]
+|-
+|[[Sweet Moreef]]
+|[[Jarackle]]
+|N/A
+|[[File:Sweet Moreef.jpg|125px]]
+|-
+|[[Hanbi]]
+| rowspan="7" |Human
+| rowspan="2" |[[Assassin]]
+|Hanbi's rifle has been the bitter end of more than a few grifters in griftlands.
+|[[File:Hanbi.png|125px]]
+|-
+|[[Zyn]]
+|Like all well-trained assassins, Zyn leaps before you look.
+|[[File:Zyn.jpg|125px]]
+|-
+|Alongwy
+| rowspan="11" |[[Smuggler]]
+|You have a feeling you once lost a job to this guy, but that might've been a different Alongwy. You hadn't heard he changed work.
+|[[File:Alongwy.png|125px]]
+|-
+|Ban
+|Ban can knock some sense into you—or out. Your choice.
+|[[File:Ban.jpg|125px]]
+|-
+|Bina
+|Bina comes from a long line of warriors, known for getting the job done.
+|[[File:Bina.png|125px]]
+|-
+|Rake
+|Rake is never one for surprises.
+|[[File:Rake.jpg|125px]]
+|-
+|Voh
+|Voh charges extra for service with a smile, but it doesn't seem worth the investment.
+|[[File:Voh.jpg|125px]]
+|-
+|Enit
+| rowspan="3" |Jarackle
+|Enit's success as a smuggler is nevertheless earned—in spite of her being known to skim a little off the top of whatever it is she's smuggling.
+|[[File:Enit.jpg|125px]]
+|-
+|Leeqi
+|Word is Leeqi makes money on the side stooging for debt-brokers and keeping the derricks well-stocked with labor.
+|[[File:Leeqi.jpg|125px]]
+|-
+|Qita
+|You've heard Qita's name spoken like it's got a razor's edge, but you don't remember the details.
+|[[File:Qita.jpg|125px]]
+|-
+|Kof
+| rowspan="3" |Shroke
+|This smuggler has a reputation for negotiating steep fees for his services. Perhaps the origin of the Havarian phrase "Coughing up the cash".
+|[[File:Kof.jpg|125px]]
+|-
+|Topo
+|Nobody in Havaria's ever heard of a smuggler with a heart of gold. And nobody's ever heard of Topo. It's unlikely the two are related.
+|[[File:Topo.jpg|125px]]
+|-
+|Xiit
+|Folks say Xiit is a miracle worker, but the miracle is that he manages to pull himself out of the gutter each day.
+|[[File:Xiit.jpg|125px]]
+|-
+|Gwale
+|Kra'deshi
+| rowspan="4" |[[Lifter]]
+|Gwale wasn't born to this life, but she sure claimed it as her own anyway.
+|[[File:Gwale.jpg|125px]]
+|-
+|Eedlit
+|Shroke
+|When you want to get ahold of something rare and valuable, Eedlit is the one who can extend your reach.
+|[[File:Eedlit.jpg|125px]]
+|-
+|Erga
+| rowspan="7" |Human
+|Like a torn banner in the wind, Erga plays fast and loose.
+|[[File:Erga.jpg|125px]]
+|-
+|Opple
+|Best watch the manifest close, as Opple has a habit of doing black magic with the numbers.
+|[[File:Opple.jpg|125px]]
+|-
+|Brash
+| rowspan="11" |[[Dockhand]]
+|Despite her name, Brash is actually pretty level-headed.
+|
+|-
+|Gree
+|Creepily enough, Gree has a reputation for singing her assassins contracts to their death.
+|
+|-
+|Juke
+|Juke's a bit of a newcomer on the Havarian smuggling scene, but she makes up for it by charging a ruthless fee.
+|[[File:Juke.jpg|125px]]
+|-
+|Minfen
+|You've heard Minfen used to be an indebted worker. Most aren't lucky enough to make it out.
+|[[File:Minfen.jpg|125px]]
+|-
+|Pozgo
+|"Pozgo" was the legendary ruler of a long-forgotten planet. You wonder if ''this'' Pozgo lived up to his parent's expectations.
+|[[File:Pozgo.jpg|125px]]
+|-
+|Cwoki
+| rowspan="2" |Kra'deshi
+|You've heard that Cwoki has a collection of trading cards depicting the upper echelon of the Hesian cult—from cardinals to archbishops. 
+Of course, that's the Deltrean side. Unlikely Havarian clergy warrant any mention.
+|[[File:Cwoki.jpg|125px]]
+|-
+|Krog
+|You'd bet your last shill that Krog knows his way around his own sleeve—preferably, though, you wouldn't bet against Krog.
+|[[File:Krog.jpg|125px]]
+|-
+|Grunjax
+| rowspan="3" |Jarackle
+|Grunjax has a breath so rancid you can smell it after he's left the room. But he sure does have a nice smile.
+|[[File:Grunjax.jpg|125px]]
+|-
+|Queek
+|Not all jakes do things by the book, but Queek's reputation, at least, is queeky clean.
+|
+|-
+|Tlok
+|Most jarackles struggle to get the respect they deserve, so it says a lot that folks speak Tlok's name like he's one to watch out for.
+|[[File:Tlok.jpg|125px]]
+|-
+|Ronno
+| rowspan="3" |Shroke
+|Apparently Ronno lost her hearing in her right earnub after a swamp gas explosion. Fortunately she hears extra-well out of the left one.
+|[[File:Ronno.jpg|125px]]
+|-
+|Wikka
+| rowspan="2" |Promoted Dockhand
+|Not unusual for someone like Wikka, hard-headed and steel-toed, to do well in the jakes.
+|[[File:Wikka.jpg|frameless|159x159px]]
+|-
+|Worrik
+|You have to be fast to get seniority in the jakes, and Worrik's made a habit out of kicking off with his good foot.
+|
+[[File:Worrik.jpg|125px]]
+|}
+
+== Titles ==
+There are three classes of Jakes, each with their own Boon, Bane and loot on death.
+
+- [[Jake Smugglers]]: Jake Smugglers carry a pistol and are recognizable by their outfit with yellow suspenders. They are usually seen guarding certain locations like [[Fssh]]'s bar, or the [[Docks]]. Combat-wise, they have a one-time move, "Triage", that heals themselves or another party member for 9HP, and they can also defend and shoot in barrages of three moderate damage shots. They are not too much of a threat on their own, but combined with [[Jake Dockhands]] and their wounding ability, they can pack a punch.  
+
+When you kill a Jake Smuggler, you obtain the battle card [[Triage]]. 
+
+Their social [[Boon]], [[First Aid]], grants you with the ability to negate a random debuff every time you or a party member is healed, by yourself or your teammates. This can be lifesaving against enemies with wounding attacks, like [[Feral Autodogs]]. It is especially powerful with [[Sal]] combined with Grafts or cards that give you temporary power, since you can use an item or an upgraded [[Feint]] card to remove the debuff that subtracts the temporary power, making it permanent for the duration of the battle.
+
+Their [[Bane]] on the other hand is [[Fragile Health]], which makes you take 2 damage when you receive a debuff.
+
+- [[Jake Dockhands]]: Jake Dockhands can be distinguished by their yellow vest made out of patches of material. In combat, they have a class ability which is to apply wound on every unmitigated attack, which can make them deadly if you do not have proper defense. They have an attack set of three moves. Kneecap is a strong debuff attack that inflicts the x status effect, which divides the shielding that the victim gets by half for the duration of it. Fade away applies 7 defense to them, and they also have a low damage double attack. 
+
+When you kill a Jake Dockhand, you obtain the battle card [[Gaff]]. 
+
+Their social boon is [[Barganing]], which gives you a 20 shill discount in all shops and almost all events in which you can buy items. If stacked, this can be very powerful since you can potentially get food and drinks for 1 shill, which is the cap for item prices, along with other cheap items.[[File:Jake Lifter.png|alt=As seen in the picture uploaded by Klei on the update in which they were added.|thumb|Jake Lifter]]Their bane is paper skin, which makes it so that the first attack you receive in every battle inflicts you with two [[wound]].
+[[Category:Factions]]

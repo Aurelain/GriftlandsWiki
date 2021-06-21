@@ -1,0 +1,11 @@
+<div class="nomobile">{{Ambox
+| image = [[File:Icon-upload.png|30px]]
+| type = ''You can help {{SITENAME}} by {{uploadlink|{{PAGENAME}}|uploading|reupload=yes}} an improved version of this {{#if:{{{1|}}}|image because: '''{{{1|}}}'''|image.}}''
+| border = orange
+| info = ''If the problems have been addressed, please {{editlink|{{FULLPAGENAME}}|edit this page}} and remove this notice. It will start with ''<code>{{Reupload</code>'' and end with ''<code>}}</code>.''
+}}<br /></div><!--
+--><div class="mobileonly" style="text-align:center">''You can help {{SITENAME}} by {{uploadlink|{{PAGENAME}}|uploading|reupload=yes}} an improved version of this {{#if:{{{1|}}}|image because: '''{{{1|}}}'''|image.}}''<br />''If the problems have been addressed, please {{editlink|{{FULLPAGENAME}}|edit this page}} and remove this notice. It will start with ''<code>{{Reupload</code>'' and end with ''<code>}}</code>.''<br /></div><!--
+--><includeonly>[[Category:Images needing improvement]]</includeonly><noinclude>
+{{doc}}
+
+[[Category:Notice templates|{{PAGENAME}}]]</noinclude>

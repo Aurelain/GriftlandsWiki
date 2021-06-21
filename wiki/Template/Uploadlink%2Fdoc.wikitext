@@ -1,0 +1,11 @@
+{{doc/start}}
+This template creates a direct link to upload a given file.
+
+==Usage==
+ <nowiki>{{uploadlink|file}}</nowiki>
+ <nowiki>{{uploadlink|file|link text}}</nowiki>
+ <nowiki>{{uploadlink|file|reupload=yes}}</nowiki>
+ <nowiki>{{uploadlink|file|link text|reupload=yes}}</nowiki>
+
+Setting <code>reupload</code> to <code>yes</code> indicates there is a file there and this link should be for uploading a new version. You should verify the file exists before using this form.
+{{doc/end}}

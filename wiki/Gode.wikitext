@@ -1,0 +1,25 @@
+
+
+{{Infobox
+| name     = Gode
+| image    = Gode portrait.png
+| race     = Kra'deshi
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Civilian- Foreman
+| ID       =
+}}{{quote|Like most foremen, Gode prefers folks who can get the job done.|Gode's Compendium Description}}'''Gode''' is a character in {{Gamename}} and a [[Civilian]] Foreman.
+
+== Death Loot ==
+If '''Gode''' is killed in combat, he will drop an [[Adrenaline Shot]].
+[[File:Adrenaline Shot.png|none|thumb]]
+
+== Boon/Bane ==
+If '''Gode''' hates you, you will receive:
+
+=== Blacklisted ===
+At the start of each negotiation, discard a random card.
+[[File:Graft blacklisted.png|none|thumb]]
+<br />
+[[Category:Characters]]

@@ -1,0 +1,5 @@
+[[File:Rook_story_stepping_in_it.png|15px|link=Stepping in it]] [[Stepping in it]]<noinclude><br>
+== Use ==
+<pre>{{Stepping in it}}</pre>
+
+[[Category:Icon templates|{{PAGENAME}}]]</noinclude>

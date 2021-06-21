@@ -1,0 +1,148 @@
+{{stub}}
+
+{{Infobox custom
+|name       = Spree
+|image      = Spreeemblem.png
+|row1 label = V.I.P(s)
+|row1 data  = [[Nadan]], [[Hebbel]]
+|row2 label = Territory
+|row2 data  = [[Murder Bay]]
+|row3 data=Leader, [[Bartender]], [[Captain]], [[Raider]], [[Thief]], [[Thug]]|row3 label=Titles}}
+
+'''The Spree''' are the collective group of bandits found across [[Havaria]]. Focused mostly in [[Murder Bay]], their presence is what gives Murder Bay its namesake. No target is too poor for The Spree, and they'd sooner slit your throat then let a few shills pass by their pockets. Their leader, [[Nadan]], has found himself at war with the [[Admiralty]] ever since they settled on Havaria.
+
+== Members ==
+{| class="wikitable"
+|+
+!Name
+!Title
+!Race
+!Description
+!Appearance
+|-
+|Nadan
+|Leader
+|[[Human]]
+|It's not clear where, exactly, Nadan falls on the Spree pecking order, but he's important enough to get you into the aution as long as you stay in his good books. Despite being a rotton crook, his general demeanor is much more charming than his blaster-burned grin.
+|[[File:Nadan Mugshot.png|125px]]
+|-
+|Hebbel
+|[[Bartender]]
+|[[Shroke]]
+|None
+|[[File:Hebbel Mugshot.png|125px]]
+|-
+|Ferg
+| rowspan="4" |[[Chieftan|Captain]]
+| rowspan="2" |[[Jarackle]]
+|Ferg has a reputation for doing business fast and cutthroat. Better to hold the knife rather than be under it.
+|[[File:Ferg.jpg|125px]]
+|-
+|Tarq
+|You haven't heard much about Tarq, but you're pretty sure you saw his name carved into a table in the Grog n' Dog. Someone else's name was carved under it—and then gouged out.
+|[[File:Tarq.jpg|125px]]
+|-
+|Justice
+|Human
+|As her name suggests, Justice is firm, ruthless, and has very little sense of irony.
+|
+|-
+|Nup
+|Shroke
+|Bandits don't generally take to leadership, unless it's as tough and ruthless as Nup.
+|[[File:Nup.jpg|125px]]
+|-
+|Ash
+| rowspan="5" |[[Raider]]
+| rowspan="3" |Human
+|It's hard work being a bandit—even harder when you're hooked on the slurry. But Ash gets the job done.
+|[[File:Ash.png|125px]]
+|-
+|Hiqu
+|Hiqu's mysterious poetry has been found scribbled in privies from Murder Bay to the Bread Fields.
+|[[File:Hiqu.jpg|125px]]
+|-
+|Kuga
+|Rather than a bad side, Kuga seems to have a bad continent. Best to stay off of it.
+|[[File:Kuga.jpg|125px]]
+|-
+|Durno
+| rowspan="2" |Shroke
+|Good bandits are hard to come by. Fortunately, there's Durno.
+|[[File:Durno.jpg|125px]]
+|-
+|Phroluk 'Of the Beasts'
+|Some people keep pets. Phroluk keeps battle steeds.
+|[[File:Phroluk.jpg|125px]]
+|-
+|Bax
+| rowspan="5" |[[Thug]]
+| rowspan="2" |Human
+|Bax is dangerously predictable: he'll sell you out for a hit of slurry, then break your heart when he feels bad about it.
+|[[File:Bax.jpg|125px]]
+|-
+|Lux
+|The only thing more menacing than Lux's reputation is her laugh.
+|[[File:Lux.jpg|125px]]
+|-
+|Goni
+| rowspan="2" |Shroke
+|If you had to get robbed, it wouldn't be too bad to get robbed by a face like Goni's.
+|[[File:Goni.jpg|125px]]
+|-
+|Tiq
+|When push comes to shove, Tiq pushes and shoves. And punches. And maybe even bites.
+|[[File:Tiq.jpg|125px]]
+|-
+|Prekt
+|[[Kra'deshi]]
+|The scars on her hands suggest Prekt is no stranger to a stacked fight.
+|[[File:Prekt.jpg|125px]]
+|-
+|Tee
+| rowspan="2" |Promoted Thug
+| rowspan="2" |Shroke
+|It doesn't take much to be a cut above the rest in the Spree—just a good knife and a long reach. Tee has both.
+|[[File:Tee.jpg|125px]]
+|-
+|N/A
+|
+|-
+|Blane
+| rowspan="5" |[[Thief]]
+| rowspan="5" |Human
+|Apparently Blane once dreamed of being a monster hunter, so his life satisfaction is undoubtedly not high.
+|
+|-
+|Dauler
+|There are plenty of jobs for the adventurous type in Havaria, but it takes a special kind of nerve to cut purses, and Dauler has it in spades.
+|[[File:Dauler.jpg|125px]]
+|-
+|Heft
+|Heft might be intimidating if she didn't have a habit of chewing her nails to the quick.
+|[[File:Heft.jpg|125px]]
+|-
+|Murk
+|For a criminal, Murk is pretty weak in resolve−but he makes up for it by being quick on his feet.
+|
+|-
+|Uraneer
+|Uraneer's fingers are so sticky it's a wonder she doesn't cling to walls.
+|[[File:Uraneer.jpg|125px]]
+|}
+
+== Negotiation ==
+The Spree are much more hit-and-run in their negotiations compared to other factions. While their Negotiation strategy is not highly sustainable, it's more than likely they'll inflict heavy resolve loss before they're convinced.
+
+Short Fuse: "When the player shuffles their deck, gain 1 Impatience.". This is a strong counter against small deck sizes, due to the constant source of Impatience that they'll gain. However, large and strong decks will more easily deal with this personality argument.
+
+Escalation: When a hostile card is played, this argument gains one stack. each stack heals it by 2 and increases the spree's persuasion by 1. This can very easily turn into an uncontrollable argument due to it absorbing hostile damage while reflecting it back as intent damage. It is paramount to most decks that you deal with this argument in as few hostile cards as possible, or else the spree can deal high amounts of persuasion per hit.
+
+Greedy: " Bounty; When destroyed, lose 10 shills and gain 2 actions.". A trade off of a bounty, the player will lose an indiscriminate amount of shills and in return gains more action points to play. However, due to the loss of shills, it's recommended you don't destroy this bounty unless you need the action points to make key plays.
+
+== Trivia ==
+*The Spree may have originally been called the Fleadhusk Bandits, due to certain file names.
+*The "Short Fuse" personality argument used to be "When an argument is destroyed, increase ALL damage by 1.".
+*There are a total of 23 unique Spree members.
+
+[[Category:Factions]]

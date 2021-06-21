@@ -1,0 +1,13 @@
+{{Stub}}
+{{Card
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = Expend, Unplayable
+|upgradeable = Yes
+|expreq = 8
+|upgrade1 = 'Boosted': gain 2 actions
+|upgrade2 = 'Visionary': and draw a card}}
+
+'''Spotty''' is a '''Diplomacy''' card for [[Rook]]. When drawn it '''Expends''' gaining you an additional action. '''Spotty''' is part of the [[Gambler and Fixated]] [[Card Sets|Card Set]].
+
+After accruing 8 experience '''Spotty''' upgrades to be "Boosted" gaining 2 actions, or to be "Visionary" drawing a card.

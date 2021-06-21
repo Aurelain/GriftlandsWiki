@@ -1,0 +1,29 @@
+{{stub}}
+
+{{Infobox
+| name     = Hebbel
+| image    = Hebbel Mugshot.png
+| race     = Shroke
+| location = Grout Bog
+| source   = 
+| reward   = 
+| related  = Spree
+| ID       =
+}}
+
+'''Hebbel''' is the proprietor of [[The Last Stand]] in [[Grout Bog]]. He prides himself on his family business and its independence from the '''Spark Barons'''. Hebbel acts as an informant for special clientele, passing along messages and delivering packages to clients.
+
+== Services ==
+
+*Hebbel offers a random set of 3 [[Card#Item Cards|items]] to purchase that changes each day. 
+*Like Fssh, he sells food and alcohol that restores HP and Resolve, respectively.
+*Talking to Hebbel allows the player to access Rook's room where [[Rook#Outfits|outfits]] can be changed and pets can be interacted with if owned.
+*If spoken with at the end of the night, the player can choose to sleep in their room which advances the story.
+
+== Trivia ==
+
+Hebbel, curiously, is assigned to The Spree faction unlike all other merchants present in the game. A particular quest has Rook turning over proof of an assassinated target to Hebbel, with Hebbel seemingly acknowledging the proof, hinting towards his more secretive dealings with Rook's shadow client.
+
+[[Category:Characters]]
+[[Category:Merchants]]
+[[Category:Shroke]]

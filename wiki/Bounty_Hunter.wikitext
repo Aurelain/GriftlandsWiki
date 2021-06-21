@@ -1,0 +1,25 @@
+{{Card
+|character = Sal
+|rarity = Unique
+|cardtype = Diplomacy
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Pale Bounty Hunter
+|upgrade2 = Double-Barreled Bounty Hunter}}
+{{Quote|Have you seen this ridiculous idiot?}}
+
+'''Bounty Hunter''' is a 1-cost Unique '''Diplomacy''' card for [[Sal]]. It creates a '''Wanted!''' argument on the opponent's side. 
+'''Wanted!''' is an argument with 2 resolve. When destroyed, the owner's core argument takes 6 to 9 damage and gains an [[Impatience]].
+
+==Upgrades==
+After accruing 9 experience '''Bounty Hunter''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Pale Bounty Hunter.png|150px]]
+|[[File:Double-Barreled Bounty Hunter.png|150px]]
+|-
+!Cost 1 action less
+!Incept 2 '''Wanted!'''
+|-
+|}

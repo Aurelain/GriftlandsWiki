@@ -1,0 +1,9 @@
+<!--Autres langues: [[:bg:{{{1|{{FULLPAGENAME}}}}}|Български]] • [[:de:{{{1|{{FULLPAGENAME}}}}}|Deutsch]] • [[:el:{{{1|{{FULLPAGENAME}}}}}|Ελληνικά]] • [[:en:{{{1|{{FULLPAGENAME}}}}}|English]] • [[:es:{{{1|{{FULLPAGENAME}}}}}|Español]] • [[:fr:{{{1|{{FULLPAGENAME}}}}}|Français]] • [[:hu:{{{1|{{FULLPAGENAME}}}}}|Magyar]] • [[:it:{{{1|{{FULLPAGENAME}}}}}|Italiano]] • [[:ja:{{{1|{{FULLPAGENAME}}}}}|日本語]] • [[:ko:{{{1|{{FULLPAGENAME}}}}}|한국어]] • [[:nl:{{{1|{{FULLPAGENAME}}}}}|Nederlands]] • [[:pl:{{{1|{{FULLPAGENAME}}}}}|Polski]] • [[:pt:{{{1|{{FULLPAGENAME}}}}}|Português]] • [[:pt-br:{{{1|{{FULLPAGENAME}}}}}|Português do Brasil]] • [[:ru:{{{1|{{FULLPAGENAME}}}}}|Русский]] • [[:tr:{{{1|{{FULLPAGENAME}}}}}|Türkçe]] • [[:zh:{{{1|{{FULLPAGENAME}}}}}|中文]]
+<hr>-->
+<span class="warning">'''Tous changements apportés au fichiers CSS et Javascript doivent être conforme aux [[:gphelp:Wiki design rules|règles de design du wiki]].'''</span>
+<hr>
+'''Note :''' après avoir enregistré vos modifications, il se peut que vous deviez forcer le rechargement complet du cache de votre navigateur pour voir les changements.
+* '''Firefox / Safari :''' Maintenez la touche ''Maj'' (''Shift'') en cliquant sur le bouton ''Actualiser'' ou pressez ''Ctrl-F5'' ou ''Ctrl-R'' (''⌘-R'' sur un Mac) ;
+* '''Google Chrome :''' Appuyez sur ''Ctrl-Maj-R'' (''⌘-Shift-R'' sur un Mac) ;
+* '''Internet Explorer :''' Maintenez la touche ''Ctrl'' en cliquant sur le bouton ''Actualiser'' ou pressez ''Ctrl-F5'' ;
+* '''Opera :''' Videz le cache dans ''Outils → Préférences''.

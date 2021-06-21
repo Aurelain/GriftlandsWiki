@@ -1,0 +1,11 @@
+{{Card
+|cardtype = Maneuver
+|decktype = Battle
+|expreq = 7
+|rarity = Common
+|upgrade1 = Stone Chamber: Gain 6 '''Defense'''
+|upgrade2 = Rival's Chamber: gain 3 '''Combo'''
+|character = Sal}}
+{{Quote|Murder Bay Boxing has come a long way. You could almost say the fighters actually know what they are doing.}}
+
+'''Chamber''' is a 1-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "Gain 4 '''Defense'''. At the start of your next turn gain 2 '''Combo'''.

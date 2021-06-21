@@ -1,0 +1,17 @@
+
+
+{{Infobox
+| name     = Brale
+| image    = Brale.jpg
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Cult of Hesh - Zealot
+| ID       =
+}}{{quote|Brale gulps brine and breathes salt like he's spent one too many cycles dunking for Hesh.|Brale's Compendium Description}}'''Brale''' is a character in {{Gamename}} and a [[Cult of Hesh]] Zealot.
+
+== Death Loot ==
+If '''Brale''' is killed in combat, he will drop [[Lumin darts|Lumin Darts]].
+[[File:Lumin Darts.png|none|thumb]]
+[[Category:Characters]]

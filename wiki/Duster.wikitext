@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = None
+|upgradeable = Yes
+|expreq = 8
+|upgrade1 = Enhanced Duster
+|upgrade2 = Boosted Duster}}
+{{Quote|Spiked knuckles are a common addition to the local street toughs, flashy and effective.}}
+
+'''Duster''' is a 0-cost Common '''Attack''' card for [[Sal]]. It deals 2 base damage. It has the effect "Discard 2 cards. Attack a random target."
+
+==Upgrades==
+After accruing 8 experience '''Duster''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Enhanced Duster.png|150px]]
+|[[File:Boosted Duster.png|150px]]
+|-
+!style="width:155px"|Discard 3 cards. Attack a random target.
+!style="width:155px"|Discard 2 cards. Attack a random target.
+|}

@@ -1,0 +1,13 @@
+'''Flead Larvae's''' are enemies spawned by the [[Flead Queen]]. They are important to the fight as they drop a [[Tiny Stinger]] on death, which can remove all the armor the Flead Queen has.
+
+<br />
+
+== Fighting stats and abilities ==
+'''Flead Larvae''' have 10-15 health points when they spawn for the Flead Queen's "spawn Larvae" attack. They come in threes and can have a maximum of 6 on the field at any time.
+
+* Defend: '''Flead Larvae''' will gain around 6 defense
+* Sting: they will hit one of the player's allies or the player, inflicting small damage and applying wound.
+
+== Battle strategy ==
+'''Flead Larvae''' are special as they give their death drop immediately, that being the Tiny Stinger, which is important to deal with the Flead queen's high durability as Tiny Stingers will deplete the queen of all her defense. Dealing with these larvae should be prioritized to kill due to their wound stacking ability and how they can accumulate numbers to overwhelm the player and their team. Getting the reinforcements helps greatly in dispatching the Larvae as well as dealing damage to the queen.
+[[Category:Enemies]]

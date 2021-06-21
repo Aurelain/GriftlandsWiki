@@ -1,0 +1,10 @@
+{{doc/start}}
+This is a meta-template for constructing standardized copyright/license notices. It automatically switches between a light-colored copyright symbol on dark-themed wikis and a dark-colored image for light-themed wikis. You can also change this template by specifying the image parameter and using a custom image rather than the <code><nowiki><div class="copyright-icon"></div></nowiki></code>.
+
+==Usage==
+<pre>
+{{copyrightbox
+|text = Example text.
+}}
+</pre>
+{{doc/end}}

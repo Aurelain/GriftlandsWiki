@@ -1,0 +1,22 @@
+{{Card
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Cash Out
+|upgrade2 = Enduring Cash Out}}
+{{Quote|No thanks, it's getting late and I best be going.}}
+'''Cash Out''' is a 1-cost Rare '''Diplomacy''' card for [[Rook]]. It deals 2 base damage, then '''Expends'''. The card gains 1 damage every time you '''Gamble''' while the card is in your hand.
+
+==Upgrades==
+After accruing 7 experience '''Cash Out''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Cash Out.png|150px]]
+|[[File:Enduring Cash Out.png|150px]]
+|-
+!Deal 4 base damage
+!Remove [[Expend]]. Reset bonus damage.
+|}

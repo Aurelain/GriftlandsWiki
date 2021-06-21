@@ -1,0 +1,21 @@
+{{stub}}
+'''Locations''' in [[Griftlands]] are mostly not final, due to the development state of the game. As of the Alpha 406931, two major locations are used to tell the stories of Sal and Rook: '''Murder Bay''' and '''Grout Bog'''. Smith's story will take place in '''Pearl-on-Foam'''.
+
+==List of locations==
+
+'''Campaign locations:'''
+*[[Murder Bay]] — Found on the East coast of Havaria and borders the Western shore of the Heshian Sea. Sal's campaign takes place here.
+*[[Grout Bog]] — Found West(?) of Murder Bay and covers most of the Central portion of Havaria. Rook's campaign takes place here.
+*[[Pearl-on-Foam]] — Smith's campaign location.
+
+'''Other Locations:'''
+*'''Bread Fields''' — A large plain found somewhere in the Northern region of Havaria.
+*'''Deltree''' — Home of the Deltrean Empire. Located East of Havaria across the Heshian Sea.
+*'''Derricks''' — The Lumin harvesting platforms found off the coast of Havaria, North of Murder Bay.
+*'''Docktown''' — A Havarian city of unknown origin or location.
+*'''Lakespit''' — A Havarian city of unknown origin or location.
+*'''Rentoria''' — An island nation found North of Havaria that's frequently in conflict with Deltree.
+*'''Roaloch''' — A remote archipelago (and biomass) in the Heshian Sea known for being a source of disease and natural remedies.
+*'''Supplicant City''' — An opulent and corrupt city on the North coast of Havaria ruled by the Cult of Hesh.
+
+[[Category:Game]]

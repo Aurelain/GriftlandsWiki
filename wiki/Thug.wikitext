@@ -1,0 +1,61 @@
+{{stub}}
+
+'''Thug''' is a [[Spree]] Title. These Spree are the common bandits of Havaria. The best of them can become '''Promoted Thugs''', who wield claws rather than knuckles.
+
+== Negotiation ==
+
+== Battle ==
+In battle, the Thug's defining move is '''Rev Up''', which gives them Power.
+
+== Members ==
+{| class="wikitable"
+|+
+Spree Thugs
+!Name
+!Species
+!Description
+!Appearance
+|-
+|Bax
+| rowspan="2" |Human
+|Bax is dangerously predictable: he'll sell you out for a hit of slurry, then break your heart when he feels bad about it.
+|[[File:Bax.jpg|250px]]
+|-
+|Lux
+|The only thing more menacing than Lux's reputation is her laugh.
+|[[File:Lux.jpg|250px]]
+|-
+|Prekt
+|Kra'deshi
+|The scars on Prekt's hands suggest Prekt's no stranger to a stacked fight.
+|[[File:Prekt.jpg|250px]]
+|-
+|Goni
+| rowspan="2" |Shroke
+|If you had to get robbed, it wouldn't be too bad to get robbed by a face like Goni's.
+|[[File:Goni.jpg|250px]]
+|-
+|Tiq
+|When push comes to shove, Tiq pushes and shoves. And punches. And maybe even bites.
+|[[File:Tiq.jpg|250px]]
+|}
+
+== Promoted Thugs ==
+Some Thugs can be Promoted, veterans of their trade. Rather than knuckles, these Thugs utilize bone claws, and take a more martial stance in combat.
+{| class="wikitable"
+|+
+Promoted Thugs
+!Name
+!Species
+!Description
+!Appearance
+|-
+|Tee
+| rowspan="2" |Shroke
+|It doesn't take much take much to be a cut above the rest in the Spree—just a good knife and a long reach. Tee has both.
+|[[File:Tee.jpg|250px]]
+|-
+|
+|
+|
+|}

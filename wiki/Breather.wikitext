@@ -1,0 +1,14 @@
+{{Stub}}
+{{Card
+|rarity = Uncommon
+|cardtype = Maneuver
+|decktype = Battle
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Pale Breather: spend 2 Combo
+|upgrade2 = Delayed Breather: Gain 2 Actions next turn.
+|character = Sal}}
+{{Quote|Take a second, organize your thoughts, and plan your next move.}}
+
+'''Breather''' is a uncommon '''Maneuver''' card for [[Sal]] it costs 0 Actions and has the effect: "Spend 3 Combo: Gain 1 Action".
+This card is part of the [[Card Sets|Card Set]] [[Big Draw and The Fury]].

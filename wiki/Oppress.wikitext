@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Common
+|cardtype = Hostility
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Twisted Oppress
+|upgrade2 = Tall Oppress}}
+{{Quote|You haven't made a decent point in hours! Just give up already.}}
+
+'''Oppress''' is a 1-cost Common '''Hostility''' card for [[Sal]]. It deals 3-4 base damage. If this destroys an argument, you gain 1 '''Dominance'''.
+
+==Upgrades==
+After accruing 9 experience '''Oppress''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Twisted Oppress.png|150px]]
+|[[File:Tall Oppress.png|150px]]
+|-
+!Gain 2 [[Dominance]]
+!
+|-
+|}

@@ -1,0 +1,3 @@
+{{doc/start}}
+This is a general-purpose template, to be placed in any article that exists to help readers find other articles with the same or similar names. This concept is called ''[[Wikipedia:Wikipedia:Disambiguation|disambiguation]]'' and is used with many common words. This template automatically adds articles to the [[:Category:Disambiguations]].
+{{doc/end}}

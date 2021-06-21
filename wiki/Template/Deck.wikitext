@@ -1,0 +1,8 @@
+{{#switch: {{{1}}}
+|Battle = [[File:Battle icon.png|24px|link=]]&nbsp;<span style="color:#ff9a5a">Battle</span>|Negotiation = [[File:Negotiation icon.png|24px|link=]]&nbsp;<span style="color:#9c8eff">Negotiation</span>}}
+<noinclude><br>
+==Use==
+*<nowiki>{{Deck|Battle}}</nowiki> — {{Deck|Battle}}
+*<nowiki>{{Deck|Negotiation}}</nowiki> — {{Deck|Negotiation}}
+
+[[Category:Icon templates|{{PAGENAME}}]]</noinclude>

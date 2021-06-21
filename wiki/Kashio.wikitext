@@ -1,0 +1,110 @@
+{{stub}}
+
+{{Infobox
+| name     = Kashio T'jarek
+| image    = Kashio Mugshot.png
+| race     = Shroke
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Spark Barons
+| ID       =
+}}
+
+'''Kashio T'jarak''' is a [[Spark Barons|Spark Baron]] and criminal kingpin living on [[Havaria]]. Formerly an indentured laborer, she is now the biggest debt-broker in Murder Bay. She formerly sold Sal into servitude to the Derricks when Sal was a child.
+
+=== Background ===
+Kashio was once a Derrick laborer. It is revealed during Rook's story that Kashio discovered AutoMech technology while excavating in the [[Grout Bog]], and sold the technology to the [[Spark Barons]], buying off her debt and suddenly making her one of the most powerful individuals on Havaria. Due to being a Spark Baron and her profession as a debt-broker she has many enemies in Havaria, earning her a hefty bounty and one which Sal hopes to capitalize on.
+
+=== Combat ===
+On the final day of Sal's campaign, 2 special grafts and 3 special items will be randomly selected from a pool of 6 grafts and 5 items. The player has the opportunity to get up to 2 item/graft items (in some runs, if you have conversation deck whis heavy mass damage, you have chance to take all 5 item/graft) before their final showdown with Kashio. No matter what the player pick, if any, Kashio will take the rest and use it in battle as her combat conditions. Here is the list of all items and grafts, and how they function in Sal or Kashio's possession.
+
+
+Grafts:
+
+1. Afterburner Gloves
+
+SAL: All attacks apply 1 BURN.
+
+KAS: All attacks apply 4 BURN if not mitigated.
+
+
+2. Blast Chamber
+
+SAL: +1 action every turn.
+
+KAS: +1 attack every turn.
+
+
+3. Macro Rasp
+
+SAL: +1 damage when apply BLEED.
+
+KAS: All attacks apply 2 BLEED if not mitigated.
+
+
+4. Hammerthyst Ring
+
+SAL: At the end of your turn, gain 2 DEFEND for every card in your hand.
+
+KAS: At the start of your turn, gain {10, 15, 20} DEFEND.
+
+
+5. Sage Conversion
+
+SAL: At the start of combat, gain health = your current resolve.
+
+KAS: At the start of combat, gain 80 health.
+
+
+6. Dermal Cast
+
+SAL: At the start of your turn, heal 2 health.
+
+KAS: Whenever you gains a debuff, heals 5 health.
+
+
+Items:
+
+1. Hologram Projection Belt
+
+SAL: Play your next card twice.
+
+KAS: Summon up to 3 copies of herself every turn. The holograms won't attack even though it shows their damage above the player's team, they're there simply to distract the player of hitting the real Kashio. Holograms disappear if getting hit by a damage card or when the real Kashio gets hit.
+
+
+2. Suitcase Grenades
+
+SAL: Hit all.
+
+KAS: +1 attack every turn, hit all.
+
+
+3. EH1076 Discharge Pistol
+
+SAL: Pierce damage, apply 2 wound.
+
+KAS: At the start of every 2nd turn, gain {4, 6, 8} RIPOSTE.
+
+
+4. Rentorian Force Glaive
+
+SAL: Damage, apply 8 BLEED.
+
+KAS: Visually change weapon, +damage. 
+
+(Note: remove +wound attack & team attack, add +expose attack)
+
+
+5. Support Beacon
+
+SAL: summon 1 combat drone.
+
+KAS: summon 1 Spark Baron automech.
+
+(Note: If left alive, automech surrenders when Kashio surrenders/dies, like Joel.)
+
+
+''Note: All { ... } = scaled from boss difficulty due to prestige level.''
+
+[[Category:Characters]][[Category:Enemies]][[Category:Spark Barons]][[Category:Shroke]]

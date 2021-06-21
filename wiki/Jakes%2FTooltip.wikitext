@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Jakes</center>
+  |body=<center>A collection of free laborers who work the docks and roads, controlling tariffs.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

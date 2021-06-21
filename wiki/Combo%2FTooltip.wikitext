@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Combo</center>
+  |body=<center>Combo points are accumulated until they are spent by a '''Finisher'''. Lose half of your '''Combo''' whenever you take damage.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

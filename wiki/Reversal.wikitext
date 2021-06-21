@@ -1,0 +1,28 @@
+{{Card Infobox|cardtype=Attack|decktype=Battle|expreq=5|name=Reversal|set=Common|upgrade1=Boosted Reversal: 6-9 damage|upgrade2=Focused Reversal: '''Finisher''': Gain 1 '''Counter''' per '''Combo''' +2.||image=Reversal.png|cost=1}}
+
+'''Reversal''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 4-6 base damage. It has the effect "'''Finisher''': Gain 1 '''Counter''' per '''Combo'''.".
+
+== Upgrades ==
+After accruing 5 experience '''Reversal''' is able to be upgraded.
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|'''Boosted Reversal'''
+|1
+|6-9
+|'''Finisher''': Gain 1 '''Counter''' per '''Combo'''.
+|-
+|'''Focused Reversal'''
+|1
+|4-6
+|'''Finisher''': Gain 1 '''Counter''' per '''Combo''' +2.
+|}
+<br />[[Category:All cards]]
+[[Category:Battle cards]]
+[[Category:Sal cards]]
+[[Category:Attack cards]]
+[[Category:Common cards]]

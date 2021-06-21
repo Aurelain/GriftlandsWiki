@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Admiralty</center>
+  |body=<center>The Deltrean military force occupying Murder Bay.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

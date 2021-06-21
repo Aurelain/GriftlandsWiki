@@ -1,0 +1,28 @@
+{{stub}}
+
+{{Infobox
+| name     = Fssh Menewene
+| image    = Fssh Mugshot.png
+| race     = Kra'deshi
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Jakes
+| ID       =
+}}
+
+{{quote|Welcome back, Sal. Let's not waste much time, huh? You got work to do, and I got things to help you do it.|Fssh}}
+
+'''Fssh Menewene''' is an old friend of [[Sal]] and is the owner of the [[Grog n' Dog]]. She is a former bounty hunter and was responsible for training Sal on how to use her daggers when Sal was a child. 
+
+== Services ==
+
+*Fssh offers a random set of 3 [[Card#Item Cards|items]] to purchase that changes each day. 
+*She also sells food and alcohol that restores HP and Resolve, respectively.
+*Talking to Fssh allows the player to access Sal's room where [[Sal#Outfits|outfits]] can be changed and pets can be interacted with if owned.
+*If spoken with at the end of the night, the player can choose to sleep in their room which advances the story.
+*Fshh will '''like''' Sal by default, reducing the cost of her items, food and alcohol compared to other merchants. However, it's currently impossible to reach '''loved''' status with her so other merchants can potentially offer items at a better discount.
+
+[[Category:Characters]]
+[[Category:Merchants]]
+[[Category:Kra'deshi]]

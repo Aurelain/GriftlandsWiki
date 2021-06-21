@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Hesh of the Dark</center>
+  |body=<center>The Cult's god of the Abyss, believed to live deep under the ocean.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

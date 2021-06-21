@@ -1,0 +1,24 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Bleed]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Tall Kra'deshi Barbstorm
+|upgrade2 = Boosted Kra'deshi Barbstorm}}
+{{Quote|Kra'deshi tend to fight with chaotically bladed weapons, relying on their healing factor to take care of superficial lacerations.}}
+
+'''Kra'deshi Barbstorm''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It has the effect "Apply 2 '''Bleed'''. Discard this card: Apply 2 '''Bleed''' to all enemies and put this card back in your hand."
+
+==Upgrades==
+After accruing 9 experience '''Kra'deshi Barbstorm''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Tall Kra'deshi Barbstorm.png|150px]]
+|[[File:Boosted Kra'deshi Barbstorm.png|150px]]
+|-
+!Applies 4 Bleed.
+!Applies 3 Bleed<br>when discarded.
+|}

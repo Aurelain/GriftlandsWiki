@@ -1,0 +1,8 @@
+The Setup and The Crusher is the first [[Card Sets|Card Set]] unlocked with [[Sal]].
+
+It contains the Negotiation Cards [[Rapid Fire]], [[Setup]] and [[Elucidate]]. Rapid Fire and Setup are both based on [[Influence]], while Elucidate may be good with Influence, but doesn't mention it.
+
+It contains the Battle Cards [[Ghost Strike]], [[Burst]] and [[Cross]].  Burst and Cross both deal 3-6 damage, while causing effects equal to damage dealt. Ghost Strike has synergy with these two cards, as it makes all cards deal maximum damage for this turn, when it is discarded.
+[[Category:Card sets]]
+
+Unlocking this Card Set also unlocks the [[Hunter Outfit]] for [[Sal]].

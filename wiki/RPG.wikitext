@@ -1,0 +1,7 @@
+{{stub}}
+{{Card
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Destroy]]
+|upgradeable = No}}
+'''RPG''' is a card that can be found from, merchant, Rise radical death loot, and War machine boon.

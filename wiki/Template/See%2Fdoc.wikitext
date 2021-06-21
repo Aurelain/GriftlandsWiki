@@ -1,0 +1,10 @@
+{{doc/start}}
+This template is used after the heading of the summary, to link to the sub-article that has been (or will be) summarised. It uses {{tl|hatnote}}.
+
+==Usage==
+{{Tlx|See|Article 1}}
+
+You may also include additional links, up to 5 in total:
+
+{{Tlx|See|Article 1|Article 2|...|Article 5}}
+{{doc/end}}

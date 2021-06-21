@@ -1,0 +1,85 @@
+Events are random encounters that happen on the overworld map in specific times of a run. They often have multiple elements of choice that drastically change the outcome of the encounter and can even be game changing in some situations.
+
+
+== Event Randomization ==
+
+While at first these encounters may seem random they actually only occur at specific points of a run, these times can also vary slightly from run to run but remain consistent throughout all runs. All events are picked randomly from a the list of events assigned to that grifter and will scale in difficulty to match the current day the run is on however the rewards never scale and will stay the same through the entire run.
+
+
+== Event Distribution ==
+<nowiki>*</nowiki>More data will be needed to complete this section*
+
+
+'''<big>Sal</big>''' 
+
+- (Currently unknown)
+
+
+
+'''<big>Rook</big>'''
+
+-(Currently unknown)
+
+
+
+'''<big>Smith</big>'''
+
+'''Day 1:'''
+
+- The first Smith event will always happen before entering '''The Hideaway''' or after accepting '''Sweet Moreef's''' day 1 '''[[Quests|Quest.]]'''
+
+-(Currently unknown)
+<br />
+
+== '''All currently known events''' ==
+
+
+'''<big>Sal's Events</big>'''
+
+[[Krog Approaches You, Wearing a Smile]]
+
+[[Shel's Event]]
+
+[[Injured Person]]
+
+[[As You're Passing by a Bubbling Tar Pit]]
+
+Admiralty Toll Road
+
+[[You're Stopped on the Road by an Admiralty Patrol]]
+
+[[Someone Dressed an Awful Lot like a Shopkeeper]]
+
+[[A Spree Bandit Steps out Onto the Path]]
+
+[[A Mysterious Figure Approaches You]]
+
+[[Rejecting the indifference of Hesh]]
+
+[[You Come Across a Lone Merchant]]
+
+[[Sitting Conspicuously by the Side of the Road]]
+
+[[This Part of the Road is Usually Pretty Quiet]]
+
+[[You're Stopped on the Road by a Civilian Bartender]]
+
+[[An Injured Admiralty Clerk Stumbles Towards You]]
+
+[[You are confronted by a scavenger (Plundak)]]
+
+[[You find a Jake sitting by the side of the road.]]
+
+Wild Animal Attack
+
+Vroc for sale
+
+Rook's Event
+
+'''<big>Rook's Events</big>'''
+
+
+
+
+
+'''<big>Smith's Events</big>'''

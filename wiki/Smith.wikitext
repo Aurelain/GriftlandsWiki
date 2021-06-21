@@ -1,0 +1,79 @@
+{{Infobox
+| name     = Smith
+| image    = Smith Mugshot.png
+| race     = Kra'deshi
+| location = Unknown
+| source   = 
+| reward   = 
+| related  = 
+| ID       =
+}}
+
+<!--{{Quote|Insert flavor text|Smith}}-->
+
+'''Smith''' is the 3rd playable character in '''Griftlands'''. He is a Kra'deshi, described as being a "colossal walking disaster".
+
+== Background ==
+
+=== History ===
+Smith is part of the Banquods, a rich Kra'deshi dynasty. He was considered the least valuable member of the family, simply going to bars and causing ruckuses. His parents usually got him out of any trouble, as they did not want their name to be associated with such activities.
+
+While Smith later departed from home to travel the world, his siblings became more successful. The youngest brother Theroux joined a merchant's guild, Mullifee became a high-ranker in the Admiralty and Vixmalli became a Cardinal for the Cult of Hesh.
+
+One day, his parents were killed in the Great Beaching while mudbathing. The Beaching was popular with many now visiting pilgrims, who also took interest in Smith's parents. It was among these pious travelers that Smith returned to his family home upon hearing news of his parents' death.
+
+Mullifee invited Smith to their parents' funeral, but as it turns out, the parents were not the only ones resentful of Smith. While he put up his best fight, Smith was beaten and tossed out by Mullifee's Admiralty goons.
+
+=== Other ===
+
+* He was childhood "friends" with [[Sweet Moreef]].
+* Smith is named after his great aunt.
+* Smith knows of the Oolowano dynasty; he used to beat up [[Foolo]].
+
+== The Inheritance ==
+Smith's Story begins after he is tossed out by Admiralty goons under the control of Mullifee.
+
+== Combat ==
+Smith carries around an extendable hammer and a near-unlimited supply of liquor. 
+
+After playing cards with "Drink", empty bottle card(s) will appear somewhere in Smith's draw pile for the duration of the combat. These bottles is expended when played to draw a card or when used as resources by other cards.
+
+Many of Smith cards are self-damaging. Unblocked damage Smith accumulates during his turn as 'Recoverable Health' which he can Alleviate for the specified amount.
+
+As a Kra'deshi, Smith has minor regeneration represented by his 'Moxie'. Every time Smith takes damage '''on his turn''' (from playing cards with self damage for example), his Moxie increases by 1-2. At the end of his turn, Moxie activates, healing himself by its amount and lowered by half, down to a minimum of 1.
+
+Smith can inflict Trauma. Enemies with Trauma gain further Trauma stacks on hit. 10 Trauma stacks are converted to Traumatized status which causes one attack (one card with multiple hits is considered one attack but only one friendly NPC hit is considered one attack) to deal double damage.
+
+Smith also has a Threshold sub-theme, similar to Rook, where cards with damage range having extra effects when dealing damage over the stated Threshhold.
+
+His starting deck consists of the following cards:
+* 2x [[Bash]]
+* 3x [[Toughen Up]]
+* 2x [[Dropkick]]
+* 1x [[Smith's Flask]]
+* 1x [[Smith's Arsenal]]
+
+== Negotiations ==
+Coming from a renowned Kra'deshi family, Smith has low resolve (base 24) but strong connections to highly reputable people.
+
+He has the innate ability to deal damage whenever arguments are created, whether his or his opponent's.
+
+Smith's cards can work around gaining stacks of Renown argument, which not only deal damage to a random enemy argument at the end of his turn but also an alternative resources for his other cards and abilities.
+
+Smith also has cards revolving around dealing damage to or destroying his own arguments with interesting effects for doing so.
+
+His starting deck consists of the following cards:
+* 2x [[Name Drop]]
+* 3x [[Bully]]
+* 3x [[Bewilder]]
+* 3x [[Brag]]
+* 1x [[Nepotism]]
+
+== Outfits ==
+
+== Card Sets ==
+
+{{stub}}
+[[Category:Heroes]]
+[[Category:Kra'deshi]]
+[[Category:Grifter]]

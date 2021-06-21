@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Uncommon
+|cardtype = Hostility
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Low Blow
+|upgrade2 = Thief's Low Blow}}
+{{Quote|That's gotta hurt.}}
+
+'''Low Blow''' is a 1-cost Uncommon '''Hostility''' card for [[Sal]]. It removes the target argument's '''Composure''' and then deals 3-4 base damage.
+
+==Upgrades==
+After accruing 9 experience '''Low Blow''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Low Blow.png|150px]]
+|[[File:Thief's Low Blow.png|150px]]
+|-
+!
+!Steal target argument's [[Composure]]
+|-
+|}

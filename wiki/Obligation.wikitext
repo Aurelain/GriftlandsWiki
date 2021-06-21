@@ -1,0 +1,29 @@
+{{Card
+|rarity = Uncommon
+|cardtype = Diplomacy
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Obligation
+|upgrade2 = Twisted Obligation
+|character = Rook}}
+'''Obligation''' is a 1-cost '''Diplomacy''' card for [[Rook]]. It has the effect "Prepare a card, gain influence equal to its cost."
+
+== Upgrades ==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Boosted Obligation
+|1
+|NA
+|Prepare a card, gain influence equal to its cost +1
+|-
+|Twisted Obligation
+|1
+|NA
+|Prepare a card, gain Dominance equal to its cost +1
+|}

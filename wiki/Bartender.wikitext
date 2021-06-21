@@ -1,0 +1,45 @@
+{{stub}}
+
+'''Bartender''' is a Title that does not belong to one specific faction. They usually sell food, drink, and sometimes drugs.
+
+== Members ==
+{| class="wikitable"
+|+
+!Name
+!Species
+!Faction
+!Description
+!Appearance
+|-
+|[[Fssh]]
+|Kra'deshi
+|Jakes
+|The owner and proprietor of the Grog n' Dog. She must be running a side angle, because nobody goes to the Grog for the food.
+|[[File:Fssh Mugshot.png|175px]]
+|-
+|Hebbel
+|Shroke
+|Spree
+|None
+|[[File:Hebbel Mugshot.png|175px]]
+|-
+|Irkrow
+| rowspan="2" |Jarackle
+| rowspan="4" |Civilian
+|A good bartender knows how to fix a drink. The better bartenders know how to fix a fight. Irkrow does both.
+|[[File:Irkrow.jpg|175px]]
+|-
+|Wrux
+|Wrux has never met a paying customer he didn't have the patience for.
+|[[File:Wrux.jpg|175px]]
+|-
+|Rug
+|Kra'deshi
+|Where Rug walks, flavor follows, which is a sad consequence of a seasoning pouch full of bullet holes.
+|
+|-
+|Koqy
+|Shroke
+|The Heshians say good food brings you closer to the divine. Koqy could be a priest.
+|[[File:Koqy.jpg|175px]]
+|}

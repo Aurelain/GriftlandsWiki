@@ -1,0 +1,12 @@
+{{Stub}}
+{{Card
+|character = Smith
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Hammer Throw]], [[Bottle Smash]]
+|upgradeable = Yes
+|expreq = 7}}
+'''Smith's Arsenal''' is a 0-cost Basic Maneuver card for [[Smith]]. It has the effect "Insert '''[[Hammer Throw]]''' or '''[[Bottle Smash]]''' into your hand."
+
+==Upgrades==

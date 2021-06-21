@@ -1,0 +1,25 @@
+<span style="float:right;"><small>''[[MediaWiki:Recentchangestext|View this template]]''</small></span>
+
+{| class="plainlinks" style="background: transparent; margin-left:0.5em; margin-bottom:0.5em;" cellpadding="1" cellspacing="0"
+|-valign="top"
+|align="right"|'''Logs :'''
+|align="left" |[[Special:Newpages|New pages]] - [[Special:Newimages|New files]] - [[Special:Log/delete|Deletions]] - [[Special:Log/move|Moves]] - [[Special:Log/upload|Uploads]] - [[Special:Log/block|Blocks]] - [[Special:Log|more logs...]]
+|-valign="top"
+|align="right"|'''Special pages :'''
+|align="left" |[[Special:Wantedpages|Wanted pages]] - [[Special:Longpages|Long pages]] - [[Special:Uncategorizedimages|Uncategorized images]] - [[Special:Uncategorizedpages|Uncategorized pages]] - [[Special:Specialpages|more special pages...]]
+|}
+
+
+<!--[[bg:Специални:Последни_промени]]
+[[de:Spezial:Letzte_Änderungen]]
+[[el:Ειδικό:ΠρόσφατεςΑλλαγές]]
+[[es:Especial:CambiosRecientes]]
+[[fr:Spécial:Modifications_récentes]]
+[[it:Speciale:UltimeModifiche]]
+[[ja:特別:最近の更新]]
+[[pl:Specjalna:Ostatnie_zmiany]]
+[[pt:Especial:Mudanças_recentes]]
+[[pt-br:Especial:Mudanças_recentes]]
+[[ru:Служебная:Свежие_правки]]
+[[tr:Özel:SonDeğişiklikler]]
+[[zh:Special:最近更改]]-->

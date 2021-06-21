@@ -1,0 +1,26 @@
+{{stub}}
+
+{{Infobox
+| name     = Lellyn Fellemo
+| image    = Fellemo Mugshot.png
+| race     = Kra'deshi
+| location = Havaria - Grout Bog
+| source   = 
+| reward   = 
+| related  = Spark Barons
+| ID       =
+}}
+
+{{quote|Rook, you old Scoundrel! Figured you'd be able to move faster than that, even with that bum leg of yours. Let's get you to work, so you can see what I'm up against.|Fellemo}}
+
+'''Lellyn Fellemo''' is the [[Spark Barons]] Regional Manager overseeing the [[Grout Bog]] excavations. A former [[Admiralty]] soldier and colleague of Rook, Fellemo sends Rook a hastily encoded summons to come seek him for immediate work.
+
+=== Background ===
+Fellemo formerly served in the Admiralty as a soldier. He is an expert marksman, even claiming he could out shoot Rook, but is a poor "lateral thinker" unable to piece together simple intelligence orders. Thus, he retired from the Admiralty at some point and eventually climbed the ranks as a Spark Baron, overseeing the workforce in the Grout Bog. A typical "shoot first ask questions later" style soldier, his heavy handed dealings with the laborers had, until recently, treated the operations in the bog fairly well. He trusts Rook to do any work assigned to him, but is quite ignorant of Rook's activities or methods otherwise. 
+
+=== Combat ===
+Fellemo fights with several Spark Baron reinforcements, hiding behind his allies for support. Like Rook, Fellemo favors energy pistols as his primary weapon and attack method.
+
+
+[[Category:Characters]]
+[[Category: Kra'deshi]]

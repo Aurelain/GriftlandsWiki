@@ -1,0 +1,24 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Defense]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Surge
+|upgrade2 = Stone Surge}}
+{{Quote|I don't know what to tell you, I hit them, like, six times...}}
+
+'''Surge''' is a 1-cost Uncommon '''Maneuver''' card for [[Sal]]. It has the effect "Gain 2 '''Defense'''. Increase by 2 for each card played this turn."
+
+==Upgrades==
+After accruing 9 experience '''Concentrate''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Surge.png|150px]]
+|[[File:Stone Surge.png|150px]]
+|-
+!Increased base Defense.
+!Increases growth amount.
+|}

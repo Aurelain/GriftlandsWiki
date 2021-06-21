@@ -1,0 +1,11 @@
+'''Outfits''' are changeable cosmetics applied to your hero either before starting your run or during your current run by accessing your room. They have no effect on gameplay and are unlocked alongside [[Card Sets]] as you play. You can still equip an Outfit, even if you disabled the Card Set it was unlocked with.
+
+==Sal's Outfits==
+*[[Sal#Outfits|Sal Outfits]]
+==Rook's Outfits==
+*[[Rook#Outfits|Rook Outfits]]
+==Smith's Outfit==
+*[[Smith#Outfits|Smith Outfits]]
+
+
+[[Category:Game]]

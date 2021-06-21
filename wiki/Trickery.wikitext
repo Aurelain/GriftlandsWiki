@@ -1,0 +1,53 @@
+{{Card
+|character = Rook
+|cardtype = Manipulate
+|decktype = Negotiation
+|expreq = 9
+|rarity = Basic
+|upgrade1 = Promoted Trickery: Improvise a card from a pool of upgraded special cards.
+|upgrade2 = Wide Trickery: '''Improvise+''' a card from a pool of special cards.}}
+{{Quote|I can't help but think something fishy is going on here.}}
+
+'''Trickery''' is a 1-cost Basic '''Manipulation''' card for [[Rook]]. It improvises a card from a pool of special cards. As a base card '''Trickery''' is always part of the available card pool for [[Rook]].
+
+==Upgrades==
+After accruing 9 experience '''Trickery''' is able to be upgraded.
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Effect
+|-
+|Promoted Trickery
+|1
+|'''Improvise''' a card from a pool of upgraded special cards.
+|-
+|Wide Trickery
+|1
+|'''Improvise+''' a card from a pool of special cards.
+|}
+
+==Special Cards==
+'''Trickery''' has several special cards in its pool, those being:
+* [[Bank]]: 0-cost; Manipulate; Give you currently '''Prepared''' card +2 bonus damage until the end of this turn;  '''Expend'''.
+* [[Shifty]]: 0-cost; Manipulate; '''Prepare''' a card;  '''Expend'''.
+* [[Flipside]]: 0-cost; Manipulate; Reverse your lucky coin; '''Expend'''.
+* [[Set]]: 0-cost; Manipulate; Choose: Rig 1 '''Heads''' or 1 '''Snails'''; '''Expend'''.
+* [[Options]]: 0-cost; Manipulate; Draw 2 cards;  '''Expend'''.
+* [[Gruff]]: 0-cost; Hostility; '''Incept''' 1 '''Flustered'''; '''Expend'''.
+* [[Carry Over]]: 0-cost; Manipulate; Gain 1 bonus action next turn; '''Expend'''.
+* [[Aloof]]: 0-cost; Manipulate; Apply 3 '''Composure'''; '''Expend'''.
+* [[Sleight]]: 0-cost; Manipulate; Draw a card, Discard a card; '''Expend'''.
+
+== Upgraded Special Cards ==
+'''Promoted Trickery''' draws from a pool of "Boosted" versions of the same cards:
+
+* [[Boosted Bank]]: 0-cost; Manipulate; Give you currently '''Prepared''' card +3 bonus damage until the end of this turn;  '''Expend'''.
+* [[Visionary Shifty]]: 0-cost; Manipulate; Draw a card, then '''Prepare''' a card;  '''Expend'''.
+* [[Twisted Flipside]]: 0-cost; Manipulate; Set the coin; '''Expend'''.
+* [[Boosted Set]]: 0-cost; Manipulate; Choose: Rig 2 '''Heads''' or 2 '''Snails'''; '''Expend'''.
+* [[Boosted Options]]: 0-cost; Manipulate; Draw 3 cards;  '''Expend'''.
+* [[Boosted Gruff]]: 0-cost; Hostility; '''Incept''' 2 '''Flustered'''; '''Expend'''.
+* [[Boosted Carry Over]]: 0-cost; Manipulate; Gain 2 bonus actions next turn; '''Expend'''.
+* [[Boosted Aloof]]: 0-cost; Manipulate; Apply 4 '''Composure'''; '''Expend'''.
+* [[Boosted Sleight]]: 0-cost; Manipulate; Draw two cards, Discard a card; '''Expend'''.

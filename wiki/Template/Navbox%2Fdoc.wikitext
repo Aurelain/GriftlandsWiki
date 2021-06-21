@@ -1,0 +1,84 @@
+{{doc/start}}
+== Usage ==
+Please remove the parameters that are left blank.
+
+<pre style="overflow: auto;">{{Navbox
+| name       = {{subst:PAGENAME}}{{subst:void|Don't change anything on this line. It will change itself when you save.}}
+| title      =
+| listclass  = hlist
+| state      = {{{state|}}}
+
+| above      =
+| image      =
+
+| group1     =
+| list1      =
+
+| group2     =
+| list2      =
+<!-- ... -->
+| group20    =
+| list20     =
+
+| below      =
+}}
+</pre>
+
+== Parameter list ==
+{{Navbox
+| name   = Navbox/doc
+| state  = uncollapsed
+| title  = {{{title}}}
+| above  = {{{above}}}
+| image  = {{{image}}}
+| group1 = {{{group1}}}
+| list1  = {{{list1}}}
+| group2 = {{{group2}}}
+| list2  = {{{list2}}}
+| list3  = {{{list3}}} ''without {{{group3}}}''
+| group4 = {{{group4}}}
+| list4  = {{{list4}}}
+| below  = {{{below}}}
+}}
+
+The navbox uses lowercase parameter names, as shown in the box (''above''). The required ''name'' and ''title'' will create a one-line box if other parameters are omitted.
+
+Notice "group1" (etc.) is optional, as are sections named "above/below".
+{{clear}}
+The basic and most common parameters are as follows (see [[#Parameter descriptions|below]] for the full list):
+
+: <code>name</code> – the name of the template.
+: <code>title</code> – text in the title bar, such as: <nowiki>[[Widget stuff]]</nowiki>.
+: <code>listclass</code> – a CSS class for the list cells, usually <code>hlist</code> for horizontal lists. Alternatively, use bodyclass for the whole box.
+: <code>state</code> – controls when a navbox is expanded or collapsed.
+: <code>titlestyle</code> – a CSS style for the title-bar, such as: <code>background: gray;</code>
+: <code>groupstyle</code> – a CSS style for the group-cells, such as: <code>background: #eee;</code>
+: <code>above</code> – text to appear above the group/list section (could be a list of overall wikilinks).
+: <code>image</code> – an optional right-side image, coded as the whole image. Typically it is purely decorative, so it should be coded as <code><nowiki>[[File:</nowiki><var>XX</var><nowiki>.jpg|80px|link=|alt=]]</nowiki></code>.
+: <code>imageleft</code> – an optional left-side image (code the same as the "image" parameter).
+: <code>group<sub>n</sub></code> – the left-side text before list-n (if group-n omitted, list-n starts at left of box).
+: <code>list<sub>n</sub></code> – text listing wikilinks using a [[wikipedia:Help:Lists|wikilist]] format.
+: <code>below</code> – optional text to appear below the group/list section.
+
+== Parameter descriptions ==
+The following is a complete list of parameters for using {{tl|Navbox}}.  In most cases, the only required parameters are <code>name</code>, <code>title</code>, and <code>list1</code>.
+
+=== Setup parameters ===
+:; ''name''
+:: The name of the template, which is needed for the "V&nbsp;• T&nbsp;• E" ("View&nbsp;• Talk&nbsp;• Edit") links to work properly on all pages where the template is used. You can enter <code><nowiki>{{subst:PAGENAME}}</nowiki></code> for this value as a shortcut.  The name parameter is only mandatory if a <code>title</code> is specified, and the <code>border</code> parameter is not set, and the <code>navbar</code> parameter is not used to disable the navbar.
+:; ''state'' <span style="font-weight:normal;">[<code>autocollapse, collapsed, expanded, plain, off</code>]</span>
+:* Defaults to <code>autocollapse</code>. A navbox with <code>autocollapse</code> will start out collapsed if there are two or more tables on the same page that use other collapsible tables. Otherwise, the navbox will be expanded. For the technically minded, see [[MediaWiki:Hydradark.js]].
+:* If set to <code>collapsed</code>, the navbox will always start out in a collapsed state.
+:* If set to <code>expanded</code>, the navbox will always start out in an expanded state.
+:* If set to <code>plain</code>, the navbox will always be expanded with no [hide] link on the right, and the title will remain centered (by using padding to offset the <small>V&nbsp;• T&nbsp;• E</small> links).
+:* If set to <code>off</code>, the navbox will always be expanded with no [hide] link on the right, but no padding will be used to keep the title centered.  This is for advanced use only; the "plain" option should suffice for most applications where the [show]/[hide] button needs to be hidden.
+: To show the box when standalone (non-included) but then auto-hide contents when in an article, put "expanded" inside <code>&lt;noinclude|&gt;</code>...<code>&lt;/noinclude|&gt;</code> tags. This setting will force the box visible when standalone (even when followed by other boxes), displaying "[hide]", but then it will auto-collapse the box when stacked inside an article:
+:: <code><nowiki>| state =&nbsp;</nowiki></code><code>&lt;noinclude|&gt;</code>expanded<code>&lt;/noinclude|&gt;</code>
+: Often times, editors will want a default initial state for a navbox, which may be overridden in an article. Here is the trick to do this:
+:* In your intermediate template, create a parameter also named "state" as a pass-through like this:
+:: <code><nowiki>| state = {{{state<includeonly>|your_desired_initial_state</includeonly>}}}</nowiki></code>
+:* The <code>&lt;includeonly&gt;</code><code>|</code> will make the template expanded when viewing the template page by itself.
+:; ''navbar''
+:: If set to <code>plain</code>, the <span style="font-size: 88%;">V&nbsp;• T&nbsp;• E</span> links on the left side of the titlebar will not be displayed, and padding will be automatically used to keep the title centered.  Use <code>off</code> to remove the <span style="font-size: 88%;">V&nbsp;• T&nbsp;• E</span> links, but not apply padding (this is for advanced use only; the "plain" option should suffice for most applications where a navbar is not desired). It is highly recommended that one not hide the navbar, in order to make it easier for users to edit the template, and to keep a standard style across pages.
+:; ''border''
+{{doc/end}}

@@ -1,0 +1,37 @@
+Travelling Salesgrifter is a side [[Quests|quest]] in [[Sal|Sal's]] campaign with a focus on [[Battle]] and [[Negotiation]].
+
+== Description ==
+A [[Jakes|Jake]] needs some help making deliveries.
+
+Difficulty: ★☆☆☆☆
+
+== Walkthrough ==
+After accepting the quest, both the [[Jakes|Jake]] and his [[Oshnu|Pack Oshnu]] will join your party. Next you will need to go to the Clearing that will appear on your map. There he will start talking with a [[Spree]] member and fail. You can either help help the Jake and start a negotiation or you can wait and observe without intervening. Successfully convincing the [[Spree]] member to proceed with the deal will make your employer [[Jakes|Jake]] [[Relationships|like]] you. Failing the negotiation will make the [[Jakes|Jake]] [[Relationships|dislike]] you.
+
+
+Then, the next delivery that will be on a Desolate Beach. But it's an ambush: allegedly your employer stole this [[oshnu]]. You can either defend the [[oshnu]] in a battle or scare away the enemy Jakes by intimidating them.
+
+
+After the battle/negotiation, your employer [[Jakes|Jake]] will offer you a last delivery. You can reject it and complete the quest, or accept it and receive additional 50 shills.
+
+
+If you accept the offer, you will go to the next location, where you'll encounter [[Bilebroker|Leesha]] that will warn you about [[Admiralty]]. Unfortunately, a member of the [[Admiralty]] will appear, asking you what you're doing here. You can either:
+
+* Convince them to look the other way (negotiation)
+* Pay a 60 shill bribe
+* Attack them
+
+If you chose one of those actions and were successful, the quest will be completed.<br />
+
+== Rewards ==
+
+* Starting Bonus
+* 55 shills
+*Upgrade Card - Upgrade a negotiation or battle card  <br />
+
+==    Trivia ==
+
+* If Leesha is Dead they will be replaced with either Treena or Ximmon <br />
+
+* If the Pack Oshnu also referred to as Luthie ever dies in battle the Jake who Employed you will hold a small funeral and you will have failed the quest.<br />
+[[Category:Quests]]

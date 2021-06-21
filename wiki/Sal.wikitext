@@ -1,0 +1,82 @@
+{{stub}}
+
+{{Character
+| name     = Sal Fallon
+| image    = Sal Portrait.png
+| race     = Human
+| location = Havaria - Murder Bay
+| faction = Grifters
+| faction2  = Independent - Bounty hunter
+}}
+
+{{quote|A bounty hunter with a chip on her shoulder and a glint in her eye, Sal escapes a life of servitude to claim the ultimate bounty—and get her revenge.|Sal's Compendium Description}}
+
+'''Sal Fallon''' (aka "[[Ik-Derrick]]") is a player character in {{Gamename}}. She is featured as a bounty hunter, who returns after ten years to the crime-ridden continent named [[Havaria]]. She once was sold into [[Derrick]] servitude by the criminal debt-broker [[Kashio]] and had to work as a slave. Sal is charismatic and bold, but a bit impatient. She utilizes twin daggers in combat.
+
+== Background ==
+
+As a child Sal grew up on Havaria, an only child to two laborers. Sal's parents were the leaders of the region's Rise movement, and thus Sal would frequently find herself under the care of [[Fssh]], Bounty Hunter and close friend to Sal's parents. Fssh spends time between her hunts with Sal as a mentor training her to fight. Eventually, Sal catches the eye of former laborer turned Spark Baron, [[Kashio]], and ends up under her care to be trained as a Bounty Hunter. However, Kashio eventually discovers a rare cache of Vagrant tech and suddenly finds herself in a highly influential position as a Spark Baron. This eventually leads to her becoming enemies with Sal's parents, and she betrays the family, murdering Sal's parents and selling Sal to the Lumin Derricks as a slave. Sal, stripped from her home and family, spends nearly a decade working off her slave debt through bribery and manipulation. She seeks out Fssh, who has since retired from being a Bounty Hunter and has opened a successful, if not dubious establishment in [[Murder Bay]] to seek help in confronting Kashio, who has since become the region's most powerful arms dealer and debt-broker. Sal now hunts Kashio to exact revenge and to collect the hefty bounty on her head.
+
+== Hunting Kashio ==
+In Sal's story, she returns after gaining her freedom through bounty hunting. Her first stop back in Havaria is the Grog n' Dog, in Murder Bay. There, she reunites with Fssh, her old mentor.
+== Combat ==
+
+Sal fights tooth and nail alongside her trusty dual daggers. Her unique deck mechanics are called '''Combo''' and '''Finisher''' and involves playing cards sequentially in order to build combo, then spending some or all of it with a finisher for large payouts in damage. Most of her other cards revolve around bleed and counter, favoring either an aggressive combo deck or defensive deck where statuses and counter attacks are stacked against enemies.
+
+Her starting deck consists of the following cards:
+*1x [[Sal's Daggers]]
+*4x [[Feint]]
+*3x [[Stab]]
+*2x [[Elbow Strike]]
+*1x [[Fight Dirty]]
+
+== Negotiations ==
+
+Sal's negotiations revolve around building large amounts of '''Influence''' or '''Dominance''' in order to boost her Diplomacy and Hostility cards. Sal's core argument gains +1 composure at the start of every turn, and her Manipulation cards have decent amounts of composure allowing her to stall negotiations fairly well until her damage can be built up.
+
+Her starting deck consists of the following cards:
+
+* 1x [[Sal's Instincts]]
+*3x [[Deflection]]
+*3x [[Fast Talk]]
+*2x [[Threaten]]
+*1x [[Quick Thinking]]
+
+=== Sal's Savvy ===
+'''Sal's Savvy''' is Sal's core argument. It has "At the beginning of each turn, gain 1 [[Composure]]".
+
+== Outfits ==
+
+<gallery>
+File:Sal outfit Bounty Hunter.png|Bounty Hunter
+File:Sal outfit Professional.png|Professional
+File:Sal outfit Hunter.png|Hunter
+File:Sal outfit Infiltrator.png|Infiltrator
+</gallery>
+:
+
+== Card Sets ==
+
+Sal has 10 unlock-able card sets. Each card set contains 3 negotiation and 3 battle cards.
+
+*[[The Setup and The Crusher]]
+*[[Evoke and Bloody Mess]]
+*[[Big Draw and The Fury]]
+*[[Incept and Overwhelm]]
+*[[Action and Practice]]
+*[[Expend and Reflexes]]
+*[[Influence and Discarded]]
+*[[Aggression and Options]]
+*[[Arguments and Bar Fights]]
+*[[Distraction and Masters]]
+
+== Trivia ==
+
+* If Sal rescues a wild [[Yote]] before meeting Phroluk, she'll mention she's a "Crayote" person.
+* Fssh tells Sal she needs to re-teach her how to throw a punch after seeing her fight [[Sparky]] or [[Jeol]] and she'll hurt herself if she doesn't change her form. This interaction elaborates on Sal's training with Fssh as a child and is likely referring to [[Over Extension]].
+*Sal's Daggers are called Dag and Gurr, respectively. This is found on her Sal's Daggers card and its upgrade, Sal's Combo Daggers.
+**'This one's called Dag. The other one's called Gurr. Yeah? Well I don't like '''your''' name either, pal.'
+
+[[Category:Heroes]]
+[[Category:Human]]
+[[Category:Grifter]]

@@ -1,0 +1,14 @@
+<includeonly>{| style="background:transparent"
+|-
+{{ #if: {{{4|}}} | {{!}} {{ #if: {{{2|}}} | rowspan="2" {{!}} }} [[File:{{{4}}}|64px]] }}
+| style="color: #57fffb; font-size: 3.3em; font-family: 'Times New Roman',serif; font-weight: bold; padding: 4px 2px 2px; width: 0.5em; vertical-align: top;" | “
+| ''{{{1}}}''
+| style="color: #57fffb; font-size: 3.3em; font-family: 'Times New Roman',serif; font-weight: bold; padding: 4px 2px 2px; width: 0.5em; vertical-align: bottom;" | „
+{{#if: {{{2|}}} | 
+{{!}}-
+{{!}} <!-- empty cell -->
+{{!}} style="text-align: right;" {{!}} <small>~ '''{{{2}}}{{ #if: {{{3|}}} | &nbsp;on {{{3}}}}}'''</small>
+{{!}} <!-- empty cell to prevent potential rendering issues --> }}
+|}</includeonly><noinclude>
+{{doc}}
+[[Category:Formatting templates|{{PAGENAME}}]]</noinclude>

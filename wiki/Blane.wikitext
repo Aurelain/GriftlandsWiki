@@ -1,0 +1,17 @@
+
+
+{{Infobox
+| name     = Blane
+| image    = Blane.png
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Spree - Thief
+| ID       =
+}}{{quote|Apparently Blane once dreamed of being a monster hunter, so his life satisfaction is undoubtedly not high.|Blane's Compendium Description}}'''Blane''' is a character in {{Gamename}} and a [[Spree]] Thief.
+
+== Death Loot ==
+If '''Blane''' is killed in combat, he will drop a [[Makeshift Dagger]].
+[[File:Makeshift Dagger.png|none|thumb]]
+[[Category:Characters]]

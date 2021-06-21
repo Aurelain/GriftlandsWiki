@@ -1,0 +1,17 @@
+
+
+{{Infobox
+| name     = Crad
+| image    = Crad portrait.png
+| race     = Kra'deshi
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Jakes - Lifter
+| ID       =
+}}'''Crad''' is a character in {{Gamename}} and a [[Jakes]] Lifter.
+
+== Death Loot ==
+If Crad is killed in combat, he will drop a [[Lifter Claw]].
+[[File:Lifter Claw.png|none|thumb]]
+[[Category:Characters]]

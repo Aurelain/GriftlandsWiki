@@ -1,0 +1,52 @@
+{{Card
+|cardtype = Manipulate
+|decktype = Negotiation
+|expreq = 9
+|rarity = Basic
+|upgrade1 = Promoted Thinking: Improvise a card from a pool of upgraded special cards.
+|upgrade2 = Boosted Thinking: '''Improvise+''' a card from a pool of special cards.}}
+{{Quote|Some of my best ideas come at the last possible moment.}}
+
+'''Quick Thinking''' is a 1-cost Basic '''Manipulation''' card for [[Sal]]. It improvises a card from a pool of special cards. As a base card '''Quick Thinking''' is always part of the available card pool for [[Sal]].
+
+==Upgrades==
+After accruing 9 experience '''Quick Thinking''' is able to be upgraded.
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Effect
+|-
+|Promoted Thinking
+|1
+|'''Improvise''' a card from a pool of upgraded special cards.
+|-
+|Boosted Thinking
+|1
+|'''Improvise+''' a card from a pool of special cards.
+|}
+
+==Special Cards==
+'''Quick Thinking''' has several special cards in its pool, those being:
+* [[Options]]: 0-cost; Manipulate; Draw 2 cards;  '''Expend'''.
+* [[Consideration]]: 0-cost; Manipulate; Apply 2 '''Composure''' on 2 random friendly arguments;  '''Expend'''.
+* [[Stammer]]: 0-cost; Manipulate; '''Incept''' 2 '''Vulnerability'''; '''Expend'''.
+* [[Gruff]]: 0-cost; Hostility; '''Incept''' 1 '''Flustered'''; '''Expend'''.
+* [[Carry Over]]: 0-cost; Manipulate; Gain 1 bonus action next turn; '''Expend'''.
+* [[Observation]]: 0-cost; Diplomacy; 0-4 damage; '''Expend'''.
+* [[Gossip]]: 0-cost; Manipulate; Deploy 1 '''Bait'''; '''Expend'''.
+* [[Debate]]: 0-cost; Hostility; 1-2 damage; '''Expend'''.
+* [[Withdrawn]]: 0-cost; Manipulate;  Apply 3 '''Composure'''; '''Expend'''.
+
+== Upgraded Special Cards ==
+'''Promoted Thinking''' draws from a pool of "Boosted" versions of the same cards:
+
+* [[Boosted Options]]: 0-cost; Manipulate; Draw 3 cards;  '''Expend'''.
+* [[Boosted Consideration]]: 0-cost; Manipulate; Apply 3 '''Composure''' on 2 random friendly arguments;  '''Expend'''.
+* [[Boosted Stammer]]: 0-cost; Manipulate; '''Incept''' 3 '''Vulnerability'''; '''Expend'''.
+* [[Boosted Gruff]]: 0-cost; Hostility; '''Incept''' 2 '''Flustered'''; '''Expend'''.
+* [[Boosted Carry Over]]: 0-cost; Manipulate; Gain 2 bonus actions next turn; '''Expend'''.
+* [[Tall Observation]]: 0-cost; Diplomacy; 0-6 damage; '''Expend'''.
+* [[Boosted Gossip]]: 0-cost; Manipulate; Deploy 2 '''Bait'''; '''Expend'''.
+* [[Boosted Debate]]: 0-cost; Hostility; 2-3 damage; '''Expend'''.
+* [[Boosted Withdrawn]]: 0-cost; Manipulate;  Apply 5 '''Composure'''; '''Expend'''.

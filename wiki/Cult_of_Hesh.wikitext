@@ -1,0 +1,146 @@
+{{stub}}
+[[File:Faction cult of hesh.png|frameless|right]]
+{{Quote|May you wade in the shallows.|Common Heshian Blessing}}
+'''The Cult of Hesh''' is a cult who worship [[Hesh of the Dark]], the god of the Abyss. The cult owns the [[Lumin]] mining platforms off the coast of [[Havaria]] and the [[derrick]]s. Contrary to the [[Spark Barons]], they believe in preserving and worshiping ancient technology, and view the Baron's attempts to weaponize such tech as heresy. They are found frequently buying such technology in favor of destroying it rather than allowing it to exist in such a state.
+
+== Structure ==
+The Cult of Hesh is hierarchical in structure, though the order of ranks for the Titles are vague. At the top are Cardinals. Priests and Auctioneers, like Hundruthor, seem to be next. Luminari are the military force of the cult, well-trained and dangerous. Zealots appear to be second to last, being only fanatics. Luminitiates are at the lowest rung, being recruits who are so poor they use pocket knives for self defense. 
+
+== Cult of Hesh Titles ==
+=== [[Priest]] ===
+Priests can be considered the high-rankers of the Cult.
+=== [[Luminari]] ===
+Luminari are well-trained and well-equipped with heavy armor and scythes, making them the most dangerous to confront.
+=== [[Zealot]] ===
+Zealots are fanatically devoted to the Cult of Hesh, though they are not high-ranked.
+=== [[Luminitiate]] ===
+Luminitiates are the lowest-ranked and the weakest of the Cult of Hesh titles.
+== Members ==
+{| class="wikitable"
+|+
+!Name
+!Title
+!Race
+!Description
+!Appearance
+|-
+|[[Eonwe]]
+|Rogue Zealot
+|Human
+|N/A
+|
+|-
+|Hundruthor
+|Auctioneer
+|Kra'deshi
+|Hundruthor knows the value of his time, and he's not sure you're worth it.
+|[[File:Hundruthor.jpg|125px]]
+|-
+|Mallowi
+| rowspan="6" |Luminari
+| rowspan="4" |Human
+|All Luminari are a bit stuck-up, but Mallowi's got sermons on the brain and a pike up his abyss
+|[[File:Mallowi.jpg|125px]]
+|-
+|Tei Utaro
+|N/A
+|[[File:Tei Utaro.jpg|125px]]
+|-
+|Umriit
+|Luminari are supposed to wade in the deep water of their faith, but Umriit looks like she's got gills under her collar.
+|
+|-
+|Ionis
+|Few folks survive the rigorous training needed to become Luminari. Ionis wears it like a halo of sunshine.
+|
+|-
+|Stollo
+|Kra'deshi
+|Stollo has a name that slips of the tongue like a spit. You doubt she'll turn the other cheek in response.
+|
+|-
+|Murkot
+|Shroke
+|N/A
+|[[File:Murkot.jpg|125px]]
+|-
+|Alta
+| rowspan="6" |Priest
+| rowspan="3" |Human
+|Alta's the type who thinks the sky itself is proof of her faith — 'cause it hasn't fallen down, yet.
+|
+|-
+|Dellena
+|Having your own parish is the closest common Deltrean can get to nobility. The rules are diffirent in Havaria, but maybe nobody told Dellena that.
+|[[File:Dellena.jpg|125px]]
+|-
+|Endo
+|Either Endo's got a smudge on his nose, or the call of the divine has turned his gaze within.
+|[[File:Endo.jpg|125px]]
+|-
+|Phrylotas
+| rowspan="3" |Kra'deshi
+| rowspan="2" |N/A
+|
+|-
+|Phyrna
+|[[File:Phyrna.jpg|125px]]
+|-
+|Phryniwin
+|Phtyniwin's family dedicated her to the Cult at a young age, but she's taken it better than most.
+|[[File:Phyrniwin.jpg|125px]]
+|-
+|Brale
+| rowspan="3" |Zealot
+| rowspan="2" |Human
+|Brale gulps brinea and breathes salt like he's spent one too many cycles dunking for Hesh.
+|[[File:Brale.jpg|125px]]
+|-
+|Pau
+|Hesh doesn't expect much from its followers, but Pau clearly strives to exceed expectations.
+|[[File:Pau.jpg|125px]]
+|-
+|Quale
+|[[Jarackle]]
+|
+|[[File:Quale.png|125px]]
+|-
+|Lumack
+| rowspan="3" |Luminitiate
+| rowspan="2" |[[Jarackle]]
+| rowspan="3" |N/A
+|[[File:Lumack.jpg|125px]]
+|-
+|Lumax
+|[[File:Lumax.jpg|125px]]
+|-
+|Lumoo
+|Human
+|[[File:Lumoo.jpg|125px]]
+|}
+
+== Negotiation Pattern ==
+The Heshians negotiate by creating arguments that have continuous effects on the opponent. They don't usually deal a lot of direct damage, so negotiating them can be easy; however, if their arguments are not dealt with quickly, too many '''Wrath of Hesh''' arguments will deal a lot of damage to the player, and when one is destroyed, the other ones will become significantly harder to destroy, especially on high [[Difficulty]].
+
+=== Zeal ===
+'''Zeal''' is the core argument of Heshians. It has "When an argument of this character's is removed or destroyed, all other arguments gain resolve equal to the current [[Difficulty]]." The destroyed argument and the arguments that gain resolve both have to be of the Argument type, and can't be Bounties.
+
+=== Prayer of Hesh ===
+'''Prayer of Hesh''' arguments can be created when negotiating with Heshians, or created when a Heshian helps the player. It has "Add x resolve and x Composure for each stack of this argument to a random friendly argument at the start of the owner's turn", where x is equal to 2 when the player gains this argument, or half the current [[Difficulty]](rounded up) if an opponent gains this argument. '''Prayer of Hesh Plus''' instead has "Add x resolve and 1 '''Shielded''' for each stack of this argument to a random friendly argument at the start of the owner's turn". Shielded arguments can't be attacked, and lasts until the end of turn, or when this argument is destroyed. This argument is always created on the 1st turn, and sometimes in subsequent turns.
+
+=== Wrath of Hesh ===
+'''Wrath of Hesh''' arguments can be created when negotiating with Heshians. It deals ([[Difficulty]]/2(round down) + 1) ~ ([[Difficulty]] + 1) damage to all opponent arguments at the end of the owner's turn. This argument is always created on the 1st turn, and sometimes in subsequent turns.
+
+=== Tithe ===
+Starting from the 3rd turn, every 3 turns, a '''Tithe''' bounty is created. It has "When destroyed, the opponent of the owner restores 3 resolve for every argument the owner of this bounty has". The core argument is also counted towards this number.
+
+=== Damage and Composure ===
+Starting from the 4th turn, every 4 turns, if no '''Tithe''' bounty will be created, this character has a 66% chance of attacking once, and has a 34% chance of gaining composure equal to twice the current [[Difficulty]]. 
+
+=== Other Patterns ===
+Starting from turn 2, on turns which the turn number is neither divisible by 3 or 4, if there are already too many '''Wrath of Hesh''' or '''Prayer of Hesh''' arguments(2 + [[Difficulty]]), this character will attack once. Otherwise, if there are less '''Wrath of Hesh''' than '''Prayer of Hesh''', a '''Prayer of Hesh''' will be created. Otherwise, a '''Wrath of Hesh''' will be created.
+[[Category:Factions]]
+[[Category:Cult of Hesh]]
+
+== Trivia ==
+*It is assumed that the Cult does not like [[Rentorians]].

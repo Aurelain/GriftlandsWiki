@@ -1,0 +1,87 @@
+{{doc/start}}
+This is a basic infobox with customizable row labels to be used on pages where 'Card infobox' or 'Character infobox' wouldn't work.
+Fill in each line as needed. Leaving a line blank will prevent it from displaying in the infobox.
+Images are cropped to 250x250px automatically.
+
+<pre style="overflow: auto;">
+{{Infobox custom
+| name        =
+| image       =
+| row1 label  =
+| row1 data   =
+| row2 label  =
+| row2 data   =
+| row3 label  =
+| row3 data   =
+| row4 label  =
+| row4 data   =
+| row5 label  =
+| row5 data   =
+| row6 label  =
+| row6 data   =
+| row7 label  =
+| row7 data   =
+| row8 label  =
+| row8 data   =
+| row9 label  =
+| row9 data   =
+| row10 label =
+| row10 data  =
+}}
+</pre>
+
+== Sample Output ==
+
+{{Infobox custom
+| name        = Custom Infobox Example
+| image       = Char2.png
+| row1 label  = Line 1
+| row1 data   = Sample text 1
+| row2 label  = Line 2
+| row2 data   = Sample text 2
+| row3 label  = Line 3
+| row3 data   = Sample text 3
+| row4 label  = Line 4
+| row4 data   = Sample text 4
+| row5 label  = Line 5
+| row5 data   = Sample text 5
+| row6 label  = Line 6
+| row6 data   = Sample text 6
+| row7 label  = Line 7
+| row7 data   = Sample text 7
+| row8 label  = Line 8
+| row8 data   = Sample text 8
+| row9 label  = Line 9
+| row9 data   = Sample text 9
+| row10 label = Line 10
+| row10 data  = Sample text 10
+}}
+
+<pre style="overflow: auto;">
+{{Infobox custom
+| name        = Custom Infobox Example
+| image       = Char2.png
+| row1 label  = Line 1
+| row1 data   = Sample text 1
+| row2 label  = Line 2
+| row2 data   = Sample text 2
+| row3 label  = Line 3
+| row3 data   = Sample text 3
+| row4 label  = Line 4
+| row4 data   = Sample text 4
+| row5 label  = Line 5
+| row5 data   = Sample text 5
+| row6 label  = Line 6
+| row6 data   = Sample text 6
+| row7 label  = Line 7
+| row7 data   = Sample text 7
+| row8 label  = Line 8
+| row8 data   = Sample text 8
+| row9 label  = Line 9
+| row9 data   = Sample text 9
+| row10 label = Line 10
+| row10 data  = Sample text 10
+}}
+</pre>
+{{clear}}
+{{doc/end}}

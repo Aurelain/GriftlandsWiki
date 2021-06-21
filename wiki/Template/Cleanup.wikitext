@@ -1,0 +1,11 @@
+<div class="nomobile">{{Ambox
+| image = [[Image:Cleanup.svg]]
+| type = '''This article may need cleanup to meet quality standards.'''
+| border = yellow
+| info = Please help {{fullurl|{{FULLPAGENAME}}|action=edit{{#if: {{{1|}}} | &section={{{1}}} }}|text=improve this}} if you can.  The <includeonly>[[{{TALKPAGENAME}}|</includeonly><span class="pagetab">Discussion page</span><includeonly>]]</includeonly> may contain suggestions.<br />{{ #if: {{{1|}}} | <br />Reason: "''{{{1}}}''" }}
+}}<br /></div><!--
+--><div class="mobileonly" style="text-align:center">'''This article may need cleanup to meet quality standards.'''<br />Please help {{fullurl|{{FULLPAGENAME}}|action=edit{{#if: {{{1|}}} | &section={{{1}}} }}|text=improve this}} if you can.  The <includeonly>[[{{TALKPAGENAME}}|</includeonly>Discussion page<includeonly>]]</includeonly> may contain suggestions.<br />{{ #if: {{{1|}}} | Reason: "''{{{1}}}''" }}<br /></div><!--
+-->{{#ifeq: {{NAMESPACE}} | Template | |<includeonly>[[category:Cleanup]]</includeonly>}}<noinclude>
+{{doc}}
+
+[[Category:Notice templates|{{PAGENAME}}]]</noinclude>

@@ -1,0 +1,23 @@
+<includeonly>
+== Gamepedia Wiki Representative ==
+{| style="width: {{{width|100%}}};"
+|-
+{{Wiki admin|Pcj}}
+|}
+
+== Community administrators ==
+{| style="width: {{{width|100%}}};"
+|-
+{{Wiki admin|FruitShakeSB}} (Wiki Guardian)
+|-
+{{Wiki admin|Yudrig}}
+|}
+
+<!-- == Developer administrators ==
+{| style="width: {{{width|100%}}};"
+|-
+{{Wiki admin|Developer}}
+|-
+|}-->
+</includeonly><noinclude>{{doc}}
+[[Category:Templates]]</noinclude>

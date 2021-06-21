@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Spree</center>
+  |body=<center>A loosely-organized collection of bandits, crime rings, and illegal debt-brokers.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

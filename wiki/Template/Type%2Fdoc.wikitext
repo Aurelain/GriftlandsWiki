@@ -1,0 +1,16 @@
+{{Doc/start}}
+This template creates a type icon from [[Griftlands]].
+
+==Use==
+*<nowiki>{{Type|Attack}}</nowiki> — {{Type|Attack}}
+*<nowiki>{{Type|Diplomacy}}</nowiki> — {{Type|Diplomacy}}
+*<nowiki>{{Type|Hostility}}</nowiki> — {{Type|Hostility}}
+*<nowiki>{{Type|Item}}</nowiki> — {{Type|Item}}
+*<nowiki>{{Type|Maneuver}}</nowiki> — {{Type|Maneuver}}
+*<nowiki>{{Type|Manipulate}}</nowiki> — {{Type|Manipulate}}
+*<nowiki>{{Type|Parasite}}</nowiki> — {{Type|Parasite}}
+*<nowiki>{{Type|Score}}</nowiki> — {{Type|Score}}
+*<nowiki>{{Type|Status}}</nowiki> — {{Type|Status}}
+*<nowiki>{{Type|Flourish}}</nowiki> — {{Type|Flourish}}
+
+{{Doc/end}}

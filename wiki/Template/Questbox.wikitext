@@ -1,0 +1,16 @@
+{| class="infoboxtable"
+|-
+! colspan="2" class="infoboxname" | {{{questname}}}
+|-
+{{!}} <font color="#FFE993">DIFFICULTY</font> {{!!}} <font color="#FFE993">FOCUS</font>
+|-
+{{!}} {{{difficulty|}}} {{!!}} <span class="infoboxover">{{{focus|}}}</span>
+|-
+! colspan="2" | <font color="#57fffb">{{{description|}}}</font>
+|-
+{{!}} <font color="#57fffb">REWARDS</font>
+|-
+{{!}} {{{rewards|}}}
+|-
+|}<noinclude>{{clear}}{{doc}}
+[[Category:Infobox templates]]</noinclude>

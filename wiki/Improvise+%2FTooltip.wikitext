@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Improvise+
+  |body=<center>Choose 1 of 5 cards to put into your hand.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

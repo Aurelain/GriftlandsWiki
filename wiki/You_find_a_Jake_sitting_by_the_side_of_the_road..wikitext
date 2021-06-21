@@ -1,0 +1,59 @@
+You find a Jake sitting by the side of the road. He is visibly injured. He gets up, painfully, as you approach.
+
+# Grifter, I have an offer for you!
+
+Sal: I'm listening...
+
+I've got a package deal. Three units of the finest improvised weaponry this side of Grout Bog.
+
+They really pack a punch! I can tell you that from experience
+
+=== Options: ===
+
+==== Offer to buy ''some'' of the weapons ====
+Sal: I don't need that many. How much for just one?
+
+(Jake): Sorry, I gotten move all of these. You have to take them as a package.
+
+==== Ask about (Jake)'s injuries ====
+Sal: Are you alright? You don't look alright.
+
+(Jake): I'm fine. I just... let's say these items were hard to come by.
+
+==== Ask for a better price ====
+Sal: You're going to have to do better on the price...
+
+(Jake): Nope, can't do that. I almost died getting these items.
+
+(Jake):  They're already priced to move.
+
+==== Buy RPG x3 ====
+This will cost 90 shills
+
+==== Take them forcefully ====
+You will have to fight an injured Jake lifter
+
+==== Decline the offer ====
+<br />
+
+=== If you take the items, you will encounter a Rise Rebel ===
+
+=== Options: ===
+
+==== Ask what the Rise is doing in Murder Bay ====
+Sal: You're a little far from home, aren't you?
+
+(Jake): These weapons were stolen by (Jake), and we followed his trail here.
+
+(Jake): We're headed back to the bog as soon as we've recovered our property.
+
+==== Ask about the Jake ====
+
+==== Intimidate the Rise Rebel ====
+You will have to negotiate against the Rebel. If you didn't fight the Jake lifter, he will help you. Defeating the Rise Rebel will make the Jake lifter love you.
+
+==== Defend yourself! ====
+You will have to battle against the Rebel. If you didn't fight the Jake lifter, he will help you. Defeating the Rise Rebel will make the Jake lifter love you.
+
+==== Hand over the loot ====
+The rise rebel will like you

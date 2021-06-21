@@ -1,0 +1,28 @@
+[[File:Rook_story_stepping_in_it.png|frameless|right]]
+[[File:Rook_story_stepping_in_it.png|15px]]'''Stepping in it''' is the story quest for Day 1 of [[Rook]]'s story, [[The Bog Job]].
+== Entering Grout Bog ==
+Upon reaching the gate to the city, Rook is stopped by a [[Spark Barons Taskmaster]]. To proceed inside, you have two choices:
+* Pay 20 {{shills}}
+* Win a <span style="color:BlueViolet">negotiation</span> (the guard will start with -6 resolve)
+
+
+The guard will then ask who you are going to work for. This choice will include a faction card and makes meeting that faction leader easier. (Note: this choice does not prevent starting the quest with the other faction.)
+* [[File:Rook story work for fellemo.png|20px]] Report to [[Fellemo]], the Spark Baron and receive [[Blacklist]]
+* [[File:Rook story work for kalandra.png|20px]] Report to [[Kalandra]], a foreman and receive [[Shovel]]
+
+
+
+Finally, you will be asked to declare an item. You will choose one of three options to begin the campaign with. These options include:
+*[[File:Ic acquire combat.png|17px]] '''War Stories:''' Draft 2 <span style="color:orange">battle</span> cards
+*[[File:Ic acquire negotiation.png|17px]] '''Book of Kra'deshi Poems:''' Draft 2 <span style="color:BlueViolet">negotiation</span> cards
+*[[File:Ic levelup upgradecombat.png|17px]] '''Training Manual:''' Upgrade a <span style="color:orange">battle</span> card
+*[[File:Ic levelup upgradenegotiation.png|17px]] '''Faded Journal:''' Upgrade a <span style="color:BlueViolet">negotiation</span> card
+*[[File:Ic nav graft.png|17px]] '''Slapdash Surgery:''' Add a <span style="color:orange">battle</span> graft slot
+*[[File:Ic nav graft.png|17px]] '''Cranial Incision:''' Add a <span style="color:BlueViolet">negotiation</span> graft slot
+*[[File:Ic_nav_heal.png|17px]] '''Rugged Compression Gear''' (max health +8 and max resolve +2)
+*[[File:Ic nav shills.png|17px]] '''Coin Purse:''' Gain 100 {{shills}}
+*[[File:Ic nav give.png|17px]] '''Boom Box:''' (contains any 2 of [[Lumin Grenade]], [[Spark Grenade]], [[Shrapnel Grenade]] or [[Crackler]])
+*[[File:Ic nav give.png|17px]] '''Triage Kit:''' [[Healing Vapors]] x2
+*[[File:Ic nav give.png|17px]] Receive [[Amnesiator]]
+
+[[Category:Rook Story Quests]]

@@ -1,0 +1,17 @@
+{{stub}}
+
+'''The Compendium''' is an in-game menu that allows a player to view and explore unlocked cards, people, [[Grafts]] and [[Grifts]].
+
+== Cards ==
+In this section you can look at all of your unlocked cards, so all cards that are in the basic cardpool, are included in your unlocked [[Card Sets]], obtain trough special events/bought or are given to you by enemies. Just like in-game, you can right-click them to see their flavor text and upgrades. 
+
+== People ==
+In this section you can look at every person you have met. By clicking on them you can see their flavor text, listen to their voice and see their Boon/Bane, if you have gotten it once.
+
+== Grafts ==
+In this section you can look at every Graft you've seen, it also tells you if you have installed it.
+
+== Grifts ==
+In this section you can see every Grift and your progress in them.
+<br />
+[[Category:Game]]

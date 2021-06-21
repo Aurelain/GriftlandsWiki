@@ -1,0 +1,14 @@
+{{Doc/start}}
+Displays a difficulty with star of the selected type.
+
+'''Usage:'''
+<pre>{{Difficulty|diff1}} {{Difficulty|diff2}} {{Difficulty|diff3}} {{Difficulty|diff4}} {{Difficulty|diff5}}</pre>
+
+'''Result:'''
+
+{{Difficulty|diff1}} 
+{{Difficulty|diff2}} 
+{{Difficulty|diff3}} 
+{{Difficulty|diff4}} 
+{{Difficulty|diff5}}
+{{Doc/end}}

@@ -1,0 +1,567 @@
+{{Stub}}
+
+'''Relationships''' are a secondary mechanic in Griftlands that has varying effects on negotiations and battle. Depending on the relationship with an NPC, some quests may go from being a shakedown to being an all out brawl, or may make an otherwise challenging intimidation attempt trivial. Some [[Mutators]] can be applied to a run that drastically change how relationships work. Ex. Random relationship upon meeting a character.
+
+==Relationship Stages==
+Relationships with NPC's come in 5 stages. By default, most NPC's will be '''Neutral''' towards the player.
+
+*'''Hated''' — occurs randomly when [[murdering]] characters that are not isolated, or from some quest results (betraying/capturing some characters). NPC's that hate the player give a class-specific Bane, heckles in nearby negotiation, join battles against the player if present, and always target the player in battle. [[Kashio]] hates [[Sal]] by default, though no accompanying Bane is applied. +20 core [[Resolve]].
+*'''Disliked''' — characters who are attacked, intimidated, or are the victim of a shakedown will dislike the player and heckle in nearby negotiations. +10 core [[Resolve]].
+*'''Neutral/Not Met''' — no effect on the player.
+*'''Liked''' — characters helped by doing work for them or who are bought drinks at a bar will like the player, and will provide support in nearby negotiation. -10 core [[Resolve]] (minimum 1).
+*'''Loved'''— characters who like the player, if [[Gifting|gifted]], will love the player and provide a random class specific Boon to the player, as well as assist in combat/negotiation. -20 core [[Resolve]] (minimum 1).
+
+==Banes and Boons==
+Being '''Hated''' or '''Loved''' provides a Bane or Boon to the player that provides a bonus depending on the character class. Each character in the game belongs to a faction and has a profession that determines what Bane or Boon they provide.
+
+===List of Boons===
+{| class="wikitable sortable"
+!Boon
+!Effect
+!Source
+!Notes
+|- id="Bolstered Health"
+|style="text-align:center"|[[File:Graft bolstered health.png|64px]]<br>'''Bolstered Health'''
+| +2 Max [[Health]]
+|Generic Boon (High [[Combat Strength]])
+|Gaining this boon will also gain 2 [[Health]], while losing this boon does not cause the [[Health]] to change.
+|- id="Bolstered Resolve"
+|style="text-align:center"|[[File:Graft bolstered resolve.png|64px]]<br>'''Bolstered Resolve'''
+| +2 Max [[Resolve]]
+|Generic Boon (High [[Renown(NPC stat)|Renown]])
+|Gaining this boon will also gain 2 [[Resolve]], while losing this boon does not cause the [[Resolve]] to change.
+|- id="Authorization"
+|style="text-align:center"|[[File:Graft authorization.png|64px]]<br>'''Authorization'''
+|Once per day, an [[Admiralty]] member will assist in combat or negotiation.
+|[[Admiralty]] Clerk
+|This allows the player to bribe an [[Admiralty]] for free, making them help you negotiate or fight.
+|- id="Piece of the Pie"
+|style="text-align:center"|[[File:Graft piece of the pie.png|64px]]<br>'''Piece of the Pie'''
+|At the start of each day, receive 75 [[Shills]].
+|[[Admiralty]] Goon
+|
+|- id="Sparring"
+|style="text-align:center"|[[File:Graft sparring.png|64px]]<br>'''Sparring'''
+|Gain 1 '''Defense''' on all cards that apply '''Defense'''.
+|[[Admiralty]] Guard,
+[[Admiralty]] Patrol Leader
+|Brawl mode: Cost 200 to gift (change from Liked to Loved)
+|- id="Commander"
+|style="text-align:center"|[[File:Graft commander.png|64px]]<br>'''Commander'''
+|All allies gain +5 max HP in combat.
+|[[Admiralty]] Patrol Leader,
+[[Admiralty]] Guard
+|Brawl mode: Cost 150 to gift (change from Liked to Loved)
+|- id="Doze Bug"
+|style="text-align:center"|[[File:Graft doze bug.png|64px]]<br>'''Doze Bug'''
+|Gain +5 max HP each night after sleeping.
+|[[Bilebroker]] Chemist
+|
+|- id="Inoculated"
+|style="text-align:center"|[[File:Graft inoculated.png|64px]]<br>'''Inoculated'''
+|Whenever you draw a [[Parasite]] card, restore 2 [[Health]] or [[Resolve]].
+|[[Boggers|Bogger]] Cultivator
+|Whether health or resolve is restored depends on whether it's a negotiation or a battle.
+|- id="Bogger Pauldrons"
+|style="text-align:center"|[[File:Graft bogger pauldrons.png|64px]]<br>'''Bogger Pauldrons'''
+|At the end of your turn, gain 1-3 Defense.
+|[[Boggers|Bogger]] Clobber
+|
+|- id="Voice of the People"
+|style="text-align:center"|[[File:Graft voice of the people.png|64px]]<br>'''Voice of the People'''
+|Start all negotiations with the Argument '''Voice of the People'''.
+|[[Civilian]] Laborer
+|'''Voice of the People''' has 4 [[Resolve]] and deals 2<sup>n</sup> damage each turn, where n is equal to the stacks on this argument.
+|- id="Heavy Lifting"
+|style="text-align:center"|[[File:Graft heavy lifting.png|64px]]<br>'''Heavy Lifting'''
+|Start each fight with 4 [[Defend]] and 2 '''Temporary [[Power]]'''.
+|[[Civilian]] Heavy Laborer
+|
+|- id="Authority"
+|style="text-align:center"|[[File:Graft authority.png|64px]]<br>'''Authority'''
+|Adds a random authority card to your draw pile at the start of every negotiation.
+|[[Civilian]] Foreman
+|
+|-
+|'''Celebrity'''
+|At the start of each negotiation, gain 3 '''[[Renown]]''' and 2 '''[[Influence]]'''.
+|[[Civilian]] Socialite
+|
+|- id="Haggle Badge"
+|style="text-align:center"|[[File:Graft haggle badge.png|64px]]<br>'''Haggle Badge'''
+|You can negotiate for better quest rewards.
+|[[Civilian]] Wealthy Merchant
+|Only applies to side [[Quests]]. (Meaning useless in Brawl mode)
+
+You can talk to the giver and negotiate for a better reward.
+
+See [[Haggling]].
+|- id="Mixology"
+|style="text-align:center"|[[File:Graft mixology.png|64px]]<br>'''Mixology'''
+|Restore 4 additional [[Resolve]] when drinking.
+|[[Civilian]] Bartender
+|
+|- id="Top Shelf"
+|style="text-align:center"|[[File:Graft top shelf.png|64px]]<br>'''Top Shelf'''
+|Restore an additional 6 resolve when drinking.
+|[[Hebbel]]
+|
+|- id="Bio-Feedback"
+|style="text-align:center"|[[File:Graft bio feedback.png|64px]]<br>'''Bio-Feedback'''
+|Status cards cost 1 less.
+|[[Cult of Hesh]] Priest
+|
+|- id="Grace of Hesh"
+|style="text-align:center"|[[File:Graft grace of hesh.png|64px]]<br>'''Grace of Hesh'''
+|Restore 3 [[Health]] whenever you win a negotiation.
+|[[Cult of Hesh]] Zealot
+|
+|- id="Bell of Hesh"
+|style="text-align:center"|[[File:Graft bell of hesh.png|64px]]<br>'''Bell of Hesh'''
+|Draw an additional card at the start of each negotiation.
+|[[Cult of Hesh]] Luminari
+|
+|-
+|'''Throng'''
+|The first argument you create each negotiation has 2 bonus resolve.
+|[[Cult of Hesh]] Luminitiate
+|
+|- id="Bargaining"
+|style="text-align:center"|[[File:Graft bargaining.png|64px]]<br>'''Bargaining'''
+|All shop purchases cost 20 [[Shills]] less.
+|[[Jakes]] Dockhand
+Jakes Dodgy Scavenger
+|Applies after multipliers.
+
+Cannot drop prices below 1.
+|- id="First Aid"
+|style="text-align:center"|[[File:Graft first aid.png|64px]]<br>'''First Aid'''
+|Whenever you remove a [[Debuff]], Heal 5 [[Health]].
+|[[Jakes]] Smuggler
+|
+|- id="Quality Materials"
+|style="text-align:center"|[[File:Graft quality materials.png|64px]]<br>'''Quality Materials'''
+|Whenever you use an item, also gain 2 [[Defend]]
+|[[Jakes]] Lifter
+|
+|-
+|'''Envoy Pendant'''
+|The first Diplomacy card you play each negotiation costs 1 less action.
+|[[Rentorians]] Foreman
+|
+|- id="Morale Boost"
+|style="text-align:center"|[[File:Graft morale boost.png|64px]]<br>'''Morale Boost'''
+|At the end of their turn, surrendered allies gain 10% of their max health.
+|[[Rise]] Rebel
+|
+|- id="Propaganda Machine"
+|style="text-align:center"|[[File:Graft propaganda machine.png|64px]]<br>'''Propaganda Machine'''
+|Start every negotiation with 1 [[Influence]]
+|[[Rise]] Pamphleteer
+|
+|- id="War Machine"
+|style="text-align:center"|[[File:Graft war machine.png|64px]]<br>'''War Machine'''
+|Once per day, you can request an [[RPG]] from a member of the [[Rise]].
+|[[Rise]] Radical
+|You can request multiple [[RPG|RPGs]] from the same person if you have multiple of this boon.
+
+You can only request an [[RPG]] from someone who is neutral or higher to you.
+<!--|- id="Weapon Supplier"
+|style="text-align:center"|[[File:Graft weapon supplier.png|64px]]<br>'''Weapon Supplier'''
+|At the start of each day, receive a random weapon card.
+|[[Spark Barons|Spark Baron]] Security Guard
+|-->
+|- id="Torpor Fiend"
+|style="text-align:center"|[[File:Graft torpor fiend.png|64px]]<br>'''Torpor Fiend'''
+|Sleeping grants full [[Experience]] on a random card.
+|[[Spark Barons|Spark Baron]] Taskmaster
+|Can be a negotiation card or a battle card.
+
+Can be a [[Hatch]] card(likely will get fixed).
+|- id="Spark Visor"
+|style="text-align:center"|[[File:Graft spark visor.png|64px]]<br>'''Spark Visor'''
+|Mark 1 random enemy at the start of your turn. Attacking that enemy grants 3 [[Defend]].
+|[[Spark Barons|Spark Baron]] Professional
+|
+|-
+|Weapons Supplier
+|Receive a random item card every morning.
+|Spark Barons Security Guard
+|Brawl mode: Give 100 shills to change from Liked to Loved
+|- id="Surprise Attack"
+|style="text-align:center"|[[File:Graft surprise attack.png|64px]]<br>'''Surprise Attack'''
+|Gain 1 action point at the start of combat.
+|[[Spree]] Thief
+|
+|- id="King Hit"
+|style="text-align:center"|[[File:Graft sucker punch.png|64px]]<br>'''King Hit'''
+|Your first attack in combat deals +4 damage.
+|[[Spree]] Thug
+|
+|- id="Regimented"
+|style="text-align:center"|[[File:Graft regimented.png|64px]]<br>'''Regimented'''
+|All bandit allies have +10 max HP in combat.
+|[[Spree]] Raider
+|
+|- id="Savagery"
+|style="text-align:center"|[[File:Graft savagery.png|64px]]<br>'''Savagery'''
+|<nowiki>+1</nowiki> [[Bleed]] to all cards that apply [[Bleed]].
+|[[Spree]] Captain
+|
+|-
+|'''Hard Knocks'''
+|After playing 10 cards, your next attack deals 8 bonus damage.
+|[[Brut]]
+|
+|- id="System Shock"
+|style="text-align:center"|[[File:Graft system shock.png|64px]]<br>'''System Shock'''
+|If you didn't attack last turn, gain 2 Temporary [[Power]].
+|[[Sparky]]
+|
+|- id="Drone Mastery"
+|style="text-align:center"|[[File:Graft drone mastery.png|64px]]<br>'''Drone Mastery'''
+|Allied mechs have 10 additional max [[Health]].
+|[[Jeol]]
+|
+|- id="Sharpened Blades"
+|style="text-align:center"|[[File:Graft sharpened blades.png|64px]]<br>'''Sharpened Blades'''
+|All your attacks apply 2 [[Bleed]] on your first turn of battle.
+|[[Zyn]]
+|
+|- id="Steady Hands"
+|style="text-align:center"|[[File:Graft steady hands.png|64px]]<br>'''Steady Hands'''
+|Every 3rd turn in battle, draw 3 additional cards.
+|[[Hanbi]]
+|
+|- id="Admiralty Medals"
+|style="text-align:center"|[[File:Graft admiralty medals.png|64px]]<br>'''Admiralty Medals'''
+|All friendly arguments gain 1 [[Composure]] at the start of your turn
+|[[Oolo]]
+|
+|- id="Chieftain"
+|style="text-align:center"|[[File:Graft chieftain.png|64px]]<br>'''Chieftain'''
+|All allied Spree gain +2 [[Power]] at the start of combat.
+|[[Nadan]]
+|
+|- id="Rentorian Battle Armor"
+|style="text-align:center"|[[File:Graft rentorian battle armor.png|64px]]<br>'''Rentorian Battle Armor'''
+|Gain 3 [[Power]] at the start of each battle. Lose 3 [[Power]] the first time you take any damage.
+|[[Threekwa]]
+|
+|- id="Heshian Armature"
+|style="text-align:center"|[[File:Graft heshian armature.png|64px]]<br>'''Heshian Armature'''
+|Whenever you gain [[Fully Charged]], gain 2 [[Overcharge]].
+|[[Eonwe]]
+|
+|- id="On The List"
+|style="text-align:center"|[[File:Graft on the list.png|64px]]<br>'''On The List'''
+|All friendly arguments come into play with 1 additional resolve.
+|[[Arint]]
+|
+|- id="Gear Head"
+|style="text-align:center"|[[File:Graft gear head.png|64px]]<br>'''Gear Head'''
+|Heal 1 health at the start of your turn if you took no damage last turn.
+|[[Flekfis]]
+|
+|- id="Scheme"
+|style="text-align:center"|[[File:Graft scheme.png|64px]]<br>'''Scheme'''
+|At the start of each negotiation, gain either 3 [[Influence]] or [[Dominance]]. Chosen randomly.
+|[[Lellyn Fellemo|Fellemo]]
+|
+|- id="Excavator"
+|style="text-align:center"|'''Excavator'''
+|The first item card you play in battle is played twice
+|[[Prindo Kalandra|Kalandra]]
+|
+|- id="People Person"
+|style="text-align:center"|[[File:Graft people person.png|64px]]<br>'''People Person'''
+|Gain +2 [[Influence]] and [[Dominance]] at the start of every negotiation.
+|[[Sal]]
+|
+|- id="Grumpy Scowl"
+|style="text-align:center"|[[File:Graft grumpy scowl.png|64px]]<br>'''Grumpy Scowl'''
+|At the start of each negotiation, gain 2 [[Heated]].
+|[[Rook]]
+|
+|- id="Talisman"
+|style="text-align:center"|[[File:Graft talisman.png|64px]]<br>'''Talisman'''
+|Whenever you draw a [[Parasite]] card, draw a card.
+|[[Grimdellia]]
+|
+|- id="Weapons Expert"
+|style="text-align:center"|[[File:Graft weapons expert.png|64px]]<br>'''Weapons Expert'''
+|The first attack card you play each fight costs 0.
+|[[Frizz]]
+|
+|}
+
+===List of Banes===
+{| class="wikitable sortable"
+!Bane
+!Effect
+!Source
+!Notes
+|- id="Shakey"
+|style="text-align:center"|[[File:Graft shakey.png|64px]]<br>'''Shakey'''
+| -2 max resolve.
+|Generic Bane
+|Also reduces resolve when gained. Increase resolve when removed.
+|- id="Red Tape"
+|style="text-align:center"|[[File:Graft red tape.png|64px]]<br>'''Red Tape'''
+|[[Admiralty]] will not assist in combat or negotiations.
+|[[Admiralty]] Clerk
+|This only prevents the player from bribing [[Admiralty]]. [[Admiralty]] can still assist through other means
+|- id="Hunted"
+|style="text-align:center"|[[File:Graft hunted.png|64px]]<br>'''Hunted'''
+|Enemy [[Admiralty]] gain 1 Power at the start of combat.
+|[[Admiralty]] Goon
+|
+|- id="Bully"
+|style="text-align:center"|[[File:Graft intimidated.png|64px]]<br>'''Bully'''
+|Lose 1 '''Defense''' on all cards that apply '''Defense'''.
+|[[Admiralty]] Guard,
+[[Admiralty]] Patrol Leader (Experimental)
+|
+<!--|- id="Lowered Ranks"
+|style="text-align:center"|[[File:Graft lowered ranks.png|64px]]<br>'''Lowered Ranks'''
+|All allies gain -5 max HP(-10% max HP in Experimental) in combat.
+|[[Admiralty]] Patrol Leader,
+[[Admiralty]] Guard
+|-->
+|- id="Spiked Drink"
+|style="text-align:center"|[[File:Graft spiked drink.png|64px]]<br>'''Spiked Drink'''
+|Add 1 [[Ulcer]] card whenever you drink.
+|[[Bilebroker]] Chemist
+|
+|- id="Bog Sensitive"
+|style="text-align:center"|[[File:Graft bog sensitive.png|64px]]<br>'''Bog Sensitive'''
+|Whenever you draw a [[Parasite]] card, take 2 damage.
+|[[Boggers|Bogger]] Cultivator
+|
+|- id="Concussed"
+|style="text-align:center"|[[File:Graft concussed.png|64px]]<br>'''Concussed'''
+|If you draw more than 4 cards on your turn, your core argument take 3 damage.
+|[[Boggers|Bogger]] Clobber
+|
+|- id="Elitist"
+|style="text-align:center"|[[File:Graft elitist.png|64px]]<br>'''Elitist'''
+|[[Civilian|Civilians]] you first meet will dislike you.
+|[[Civilian]] Laborer
+|Only applies to civilians that you directly talks to that you haven't met before.
+<!--|- id="Whispering Rumors"
+|style="text-align:center"|[[File:Graft whispering rumors.png|64px]]<br>'''Whispering Rumors'''
+|Opponents start negotiations with an additional argument in play.
+|[[Civilian]] Heavy Laborer
+|Only applies when negotiating with anyone other than the source of the bane.
+
+The argument continuously deals ranged damage until destroyed.-->
+|- id="Blacklisted"
+|style="text-align:center"|[[File:Graft blacklisted.png|64px]]<br>'''Blacklisted'''
+|At the start of each negotiation, discard one random card.
+|[[Civilian]] Foreman
+|
+|-
+|'''Ostracized'''
+|At the start of each negotiation, you gain 2 '''[[Vulnerability]]'''.
+|[[Civilian]] Socialite
+|
+|- id="Bad Credit"
+|style="text-align:center"|[[File:Graft bad credit.png|64px]]<br>'''Bad Credit'''
+|All shop purchases cost 20 [[Shills]] more.
+|[[Civilian]] Wealthy Merchant
+|
+|- id="Tainted Supply"
+|style="text-align:center"|[[File:Graft tainted supply.png|64px]]<br>'''Tainted Supply'''
+|Drinking adds an additional drunk card.
+|[[Civilian]] Bartender
+|When drinking, get two copies of [[Tipsy]] and [[Slurred Speech]].
+|- id="Bad Faith"
+|style="text-align:center"|[[File:Graft bad faith.png|64px]]<br>'''Bad Faith'''
+|At the start of each fight, add a [[Gnarled Effigy]] to your draw pile.
+|[[Cult of Hesh]] Priest
+|
+|- id="Heshian Obscenity"
+|style="text-align:center"|[[File:Graft heshian obscenity.png|64px]]<br>'''Heshian Obscenity'''
+|Your maximum hand size in negotiations is reduced by 2.
+|[[Cult of Hesh]] Zealot
+|The default maximum hand size is 10.
+|- id="Curse of Hesh"
+|style="text-align:center"|[[File:Graft curse of hesh.png|64px]]<br>'''Curse of Hesh'''
+|Lose 1 action and draw a card on your first turn of battle.
+|[[Cult of Hesh]] Luminari
+|Apparently, not all banes are strictly bad.
+|- id="Thin Skin"
+|style="text-align:center"|[[File:Graft thin skin.png|64px]]<br>'''Thin Skin'''
+|The first time you take damage in a fight, gain 2 wound.
+|[[Jakes]] Dockhand
+|
+|- id="Fragile Health"
+|style="text-align:center"|[[File:Graft fragile health.png|64px]]<br>'''Fragile Health'''
+|Take 2 damage any time a debuff is applied to you.
+|[[Jakes]] Smuggler
+|
+|- id="Back of the Line"
+|style="text-align:center"|[[File:Graft back of the line.png|64px]]<br>'''Back of the Line'''
+|All items lose 1 use when added to your deck. (minimum of 1 use)
+|[[Jakes]] Lifter
+|
+|- id="Civil Unrest"
+|style="text-align:center"|[[File:Graft civil unrest.png|64px]]<br>'''Civil Unrest'''
+|All Allies start combat with a higher amount of Panic.
+|[[Rise]] Rebel
+|
+|- id="Slander"
+|style="text-align:center"|[[File:Graft slander.png|64px]]<br>'''Slander'''
+|Lose 2 max [[Resolve]] whenever you murder a member of the [[Rise]].
+|[[Rise]] Pamphleteer
+|You can murder the source of the bane without being affected by it.
+
+This effect applies even if you murder someone in an isolated fight.
+
+This effect doesn't apply if they "die from an accident".
+|- id="Depleted"
+|style="text-align:center"|[[File:Graft depleted.png|64px]]<br>'''Depleted'''
+|At the start of each battle, discard one random card.
+|[[Rise]] Radical
+|
+|- id="Sketchy Equipment"
+|style="text-align:center"|[[File:Graft sketchy equipment.png|64px]]<br>'''Sketchy Equipment'''
+|Take 1 damage whenever you play an item card in a battle.
+|[[Spark Barons|Spark Baron]] Security Guard
+|
+|- id="Crisis"
+|style="text-align:center"|[[File:Graft crisis.png|64px]]<br>'''Crisis'''
+|All allies lose morale at the start of your turn
+|[[Spark Barons|Spark Baron]] Taskmaster
+|
+|- id="Faulty Armor"
+|style="text-align:center"|[[File:Graft faulty armor.png|64px]]<br>'''Faulty Armor'''
+|Start each battle with 2 [[Exposed]].
+|[[Spark Barons|Spark Baron]] Professional
+|
+|- id="Outwitted"
+|style="text-align:center"|[[File:Graft outwitted.png|64px]]<br>'''Outwitted'''
+|Pins 1 card at the start of combat
+|[[Spree]] Thief
+|
+|- id="Marked"
+|style="text-align:center"|[[File:Graft marked.png|64px]]<br>'''Marked'''
+|Enemy [[Spree]] join fights with less Panic.
+|[[Spree]] Thug
+|
+|- id="Brutality"
+|style="text-align:center"|[[File:Graft brutality.png|64px]]<br>'''Brutality'''
+|Status cards cost 1 more.
+|[[Spree]] Raider
+|
+|- id="Terrorized"
+|style="text-align:center"|[[File:Graft terrorized.png|64px]]<br>'''Terrorized'''
+|2 random [[Spree]] will dislike you.
+|[[Spree]] Captain
+|The [[Spree|Sprees]] affected by this bane will still dislike you even if this bane is gone.
+|-
+|'''Shellshock'''
+|At the end of every turn, lose 2 '''Defense'''.
+|[[Brut]]
+|
+|-
+|'''Rattled'''
+|Enemy attacks against you deal 1 bonus damage if you have '''[[Battle#Negative Status Effects|Impair]]'''.
+|[[Fralx]]
+|
+|- id="Short Circuit"
+|style="text-align:center"|[[File:Graft short circuit.png|64px]]<br>'''Short Circuit'''
+|Take 2 damage whenever you gain [[Power]].
+|[[Sparky]]
+|
+|- id="Drone Supplier"
+|style="text-align:center"|[[File:Graft drone supplier.png|64px]]<br>'''Drone Supplier'''
+|Combat Drone cards cost 1 additional action.
+|[[Jeol]]
+|
+|- id="Hemophiliac"
+|style="text-align:center"|[[File:Graft hemophiliac.png|64px]]<br>'''Hemophiliac'''
+|Bleed cards deal 2 bonus damage to you.
+|[[Zyn]]
+|
+|- id="Fumbling Fingers"
+|style="text-align:center"|[[File:Graft fumbling fingers.png|64px]]<br>'''Fumbling Fingers'''
+|Every 3rd turn in battle, discard a random card from your hand.
+|[[Hanbi]]
+|
+|- id="Wrong Papers"
+|style="text-align:center"|[[File:Graft wrong papers.png|64px]]<br>'''Wrong Papers'''
+|At the start of every negotiation, gain 2 [[Flustered]].
+|[[Oolo]]
+|
+|- id="Kill List"
+|style="text-align:center"|[[File:Graft kill list.png|64px]]<br>'''Kill List'''
+|All enemy [[Spree]] gain +2 [[Power]] at the start of combat.
+|[[Nadan]]
+|
+|- id="Informed Enemies"
+|style="text-align:center"|[[File:Graft informed enemies.png|64px]]<br>'''Informed Enemies'''
+|Take 2 damage every time you play a card on the first turn of battle.
+|[[Threekwa]]
+|
+|- id="Gremlins"
+|style="text-align:center"|[[File:Graft gremlins.png|64px]]<br>'''Gremlins'''
+|At the end of your first turn each battle, take 2 damage per charge.
+|[[Eonwe]]
+|
+|- id="Faulty Connections"
+|style="text-align:center"|[[File:Graft faulty connections.png|64px]]<br>'''Faulty Connections'''
+|All friendly arguments come into play with 1 less resolve.
+|[[Arint]]
+|
+|- id="Wrenched"
+|style="text-align:center"|[[File:Graft wrenched.png|64px]]<br>'''Wrenched'''
+|The first card played every battle costs 1 additional action to play.
+|[[Flekfis]]
+|
+|- id="Scandal"
+|style="text-align:center"|[[File:Graft scandal.png|64px]]<br>'''Scandal'''
+|At the beginning of every negotiation, lose 1 maximum resolve permanently.
+|[[Lellyn Fellemo|Fellemo]]
+|
+|- id="Buried"
+|style="text-align:center"|[[File:Graft buried.png|64px]]<br>'''Buried'''
+|At the start of each battle, gain 2 [[Cripple]].
+|[[Prindo Kalandra|Kalandra]]
+|
+|- id="Wrong Side"
+|style="text-align:center"|[[File:Graft wrong side.png|64px]]<br>'''Wrong Side'''
+|At the start of each negotiation, gain 1 [[Doubt]].
+|[[Sal]]
+|
+|- id="Contagious"
+|style="text-align:center"|[[File:Graft contagious.png|64px]]<br>'''Contagious'''
+|Gain a random [[Parasite]] card.
+|[[Rook]]
+|Actually only adds [[Twig]] to the player deck.
+
+The parasite stays even if this bane is removed.
+|- id="Bogling"
+|style="text-align:center"|[[File:Graft bogling.png|64px]]<br>'''Bogling'''
+|Whenever you draw a Parasite in negotiation or battle, discard a random card.
+|[[Grimdellia]]
+|
+|- id="Treachery"
+|style="text-align:center"|[[File:Graft treachery.png|64px]]<br>'''Treachery'''
+|You can no longer gain any [[Defend]] on your first turn of battle.
+|[[Frizz]]
+|
+|}
+
+==Shop Discounts==
+ Need confirmation on exact effects on prices and if it varies at higher prestige.
+In addition to the potential shop price Bane/Boon, relationship status affects base prices on purchases and services.
+
+Liked/Disliked — purchases cost +/-25%%. Bribes/Mercenary rates cost +/-50%.
+
+Loved/Hated — purchases cost +/-50%. Bribes/Mercenary rates cost +/-100%.
+
+==Relationship between Factions==
+Factions can have relationships with each other. Relationships between factions will affect some quests, and will affect what people will show up at a shop.
+
+[[Category:Characters]]

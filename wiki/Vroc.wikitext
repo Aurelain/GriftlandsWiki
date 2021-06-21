@@ -1,0 +1,14 @@
+{{stub}}
+
+The '''Vroc''' is a battle bird found in the Griftlands. They can commonly be encountered accompanying Admiralty patrols. They take the appearance of a large, crow-like bird with two horns and a large plate of bone shaped like a beak.
+
+For Pet Vrocs, see: [[Pets#Pet Vroc|Pet Vroc]]
+
+:Abilities/Attacks:
+:*Need information on enemy variant.
+
+== Trivia ==
+
+:Vrocs are never found in the wild, unlike the other animals in {{Gamename}}, but are instead imported by the Deltrean Admiralty to Havaria.
+
+[[Category:Enemies]]

@@ -1,0 +1,5 @@
+{{copyrightbox
+|text=This file does not have information on its copyright status.
+}}<includeonly>[[Category:Unattributed files]]</includeonly><noinclude>
+
+[[Category:Copyright templates|{{PAGENAME}}]]</noinclude>

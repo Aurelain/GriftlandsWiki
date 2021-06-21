@@ -1,0 +1,8 @@
+{{stub}}
+'''Rugged Compression Gear''' can be acquired as equipment in [[{{Gamename}}]] from character [[Fssh]]. There are possibly other locations.
+
+== Stats ==
+* Increase max health by 8
+* Increase max resolve by 2
+
+[[Category:Equipment]]

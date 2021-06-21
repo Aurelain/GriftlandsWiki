@@ -1,0 +1,22 @@
+{{Card
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Headbang
+|upgrade2 = Rooted Headbang}}
+{{Quote|One second, I love this track.}}
+'''Headbang''' is a 2-cost Rare '''Diplomacy''' card for [[Rook]]. It deals 3-8 base damage. If '''Heads''', it doubles the cards damage and '''Gambles'''.
+
+==Upgrades==
+After accruing 7 experience '''Headbang''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Headbang.png|150px]]
+|[[File:Rooted Headbang.png|150px]]
+|-
+![[Gamble]] twice
+!Deal 6-6 base damage
+|}

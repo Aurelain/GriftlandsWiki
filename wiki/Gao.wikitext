@@ -1,0 +1,18 @@
+
+
+{{Infobox
+| name     = Gao
+| image    = Gao portrait.png
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Admiralty - Guard
+| ID       =
+}}{{quote|Gao has one of those faces you love to hate. Or hate to love? It's interchangeable, really.|Gao's Compendium Description}}'''Gao''' is a character in {{Gamename}} and a [[Admiralty]] Guard.
+
+== Death Loot ==
+If '''Gao''' is killed in combat, he will drop a [[Admiralty Requisition]].
+[[File:Admiralty Requistion.png|none|thumb]]
+<br />
+[[Category:Characters]]

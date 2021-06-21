@@ -1,0 +1,3 @@
+<includeonly>{{#if: {{{nolink|}}} | <nowiki>http://help.gamepedia.com/index.php?title=</nowiki>{{{1}}}{{#if: {{{2|}}} | &{{{2}}} }} |<!--
+          --><span class="plainlinks">{{#if: {{{text|}}} | [ }}{{fullurl: {{{1}}} | {{{2|}}} }} {{#if: {{{text|}}} | {{{text}}}]}}</span>}}</includeonly><noinclude>{{doc}}
+[[Category:Formatting templates|{{PAGENAME}}]]</noinclude>

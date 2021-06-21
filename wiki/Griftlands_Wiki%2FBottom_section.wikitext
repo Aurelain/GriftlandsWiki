@@ -1,0 +1,15 @@
+<div class="fpbox mobilecollapsible expanded" id="fpwiki" style="text-align: center;">
+<div class="heading mobileonly mobileleft">Wiki</div>
+<div class="body">
+<div class="linkslabel">Help Wiki</div>
+<div class="fplinks"><!--
+-->{{FP link|gphelp:Contents|General Help|size=wide}}<!--
+-->{{FP link|gphelp:Getting Started|Getting Started|size=wide}}<!--
+-->{{FP link|gphelp:Editing pages|Editing pages|size=wide}}<!--
+-->{{FP link|gphelp:Starting a new page|New pages|size=wide}}<!--
+-->{{FP link|gphelp:Moving a page|Moving pages|size=wide}}<!--
+-->{{FP link|gphelp:Basic images|Basic images|size=wide}}<!--
+-->{{FP link|gphelp:Links|Links|size=wide}}<!--
+--></div>
+</div>
+</div><!--END Wiki box--><noinclude>[[Category:Front page sections]]</noinclude>

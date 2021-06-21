@@ -1,0 +1,54 @@
+<!-- testbox, very basic, with a switch for the header color, not quite like in the game yet! -->
+<includeonly>
+{| style="float:right; width: 300px; background:#001011; border-width: 3px 0 3px 0; border-style: solid; border-color:#02F0EC; padding: 5px;"
+|-
+<!--
+{{#if: {{{header|}}} | 
+! colspan="2" align="right" {{!}} {{#switch:{{lcfirst:{{{header}}}}}
+|neg=<div style="text-align: left; color: #8b81db; font-size: 100%; padding: 4px; background:#56528E; text-transform: uppercase; margin: -8px;">Negotiation Card<div style="float: right; color:#FFF;">{{#if: {{{whichitem|}}} | {{{whichitem}}} }}</div></div>
+|sal=<div style="text-align: left; color: #eaa777; font-size: 100%; padding: 4px; background:#c37944; text-transform: uppercase; margin: -8px;">Sal Card<div style="float: right; color:#FFF;">{{#if: {{{whichitem|}}} | {{{whichitem}}} }}</div></div>
+|rook=<div style="text-align: left; color: #c1d337; font-size: 100%; padding: 4px; background:#809017; text-transform: uppercase; margin: -8px;">Rook Card<div style="float: right; color:#FFF;">{{#if: {{{whichitem|}}} | {{{whichitem}}} }}</div></div>
+|smith=<div style="text-align: left; color: #7dd8d8; font-size: 100%; padding: 4px; background:#4f9899; text-transform: uppercase; margin: -8px;">Smith Card<div style="float: right; color:#FFF;">{{#if: {{{whichitem|}}} | {{{whichitem}}} }}</div></div>
+|host=<div style="text-align: left; color: #ed8b92; font-size: 100%; padding: 4px; background:#BA5A61; text-transform: uppercase; margin: -8px;">Hostility Card<div style="float: right; color:#FFF;">{{#if: {{{whichitem|}}} | {{{whichitem}}} }}</div></div>
+}} }}<br>-->
+|-
+<!-- nicht schön, dafür selten! -->
+{{#if: {{{test|}}} | 
+! colspan="2" {{!}} {{#switch:{{lcfirst:{{{test}}}}} 
+| test1=<div style="background:#8b81db; width:100%; padding-right:8px;"><div style="text-align: left; color: #8b81db; font-size: 100%; padding: 4px; background:#56528E; text-transform: uppercase; margin: -8px; width:50%; height:25px; border-radius: 0 0 10px 0;">Title</div><div style="text-align: right; color: #FFF; font-size: 100%; padding: 4px; text-transform: uppercase; height:25px; margin-left: 142px; margin-top:-33px; width:50%;">{{#if: {{{rarity|}}} | {{{rarity}}} }}</div></div>
+| test2=<div style="background:#eaa777; width:100%; padding-right:8px;"><div style="text-align: left; color: #eaa777; font-size: 100%; padding: 4px; background:#c37944; text-transform: uppercase; margin: -8px; width:50%; height:25px; border-radius: 0 0 10px 0;">Title</div><div style="text-align: right; color: #FFF; font-size: 100%; padding: 4px; text-transform: uppercase; height:25px; margin-left: 142px; margin-top:-33px; width:50%;">{{#if: {{{rarity|}}} | {{{rarity}}} }}</div></div>
+}} }}<br>
+|-
+| <div style="color:#7EBE63;">Availabilty</div> || <div style="color:#7EBE63;">{{#if: {{{availabilty|}}} | {{{availabilty}}} }}</div>
+|-
+{{#if: {{{composure|}}} | {{!}} <div style="color:#a3fbff;">Composure</div> {{!!}} {{{composure}}} }}
+|-
+{{#if: {{{expend|}}} | {{!}} <div style="color:#a3fbff;">Expend</div> {{!!}} {{{expend}}} }}
+|-
+{{#if: {{{destroy|}}} | {{!}} <div style="color:#a3fbff;">Destroy</div> {{!!}} {{{destroy}}} }}
+|-
+|}</includeonly><noinclude>
+
+{{testbox
+|header = neg
+|whichitem = {{Rarity|Common}} 
+|test=test1
+|rarity={{Rarity|Common}} 
+|availabilty = 2
+|composure = text
+|expend = text
+|destroy = 
+}}
+{{clear}}
+{{testbox
+|header = sal
+|whichitem = {{Rarity|Uncommon}} 
+|test=test2
+|rarity={{Rarity|Uncommon}}
+|availabilty = 2
+|composure = text
+|expend = text
+|destroy = 
+}}
+
+[[Category:Templates]]</noinclude>

@@ -1,0 +1,4 @@
+{{copyrightbox
+|text=This file is '''copyrighted'''. The copyright holder has given '''permission''' for its use.
+}}<noinclude>
+[[Category:Copyright templates|{{PAGENAME}}]]</noinclude>

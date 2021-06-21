@@ -1,0 +1,11 @@
+{{doc/start}}
+{{Tl|citation needed}}
+* Tells a visitors that the statement is not supported by any form of given evidence.
+* Displays: <sup>[''[[wikipedia:Citation needed|<span title="This claim needs references to reliable sources">citation&nbsp;needed</span>]]'']</sup>
+* If you see citation needed somewhere, try to prove it (or to prove it's wrong)
+* A citation needed should be fixed as soon as possible
+
+'''Do not add this template onto your own contributions.''' If you add something but can't provide valid source along with it, then don't add it at all.
+
+Any pages using this template will be automatically placed in the [[:Category:Citation needed|Citation needed]] category.
+{{doc/end}}

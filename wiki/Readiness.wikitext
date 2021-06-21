@@ -1,0 +1,24 @@
+{{Card
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Counter]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Readiness
+|upgrade2 = Stone Readiness}}
+{{Quote|Plan? I never have a plan, things always just fall into place.}}
+
+'''Readiness''' is a 1-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "Draw 3 cards. Gain 2 '''Counter'''."
+
+==Upgrades==
+After accruing 9 experience '''Readiness''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Readiness.png|150px]]
+|[[File:Stone Readiness.png|150px]]
+|-
+!Draw '''4''' cards.
+!Also adds 2 '''Defense'''.
+|}

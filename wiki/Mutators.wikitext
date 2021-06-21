@@ -1,0 +1,99 @@
+'''Mutators''' are a setting in the start menu to customize the game and add new challenges or buffs to the Hero. Mutators can be randomized to add even more challenge to playthrough.
+
+==List of Mutators==
+{| class="wikitable" width="80%"
+!Mutator
+!Effect
+|-
+|style="text-align:center"|[[File:Mutator animal lover.png|48px]]<br>'''Animal Lover'''
+|Own up to 3 pets.
+|-
+|style="text-align:center"|[[File:Mutator barbarous.png|48px]]<br>'''Barbarous'''
+|There no repercussions for murder.
+|-
+|style="text-align:center"|[[File:Mutator battle bundle.png|48px]]<br>'''Battle Bundle'''
+|Draft 3 packs of battle cards to augment your starting deck, then remove 3 cards from your deck.
+|-
+|style="text-align:center"|[[File:Mutator brilliance.png|48px]]<br>'''Brilliance'''
+|The max XP of all cards and grafts is reduced by 50%.
+|-
+|style="text-align:center"|[[File:Mutator charisma.png|48px]]<br>'''Charisma'''
+|Draft a staring negotiation deck of 10 cards.
+|-
+|style="text-align:center"|[[File:Mutator contaminated equipment.png|48px]]<br>'''Contaminated Equipment'''
+|Whenever you install a graft, gain [[Exhaustion]] and [[Mental Block]].
+|-
+|style="text-align:center"|[[File:Mutator elimination.png|48px]]<br>'''Elimination'''
+|Removing cards at the shops can be done any number of times.
+|-
+|style="text-align:center"|[[File:Mutator first impressions.png|48px]]<br>'''First Impressions'''
+|Receive a random relationship each time you meet someone for the first time.
+|-
+|style="text-align:center"|[[File:Mutator giant mechs.png|48px]]<br>'''Giant Mechs'''
+|Mechs are bigger, have more health and do more damage.
+|-
+|style="text-align:center"|[[File:Mutator havarian mulligan battle.png|48px]]<br>'''Havarian Mulligan<br>(Battle)'''
+|Draft two sets of 5 battle cards with a chance to reroll specific cards.
+|-
+|style="text-align:center"|[[File:Mutator havarian mulligan negotiation.png|48px]]<br>'''Havarian Mulligan<br>(Negotiation)'''
+|Draft two sets of 5 battle cards with a chance to reroll specific cards.
+<!--|-
+|style="text-align:center"|[[File:Mutator hollow.png|48px]]<br>'''Hollow'''
+|You no longer restore resolve after battle.-->
+|-
+|style="text-align:center"|[[File:Mutator insomnia.png|48px]]<br>'''Insomnia'''
+|Sleeping no longer restores health, resolve, or removes status cards. 
+|-
+|style="text-align:center"|[[File:Mutator juggernaut.png|48px]]<br>'''Juggernaut'''
+|All fighters gain 1 Power at the end of their turn.
+|-
+|style="text-align:center"|[[File:Mutator land of plenty.png|48px]]<br>'''Land of Plenty'''
+|After every battle and negotiation, draft both a negotiation card and a battle card.
+|-
+|style="text-align:center"|[[File:Mutator loyalty.png|48px]]<br>'''Loyalty'''
+|Hired allies no longer leave your party.
+|-
+|style="text-align:center"|[[File:Mutator mental overload.png|48px]]<br>'''Mental Overload'''
+|You no longer discard your hand at the end of your turn. Affects both combat and negotiations.
+|-
+|style="text-align:center"|[[File:Mutator mutator.png|48px]]<br>'''Mutator'''
+|When you upgrade a card, choose from two random cards instead.
+|-
+|style="text-align:center"|[[File:Mutator negotiation bundle.png|48px]]<br>'''Negotiation Bundle'''
+|Draft 3 packs of negotiation cards to augment your starting deck.
+|-
+|style="text-align:center"|[[File:Mutator parasitology.png|48px]]<br>'''Parasitology'''
+|Start the run infected with bog parasites.
+|-
+|style="text-align:center"|[[File:Mutator pet owner.png|48px]]<br>'''Pet Owner'''
+|You start the run with a random pet.
+|-
+|style="text-align:center"|[[File:Mutator picky draft battle.png|48px]]<br>'''Picky Battler'''
+|Create a starting battle deck from a large grid of cards.
+|-
+|style="text-align:center"|[[File:Mutator picky draft negotiation.png|48px]]<br>'''Picky Negotiator'''
+|Create a starting negotiation deck from a large grid of cards.
+|-
+|style="text-align:center"|[[File:Mutator relatable.png|48px]]<br>'''Relatable'''
+|Everyone you meet for the first time will dislike you.
+|-
+|style="text-align:center"|[[File:Mutator roll with it.png|48px]]<br>'''Roll With It'''
+|You can no longer skip card drafts.
+|-
+|style="text-align:center"|[[File:Mutator starved.png|48px]]<br>'''Starved'''
+|Battles and Negotiations no longer offer card rewards.
+|-
+|style="text-align:center"|[[File:Mutator toolbox.png|48px]]<br>'''Tool Box'''
+|Draft two item cards at the start of the game. They have 1 additional charge.
+|-
+|style="text-align:center"|[[File:Mutator unnatural growth.png|48px]]<br>'''Unnatural Growth'''
+|All cards require a random amount of experience to upgrade.
+|-
+|style="text-align:center"|[[File:Mutator veteran.png|48px]]<br>'''Veteran'''
+|Draft a starting combat deck of 10 cards.
+|-
+|style="text-align:center"|[[File:Mutator why me.png|48px]]<br>'''Why Me?'''
+|Every enemy has a Vendetta.
+|}
+
+[[Category:Game]]

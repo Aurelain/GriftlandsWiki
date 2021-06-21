@@ -1,0 +1,261 @@
+{{stub}}{{Infobox custom|image=Faction admiralty.png|name=Admiralty|row1 data=Oolo, Pengemunt, Frizz|row1 label=V.I.P(s)|row2 data=[[Murder Bay]]|row2 label=Territory|row3 data=Intelligence Officer, Coin Trader, Weaponsmith, Patrol Leader, Clerk, Guard, Goon, Promoted Goon|row3 label=Titles}}{{quote|The Admiralty act like the tough guys 'round here but they're as broke and corrupt as the rest.|Fssh}}
+
+'''The Admiralty''' is the military force of the Deltrean Empire occupying parts of [[Havaria]], notably [[Murder Bay]]. Many of the '''Admiralty''' soldiers find their station in the Griftlands disdainful, and are not afraid to treat the people living there as such. Due to being isolated across the Heshian Sea from their homeland, there are little to no repercussions for harassing the citizens of Murder Bay. Many of the Admiralty act as thugs in uniform, enacting tolls, shakedowns, and beatings to people as they see fit. As such, their presence in Murder Bay is highly unpopular with its residents and their patrols and supply lines are frequently harassed by [[Spree|the Spree]].
+
+== Negotiation Pattern ==
+
+Admiralty negotiate through creating annoying arguments that the player has to constantly deal with, in addition to incepting '''Planted Evidence''' that the player has to protect. '''Planted Evidence''' can be extremely dangerous if unprotected, because of how much damage they deal to the player's core arguments, especially on high [[Difficulty]]. Their arguments, if not dealt with quickly, will drain the player's [[Resolve]], [[Shills]], and can fill up the player's draw pile with trash cards.
+=== Abuse of Power ===
+
+'''Abuse of Power''' is the core argument of all admiralty. It has "At the start of the character's turn, incept a '''Planted Evidence''' argument if one does not already exist". '''Planted Evidence''' is a bounty which has 1 Resolve, and has "When this argument is dismissed, deal x damage to the owner's core argument", where x is equal to twice the current [[Difficulty]].
+
+=== Interrogate ===
+
+Starting from the 1st turn, every 3 turns, the admiralty character will create an '''Interrogate''' argument. '''Interrogate''' is an argument which continuously deals damage to the player's argument. The Resolve and the damage range of this argument is determined by the current Difficulty level. '''Interrogate Plus''' also has "When this argument destroys another argument, restore 3 core Resolve."
+
+If the [[Difficulty]] is 3 or higher, starting from the 1st turn, every 6 turns, an additional '''Interrogate''' will be created.
+
+=== Paper Pusher ===
+
+When negotiating with an Admiralty Clerk, every time they will create '''Interrogate''', a '''Paper Pusher''' argument can be created instead. It has higher resolve than '''Interrogate''', and has "Insert a [[Baffled]] card into the player's draw pile for each stacks at the beginning of the owner's turn.".
+
+=== Frisk ===
+
+Starting from the 2nd turn, every 3 turns, there is a 50% chance that this character will create a '''Frisk''' argument. It has "At the start of this player's turn, steal 10 [[Shills]] from the opponent and remove 1 '''Frisk'''". The amount of stacks created is equal to the current Difficulty. Only 1 '''Frisk''' argument can be created throughout a negotiation.
+
+=== Damage ===
+
+Admiralty will attack twice every 3 turns, starting from the 3rd turn. Otherwise the character will attack once.
+
+=== Composure ===
+
+Starting from the 2nd turn, every 3 turns, if no '''Frisk''' argument will be created, composure will be applied instead. The amount applied is equal to 1 + the current Difficulty.
+
+== Notable Admiralty Members ==
+
+*[[Oolo]]
+*[[Pengemunt]]
+*[[Frizz]]
+
+== Members ==
+{| class="wikitable sortable"
+!Name
+!Species
+!Title
+!Description
+!Appearance
+|-
+|Frizz
+|Jarackle
+|Weaponsmith
+|Frizz crackles with static discharge from her wares. Best to stay a few feet back.
+|
+|-
+|Oolo
+|Kra'deshi
+|Intelligence Officer
+|Oolo doesn't often ask for help, so it says volumes of how much crime has come to a head in Murder Bay. Nevertheless, she's tenacious enough to 
+see the Admiralty to victory, and cunning enough to navigate the quagmire of bureaucracy and corruption in the ranks, while still coming out on top.
+|[[File:Oolo Mugshot.png|125px]]
+|-
+|Pengemunt
+|Kra'deshi
+|Coin Trader
+|Pengemunt carries himself with the tell-tale gait of an aerostat officer.
+|[[File:Pengemunt.png|125px]]
+|-
+|Ashgora
+| rowspan="5" |Human
+| rowspan="8" |Patrol Leader
+|With a name like Ashgora it's clear he comes from a pedigree. No doubt his parents wish he'd stop drowning in the gene pool.
+|[[File:Ashgora Mugshot.jpg|125px]]
+|-
+|Cambury
+|Cambury has a reputation for eloquence and poise in difficult situations. It'd be fun to see if it holds up.
+|[[File:Cambury.jpg|125px]]
+|-
+|Ebbe
+|You've heard Ebbe has a steel gut, a steel toe, and a steely eye. So don't punch him in any of those places.
+|[[File:Ebbe.jpg|125px]]
+|-
+|Gen
+|Folks say Gen has been talking to revolutionary tipes. but how would anyone know? It's not like they wear a uniform.
+|[[File:Gen.jpg|125px]]
+|-
+|Winnie
+|There's a curl to Winnie's lip that might suggest a sense of humor buried deep down inside — or maybe just a bad smell.
+|[[File:Winnie.jpg|125px]]
+|-
+|Feldspar
+|Shroke
+|Feldspar has a reputation for fixing difficult problems, when he's not making problems ''more'' difficult, first.
+|
+|-
+|Asnitho
+| rowspan="3" |Kra'deshi
+|Asnitho likes to spend her time off walking in nature. And she's got the [[yote]] scars to prove it.
+|
+|-
+|Phinoon
+|Phinoon is often seen killing it on the dance floor, but it's unclear if this means he's a good dancer or a terrible hunter.
+|[[File:Phinoon.jpg|125px]]
+|-
+|Cadwa
+| rowspan="7" |Clerk
+|The name Cadwa comes from an old folk story about outsmarting a cruel foreman, but as a bureaucrat, ''this'' Cadwa definitely has the upper hand.
+|
+|-
+|Fyrdinan
+|Shroke
+|Shroke aren't usually drawn to bureaucracy, but then, who is?
+|[[File:Fyrdinan.jpg|125px]]
+|-
+|Lasquo
+| rowspan="4" |Human
+|As with most Admiralty, Lasquo is only hard on crime that doesn't pay
+|[[File:Lasquo.jpg|125px]]
+|-
+|Rudana
+|What Rudana has sacrificed in scruples, he's made up for in passive aggression.
+|[[File:Rudana.jpg|125px]]
+|-
+|Sandrano
+|Sandrano chose his career based off the assumption that desk jockeys get the best desk tchochkes.
+|[[File:Sandrano.jpg|125px]]
+|-
+|Yunni
+|When you need the fastest pencil pusher in the West, you need Yunni
+|[[File:Yunni.jpg|125px]]
+|-
+|Spatz
+|Jarackle
+|N/A
+|[[File:Spatz.jpg|125px]]
+|-
+|Alo
+| rowspan="8" |Human
+| rowspan="13" |Guard
+|It's clear at a glance that Alo dislikes her job. Maybe making it a little more pleasant might earn you some traction.
+|[[File:Alo.png|125px]]
+|-
+|Aweir
+|Folks often look to Aweir as a natural leader, even if the hierarchy doesn't necessarily agree.
+|[[File:Aweir.jpg|125px]]
+|-
+|Feporo
+|Sometimes when you stare into the void, Feporo stares back.
+|[[File:Feporo.jpg|125px]]
+|-
+|Gao
+|Gao has one of those faces you love to hate. Or hate to love? It's interchangeable, really.
+|
+|-
+|Grex
+|It's easy to fell sorry for someone with a face like Grex's. At least, Grex thinks it should be.
+|[[File:Grex.jpg|125px]]
+|-
+|Oso
+|Oso has been in the griftlands for only a year, but he seems to be fitting in well.
+|[[File:Oso.jpg|125px]]
+|-
+|Ruck
+|Ruck's bar brawles and raucous laughter alike have earned her a reputation she doesn't semm quick to dispel.
+|[[File:Ruck.jpg|125px]]
+|-
+|Ton
+|In the grand scheme of things, Ton does pretty well for himself. On the day to day, though, he usually comes up short.
+|[[File:Ton.jpg|125px]]
+|-
+|Dano
+|Shroke
+|Word is Dano spends her downtime knitting and her uptime hitting. Best to approach her when her hands are empty, either way.
+|[[File:Dano.jpg|125px]]
+|-
+|Heleet
+| rowspan="3" |Kra'deshi
+|It's hard to believe Heleet has a reputation for being a bit of a Casanova, but then you were always immune to such charms.
+|
+|-
+|Monid
+|Monid supposedly knows the entire Heshian tract by heart, but since she's the only one that does you'll just have to take her word for it.
+|[[File:Monid.jpg|125px]]
+|-
+|Nand
+|Rumor has it Nand has been thinking about running for leadership. It's unfortunate that he doesn't live in a democracy.
+|
+|-
+|Zita
+|Jarackle
+|For a person who has friends, Zita hasn't always been known to treat them very well.
+|[[File:Zita.jpg|125px]]
+|-
+|Ceni
+| rowspan="8" |Human
+| rowspan="12" |Goon
+|Ceni's squint suggests he might be a slow reader. Best not to ask him about it, though.
+|
+|-
+|Dony
+|Dony believes the Admiralty is doing Hesh's work. Maybe someone should tell the Cult that.
+|
+|-
+|Efi
+|It's clear that Efi is difficult to get along with. But aren't the most challenging conquests often the most rewarding?
+|
+|-
+|Fizluck
+|Fizluck prides himself on work well done, even if it's work that never needed doing.
+|
+|-
+|Peri
+|Peri is rumored to be engaged in criminal activity on the side. Regardless of if it's true, you'd hate to be the one who started the rumor.
+|
+|-
+|Rorok
+|Like many of the rank and file, Rorok finds it easier to enforce the laws she makes up on the spot.
+|[[File:Rorok.jpg|125px]]
+|-
+|Teema
+|Where there's a Teema, there's a way. Unfortunately, the way might just be closed to you.
+|[[File:Teema.jpg|125px]]
+|-
+|Zex
+|It's easy to recognize the rodent-like cunning in Zex's eyes: it's a key survival trait in the griftlands.
+|
+|-
+|Clove
+| rowspan="2" |Jarackle
+|Some folks believe the admiralty brings order to the griftlands. Clove knows if that's true, it's a tall one.
+|
+|-
+|Cobb
+|Surviving Admiralty bootcamp requires either the very cunning or the very resilient. It's unclear if Cobb is either of these.
+|
+|-
+|Fanda
+|Kra'deshi
+|Fanda can often be heard muttering a prayer under her breath, even when she's making life difficult for others.
+|
+|-
+|Riito
+|Shroke
+|When you want to put a wall between yourself and the world, you could do worse than Riito.
+|
+|-
+|Bebus
+| rowspan="2" |Jarackle
+| rowspan="2" |Promoted Goon
+|Bebus never aspired to greatness, but a sliver of it sought him out all the same.
+|[[File:Bebus.jpg|125px]]
+|-
+|Prent
+|Some folks might describe Prent as tenacious, others as just vindictive. Two coins, same purse.
+|[[File:Prent.jpg|125px]]
+|}
+
+== Trivia ==
+
+* The Admiralty have the most unique members, boasting a cast of 44 characters.
+
+[[Category:Factions]]
+[[Category:Admiralty]]

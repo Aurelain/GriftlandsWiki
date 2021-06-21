@@ -1,0 +1,82 @@
+{{Quote|The best way to take a hit is to be in another place when it comes.}}
+
+'''Feint''' is a 1-cost Basic '''Maneuver''' card for [[Sal]]. It has the effect "Apply 4 [[Defense]]."
+
+==Upgrades==
+After accruing 6 experience '''Feint''' can be upgraded.
+
+{{Card
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Defense]]
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Boosted Feint
+|upgrade2 = Spined Feint
+|upgrade3=Feint of Vision
+|upgrade4=Feint of Clarity
+|upgrade5=Lucid Feint
+|upgrade6=Rival's Feint
+|upgrade7=Following Feint
+|upgrade8=Feint of Hesh
+|upgrade9=Kra'deshi Feint
+|upgrade10=Feint of the Healer}} 
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Defense
+!Effect
+|-
+|'''Boosted Feint'''
+|1
+|6
+|
+|-
+|'''Spined Feint'''
+|1
+|4
+|Apply 2 '''Counter'''
+|-
+|'''Feint of Vision'''
+|1
+|4
+|Draw a card.
+|-
+|'''Feint of Clarity'''
+|1
+|10
+|'''Destroy'''
+|-
+|'''Lucid Feint'''
+|1
+|7
+|'''Expend'''.
+|-
+|'''Rival's Feint'''
+|1
+|4
+|Gain 1 '''Combo'''.
+|-
+|'''Following Feint'''
+|1
+|4
+|Your next attack this turn deals maximum damage.
+|-
+|'''Feint of Hesh'''
+|1
+|4
+|Remove a random '''Debuff'''.
+|-
+|'''Kra'deshi Feint'''
+|1
+|4
+|'''Heal''' 4. '''Expend'''.
+|-
+|'''Feint of the Healer'''
+|1
+|4
+|'''Heal''' 1.
+|}

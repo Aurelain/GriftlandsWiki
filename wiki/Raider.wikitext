@@ -1,0 +1,34 @@
+'''Raiders''' are a [[Spree]] Title, given to the more brutal of the Spree bandits. 
+
+== Known Raiders ==
+{| class="wikitable"
+|+
+!Name
+!Race
+!Description
+!Appearance
+|-
+|Ash
+| rowspan="3" |Human
+|
+|
+|-
+|Hiqu
+|
+|
+|-
+|Kuga
+|
+|
+|-
+|Durno
+| rowspan="2" |Shroke
+|
+|
+|-
+|Phroluk 'Of the Beasts
+|
+|
+|}
+
+[[Category:Game]]

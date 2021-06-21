@@ -1,0 +1,18 @@
+
+
+{{Infobox
+| name     = Enit
+| image    = Enit.jpg
+| race     = Jarackle
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Jakes - Smuggler
+| ID       =
+}}{{quote|Enit's success as a smuggler is nevertheless earned— in spite of her being known to skim a little off the top of whatever it is she's smuggling.|Enit's Compendium Description}}'''Enit''' is a character in {{Gamename}} and a [[Jakes]] Smuggler.
+
+== Death Loot ==
+If '''Enit''' is killed in combat, she will drop a [[Triage]].
+[[File:Triage.png|none|thumb]]
+<br />
+[[Category:Characters]]

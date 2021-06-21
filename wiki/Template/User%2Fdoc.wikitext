@@ -1,0 +1,16 @@
+{{doc/start}}
+This template is used to link to users in [[Project:Admin noticeboard|admin noticeboard]] reports.
+
+'''Result''' : {{user|Game widow}}
+
+== Usage ==
+{{tlx|user|username}}<br>
+{{tlx|user|username|blocklog{{=}}n}}
+
+=== Parameters ===
+
+; username
+: Self explanatory. When not used, "Example" shows.
+; blocklog
+: Optional. Set this parameter to hide the block log link.
+{{doc/end}}

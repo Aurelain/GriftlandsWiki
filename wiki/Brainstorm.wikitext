@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Common
+|cardtype = Manipulate
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Brainstorm
+|upgrade2 = Stone Brainstorm}}
+{{Quote|Alright, I have a few ideas.}}
+
+'''Brainstorm''' is a 1-cost Common '''Manipulate''' card for [[Sal]]. It draws 3 cards.
+
+==Upgrades==
+After accruing 9 experience '''Brainstorm''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Brainstorm.png|150px]]
+|[[File:Stone Brainstorm.png|150px]]
+|-
+!Draw an extra card
+!Gain 2 [[Composure]]
+|-
+|}

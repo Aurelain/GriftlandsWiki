@@ -1,0 +1,33 @@
+This page lists updates to [[Griftlands]].
+
+Click on the image for more details.
+
+{| align="center"
+|[[File:Sal in Murder Bay Update poster.png|325px|link=Version History/Sal in Murder Bay Update|Sal in Murder Bay]]
+|[[File:Save the Yote Update poster.png|325px|link=Version History/Save the Yote Update|Save the Yote]]
+|[[File:Day of the Drusk Update poster.png|325px|link=Version History/Day of the Drusk Update|Day of the Drusk]]
+|-
+|[[File:Death Trophies Update poster.png|325px|link=Version History/Death Trophies Update|Death Trophies]]
+|[[File:Rise and Shine Update poster.png|325px|link=Version History/Rise and Shine Update|Rise and Shine]]
+|[[File:Beast Mode Update poster.png|325px|link=Version History/Beast Mode Update|Beast Mode]]
+|-
+|[[File:Rook Update poster.png|325px|link=Version History/Rook Update|Rook]]
+|[[File:Beasts of the Bog Update poster.png|325px|link=Version History/Beasts of the Bog Update|Beasts of the Bog]]
+|[[File:Dead Second Update poster.png|325px|link=Version History/Dead Second Update|Dead Second]]
+|-
+|[[File:Bog Automaton Update poster.png|325px|link=Version History/Bog Automaton Update|Bog Automaton]]
+|[[File:Sal Finale Update poster.png|325px|link=Version History/Sal Finale Update|Sal Finale]]
+|[[File:Prestige Update poster.png|325px|link=Version History/Prestige Update|Prestige]]
+|-
+|[[File:Rook Finale Update poster.png|325px|link=Version History/Rook Finale Update|Rook Finale]]
+|[[File:Sal Brawl Update poster.png|325px|link=Version History/Sal Brawl Update|Sal Brawl]]
+|[[File:Promoted Update poster.png|325px|link=Version History/Promoted Update|Promoted]]
+|-
+|[[File:Dailies Update poster.png|325px|link=Version History/Dailies Update|Dailies]]
+|[[File:Perks Update poster.png|325px|link=Version History/Perks Update|Perks]]
+|[[File:Mods Update poster.png|325px|link=Version History/Mods Update|Mods]]
+|-
+|[[File:Flourishes and Mettle Update poster.png|325px|link=Version History/Flourishes and Mettle Update|Flourishes and Mettle]]
+|[[File:Smith Day 3 Update poster.png|325px|link=Version History/Smith Day 3 Update|Smith Day 3]]
+|}
+[[Category:Game]]

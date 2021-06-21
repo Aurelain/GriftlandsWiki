@@ -1,0 +1,18 @@
+
+
+{{Infobox
+| name     = Dony
+| image    = Dony portrait.png
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Admiralty - Goon
+| ID       =
+}}{{quote|Dony believes the Admiralty is doing Hesh's work. Maybe someone should tell the Cult that.|Dony's Compendium Description.}}'''Dony''' is a character in {{Gamename}} and a [[Admiralty]] Goon.
+
+== Death Loot ==
+If Dony is killed in combat, she will drop an [[Admiralty Intel]].
+[[File:Admiralty Intel.png|none|thumb]]
+<br />
+[[Category:Characters]]

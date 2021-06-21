@@ -1,0 +1,15 @@
+{{Stub}}
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|upgradeable = Yes
+|expreq = 3
+|upgrade1 = Pale Muscle Memory: costs 1 '''Action'''
+|upgrade2 = Graven Muscle Memory: '''Improvise''' a card from your discard pile
+|character = Sal}}
+{{Quote|Practice makes perfect. Or at least good enough.}}
+
+'''Muscle Memory''' is a 2-cost uncommon  Maneuver-card for [[Sal]], it has the following effect: "'''Improvise''' a card from your draw pile. Duplicate it. '''Expend'''"
+
+== Upgrades ==

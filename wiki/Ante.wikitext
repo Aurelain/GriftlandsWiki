@@ -1,0 +1,29 @@
+{{Card
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|upgrade1 = Crown Ante
+|upgrade2 = Foot Ante
+|expreq = 6
+|character = Rook
+|upgradeable = Yes}}
+'''Ante''' is a 1-cost uncommon '''Manipulation''' card for [[Rook]]. it has the effect "Discard 2 cards, Set the coin."
+
+==Upgrades==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Crown Ante
+|1
+|NA
+|Discard 2 cards. Set the coin. If heads, draw a card.
+|-
+|Foot Ante
+|1
+|2 (Snails)
+|Discard 2 cards. Set the coin. If Snails deal 2 damage to a random argument
+|}

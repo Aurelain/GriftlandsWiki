@@ -1,0 +1,18 @@
+
+
+{{Infobox
+| name     = Elle
+| image    = Elle portrait.png
+| race     = Shroke
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Jakes - Lifter
+| ID       =
+}}'''Elle''' is a character in {{Gamename}} and a [[Jakes]] Lifter.
+
+== Death Loot ==
+If '''Elle''' is killed in combat, he will drop a [[Lifter Claw]].
+[[File:Lifter Claw.png|none|thumb]]
+<br />
+[[Category:Characters]]

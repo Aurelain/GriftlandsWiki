@@ -1,0 +1,93 @@
+{{doc/start}}
+This is the infobox for the game itself
+
+== Syntax ==
+<pre style="overflow-x: auto;">
+{{Infobox game
+|title = 
+|image = 
+|size = //optional
+|developer = 
+|publisher = 
+|engine = 
+|version = 
+|platform = 
+|releasedate = 
+|genre = 
+|mode = 
+|rating = 
+|media = 
+|requirements = 
+}}</pre>
+
+==Parameters==
+Aside from image and size, all parameters can be input as wikitext, including links, line breaks, and sometimes other templates.
+
+{| class="wikitable"
+! Parameter !! Desciption
+|-
+| title || The game's name, displayed on top of the infobox
+|-
+| image || The image to be used, without the File: prefix but with the extension. For example, if you wanted to use File:Wiki.png, you'd input Wiki.png 
+|-
+| size || The image size
+|-
+| developer || Developer. You may wish to use [[Template:Developer]] for this.
+|-
+| publisher || Publisher. You may wish to use [[Template:Publisher]] for this.
+|-
+| engine || The engine the game runs on
+|-
+| version || Most recently released version of the game. If your wiki does patch notes, you may wish to link to those.
+|-
+| platform || Platform(s) the game is available on
+|-
+| releasedate || When the game released
+|-
+| genre || Genre(s) the game is classified as
+|-
+| mode || Singeplayer, multiplayer, etc.
+|-
+| rating || ESRB / PEGI, etc. ratings
+|-
+| media || What media the game is available on (digital, cartridge, cd, etc.)
+|-
+| requirements || System requirements
+|}
+
+== Example ==
+{{Infobox game
+|title = {{Gamename}}
+|image = Curse hydra.png
+|size = 150px
+|developer = {{developer}}
+|publisher = {{publisher}}
+|engine = 
+|version = 
+|platform = PC
+|releasedate = Soon
+|genre = RPG
+|mode = Single player
+|rating = 
+|media = 
+|requirements = Cutting edge hardware
+}}
+<pre style="overflow-x: auto;">
+{{Infobox game
+|title = {{Gamename}}
+|image = Curse hydra.png
+|size = 150px
+|developer = {{developer}}
+|publisher = {{publisher}}
+|engine = 
+|version = 
+|platform = PC
+|releasedate = Soon
+|genre = RPG
+|mode = Single player
+|rating = 
+|media = 
+|requirements = Cutting edge hardware
+}}</pre>
+{{clear}}
+{{doc/end}}

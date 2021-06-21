@@ -1,0 +1,18 @@
+{{stub}}
+
+'''Factions''' are the various groups of individuals found in {{Gamename}}. Every character met in the Griftlands belongs to a '''faction'''. A character's faction determines what kind of [[Relationships#Banes and Boons|Social Bane or Boon]] is received upon being '''Loved''' or '''Hated''' by the character.
+
+*[[Admiralty]]
+*[[Bilebroker]]
+*[[Boggers]]
+*[[Civilian]]
+*[[Cult of Hesh]]
+*[[Grifters]]
+*[[Jakes]]
+*[[Rentorians]]
+*[[Rise]]
+*[[Spark Barons|Spark Baron]]
+*[[Spree]]
+
+[[Category:Characters]]
+[[Category:Factions]]

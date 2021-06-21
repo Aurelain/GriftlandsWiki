@@ -1,0 +1,90 @@
+{{stub}}
+
+ All game mechanics are subject to change/tweaking as the game is still in Alpha. Verification will be needed upon full release.
+{{Quote|This can go easy, or this can go hard.}}
+'''Negotiation''' is one of the two main gameplay aspects of [[{{Gamename}}]], along with [[Battle|Combat]]. '''Negotiations''' are used to intimidate, bribe, haggle, and attempt shakedowns. Most quests have an option that allows you to negotiate to either avoid combat entirely or give the Hero a powerful advantage in an upcoming fight.
+
+== Core Mechanics ==
+
+By default, each turn the player draws 5 [[Cards]] from their '''draw pile''' and has 3 Action Points to spend. Players use action points to play their cards. Once the deck has been drawn, all cards in the players '''Discard''' pile are shuffled and returned to their deck to be drawn again.
+
+Most cards have 1 or more '''key words''' on them which tells the player what effect they'll have.
+:*'''Draw''': Add a card from your draw pile to your hand.
+:*'''Replenish''': When drawn, this card draws another card immediately.
+:*'''Improvise''': Generate a set of random cards for the player to choose 1 of to add to their hand.
+:*'''Discard''': Discarding a card adds it to your discard pile and allows it to be shuffled and redrawn once your deck runs out of cards.
+:*'''Expend''': When played this card is removed from your deck until the end of battle.
+:*'''Destroy''': When played this card is permanently removed from your deck.
+:*'''Incept''': Create an argument/effect on your opponent's field.
+:*'''Evoke''': Play this card automatically once the condition is met from your hand (or deck if drawn mid turn).
+
+== Resolve ==
+
+Both parties in a negotiation have a core argument and start a negotiation with a set amount of '''resolve'''. '''Resolve''' is the equivalent to HP in battle.
+To win a negotiation, the player must destroy the core argument of the opponent.
+The player's resolve carries over between negotiations.
+If the player loses all resolve, they can no longer negotiate until they restore at least 1 resolve. 
+Resolve can be '''restored''' by resting each night, winning [[battle|battles]], drinking at a bar, meditating in a limited time event, or through the use of certain rare card effects.
+Max Resolve can be increased through [[grafts]] and certain random events.
+
+=== Composure ===
+
+Composure is the negotiation equivalent to defense in battles. All composure is lost at the end of each round and acts as temporary HP for that turn. Composure can be gained in a variety of ways and is key to keeping your arguments in play and to ensure you keep enough resolve to negotiate multiple times in a day.
+
+== Arguments ==
+
+Players and their opponents can deploy arguments, which have their own resolve and can be defended or attacked like the '''core argument'''. Destroying an argument will cause any excess damage to hit the core argument for the remainder, referred to as "overflow". Having cards that create multiple arguments can be a benefit or a detriment depending on your deck. The enemy's core argument, just like the player's, has a unique effect in the negotiation.
+
+*It's worth noting that there are so many different types of arguments and names for them it's simply not worth memorizing any of their effects besides '''influence''' and '''dominance''', but rather read and react to what the game throws at you instead.
+
+=== Friendly Arguments ===
+
+'''Friendly Arguments''' are arguments that are created on the player's side of the field. They are created by various card effects, [[relationships#banes and boons|social boons]], and [[grafts]].
+
+Some examples of friendly arguments:
+*'''Influence''' - Causes all diplomacy cards to deal max damage. Some cards use influence as a spendable resource to reduce card cost to 0, deal additional damage, or draw cards.
+*'''Dominance''' - Causes all hostility cards to deal +1 damage per stack. Reduces by 1 at the end of each round.
+*'''Stacked Deck''' - Allows you to prepare 1 card at the start of each turn.
+*'''Voice of the people''' - Deals damage to an opponent's argument at the end of your turn. Gains 1 damage (per boon) each round.
+
+=== Hostile Arguments ===
+
+'''Hostile Arguments''' are arguments created on your opponent's side of the field by either your opponent or through a Bounties/Incept. Arguments can be directly targeted.
+
+Some examples of hostile arguments:
+*'''Crafty''' - Hides all intents until removed.
+*'''Interrogate''' - Targets a random friendly argument each turn for 2-5 damage.
+*'''Paper Pusher''' - Inserts a ''Baffled'' card into your deck each turn. Baffle is unplayable and deals 2 damage to your core argument at the end of your turn.
+*'''Suspicion''' - Reduces diplomacy card damage by 1. 
+
+=== Intent ===
+
+Intents are your opponents upcoming actions. The inner ring of their arguments list all intents and allow you to preview upcoming actions. Intents cannot be directly targeted, though certain arguments can remove intents when dismissed. Just like the player can play multiple cards from their hand, opponents can queue up multiple intents on their turn.
+
+=== Bounties ===
+
+Bounties are target-able items that have a powerful effect when dismissed but are only present for a limited time. 
+
+Some examples of Bounties are:
+*'''Bone Tired''' - Deals high damage to your opponent's core argument when dismissed. Typically has very low resolve.
+*'''Impending Doom''' - When dismissed, grants 1 stack of impatience. Target starts the battle with an extra negative status (existential crisis).
+*'''Wanted!''' - When dismissed, deals 6-9 damage to the owner but they gain +1 Impatience.
+
+=== Personality ===
+
+'''Personalities''' are immune arguments that cannot be dismissed. Grafts can grant a personality to the player but otherwise they are enemy exclusive.
+
+An example of a common personality is:
+*'''Impatience''' - Intents and arguments deal more damage and new arguments gain composure when played. Impatience stacks every few turns and gets progressively worse as negotiations continue. Impatience works as a timer, forcing the player to end the negotiation quickly.
+
+== Conceding a Negotiation ==
+
+Players are given the option to concede a negotiation at the start of their turn. This fails the negotiation attempt but preserves your remaining resolve, allowing you to negotiate again without first meditating or drinking alcohol. Once you play a card you must wait for the turn to complete before conceding.
+
+== Renown ==
+
+Renown is an NPC only stat that correlates to how influential an character is in Griftlands. Characters with low social status like civilian laborers have low renown while characters with high social status like bartenders and wealthy merchants have high renown. Renown affects how difficult it is to negotiate with an NPC, how much resolve is required to convince a bouncer to evict a patron from a bar, and how much money has to be gifted to an NPC to acquire their [[Relationships#Banes and Boons|social boon]]. 
+
+See: [[Characters#Generic NPCs|Characters]]
+
+[[Category:Game]]

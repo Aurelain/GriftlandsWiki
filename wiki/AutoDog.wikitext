@@ -1,0 +1,28 @@
+{{stub}}
+
+'''AutoDogs''' are mechanical quadrupeds invented by the [[Spark Barons]] to serve as combat support drones, based off of the Automech. The [[Rise]] made some themselves, and call them '''Cobbledogs'''. Some AutoDogs can malfunction, and go feral, running into the wilderness of the bog and making a den. Like Crayotes, they are fairly weak individually but can be threatening when in packs.
+
+== AutoDog ==
+AutoDogs were invented after the creation of Automech.
+
+=== Combat ===
+
+=== Negotiation ===
+
+== Cobbledog ==
+Cobbledogs are the Rise's version of the Autodog.
+
+=== Combat ===
+
+=== Negotiation ===
+
+== Feral AutoDog ==
+Feral AutoDogs are AutoDogs that malfunctioned and ran away into the Bog. According to Fellemo, they "know the bog better than anything living" and make large dens with other feral AutoDogs. Some support the Automech Bossbit during the fight with it.
+
+=== Combat ===
+
+==== Moves ====
+
+* Bite: A low damage attack which applies 1 stack of Wound.
+
+[[Category:Enemies]]

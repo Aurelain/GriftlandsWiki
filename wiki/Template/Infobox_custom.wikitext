@@ -1,0 +1,30 @@
+<includeonly>{| class="infoboxtable"
+|-
+! colspan="2" class="infoboxname" |  <span style="font-weight:bold;">{{{name}}}</span>
+|-
+{{#if: {{{image|}}} | ! colspan="2" {{!}} [[File:{{{image}}}|250x250px]] | {{#ifeq: {{NAMESPACE}} | Template | | [[Category:Infoboxes lacking images]]}} }}
+|-
+! colspan="2" class="infoboxdetails" | Details 
+|-
+{{#if: {{{row1 label|}}} | {{!}} width=80 {{!}} <div>{{{row1 label}}}</div> {{!!}} {{{row1 data}}} }}
+|-
+{{#if: {{{row2 label|}}} | {{!}} <div>{{{row2 label}}}</div> {{!!}} {{{row2 data}}} }}
+|-
+{{#if: {{{row3 label|}}} | {{!}} <div>{{{row3 label}}}</div> {{!!}} {{{row3 data}}} }}
+|-
+{{#if: {{{row4 label|}}} | {{!}} <div>{{{row4 label}}}</div> {{!!}} {{{row4 data}}} }}
+|-
+{{#if: {{{row5 label|}}} | {{!}} <div>{{{row5 label}}}</div> {{!!}} {{{row5 data}}} }}
+|-
+{{#if: {{{row6 label|}}} | {{!}} <div>{{{row6 label}}}</div> {{!!}} {{{row6 data}}} }}
+|-
+{{#if: {{{row7 label|}}} | {{!}} <div>{{{row7 label}}}</div> {{!!}} {{{row7 data}}} }}
+|-
+{{#if: {{{row8 label|}}} | {{!}} <div>{{{row8 label}}}</div> {{!!}} {{{row8 data}}} }}
+|-
+{{#if: {{{row9 label|}}} | {{!}} <div>{{{row9 label}}}</div> {{!!}} {{{row9 data}}} }}
+|-
+{{#if: {{{row10 label|}}} | {{!}} <div>{{{row10 label}}}</div> {{!!}} {{{row10 data}}} }}
+|}
+</includeonly><noinclude>{{clear}}{{doc}}
+[[Category:Infobox templates]]</noinclude>

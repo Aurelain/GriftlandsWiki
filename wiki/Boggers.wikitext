@@ -1,0 +1,76 @@
+{{stub}}
+{{Infobox custom
+|name = Boggers
+|image = Faction boggers.png
+|row1 label = V.I.P(s)
+|row1 data = Glofriam
+|row2 label = Territory
+|row2 data = [[Grout Bog]], Deep Bog}}
+{{Quote|Hark! Whose footfalls fight against the sucking mouth of the Bog?|Bogger Cultivator}}
+
+'''The Boggers''' are a minor faction found in the [[Grout Bog]] that worship the bog. They're described by [[Prindo Kalandra|Kalandra]] as a group of mostly ex-[[Spark Barons]] who claim to hear the bog speak to them, while [[Fellemo]] describes them as "crackpots" who slacked off from working and hide in the deep bog to avoid punishment. Either way, they live and protect the deeper parts of the bog from prying hands, where the Barons have yet to successfully explore or excavate, and the bog keeps its darkest secrets. Many can be seen to have foreign bio masses growing out of their body, with strange eyes growing on their heads or neck.
+
+== Members ==
+{| class="wikitable"
+|+Compendium Boggers
+!Name
+!Title
+!Race
+!Description
+!Appearance
+|-
+|Glofriam
+|High Priest
+|Shroke
+|None
+|[[File:Mugshot bogger glofriam.jpg|125px]]
+|-
+|Grimdellia
+|Bogger
+| rowspan="2" |Human
+|Grimdellia was the name of a kra'deshi war queen, but you suspect this Grimdellia doesn't care much for ancient history.
+|[[File:Mugshot bogger grimdellia.jpg|125px]]
+|-
+|Krikith
+| rowspan="4" |[[Cultivator]]
+|You're not sure what came first: Krikith, or the sound of his name chirping through the bog.
+|[[File:Mugshot bogger krikith.jpg|125px]]
+|-
+|Pock
+| rowspan="2" |Jarackle
+|Pock chews a piece of leather between her front teeth like it's a pacifier.
+|[[File:Mugshot bogger pock.jpg|125px]]
+|-
+|Speerun
+|Speerun's foot falls are so silent that you wouldn't know she passed, if not for the impressions of her feet in the mud.
+|[[File:Mugshot bogger speerun.jpg|125px]]
+|-
+|Wreet
+|Shroke
+|Wreet's mouth is set in a line so thin it makes his face look like cracked porcelain.
+|[[File:Mugshot bogger wreet.jpg|125px]]
+|-
+|Bludd
+| rowspan="2" |[[Clobber]]
+| rowspan="2" |Human
+|Bludd's hands look clean, but something about them still makes you uncomfortable.
+|[[File:Mugshot bogger bludd.jpg|125px]]
+|-
+|Felena
+|Not much is known about Felena, but her eyes dance unsettlingly when she looks into yours.
+|[[File:Mugshot bogger felena.jpg|125px]]
+|}
+
+== Negotiation Behavior ==
+Boggers are significantly easier to negotiate with than other characters, because they don't create many arguments, and their core argument is too specific. However, their core arguments can disrupt some [[Influence]] and [[Dominance]] strategies.
+
+=== Unshakable ===
+'''Unshakable''' is Bogger's core argument. It has "At the end of every turn, (the active character) loses 1 [[Influence]] and 1 [[Dominance]]".
+
+=== Bog Boil ===
+Starting from the 3rd turn, every 3 turns, a '''Bog Boil''' argument will be created. It has 4 [[Resolve]], does 3 damage per stack each turn, and has "Restore resolve equal to damage dealt by this argument to a random friendly argument".
+
+=== Damage ===
+Boggers will deal damage twice on even numbered turns(3 times if [[Difficulty]] is 4 or higher) and deal slightly heavier damage on odd numbered turns.
+
+[[Category:Factions]]

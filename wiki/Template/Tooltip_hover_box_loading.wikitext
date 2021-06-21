@@ -1,0 +1,4 @@
+<onlyinclude>{{Tooltip hover box
+  |title=$1
+  |body=Loading...
+}}</onlyinclude><noinclude>[[Category:Tooltip templates]]</noinclude>

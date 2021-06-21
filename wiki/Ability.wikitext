@@ -1,0 +1,3 @@
+'''Ability''' is one of the card key words. It says "Gain a condition for the rest of this battle."
+
+[[Category:Keywords]]

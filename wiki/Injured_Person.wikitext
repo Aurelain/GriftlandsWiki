@@ -1,0 +1,94 @@
+'''Injured Person''' is the unofficial name for this Event. 
+
+== Involved People ==
+Injured Person: Any person who is not working as the chemist at the [[Better Living Chemist]].
+
+Attacking Party: Either:
+
+* An [[Admiralty]] Guard with an [[Admiralty]] backup. This is always the option if the injured person is a [[Spree]].
+* A [[Spree]] Thief or Thug with a [[Spree]] backup. This is always the option if injured person is an [[Admiralty]]. <br />
+
+== Script  ==
+''(Someone comes stumbling towards you, clutching His/Her gut like it might fall out)''
+
+Someone: Please! help me!
+
+Sal: hold on. What's happening?
+
+Someone: An Admiralty patrol just attacked me! But I ain't done nothing wrong! | Spree! They're tryin' to kill me! Please. there ain't no one else who can help!
+
+
+
+
+'''*Hide Someone Until the danger passes*'''
+
+Sal: Alright. Hide in the tree line and I'll keep them busy.
+
+Someone: Th-thank you!
+
+''(Someone Hobbles his/her way to the tree line and gets out of sight just in time)''
+
+''(Sure enough the Admiralty patrol comes hot on someones tail, breathless from the chase)''
+
+Leader: Hey, You! We're looking for a wanted criminal. Have you seen 'em?
+
+
+
+'''*Give up Someone*'''
+
+Sal: Actually, you know what? I have. Someone is all yours.
+
+Someone: You said you'd help me!
+
+Sal: I did. But thats before I knew you were a ''Wanted Criminal,'' so it doesn't count.
+
+Leader: Thank you citizen! This ones been a thorn in our sides too long!
+
+
+
+
+
+<br />
+
+== Results ==
+Someone is asking you to save their life. The outcomes are as follows: 
+
+
+
+<big>'''Hide {injured person} until the danger passes/Agree to protect {injured person}'''</big>
+
+-The attacking party arrives and is looking for the injured person.
+
+
+<small>'''Trick {attacking party} into looking elsewhere/Intimidate {attacking party}: (Hide and Protect)'''</small> 
+
+-Sal will initiate a negotiation against the head of the attacking party.
+
+-On success The attacking party will leave, and Good Samaritan side quest will activated
+
+
+<small>'''Defend {injured person}''': '''(Protect only)'''</small> 
+
+-Sal will initiate battle with the attacking party, if the player wins the Good Samaritan side quest will activate
+
+
+'''<small>Give up {injured person}</small>''': 
+
+-The player reveals the injured person, causing them to hate the player and the head of the attacking party to increase their opinion of you.
+
+
+
+'''<big>Leave {injured person} to his/her fate</big>''': 
+
+-The injured person has a 40% chance to die. If they did not die, they will dislike you.
+
+
+
+'''Good Samaritan Side Quest''' 
+
+This side quest activates when the player saves the injured person. The injured person become an Escort party member. The player must bring the injured person to [[Better Living Chemist]]. After moving 4 times, if the injured person is not brought to [[Better Living Chemist]], they will die. If they are brought to [[Better Living Chemist]], they will love the player(or become neutral if they hate the player before), and they will leave the party.
+
+== Transcript ==
+See [[Injured Person/Transcript]].
+
+[[Category:Sal Quests]]

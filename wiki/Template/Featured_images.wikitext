@@ -1,0 +1,12 @@
+<includeonly><center><slideboxlightshow halign="center" width="250" height="150">
+File:Steamscreenshot1.jpg
+File:Steamscreenshot2.jpg
+File:Steamscreenshot3.jpg
+File:Steamscreenshot4.jpg
+File:Steamscreenshot5.png
+File:Steamscreenshot6.png
+File:Steamscreenshot8.png
+File:Steamscreenshot9.png
+File:Steamscreenshot10.png
+File:Steamscreenshot11.png
+</slideboxlightshow></center></includeonly><noinclude>{{doc}}[[Category:Templates]]</noinclude>

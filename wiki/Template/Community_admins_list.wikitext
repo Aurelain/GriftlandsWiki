@@ -1,0 +1,9 @@
+<includeonly>
+== Community administrators ==
+{| style="width: {{{1|100%}}};"
+|-
+{{Wiki admin|LocalAdmin}}
+|}
+</includeonly><noinclude>{{doc}}
+
+[[Category:Templates]]</noinclude>

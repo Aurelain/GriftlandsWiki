@@ -1,0 +1,5 @@
+[[File:Shill.png|15px|link=Shills]] Shills<noinclude><br>
+== Use ==
+<pre>{{Shills}}</pre>
+
+[[Category:Icon templates|{{PAGENAME}}]]</noinclude>

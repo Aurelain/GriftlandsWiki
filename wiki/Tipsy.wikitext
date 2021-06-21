@@ -1,0 +1,7 @@
+{{Stub}}
+{{Card
+|decktype = 
+|cardtype = Status
+|character = Other
+|keywords = [[Destroy]], [[Sleep It Off]]
+|upgradeable = No}}

@@ -1,0 +1,24 @@
+{{Reupload}}
+
+{{Card
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|upgradeable = Yes
+|expreq = 8
+|upgrade1 = Pale Dead Draw
+|upgrade2 = Twisted Dead Draw}}
+{{Quote|Looks like you are all out off options friend.}}
+'''Dead Draw''' is a 2-cost Uncommon '''Manipulate''' card for [[Rook]]. It draws 2 cards then '''Gambles'''. If '''Heads''', these cards cost 1 action less.
+
+==Upgrades==
+After accruing 8 experience '''Dead Draw''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Pale Dead Draw.png|150px]]
+|[[File:Twisted Dead Draw.png|150px]]
+|-
+!Cost 1 action less
+![[Snails]] instead of [[Heads]]; Cost 1 action less
+|}

@@ -1,0 +1,6 @@
+'''Destroy''' is a game [[Key Words|key word]].
+
+==Effect==
+In game description: ''"Remove this card permanently."''
+
+[[Category:Keywords]]

@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Counter]], [[Wound]], [[Ability]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Initial Deepstance
+|upgrade2 = Deep Deepstance}}
+{{Quote|Footwork that's popular in Jarackle wresting, you can get a lot more heft in your attacks apparently.}}
+'''Deepstance''' is a 1-cost Rare '''Maneuver''' card for [[Sal]]. It says "[[Ability]]: Your [[Counter]] attacks apply [[Wound]] 1. [[Expend]]. "
+
+==Upgrades==
+At 7 experience '''Deepstance''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Initial Deepstance.png|150px]]
+|[[File:Deep Deepstance.png|150px]]
+|-
+!Gains [[Ambush]], loses [[Expend]].
+!Apply 2 [[Wound]] per [[Counter]].
+|}

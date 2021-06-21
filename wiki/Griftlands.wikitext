@@ -1,0 +1,40 @@
+{{Infobox game
+|title = Griftlands
+|image = Scr2.jpg
+|size = 250px
+|developer = [[Klei|Klei Entertainment]]
+|publisher = [[Klei|Klei Entertainment]]
+|engine = 
+|version = 
+|platform = PC
+|releasedate = July 11, 2019 (Alpha)
+|genre = Roguelike, Deck Building
+|mode = Singleplayer
+|rating = 
+|media = 
+|requirements = Requires a 64-bit processor and operating system
+}}
+
+[[file:hero1.png|110px|left|link=heroes]]
+[[Griftlands]] is a game created by [[Klei]], where everything is negotiable: money, loyalty—even morality. Choose your character and make your fortune. Griftlands was announced in 2015 as a new RPG, but the developers rebooted the project and turned Griftlands into a single-player deck building game. The alpha started exclusively on the EPIC game store first and costs $14.99.
+
+'''Early Roadmap'''<br>
+* '''Alpha:''' The Sal campaign (days 1 through 4) is released
+* '''Fall:''' Character 2 campaign (days 1 through ?) is released
+* '''Early Access:''' Character 3 campaign (days 1 through ?) is released
+* '''Launch:''' Full campaign for all characters released
+
+<ref>[https://forums.kleientertainment.com/forums/topic/107394-griftlands-reboot-alpha-and-roadmap/ Official site]</ref>
+
+== Team ==
+:'''Kevin Forbes:''' Design
+
+==Videos==
+{{#ev:youtube|rOy-0Folet4|300}}
+
+{{stub}}
+
+== References ==
+<references>
+</references>
+[[Category: Game]]

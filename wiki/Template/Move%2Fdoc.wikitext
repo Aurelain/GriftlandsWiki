@@ -1,0 +1,12 @@
+{{doc/start}}
+This template is used to suggest that a page should be moved (renamed) to a different title. Since there are no special rights required for page moves, this should be used only when a page move should be discussed first.
+
+The exception is images, which do require special rights for moves. This can be used on image pages even for routine moves.
+
+This template will add tagged pages to [[:Category:Pages to be moved]].
+
+==Usage==
+{{tlx|move|new title|reason}}
+
+Replace "new title" above with the suggested title for the page, and replace "reason" with a short description of the reason for doing so. The reason is technically optional, but omitting it is discouraged.
+{{doc/end}}

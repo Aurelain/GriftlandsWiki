@@ -1,0 +1,65 @@
+The Bog Parasites are [[Twig]], [[Stem]] and the cards they turn into, they are first obtained on day 2 as [[Rook]]. Everytime one of the Bog Parasites levels up it transforms into a random Bog Parasite 1 rarity higher, that also corresponds to the same deck-type, until reaching unique, where they cannot be upgraded anymore. 
+The rarities all have a different level of "usefulness":
+
+* basic: Negative effect
+* common, uncommon and rare: Positive effect, with a drawback (Get stronger the higher the rarity)
+* unique: Positive effect
+
+==Battle Parasites==
+Basic:
+
+* [[Twig]]
+
+Common:
+
+* [[Bog Brain]]
+* [[Neurotic Haze]]
+* [[Tendrils]]
+
+Uncommon:
+
+* [[Branch]]
+* [[Delirium]]
+* [[Fever]]
+
+Rare:
+
+* [[Beast of the Bog]]
+* [[Bough]]
+* [[Butcher of the Bog]]
+* [[Funky Fungi]]
+
+Unique:
+
+* [[Bog Symbiosis]]
+
+==Negotiation Parasites==
+Basic:
+
+* [[Stem]]
+
+Common:
+
+* [[Drowsiness]]
+* [[Earworm]]
+* [[Tinnitus]]
+
+Uncommon:
+
+* [[Memory Lapse]]
+* [[Scrub]]
+* [[Voices]]
+
+Rare:
+
+* [[Flower]]
+* [[Grandiosity]]
+* [[Hyperactive]]
+* [[Stutter]]
+
+Unique:
+
+* [[Bog Enlightenment]]
+
+
+[[Category:Rook cards]]

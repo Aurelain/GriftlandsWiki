@@ -1,0 +1,7 @@
+Gifting is an action you can take. Whenever the player talks to another sentient character that likes you, and does not have [[Plot Armor]], the player have the option to gift that character some amount of money. This will cause that character to love you, and grant whatever [[Social Boon]] they have to you.
+
+The amount of money required is determined by the following formula:
+
+Cost = 50 × max (2, [[Renown(NPC stat)|Renown]], [[Combat Strength]]).
+
+[[Category:Game]]

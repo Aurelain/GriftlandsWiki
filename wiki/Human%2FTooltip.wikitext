@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=<center>Human</center>
+  |body=<center>A soft-skinned species, typically found eking out a living in the griftlands.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

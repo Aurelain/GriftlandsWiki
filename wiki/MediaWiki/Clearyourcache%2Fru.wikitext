@@ -1,0 +1,9 @@
+<!--{{#vardefine:nstest|{{#ifeq: {{NAMESPACENUMBER}}|2|user|MediaWiki}}}}{{int:otherlanguages}}: [[:bg:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Български]] • [[:de:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Deutsch]] • [[:el:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Ελληνικά]] • [[:en:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|English]] • [[:es:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Español]] • [[:fr:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Français]] • [[:hu:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Magyar]] • [[:it:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Italiano]] • [[:ja:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|日本語]] • [[:ko:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|한국어]] • [[:nl:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Nederlands]] • [[:pl:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Polski]] • [[:pt:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Português]] • [[:pt-br:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Português do Brasil]] • [[:ru:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Русский]] • [[:tr:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|Türkçe]] • [[:zh:{{{1|{{#var:nstest}}:{{PAGENAME}}}}}|中文]]
+<hr>-->
+<span class="warning">'''Изменения CSS и JavaScript должны соответствовать [[:gphelp:Wiki design rules|правилам оформления вики]].'''</span>
+<hr>
+'''Замечание.''' Возможно, после сохранения вам придётся очистить кэш своего браузера, чтобы увидеть изменения.
+* '''Firefox / Safari:''' Удерживая клавишу ''Shift'', нажмите на панели инструментов ''Обновить'' либо нажмите ''Ctrl-F5'' или ''Ctrl-R'' (''⌘-R'' на Mac)
+* '''Google Chrome:''' Нажмите ''Ctrl-Shift-R'' (''⌘-Shift-R'' на Mac)
+* '''Internet Explorer:''' Удерживая ''Ctrl'', нажмите ''Обновить'' либо нажмите ''Ctrl-F5''
+* '''Opera:''' Выберите очистку кэша в меню ''Инструменты → Настройки''

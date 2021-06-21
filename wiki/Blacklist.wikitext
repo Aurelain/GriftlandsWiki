@@ -1,0 +1,8 @@
+{{Stub}}
+{{Card
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Take Names]], [[Expend]]
+|upgradeable = No
+|character = Rook}}

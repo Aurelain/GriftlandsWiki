@@ -1,0 +1,3 @@
+<includeonly>{{#switch: {{{1}}}
+|Basic = [[File:Rarity basic.png|24px|link=]]&nbsp;<span style="color:#a5daaa">Basic</span>|Common = [[File:Rarity common.png|24px|link=]]&nbsp;<span style="color:#ecf2f2">Common</span>|Uncommon = [[File:Rarity uncommon.png|24px|link=]]&nbsp;<span style="color:#a5cfef">Uncommon</span>|Rare = [[File:Rarity rare.png|24px|link=]]&nbsp;<span style="color:#e9d64f">Rare</span>|Boss = [[File:Rarity boss.png|24px|link=]]&nbsp;<span style="color:#c669b2">Boss</span>|Unique = [[File:Rarity unique.png|24px|link=]]&nbsp;<span style="color:#c669b2">Unique</span>}}</includeonly>
+<noinclude>{{Doc}}[[Category:Icon templates|{{PAGENAME}}]]</noinclude>

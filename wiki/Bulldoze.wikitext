@@ -1,0 +1,24 @@
+{{Card
+|character = Sal
+|rarity = Rare
+|cardtype = Hostility
+|decktype = Negotiation
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Dominant Bulldoze
+|upgrade2 = Stone Bulldoze}}
+{{Quote|Outta my way!}}
+
+'''Bulldoze''' is a 2-cost Rare '''Hostility''' card for [[Sal]]. This will create the argument '''Bulldoze''' on your side. '''Bulldoze''' will give an action every time you destroy an argument. '''Bulldoze''' is an argument with 8 resolve.
+
+==Upgrades==
+After accruing 5 experience '''Bulldoze''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Dominant  Bulldoze.png|150px]]
+|[[File:Stone Bulldoze.png|150px]]
+|-
+!Gain 1 [[Dominance]]
+!Gain 4 [[Composure]]
+|-
+|}

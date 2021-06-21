@@ -1,0 +1,31 @@
+{{stub}}
+
+{{Infobox
+| name     = Prindo Kalandra
+| image    = Kalandra Mugshot.png
+| race     = Human
+| location = Havaria - Grout Bog
+| source   = 
+| reward   = 
+| related  = The Rise
+| ID       =
+}}
+
+{{quote|My workers like me. That's reason enough for the Barons to cast me as a villain.|Kalandra}}
+
+'''Prindo Kalandra''' is the current leader of [[Rise|The Rise]], and is found in Grout Bog. Despite her role being known by the [[Spark Barons]], Kalandra is allowed to organize Rise activities throughout the Bog and is well protected by her supporters.
+
+== Background ==
+
+Kalandra works at the excavation sites in Grout Bog for the Spark Barons. She is an adept of espionage and is a skilled leader, having earned the respect and loyalty of the other Rise members. However, not much is known of her past or how she came to be the head of the Rise movement in Grout Bog.
+
+== Combat ==
+
+Choosing to side with Fellemo on the final part of the bog expedition will have Rook fight Kalandra along with several Rise. Kalandra will have a vendetta against Rook for the entire fight. Sparing her will cause the player to get her Bane, "Buried", which inflicts 2 cripple on Rook at the start of every battle. Executing her will prevent this bane from affecting the final battle against the Bogger High Priest.
+
+== Trivia ==
+
+* Kalandra is the only non-Grifter to have two seperate outfits: Her Foreman outfit, and her Rise outfit.
+
+[[Category:Characters]]
+[[Category:Rise]]

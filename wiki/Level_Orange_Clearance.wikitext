@@ -1,0 +1,4 @@
+Level Orange Clearance
+Cost 2
+Remove all of opponent's intents.
+Expend.

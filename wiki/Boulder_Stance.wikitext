@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Ability]], [[Defense]], [[Expend]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Pale Stance
+|upgrade2 = Initial Stance}}
+{{Quote|Well, I sure as Hesh can't move the damn thing...}}
+'''Boulder Stance''' is a 2-cost Rare '''Maneuver''' card for [[Sal]]. It has the effect "[[Ability]]: Whenever you play a card, gain 1 [[Defense]]. [[Expend]]."
+
+==Upgrades==
+After accruing 5 experience '''Boulder Stance''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Pale Stance.png|150px]]
+|[[File:Initial Stance.png|150px]]
+|-
+!Costs 1.
+![[Ambush]]
+|}

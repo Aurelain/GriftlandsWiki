@@ -1,0 +1,33 @@
+{{doc/start}}
+This is just a generic infobox with a few sample fields
+== Usage ==
+<pre style="overflow: auto;">
+{{Questbox
+| questname     = 
+| difficulty    = 
+| focus     = 
+| description = 
+| rewards =
+}}
+</pre>
+
+==Example==
+{{Questbox
+| questname     = Another day in paradise
+| difficulty    = {{Difficulty|diff1}}
+| focus     = Combat and negotiation
+| description = What am I struggling with this infobox!
+| rewards = {{shills}}
+}}
+
+<pre style="overflow: auto;">
+{{Questbox
+| questname     = 
+| difficulty    = 
+| focus     = 
+| description = 
+| rewards = 
+}}
+</pre>
+{{clear}}
+{{doc/end}}

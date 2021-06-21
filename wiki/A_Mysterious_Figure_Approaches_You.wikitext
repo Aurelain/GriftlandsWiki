@@ -1,0 +1,186 @@
+{{stub}}
+
+'''A Mysterious Figure Approaches You''' is the unofficial name for when a Bilebroker approaches you in a random encounter. The only one who can approach Sal is Ximmon, if Ximmon is somehow dead the [[Events|Event]] will no longer be able to happen.
+
+<br />
+
+== Script #1 (Need an Edge) ==
+''(A mysterious figure approaches you.)''
+
+Ximmon: Greetings, Grifter.
+
+Ximmon: You look like you could use an edge.
+
+Sal: I've got two already, friend.
+
+Ximmon: I don't under-
+
+Ximmon: Oh.
+
+Ximmon: Your reffering to blades, while ''I'm'' referring to specially imported goods from the Roaloch.
+
+Ximmon: Are you interested?
+
+
+<nowiki>*</nowiki>'''Ask about the price*'''
+
+Sal: That's... suspiciously cheap.
+
+Sal: Whats the deal?
+
+Ximmon: You may take the deal or leave it.
+
+Ximmon: My reasons are my own.
+
+
+'''*Buy Item Card*'''
+
+Sal: Yeah, I'll take that.
+
+Ximmon: Thank you. Please use it responsibly.
+
+
+'''*Decline the offer*''' 
+
+(Not added yet)
+
+== Script #2 (A rare traveler) ==
+''(A mysterious figure approaches you.)''
+
+Ximmon: Greetings, grifter.
+
+Ximmon: It's rare I meet a fellow traveler in these parts.
+
+Sal: Really? I feel like I'm constantly running into people.
+
+Ximmon: Then you're fortunate. The isolation has made it difficult to complete my work
+
+Ximmon: Im a chemist; I've been experimenting with new ingredients, but I've only been able to test them on myself.
+
+Ximmon: Would you like to try one, and contribute your own experiences to the data?
+
+''(The stranger shows you a row of vials, their contents bubbling against the glass)''
+
+
+
+'''*Pick the Green Vile*'''
+
+Sal: What does the green one do?
+
+Ximmon: It rebalances the humors and flushes the system of toxins 
+
+Sal: Makes sense, Green is natural so it must be healthy.
+
+Ximmon: That's the idea. Although it took a surprising amount of ingredients to get it that color.
+
+Sal: Huh. not bad.
+
+
+
+'''*Pick the Blue Vile*'''
+
+(Not added yet)
+
+
+
+'''*Pick the Orange Vile*'''
+
+Sal: I'll give the orange one a try.
+
+Ximmon: Excellent choice
+
+Ximmon: It's a fermentation of ambergris and sundevil's spade. It invigorates the vitals and revitalizes the vigors.
+
+Sal: Huh. Nice.
+
+Sal: Phew! Invigorated is right!
+
+
+
+'''*Pick the swirly purple Vial*'''
+
+Sal: That one's interesting. Looks like the sky after a storm.
+
+Ximmon: Hmm, and just as unpredictable. This one has different results each time—
+
+Ximmon: But discovery favors the willing, I always say.
+
+Sal: Uh—
+
+Ximmon: Well, go on! Drink!
+
+Sal: Hmm.
+
+
+
+'''Outro'''
+
+''(Ximmon quickly jots down a note after watching your reaction)''
+
+Ximmon: Thank you for your participation. I hope we meet again soon-
+
+Ximmon: A follow up can only improve on the data.
+
+Sal: Hey, sure. Hey, this was ''safe'' right?
+
+Ximmon: I'm fairly confident! But, of course only time will truly tell.
+
+''(The mysterious figure leaves as silently as he arrived. after a moment he disappears from view)''
+
+Sal: Huh.
+
+== Results #1 (Need an edge) ==
+Ximmon is asking you to buy imported goods. The outcomes are as follows:
+
+
+(There are two possible Item cards Ximmon can offer which are Bile Grenade and Serrated Dirk)
+
+
+'''Buy Item card:''' 
+
+- Add Specified Item card to your deck
+
+-Give 20 Shills 
+
+
+'''Decline the offer:'''
+
+- Sal will simply decline the offer ending the Event 
+
+
+== Results #2 ==
+
+The Bilebroker will ask you to take one of four bottles for research. Their effects are as follows:
+
+
+'''Green Vial:''' 
+
+-Removes one Negotiation card.
+
+
+'''Blue Vial:'''
+
+- Upgrades one Negotiation card.
+
+
+
+'''Orange Vial:''' 
+
+-Gain 4 maximum health.
+
+
+'''Swirly Purple Vial:'''
+
+-Adds a 1 cost card with expend and sticky to your deck which spontaneously changes effects each turn. It expends after being played.
+
+'''<small>Possible effects include:</small>'''
+
+<small>-Gain 4 Combo</small>
+
+<small>-Deals 3 damage. Hits all Enemy Targets .</small>
+
+<small>-Deals 2 damage. Applies 3 Wound.</small>
+
+<small>-Heals 8 Health.</small>
+
+<small>-Gain 1 Power.</small>

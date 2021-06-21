@@ -1,0 +1,18 @@
+
+
+{{Infobox
+| name     = Cwoki
+| image    = Cwoki.jpg
+| race     = Human
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Jakes - Dockhand
+| ID       =
+}}{{quote|You've heard that Cwoki has a collection of trading cards depicting the upper echelon of the Heshian cult— from cardinals to archbishops. Of course, that's the Deltrean side. Unlikely Havarian clergy warrant any mention.|Cwoki's Compendium Description}}'''Cwoki''' is a character in {{Gamename}} and a [[Jakes]] Dockhand.
+
+== Death Loot ==
+If '''Cwoki''' is killed in combat, he will drop a [[Gaff]].
+[[File:Gaff.png|none|thumb]]
+<br />
+[[Category:Characters]]

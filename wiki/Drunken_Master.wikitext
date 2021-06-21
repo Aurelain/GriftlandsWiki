@@ -1,0 +1,24 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Tall Drunken Master
+|upgrade2 = Drunken-er Master}}
+{{Quote|Bar brawling has become something of a profession for Smith.}}
+
+'''Drunken Master''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It deals 2-10 base damage. It has the effect "Add a '''[[Tipsy]]''' card to your discards. Deals max damage if you have a '''[[Tipsy]]''' card in your hand."
+
+==Upgrades==
+After accruing 9 experience '''Drunken Master''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Tall Drunken Master.png|150px]]
+|[[File:Drunken-er Master.png|150px]]
+|-
+!Increased maximum damage.
+!The attack is Piercing.
+|}

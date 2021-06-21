@@ -1,0 +1,15 @@
+{{stub}}
+
+{{Infobox custom|name=Shel|image=Shel.jpg|row1 label=Faction|row1 data=Civilian|row2 label=Species|row2 data=Human|row3 label=Title|row3 data=Downtrodden Merchant|row4 label=Description|row4 data=Shel has a glint in her eye so sharp you could shuck an oyster off it.}}
+
+{{Quote|Shel swishes her knife through the air, cutting down some conjured-up ruffian.|Narrator}}
+
+'''Shel''' is a [[Civilian]], and is the sole bearer of the Downtrodden Merchant Title. She appears to be a merchant who is doing poorly, and usually resorts to doing things way out of her league, such as attempting to rob Sal (a well-equipped and trained bounty hunter) as well as attempting to fight a [[Grawkit]].
+
+== Encounters ==
+
+=== Sal ===
+In Sal's Story, Shel is a possible random encounter while traveling between points. On the road, Shel attempts to mug Sal.
+
+=== Rook ===
+<br />

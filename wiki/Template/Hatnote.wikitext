@@ -1,0 +1,6 @@
+<includeonly><!--
+
+--><div style="margin-left: 30px;">{{{text|{{{1}}}}}}</div><!--
+
+--></includeonly>
+<noinclude>{{doc}}[[Category:Notice templates|{{PAGENAME}}]]</noinclude>

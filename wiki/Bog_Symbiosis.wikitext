@@ -1,0 +1,10 @@
+{{Card
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Parasite
+|keywords = [[Expend]], [[Parasite]]
+|upgradeable = No}}
+{{Quote|It was beneath the abhorrent layers of cocoon that I realized, that as long as I remained, I would remain whole.}}
+
+'''Bog Symbiosis''' is an Unique battle [[Bog Parasites|Bog-Parasite]] for [[Rook]], it costs 1 actions and has the effect: "Kill enemy Grout Burr and gain 3 maximum health. '''Expend, Parasite'''"

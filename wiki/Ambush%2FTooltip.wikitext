@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Ambush
+  |body=<center>Automatically placed in your hand at the start of battle/negotiation.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

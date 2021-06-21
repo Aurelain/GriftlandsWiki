@@ -1,0 +1,36 @@
+Early Retirement is a side [[Quests|quest]] in [[Sal|Sal's]] campaign with a focus on [[Negotiation|Negotiation.]]
+
+== Description ==
+A [[Bilebroker|Chemist]] is hoping to get a [[Admiralty|Guard]] fired, so their friend can take over. The Chemist just needs your help making it happen. 
+
+<br />
+
+== Walkthrough ==
+After accepting the quest you must go to the new way point marked on your map. you either must get a [[Civilian]] Heavy Laborer fired or an [[Admiralty]] Guard fired.
+<br />
+
+==== Target is Civilian: ====
+
+* You can try to convince the laborer to quit their job. This will not affect their opinion of you if you win the negotiation, if you lose they will dislike you and you will be no longer able to negotiate with them.
+
+* You can choose to attack the laborer, despite your choice to kill or spare them you will succeed the quest either way. However if you kill them the foreman who works there will dislike you and you will suffer the diplomatic consequences of murder. 
+
+* You can try to convince the foreman who works there to fire the Civilian however this will make the civilian dislike you if you are successful. 
+
+<br />
+
+==== Target is Admiralty: ====
+
+* You can try to convince the guard to quit their job. This will not affect their opinion of you if you win the negotiation, if you lose they will dislike you and you will be no longer able to negotiate with them.
+
+* You can choose to attack the Guard, despite your choice to kill or spare them you will succeed the quest either way. However if you kill them you will suffer the diplomatic consequences of murder. 
+
+* When you enter there will be a Civilian laborer who you can talk too and obtain blackmail information. this will make a negotiation with the Guard much easier.
+
+==Rewards==
+
+*Starting Bonus
+*60 Shills
+*Remove a card from one of your decks
+[[Category:Side Quests]]
+[[Category:Sal Quests]]

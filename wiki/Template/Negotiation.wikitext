@@ -1,0 +1,5 @@
+<span style="color:#9c8eff">negotiation</span><noinclude><br>
+==Use==
+<pre>{{negotiation}}</pre>
+
+[[Category:Formatting templates|{{PAGENAME}}]]</noinclude>

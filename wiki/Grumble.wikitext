@@ -1,0 +1,47 @@
+{{Card
+|character = Rook
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Hostility
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Decisive Grumble
+|upgrade2 = Assertive Grumble
+|upgrade3 = Rigged Grumble
+|upgrade4 = Rooted Grumble
+|upgrade5 = Visionary Grumble
+|upgrade6 = Strained Grumble
+|upgrade7 = Speculative Grumble
+|upgrade8 = Lucid Grumble
+|upgrade9 = Mirrored Grumble}}
+{{Quote|I don't want to talk to him when he's like this.}}
+'''Grumble''' is a 1-cost Basic '''Hostility''' card for [[Rook]]. It deals 1-3 base damage. While the coin is '''Snails''', it gains 1 bonus damage.
+
+==Upgrades==
+Like every basic card, '''Grumble''' has more than two upgrades, from which it randomly picks 2 you can decide from.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Decisive Grumble.png|150px]]
+|[[File:Assertive Grumble.png|150px]]
+|[[File:Rigged Grumble.png|150px]]
+|[[File:Rooted Grumble.png|150px]]
+|-
+!Set the coin; [[Expend]]
+!Gain 1 [[Dominance]]
+![[Rig]] 1 [[Heads]]
+!More minimal damage
+|-
+|[[File:Visionary Grumble.png|150px]]
+|[[File:Strained Grumble.png|150px]]
+|[[File:Speculative Grumble.png|150px]]
+|[[File:Lucid Grumble.png|150px]]
+|-
+!Draw a card
+!Discard a card
+![[Gamble]]
+![[Destroy]]
+|-
+|[[File:Mirrored Grumble.png|150px]]
+|-
+!Attack twice
+|}

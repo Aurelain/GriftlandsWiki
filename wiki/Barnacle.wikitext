@@ -1,0 +1,24 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Bleed]], [[Defense]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Savage Barnacle
+|upgrade2 = Pale Barnacle}}
+{{Quote|One of the more unconventional blood strikes, this attack strengthens ones durability.}}
+
+'''Barnacle''' is a 2-cost Uncommon '''Attack''' card for [[Sal]]. It has the effect "Apply 3 '''Bleed''', then gain '''Defense''' equal to target's '''Bleed'''."
+
+==Upgrades==
+After accruing 7 experience '''Barnacle''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Savage Barnacle.png|150px]]
+|[[File:Pale Barnacle.png|150px]]
+|-
+!5 [[Bleed]]
+!Costs 1
+|}

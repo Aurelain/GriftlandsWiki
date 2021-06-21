@@ -1,0 +1,24 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Combo]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Rival's Echo Strike
+|upgrade2 = Boosted Echo Strike}}
+{{Quote|Why change the vector of attack if they keep falling for it?}}
+
+'''Echo Strike''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It deals 2 base damage. It has the effect "Return to your hand when played. Gain 1-2 '''Combo'''."
+
+==Upgrades==
+After accruing 9 experience '''Echo Strike''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Rival's Echo Strike.png|150px]]
+|[[File:Boosted Echo Strike.png|150px]]
+|-
+!Gain 1-3 Combo.
+!Increased damage.
+|}

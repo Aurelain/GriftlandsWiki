@@ -1,0 +1,29 @@
+{{Card
+|cardtype = Diplomacy
+|decktype = Negotiation
+|rarity = Uncommon
+|upgradeable = Yes
+|expreq = 3
+|upgrade1 = Tall Weight
+|upgrade2 = Pale Weight}}
+
+'''Weight''' is a 4-cost '''Diplomacy''' card for [[Rook]]. It deals 3-5 base damage. It has the effect "Costs 1 less per influence. Gamble."
+
+==Upgrades==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effect
+|-
+|Tall Weight
+|4
+|3-7
+|Costs 1 less per influence. Gamble
+|-
+|Pale Wight
+|3
+|3-5
+|costs 1 less per influence. Gamble
+|}

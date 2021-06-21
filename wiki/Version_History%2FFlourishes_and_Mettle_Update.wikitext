@@ -1,0 +1,453 @@
+[[File:Flourishes and Mettle Update.gif|right|300px]]
+[[File:Flourishes and Mettle Update poster.png|center|600px]]
+'''Flourishes and Mettle Update''' was released on December 10, 2020<ref>[https://forums.kleientertainment.com/forums/topic/124716-griftlands-flourishes-and-mettle-update-now-available/ Griftlands: 'Flourishes and Mettle' Update Now Available!] Posted on December 10, 2020.</ref>.
+
+==Update Information==
+This update adds new permanent progression mechanics, new content, UI enhancements, and a whole lot of balance changes.
+
+'''Flourishes'''
+
+Flourishes are super-powered moves that you can trigger at-will, once you've filled your flourish meter. You fill the meter by playing cards and dealing/mitigating damage in both negotiations and battles. Each of the three player characters starts off with a single battle and negotiation flourish, but you can unlock more in-game by defeating bosses at higher prestige levels and selecting them in a mysterious in-game shop.
+
+'''Mettle'''
+
+Mettle is a new meta-currency that you gain in the game by completing quests, winning battles and negotiations, and through various opportunities as the story progresses. Once you've met a special shopkeeper in-game, you can permanently upgrade each character with it.
+
+'''Achievements'''
+
+You're going to need all of the advantages you can get to complete a new set of 11 Steam achievements. These were designed to be challenging, and to make you think outside of the your usual grifting box (currently Steam-only).
+
+'''New people to meet (and to grift)'''
+*Fralx is an alternate boss for Rook's first day. He's Rooks old protege, and he has a score to settle.
+*Pearlies are the well-off residents of Pearl-on-Foam.
+*The Cult uses Lumin Turrets to enforce their will in the Pearl.
+*New Promotions — you'll find promoted Luminitiates and Wealthy Merchants in the world, starting at prestige level 1!
+
+'''Tuning'''
+
+Sal's campaign got a big tuning pass. Player reports and data were showing us that most of the bosses were too easy, except for Kashio, who was surprising a lot of players with a big difficulty jump. We've adjusted a lot of small things that should work together to smooth out the curve, training players to build better decks before getting to the end of the story.
+
+'''Bosses'''
+
+Most Rook and Sal bosses got specific changes to make them more difficult - more health, more damage, different numbers. The exceptions where the Flead Queen, and Kashio. Kashio was left the same, and the Flead Queen's chitinous levels were dropped at lower prestiges. The goal is to provide a nice, smoothly escalating challenge, rather than a plateau with a brick wall at the end.
+
+'''Sal's Story'''
+
+Sal was getting too many draft opportunities early in her runs, so we reduced the number of encounters on some of her early days. This should push your deck completion out a bit, and force you to make difficult decisions later in your run.
+
+'''NPC Health / Party Composition'''
+
+Previously the game used a bit of auto-balancing to adjust enemy health values depending upon when in a run you meet them. This made reasoning about the difficulty of a given fight quite difficult, and frankly wasn't necessary any more, as we have added many new enemy types since that system was first implemented. NPCs now have consistent HP values, and we've gone through them all and re-assessed their combat strength as seen by the enemy encounter creator. TLDR; health should make more sense now, and you should see more appropriate enemy parties.
+
+'''Sal Cards'''
+
+Finally, we revamped a bunch of Sal's cards, to make them more pickable. Here are some highlights - you can pore over the patch notes for full details.
+
+In addition to all of these changes, there are loads of fixes, balance tweaks, UI improvements, and more. Full details are below, or you can just jump in and play!
+
+Happy Grifting, everyone! We're taking a short break for the holidays, and then our next update will be coming out on January 28. This update is scheduled to have the next day of Smith's story, and I'm sure some other fun stuff will make it in there, too. As always, you can follow along in real-time as we develop it in the Experimental build. We read and appreciate every piece of feedback that you F8 our way, so keep them coming!
+
+<div class="mw-collapsible mw-collapsed">
+==Patch Notes==
+<div class="mw-collapsible-content">
+'''CARDS'''
+
+*Fixed bug where Double Edge didn't work correctly in negotiations with the NO_CORE_RESOLVE flag.
+*Fix rare brawl crash if you speak with a character on the same frame as you return to the bar. The return_to_bar confront would trigger a location transition and clear the primary cast before the DefaultHub options would be collected.
+*Fix potential crash with Even Footing if there are no valid friendly arguments.
+*Galvanized now injects the Voltaic keyword.
+*Add upgrade split for Tough and Angry.
+*Picking "Chug" from Smith's Wide Flask, now plays wide flask instead of the base card.
+*Update Catchpenny. It doubles at the start of your turn. Remove the Poor Merchant aoe attack.
+*Smith's day 3 is functional - needs dialog, bucket quests, and boss fights to be complete.
+*Hatch cards no longer show an xp bar, because they cannot be "upgraded". The Hatch keyword indicates the number of times the card must be triggered for it to hatch.
+*Update some rook grafts to use the Charge keyword.
+*Card cost calculation on 'Weight' now applies after Force Compression.
+*Carbon Copy should use Duplicate, not Clone.
+*Renamed Sal's "Flourish" graft to "Best Offense".
+*Add auto_target to Curve Ball.
+*Comedy club, fight club, bogroot eclair, brain gills: skip hatch cards for consistency.
+*Balancing pass on some of Sal's battle cards.
+*All flourishes now have burnout.
+*Fixed bug where card defs with max_xp = 0 were given XP if the card had multiple non-XP upgrades.
+*torrid_clone now replays cards from END_RESOLVE rather than POST_RESOLVE.
+*Fixed bug with batter_up causing it to not have the correct target_count in certain cases.
+*Added upgrade highlights for Save Face.
+*Fixed bug in Raw Power's CanPlayCard.
+*Raw Power now only deals damage for and affects cards that cost more than 0.
+*Fixed bug where the Burn application of Sear ignored Evasion stacks.
+*Added negotiation behaviour for npc-Sal.
+*Cleaned up names and descriptions for Smith's negotiation cards:
+*Adding an updated Flourish bar to the negotiation and battle screens
+*Added missing upgrade highlight on Bonkers.
+*Move the trained/untrained pet modifier creation to InheritBaseDef, since the constructor won't have all the base_def properties yet. Fixes *Specifically the lonely snail pet modifier.
+*Fixed desc of brazen_attack_plus.
+*Fix hatching of Deep Bog Secret.
+*Fix crashing adding Doubt.
+*Fix Wrist Rocket not triggering Kindled.
+*High Places modifier evaluated before Parlous Concept.
+*Added remaining duds to cards that improvise from a deck and can therefore have 0 valid choices.
+*Fix potential crash with Shock Shield.
+*Fix missing tuning value on Strange Chemical.
+*Added explanation strings when choosing cards for replicator, oshnu_glue, annihilation_cage, double_down, rehearsal, and amplify.
+*Collected now applies composure to all instances of Influence.
+*save_face now applies composure to all instances of Renown.
+*Added upgrades for Simmer.
+*Added presentation for simmer when it triggers.
+*Fix crash with batter up.
+*Fixed specialty.
+*Added manual_desc flag to simmer_plus.
+*Added the auto_deal flag to Smith's chain cards.
+*cha_ching now only lasts one turn.
+*Buffed all_rounder slightly.
+*'Delegator' should apply to bounties as well.
+*Fix potential crash with min damage exceeding max_damage.
+*Perseverence, Partners in Crime, and Premium Quality have a 'consumed' state when they are no longer available.
+*Add a damage preview to Muscle Bank.
+*Knuckle Down damage preview includes the number of hits.
+*Fixed crash caused by accelerator.
+*Show damage preview for player AOE.
+*Fixed crash in cases where flourish-related mettle upgrades were added before the base userdata values on the flourish graft had been set.
+*Fixed bug where certain sources of defend removal weren't affecting Chitinous correctly.
+*Defend now passes itself as the source of its removal at the start of your turn.
+*Ancient Warrior: ignore hatch cards.
+*Fix Clean Slate not triggering bounties.
+*Power Through now stacks.
+*GraftOwner:SetGrafts() now adds any starting grafts for the character unless otherwise specified. This fixes a crash in experiments caused by a lack of a flourish graft.
+*Fixed bug where scapegoat_plus2 could target enemy arguments.
+*Fixed bugs with merged_glass and Smith's thickness caused by recent changes to Defend.
+*Changed the order of Smith's bottle spending to always spend from draw, discard and then hand.
+*Promoted Wealthy Merchant now only uses cha_ching when fighting against you.
+*Flourish implicitly Expends and Burnouts.
+*If Deck:InsertCard explicitly moves a card to the deck it already is in, to an index it already occupies, this is handled as a no-op.
+*Duality II: should now respect max hand size. Also Prevent duplicates in the to_draw array.
+*Fixed missing card flags on the Promoted Luminiates attacks.
+*Fixed description of Chaos Theory to account for multiple stacks.
+*Fixed incorrect bleed amount on hemomancy_ii.
+*Reworked the upgrades for Shelve and reduced the cost of the base card by 1.
+*Change Stimulating Brew description for consistency.
+*Fix Powder Keg tooltip to show the damage given the actual number of stacks the card applies.
+*DoAttack will wait for any non-interruptible sequences before starting, and verify it is still valid to proceed after. Fixes a crash if the attacker somehow dies before initiating the attack (eg. Visionary Fan the Hammer drawing into Twig at 1 health).
+*Fix crash in Visionary Fan the Hammer if the player dies by drawing cards.
+*Add empty bottle warnings to cards that require them to be played.
+*AnimFighter:IsBusy should return false if it is called within the running coroutine.  Fixes a stall when in combat with Andwanette / Twins.
+*Fix Flourish being gained when anyone, not just you, does unmitigated damage.
+*Impending Doom: nil-check core modifier, cause you never know what mods will do.
+*Increased target_count on the lumin turrets melee attack.
+*Fix crash with yote_call_in.
+*Fixed bug causing Simmer to not gain xp when triggered.
+*Clarified description of Sal's intrigue_plus2.
+*Fixed bug where the Jakes Runner's kneecap could apply exposed through evasion.
+*Fixed incorrect description on Slaughter.
+*Fixed incorrect targeting on pure_diplomacy.
+*Fixed bug where FIGHT_ALLY and FIGHT_ALLY_WON could have non-int resolve amounts.
+*Reduce cost of coward from 4 to 2.
+*Hatch counters no longer decrement while fatigued.
+*Fixed bug where some rationale upgrades were not applying composure.
+*Fixed bug where coin_juggler_ii added the wrong modifier.
+*Mental Overload now discards unplayable cards at the end of your turn.
+*Clarified description of Sal's Crusher card.
+*Enforcement: costs 2.
+*Tincture: is 0-cost, 2 Power.
+*Vial of Slurry: has 2 uses.
+*Adrenaline Shot now has replenish.
+*Adjust basic card xp level, so that you will be still upgrading at the end of a run.
+*Fix Tincture desc.
+*Parlous Concept: revised.
+*Fix formatting on Fume Bubble.
+*Fixed bug where Pure Diplomacy II was applying 10 composure to influence (and 5 to all other arguments).
+*Rebuild is now targetable.
+*Fixed incorrect description and effect on makeshift_dagger_plus.
+*Fix Cha-Ching! not updating your shill amount on the main overlay immediately.
+*Luminitiate Coin: revised.
+*Added upgrades for Classic Smith.
+*Fixed bug causing slight delays when call_in cards targeted enemies with counter or sentry.
+*Fix flourish not being drained when using a targeted flourish in negotiation.
+*Fix missing value on Survival Reflexes card text if you have a Defend-gain modifier.
+*Validate playability of flourish cards after selection. Fixes stuckness after choosing Rebuild if you have no targettable arguments.
+*Add a default desc to Dark Intellect.
+*Clarified the desc of Smith's Goon card.
+*Fixed desc of tough_and_angry_plus.
+*Fixed bug where Stone Brainstorm wasn't applying composure.
+*Added missing reason string to Consolidate.
+ 
+'''GAMEPLAY'''
+
+*Added placeholder Smith day 3 + assorted story characters.
+*Added two grit upgrades (grafts).
+*Added the Grit Upgrade graft type.
+*Added a Grit store for Sal.
+*Added an event to introduce grit.
+*Added grit tracking in game_profile.lua.
+*Added the grit_handler aspect.
+*Added some preliminary grit upgrades.
+*Hooked up the promoted wealthy merchant (won't show up anywhere yet).
+*Set up a Grit Bounty argument.
+*Set up a GRITTY battle condition.
+*Fix issue with goon tracking when losing the negotiation in smith's day 1 boss fight.
+*Fix recruitment of Shel in daily cave.
+*Fix not receiving all rewards if you won both items and grafts in the auction.
+*Set up the def for the promoted luminiate.
+*Fix oppo_hesh_help_me trigger and BG selection.
+*Retire the target priest after side_matter_of_faith.lua.
+*Renamed "Grit" to "Mettle" in all files.
+*Renamed Smith's "Mettle" card to "Fortitude".
+*Added validation to ensure that mettle upgrade have as many values as they do upgrade costs.
+*Added missing upgrade_cost on mettle_resolve_upgrade.
+*Boss difficulty pass: most non-final bosses should be a bit harder in p0 now, and story mode will be easier overall.
+*Switched the functionality of Chartreuse and Taupe to match their descriptions in oppo_beach_goo.lua.
+*Added the missing Turncoat boss to Sal's Brawl.
+*Set up a combat behaviour for the Promoted Luminitiate.
+*Fixed bug where Phroluk wouldn't buy mechanical pets.
+*Fix killed dialog not being run if you kill the loan shark.
+*Add an opinion event when letting the admiralty go in drop_smuggle_in_admiralty_weapons.
+*Adjust numerical difficulty down in story mode.
+*Hook up seemli's build, and the partner hideouts on Smith day 3.
+*Added battle card temp art and negotiation temp art to flourish cards.
+*Create 'upgraded' versions of trained_pet/untrained_pet per pet type, so the arguments can be recreated without knowing which pet they are supposed to belong to.
+*Set up a new def for the Pearlies.
+*Set up mettle_bounty and mettlesome spawning.
+*Set up all character's mettle shops, make the mettle seller present themselves to all players.
+*Add mettle vendor to brawls, allow mettle upgrades in dailies.
+*Don't show hated message if you kill the merchant in side_smith_sponsorship_deal.
+*You can now run away starting turn 1.
+*Fix for getting stuck at the end of smith day 2 if theroux is killed.
+*Mark mettle buys as shop transactions for discounts.
+*Added two new mettle grafts to grant xp to battle and negotiation grafts.
+*Add event_smith_meets_sal.
+*Add quest-in-progress side_smith_seemli_triangular_firing_squad.
+*Give the dodgy scavenger plot armour.
+*Added Pearlies to the patron_defs table in smith_pearl_on_foam_locations.lua.
+*Added death loot, boon and bane for Pearlies.
+*Added a basic combat behaviour for the Pearlies.
+*Set up a combat behaviour for the Promoted Wealthy Merchant.
+*Enabled the promoted wealthy merchant, priest and luminitiate defs.
+*Give vixmalli plot armour.
+*Fix NPC_SMITH's voice.
+*Make a skin for NPC_SMITH.
+*Back Channel Negotiations: Add betrayal effect to beat up option tooltip.
+*Fix some bad param refs in smith_tei_dog_and_pony_show.lua that would lead to weirdness if you save/loaded mid-quest.
+*Fix result of scaring away the guard in sal_brawl_undermine.
+*Change flavour of stop shopping option with steven the party machine.
+*Defeating bosses now grants prestige points.
+*Added prestige_points and boss_advancement to the game profile.
+*Autosave after purchasing mettle, because otherwise you can game the daily limits.
+*Add 'Defeated Boss' unlock to Boss Compendium.
+*In brawl, Rook can light a fire at his campsite and lure in people to hire/rob/hang out with.
+*New Smith day 3 quest: side_smith_seemli_triangular_firing_squad.
+*Give Smith the colloblast password if he attacks the priest and doesn't kill them.
+*Clear 'talk_to_investigator' quest mark once you show the poison incriminating the assassin.
+*Early work on side_smith_eden_deep_undercover.
+*Added a hat shop to the Pearl.
+*Fixed bug where mettle upgrades weren't being applied properly at the start of a new game.
+*Added 4 new mettle upgrades to increase flourish gains in both combat and negotiation.
+*Remove plot_armour from sparky, jeol, arint, flekfis.  For the latter two at least, the tag is redundant since they are cast plot armoured by ROOK_STORY.
+*Permit statically tagged plot_armour to show up as a patron.
+*Use default action (defend) in cases where the fighter behaviour cannot find a valid action. For example, apply targeting to Bossbit when it has the force field.
+*Make oppo_friend_do_robbery a sal-specific event (it really should be).
+*Added boon/bane for mercenary_boss.
+*Mercenary_boss now shows up in the compendium.
+*Set up intro slides for mercenary_boss.lua.
+*Set up fight behaviour for mercenary_boss.lua.
+*Modified Rook's old day 1 experiment to be used for the new alternate boss.
+*Fix oppo limit in event_bladder_attack.
+*Set mettle vendor to appear in a consistent location in each story, which will stop it from overlapping with time limited oppos.
+*Give death loot and consequences if you kill Oolo or Foolo in conversation.
+*Fix flow when smith fails the party store entrance negotiation.
+*Set up a basic combat behaviour for Tei.
+*Added a damage_mult to Tei's barrage attack.
+*The option to heal your pet in daily_boss_rush.lua no longer appears if your pet is at full health.
+*Adjusted resolve required at each boss stage in daily_boss_negotiation.lua and added an extra option for the bonus stages.
+*Adjusted combat stats for mercenary_boss.
+*Added SELF_DEFENCE flag to experiment_rook_hesh_boss.lua to prevent relationships on multiple fights.
+*Fix TooltipFlourish crash if you have no flourish graft (eg. old saves).
+*Added a required_grafts table to the player characters to ensure that old saves don't break if/when we add new necessary grafts such as the flourish tracker.
+*Added the final "Kill" flourish gain.
+*Set up new attack pattern for the mercenary boss.
+*Made tweaks to the automech boss' negotiation behaviour to make him slightly easier.
+*Added lore entry for the aerostat.
+*Fix brawl pet shop.
+*New Smith day 3 quest: side_smith_eden_deep_undercover.
+*Added Fralx to Rook's story, dailies, and brawls.
+*Prestige points are now verified when you launch the game
+*Terminate oshnu wrangling event if the oshnu is dismissed.
+*Mettle shop shows up on day 2 for all characters; is only available at night.
+*Reduce the number of side jobs on a sal run by two. This should improve the campaign pace, and increase the difficulty / make you have to pick cards in the later days.
+*Don't give card loot for the auction negotiation.
+*Don't give card loot for the final expedition negotiation.
+*Reduced damage dealt by the promoted wealthy merchant.
+*Lots of bios, and non-temp dialogue.
+*Added a new mettle upgrade to increase shills gained from skipping cards.
+*Remove random variation from the NPC health values.
+*Big NPC health and battle_strength overhaul - getting rid of autobalancing, and pushing the defs apart within each faction.
+*Fix morale reference in erchin.
+*Don't apply advancement health boosts to player characters.
+*Fixed bug where bribing in side_thief_bounty.lua would reset if you left the conversation.
+*The target in handler_spree_neutralize_guard.lua will no longer help you get information on themselves.
+*Fixed bug where recent changes to morale meant that old saves could have instances of morale-less agents. 
+*Fix bug where Fssh's boon and Kashio's bane weren't shown as unlocked.
+*Fixed bug where Nadan could dismiss fighters that weren't his goons (only really relevant with certain mods).
+*Hanbi now only shows his hilt bash condition when he is on the enemy team.
+*Give mettle for winning negotiation and battles, and for completing jobs.
+*Fixed bug where the mettle_negotiation_card_xp upgrade was giving xp to battle cards instead of negotiation cards.
+*Added the "bare_mettle" mutator, for when you want a mettle-free experience.
+*Nadan now applies "Sentry" to the goons he summons, so that they attack anyone who attacks Nadan.
+*Nadan now starts the battle by calling in 2 goons.
+*Change the way max health changes are stored under the hood, to allow for better upgrade accounting.
+*Add difficulty filter on attacker in oppo_friend_in_trouble.
+*Adjust creature health down a bit, and increase combat strength of yote variants to adjust day 1 combat parties.
+*Fix mettle shop spawn condition.
+*Update grift defs to reflect Eonwe's new name.
+*Oshnus now apply Impair to players and Glued to non-players.
+*Glued can no longer apply to a player character.
+*Fix potential crash replacing coin with Backup Collection.
+*Fixed bug where defeating bosses on prestige 0 did not award prestige points.
+*BANDIT_GOON2 now has MEDIUM_LOW health and their Impale attack has a damage_mult of 1.4 instead of 1.5.
+*Adjust PC health values down a bit - gotta keep the pressure up!
+*Increase creature health a bit.
+*Added a new mettle upgrade that increases the health of your pets.
+*Most battles in brawl can now be fled from. (run_away_chat).
+*Fix Clerks et al surrendering even with Booster Clamp.
+*Adjusted Nadan's reinforcement table.
+*Chemists now only have the bombard condition when on enemy team.
+*Fixed bug where the boom box starting bonus could be rerolled by choosing the "Upgrade card" option and backing out.
+*Sal Streamlining/pushing drafts later: remove day 1 oppo, day 2 event, day 3 oppo.
+*Convo options in handler_spree_prisoner_exchange.lua now preview relationship changes.
+*Adjusted the MONSTERS and YOTES combat parties for day 1.
+*The Automech Boss' shield now also blocks any debuffs.
+*Defect is no longer removed if the attack is evaded.
+*Healing spring restoration increased slightly.
+*Noodle cost increased slightly.
+*Cost of Fssh cakes slightly increased.  Fssh cakes now restore 30 health.
+*The change in dayphase on Sal's 3rd day now happens when you leave for the docks.
+*Added two new mettle upgrades that increase health gain from eating and resolve gain from drinking.
+*sal_story_fsshcakes.lua now locks in the boss at the start of the quest (with back-up later to prevent breaking current saves).
+*handler_spree_shake_down.lua now has a sit_mod in the negotiation to sell the relic and previews the money you will gain.
+*Fixed bug where the resolve mettle upgrade was being overwritten by the gamestate.
+*Fixed bug where Kashio's clones did not disappear when hit by things like efficient disposal because of a OnPreResolve clause that shouldn't be necessary anymore.
+*Give out bonus mettle at the end of fights, through a player condition/modifier, for more clarity.
+*Add some missing dialog to side_smith_sponsorship_deal.
+*Prohibit both Mental Overload & Roll With It in dailies.
+*If your partner dies during raiding at the crossroads, you fail the quest but still get any accrued loot.
+*Update cost/heal amounts for buying a meal from Moreef/Hebbel.
+*Set up a combat behaviour for Eden.
+*Reduced the max health of Spark Baron Goons from MEDIUM to MEDIUM_LOW.
+*Fixed bug in drop_bandit_babysitter.lua that could cause the priest to love you even if they died.
+*Fixed crash in sal_story_fsshcakes.lua.
+ 
+'''UI'''
+
+*Showing a hit animation on the health bars when taking damage.
+*Adding the animated Defense icon to the healthbar.
+*Adding defense-gain animation fx.
+*Adding the Mettle Screen.
+*Show the received cards in the option tooltip when salvaging your autodog.
+*Fix grifts button on the PerkScreen showing grafts.
+*Added Smith's Battle tutorial to the pause menu.
+*Adding a temporary Flourish widget to the Negotiations and Battles (it will look better soon).
+*Fix delayed presentation of image slide following a movie slide.
+*Show relationship history in AgentTooltip.
+*Hooked up the flourish bars in both negotiation and battle so that they are activatable.
+*Hooked up placeholder mettle tab in the compendium - it doesn't actually do anything yet.
+*Suppress 'hit' flash for characters that evade.
+*Typecheck parameter for the #agent locmacro, to be resilient towards format changes.
+*Show opinion events in order of occurence in the TooltipAgent widget.
+*Animating the defend bar when defend is hit.
+*Reset the mettle shop buy option every day, in main game and in brawl.
+*Adding content to the Mettle compendium. Doesn't support gamepad yet.
+*Fixed bug where mettle upgrades were in a random order.
+*Fix a presentation bug where dodging a multi-hit attack would abort the dodge anim early.
+*Use custom player dodge anims again.
+*The brawl progress meter now indicates which bosses you will face.
+*Fix crash buying health mettle upgrades.
+*Making the Mettle Screen show up taking the full screen.
+*Switching the position of the Concede and Flourish buttons.
+*Fix Steven's portrait.
+*Daily Cave escape: Remove the trap 'skip' option. You can skip after seeing the draft.
+*Fixing the scissoring on the compendium's People and Bosses info popup.
+*Make save and quit vs quit more obvious in the pause menu.
+*Fix Add a quit to desktop option from the pause menu.
+*Fix upper HUD positioning on lumicyte.
+*If card damage has both bonus and penalties applied to it such that the final value remains equal to the original, it will be highlighted as having a penalty, instead of having no highlight.
+*Add 'auto_deal' flag on cards to augment 'show_dealt'. This shows the cards as dealt, but doesn't require a click. The presentation feels a bit better for eg. Down the Hatch because you can see the bottles spread out on the screen before animating to the discard.
+*Activating Flourish now plays a "flourish" anim on the player.
+*Adding Mettle count to the Compendium screen.
+*Preliminary version of the Flourishes screen. Doesn't allow unlocking flourishes yet. No gamepad support.
+*Fix backwards check to save when exiting during convo.
+*Add play time to Run history details.
+*Show playtime on GameOverScreen.
+*Reduce bloom on defend_icon, it drowns out the number.
+*Added gamepad support to the Flourishes screen. Also made it so cards are right-clickable there for more info.
+*Fix battle/negotiation deck tooltip on the main overlay when in Gamepad mode.
+*Adding a flourish tooltip that explains how flourish works.
+*Finishing the Flourishes screen. It's now possible to acquire them.
+*Flourish is a card type, which can be sorted on in the compendium.
+*Add Controls tab to options screen (for now, only keyboard remaps).
+*Added a delay between choosing a flourish and the flourish anim playing.
+*Make flourish pick cancelable; don't consume flourish until it's actually used to spawn the new card.
+*Improving the description on the Flourishes screen. Making the header adjust to the size of the flourish container.
+*Secret Collection: speed up dealt presentation.
+*Fixed incorrect argument icons for upgraded negotiation flourishes.
+*Update flourish so it plays directly from the UI (not as in inserted card).
+*Sorting the flourishes so the base ones always show first.
+*Argument descriptions now highlight the part that increases with multiple stacks (where applicable).
+*Fix cards in slot 2 not being Prepared when selected.
+*Added highlighting to condition descriptions to indicate which parts are affected by stacks.
+*Adding the choose Flourish popup, always available in Negotiation and Battle. Supports gamepad/ui scaling/streamer modes.
+*Replacing the progress bar from the flourish bar with a progress radial.
+*Changed all instances of "Mettle Points" to simply "Mettle".
+*Coalesce shill/mettle rewards in reward tooltip.
+*Making the Choose Flourish Popup translucent.
+*Adding a custom expend animation for the Flourish cards.
+*Adding effects to the flourish button.
+*Adding particles to the Flourishes popup.
+*Allowing clicks on the Death Loot card within the agent info popup.
+*Making sure basic flourishes always show as unlocked.
+*Removed all instances of manual_desc to ensure that dynamically added card flags display properly on cards.
+*content.lua now creates a table of newly added flags for card upgrades to dynamically highlight new keywords.
+*Fixed bug where bewilder_plus2f didn't apply composure.
+*Updating the animations on the Flourish popup.
+*Showing 0 Prestige runs on the History screen as 0 prestige, instead of Story difficulty.
+*Adding card tooltips to the Flourish Popup. Also allowing right clicks for more card info. And allowing selecting cards with gamepad to see their info as well, including the gamepad hint for it.
+*Adjusting the animation easing on the Death Loot widget.
+*Waylay / Daggerstorm: auto-deal the Blade Flashes (do not require a clickthrough).
+*Update custom game labels indicating Achievements are disabled.
+*Fix rare situation where attack previews may not be correctly regenerated in the UI.
+*Fix certain negotiation quips with helpers not showing up.
+*Fix "Immune" floater from showing up during the Combat Drone shutdown sequence.
+*Added screenshake to sal's abilities.
+*Hook up negotiation flourish fx.
+*Adding icons to the Controls and Mods tabs in the options screen.
+*Fixed bug where Feats in the run history did not properly display when they were successful.
+*Added y offset for the Shroog's floaters so they are not offscreen.
+*The "new outfit available" label wasn't taking into account that the new outfit might be locked.
+*Flavor for sal's flourishes and missing flavor cards.
+*Added flavor to rook's negotiation and flourishes.
+*Added smith combat flavor.
+*Show your mettle / PP in the map tooltip for the mettle shop.
+*Nil-check encounter in ConversationScreen (Fade is called from BossPreviewScreen).
+*Fixing the positioning of the characters on the New Game Screen for all aspect ratios/UI-scaling modes.
+
+'''MISC'''
+
+*Daily leaderboards for Steam.  Currently downloads scores around your score, will be changing to friends only.
+*Set up wealthy promoted skins and exported portraits.
+*Update the Japanese font.
+*Add example slideshow to Shel's adventure.
+*Fix an error changing max-target resolution in the option screen.
+*Audio device can be set to "system default", and then it tracks with OS changes. Otherwise, if you set an override, it uses that so long as that device persists.
+*Revised Nadan slide.
+*Revised shroke eyes in slide.
+*Only play the step_back anim on the first hit in a multi-hit attack.
+*Use the defended/evaded tag on the specific hit to determine hit result anim.
+*Add achievement checks for Machinist, Just Cards, No Upgrades, Brawler, Soluble Fish.
+*Hookup Tank, Efficiency achievements.
+*Pass on achievement implementation. (The criteria are not yet validated.)
+*Hook up Smiths' little hat.
+*Sweet Moreef has a unique voice.
+</div></div>
+
+==References==
+<references />
+
+[[Category:Game updates]]

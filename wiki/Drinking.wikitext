@@ -1,0 +1,14 @@
+Drinking is an action you can take in the overworld. Whenever the player drinks, they heal 10 [[Resolve]], and gain a [[Tipsy]] card and a [[Slurred Speech]] card.
+The player can drink at any bar. When talking to the bartender at the bar, the player can pay 30 [[Shills]](unmodified cost) and do the drink action. Alternatively, the player can talk to any neutral or disliked patron at any bar. The player can pay double the [[Shills]] that they normally would pay, and drink with that character. Doing so will cause that character's opinion for the player to go up(Disliked -> Neutral, Neutral -> Liked). So
+
+Bars currently in the game:
+* [[Grog n' Dog]]([[Murder Bay]] [[Jakes]] bar)
+* [[The Gutted Yote]]([[Murder Bay]] [[Spree]] bar)
+* [[The Last Stand]]([[Grout Bog]] "Neutral" bar)
+
+Effects that can change the behavior of drinking:
+* [[Civilian]] [[Bartender]] [[Bane]] - Mixology(Heals +4 [[Resolve]] when drinking)
+* [[Civilian]] [[Bartender]] [[Bane]] - Tainted Supplies(Adds an additional [[Tipsy]] and [[Slurred Speech]] when drinking)
+* [[Bilebroker]] [[Chemist]] [[Bane]] - Spiked Drink(Adds an [[Ulcer]] card when drinking)
+
+[[Category:Stubs]]

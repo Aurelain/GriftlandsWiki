@@ -1,0 +1,11 @@
+{{stub}}{{Character|name=Zyn|faction=jakes|image=Zyn.jpg|race=Human|location=Murder Bay|title=Assassin}}
+'''Zyn''' is a [[Jakes]] [[Assassin]] working for [[Kashio]]. He is known for his blade, which applies [[Bleed]] with every slice.
+
+== Gallery ==
+<gallery>
+File:Zyn.jpg|Normal Zyn.
+File:Zyn combat.jpg|Zyn in combat.
+</gallery>
+
+
+[[Category:Characters]]

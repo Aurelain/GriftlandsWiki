@@ -1,0 +1,31 @@
+
+
+{{Card Infobox|name=Trick Shot|image=trick shot.png|upgradeable=Yes|upgrade1=Boosted Trick Shot|upgrade2=Enhanced Trick Shot|set=Uncommon|decktype=Battle|cardtype=attack|expreq=7}}
+
+''"I told you to hold still!"''
+
+'''Trick Shot''' is a 1-cost '''Attack''' card for [[Rook]]. It deals 1-8 base damage. It has the effect "Threshold 8: Gain 8 counter."
+
+== Upgrades ==
+{| class="wikitable"
+|+
+!Title
+!Cost
+!Damage
+!Effects
+|-
+|Boosted Trick Shot
+|1
+|1-8
+|Threshold 8: gain 8 counter
+|-
+|Enhanced Trick Shot
+|1
+|1-8
+|Threshold 6: Gain 8 counter
+|}
+[[Category:Rook cards]]
+[[Category:All cards]]
+[[Category:Battle cards]]
+[[Category:Attack cards]]
+[[Category:Uncommon cards]]

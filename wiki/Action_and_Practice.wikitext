@@ -1,0 +1,6 @@
+Action and Practice is the fifth [[Card Sets|Card Set]] unlocked with [[Sal]].
+
+It contains the Negotiation cards [[Reconsider]], [[Empathy]] and [[Domineer]]. These cards don't really have a mechanic they're based on, like with most Card Sets, however all of them have the connection, that they have a negative effect (in some situations).
+
+It also contains the Battle cards [[Muscle Memory]], [[Slippery]] and [[Focused Assault]]. While Muscle Memory and Slippery have the "theme" of using [[Improvise]], Focused Assault  doesn't fit in with them (it even has anti-synergy with Muscle Memory, as adding two copies of it to your hand disables it's effect).
+[[Category:Card sets]]

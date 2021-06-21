@@ -1,0 +1,12 @@
+{{Card
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Piercing]]
+|upgradeable = No}}
+{{Quote|Composite materials make weapons almost too quick to see coming.}}
+
+'''Blade Flash''' is a 0-cost Unique '''Attack''' card for [[Sal]]. It deals 3-4 base damage. It has the effect "'''[[Piercing]]'''".
+
+This card can't be added to your deck, like other cards. Instead you can add it into your deck using [[Spare Blades]], [[Dagger Storm]] or [[Waylay]]. It is then removed at the end of the battle.

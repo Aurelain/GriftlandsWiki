@@ -1,0 +1,1225 @@
+/* CSS placed here will affect users of the Hydradark skin */
+/* For elements which only display in the mobile view */
+.mobileonly {
+    display: none;
+}
+
+/* fonts */
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: local('OpenSans-Bold'), local('OpenSans-Bold'), url(/media/hydra/fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-BoldItalic';
+	src: local('OpenSans-BoldItalic'), local('OpenSans-BoldItalic'), url(/media/hydra/fonts/OpenSans-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-ExtraBold';
+	src: local('OpenSans-ExtraBold'), local('OpenSans-ExtraBold'), url(/media/hydra/fonts/OpenSans-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-ExtraBoldItalic';
+	src: local('OpenSans-ExtraBoldItalic'), local('OpenSans-ExtraBoldItalic'), url(/media/hydra/fonts/OpenSans-ExtraBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-Italic';
+	src: local('OpenSans-Italic'), local('OpenSans-Italic'), url(/media/hydra/fonts/OpenSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: local('OpenSans-Light'), local('OpenSans-Light'), url(/media/hydra/fonts/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-LightItalic';
+	src: local('OpenSans-LightItalic'), local('OpenSans-LightItalic'), url(/media/hydra/fonts/OpenSans-LightItalic.ttf) format('truetype');
+}
+
+
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: local('OpenSans-Regular'), local('OpenSans-Regular'), url(/media/hydra/fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-Semibold';
+	src: local('OpenSans-Semibold'), local('OpenSans-Semibold'), url(/media/hydra/fonts/OpenSans-Semibold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'OpenSans-SemiboldItalic';
+	src: local('OpenSans-SemiboldItalic'), local('OpenSans-SemiboldItalic'), url(/media/hydra/fonts/OpenSans-SemiboldItalic.ttf) format('truetype');
+}
+
+p {
+  font-family: "OpenSans-Regular";
+}
+ 
+/* Hide main page header */
+body.page-Griftlands_Wiki h1.firstHeading {
+    display:none;
+}
+
+/* Page Headings */
+.mw-body .firstHeading,
+.mw-body h1, 
+.mw-body h2,
+h1, h2, h3, h4, h5, h6 {
+	border-bottom-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+/* Wiki logo */
+#p-logo a {
+  background-position-x: 50%;
+  background-position-y: 35%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  text-decoration-color: currentcolor;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 20em;
+  -webkit-filter: drop-shadow(0px 0px 10px #000000);
+  filter: drop-shadow(0px 0px 3.5px #000000) drop-shadow(1px 1px 1px #000000);
+}
+
+/***********/
+/* Anchors */
+/***********/
+a, 
+a:visited,
+div#content a.extiw,
+div#content a.extiw:visited,
+div#content a.external, 
+div#content a.external:visited {
+    color: #57FFFB;
+    font-family: "OpenSans-Regular";
+}
+
+label.toctogglelabel { 
+    color: #57FFFB;
+}
+
+a:hover {
+  text-shadow: 0 0 4px;
+  text-decoration:none;
+}
+
+/***********************/
+/* Tabs top navigation */
+/***********************/
+#right-navigation {
+  float: right;
+  margin-bottom: -2.5em;
+  margin-right: 1em;
+  margin-top: 8.8em;
+}
+
+#left-navigation {
+  display: inline;
+  margin-left: 11em;
+  float: left;
+  margin-top: 8.8em;
+  margin-bottom: -2.5em;
+}
+
+
+/* navigation links */
+div.vectorTabs li a, 
+div.vectorTabs li a span, 
+div.vectorMenu li a,
+div#mw-head li.new a, 
+div#mw-head li.new a span,
+div.vectorMenu h3 span {
+  color: #08e0db;
+  font-size: 14px;
+  text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
+ font-family: "OpenSans-ExtraBold";
+}
+
+div.vectorMenu h3 span {
+  display: block;
+  font-weight: normal;
+  margin-right: 20px;
+  padding-left: 0.7em;
+  padding-top: 1.2em;
+}
+
+div.vectorTabs li.selected a, 
+div.vectorTabs li.selected a:visited {
+  color: gray;
+}
+ 
+div#mw-panel div.portal div.body ul li a:link,
+div#mw-panel div.portal div.body ul li a:visited {
+  color: white;
+  font-family: "OpenSans-Regular";
+}
+
+/* bg of navbar tabs */
+div.vectorTabs li.selected,
+div.vectorTabs ul li {
+  background-color: transparent;
+  background-image: none;
+}
+
+/* removes the divider */
+div.vectorTabs, 
+div.vectorTabs ul, 
+div.vectorTabs span, 
+div#mw-head div.vectorMenu h3 {
+  background-image: none;
+}
+
+div.vectorMenu div.menu {
+  border: none;
+}
+
+/*************/
+/* wiki body */
+/*************/
+body {
+    background: url("https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/d/dc/Griftlands_wiki_background.jpg/revision/latest");
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #623367;
+    background-size: cover;
+}
+
+#mw-page-base {
+     background-color: transparent;
+     background-image: none;
+     background-position: left bottom;
+     background-repeat: repeat-x;
+}
+
+.mw-body {
+  border:none;
+  direction: ltr;
+  margin-top: 100px;
+}
+
+div#pageWrapper {
+        background: rgba(5, 58, 64, 0.8);
+	border: none;
+	margin-top: 7em;
+	min-height: 50em;
+        border-top: 1px solid #57FFFB;
+}
+
+div#content {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  margin-top: 2em;
+}
+
+div#footer {
+  background: rgba(0, 0, 0, 0);
+  margin-left: 11em;
+  margin-top: 10px;
+  padding-bottom: 1.25em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  padding-top: 1.25em;
+  border:none;
+}
+
+div#footer ul li {
+  color: white;
+}
+
+/***********/
+/* sidebar */
+/***********/
+div#mw-panel {
+  font-size: inherit;
+  left: 0;
+  padding-top: 2em;
+  position: absolute;
+  top: 160px;
+  width: 10em;
+}
+
+.skin-hydradark #mw-panel.collapsible-nav div.portal h3 a,
+.skin-hydradark #mw-panel.collapsible-nav .portal h3 a,
+.skin-hydradark div#mw-panel div.portal h3 {
+  color: #08e0db;
+  font-size: 14px;
+  text-shadow:  1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
+  font-family: "OpenSans-ExtraBold";
+}
+
+#p-navigation div.body, 
+#p-tb div.body, 
+#p-Gamepedia div.body,
+#p-More_by_KLEI div.body,
+#p-Top_Pages div.body {
+  background: rgba(0, 0, 0,0.2);
+  border:none;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+/* for "edit this page" tab and "discussion" tab etc */
+.pagetab {
+     border-style: solid solid none;
+     border-width: thin;
+     border-color: #808080;
+     padding: 0.25ex 1ex 0ex;
+     font-size: 95%;
+}
+
+.ambox {
+    background-color: #282828;
+    border-bottom-color: #383838;
+    border-right-color: #383838;
+    border-top-color: #383838;
+    border-collapse: collapse;
+    font-size: 95%;
+    margin: 0 auto 2px auto;
+    width: 80%;
+}
+
+.ambox-gray {
+    border-left-color: #383838;
+}
+
+.ambox.ambox-tiny {
+    font-size: 90%;
+    margin: 2px 0;
+    width: auto;
+}
+
+.ambox + .ambox {
+     margin-top: -2px;
+}
+
+.ambox-text {
+     padding: 0.25em 0.5em;
+}
+
+.ambox-image {
+     padding: 2px 0px 2px 0.5em;
+     text-align: center;
+     width: 60px;
+}
+
+.ambox-tiny .ambox-image {
+     padding: 2px 0.5em;
+     text-align: left;
+     width: auto;
+}
+
+/* Ambox colors */
+.ambox-blue {
+     border-left: 10px solid #1e90ff;
+}
+
+.ambox-red {
+     border-left: 10px solid #b22222;
+}
+
+.ambox-orange {
+     border-left: 10px solid #f28500;
+}
+
+.ambox-yellow {
+     border-left: 10px solid #f4c430;
+}
+
+.ambox-purple {
+     border-left: 10px solid #9932cc;
+}
+
+.ambox-gray {
+     border-left: 10px solid #bba;
+}
+
+.ambox-green {
+     border-left: 10px solid #228b22;
+}
+
+/* Ambox small text */
+.amsmalltext {
+     font-size: smaller;
+     margin-left: 0.8em;
+     margin-top: 0.5em;
+}
+
+/* INFOBOXES: game or book depended color style */
+.infoboxtable {
+    background-image: url(https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/9/91/IBbg.png/revision/latest?cb=20200919191628);
+    border: 2px solid;
+    border-top-color: #08e0db;
+    border-bottom-color: #08e0db;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius:5px;
+    color: #08e0db;
+    float: right;
+    font-size: 89%; 
+    margin-bottom: 0.5em; 
+    margin-left: 1em; 
+    padding: 0.2em; 
+    width: 300px;
+}
+
+.infoboxtable td {
+    vertical-align: top;
+}
+
+.infoboxtable td > div {
+    background-color: rgba(87, 255, 251,0.3); 
+    border: 2px solid inherit; 
+    border-radius: 5px; 
+    font-weight: bold;
+    padding: 0.5px 7px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.infoboxname {
+    background: radial-gradient(circle at 145px 10px, rgba(87, 255, 251,0.4), transparent); 
+    color: #ffffff;
+    font-size: 110%; 
+    font-weight: bold;
+    padding: 0.5em; 
+}
+
+.infoboxdetails {
+    padding: 0em;
+    background: radial-gradient(circle at 145px 10px, rgba(87, 255, 251,0.4), transparent); 
+}
+
+.infoboxover {
+	background-color: rgba(87,255,251,0.4);
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: #57FFFB;
+	border-right-color: transparent;
+	padding: 5px;
+	color: #57FFFB;
+	text-transform: uppercase;
+	border: 2px solid #57FFFB;
+	border-bottom: 0;
+	border-top: 0;
+	border-right: 0;
+}
+
+
+/* copyright images tweak */
+.skin-hydradark .copyright-icon {
+    background-image: url("https://static.wikia.nocookie.net/commons_hydra/images/thumb/5/58/Copyright_darkwiki.png/32px-Copyright_darkwiki.png");
+    background-size: 100%;
+    height: 32px;
+    width: 32px;
+}
+
+.feature {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px; padding: 10px;
+}
+
+/*************************/
+/* Navbox template style */
+/*************************/
+table.navbox {
+    border: 1px solid #67676;
+    clear: both;
+    font-size: 88%;
+    margin: auto;
+    padding: 1px;
+    text-align: center;
+    width: 100%; 
+}
+
+/* Border between adjacent navboxes */
+table.navbox + table.navbox {
+    margin-top: -1px;
+}
+
+.navbox-title,
+.navbox-abovebelow,
+table.navbox th {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.navbox-group {
+    font-weight: bold;
+    padding-left: 1em;
+    padding-right: 1em;
+    white-space: nowrap;
+}
+
+/* Base background */
+.navbox, .navbox-subgroup {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navbox-list {
+    border-color: rgba(0, 0, 0, 0.1); /* Must match background color */
+}
+
+/* Level 1 color */
+.navbox-title,
+table.navbox th {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Level 2 styling */
+.navbox-abovebelow,
+.navbox-group,
+.navbox-subgroup .navbox-title {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Level 3 styling */
+.navbox-subgroup .navbox-group,
+.navbox-subgroup .navbox-abovebelow {
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+/* Even row striping */
+.navbox-even {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+/* Odd row striping */
+.navbox-odd {
+    background: transparent;
+}
+ 
+.collapseButton {
+    font-weight: normal;
+    width: auto;
+}
+
+.navbox .collapseButton {
+    width: 6em;
+}
+ 
+.navbar {
+    font-size: 88%;
+    font-weight: normal;
+}
+
+.navbox .navbar {
+    font-size: 100%;
+}
+ 
+table.collapsed tr.collapsible {
+    display: none;
+}
+/*****************************/
+/* End of new Navbox styling */
+/*****************************/
+
+
+/********************************/
+/* Front page appearance styles */
+/********************************/
+.fpbox .welcome {
+    text-shadow:1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
+    border-bottom: 1px solid #57fffb;
+    color: #D0FCFE; /* change for hydra (light) wikis */
+    font-size: 150%;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "OpenSans-Bold";
+    background-color: transparent;
+}
+
+.fpbox .heading {
+    text-shadow:1px  1px 1px black,
+                1px -1px 1px black,
+               -1px  1px 1px black,
+               -1px -1px 1px black;
+    border-bottom: 1px solid #57fffb;
+    color: #D0FCFE; /* change for hydra (light) wikis */
+    font-size: 132%;
+    font-variant: small-caps;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    font-family: "OpenSans-Bold";
+    background-color: transparent;
+}
+
+.fpbox {
+  background: rgba(0, 0, 0,0.2);
+  border-bottom-color: #57fffb;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color: transparent;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: transparent;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #57fffb;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: 0 0.1em 0.75em #57fffb;
+  color: #ccfdfe;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.fplink:not(.fplink-plain) {
+    background: #202020; 
+    background-image: -moz-linear-gradient(center top, #202020 0%, #505050 100%); 
+    background-image: -webkit-gradient(linear, center top, left bottom, color-stop(0%,#202020), color-stop(100%,#505050)); 
+    background-image: -webkit-linear-gradient(top, #202020 0%, #505050 100%); 
+    background-image: -o-linear-gradient(top, #202020 0%, #505050 100%); 
+    background-image: -ms-linear-gradient(top, #202020 0%, #505050 100%); 
+    background-image: linear-gradient(to bottom, #202020 0%, #505050 100%); 
+    border-top: 1px solid #57fffb;;
+    border-bottom: 1px solid #57fffb;
+    border-radius: 4px;
+    color: #000000;
+}
+
+.fplink:not(.fplink-plain):hover {
+ -webkit-filter: drop-shadow(0px 0px 10px #57fffb);
+    filter: drop-shadow(0px 0px 3.5px #57fffb) drop-shadow(1px 1px 1px #57fffb);
+}
+
+.fplink-fullwidth .fplink:not(.fplink-plain) {
+    background: #202020; 
+    background-image: -moz-linear-gradient(center top, #202020 0%, #505050 100%); 
+    background-image: -webkit-gradient(linear, center top, left bottom, color-stop(0%,#202020), color-stop(100%,#505050)); 
+    background-image: -webkit-linear-gradient(top, #202020 0%, #505050 100%); 
+    background-image: -o-linear-gradient(top, #202020 0%, #505050 100%); 
+    background-image: -ms-linear-gradient(top, #202020 0%, #505050 100%); 
+    background-image: linear-gradient(to bottom, #202020 0%, #505050 100%); 
+    border-top: 1px solid #57fffb;;
+    border-bottom: 1px solid #57fffb;
+    border-radius: 4px;
+    color: #000000;
+}
+
+.linkslabel {
+    border-bottom: 2px solid #505050;
+}
+/***********************/
+/* end of fpbox layout */
+/***********************/
+
+
+.warning {
+  color: olive;
+}
+
+/* Table styles */
+table {
+    background-color: transparent; 
+    color: #303a40;
+    font-size: 100%;
+}
+
+.skin-hydradark table.wikitable {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #303030;
+    border-collapse: collapse;
+    margin: 1em 1em 1em 0;
+    color: #303a40;
+}
+
+.skin-hydradark table.wikitable > tr > th,
+.skin-hydradark table.wikitable > * > tr > th,
+.skin-hydradark .wikitable th {
+    background-color: #0b616b;
+    color: #ffffff;
+}
+
+.skin-hydradark table.wikitable > tr > td,
+.skin-hydradark table.wikitable > * > tr > td {
+  background-color:rgba(0,0,0,0.3);
+  border: 1px solid #57FFFB;
+}
+
+.skin-hydradark .wikitable th,
+.skin-hydradark .wikitable td {
+    border: 1px solid #57FFFB;
+    padding: 0.2em;
+}
+
+/* sort headers */
+/* This is stuff for tables with alternating coloured lines, aka pyjama paper */
+.sortable tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.sortable tr:nth-child(2n) {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+th.header-bg.th.headerSort,
+table.jquery-tablesorter th.headerSort {
+    background-color: #00ca0e;
+    background-attachment: scroll;
+    background-image: url("data:image/gif;base64,R0lGODlhFQAJAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODcwMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODZGMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAJAAACF4yPgMsJ2mJ4VDKKrd4GVz5lYPeMiVUAADs="), -moz-linear-gradient(center top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* FF3.6+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAJAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODcwMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODZGMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAJAAACF4yPgMsJ2mJ4VDKKrd4GVz5lYPeMiVUAADs="), -webkit-gradient(linear, center top, left bottom, color-stop(0%,rgba(255, 255, 255, 0.25)), color-stop(100%,rgba(255, 255, 255, 0))) !important; /* Chrome,Safari4+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAJAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODcwMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODZGMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAJAAACF4yPgMsJ2mJ4VDKKrd4GVz5lYPeMiVUAADs="), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* Chrome10+,Safari5.1+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAJAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODcwMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODZGMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAJAAACF4yPgMsJ2mJ4VDKKrd4GVz5lYPeMiVUAADs="), -o-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* Opera 11.10+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAJAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODcwMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODZGMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAJAAACF4yPgMsJ2mJ4VDKKrd4GVz5lYPeMiVUAADs="), -ms-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* IE10+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAJAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODcwMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODZGMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAJAAACF4yPgMsJ2mJ4VDKKrd4GVz5lYPeMiVUAADs="), linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* W3C */
+    background-repeat: no-repeat, repeat;
+    background-position: center right, center center;
+    padding-right: 21px;
+}
+
+th.header-bg.th.headerSortDown,
+table.jquery-tablesorter th.headerSortDown {
+    background-color: #00ca0e;
+    background-attachment: scroll;
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhFNzNGQjI3MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhFNzNGQjI2MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYyPAcmtsJyDVDKKWQEAOw=="), -moz-linear-gradient(center top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* FF3.6+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhFNzNGQjI3MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhFNzNGQjI2MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYyPAcmtsJyDVDKKWQEAOw=="), -webkit-gradient(linear, center top, left bottom, color-stop(0%,rgba(255, 255, 255, 0.25)), color-stop(100%,rgba(255, 255, 255, 0))) !important; /* Chrome,Safari4+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhFNzNGQjI3MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhFNzNGQjI2MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYyPAcmtsJyDVDKKWQEAOw=="), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* Chrome10+,Safari5.1+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhFNzNGQjI3MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhFNzNGQjI2MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYyPAcmtsJyDVDKKWQEAOw=="), -o-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* Opera 11.10+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhFNzNGQjI3MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhFNzNGQjI2MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYyPAcmtsJyDVDKKWQEAOw=="), -ms-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* IE10+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhFNzNGQjI3MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjhFNzNGQjI2MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYyPAcmtsJyDVDKKWQEAOw=="), linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* W3C */
+    background-repeat: no-repeat, repeat;
+    background-position: center right, center center;
+    padding-right: 21px;
+}
+
+th.header-bg.th.headerSortUp,
+table.jquery-tablesorter th.headerSortUp {
+    background-color: #00ca0e;
+    background-attachment: scroll;
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAzODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODc0MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODczMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYwfoAvoz9qbZ9FrJC0AOw=="), -moz-linear-gradient(center top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* FF3.6+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAzODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODc0MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODczMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYwfoAvoz9qbZ9FrJC0AOw=="), -webkit-gradient(linear, center top, left bottom, color-stop(0%,rgba(255, 255, 255, 0.25)), color-stop(100%,rgba(255, 255, 255, 0))) !important; /* Chrome,Safari4+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAzODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODc0MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODczMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYwfoAvoz9qbZ9FrJC0AOw=="), -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* Chrome10+,Safari5.1+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAzODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODc0MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODczMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYwfoAvoz9qbZ9FrJC0AOw=="), -o-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* Opera 11.10+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAzODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODc0MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODczMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYwfoAvoz9qbZ9FrJC0AOw=="), -ms-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* IE10+ */
+    background-image: url("data:image/gif;base64,R0lGODlhFQAEAIABAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAzODAxMTc0MDcyMDY4MTE4OEM2REYyN0ExMDhBNDJFIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjdCNTAyODc0MEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjdCNTAyODczMEY4NjExRTBBMzkyQzAyM0E1RDk3RDc3IiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDM4MDExNzQwNzIwNjgxMTg4QzZERjI3QTEwOEE0MkUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQBAAABACwAAAAAFQAEAAACDYwfoAvoz9qbZ9FrJC0AOw=="), linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) !important; /* W3C */
+    background-repeat: no-repeat, repeat;
+    background-position: center right, center center;
+    padding-right: 21px;
+}
+
+
+/* wiki editor styling */
+div.wikiEditor-ui {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+div.wikiEditor-ui-tabs div {
+    border-bottom: 1px solid #080808;
+    border-right: 1px solid #080808;
+}
+
+div.wikiEditor-ui-buttons {
+    background: rgba(0, 0, 0, 0);
+    border-top: none;
+    margin-right: 5px;
+}
+
+div.wikiEditor-ui-toolbar {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+div.wikiEditor-ui-toolbar .tabs span.tab a,
+div.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+    color: #e0e0e0;
+}
+
+div.wikiEditor-ui-toolbar .tabs span.tab a.current,
+div.wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+    color: #e0e0e0;
+    font-weight: bold;
+}
+
+div.wikiEditor-ui-toolbar .sections .section {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #080808;
+    color: #e0e0e0;
+}
+
+div.wikiEditor-ui-toolbar .page-characters div span {
+    border: 1px solid #080808;
+    color: #e0e0e0;
+}
+
+div.wikiEditor-ui-toolbar .booklet .pages {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+div.wikiEditor-ui-toolbar .booklet .index .current {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fda440;
+}
+
+div.wikiEditor-ui-toolbar .booklet .index div {
+    color: #e0e0e0;
+}
+
+div.wikiEditor-ui-toolbar .page-characters div span:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: #080808;
+    color: #ffffff;
+}
+
+div.wikiEditor-ui-toolbar .page-table th,
+div.wikiEditor-ui-toolbar .page-table td {
+    color: #e0e0e0;
+}
+
+div.wikiEditor-ui-toolbar .page-table td {
+    border-top: 1px solid #080808;
+}
+
+div.wikiEditor-ui-tabs div a {
+    background: none repeat scroll 0 0 #181818;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+div.wikiEditor-ui-tabs div.current {
+    border-bottom: 1px solid #080808;
+}
+
+div.wikiEditor-ui-tabs div.current a {
+    color: #fda440;
+    font-weight: bold;
+}
+
+div.wikiEditor-ui-tabs {
+    border-left: 1px solid #080808;
+    border-top: 1px solid #080808;
+}
+
+div.wikiEditor-preview-contents {
+    border-color: #080808;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    color: #e0e0e0;
+}
+
+div.wikiEditor-ui-controls {
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #080808;
+}
+
+div.wikiEditor-preview-contents,
+div.wikiEditor-preview-loading {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+div.editOptions {  
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: -moz-use-text-color #080808 #080808;
+    border-image: none;
+    border-radius: 0 0 3px 3px;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+
+/* pref */
+.skin-hydradark #preferences {
+   background-color: rgba(0,0,0,0.5);
+   background-image: none;
+   border-color: transparent;
+}
+
+.skin-hydradark #preftoc a, 
+.skin-hydradark #preftoc a:active {
+  color: #08e0db;
+}
+
+.skin-hydradark #preferences legend {
+  color: #EE6731;
+}
+
+/* multiple fixes */
+.mw-echo-ui-pageNotificationsOptionWidget.oo-ui-optionWidget-selected {
+    background-color: #181818;
+    color: #36c;
+}
+
+.mw-echo-ui-pageNotificationsOptionWidget.oo-ui-optionWidget-highlighted {
+ background-color:#181818;
+ color:#E0E0E0;
+}
+
+.mw-echo-ui-pageNotificationsOptionWidget-count {
+    background-color: #181818;
+    color: #E0E0E0;
+}
+
+.skin-hydradark .oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+    background: #181818;
+    border: 1px solid #505050;
+    color: #E0E0E0;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-iconElement.oo-ui-labelElement > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon,
+.oo-ui-buttonElement-framed.oo-ui-iconElement.oo-ui-indicatorElement > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon,
+.oo-ui-buttonElement.oo-ui-indicatorElement.oo-ui-labelElement > .oo-ui-buttonElement-button > .oo-ui-indicatorElement-indicator,
+.oo-ui-buttonElement.oo-ui-indicatorElement.oo-ui-iconElement > .oo-ui-buttonElement-button > .oo-ui-indicatorElement-indicator,
+.oo-ui-iconElement .oo-ui-iconElement-icon,
+.oo-ui-iconElement.oo-ui-iconElement-icon {
+    filter: invert(100%);
+}
+
+.mw-echo-ui-notificationItemWidget:hover,
+.mw-echo-ui-notificationItemWidget-unread:hover {
+    background-color: #181818;
+}
+
+.mw-echo-ui-notificationsInboxWidget-main-toolbar-affixed {
+    background: #181818;
+}
+
+.mw-echo-ui-placeholderItemWidget {
+    background-color: #1F1F1F;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button:hover {
+    background-color:#202020;
+    color:#E0E0E0;
+}
+
+.oo-ui-barToolGroup.oo-ui-widget-enabled .oo-ui-widget-enabled,
+.oo-ui-popupToolGroup.oo-ui-widget-enabled,
+.oo-ui-popupWidget-popup {
+    background: #202020;
+}
+
+.oo-ui-popupToolGroup.oo-ui-widget-enabled.oo-ui-popupToolGroup-active {
+    background-color: #202020;
+}
+
+.oo-ui-indicator-down,
+.oo-ui-popupToolGroup .oo-ui-tool-link .oo-ui-iconElement-icon {
+    filter:invert(100%);
+}
+
+.oo-ui-popupToolGroup .oo-ui-tool-link .oo-ui-tool-title {
+    color: #E0E0E0;
+}
+
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+    color: #666;
+}
+
+
+/*****************/
+/* Visual Editor */
+/*****************/
+ 
+.skin-hydradark .oo-ui-toolbar-bar {
+	background: rgba(79,79,79,1);
+	background: -moz-linear-gradient(center top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	background: -webkit-gradient(center top, center top, color-stop(0%, rgba(79,79,79,1)), color-stop(100%, rgba(77,77,77,1)));
+	background: -webkit-linear-gradient(top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	background: -o-linear-gradient(top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	background: -ms-linear-gradient(top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	background: linear-gradient(to top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	border-bottom: 1px solid #333;
+	color: white;
+}
+ 
+.skin-hydradark .oo-ui-buttonedElement-framed.oo-ui-flaggableElement-primary .oo-ui-buttonedElement-button {
+	background: rgba(242,242,242,1);
+	background: -moz-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,242,242,1)), color-stop(100%, rgba(207,207,207,1)));
+	background: -webkit-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
+	background: -o-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
+	background: -ms-linear-gradient(top, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
+	background: linear-gradient(to bottom, rgba(242,242,242,1) 0%, rgba(207,207,207,1) 100%);
+	border: 1px solid rgba(242, 242, 242, 1);
+}
+ 
+.skin-hydradark .oo-ui-buttonedElement-framed.oo-ui-flaggableElement-primary .oo-ui-buttonedElement-button.oo-ui-buttonedElement-active,
+.skin-hydradark .oo-ui-buttonedElement-framed.oo-ui-flaggableElement-primary .oo-ui-buttonedElement-button.oo-ui-buttonedElement-pressed {
+	background: rgba(207,207,207,1);
+	background: -moz-linear-gradient(top, rgba(207,207,207,1) 0%, rgba(242,242,242,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(207,207,207,1)), color-stop(100%, rgba(242,242,242,1)));
+	background: -webkit-linear-gradient(top, rgba(207,207,207,1) 0%, rgba(242,242,242,1) 100%);
+	background: -o-linear-gradient(top, rgba(207,207,207,1) 0%, rgba(242,242,242,1) 100%);
+	background: -ms-linear-gradient(top, rgba(207,207,207,1) 0%, rgba(242,242,242,1) 100%);
+	background: linear-gradient(to bottom, rgba(207,207,207,1) 0%, rgba(242,242,242,1) 100%);
+	border: 1px solid rgba(207,207,207,1);;
+}
+ 
+.skin-hydradark .oo-ui-barToolGroup.oo-ui-widget-enabled .oo-ui-widget-enabled,
+.skin-hydradark .oo-ui-popupToolGroup.oo-ui-widget-enabled,
+.skin-hydradark .oo-ui-popupWidget-popup {
+	background: rgba(122,122,122,1);
+	background: -moz-linear-gradient(top, rgba(122,122,122,1) 0%, rgba(128,128,128,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(122,122,122,1)), color-stop(100%, rgba(128,128,128,1)));
+	background: -webkit-linear-gradient(top, rgba(122,122,122,1) 0%, rgba(128,128,128,1) 100%);
+	background: -o-linear-gradient(top, rgba(122,122,122,1) 0%, rgba(128,128,128,1) 100%);
+	background: -ms-linear-gradient(top, rgba(122,122,122,1) 0%, rgba(128,128,128,1) 100%);
+	background: linear-gradient(to bottom, rgba(122,122,122,1) 0%, rgba(128,128,128,1) 100%);
+	border-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0.07em 0.07em 0 rgba(0, 0, 0, 0.07) inset;
+}
+ 
+.skin-hydradark .oo-ui-barToolGroup.oo-ui-widget-enabled .oo-ui-tool-active.oo-ui-popupTool,
+.skin-hydradark .oo-ui-popupToolGroup-active.oo-ui-widget-enabled {
+	background: rgba(191,191,191,1);
+	background: -moz-linear-gradient(top, rgba(191,191,191,1) 0%, rgba(199,199,199,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(191,191,191,1)), color-stop(100%, rgba(199,199,199,1)));
+	background: -webkit-linear-gradient(top, rgba(191,191,191,1) 0%, rgba(199,199,199,1) 100%);
+	background: -o-linear-gradient(top, rgba(191,191,191,1) 0%, rgba(199,199,199,1) 100%);
+	background: -ms-linear-gradient(top, rgba(191,191,191,1) 0%, rgba(199,199,199,1) 100%);
+	background: linear-gradient(to bottom, rgba(191,191,191,1) 0%, rgba(199,199,199,1) 100%);
+}
+ 
+.skin-hydradark .oo-ui-popupToolGroup .oo-ui-toolGroup-tools,
+.skin-hydradark .oo-ui-popupWidget .oo-ui-popupWidget-popup .oo-ui-buttonWidget {
+	background-color: rgba(191, 191, 191, 1);
+	border: 1px solid #888;
+}
+
+.oo-ui-popupToolGroup.oo-ui-widget-enabled > .oo-ui-popupToolGroup-handle:hover,
+.oo-ui-listToolGroup .oo-ui-tool.oo-ui-widget-enabled:hover  {
+        background-color: #444444;
+}
+ 
+.ve-ui-commentContextItem .ve-ui-linearContextItem-body {
+  color: white;
+  font-family: monospace,"Courier";
+  line-height: 1.25em;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top: 0;
+  max-height: 10em;
+  overflow-x: auto;
+  overflow-y: auto;
+  padding-bottom: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  white-space: pre-wrap;
+}
+
+
+/* iframe popups */
+body.oo-ui-frame-body,
+.skin-hydradark .oo-ui-popupWidget .oo-ui-popupWidget-popup  {
+	background: rgba(79,79,79,1);
+	background: -moz-linear-gradient(center top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	background: -webkit-gradient(center top, center top, color-stop(0%, rgba(79,79,79,1)), color-stop(100%, rgba(77,77,77,1)));
+	background: -webkit-linear-gradient(top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	background: -o-linear-gradient(top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	background: -ms-linear-gradient(top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	background: linear-gradient(to top, rgba(79,79,79,1) 0%, rgba(77,77,77,1) 100%);
+	color: white;
+}
+ 
+.oo-ui-window-head .oo-ui-window-title {
+	color: #eee;
+}
+ 
+.oo-ui-window-body .oo-ui-selectWidget-depressed .oo-ui-outlineItemWidget.oo-ui-optionWidget-selected {
+	background-color: #4e4e4e;
+}
+ 
+.oo-ui-window-body .oo-ui-selectWidget-depressed .oo-ui-optionWidget-selected,
+body.oo-ui-window-body .oo-ui-selectWidget-depressed .oo-ui-outlineItemWidget .oo-ui-optionWidget-selected {
+	background-color: rgba(191, 191, 191, 1);
+}
+ 
+.oo-ui-window-body .oo-ui-selectWidget-pressed .oo-ui-optionWidget-pressed {
+	background-color: #4e4e4e;
+}
+ 
+.oo-ui-fieldLayout-field .oo-ui-textInputWidget.oo-ui-widget-disabled input,
+.oo-ui-fieldLayout-field .oo-ui-textInputWidget.oo-ui-widget-disabled input:focus,
+.oo-ui-fieldLayout-field .oo-ui-textInputWidget.oo-ui-widget-disabled textarea,
+.oo-ui-fieldLayout-field .oo-ui-textInputWidget.oo-ui-widget-disabled textarea:focus,
+.skin-hydradark .oo-ui-popupWidget .oo-ui-popupWidget-popup .oo-ui-buttonWidget label {
+	color: #333;
+}
+ 
+.oo-ui-panelLayout.oo-ui-bookletLayout-outlinePanel {
+	border-right: 1px solid #666;
+}
+ 
+.skin-hydradark .oo-ui-dialog .oo-ui-window-frame {
+	border: 1px solid #666;
+}
+ 
+body.oo-ui-window-body .oo-ui-selectWidget-depressed .oo-ui-outlineItemWidget .oo-ui-optionWidget-selected {
+	text-shadow: none;
+}
+
+.skin-hydradark .mw-search-profile-tabs {
+  background-color: #404040;
+  border:1px solid gray;
+  margin-top: 1em;
+}
+
+
+.skin-hydradark .mw-search-profile-tabs div.search-types ul li.current a {
+    color: white;
+    cursor: default;
+}
+
+/* colour fixes */
+#contentSub, 
+#contentSub2 {
+	font-size: 84%;
+	line-height: 1.2em;
+	color: white;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-image: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20width%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229.5%22%20r%3D%222.5%22%20fill%3D%22%2357fffb%22%2F%3E%0A%3C%2Fsvg%3E%0A);
+}
+
+#catlinks, 
+#toc, 
+.toc, 
+.mw-warning,
+div#toc, 
+div.toc, 
+div.mw-warning,
+li.gallerybox div.thumb,
+ul#filetoc {
+	background-color: rgba(0,0,0,0.5);
+	border-color: transparent;
+	border-top-color: #57FFFB;
+	border-bottom-color: #57FFFB;
+}
+
+.htmlform-tip {
+	font-size: x-small;
+	padding: 0.2em 2em;
+	color: #FFFFFF;
+}
+
+table.diff, 
+td.diff-otitle, 
+td.diff-ntitle {
+	background-color: rgba(0,0,0,0.5);
+}
+
+#pagehistory li.selected {
+	color: #e0e0e0;
+	background-color: rgba(0,0,0,0.5);
+	border-color: #101010;
+	border-style: solid;
+	border-width: 1px 0;
+}
+
+.mw-plusminus-pos {
+	color: #1cfc1c;
+}
+
+fieldset {
+	border-color: #FFFFFF;
+}
+
+/* scroll */
+::-webkit-scrollbar-button:vertical:increment {
+background-image:url('https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/f/f9/Scroll_bar_down.png/revision/latest?cb=20200830193428');
+background-repeat:no-repeat;
+width:11px;
+height:14px
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+background-image:url('https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/8/8f/Scroll_bar_up.png/revision/latest?cb=20200830193429');
+background-repeat:no-repeat;
+width:11px;
+height:14px
+}
+
+::-webkit-scrollbar-track {
+background-color:black;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 2px;
+border-radius: 2px;
+background-color:#08e0db;
+}
+
+::-webkit-scrollbar{
+width: 11px;
+}
+
+/* navigation blocks highlighting */
+.navhov {
+	transform: scale(0.9);
+	transition: all .5s;
+	display: inline-block;
+}
+ 
+.navhov:hover {
+	transform: scale(1);
+	transition: all .5s;
+	filter: brightness(130%) drop-shadow(0px 0px 10px #b2f4f3);
+}
+
+/* cursor */
+body {
+    cursor: url("https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/2/2b/Cursor_1.png/revision/latest?cb=20200906175229"), auto;
+}
+a:link, a:visited,
+a:hover {
+    cursor: url("https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/e/e6/Cursor_2.png/revision/latest?cb=20200906175230"), auto;
+}
+
+
+/* color fix thumbnail background */
+html .thumbimage {
+	background-color: rgba(0,0,0,0.5);
+	border: 0;
+}
+
+div.thumbinner {
+	background-color: #5C335C;
+	border-color: #a3fbff;
+}

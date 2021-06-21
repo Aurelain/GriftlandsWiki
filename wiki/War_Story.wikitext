@@ -1,0 +1,9 @@
+{{Stub}}
+{{Card
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Gamble]], [[Influence]], [[Dominance]], [[Expend]]
+|upgradeable = No}}
+'''War Story'''. Cost 1. Negotiation Card. Unique Manipulate. Gamble. Heads: Gain 5 Influence. Snails: Gain 4 Dominance. Expend.

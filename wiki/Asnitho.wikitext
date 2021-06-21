@@ -1,0 +1,20 @@
+
+
+{{Infobox
+| name     = Asnitho
+| image    = Asnitho.png
+| race     = Kra'deshi
+| location = Havaria - Murder Bay
+| source   = 
+| reward   = 
+| related  = Admiralty - Patrol Leader
+| ID       =
+}}{{quote|Asnitho likes to spend her time off walking in nature. And she's got the yote scars to prove it.|Asnitho's Compendium Description}}
+
+'''Asnitho''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
+
+== Death Loot ==
+If '''Asnitho''' is killed in combat, she will drop a [[Spear Head]].
+[[File:Spear Head.png|none|thumb]]
+<br />
+[[Category:Characters]]
