@@ -10,6 +10,7 @@ const AdmZip = require('adm-zip');
  * Installation directory, which should contain the game archives ("data_scripts.zip" and others).
  */
 const GAME_DIR = 'C:/Program Files (x86)/Steam/steamapps/common/Griftlands';
+
 const SKINS = 'scripts/content/characters/character_skins.lua';
 const CHARACTERS = 'scripts/content/characters/';
 
@@ -21,11 +22,9 @@ const CHARACTERS = 'scripts/content/characters/';
  */
 const updateFromGame = async () => {
     const zip = new AdmZip(GAME_DIR + '/data_scripts.zip');
-    const characters = collectCharacters(zip);
-    console.log('characters:', Object.keys(characters).length);
-    // for (const zipEntry of zipEntries) {
-    //     console.log('zipEntry:', zipEntry.entryName);
-    // }
+    const {people, bosses} = getCharacters(zip);
+    console.log('people:', tally(people));
+    console.log('bosses:', tally(bosses));
 };
 
 // =====================================================================================================================
@@ -34,41 +33,31 @@ const updateFromGame = async () => {
 /**
  *
  */
-const collectCharacters = (zip) => {
-    const skins = collectCharacterSkins(zip);
-    const definitions = collectCharacterDefinitions(zip);
-    console.log('definitions:', definitions);
-    const output = {};
-    return output;
+const getCharacters = (zip) => {
+    const skins = parseCharacterSkins(zip);
+    const defs = parseCharacterDefs(zip);
+    return {
+        people: getPeople(defs, skins),
+        bosses: getBosses(defs, skins),
+    };
 };
 
 /**
  *
  */
-const collectCharacterSkins = (zip) => {
+const parseCharacterSkins = (zip) => {
     const lua = zip.getEntry(SKINS).getData().toString('utf8');
     let draft = lua.replace(/[^{]*/, '');
     draft = draft.replace(/^(\s*)(\w+) =/gm, '$1"$2":');
     draft = draft.replace(/{\s+{/g, '[{');
     draft = draft.replace(/}\s+}/g, '}]');
-    const json = JSON.parse(draft);
-    const output = {};
-    for (const groupKey in json) {
-        for (const {bio, name, id, species} of json[groupKey]) {
-            output[name] = {
-                bio,
-                id,
-                species,
-            };
-        }
-    }
-    return output;
+    return JSON.parse(draft);
 };
 
 /**
  *
  */
-const collectCharacterDefinitions = (zip) => {
+const parseCharacterDefs = (zip) => {
     const entries = zip.getEntries();
     const output = {};
     for (const entry of entries) {
@@ -87,15 +76,12 @@ const collectCharacterDefinitions = (zip) => {
 const collectDefinitionsFromLua = (lua) => {
     let cursor = 0;
     const output = {};
-    // if (!lua.includes('"Mullifee"')) {
-    //     return output;
-    // }
     while (true) {
         const index = lua.indexOf('CharacterDef("', cursor);
         if (index < 0) {
             break;
         }
-        const enclosure = findEnclosure(lua, index);
+        const enclosure = findEnclosure(lua, index, '(', ')');
         const definition = parseDefinition(enclosure);
         if (definition) {
             output[definition.id] = definition;
@@ -108,16 +94,15 @@ const collectDefinitionsFromLua = (lua) => {
 /**
  *
  */
-const findEnclosure = (text, from) => {
+const findEnclosure = (text, from, begin, end) => {
     let indent = -1;
     for (let i = from; i < text.length; i++) {
         const c = text.charAt(i);
-        // console.log('c:', c, indent);
         switch (c) {
-            case '(':
+            case begin:
                 indent++;
                 break;
-            case ')':
+            case end:
                 indent--;
                 if (indent === -1) {
                     return text.substring(from, i + 1);
@@ -135,15 +120,151 @@ const findEnclosure = (text, from) => {
  */
 const parseDefinition = (text) => {
     const id = text.match(/"([^"]+)/)[1];
-    // if (id !== 'MULLIFEE') {
-    //     return;
-    // }
     text = text.replace(/^\s*--.*/gm, '');
     return {
         id,
-        base_def: (text.match(/base_def = "([^"]*)"/) || [0, ''])[1],
+        name: capture(text, /name = "([^"]*)"/),
+        base_def: capture(text, /base_def = "([^"]*)"/),
+        faction_id: capture(text, /faction_id = "([^"]*)"/),
+        loved_graft: capture(text, /loved_graft = "([^"]*)"/),
+        hated_graft: capture(text, /hated_graft = "([^"]*)"/),
+        death_item: capture(text, /death_item = "([^"]*)"/),
+        unique: text.includes('unique = true'),
         boss: text.includes('boss = true'),
+        hide_in_compendium: text.includes('hide_in_compendium = true'),
     };
+};
+
+/**
+ *
+ */
+const parseDefinition2 = (text) => {
+    const id = text.match(/"([^"]+)/)[1];
+    console.log('id:', id);
+    text = text.replace(/--.*/g, '');
+    text = removeProp(text, 'negotiation_data');
+    text = removeProp(text, 'fight_data');
+    text = removeProp(text, 'anims');
+    text = removeProp(text, 'combat_anims');
+    text = removeProp(text, 'tags');
+    text = text.replace(/= ([\w.]+),/g, '= "$1",');
+    text = text.replace(/\[(.*?)]/g, '$1');
+    text = text.replace(/([a-zA-Z_.]+)\s*=/g, '"$1":');
+    // text = text.replace(/,[\s,]+/g, ',\n'); // fix commas after removed props
+    text = text.replace(/,\s*}/g, '}'); // fix last comma in objects
+    text = text.replace(/[^{]*/, ''); // trim beginning
+    text = text.replace(/[^}]*$/, ''); // trim ending
+    // text = convertToLuaObjectToArray(text, '"tags"');
+    // text = text.replace(/[^{]*{/, '');
+    // text = text.replace(/negotiation_data[\s\S]*/, '');
+    // text = text.replace(/fight_data[\s\S]*/, '');
+    // text = text.replace(/.*\(.*/g, '');
+    // text = text.replace(/,\s*}/g, '}');
+    //
+    // text = text.replace(/{/g, '[');
+    // text = text.replace(/}/g, ']');
+    // text = '{' + text.replace(/[^"]*$/, '}');
+    // console.log('text:', text);
+    console.log('text:', text);
+    const json = JSON.parse(text);
+    return {
+        id,
+        name: capture(text, /name = "([^"]*)"/),
+        base_def: capture(text, /base_def = "([^"]*)"/),
+        faction_id: capture(text, /faction_id = "([^"]*)"/),
+        loved_graft: capture(text, /loved_graft = "([^"]*)"/),
+        hated_graft: capture(text, /hated_graft = "([^"]*)"/),
+        death_item: capture(text, /death_item = "([^"]*)"/),
+        unique: text.includes('unique = true'),
+        boss: text.includes('boss = true'),
+        hide_in_compendium: text.includes('hide_in_compendium = true'),
+    };
+};
+
+/**
+ * Shameless translation of `UpdateCount()` from `scripts/ui/widgets/peoplecompendium.lua`
+ */
+const getPeople = (defs, skins) => {
+    const people = [];
+    for (const contentId in defs) {
+        const def = defs[contentId];
+        if (def.boss) {
+            // skip, these go in the boss tab.
+        } else if (def.faction_id === 'PLAYER_FACTION') {
+            // skip player defs.
+        } else if (def.hide_in_compendium) {
+            // explicitly skipped.
+        } else {
+            const relevantSkins = skins[contentId];
+            if (relevantSkins) {
+                for (const skin of relevantSkins) {
+                    const agent = getAgent(def, skin);
+                    people.push(agent);
+                }
+            } else if (def.unique) {
+                const agent = getAgent(def);
+                people.push(agent);
+            }
+        }
+    }
+    return people;
+};
+
+/**
+ * Adaptation of `UpdateCount()` from `scripts/ui/widgets/bosscompendium.lua`
+ */
+const getBosses = (allDefs, allSkins) => {
+    const bosses = [];
+    for (const contentId in allDefs) {
+        const def = allDefs[contentId];
+        if (def.boss && !def.hide_in_compendium) {
+            const skins = allSkins[contentId];
+            if (skins) {
+                for (const skin of skins) {
+                    const agent = getAgent(def, skin);
+                    bosses.push(agent);
+                }
+            } else {
+                const agent = getAgent(def);
+                bosses.push(agent);
+            }
+        }
+    }
+    return bosses;
+};
+
+/**
+ *
+ */
+const getAgent = (def, skin) => {
+    return {...def, ...skin};
+};
+
+/**
+ *
+ */
+const capture = (text, pattern) => {
+    return (text.match(pattern) || [0, ''])[1];
+};
+
+/**
+ *
+ */
+const removeProp = (text, prop) => {
+    const index = text.indexOf(prop);
+    if (index >= 0) {
+        const enclosure = findEnclosure(text, index, '{', '}');
+        return text.replace(enclosure, '');
+    } else {
+        return text;
+    }
+};
+
+/**
+ *
+ */
+const tally = (target) => {
+    return Object.keys(target).length;
 };
 
 // =====================================================================================================================
