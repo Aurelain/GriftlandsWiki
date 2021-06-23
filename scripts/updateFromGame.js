@@ -11,8 +11,15 @@ const AdmZip = require('adm-zip');
  */
 const GAME_DIR = 'C:/Program Files (x86)/Steam/steamapps/common/Griftlands';
 
+/**
+ * For unknown reasons, the character "Murkot" appears in the actual Compendium, although it shouldn't do so according
+ * to the code in lua (because he isn't mentioned in skins and isn't marked as unique).
+ * So we make him unique ourselves...
+ */
+const MURKOT_EXCEPTION = 'HESH_OUTPOST_LUMINARI';
+
 const SKINS = 'scripts/content/characters/character_skins.lua';
-const CHARACTERS = 'scripts/content/characters/';
+const CHARACTERS_DIR = 'scripts/content/characters/';
 
 // =====================================================================================================================
 //  P U B L I C
@@ -25,6 +32,8 @@ const updateFromGame = async () => {
     const {people, bosses} = getCharacters(zip);
     console.log('people:', tally(people));
     console.log('bosses:', tally(bosses));
+    // prettyCharacters(people);
+    // prettyCharacters(bosses);
 };
 
 // =====================================================================================================================
@@ -61,12 +70,20 @@ const parseCharacterDefs = (zip) => {
     const entries = zip.getEntries();
     const output = {};
     for (const entry of entries) {
-        if (entry.entryName.startsWith(CHARACTERS)) {
+        if (entry.entryName.startsWith(CHARACTERS_DIR)) {
             const lua = entry.getData().toString('utf8');
             const definitions = collectDefinitionsFromLua(lua);
             Object.assign(output, definitions);
         }
     }
+    for (const key in output) {
+        const def = output[key];
+        const {base_def} = def;
+        if (base_def) {
+            output[key] = {...output[base_def], ...def};
+        }
+    }
+    output[MURKOT_EXCEPTION].unique = true;
     return output;
 };
 
@@ -121,64 +138,23 @@ const findEnclosure = (text, from, begin, end) => {
 const parseDefinition = (text) => {
     const id = text.match(/"([^"]+)/)[1];
     text = text.replace(/^\s*--.*/gm, '');
-    return {
-        id,
-        name: capture(text, /name = "([^"]*)"/),
-        base_def: capture(text, /base_def = "([^"]*)"/),
-        faction_id: capture(text, /faction_id = "([^"]*)"/),
-        loved_graft: capture(text, /loved_graft = "([^"]*)"/),
-        hated_graft: capture(text, /hated_graft = "([^"]*)"/),
-        death_item: capture(text, /death_item = "([^"]*)"/),
-        unique: text.includes('unique = true'),
-        boss: text.includes('boss = true'),
-        hide_in_compendium: text.includes('hide_in_compendium = true'),
-    };
-};
-
-/**
- *
- */
-const parseDefinition2 = (text) => {
-    const id = text.match(/"([^"]+)/)[1];
-    console.log('id:', id);
-    text = text.replace(/--.*/g, '');
     text = removeProp(text, 'negotiation_data');
     text = removeProp(text, 'fight_data');
-    text = removeProp(text, 'anims');
-    text = removeProp(text, 'combat_anims');
-    text = removeProp(text, 'tags');
-    text = text.replace(/= ([\w.]+),/g, '= "$1",');
-    text = text.replace(/\[(.*?)]/g, '$1');
-    text = text.replace(/([a-zA-Z_.]+)\s*=/g, '"$1":');
-    // text = text.replace(/,[\s,]+/g, ',\n'); // fix commas after removed props
-    text = text.replace(/,\s*}/g, '}'); // fix last comma in objects
-    text = text.replace(/[^{]*/, ''); // trim beginning
-    text = text.replace(/[^}]*$/, ''); // trim ending
-    // text = convertToLuaObjectToArray(text, '"tags"');
-    // text = text.replace(/[^{]*{/, '');
-    // text = text.replace(/negotiation_data[\s\S]*/, '');
-    // text = text.replace(/fight_data[\s\S]*/, '');
-    // text = text.replace(/.*\(.*/g, '');
-    // text = text.replace(/,\s*}/g, '}');
-    //
-    // text = text.replace(/{/g, '[');
-    // text = text.replace(/}/g, ']');
-    // text = '{' + text.replace(/[^"]*$/, '}');
-    // console.log('text:', text);
-    console.log('text:', text);
-    const json = JSON.parse(text);
-    return {
-        id,
-        name: capture(text, /name = "([^"]*)"/),
-        base_def: capture(text, /base_def = "([^"]*)"/),
-        faction_id: capture(text, /faction_id = "([^"]*)"/),
-        loved_graft: capture(text, /loved_graft = "([^"]*)"/),
-        hated_graft: capture(text, /hated_graft = "([^"]*)"/),
-        death_item: capture(text, /death_item = "([^"]*)"/),
-        unique: text.includes('unique = true'),
-        boss: text.includes('boss = true'),
-        hide_in_compendium: text.includes('hide_in_compendium = true'),
-    };
+    // Note: we're using the parse/stringify hack to remove undefined values
+    return JSON.parse(
+        JSON.stringify({
+            id,
+            name: capture(text, /name = "([^"]*)"/),
+            base_def: capture(text, /base_def = "([^"]*)"/),
+            faction_id: capture(text, /faction_id = "?(\w+)/),
+            loved_graft: capture(text, /loved_graft = "([^"]*)"/),
+            hated_graft: capture(text, /hated_graft = "([^"]*)"/),
+            death_item: capture(text, /death_item = "([^"]*)"/),
+            unique: capture(text, /unique = (true)/) ? true : undefined,
+            boss: capture(text, /boss = (true)/) ? true : undefined,
+            hide_in_compendium: capture(text, /hide_in_compendium = (true)/) ? true : undefined,
+        })
+    );
 };
 
 /**
@@ -244,7 +220,7 @@ const getAgent = (def, skin) => {
  *
  */
 const capture = (text, pattern) => {
-    return (text.match(pattern) || [0, ''])[1];
+    return (text.match(pattern) || [])[1];
 };
 
 /**
@@ -254,10 +230,13 @@ const removeProp = (text, prop) => {
     const index = text.indexOf(prop);
     if (index >= 0) {
         const enclosure = findEnclosure(text, index, '{', '}');
-        return text.replace(enclosure, '');
-    } else {
-        return text;
+        if (enclosure && enclosure.match(new RegExp(prop + '\\s*=\\s*{'))) {
+            // sometimes the prop is a string, not an object, so `findEnclosure()` fails.
+            text = text.replace(enclosure + ',', '');
+            text = text.replace(enclosure, ''); // in case the previous line did not handle the comma
+        }
     }
+    return text;
 };
 
 /**
@@ -265,6 +244,25 @@ const removeProp = (text, prop) => {
  */
 const tally = (target) => {
     return Object.keys(target).length;
+};
+
+/**
+ *
+ */
+const prettyCharacters = (list) => {
+    const sorted = list.slice().sort((a, b) => (a.name < b.name ? -1 : 1));
+    const names = sorted.map((item) => item.name);
+    let pretty = '';
+    for (let i = 0; i < names.length; i++) {
+        if (i % 4 === 0) {
+            pretty += '\n';
+        }
+        if (i % 28 === 0) {
+            pretty += '-'.repeat(120) + '\n';
+        }
+        pretty += (names[i] + ' '.repeat(32)).substring(0, 32);
+    }
+    console.log('output:', pretty);
 };
 
 // =====================================================================================================================
