@@ -1,5 +1,5 @@
 const fs = require('fs');
-const {resolve} = require('path');
+const {resolve, join} = require('path');
 const got = require('got');
 const FormData = require('form-data');
 const {CookieJar} = require('tough-cookie');
@@ -13,7 +13,7 @@ const ENDPOINT = 'http://127.0.0.1/mediawiki/api.php';
 /**
  * Directory where we store the pulled pages.
  */
-const TEXTS_SOURCE = __dirname + '/../../wiki';
+const PAGES_DIR = __dirname + '/../../wiki';
 
 /**
  * The file extension we use when storing texts.
@@ -21,9 +21,9 @@ const TEXTS_SOURCE = __dirname + '/../../wiki';
 const TEXT_EXTENSION = 'wikitext'; // could also be "txt"
 
 /**
- * Directory where we store the images.
+ * Directory where we store the images that correspond to each json in the "File" folder.
  */
-const RAW_SOURCE = __dirname + '/../../raw/web';
+const RAW_DIR = __dirname + '/../../raw/web';
 
 /**
  * A file name (in the local OS file system) cannot contain some special characters, so we replace them.
@@ -64,7 +64,12 @@ const push = async () => {
         console.log(`Visit "https://griftlands.fandom.com/wiki/Special:BotPasswords".`);
         return;
     }
-    await writePage('Aur2', 'da2', token);
+    const pages = prepare(PAGES_DIR);
+    for (let i = 570; i < pages.length; i++) {
+        const {title, text} = pages[i];
+        const result = await writePage(title, text, token);
+        console.log(i, result ? '✓' : '✕', title);
+    }
 };
 
 // =====================================================================================================================
@@ -152,8 +157,14 @@ const writePage = async (title, text, token) => {
         responseType: 'json',
         cookieJar,
     });
-    console.log('writeResponse:', writeResponse);
+    const result = writeResponse?.body?.edit?.result === 'Success';
+    if (!result) {
+        console.log('writeResponse:', writeResponse.body);
+        process.exit(0);
+    }
+    return result;
 };
+
 /**
  *
  */
@@ -163,6 +174,41 @@ const formalize = (bag) => {
         form.append(key, bag[key]);
     }
     return form;
+};
+
+/**
+ *
+ */
+const prepare = (dir, results = [], namespace = '') => {
+    const list = fs.readdirSync(dir);
+    for (const file of list) {
+        if (file === 'File') {
+            continue;
+        }
+        const joinedPath = join(dir, file);
+        const stat = fs.statSync(joinedPath);
+        if (stat && stat.isDirectory()) {
+            prepare(joinedPath, results, file);
+        } else {
+            results.push({
+                title: prepareTitle(file, namespace),
+                text: fs.readFileSync(joinedPath, 'utf8'),
+            });
+        }
+    }
+    return results;
+};
+
+/**
+ *
+ */
+const prepareTitle = (fileName, namespace) => {
+    let title = fileName.replace(/\.[^.]*$/, '');
+    for (const unsafe in TITLE_REPLACEMENTS) {
+        const safe = TITLE_REPLACEMENTS[unsafe];
+        title = title.split(safe).join(unsafe);
+    }
+    return namespace ? `${namespace}:${title}` : title;
 };
 
 // =====================================================================================================================
