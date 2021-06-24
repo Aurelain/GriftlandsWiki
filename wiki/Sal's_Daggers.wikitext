@@ -1,7 +1,7 @@
 {{Card
 |cardtype = Maneuver
 |decktype = Battle
-|expreq = 7
+|expreq = 9
 |rarity = Basic
 |upgrade1 = Sal's Bloody Daggers: Insert [[Gouge]] or [[Vertical Slash]] into your hand.
 |upgrade2 = Sal's Combo Daggers: Insert [[Rain of Blades]] or [[Gut Shot]] into your hand.
@@ -10,19 +10,14 @@
 
 '''Sal's Daggers''' is a 1-cost Basic '''Maneuver''' card for [[Sal]]. It inserts either [[Hammer Grip]] or [[Saber Grip]] into your hand. As a base card '''Sal's Daggers''' is always part of the available card pool for [[Sal]].
 
+
 ==Upgrades==
-After accruing 7 experience '''Sal's Daggers''' is able to be upgraded.
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Effect
+At 9 experience, '''Sal's Daggers''' can be upgraded.
+{| class="wikitable" style="text-align:center"
 |-
-|Sal's Bloody Daggers
-|1
-|Insert [[Gouge]] or [[Vertical Slash]] into your hand.
+|[[File:Sal's Bloody Daggers.png|150px]]
+|[[File:Sal's Combo Daggers.png|150px]]
 |-
-|Sal's Combo Daggers
-|1
-|Insert [[Rain of Blades]] or [[Gut Shot]] into your hand.
+!Insert [[Gouge]] or [[Vertical Slash]] into your hand.
+!Insert [[Rain of Blades]] or [[Gut Shot]] into your hand.
 |}

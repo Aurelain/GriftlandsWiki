@@ -14,6 +14,9 @@ Rug wanders around the Griftlands, looking for patrons willing to try out his cu
 |Deep-eel eclair
 |
 |-
+|Tidepool Pods
+|Lose 8 HP. Gain a "Tidepool Pods" card. (1 cost, Battle, Unique Item, 3-6 damage, Hits all enemies, Destroy after 5 uses)
+|-
 |Oshnu Bile Tartare
 |Gain a "Well Fed" card. (0 cost, regain 5 HP)
 |-

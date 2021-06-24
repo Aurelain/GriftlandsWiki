@@ -1,0 +1,26 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Stun]], [[Expend]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Kidney Shot
+|upgrade2 = Pale Kidney Shot}}
+{{Quote|You sure that guy even has kidneys?}}
+'''Kidney Shot''' is a 1-cost Rare '''Attack''' card for [[Sal]]. It deals 1-3 damage and says "Apply [[Stun]]. [[Expend]]."
+
+==Upgrades==
+At 7 experience, '''Kidney Shot''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Kidney Shot.png|150px]]
+|[[File:Pale Kidney Shot.png|150px]]
+|-
+!Deals 2-6 damage
+!Costs 0 actions
+|}
+
+==Notes==
+This card is good.

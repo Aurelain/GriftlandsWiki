@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Panic]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Pale Doom
+|upgrade2 = Focused Doom}}
+{{Quote|Game over man! GAME OVER!}}
+'''Doom''' is a 3-cost Rare '''Maneuver''' card for [[Sal]]. It says "Double the [[Panic]] meter of all fighters."
+
+==Upgrades==
+At 5 experience, '''Doom''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Pale Doom.png|150px]]
+|[[File:Focused Doom.png|150px]]
+|-
+!Costs 2
+!Only targets enemies.
+|}

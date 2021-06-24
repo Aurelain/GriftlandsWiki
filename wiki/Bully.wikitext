@@ -3,6 +3,7 @@
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Bravado]]
 |upgradeable = Yes
 |expreq = 6
 |upgrade1 = Rooted Bully
@@ -12,7 +13,7 @@
 |upgrade5 = Mirrored Bully
 |upgrade6 = Visionary Bully}}
 {{Quote|Come here you.}}
-'''Bully''' is a 1-cost Basic '''Hostility''' card for [[Smith]]. It deals 1-2 base damage. Through '''Bravado''', it gains bonus damage based on the number of played '''Hostility''' cards in a row.
+'''Bully''' is a 1-cost Basic '''Hostility''' card for [[Smith]]. It deals 1-2 base damage. Through '''[[Bravado]]''', it gains bonus damage based on the number of played '''Hostility''' cards in a row.
 
 ==Upgrades==
 Like every basic card, '''Bully''' has more than two upgrades, from which it randomly picks 2 you can decide from.

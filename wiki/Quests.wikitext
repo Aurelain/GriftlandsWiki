@@ -22,6 +22,7 @@ Some quests in Sal's campaign may give an initial bonus of a card choice. Additi
 #[[Getting Settled]]
 #[[Roaloch and Load]]
 #[[Final Pieces]]
+#[[Auction Day]]
 
 '''Rook's Campaign'''
 #[[Stepping in it]]

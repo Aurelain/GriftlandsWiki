@@ -1,0 +1,46 @@
+{{stub}}
+'''Asset Recovery''' is a difficulty <font color="#ffe066">&#9733; &#9734; &#9734; &#9734; &#9734;</font> quest with a focus on {{battle}}.
+
+==Description==
+A Civilian Wealthy Merchant character is trying to track down some stolen goods, and needs you to track down some leads. 
+
+[[Sal]] is told to question a couple Spree Thug characters that are the most likely culprits. 
+When you approach one of the suspects, you can:
+* Press the suspect for information about the theft {{negotiation}}
+* Beat the info out of the suspect {{battle}} (the suspect will dislike you).
+
+The suspect you addressed will either accuse the other suspect or admit to the crime themself.
+If they accuse the other suspect, you must approach the second suspect and get information from them. 
+
+Upon approaching the second suspect, again you can get them to confess by:
+* Press the suspect for information about the theft {{negotiation}}
+* Beat the info out of the suspect {{battle}} (the suspect will dislike you).
+
+Once one of the suspects has confessed to you, they will now hate you and they will reveal the location of the stolen goods. 
+
+When you retrieve the stolen goods, the culprit appears and attacks you. You have no choice but to defend yourself. This {{battle}} is '''isolated''' so you can get away with killing the culprit here. 
+
+After dealing with the culprit, you return to the merchant to report the location of the goods and claim your reward. 
+
+If you kill the culprit before getting them to confess to the crime, you will have to return to the merchant without knowing where the stolen goods are. 
+In this case, you can:
+* Convince the merchant to pay you {{negotiation}}
+* Admit your failure (no quest reward).
+
+
+
+==Rewards==
+The get to choose a card at the beginning of the quest. You get 55 {{shills}} and 1 {{Mettle}} upon completing the quest. 
+The has a bonus reward, which can be:
+
+* Bonus Money: Get a bonus payment of 30 {{shills}}
+* Remove a Card: Remove a card from one of your decks
+* Upgrade a Card: Upgrade a {{negotiation}} or {{battle}} card
+* Restoration: Restore 20 health or 10 resolve
+* Get a new card: Get an [[Items|Item]] or Unique card based on the quest or quest-giver
+
+
+
+
+
+[[Category:Quests]]

@@ -1,0 +1,25 @@
+{{Reupload}}
+
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Ability]], [[Combo]],  [[Expend]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Initial Bay Boxing
+|upgrade2 = Rival's Bay Boxing}}
+{{Quote|The toughest ones are always right off the Derrick.}}
+'''Murder Bay Boxing''' is a 2-cost Uncommon '''Maneuver''' card for [[Sal]]. It says "[[Ability]]: At the start of your turn, draw an additional card if you have at least 2 [[Combo]]. [[Expend]]"
+
+==Upgrades==
+At 5 experience, '''Murder Bay Boxing''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Initial Bay Boxing.png|150px]]
+|[[File:Rival's Bay Boxing.png|150px]]
+|-
+![[Ambush]]
+!Gain 2 [[Combo]]
+|}

@@ -1,0 +1,11 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Expend]]
+|upgradeable = No
+|expreq = 
+|upgrade1 = 
+|upgrade2 = }}
+{{Quote|Hesh's Bells! Don't you ever get tired!}}

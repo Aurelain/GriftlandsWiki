@@ -1,0 +1,24 @@
+'''Auction Day''' is the main quest on the final day of [[Sal]]'s campaign. The objective is to get into the auction and kill your rival [[Kashio]]. 
+Sal awakens in the [[Grog n' Dog]] and talks to its owner, [[Fssh]], to learn that Nadan or Oolo is waiting for you to report. The details of the quest depend on whether you have sided with Nadan or Oolo. 
+
+== Guard Duty ==
+If you have sided with Oolo, she will give you a badge and ask you to act as a bouncer for the first part of the auction. 
+
+While watching the door, you are approached by a character who dislikes or hates you. They will demand to settle their animosity with you once and for all. Your options are:
+* Try to talk them down ({{Negotiation}} against only the instigator)
+* Defend yourself ({{Battle}} against the instigator and two other characters)
+* Appeal to your fellow bouncer for help ({{Negotiation}} with the benefit that you will have somebody on your side in the above two options)
+
+== The Auction ==
+Whether you sided with Nadan or Oolo, you are allowed to take one of the auction items to help you in your battle against [[Kashio]]. (The item options are listed in the [[Kashio]] page). 
+
+If you sided with Oolo, your options are:
+* Hand over your requisition (Allows you to choose one of the auction items. Afterward you can choose the other too options as well.)
+* Take a place at the auction (Allows you to participate in as a {{negotiation}}).
+* Hang back with the security forces (proceeds directly to the confrontation with [[Kashio]]. 
+
+The Auction is a {{negotiation}} instance with special side arguments on the opponent's side: auction items, and auction participants. 
+The negotiation ends the first time and auction item argument is destroyed by you. You gain the corresponding item for the battle against Kashio. 
+The auction participants will attack your arguments and the auction item arguments. Destroying an auction participant will replace it with a new auction participant argument. 
+
+[[Category:Sal Quests]]

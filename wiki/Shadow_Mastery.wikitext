@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Ability]], [[Adrenaline]], [[Expend]] 
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Initial Shadow Mastery
+|upgrade2 = Pale Shadow Mastery}}
+{{Quote|One strike is usually all you need when emerging from darkness.}}
+
+
+==Upgrades==
+At 5 experience, '''Cynotrainer''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Initial Shadow Mastery.png|150px]]
+|[[File:Pale Shadow Mastery.png|150px]]
+|-
+!Gains [[Ambush]]
+!Costs 1 action
+|}

@@ -1,10 +1,13 @@
 {{Card
+|character = Sal
 |cardtype = Maneuver
 |decktype = Battle
-|expreq = 9
 |rarity = Basic
-|upgrade1 = Promoted Fight Dirty: Improvise a card from a pool of upgraded special cards.
-|upgrade2 = Boosted Fight Dirty: '''Improvise+''' a card from a pool of special cards.}}
+|keywords = [[Improvise]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Promoted Fight Dirty
+|upgrade2 = Boosted Fight Dirty}}
 {{Quote|I fight to win, not to make friends.}}
 
 '''Fight Dirty''' is a 1-cost Basic '''Maneuver''' card for [[Sal]]. It improvises a card from a pool of special cards. As a base card '''Fight Dirty''' is always part of the available card pool for [[Sal]].

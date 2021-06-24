@@ -1,4 +1,5 @@
 {{Card
+|character = Sal
 |cardtype = Manipulate
 |decktype = Negotiation
 |expreq = 9

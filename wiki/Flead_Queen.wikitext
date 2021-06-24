@@ -1,10 +1,10 @@
-The '''Flead Queen''' is a boss encountered at the end of day 2 as [[Rook]]. She is an accident on part by the Rise after they brought Flead eggs into the [[Bog]].
+The '''Flead Queen''' is a boss encountered at the end of day 2 as [[Rook]]. She is an accident on part by the Rise after they brought Flead eggs into the [[Bog]]. The other boss you can fight is Bossbit.
 
 == Backstory ==
 The Rise in Grout Bog had attempted to stop one of the Baron's mines form being used by introducing Flead eggs to the mines, hoping they would scare away the workers and Barons from continuing to use the mines. However, one of the eggs had turned out to be a queen, taking over the entire mine with numerous fleads. If the Player is asked by the Rise to deal with the problem, they state that if it isn't dealt with, the Barons will use heavy weaponry to take it out, before possibly turning those weapons on the Rise. If it's the Barons, it's because you are on their payroll and expendable to them.
 
 == Negotiation ==
-Depending on which faction asks, the player will be directed to the mines to deal with the queen. There, Rook can negotiate with either a Spark Baron's Taskmaster or a Rise Pamphleteer to get reinforcements. the negotiation acts much like the Auction negotiation, with the player defeating arguments that will give the player those reinforcements when they eventually end the negotiation via an incepted card.
+Depending on which faction asks, the player will be directed to the mines to deal with the queen. There, Rook can negotiate with either a Spark Baron's Taskmaster or a Rise Pamphleteer to get reinforcements. The negotiation acts much like the Auction negotiation (See Kashio), with the player defeating arguments that will give the player those reinforcements when they eventually end the negotiation via an incepted card.
 
 If the player is negotiating with a Spark Baron, they will be able to get
 
@@ -21,7 +21,7 @@ If the player is negotiating with a Rise Pamphleteer, they will be able to get
 == Boss Fight Stats and Abilities ==
 The '''Flead Queen's''' defining trait is her 18 Chitinous, granting her 18 defense every turn. This gives the boss some of the highest durability in the game due to her constant source of defense.
 
-"attack" (name needed if there is one) - The Queen will fly to one of the player's allies and sting them, dealing moderate damage.
+'''Sting''' - The Queen will fly to one of her opponents and stings them, dealing moderate damage.
 
 '''Spawn Larvae''' - The Queen will spawn 3 [[Flead Larvae]] onto the field, up to a maximum of 6 larvae.
 

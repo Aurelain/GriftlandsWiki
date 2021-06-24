@@ -1,0 +1,1 @@
+Panic is a concept for {{battle}} encounters. When a character's health is brought below the amount of their panic meter, the character enters panic. Within panic, a character will not take any actions for a few turns. If all enemy characters are in panic, they will try to surrender.

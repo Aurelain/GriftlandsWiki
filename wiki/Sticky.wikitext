@@ -1,0 +1,3 @@
+'''Sticky''' is a keyword for {{battle}} and {{negotiation}} cards. It says "This card is note discarded at the end of your turn."
+
+[[Category:Keywords]]

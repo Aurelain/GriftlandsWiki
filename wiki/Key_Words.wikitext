@@ -24,7 +24,7 @@ In addition to the '''Generic key words''', each character has '''Hero specific 
 :*'''Impair:''' Attack damage by this target is reduced by 33%. At the beginning of their turn, reduce Impair by 1.
 :*'''Wound:''' Attacks inflict 1 bonus damage on this target. At the beginning of their turn, reduce Wound by 1.
 :*'''Power:''' Attack damage is increased by 1.
-:*'''[[Bleed]]''': At the beginning of their turn, take damage equal tu the count of bleed, then halve bleed count (rounded down).
+:*'''[[Bleed]]''': At the beginning of their turn, take damage equal to the count of bleed, then halve bleed count (rounded down).
 :*'''Piercing:''' Ignores damage blocked by defense
 :*'''Panic:''' You can choose to win the battle if all enemies Panic. A fighter with Panic cannot act, and reduces their Panic by 1 at the end of the turn.
 

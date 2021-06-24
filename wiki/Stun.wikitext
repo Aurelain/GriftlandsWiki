@@ -1,0 +1,3 @@
+'''Stun''' is a de-buff that says "Can't act this turn. Remove stun at the end of the turn. This condition does not stack."
+
+[[Category:Keywords]]

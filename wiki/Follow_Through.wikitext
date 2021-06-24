@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Combo]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Sticky Follow Through
+|upgrade2 = Pale Follow Through}}
+{{Quote|Waiting for the right moment can be the difference between victory and defeat.}}
+'''Follow Through''' is a 1-cost Rare '''Maneuver''' card for [[Sal]]. It says "[[Combo]] points spent for the rest of this turn are regained at the start of your next turn."
+
+==Upgrades==
+At 7 experience, '''Cynotrainer''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Sticky Follow Through.png|150px]]
+|[[File:Pale Follow Through.png|150px]]
+|-
+!Gains [[Sticky]]
+!Costs 0 actions.
+|}

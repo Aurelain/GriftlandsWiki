@@ -157,7 +157,7 @@ Many battle cards and ally/enemy attacks apply status effects to their targets. 
 |-
 |align="center" width="100pt"|[[File:Icon Status StingingEyes.png|50px]]
 |align="center" width="100pt"|Stinging Eyes
-|width="700pt"|
+|width="700pt"|Attacks have random targets.
 |-
 |align="center" width="100pt"|[[File:Icon Status Trauma.png|50px]]
 |align="center" width="100pt"|Trauma
@@ -165,7 +165,7 @@ Many battle cards and ally/enemy attacks apply status effects to their targets. 
 |-
 |align="center" width="100pt"|[[File:Icon Status WeakPoint.png|50px]]
 |align="center" width="100pt"|Defect
-|width="700pt"|
+|width="700pt"|Each time this target is attacked, the damage recieved is doubled. Defect loses 1 stack whenever the target is attacked. 
 |-
 |align="center" width="100pt"|[[File:Icon Status Wound.png|50px]]
 |align="center" width="100pt"|Wound

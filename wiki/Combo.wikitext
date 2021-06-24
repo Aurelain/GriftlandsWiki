@@ -21,7 +21,7 @@ Sal's cards:
 * [[Carve]]
 * [[Echo Strike]]
 * [[Haymaker]]
-* [[Hit Bash]]
+* [[Hilt Bash]]
 * [[Shoulder Roll]]
 * [[Size Up]] 
 * [[Switch Blade]]

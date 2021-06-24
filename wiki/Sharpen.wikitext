@@ -1,0 +1,23 @@
+{{Card
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Enduring Sharpen
+|upgrade2 = Sharpen of Vision}}
+{{Quote|Well worth the time invested.}}
+'''Sharpen''' is a 1-cost Uncommon '''Maneuver''' card for [[Sal]]. It says "Apply 2 [[Bleed]] whenever you hit an enemy with an attack for the rest of the turn. [[Expend]]."
+
+==Upgrades==
+At 9 experience, '''Sharpen''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Enduring Sharpen.png|150px]]
+|[[File:Sharpen of Vision.png|150px]]
+|-
+!Remove [[Expend]]
+!Draw a card
+|}

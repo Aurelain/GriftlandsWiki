@@ -1,0 +1,23 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Ability]], [[Combo]], [[Expend]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Initial Inside Fighting
+|upgrade2 = Broad Inside Fighting}}
+{{Quote|Make some space! She has you right where she wants you!}}
+'''Inside Fighting''' is a 2-cost Rare '''Maneuver''' card for [[Sal]]. It says "[[Ability]]: Whenever you attack, gain 1 [[Combo]]. [[Expend]]."
+
+==Upgrades==
+At 5 experience, '''Inside Fighting''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Initial Inside Fighting.png|150px]]
+|[[File:Broad Inside Fighting.png|150px]]
+|-
+!Gains [[Ambush]]
+!Gain 2 [[Combo]] when played
+|}

@@ -1,0 +1,22 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Defense]], [[Heal]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Seeker
+|upgrade2 = Pale Seeker}}
+{{Quote|You can barely see the implant through the gloves, and it works like a charm.}}
+
+==Upgrades==
+At 9 experience, '''Seeker''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Seeker.png|150px]]
+|[[File:Pale Seeker.png|150px]]
+|-
+!Gain 8 [[Defense]]
+!Costs 0 actions
+|}

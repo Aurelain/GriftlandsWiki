@@ -25,7 +25,7 @@ After accruing 6 experience '''Fast Talk''' is able to be upgraded.
 |-
 !Gain 1 [[Influence]]
 !Draw a card
-!Spend 1 [[Influence]]: This card costs 0 to play
+! style="width:150px;"|Spend 1 [[Influence]]: This card costs 0 to play
 !Gain 3 [[Composure]]
 |-
 |[[File:Clarity Fast Talk.png|150px]]
