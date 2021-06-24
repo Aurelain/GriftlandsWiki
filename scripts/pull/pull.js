@@ -101,12 +101,17 @@ const TEXT_EXTENSION = 'wikitext'; // could also be "txt"
 // =====================================================================================================================
 /**
  *
+ * @param ethereal      If `true`, the results will not be persisted (the disk will not be touched).
+ * @returns {Promise<{}>}
  */
-const pull = async () => {
+const pull = async (ethereal = false) => {
     const pages = await getAllInterestingPages();
     // console.log('pages: ' + JSON.stringify(pages, null, 4));
-    writePages(pages);
-    // removeOrphanPages(pages);
+    if (!ethereal) {
+        writePages(pages);
+        // removeOrphanPages(pages);
+    }
+    return pages;
 };
 
 // =====================================================================================================================

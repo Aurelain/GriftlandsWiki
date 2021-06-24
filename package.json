@@ -5,7 +5,10 @@
     "dependencies": {
         "adm-zip": "^0.5.5",
         "axios": "^0.21.1",
-        "fs-extra": "^10.0.0"
+        "form-data": "^4.0.0",
+        "fs-extra": "^10.0.0",
+        "got": "^11.8.2",
+        "tough-cookie": "^4.0.0"
     },
     "scripts": {
         "download": "node -e \"require('./scripts/download/download.js')()\"",
