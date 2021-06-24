@@ -8,10 +8,10 @@
         "fs-extra": "^10.0.0"
     },
     "scripts": {
-        "download": "node -e \"require('./scripts/downloadFiles.js')()\"",
-        "pull": "node -e \"require('./scripts/pullFromWeb.js')()\"",
-        "push": "node -e \"require('./scripts/pushToWeb.js')()\"",
-        "update": "node -e \"require('./scripts/updateFromGame.js')()\""
+        "download": "node -e \"require('./scripts/download/download.js')()\"",
+        "pull": "node -e \"require('./scripts/pull/pull.js')()\"",
+        "push": "node -e \"require('./scripts/push/push.js')()\"",
+        "update": "node -e \"require('./scripts/update/update.js')()\""
     },
     "devDependencies": {
         "prettier": "^2.3.1",

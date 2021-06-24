@@ -9,12 +9,12 @@ const axios = require('axios');
 /**
  * Directory which contains the metadata describing each file.
  */
-const METADATA_DIR = __dirname + '/../wiki/File';
+const METADATA_DIR = __dirname + '/../../wiki/File';
 
 /**
  * Directory where we'll store the downloaded files.
  */
-const DESTINATION = __dirname + '/../raw/web';
+const DESTINATION = __dirname + '/../../raw/web';
 
 /**
  *
@@ -27,7 +27,7 @@ const PARALLEL_DOWNLOADS = 5;
 /**
  *
  */
-const downloadFiles = async () => {
+const download = async () => {
     const candidates = collectCandidates();
     fsExtra.ensureDirSync(DESTINATION);
     for (let i = 0; i < candidates.length; i += PARALLEL_DOWNLOADS) {
@@ -79,4 +79,4 @@ const getSha1 = (path) => {
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
-module.exports = downloadFiles;
+module.exports = download;

@@ -1,6 +1,3 @@
-const fs = require('fs');
-const crypto = require('crypto');
-const fsExtra = require('fs-extra');
 const AdmZip = require('adm-zip');
 
 // =====================================================================================================================
@@ -27,7 +24,7 @@ const CHARACTERS_DIR = 'scripts/content/characters/';
 /**
  *
  */
-const updateFromGame = async () => {
+const update = async () => {
     const zip = new AdmZip(GAME_DIR + '/data_scripts.zip');
     const {people, bosses} = getCharacters(zip);
     console.log('people:', tally(people));
@@ -268,4 +265,4 @@ const prettyCharacters = (list) => {
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
-module.exports = updateFromGame;
+module.exports = update;

@@ -11,7 +11,7 @@ const WIKI_URL = 'https://griftlands.fandom.com';
 /**
  * Directory where we store the pulled pages.
  */
-const DESTINATION = __dirname + '/../wiki';
+const DESTINATION = __dirname + '/../../wiki';
 
 /**
  * How many results the API should return for one request.
@@ -102,7 +102,7 @@ const TEXT_EXTENSION = 'wikitext'; // could also be "txt"
 /**
  *
  */
-const pullFromWeb = async () => {
+const pull = async () => {
     const pages = await getAllInterestingPages();
     // console.log('pages: ' + JSON.stringify(pages, null, 4));
     writePages(pages);
@@ -343,4 +343,4 @@ const writePages = (pages) => {
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
-module.exports = pullFromWeb;
+module.exports = pull;
