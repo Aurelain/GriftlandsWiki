@@ -113,7 +113,8 @@ const pull = async (endpoint = ENDPOINT, ethereal = false) => {
         const status = inspectPages(pages);
 
         if (!ethereal) {
-            writePages(status.cloudOnly);
+            const pendingWrite = {...status.different, ...status.cloudOnly};
+            writePages(pendingWrite);
             // removeOrphanPages(status.localOnly);
         }
 
@@ -121,7 +122,7 @@ const pull = async (endpoint = ENDPOINT, ethereal = false) => {
         return status;
     } catch (e) {
         console.log('Error:', e.message);
-        console.log(e.stack);
+        // console.log(e.stack);
     }
 };
 
@@ -138,7 +139,7 @@ const getAllInterestingPages = async (endpoint) => {
         console.log(`Namespace "${TEXT_NAMESPACES[ns]}" contains ${tally(results)} pages.`);
         Object.assign(pages, results);
     }
-    console.log(`All pages: ${tally(pages)}.`);
+    console.log(`All text pages: ${tally(pages)}.`);
     const files = await getAllFiles(endpoint);
     Object.assign(pages, files);
     console.log(`All images: ${tally(files)}.`);
@@ -188,7 +189,7 @@ const getAllTextsFromNamespace = async (endpoint, ns) => {
  * }
  */
 const getSomeTextsFromNamespace = async (endpoint, ns, continuation) => {
-    console.log('Getting texts...');
+    console.log('Getting texts... ' + (continuation ? `(${continuation})` : ''));
     const gotSomeTexts = await got(endpoint, {
         method: 'get',
         searchParams: {
@@ -274,7 +275,7 @@ const getAllFiles = async (endpoint) => {
  * }
  */
 const getSomeFiles = async (endpoint, continuation) => {
-    console.log('Getting images...');
+    console.log('Getting images... ' + (continuation ? `(${continuation})` : ''));
     const gotSomeFiles = await got(endpoint, {
         method: 'get',
         searchParams: {
@@ -348,13 +349,7 @@ const inspectPages = (pages) => {
             cloudOnly[filePath] = page;
         }
     }
-    const localOnly = {};
-    const localFiles = walk(DESTINATION, '');
-    for (const localFile of localFiles) {
-        if (!(localFile in pages)) {
-            localOnly[localFile] = true;
-        }
-    }
+    const localOnly = getLocalOnly(pages);
     const statusTally = {
         synchronized: tally(synchronized),
         different: tally(different),
@@ -363,6 +358,36 @@ const inspectPages = (pages) => {
     };
     console.log('Status tally:', JSON.stringify(statusTally, null, 4));
     return {synchronized, different, cloudOnly, localOnly};
+};
+
+/**
+ *
+ */
+const getLocalOnly = (pages) => {
+    const localOnly = {};
+    const localFiles = walk(DESTINATION, '');
+    for (const localFile of localFiles) {
+        if (!(localFile in pages)) {
+            const namespace = localFile.includes('/') ? localFile.match(/[^/]+/)[0] : '';
+            const title = prepareTitle(localFile, namespace);
+            const fileContent = fs.readFileSync(DESTINATION + '/' + localFile, 'utf8');
+            const content = namespace === 'File' ? JSON.parse(fileContent) : fileContent;
+            localOnly[localFile] = {title, content};
+        }
+    }
+    return localOnly;
+};
+
+/**
+ *
+ */
+const prepareTitle = (fileName, namespace) => {
+    let title = fileName.replace(/\.[^.]*$/, '');
+    for (const unsafe in TITLE_REPLACEMENTS) {
+        const safe = TITLE_REPLACEMENTS[unsafe];
+        title = title.split(safe).join(unsafe);
+    }
+    return namespace ? `${namespace}:${title}` : title;
 };
 
 /**

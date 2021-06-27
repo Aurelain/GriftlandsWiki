@@ -1,42 +1,22 @@
 const fs = require('fs');
-const {resolve, join} = require('path');
+const assert = require('assert').strict;
+const {resolve} = require('path');
 const got = require('got');
 const FormData = require('form-data');
 const {CookieJar} = require('tough-cookie');
 const pull = require('../pull/pull');
+const guardPull = require('./guardPull');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-const ENDPOINT = 'https://griftlands.fandom.com/api.php';
-// const ENDPOINT = 'http://127.0.0.1/mediawiki/api.php';
-
-/**
- * Directory where we store the pulled pages.
- */
-const PAGES_DIR = __dirname + '/../../wiki';
+// const ENDPOINT = 'https://griftlands.fandom.com/api.php';
+const ENDPOINT = 'http://127.0.0.1/mediawiki/api.php';
 
 /**
  * Directory where we store the images that correspond to each json in the "File" folder.
  */
 const RAW_DIR = __dirname + '/../../raw/web';
-
-/**
- * A file name (in the local OS file system) cannot contain some special characters, so we replace them.
- * Besides those, we're also replacing SPACE with UNDERSCORE.
- */
-const TITLE_REPLACEMENTS = {
-    '\\': '%5C',
-    '/': '%2F',
-    ':': '%3A',
-    '*': '%2A', // Doesn't get encoded by `encodeURIComponent()`
-    '?': '%3F',
-    '"': '%22',
-    '<': '%3C',
-    '>': '%3E',
-    '|': '%7C',
-    ' ': '_', // Special treatment
-};
 
 const credentialsPath = resolve(__dirname + '/credentials.json');
 
@@ -49,31 +29,55 @@ const cookieJar = new CookieJar();
  *
  */
 const push = async (endpoint = ENDPOINT) => {
-    const modifiedPages = await pull(endpoint, true);
-    console.log('modifiedPages:', Object.keys(modifiedPages).length);
-    return;
-    const credentials = await getCredentials();
-    if (!credentials) {
-        console.log(`Invalid credentials! See "${credentialsPath}"`);
-        return;
+    try {
+        const status = await pull(endpoint, true);
+        await guardPull(status);
+
+        const credentials = await getCredentials();
+        assert(credentials, `Invalid credentials! See "${credentialsPath}"`);
+
+        const token = await getCsrfToken(endpoint, credentials);
+        assert(token, `Could not log in!\nVisit "https://griftlands.fandom.com/wiki/Special:BotPasswords".`);
+
+        // await writePagesToCloud(endpoint, token, status);
+        // await deletePagesFromCloud(endpoint, token, status)
+
+        console.log('Finished push.');
+    } catch (e) {
+        console.log('Error:', e.message);
+        // console.log(e.stack);
     }
-    const token = await getCsrfToken(endpoint, credentials);
-    if (!token) {
-        console.log(`Could not log in!`);
-        console.log(`Visit "https://griftlands.fandom.com/wiki/Special:BotPasswords".`);
-        return;
-    }
-    const pages = prepare(PAGES_DIR);
-    for (let i = 570; i < pages.length; i++) {
-        const {title, text} = pages[i];
-        const result = await writePage(endpoint, title, text, token);
-        console.log(i, result ? '✓' : '✕', title);
-    }
+
+    const {different, localOnly} = await pull(endpoint, true);
 };
 
 // =====================================================================================================================
 //  P R I V A T E
 // =====================================================================================================================
+/**
+ *
+ */
+const writePagesToCloud = async (endpoint, token, status) => {
+    // const pages = prepare(PAGES_DIR);
+    // for (let i = 570; i < pages.length; i++) {
+    //     const {title, text} = pages[i];
+    //     const result = await writePage(endpoint, title, text, token);
+    //     console.log(i, result ? '✓' : '✕', title);
+    // }
+};
+
+/**
+ *
+ */
+const deletePagesFromCloud = async (endpoint, token, status) => {
+    // const pages = prepare(PAGES_DIR);
+    // for (let i = 570; i < pages.length; i++) {
+    //     const {title, text} = pages[i];
+    //     const result = await writePage(endpoint, title, text, token);
+    //     console.log(i, result ? '✓' : '✕', title);
+    // }
+};
+
 /**
  *
  */
@@ -173,41 +177,6 @@ const formalize = (bag) => {
         form.append(key, bag[key]);
     }
     return form;
-};
-
-/**
- *
- */
-const prepare = (dir, results = [], namespace = '') => {
-    const list = fs.readdirSync(dir);
-    for (const file of list) {
-        if (file === 'File') {
-            continue;
-        }
-        const joinedPath = join(dir, file);
-        const stat = fs.statSync(joinedPath);
-        if (stat && stat.isDirectory()) {
-            prepare(joinedPath, results, file);
-        } else {
-            results.push({
-                title: prepareTitle(file, namespace),
-                text: fs.readFileSync(joinedPath, 'utf8'),
-            });
-        }
-    }
-    return results;
-};
-
-/**
- *
- */
-const prepareTitle = (fileName, namespace) => {
-    let title = fileName.replace(/\.[^.]*$/, '');
-    for (const unsafe in TITLE_REPLACEMENTS) {
-        const safe = TITLE_REPLACEMENTS[unsafe];
-        title = title.split(safe).join(unsafe);
-    }
-    return namespace ? `${namespace}:${title}` : title;
 };
 
 // =====================================================================================================================
