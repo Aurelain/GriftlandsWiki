@@ -1,12 +1,14 @@
 const fs = require('fs');
+const assert = require('assert').strict;
 const fsExtra = require('fs-extra');
-const axios = require('axios');
+const got = require('got');
+const tally = require('../utils/tally');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-const WIKI_URL = 'https://griftlands.fandom.com';
-// const WIKI_URL = 'http://localhost/mediawiki';
+const ENDPOINT = 'https://griftlands.fandom.com/api.php';
+// const ENDPOINT = 'http://127.0.0.1/mediawiki/api.php';
 
 /**
  * Directory where we store the pulled pages.
@@ -64,15 +66,13 @@ const LOOP_LIMIT = 100;
  *      -2: Media
  *      -1: Special
  */
-const TEXT_NAMESPACES = [0, 8, 10, 14];
+const TEXT_NAMESPACES = {
+    0: 'Main',
+    8: 'MediaWiki',
+    10: 'Template',
+    14: 'Category',
+};
 const FILES_NAMESPACE = 6;
-
-/**
- * A list of title patterns that will be skipped.
- */
-const BLACKLIST = [
-    /*/Clearyourcache/*/
-];
 
 /**
  * A file name (in the local OS file system) cannot contain some special characters, so we replace them.
@@ -101,17 +101,27 @@ const TEXT_EXTENSION = 'wikitext'; // could also be "txt"
 // =====================================================================================================================
 /**
  *
+ * @param endpoint      The wiki url, pointing to /api.php.
  * @param ethereal      If `true`, the results will not be persisted (the disk will not be touched).
  * @returns {Promise<{}>}
  */
-const pull = async (ethereal = false) => {
-    const pages = await getAllInterestingPages();
-    // console.log('pages: ' + JSON.stringify(pages, null, 4));
-    if (!ethereal) {
-        writePages(pages);
-        // removeOrphanPages(pages);
+const pull = async (endpoint = ENDPOINT, ethereal = false) => {
+    try {
+        const pages = await getAllInterestingPages(endpoint);
+
+        const modifiedPages = inspectPages(pages);
+        console.log('Modified pages and files:', tally(modifiedPages));
+
+        if (!ethereal) {
+            writePages(modifiedPages);
+            // removeOrphanPages(pages);
+        }
+        return modifiedPages;
+    } catch (e) {
+        console.log('Error:', e.message);
+        // console.log(e.stack);
     }
-    return pages;
+    console.log('Done.');
 };
 
 // =====================================================================================================================
@@ -120,33 +130,38 @@ const pull = async (ethereal = false) => {
 /**
  *
  */
-const getAllInterestingPages = async () => {
+const getAllInterestingPages = async (endpoint) => {
     const pages = {};
-    for (const ns of TEXT_NAMESPACES) {
-        const results = await getAllTextsFromNamespace(ns);
+    for (const ns in TEXT_NAMESPACES) {
+        const results = await getAllTextsFromNamespace(endpoint, ns);
+        console.log(`Namespace "${TEXT_NAMESPACES[ns]}" contains ${tally(results)} pages.`);
         Object.assign(pages, results);
     }
-    const files = await getAllFiles();
+    console.log(`All pages: ${tally(pages)}.`);
+    const files = await getAllFiles(endpoint);
     Object.assign(pages, files);
+    console.log(`All images: ${tally(files)}.`);
     return pages;
 };
 
 /**
  *
  */
-const getAllTextsFromNamespace = async (ns) => {
+const getAllTextsFromNamespace = async (endpoint, ns) => {
     let continuation = '';
     const output = {};
     let i = 0;
     while (true) {
         i++;
-        const result = await getSomeTextsFromNamespace(ns, continuation);
-        if (!result) {
-            return null;
-        }
+        const result = await getSomeTextsFromNamespace(endpoint, ns, continuation);
         Object.assign(output, result.pages);
         continuation = result.continuation;
-        if (!continuation || i >= LOOP_LIMIT) {
+        if (i >= LOOP_LIMIT) {
+            console.log('Loop limit reached!');
+            break;
+        }
+        if (!continuation) {
+            // This namespace is complete.
             break;
         }
     }
@@ -165,56 +180,61 @@ const getAllTextsFromNamespace = async (ns) => {
  *      ...
  * ]
  */
-const getSomeTextsFromNamespace = async (ns, continuation) => {
-    const url =
-        WIKI_URL +
-        '/api.php' +
-        '?action=query' +
-        '&prop=revisions' + // revisions
-        '&rvprop=content' +
-        '&rvslots=main' +
-        '&generator=allpages' + // generator
-        `&gapnamespace=${ns}` +
-        `&gaplimit=${API_LIMIT}` +
-        (continuation ? `&gapcontinue=${continuation}` : '') +
-        '&format=json';
-    console.log('getSomeTextsFromNamespace:', url);
+const getSomeTextsFromNamespace = async (endpoint, ns, continuation) => {
+    console.log('Getting texts...');
+    const gotSomeTexts = await got(endpoint, {
+        method: 'get',
+        searchParams: {
+            action: 'query',
+            format: 'json',
+            prop: 'revisions',
+            rvprop: 'content',
+            rvslots: 'main',
+            generator: 'allpages',
+            gapnamespace: ns,
+            gaplimit: API_LIMIT,
+            gapcontinue: continuation ? continuation : undefined,
+        },
+        responseType: 'json',
+    });
+    const {body} = gotSomeTexts;
+    const pages = body?.query?.pages;
+    assert(pages, 'No pages!');
 
-    const {data} = await axios.get(url);
-    // console.log('data: ' + JSON.stringify(data, null, 4));
-    if (!data?.query) {
-        return null;
-    }
     const bag = {};
-    const {pages} = data.query;
     for (const key in pages) {
         const {title, revisions} = pages[key];
-        if (isAllowed(title)) {
-            bag[title] = buildTextEntry(title, revisions[0].slots.main['*']);
-        }
+        const text = revisions?.[0].slots?.main?.['*'];
+        assert(text, `Invalid revisions for "${JSON.stringify(pages[key])}"`);
+        bag[title] = buildTextEntry(title, text);
     }
     return {
         pages: bag,
-        continuation: data.continue?.gapcontinue,
+        continuation: body.continue?.gapcontinue,
     };
 };
 
 /**
  *
  */
-const getAllFiles = async () => {
+const getAllFiles = async (endpoint) => {
     let continuation = '';
     const output = {};
     let i = 0;
     while (true) {
         i++;
-        const result = await getSomeFiles(continuation);
+        const result = await getSomeFiles(endpoint, continuation);
         if (!result) {
             return null;
         }
         Object.assign(output, result.pages);
         continuation = result.continuation;
-        if (!continuation || i >= LOOP_LIMIT) {
+        if (i >= LOOP_LIMIT) {
+            console.log('Loop limit reached!');
+            break;
+        }
+        if (!continuation) {
+            // This namespace is complete.
             break;
         }
     }
@@ -236,50 +256,36 @@ const getAllFiles = async () => {
  *      ...
  * ]
  */
-const getSomeFiles = async (continuation) => {
-    const url =
-        WIKI_URL +
-        '/api.php' +
-        '?action=query' +
-        '&prop=imageinfo' +
-        '&iiprop=url|sha1' +
-        '&generator=allpages' + // generator
-        `&gapnamespace=${FILES_NAMESPACE}` +
-        `&gaplimit=max` + // max is accepted here, as opposed to texts
-        (continuation ? `&gapcontinue=${continuation}` : '') +
-        '&format=json';
-    console.log('getSomeFiles:', url);
+const getSomeFiles = async (endpoint, continuation) => {
+    console.log('Getting images...');
+    const gotSomeFiles = await got(endpoint, {
+        method: 'get',
+        searchParams: {
+            action: 'query',
+            format: 'json',
+            prop: 'imageinfo',
+            iiprop: 'url|sha1',
+            generator: 'allpages',
+            gapnamespace: FILES_NAMESPACE,
+            gaplimit: 'max', // max is accepted here, as opposed to texts
+            gapcontinue: continuation ? continuation : undefined,
+        },
+        responseType: 'json',
+    });
+    const {body} = gotSomeFiles;
+    const pages = body?.query?.pages;
+    assert(pages, 'No pages!');
 
-    const {data} = await axios.get(url);
-    // console.log('data: ' + JSON.stringify(data, null, 4));
-    if (!data?.query) {
-        return null;
-    }
     const bag = {};
-    const {pages} = data.query;
-    console.log('count: ' + Object.keys(pages).length);
     for (const key in pages) {
         const {title, imageinfo} = pages[key];
-        if (isAllowed(title)) {
-            bag[title] = await buildImageEntry(title, imageinfo);
-        }
+        assert('imageinfo', 'No image info!');
+        bag[title] = await buildImageEntry(title, imageinfo);
     }
     return {
         pages: bag,
-        continuation: data.continue?.gapcontinue,
+        continuation: body.continue?.gapcontinue,
     };
-};
-
-/**
- *
- */
-const isAllowed = (title) => {
-    for (const pattern of BLACKLIST) {
-        if (title.match(pattern)) {
-            return false;
-        }
-    }
-    return true;
 };
 
 /**
@@ -306,6 +312,7 @@ const buildImageEntry = async (title, imageinfo) => {
     const actualTitle = dir ? title.substr(dir.length + 1) : title;
     const fileName = sanitizeNameForFileSystem(actualTitle);
     const {url, sha1} = imageinfo[0];
+    assert(url && sha1, 'Invalid image info!');
     return {
         title,
         dir,
@@ -331,15 +338,40 @@ const sanitizeNameForFileSystem = (name) => {
 /**
  *
  */
-const writePages = (pages) => {
+const inspectPages = (pages) => {
+    const output = {};
     for (const title in pages) {
         const {dir, fileName, content, type} = pages[title];
-        const destination = dir ? DESTINATION + '/' + dir : DESTINATION;
-        fsExtra.ensureDirSync(destination);
+        const destinationDir = dir ? DESTINATION + '/' + dir : DESTINATION;
+        let existingContent;
+        try {
+            if (type === 'text') {
+                existingContent = fs.readFileSync(destinationDir + '/' + fileName + '.' + TEXT_EXTENSION, 'utf8');
+            } else {
+                const name = destinationDir + '/' + fileName + '.json';
+                existingContent = fs.readFileSync(name, 'utf8');
+            }
+        } catch (e) {}
+        if (existingContent !== content) {
+            output[title] = pages[title];
+        }
+    }
+    return output;
+};
+
+/**
+ *
+ */
+const writePages = (pages) => {
+    console.log('Writing to disk...');
+    for (const title in pages) {
+        const {dir, fileName, content, type} = pages[title];
+        const destinationDir = dir ? DESTINATION + '/' + dir : DESTINATION;
+        fsExtra.ensureDirSync(destinationDir);
         if (type === 'text') {
-            fs.writeFileSync(destination + '/' + fileName + '.' + TEXT_EXTENSION, content);
+            fs.writeFileSync(destinationDir + '/' + fileName + '.' + TEXT_EXTENSION, content);
         } else {
-            const name = destination + '/' + fileName + '.json';
+            const name = destinationDir + '/' + fileName + '.json';
             fs.writeFileSync(name, JSON.stringify(content, null, 4));
         }
     }

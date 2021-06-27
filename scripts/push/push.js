@@ -3,22 +3,18 @@ const {resolve, join} = require('path');
 const got = require('got');
 const FormData = require('form-data');
 const {CookieJar} = require('tough-cookie');
+const pull = require('../pull/pull');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-// const ENDPOINT = 'https://griftlands.fandom.com/api.php';
-const ENDPOINT = 'http://127.0.0.1/mediawiki/api.php';
+const ENDPOINT = 'https://griftlands.fandom.com/api.php';
+// const ENDPOINT = 'http://127.0.0.1/mediawiki/api.php';
 
 /**
  * Directory where we store the pulled pages.
  */
 const PAGES_DIR = __dirname + '/../../wiki';
-
-/**
- * The file extension we use when storing texts.
- */
-const TEXT_EXTENSION = 'wikitext'; // could also be "txt"
 
 /**
  * Directory where we store the images that correspond to each json in the "File" folder.
@@ -52,13 +48,16 @@ const cookieJar = new CookieJar();
 /**
  *
  */
-const push = async () => {
+const push = async (endpoint = ENDPOINT) => {
+    const modifiedPages = await pull(endpoint, true);
+    console.log('modifiedPages:', Object.keys(modifiedPages).length);
+    return;
     const credentials = await getCredentials();
     if (!credentials) {
         console.log(`Invalid credentials! See "${credentialsPath}"`);
         return;
     }
-    const token = await getCsrfToken(credentials);
+    const token = await getCsrfToken(endpoint, credentials);
     if (!token) {
         console.log(`Could not log in!`);
         console.log(`Visit "https://griftlands.fandom.com/wiki/Special:BotPasswords".`);
@@ -67,7 +66,7 @@ const push = async () => {
     const pages = prepare(PAGES_DIR);
     for (let i = 570; i < pages.length; i++) {
         const {title, text} = pages[i];
-        const result = await writePage(title, text, token);
+        const result = await writePage(endpoint, title, text, token);
         console.log(i, result ? '✓' : '✕', title);
     }
 };
@@ -93,9 +92,9 @@ const getCredentials = () => {
  * We prefer not to use the `mediawiki` package as audit says it has several vulnerabilities... and it doesn't work.
  * Adapted from code examples at https://www.mediawiki.org/wiki/API:Edit
  */
-const getCsrfToken = async ({username, password}) => {
+const getCsrfToken = async (endpoint, {username, password}) => {
     // Step 1: GET request to fetch login token
-    const loginTokenResponse = await got(ENDPOINT, {
+    const loginTokenResponse = await got(endpoint, {
         method: 'get',
         searchParams: {
             action: 'query',
@@ -109,7 +108,7 @@ const getCsrfToken = async ({username, password}) => {
     const {logintoken} = loginTokenResponse.body.query.tokens;
 
     // Step 2: POST request to log in.
-    await got(ENDPOINT, {
+    await got(endpoint, {
         method: 'post',
         searchParams: {
             action: 'login',
@@ -125,7 +124,7 @@ const getCsrfToken = async ({username, password}) => {
     });
 
     // Step 3: GET request to fetch CSRF token
-    const response = await got(ENDPOINT, {
+    const response = await got(endpoint, {
         method: 'get',
         searchParams: {
             action: 'query',
@@ -142,8 +141,8 @@ const getCsrfToken = async ({username, password}) => {
 /**
  *
  */
-const writePage = async (title, text, token) => {
-    const writeResponse = await got(ENDPOINT, {
+const writePage = async (endpoint, title, text, token) => {
+    const writeResponse = await got(endpoint, {
         method: 'post',
         searchParams: {
             action: 'edit',
