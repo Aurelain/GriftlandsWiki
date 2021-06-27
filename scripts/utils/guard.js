@@ -9,20 +9,24 @@ const ENUMERATE_SOME = 8;
 /**
  *
  */
-const guardPull = async (status) => {
+const guard = async (status, isPull) => {
     const {different, cloudOnly, localOnly} = status;
     if (tally(different) === 0 && tally(cloudOnly) === 0 && tally(localOnly) === 0) {
-        console.log('No push needed.');
-        process.exit(0);
+        console.log('No operations needed.');
+        return false;
     }
 
+    const writeDestination = isPull ? 'on disk' : 'in the cloud';
+    const deleteDestination = isPull ? 'from the disk' : 'from the cloud';
+    const creationSource = isPull ? cloudOnly : localOnly;
+    const deletionSource = isPull ? localOnly : cloudOnly;
     console.log('You are about to:');
-    guardFor(localOnly, 'Create $ text pages in the cloud:', true);
-    guardFor(localOnly, 'Create $ images in the cloud:', false);
-    guardFor(different, 'Update $ text pages in the cloud:', true);
-    guardFor(different, 'Update $ images in the cloud:', false);
-    guardFor(cloudOnly, 'DELETE $ text pages from the cloud:', true);
-    guardFor(cloudOnly, 'DELETE $ images from the cloud:', false);
+    guardFor(creationSource, `Create $ text pages ${writeDestination}:`, true);
+    guardFor(creationSource, `Create $ images ${writeDestination}:`, false);
+    guardFor(different, `Update $ text pages ${writeDestination}:`, true);
+    guardFor(different, `Update $ images ${writeDestination}:`, false);
+    guardFor(deletionSource, `DELETE $ text pages ${deleteDestination}:`, true);
+    guardFor(deletionSource, `DELETE $ images ${deleteDestination}:`, false);
 
     const response = await inquirer.prompt({
         type: 'confirm',
@@ -30,9 +34,7 @@ const guardPull = async (status) => {
         message: 'Do you want to continue?',
         default: true,
     });
-    if (!response.continue) {
-        process.exit(0);
-    }
+    return response.continue;
 };
 
 // =====================================================================================================================
@@ -77,4 +79,4 @@ const enumerateSome = (target) => {
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
-module.exports = guardPull;
+module.exports = guard;

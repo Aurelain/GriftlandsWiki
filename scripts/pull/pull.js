@@ -4,6 +4,7 @@ const {join} = require('path');
 const fsExtra = require('fs-extra');
 const got = require('got');
 const tally = require('../utils/tally');
+const guard = require('../utils/guard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -112,7 +113,7 @@ const pull = async (endpoint = ENDPOINT, ethereal = false) => {
 
         const status = inspectPages(pages);
 
-        if (!ethereal) {
+        if (!ethereal && (await guard(status, true))) {
             const pendingWrite = {...status.different, ...status.cloudOnly};
             writePages(pendingWrite);
             // removeOrphanPages(status.localOnly);
@@ -368,10 +369,9 @@ const getLocalOnly = (pages) => {
     const localFiles = walk(DESTINATION, '');
     for (const localFile of localFiles) {
         if (!(localFile in pages)) {
-            const namespace = localFile.includes('/') ? localFile.match(/[^/]+/)[0] : '';
-            const title = prepareTitle(localFile, namespace);
+            const title = prepareTitle(localFile);
             const fileContent = fs.readFileSync(DESTINATION + '/' + localFile, 'utf8');
-            const content = namespace === 'File' ? JSON.parse(fileContent) : fileContent;
+            const content = localFile.startsWith('File/') ? JSON.parse(fileContent) : fileContent;
             localOnly[localFile] = {title, content};
         }
     }
@@ -381,13 +381,14 @@ const getLocalOnly = (pages) => {
 /**
  *
  */
-const prepareTitle = (fileName, namespace) => {
+const prepareTitle = (fileName) => {
     let title = fileName.replace(/\.[^.]*$/, '');
+    title = title.replace('/', ':');
     for (const unsafe in TITLE_REPLACEMENTS) {
         const safe = TITLE_REPLACEMENTS[unsafe];
         title = title.split(safe).join(unsafe);
     }
-    return namespace ? `${namespace}:${title}` : title;
+    return title;
 };
 
 /**

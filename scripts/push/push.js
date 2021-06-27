@@ -5,7 +5,7 @@ const got = require('got');
 const FormData = require('form-data');
 const {CookieJar} = require('tough-cookie');
 const pull = require('../pull/pull');
-const guardPull = require('./guardPull');
+const guard = require('../utils/guard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -31,7 +31,9 @@ const cookieJar = new CookieJar();
 const push = async (endpoint = ENDPOINT) => {
     try {
         const status = await pull(endpoint, true);
-        await guardPull(status);
+        if (!(await guard(status))) {
+            return;
+        }
 
         const credentials = await getCredentials();
         assert(credentials, `Invalid credentials! See "${credentialsPath}"`);
