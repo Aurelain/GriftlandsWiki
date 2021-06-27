@@ -1,5 +1,6 @@
 const fs = require('fs');
 const assert = require('assert').strict;
+const {join} = require('path');
 const fsExtra = require('fs-extra');
 const got = require('got');
 const tally = require('../utils/tally');
@@ -109,19 +110,19 @@ const pull = async (endpoint = ENDPOINT, ethereal = false) => {
     try {
         const pages = await getAllInterestingPages(endpoint);
 
-        const modifiedPages = inspectPages(pages);
-        console.log('Modified pages and files:', tally(modifiedPages));
+        const status = inspectPages(pages);
 
         if (!ethereal) {
-            writePages(modifiedPages);
-            // removeOrphanPages(pages);
+            writePages(status.cloudOnly);
+            // removeOrphanPages(status.localOnly);
         }
-        return modifiedPages;
+
+        console.log('Finished pull.');
+        return status;
     } catch (e) {
         console.log('Error:', e.message);
-        // console.log(e.stack);
+        console.log(e.stack);
     }
-    console.log('Done.');
 };
 
 // =====================================================================================================================
@@ -145,7 +146,13 @@ const getAllInterestingPages = async (endpoint) => {
 };
 
 /**
- *
+ * {
+ *      'Category/Foo_Bar!%2Fdoc.wikitext': {
+ *          title: 'Category:Foo Bar!/doc',
+ *          content: 'hello',
+ *      },
+ *      ...
+ * }
  */
 const getAllTextsFromNamespace = async (endpoint, ns) => {
     let continuation = '';
@@ -169,16 +176,16 @@ const getAllTextsFromNamespace = async (endpoint, ns) => {
 };
 
 /**
- * [
- *      {
- *          title: 'Category:Foo Bar!/doc',
- *          dir: 'Category',
- *          fileName: 'Foo_Bar!%2Fdoc',
- *          type: 'text', // always "text"
- *          content: 'hello',
+ * {
+ *      pages: {
+ *           'Category/Foo_Bar!%2Fdoc.wikitext': {
+ *                title: 'Category:Foo Bar!/doc',
+ *                content: 'hello',
+ *           },
+ *           ...
  *      },
- *      ...
- * ]
+ *      continuation: 'My Next Page',
+ * }
  */
 const getSomeTextsFromNamespace = async (endpoint, ns, continuation) => {
     console.log('Getting texts...');
@@ -204,9 +211,10 @@ const getSomeTextsFromNamespace = async (endpoint, ns, continuation) => {
     const bag = {};
     for (const key in pages) {
         const {title, revisions} = pages[key];
-        const text = revisions?.[0].slots?.main?.['*'];
-        assert(text, `Invalid revisions for "${JSON.stringify(pages[key])}"`);
-        bag[title] = buildTextEntry(title, text);
+        const content = revisions?.[0].slots?.main?.['*'];
+        assert(content, `Invalid revisions for "${JSON.stringify(pages[key])}"`);
+        const filePath = getFilePath(title, content);
+        bag[filePath] = {title, content};
     }
     return {
         pages: bag,
@@ -215,7 +223,16 @@ const getSomeTextsFromNamespace = async (endpoint, ns, continuation) => {
 };
 
 /**
- *
+ * {
+ *     'File/Foo.png.json': {
+ *         title: 'File:Foo.png',
+ *         content: {
+ *             url: 'https://...',
+ *             sha1: '6002cb288b241fcc89353ce43fbb745ac9fd322c',
+ *         },
+ *     },
+ *     ...
+ * }
  */
 const getAllFiles = async (endpoint) => {
     let continuation = '';
@@ -242,19 +259,19 @@ const getAllFiles = async (endpoint) => {
 };
 
 /**
- * [
- *      {
- *          title: 'File:Foo.png',
- *          dir: 'File', // always "File"
- *          fileName: 'Foo.png',
- *          type: 'file', // always "file"
- *          content: {
- *              url: 'https://...',
- *              sha1: '6002cb288b241fcc89353ce43fbb745ac9fd322c',
- *          },
+ * {
+ *      pages: {
+ *           'File/Foo.png.json': {
+ *               title: 'File:Foo.png',
+ *               content: {
+ *                   url: 'https://...',
+ *                   sha1: '6002cb288b241fcc89353ce43fbb745ac9fd322c',
+ *               },
+ *           },
+ *           ...
  *      },
- *      ...
- * ]
+ *      continuation: 'My Next Image.png',
+ * }
  */
 const getSomeFiles = async (endpoint, continuation) => {
     console.log('Getting images...');
@@ -279,8 +296,11 @@ const getSomeFiles = async (endpoint, continuation) => {
     const bag = {};
     for (const key in pages) {
         const {title, imageinfo} = pages[key];
-        assert('imageinfo', 'No image info!');
-        bag[title] = await buildImageEntry(title, imageinfo);
+        const {url, sha1} = imageinfo?.[0] || {};
+        assert(url && sha1, 'Invalid image info!');
+        const content = {url, sha1};
+        const filePath = getFilePath(title, content);
+        bag[filePath] = {title, content};
     }
     return {
         pages: bag,
@@ -291,72 +311,75 @@ const getSomeFiles = async (endpoint, continuation) => {
 /**
  *
  */
-const buildTextEntry = (title, content) => {
+const getFilePath = (title, content) => {
+    const ext = typeof content === 'string' ? TEXT_EXTENSION : 'json';
     const dir = (title.match(/^([^:]+):/) || [null, ''])[1];
-    const actualTitle = dir ? title.substr(dir.length + 1) : title;
-    const fileName = sanitizeNameForFileSystem(actualTitle);
-    return {
-        title,
-        dir,
-        fileName,
-        type: 'text',
-        content,
-    };
-};
-
-/**
- *
- */
-const buildImageEntry = async (title, imageinfo) => {
-    const dir = (title.match(/^([^:]+):/) || [null, ''])[1];
-    const actualTitle = dir ? title.substr(dir.length + 1) : title;
-    const fileName = sanitizeNameForFileSystem(actualTitle);
-    const {url, sha1} = imageinfo[0];
-    assert(url && sha1, 'Invalid image info!');
-    return {
-        title,
-        dir,
-        fileName,
-        type: 'file',
-        content: {
-            url,
-            sha1,
-        },
-    };
-};
-
-/**
- *
- */
-const sanitizeNameForFileSystem = (name) => {
+    const prefix = dir ? dir + '/' : '';
+    let name = dir ? title.substr(dir.length + 1) : title;
     for (const c in TITLE_REPLACEMENTS) {
         name = name.split(c).join(TITLE_REPLACEMENTS[c]);
     }
-    return name;
+    return prefix + name + '.' + ext;
 };
 
 /**
- *
+ * {
+ *     synchronized: {...},
+ *     different: {...},
+ *     cloudOnly: {...},
+ *     localOnly: {...},
+ * }
  */
 const inspectPages = (pages) => {
-    const output = {};
-    for (const title in pages) {
-        const {dir, fileName, content, type} = pages[title];
-        const destinationDir = dir ? DESTINATION + '/' + dir : DESTINATION;
-        let existingContent;
-        try {
-            if (type === 'text') {
-                existingContent = fs.readFileSync(destinationDir + '/' + fileName + '.' + TEXT_EXTENSION, 'utf8');
+    const synchronized = {};
+    const different = {};
+    const cloudOnly = {};
+    for (const filePath in pages) {
+        const page = pages[filePath];
+        const fullFilePath = DESTINATION + '/' + filePath;
+        if (fs.existsSync(fullFilePath)) {
+            const fileContent = fs.readFileSync(fullFilePath, 'utf8');
+            if (page.content === fileContent) {
+                synchronized[filePath] = page;
             } else {
-                const name = destinationDir + '/' + fileName + '.json';
-                existingContent = fs.readFileSync(name, 'utf8');
+                different[filePath] = page;
             }
-        } catch (e) {}
-        if (existingContent !== content) {
-            output[title] = pages[title];
+        } else {
+            cloudOnly[filePath] = page;
         }
     }
-    return output;
+    const localOnly = {};
+    const localFiles = walk(DESTINATION, '');
+    for (const localFile of localFiles) {
+        if (!(localFile in pages)) {
+            localOnly[localFile] = true;
+        }
+    }
+    const statusTally = {
+        synchronized: tally(synchronized),
+        different: tally(different),
+        cloudOnly: tally(cloudOnly),
+        localOnly: tally(localOnly),
+    };
+    console.log('Status tally:', JSON.stringify(statusTally, null, 4));
+    return {synchronized, different, cloudOnly, localOnly};
+};
+
+/**
+ * https://stackoverflow.com/a/16684530
+ */
+const walk = (dir, prefix, results = []) => {
+    const list = fs.readdirSync(dir);
+    for (const file of list) {
+        const joinedPath = join(dir, file);
+        const stat = fs.statSync(joinedPath);
+        if (stat && stat.isDirectory()) {
+            walk(joinedPath, file + '/', results);
+        } else {
+            results.push(prefix + file);
+        }
+    }
+    return results;
 };
 
 /**
@@ -364,16 +387,13 @@ const inspectPages = (pages) => {
  */
 const writePages = (pages) => {
     console.log('Writing to disk...');
-    for (const title in pages) {
-        const {dir, fileName, content, type} = pages[title];
-        const destinationDir = dir ? DESTINATION + '/' + dir : DESTINATION;
-        fsExtra.ensureDirSync(destinationDir);
-        if (type === 'text') {
-            fs.writeFileSync(destinationDir + '/' + fileName + '.' + TEXT_EXTENSION, content);
-        } else {
-            const name = destinationDir + '/' + fileName + '.json';
-            fs.writeFileSync(name, JSON.stringify(content, null, 4));
-        }
+    for (const filePath in pages) {
+        const {content} = pages[filePath];
+        const fullFilePath = DESTINATION + '/' + filePath;
+        const fullFileDir = fullFilePath.replace(/[^/]*$/, '');
+        fsExtra.ensureDirSync(fullFileDir);
+        const fileContent = typeof content === 'string' ? content : JSON.stringify(content, null, 4);
+        fs.writeFileSync(fullFilePath, fileContent);
     }
 };
 
