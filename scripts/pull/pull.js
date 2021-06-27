@@ -105,13 +105,14 @@ const TEXT_EXTENSION = 'wikitext'; // could also be "txt"
  *
  * @param endpoint      The wiki url, pointing to /api.php.
  * @param ethereal      If `true`, the results will not be persisted (the disk will not be touched).
+ * @param focus         A title to target instead of freely scanning the cloud.
  * @returns {Promise<{}>}
  */
-const pull = async (endpoint = ENDPOINT, ethereal = false) => {
+const pull = async (endpoint = ENDPOINT, ethereal = false, focus = '') => {
     try {
-        const pages = await getAllInterestingPages(endpoint);
+        const pages = focus ? await getFocusedPages(endpoint, focus) : await getAllInterestingPages(endpoint);
 
-        const status = inspectPages(pages);
+        const status = inspectPages(pages, focus);
 
         if (!ethereal && (await guard(status, true))) {
             const pendingWrite = {...status.different, ...status.cloudOnly};
@@ -207,9 +208,18 @@ const getSomeTextsFromNamespace = async (endpoint, ns, continuation) => {
         responseType: 'json',
     });
     const {body} = gotSomeTexts;
+    return {
+        pages: parseTextPages(body),
+        continuation: body.continue?.gapcontinue,
+    };
+};
+
+/**
+ *
+ */
+const parseTextPages = (body) => {
     const pages = body?.query?.pages;
     assert(pages, 'No pages!');
-
     const bag = {};
     for (const key in pages) {
         const {title, revisions} = pages[key];
@@ -218,10 +228,7 @@ const getSomeTextsFromNamespace = async (endpoint, ns, continuation) => {
         const filePath = getFilePath(title, content);
         bag[filePath] = {title, content};
     }
-    return {
-        pages: bag,
-        continuation: body.continue?.gapcontinue,
-    };
+    return bag;
 };
 
 /**
@@ -275,7 +282,7 @@ const getAllFiles = async (endpoint) => {
  *      continuation: 'My Next Image.png',
  * }
  */
-const getSomeFiles = async (endpoint, continuation) => {
+const getSomeFiles = async (endpoint, continuation, focus) => {
     console.log('Getting images... ' + (continuation ? `(${continuation})` : ''));
     const gotSomeFiles = await got(endpoint, {
         method: 'get',
@@ -288,13 +295,24 @@ const getSomeFiles = async (endpoint, continuation) => {
             gapnamespace: FILES_NAMESPACE,
             gaplimit: 'max', // max is accepted here, as opposed to texts
             gapcontinue: continuation ? continuation : undefined,
+            title: focus ? focus : undefined,
         },
         responseType: 'json',
     });
     const {body} = gotSomeFiles;
+
+    return {
+        pages: parseFilePages(body),
+        continuation: body.continue?.gapcontinue,
+    };
+};
+
+/**
+ *
+ */
+const parseFilePages = (body) => {
     const pages = body?.query?.pages;
     assert(pages, 'No pages!');
-
     const bag = {};
     for (const key in pages) {
         const {title, imageinfo} = pages[key];
@@ -304,10 +322,7 @@ const getSomeFiles = async (endpoint, continuation) => {
         const filePath = getFilePath(title, content);
         bag[filePath] = {title, content};
     }
-    return {
-        pages: bag,
-        continuation: body.continue?.gapcontinue,
-    };
+    return bag;
 };
 
 /**
@@ -332,7 +347,7 @@ const getFilePath = (title, content) => {
  *     localOnly: {...},
  * }
  */
-const inspectPages = (pages) => {
+const inspectPages = (pages, focus) => {
     const synchronized = {};
     const different = {};
     const cloudOnly = {};
@@ -350,7 +365,7 @@ const inspectPages = (pages) => {
             cloudOnly[filePath] = page;
         }
     }
-    const localOnly = getLocalOnly(pages);
+    const localOnly = getLocalOnly(pages, focus);
     const statusTally = {
         synchronized: tally(synchronized),
         different: tally(different),
@@ -364,9 +379,15 @@ const inspectPages = (pages) => {
 /**
  *
  */
-const getLocalOnly = (pages) => {
+const getLocalOnly = (pages, focus) => {
     const localOnly = {};
-    const localFiles = walk(DESTINATION, '');
+    let localFiles;
+    if (focus) {
+        const filePath = getFilePath(focus, focus.startsWith('File:') ? {} : '');
+        localFiles = [filePath];
+    } else {
+        localFiles = walk(DESTINATION, '');
+    }
     for (const localFile of localFiles) {
         if (!(localFile in pages)) {
             const title = prepareTitle(localFile);
@@ -421,6 +442,32 @@ const writePages = (pages) => {
         const fileContent = typeof content === 'string' ? content : JSON.stringify(content, null, 4);
         fs.writeFileSync(fullFilePath, fileContent);
     }
+};
+
+/**
+ *
+ */
+const getFocusedPages = async (endpoint, focus) => {
+    const isFile = focus.startsWith('File:');
+    const {body} = await got(endpoint, {
+        method: 'get',
+        searchParams: {
+            action: 'query',
+            format: 'json',
+            titles: focus,
+            prop: isFile ? 'imageinfo' : 'revisions',
+            iiprop: isFile ? 'url|sha1' : undefined,
+            rvprop: !isFile ? 'content' : undefined,
+            rvslots: !isFile ? 'main' : undefined,
+        },
+        responseType: 'json',
+    });
+    if (body?.query?.pages?.[-1]) {
+        // The focused title doesn't exist in the cloud.
+        return {};
+    }
+    console.log('body: ' + JSON.stringify(body, null, 4));
+    return isFile ? parseFilePages(body) : parseFilePages(body);
 };
 
 // =====================================================================================================================

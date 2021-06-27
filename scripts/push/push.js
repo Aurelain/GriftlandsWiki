@@ -28,9 +28,9 @@ const cookieJar = new CookieJar();
 /**
  *
  */
-const push = async (endpoint = ENDPOINT) => {
+const push = async (endpoint = ENDPOINT, focus = 'File:Adapt.png') => {
     try {
-        const status = await pull(endpoint, true);
+        const status = await pull(endpoint, true, focus);
         if (!(await guard(status))) {
             return;
         }
@@ -41,7 +41,7 @@ const push = async (endpoint = ENDPOINT) => {
         const token = await getCsrfToken(endpoint, credentials);
         assert(token, `Could not log in!\nVisit "https://griftlands.fandom.com/wiki/Special:BotPasswords".`);
 
-        // await writePagesToCloud(endpoint, token, status);
+        await writePagesToCloud(status, endpoint, token);
         // await deletePagesFromCloud(endpoint, token, status)
 
         console.log('Finished push.');
@@ -49,8 +49,6 @@ const push = async (endpoint = ENDPOINT) => {
         console.log('Error:', e.message);
         // console.log(e.stack);
     }
-
-    const {different, localOnly} = await pull(endpoint, true);
 };
 
 // =====================================================================================================================
@@ -59,7 +57,7 @@ const push = async (endpoint = ENDPOINT) => {
 /**
  *
  */
-const writePagesToCloud = async (endpoint, token, status) => {
+const writePagesToCloud = async (status, endpoint, token) => {
     // const pages = prepare(PAGES_DIR);
     // for (let i = 570; i < pages.length; i++) {
     //     const {title, text} = pages[i];
