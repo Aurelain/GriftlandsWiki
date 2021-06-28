@@ -2,18 +2,16 @@ const fs = require('fs');
 const assert = require('assert').strict;
 const fsExtra = require('fs-extra');
 const got = require('got');
+
 const tally = require('../utils/tally');
 const guard = require('../utils/guard');
 const inspect = require('./inspect');
 const getFilePath = require('../utils/getFilePath');
-const CONFIG = require('../utils/CONFIG');
+const {ENDPOINT, STORAGE} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-const ENDPOINT = 'https://griftlands.fandom.com/api.php';
-// const ENDPOINT = 'http://127.0.0.1/mediawiki/api.php';
-
 /**
  * How many results the API should return for one request.
  * We tried setting this to "max" (which should be 500), and it works, but only partially:
@@ -78,14 +76,13 @@ const FILES_NAMESPACE = 6;
 // =====================================================================================================================
 /**
  *
- * @param endpoint      The wiki url, pointing to /api.php.
  * @param ethereal      If `true`, the results will not be persisted (the disk will not be touched).
  * @param focus         A title to target instead of freely scanning the cloud.
  * @returns {Promise<{}>}
  */
-const pull = async (endpoint = ENDPOINT, ethereal = false, focus = '') => {
+const pull = async (ethereal = false, focus = '') => {
     try {
-        const pages = focus ? await getFocusedPages(endpoint, focus) : await getAllInterestingPages(endpoint);
+        const pages = focus ? await getFocusedPages(focus) : await getAllInterestingPages();
 
         const status = inspect(pages, focus);
 
@@ -109,15 +106,15 @@ const pull = async (endpoint = ENDPOINT, ethereal = false, focus = '') => {
 /**
  *
  */
-const getAllInterestingPages = async (endpoint) => {
+const getAllInterestingPages = async () => {
     const pages = {};
     for (const ns in TEXT_NAMESPACES) {
-        const results = await getAllTextsFromNamespace(endpoint, ns);
+        const results = await getAllTextsFromNamespace(ns);
         console.log(`Namespace "${TEXT_NAMESPACES[ns]}" contains ${tally(results)} pages.`);
         Object.assign(pages, results);
     }
     console.log(`All text pages: ${tally(pages)}.`);
-    const files = await getAllFiles(endpoint);
+    const files = await getAllFiles();
     Object.assign(pages, files);
     console.log(`All images: ${tally(files)}.`);
     return pages;
@@ -132,13 +129,13 @@ const getAllInterestingPages = async (endpoint) => {
  *      ...
  * }
  */
-const getAllTextsFromNamespace = async (endpoint, ns) => {
+const getAllTextsFromNamespace = async (ns) => {
     let continuation = '';
     const output = {};
     let i = 0;
     while (true) {
         i++;
-        const result = await getSomeTextsFromNamespace(endpoint, ns, continuation);
+        const result = await getSomeTextsFromNamespace(ns, continuation);
         Object.assign(output, result.pages);
         continuation = result.continuation;
         if (i >= LOOP_LIMIT) {
@@ -165,9 +162,9 @@ const getAllTextsFromNamespace = async (endpoint, ns) => {
  *      continuation: 'My Next Page',
  * }
  */
-const getSomeTextsFromNamespace = async (endpoint, ns, continuation) => {
+const getSomeTextsFromNamespace = async (ns, continuation) => {
     console.log('Getting texts... ' + (continuation ? `(${continuation})` : ''));
-    const gotSomeTexts = await got(endpoint, {
+    const gotSomeTexts = await got(ENDPOINT, {
         method: 'get',
         searchParams: {
             action: 'query',
@@ -218,13 +215,13 @@ const parseTextPages = (body) => {
  *     ...
  * }
  */
-const getAllFiles = async (endpoint) => {
+const getAllFiles = async () => {
     let continuation = '';
     const output = {};
     let i = 0;
     while (true) {
         i++;
-        const result = await getSomeFiles(endpoint, continuation);
+        const result = await getSomeFiles(continuation);
         if (!result) {
             return null;
         }
@@ -257,9 +254,9 @@ const getAllFiles = async (endpoint) => {
  *      continuation: 'My Next Image.png',
  * }
  */
-const getSomeFiles = async (endpoint, continuation, focus) => {
+const getSomeFiles = async (continuation, focus) => {
     console.log('Getting images... ' + (continuation ? `(${continuation})` : ''));
-    const gotSomeFiles = await got(endpoint, {
+    const gotSomeFiles = await got(ENDPOINT, {
         method: 'get',
         searchParams: {
             action: 'query',
@@ -307,7 +304,7 @@ const writePages = (pages) => {
     console.log('Writing to disk...');
     for (const filePath in pages) {
         const {content} = pages[filePath];
-        const fullFilePath = CONFIG.WIKI_DIR + '/' + filePath;
+        const fullFilePath = STORAGE + '/' + filePath;
         const fullFileDir = fullFilePath.replace(/[^/]*$/, '');
         fsExtra.ensureDirSync(fullFileDir);
         const fileContent = typeof content === 'string' ? content : JSON.stringify(content, null, 4);
@@ -318,9 +315,9 @@ const writePages = (pages) => {
 /**
  *
  */
-const getFocusedPages = async (endpoint, focus) => {
+const getFocusedPages = async (focus) => {
     const isFile = focus.startsWith('File:');
-    const {body} = await got(endpoint, {
+    const {body} = await got(ENDPOINT, {
         method: 'get',
         searchParams: {
             action: 'query',

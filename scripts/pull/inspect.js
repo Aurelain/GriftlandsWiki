@@ -1,8 +1,9 @@
 const fs = require('fs');
 const {join} = require('path');
+
 const tally = require('../utils/tally');
 const getFilePath = require('../utils/getFilePath');
-const CONFIG = require('../utils/CONFIG');
+const {REPLACEMENTS, STORAGE} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  P U B L I C
@@ -21,7 +22,7 @@ const inspect = (pages, focus) => {
     const cloudOnly = {};
     for (const filePath in pages) {
         const page = pages[filePath];
-        const fullFilePath = CONFIG.WIKI_DIR + '/' + filePath;
+        const fullFilePath = STORAGE + '/' + filePath;
         if (fs.existsSync(fullFilePath)) {
             const fileContent = fs.readFileSync(fullFilePath, 'utf8');
             if (page.content === fileContent) {
@@ -57,12 +58,12 @@ const getLocalOnly = (pages, focus) => {
         const filePath = getFilePath(focus, focus.startsWith('File:') ? {} : '');
         localFiles = [filePath];
     } else {
-        localFiles = walk(CONFIG.WIKI_DIR, '');
+        localFiles = walk(STORAGE, '');
     }
     for (const localFile of localFiles) {
         if (!(localFile in pages)) {
             const title = prepareTitle(localFile);
-            const fileContent = fs.readFileSync(CONFIG.WIKI_DIR + '/' + localFile, 'utf8');
+            const fileContent = fs.readFileSync(STORAGE + '/' + localFile, 'utf8');
             const content = localFile.startsWith('File/') ? JSON.parse(fileContent) : fileContent;
             localOnly[localFile] = {title, content};
         }
@@ -76,8 +77,8 @@ const getLocalOnly = (pages, focus) => {
 const prepareTitle = (fileName) => {
     let title = fileName.replace(/\.[^.]*$/, '');
     title = title.replace('/', ':');
-    for (const unsafe in CONFIG.REPLACEMENTS) {
-        const safe = CONFIG.REPLACEMENTS[unsafe];
+    for (const unsafe in REPLACEMENTS) {
+        const safe = REPLACEMENTS[unsafe];
         title = title.split(safe).join(unsafe);
     }
     return title;

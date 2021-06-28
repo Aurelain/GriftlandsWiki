@@ -4,20 +4,14 @@ const {resolve} = require('path');
 const got = require('got');
 const FormData = require('form-data');
 const {CookieJar} = require('tough-cookie');
+
 const pull = require('../pull/pull');
 const guard = require('../utils/guard');
+const {ENDPOINT, RAW} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-// const ENDPOINT = 'https://griftlands.fandom.com/api.php';
-const ENDPOINT = 'http://127.0.0.1/mediawiki/api.php';
-
-/**
- * Directory where we store the images that correspond to each json in the "File" folder.
- */
-const RAW_DIR = __dirname + '/../../raw/web';
-
 const credentialsPath = resolve(__dirname + '/credentials.json');
 
 const cookieJar = new CookieJar();
@@ -28,9 +22,9 @@ const cookieJar = new CookieJar();
 /**
  *
  */
-const push = async (endpoint = ENDPOINT, focus = 'File:Adapt.png') => {
+const push = async (focus = 'File:Adapt.png') => {
     try {
-        const status = await pull(endpoint, true, focus);
+        const status = await pull(true, focus);
         if (!(await guard(status))) {
             return;
         }
@@ -38,10 +32,10 @@ const push = async (endpoint = ENDPOINT, focus = 'File:Adapt.png') => {
         const credentials = await getCredentials();
         assert(credentials, `Invalid credentials! See "${credentialsPath}"`);
 
-        const token = await getCsrfToken(endpoint, credentials);
+        const token = await getCsrfToken(credentials);
         assert(token, `Could not log in!\nVisit "https://griftlands.fandom.com/wiki/Special:BotPasswords".`);
 
-        await writePagesToCloud(status, endpoint, token);
+        await writePagesToCloud(status, token);
         // await deletePagesFromCloud(endpoint, token, status)
 
         console.log('Finished push.');
@@ -57,12 +51,12 @@ const push = async (endpoint = ENDPOINT, focus = 'File:Adapt.png') => {
 /**
  *
  */
-const writePagesToCloud = async (status, endpoint, token) => {
+const writePagesToCloud = async (status, token) => {
     const pending = {...status.localOnly, ...status.different};
     for (const filePath in pending) {
         const {title, content} = pending[filePath];
         if (title.startsWith('File:')) {
-            await uploadImage(title, filePath, endpoint, token);
+            await uploadImage(title, filePath, token);
         }
         console.log('filePath:', filePath);
     }
@@ -104,9 +98,9 @@ const getCredentials = () => {
  * We prefer not to use the `mediawiki` package as audit says it has several vulnerabilities... and it doesn't work.
  * Adapted from code examples at https://www.mediawiki.org/wiki/API:Edit
  */
-const getCsrfToken = async (endpoint, {username, password}) => {
+const getCsrfToken = async ({username, password}) => {
     // Step 1: GET request to fetch login token
-    const loginTokenResponse = await got(endpoint, {
+    const loginTokenResponse = await got(ENDPOINT, {
         method: 'get',
         searchParams: {
             action: 'query',
@@ -120,7 +114,7 @@ const getCsrfToken = async (endpoint, {username, password}) => {
     const {logintoken} = loginTokenResponse.body.query.tokens;
 
     // Step 2: POST request to log in.
-    await got(endpoint, {
+    await got(ENDPOINT, {
         method: 'post',
         searchParams: {
             action: 'login',
@@ -136,7 +130,7 @@ const getCsrfToken = async (endpoint, {username, password}) => {
     });
 
     // Step 3: GET request to fetch CSRF token
-    const response = await got(endpoint, {
+    const response = await got(ENDPOINT, {
         method: 'get',
         searchParams: {
             action: 'query',
@@ -153,8 +147,8 @@ const getCsrfToken = async (endpoint, {username, password}) => {
 /**
  *
  */
-const writePage = async (endpoint, title, text, token) => {
-    const writeResponse = await got(endpoint, {
+const writePage = async (title, text, token) => {
+    const writeResponse = await got(ENDPOINT, {
         method: 'post',
         searchParams: {
             action: 'edit',
@@ -179,11 +173,11 @@ const writePage = async (endpoint, title, text, token) => {
 /**
  *
  */
-const uploadImage = async (title, filePath, endpoint, token) => {
+const uploadImage = async (title, filePath, token) => {
     console.log('filePath:', filePath);
-    const rawPath = RAW_DIR + '/' + filePath.replace('File/', '').replace(/\.[^.]*$/, '');
+    const rawPath = RAW + '/' + filePath.replace('File/', '').replace(/\.[^.]*$/, '');
     console.log('rawPath:', rawPath);
-    const {body} = await got(endpoint, {
+    const {body} = await got(ENDPOINT, {
         method: 'post',
         searchParams: {
             action: 'upload',

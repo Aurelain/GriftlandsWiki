@@ -24,12 +24,19 @@ const REPLACEMENTS = {
 /**
  * Directory where we store the pulled pages.
  */
-const WIKI_DIR = __dirname + '/../../wiki';
+const STORAGE = __dirname + '/../../wiki';
+
+/**
+ * Directory where we store the images that correspond to each json in the "File" folder.
+ */
+const RAW = __dirname + '/../../raw/web';
 
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
 module.exports = {
+    ENDPOINT,
     REPLACEMENTS,
-    WIKI_DIR,
+    STORAGE,
+    RAW,
 };
