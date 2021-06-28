@@ -58,6 +58,14 @@ const push = async (endpoint = ENDPOINT, focus = 'File:Adapt.png') => {
  *
  */
 const writePagesToCloud = async (status, endpoint, token) => {
+    const pending = {...status.localOnly, ...status.different};
+    for (const filePath in pending) {
+        const {title, content} = pending[filePath];
+        if (title.startsWith('File:')) {
+            await uploadImage(title, filePath, endpoint, token);
+        }
+        console.log('filePath:', filePath);
+    }
     // const pages = prepare(PAGES_DIR);
     // for (let i = 570; i < pages.length; i++) {
     //     const {title, text} = pages[i];
@@ -166,6 +174,30 @@ const writePage = async (endpoint, title, text, token) => {
         process.exit(0);
     }
     return result;
+};
+
+/**
+ *
+ */
+const uploadImage = async (title, filePath, endpoint, token) => {
+    console.log('filePath:', filePath);
+    const rawPath = RAW_DIR + '/' + filePath.replace('File/', '').replace(/\.[^.]*$/, '');
+    console.log('rawPath:', rawPath);
+    const {body} = await got(endpoint, {
+        method: 'post',
+        searchParams: {
+            action: 'upload',
+            format: 'json',
+        },
+        body: formalize({
+            filename: title.replace('File:', ''),
+            file: fs.createReadStream(rawPath),
+            token,
+        }),
+        responseType: 'json',
+        cookieJar,
+    });
+    console.log('body', body);
 };
 
 /**
