@@ -3,6 +3,7 @@ const {join} = require('path');
 
 const tally = require('../utils/tally');
 const getFilePath = require('../utils/getFilePath');
+const jsonParse = require('../utils/jsonParse');
 const {REPLACEMENTS, STORAGE} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -17,6 +18,7 @@ const {REPLACEMENTS, STORAGE} = require('../utils/CONFIG');
  * }
  */
 const inspect = (pages, focus) => {
+    console.log('Inspecting pages...');
     const synchronized = {};
     const different = {};
     const cloudOnly = {};
@@ -25,10 +27,11 @@ const inspect = (pages, focus) => {
         const fullFilePath = STORAGE + '/' + filePath;
         if (fs.existsSync(fullFilePath)) {
             const fileContent = fs.readFileSync(fullFilePath, 'utf8');
-            if (page.content === fileContent) {
-                synchronized[filePath] = page;
+            const localContent = getModifiedLocalContent(page.content, fileContent);
+            if (localContent) {
+                different[filePath] = {...page, localContent};
             } else {
-                different[filePath] = page;
+                synchronized[filePath] = page;
             }
         } else {
             cloudOnly[filePath] = page;
@@ -99,6 +102,19 @@ const walk = (dir, prefix, results = []) => {
         }
     }
     return results;
+};
+
+/**
+ *
+ */
+const getModifiedLocalContent = (pageContent, fileContent) => {
+    if (typeof pageContent === 'string') {
+        return pageContent === fileContent ? false : fileContent;
+    } else {
+        const {sha1} = pageContent;
+        const json = jsonParse(fileContent);
+        return sha1 === json?.sha1 ? false : json;
+    }
 };
 
 // =====================================================================================================================

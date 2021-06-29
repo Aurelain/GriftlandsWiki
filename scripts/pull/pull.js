@@ -7,7 +7,7 @@ const tally = require('../utils/tally');
 const guard = require('../utils/guard');
 const inspect = require('./inspect');
 const getFilePath = require('../utils/getFilePath');
-const {ENDPOINT, STORAGE} = require('../utils/CONFIG');
+const {ENDPOINT, STORAGE, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -96,7 +96,7 @@ const pull = async (ethereal = false, focus = '') => {
         return status;
     } catch (e) {
         console.log('Error:', e.message);
-        // console.log(e.stack);
+        DEBUG && console.log(e.stack);
     }
 };
 
@@ -334,7 +334,7 @@ const getFocusedPages = async (focus) => {
         // The focused title doesn't exist in the cloud.
         return {};
     }
-    return isFile ? parseFilePages(body) : parseFilePages(body);
+    return isFile ? parseFilePages(body) : parseTextPages(body);
 };
 
 // =====================================================================================================================

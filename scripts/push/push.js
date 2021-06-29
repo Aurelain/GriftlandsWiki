@@ -7,7 +7,7 @@ const {CookieJar} = require('tough-cookie');
 
 const pull = require('../pull/pull');
 const guard = require('../utils/guard');
-const {ENDPOINT, RAW} = require('../utils/CONFIG');
+const {ENDPOINT, RAW, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -22,7 +22,7 @@ const cookieJar = new CookieJar();
 /**
  *
  */
-const push = async (focus = 'File:Adapt.png') => {
+const push = async (focus = 'Alo3') => {
     try {
         const status = await pull(true, focus);
         if (!(await guard(status))) {
@@ -33,15 +33,16 @@ const push = async (focus = 'File:Adapt.png') => {
         assert(credentials, `Invalid credentials! See "${credentialsPath}"`);
 
         const token = await getCsrfToken(credentials);
-        assert(token, `Could not log in!\nVisit "https://griftlands.fandom.com/wiki/Special:BotPasswords".`);
+        const botPasswords = ENDPOINT.replace(/[^/]*$/, 'wiki/Special:BotPasswords');
+        assert(token?.length > 2, `Could not log in!\nVisit "${botPasswords}".`);
 
         await writePagesToCloud(status, token);
-        // await deletePagesFromCloud(endpoint, token, status)
+        await deletePagesFromCloud(token, status);
 
         console.log('Finished push.');
     } catch (e) {
         console.log('Error:', e.message);
-        // console.log(e.stack);
+        DEBUG && console.log(e.stack);
     }
 };
 
@@ -54,30 +55,23 @@ const push = async (focus = 'File:Adapt.png') => {
 const writePagesToCloud = async (status, token) => {
     const pending = {...status.localOnly, ...status.different};
     for (const filePath in pending) {
-        const {title, content} = pending[filePath];
+        const {title, content, localContent} = pending[filePath];
         if (title.startsWith('File:')) {
             await uploadImage(title, filePath, token);
+        } else {
+            await writeText(title, localContent || content, token);
         }
-        console.log('filePath:', filePath);
     }
-    // const pages = prepare(PAGES_DIR);
-    // for (let i = 570; i < pages.length; i++) {
-    //     const {title, text} = pages[i];
-    //     const result = await writePage(endpoint, title, text, token);
-    //     console.log(i, result ? '✓' : '✕', title);
-    // }
 };
 
 /**
  *
  */
-const deletePagesFromCloud = async (endpoint, token, status) => {
-    // const pages = prepare(PAGES_DIR);
-    // for (let i = 570; i < pages.length; i++) {
-    //     const {title, text} = pages[i];
-    //     const result = await writePage(endpoint, title, text, token);
-    //     console.log(i, result ? '✓' : '✕', title);
-    // }
+const deletePagesFromCloud = async (token, {cloudOnly}) => {
+    for (const filePath in cloudOnly) {
+        const {title} = cloudOnly[filePath];
+        await deletePage(title, token);
+    }
 };
 
 /**
@@ -147,8 +141,9 @@ const getCsrfToken = async ({username, password}) => {
 /**
  *
  */
-const writePage = async (title, text, token) => {
-    const writeResponse = await got(ENDPOINT, {
+const writeText = async (title, text, token) => {
+    console.log(`Writing text page "${title}"...`);
+    const {body} = await got(ENDPOINT, {
         method: 'post',
         searchParams: {
             action: 'edit',
@@ -162,21 +157,37 @@ const writePage = async (title, text, token) => {
         responseType: 'json',
         cookieJar,
     });
-    const result = writeResponse?.body?.edit?.result === 'Success';
-    if (!result) {
-        console.log('writeResponse:', writeResponse.body);
-        process.exit(0);
-    }
-    return result;
+    assert(body?.edit?.result === 'Success', JSON.stringify(body, null, 4));
+};
+
+/**
+ *
+ */
+const deletePage = async (title, token) => {
+    console.log(`DELETING page "${title}"...`);
+    const {body} = await got(ENDPOINT, {
+        method: 'post',
+        searchParams: {
+            action: 'delete',
+            format: 'json',
+        },
+        body: formalize({
+            title,
+            reason: 'Wikitext was missing from local storage.',
+            token,
+        }),
+        responseType: 'json',
+        cookieJar,
+    });
+    assert(body, JSON.stringify(body, null, 4));
 };
 
 /**
  *
  */
 const uploadImage = async (title, filePath, token) => {
-    console.log('filePath:', filePath);
     const rawPath = RAW + '/' + filePath.replace('File/', '').replace(/\.[^.]*$/, '');
-    console.log('rawPath:', rawPath);
+    console.log(`Uploading "${title}"...`);
     const {body} = await got(ENDPOINT, {
         method: 'post',
         searchParams: {
@@ -191,7 +202,7 @@ const uploadImage = async (title, filePath, token) => {
         responseType: 'json',
         cookieJar,
     });
-    console.log('body', body);
+    assert(body?.upload?.result === 'Success', JSON.stringify(body, null, 4));
 };
 
 /**
