@@ -1,7 +1,7 @@
 const {REPLACEMENTS} = require('./CONFIG');
 
 /**
- *
+ * Converts a wiki title into a filesystem name, including a custom extension.
  */
 const getFilePath = (title, content) => {
     const ext = typeof content === 'string' ? 'wikitext' : 'json';

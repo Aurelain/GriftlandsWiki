@@ -89,7 +89,7 @@ const pull = async (ethereal = false, focus = '') => {
         if (!ethereal && (await guard(status, true))) {
             const pendingWrite = {...status.different, ...status.cloudOnly};
             writePages(pendingWrite);
-            // removeOrphanPages(status.localOnly);
+            removeOrphanPages(status.localOnly);
         }
 
         console.log('Finished pull.');
@@ -309,6 +309,16 @@ const writePages = (pages) => {
         fsExtra.ensureDirSync(fullFileDir);
         const fileContent = typeof content === 'string' ? content : JSON.stringify(content, null, 4);
         fs.writeFileSync(fullFilePath, fileContent);
+    }
+};
+
+/**
+ *
+ */
+const removeOrphanPages = (orphanPages) => {
+    console.log('DELETING orphan pages...');
+    for (const fileName in orphanPages) {
+        fs.unlinkSync(STORAGE + '/' + fileName);
     }
 };
 

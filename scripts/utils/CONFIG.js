@@ -34,7 +34,7 @@ const RAW = __dirname + '/../../raw/web';
 /**
  * A flag for verbosity.
  */
-const DEBUG = false;
+const DEBUG = true;
 
 // =====================================================================================================================
 //  E X P O R T

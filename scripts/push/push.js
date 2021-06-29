@@ -22,7 +22,7 @@ const cookieJar = new CookieJar();
 /**
  *
  */
-const push = async (focus = 'Alo3') => {
+const push = async (focus = '') => {
     try {
         const status = await pull(true, focus);
         if (!(await guard(status))) {
@@ -187,12 +187,14 @@ const deletePage = async (title, token) => {
  */
 const uploadImage = async (title, filePath, token) => {
     const rawPath = RAW + '/' + filePath.replace('File/', '').replace(/\.[^.]*$/, '');
+    assert(fs.existsSync(rawPath), `Raw file "${rawPath}" not found!`);
     console.log(`Uploading "${title}"...`);
     const {body} = await got(ENDPOINT, {
         method: 'post',
         searchParams: {
             action: 'upload',
             format: 'json',
+            ignorewarnings: true, // to allow duplicates
         },
         body: formalize({
             filename: title.replace('File:', ''),

@@ -1,21 +1,13 @@
 const fs = require('fs');
-const crypto = require('crypto');
-const fsExtra = require('fs-extra');
-const axios = require('axios');
+const axios = require('axios'); // TODO: replace with got
+
+const inspectImages = require('./inspectImages');
+const guard = require('../utils/guard');
+const {RAW, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-/**
- * Directory which contains the metadata describing each file.
- */
-const METADATA_DIR = __dirname + '/../../wiki/File';
-
-/**
- * Directory where we'll store the downloaded files.
- */
-const DESTINATION = __dirname + '/../../raw/web';
-
 /**
  *
  */
@@ -27,20 +19,17 @@ const PARALLEL_DOWNLOADS = 5;
 /**
  *
  */
-const download = async () => {
-    const candidates = collectCandidates();
-    fsExtra.ensureDirSync(DESTINATION);
-    for (let i = 0; i < candidates.length; i += PARALLEL_DOWNLOADS) {
-        const parallelCandidates = candidates.slice(i, i + PARALLEL_DOWNLOADS);
-        const requests = parallelCandidates.map(({url}) => {
-            console.log('url:', url);
-            return axios.get(url, {responseType: 'arraybuffer'});
-        });
-        const results = await Promise.all(requests);
-        for (let j = 0; j < requests.length; j++) {
-            const {destinationFile} = parallelCandidates[j];
-            fs.writeFileSync(destinationFile, results[j].data, {encoding: null});
+const download = async (focus = '') => {
+    try {
+        const status = await inspectImages(focus);
+        if (!(await guard(status, true))) {
+            return;
         }
+        await createOrUpdateRaw({...status.different, ...status.cloudOnly});
+        await deleteRaw(status.localOnly);
+    } catch (e) {
+        console.log('Error:', e.message);
+        DEBUG && console.log(e.stack);
     }
 };
 
@@ -50,30 +39,29 @@ const download = async () => {
 /**
  *
  */
-const collectCandidates = () => {
-    const jsonNames = fs.readdirSync(METADATA_DIR);
-    const output = [];
-    for (const jsonName of jsonNames) {
-        const fileName = jsonName.replace(/\.[^.]*$/, '');
-        const {url, sha1} = JSON.parse(fs.readFileSync(METADATA_DIR + '/' + jsonName, 'utf8'));
-        const destinationFile = DESTINATION + '/' + fileName;
-        if (!fs.existsSync(destinationFile) || getSha1(destinationFile) !== sha1) {
-            output.push({
-                destinationFile,
-                url,
-            });
+const createOrUpdateRaw = async (bag) => {
+    const fileNames = Object.keys(bag);
+    for (let i = 0; i < fileNames.length; i += PARALLEL_DOWNLOADS) {
+        const parallelFileNames = fileNames.slice(i, i + PARALLEL_DOWNLOADS);
+        const requests = parallelFileNames.map((fileName) => {
+            const {url} = bag[fileName].content;
+            return axios.get(url, {responseType: 'arraybuffer'});
+        });
+        const results = await Promise.all(requests);
+        for (let j = 0; j < requests.length; j++) {
+            const {destinationFile} = parallelFileNames[j];
+            fs.writeFileSync(destinationFile, results[j].data, {encoding: null});
         }
     }
-    return output;
 };
 
 /**
  *
  */
-const getSha1 = (path) => {
-    const generator = crypto.createHash('sha1');
-    generator.update(fs.readFileSync(path));
-    return generator.digest('hex');
+const deleteRaw = async (bag) => {
+    for (const fileName in bag) {
+        fs.unlinkSync(RAW + '/' + fileName);
+    }
 };
 
 // =====================================================================================================================
