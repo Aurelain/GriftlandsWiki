@@ -77,11 +77,11 @@ const FILES_NAMESPACE = 6;
 // =====================================================================================================================
 /**
  *
- * @param ethereal      If `true`, the results will not be persisted (the disk will not be touched).
  * @param focus         A title to target instead of freely scanning the cloud.
+ * @param ethereal      If `true`, the results will not be persisted (the disk will not be touched).
  * @returns {Promise<{}>}
  */
-const pull = async (ethereal = false, focus = '') => {
+const pull = async (focus = '', ethereal = false) => {
     try {
         const pages = focus ? await getFocusedPages(focus) : await getAllInterestingPages();
 
@@ -152,6 +152,7 @@ const getAllTextsFromNamespace = async (ns) => {
 };
 
 /**
+ * Sample: https://griftlands.fandom.com/api.php?action=query&prop=revisions&rvprop=content&rvslots=main&generator=allpages&gapnamespace=1&format=json
  * {
  *      pages: {
  *           'Category/Foo_Bar!%2Fdoc.wikitext': {
