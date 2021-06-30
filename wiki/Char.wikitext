@@ -1,0 +1,26 @@
+{{Reupload}}
+
+{{Card
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]]
+|upgradeable = Yes
+|expreq = 10
+|upgrade1 = Visionary Char
+|upgrade2 = Boosted Char}}
+{{Quote|Everyone has a plan until they are set on fire.}}
+
+'''Char''' is a 1-cost Common '''Attack''' card for [[Rook]]. It deals 2-3 base damage. It has the effect "If the target has [[Burn]], gain 1 action".
+
+==Upgrades==
+After accruing 10 experience '''Char''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Visionary Char.png|150px]]
+|[[File:Boosted Char.png|150px]]
+|-
+!Gain 2 actions
+!Deal 4-5 base damage
+|}

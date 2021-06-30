@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Ricochet
+  |body=<center> Whenever this target takes damage from an attack, deal that much damage to one of their allies and recude '''Ricochet''' by 1.
+ </center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

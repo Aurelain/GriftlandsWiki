@@ -1,0 +1,4 @@
+'''Ricochet''' is a generic battle [[Key Words|key word]].
+
+==Effect==
+In game description: "Whenever this target takes damage from an attack, deal that much damage to one of their allies and recude '''Ricochet''' by 1."

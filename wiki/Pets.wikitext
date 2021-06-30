@@ -35,11 +35,16 @@
 
 === Erchins in Combat ===
 
+*'''Upgraded'''
+**Armored: Gain 4 Defense at the end of every turn
+**Disease Ridden (need to confirm if it's 1 or 2 stacks. It was 2 stacks when erchin was trained and NOT upgraded): When pet causes enemy to lose health, enemy gains 1 Diseased per stack
+***Diseased reduces max hp by 1 at the end of the owner's turn until the end of the fight
+**'''Defend''': Gain 8 defence
 
 === Erchins in Negotiations ===
 
-*'''Untrained:''' The enemy gains an argument with 4 resolve that increases all damage by 1.
-*'''Trained:''' The player gains an argument with 3 resolve that draws an additional card on every even turn.
+*'''Untrained:''' The player gains an argument with 3 resolve that targets an opponent argument each turn for 3-3 damage. Destroy this argument at the start of your next turn.
+*'''Trained:''' The player gains an argument with 3 resolve that targets an opponent argument each turn for 3-3 damage
 
 == Flead ==
 
@@ -58,7 +63,16 @@ Just like their wild variant, Fleads gain flat defense every turn from '''chitin
 
 === Shrooglets in Combat ===
 
-*'''Shrooglet Frenzy:''' Gains 1 Power whenever Shrooglet attacks. Lose 2 Power whenever Shrooglet takes damage. 
+*'''Trained'''
+**'''Hungry:''' Pet's feed attack heals it for 9 health
+**'''Revved up:''' Gain 2 power + 5 Defence
+**'''Defend:''' Gain 5 defence
+* '''Trained and Upgraded'''
+**'''4x Armored''': Gain 4 Defense at the end of every turn
+** '''Shrooglet Frenzy:''' Gains 1 Power whenever Shrooglet attacks. Lose 2 Power whenever Shrooglet takes damage.
+**Possible actions per turn
+***'''Revved up:''' Gain 2 power + 5 Defence
+***Attack
 
 === Shrooglets in Negotiations ===
 
@@ -71,14 +85,45 @@ Just like their wild variant, Fleads gain flat defense every turn from '''chitin
 
 === Vrocs in Combat ===
 
-*'''Nimble:''' The pet gains 1 evasion that is removed at the start of the next turn.
+*'''Nimble:''' Begins with 3 Nimble. At the start of each enemy turn, gain 1 Evasion and reduce Nimble by 1
 *'''Savage Bite:''' Attacks twice and applies 1 wound (Need confirmation if it applies 1 wound total or 1 wound per hit)
 *'''Howl:''' Grants the pet Vroc 5 defense. and gives you an extra action and draw the next turn
 *'''Charge:''' Single hit high damage attack
+*'''If Trained and Upgraded'''
+**67 hp
+**50 panic
+**'''3x Nimble:''' At the start of each enemy turn, gain 1 Evasion and reduce Nimble by 1
+**'''Metallic:''' Immune to Bleed and Wound
+**'''4x Armored''': Gain 4 Defense at the end of every turn
+**Possible actions per turn
+***'''1x Rallying Howl:''' At the start of your turn, you (not the pet) gains 1 action and draws 1 card. At the end of your turn, remove this
 
 === Vrocs in Negotiations ===
 
 *'''Untrained:''' The player gains an argument with 3 resolve that deals 3 damage to a random enemy argument each turn. This argument is destroyed at the start of the next player turn.
 *'''Trained:''' The player gains an argument with 2 resolve that deals 5 damage to a random enemy argument each turn.
+
+== Lumicyte ==
+
+=== Lumicytes in Combat ===
+
+*'''Kindling:''' When pet receives damage, reduce Kindling by 1 and apply Kindling to the attacker. At the end of the pet's turn, convert all Kindling to Temporary Power
+
+=== Lumicytes in Negotiations ===
+
+*
+
+== Enforcer RETURN ==
+
+=== Enforcer RETURN in Combat ===
+
+*'''Metallic:''' Immune to Bleed and Wound
+*'''Hover Pack:''' When pet is hit, reduce its number of attacks this turn by 1. If no attacks remain, pet becomes stunned
+
+== AutoDog ==
+
+=== AutoDogs in Combat ===
+
+*'''Metallic:''' Immune to Bleed and Wound
 
 [[Category:Game]]

@@ -1,8 +1,23 @@
+/* For elements which only display in the mobile view */
+.mobileonly {
+    display: none;
+}
+
+/* The following section is necessary for most of the Notice templates */
+/* for "edit this page" tab and "discussion" tab etc */
+.pagetab {
+     border-style: solid solid none;
+     border-width: thin;
+     border-color: var(--theme-border-color);
+     padding: 0.25em 1em 0;
+     font-size: 95%;
+}
+
 .ambox {
-    background-color: #282828;
-    border-bottom-color: #383838;
-    border-right-color: #383838;
-    border-top-color: #383838;
+    background-color: var(--theme-page-text-mix-color-95);
+    border-bottom-color: var(--theme-link-dynamic-color-2);
+    border-right-color: var(--theme-link-dynamic-color-2);
+    border-top-color: var(--theme-link-dynamic-color-2);
     border-collapse: collapse;
     font-size: 95%;
     margin: 0 auto 2px auto;

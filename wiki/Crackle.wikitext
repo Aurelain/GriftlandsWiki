@@ -1,0 +1,27 @@
+{{Reupload}}
+
+{{Card
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]], [[Charge]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Inductive Crackle
+|upgrade2 = Boosted Crackle
+}}
+{{Quote|There is a reason you can't use these, they are unstable as all Hesh.}}
+
+'''Crackle''' is a 1-cost Common '''Attack''' card for [[Rook]]. It deals 4 base damage. It has the effect: "If the target has [[Burn]], gain 2 [[Charge]]". 
+
+==Upgrades==
+After accruing 9 experience '''Crackle''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Inductive Crackle.png|150px]]
+|[[File:Boosted Crackle.png|150px]]
+|-
+!Gain 3 [[Charge]]
+!Deal 6 base damage
+|}

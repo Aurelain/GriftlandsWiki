@@ -1,0 +1,22 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Rooted Wretched Strike
+|upgrade2 = Tall Wretched Strike}}
+{{Quote|That was the worst thing that I ever saw...}}
+
+==Upgrades==
+At 9 experience, '''Wretched Strike''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Rooted Wretched Strike.png|150px]]
+|[[File:Tall Wretched Strike.png|150px]]
+|-
+!Min damage increased by 2
+!Max damage increased by 3
+|}

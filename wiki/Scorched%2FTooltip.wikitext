@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Scorched
+  |body=<center> '''Burn''' can not decay by more than 2 stacks per turn. Whenever '''Burn''' is triggered, remove 1 '''Scorched'''.
+ </center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

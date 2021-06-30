@@ -1,0 +1,22 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Stone Waylay
+|upgrade2 = Wide Waylay}}
+{{Quote|I don't know how many she has!}}
+
+==Upgrades==
+At 7 experience, '''Waylay''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Stone Waylay.png|150px]]
+|[[File:Wide Waylay.png|150px]]
+|-
+!Gain 12 [[Defense]]
+!Insert 2 [[Blade Flash]] cards 
+|}

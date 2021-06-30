@@ -1,0 +1,22 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = 
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Boosted Resonance
+|upgrade2 = Wide Resonance}}
+{{Quote|There was a high pitched noise, and then my chest plate started malfunctioning}}
+
+==Upgrades==
+At 5 experience, '''Resonance''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Resonance.png|150px]]
+|[[File:Wide Resonance.png|150px]]
+|-
+!enemy gains 2 [[Resonance]]
+!All enemies gain 1 [[Resonance]]
+|}

@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Counter
+  |body=<center> Deal '''X''' damage back at the enemy when hit. Remove all '''Counter''' at the beginning of your turn.
+ </center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

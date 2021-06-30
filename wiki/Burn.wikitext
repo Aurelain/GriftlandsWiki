@@ -1,0 +1,6 @@
+'''Burn''' is a generic battle [[Key Words|key word]].
+
+==Effect==
+In game description: "At the start of your turn, take damage equal to the stack of '''Burn''' and deal half as much to all allies. Remove half of the stacks of '''Burn'''."
+
+[[Category:Keywords]]

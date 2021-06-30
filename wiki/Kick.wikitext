@@ -1,0 +1,36 @@
+{{Card
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = 
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Kickochet
+|upgrade2 = Visionary Kick
+|upgrade3 = Double Kick
+|upgrade4 = Lucid Kick
+|upgrade5 = Pale Kick
+}}
+{{Quote|Keep it low and use your hips, they'll never see it coming.}}
+
+'''Kick''' is a 2-cost Basic '''Attack''' card for [[Rook]]. It deals 8 base damage. As a base card '''Kick''' is always part of the available card pool for [[Rook]].
+
+==Upgrades==
+After accruing 5 experience '''Kick''' is able to be upgraded.  Like every basic card, '''Kick''' has more than two upgrades, from which it randomly picks 2 you can decide from.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Kickochet.png|150px]]
+|[[File:Visionary Kick.png|150px]]
+|[[File:Double Kick.png|150px]]
+|[[File:Lucid Kick.png|150px]]
+|-
+!Apply 1 [[Ricochet]]
+!Draw a card
+!Attack twice
+![[Expend]]
+|-
+|[[File:Pale Kick.png|150px]]
+|-
+!Cost 1 action less
+|}

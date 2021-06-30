@@ -1,0 +1,22 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Ability]],[[Heal]],[[Expend]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Initial Ravenous
+|upgrade2 = Pale Ravenous}}
+{{Quote|Hey, buddy, you gonna eat that?}}
+
+==Upgrades==
+At 5 experience, '''Ravenous''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Initial Ravenous.png|150px]]
+|[[File:Pale Ravenous.png|150px]]
+|-
+!Gains [[Ambush]]
+!Costs 1 action
+|}

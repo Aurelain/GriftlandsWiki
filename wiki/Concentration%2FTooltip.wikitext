@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Concentration
+  |body=<center>Increases minimum damage of all attacks by 1. Halve your '''Concentration''' when you take enemy damage. </center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

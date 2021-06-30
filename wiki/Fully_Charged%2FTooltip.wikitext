@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Fully Charged
+  |body=<center> This card has an additional effect if all cells are charged.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

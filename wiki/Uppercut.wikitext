@@ -1,0 +1,22 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Power]]
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Pale Uppercut
+|upgrade2 = Boosted Uppercut}}
+{{Quote|Glass jaw. Knew it.}}
+
+==Upgrades==
+At 6 experience, '''Uppercut''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Pale Uppercut.png|150px]]
+|[[File:Boosted Uppercut.png|150px]]
+|-
+!Costs 1 action.
+!Gain 2 [[Power]] instead.
+|}

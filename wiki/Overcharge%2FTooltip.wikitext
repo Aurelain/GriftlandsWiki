@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Overcharge
+  |body=<center>Increases max damage of all cards by 1 for each stack of '''Overcharge'''.
+Gaining '''Charge''' while Fully Charged generates Overcharge instead. Reduce Overcharge by half at the end of your turn. </center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

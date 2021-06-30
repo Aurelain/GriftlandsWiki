@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Charge
+  |body=<center>Rook can store '''Charge''' in his empty cells. '''Charge''' can be used by certain cards for additional effects. </center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

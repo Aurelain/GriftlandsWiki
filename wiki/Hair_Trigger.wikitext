@@ -1,0 +1,26 @@
+{{Card
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Enhanced Trigger
+|upgrade2 = Boosted Trigger
+}}
+{{Quote|You have to be carefull, I've seen these go off holstered.}}
+
+'''Hair Trigger''' is a 1-cost Basic '''Attack''' card for [[Rook]]. It deals 2-3 base damage. It has the effect: "Spend 1 [[Charge]]: deal 2 bonus damage". 
+As a base card '''Hair Trigger''' is always part of the available card pool for [[Rook]].
+
+==Upgrades==
+After accruing 9 experience '''Hair Trigger''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Enhanced Trigger.png|150px]]
+|[[File:Boosted Trigger.png|150px]]
+|-
+!Spend up to 2 [[Charge]]: deal 2 bonus damage per charge spend
+!Deal 6 bonus damage
+|}

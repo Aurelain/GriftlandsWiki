@@ -1,0 +1,22 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Zig Zag
+|upgrade2 = Pale Zig Zag}}
+{{Quote|Hold still!}}
+
+==Upgrades==
+At 9 experience, '''Zig Zag''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Zig Zag.png|150px]]
+|[[File:Pale Zig Zag.png|150px]]
+|-
+!Gain 5 [[Defense]] or 2 [[Wound]] instead
+!Costs 0 actions
+|}

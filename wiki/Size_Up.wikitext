@@ -1,0 +1,22 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Combo]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Visionary Size Up
+|upgrade2 = Rival's Size Up}}
+{{Quote|I probably know your jacket size too, let's do this.}}
+
+==Upgrades==
+At 9 experience, '''Size Up''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Visionary Size Up.png|150px]]
+|[[File:Rival's Size Up.png|150px]]
+|-
+!Draw 3 cards
+!Gain 2 more [[Combo]]
+|}

@@ -1,0 +1,12 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = 
+|upgradeable = No
+}}
+{{Quote|Blood Striking is ruthless, cruel, and very effective.}}
+
+==Notes==
+Thirst is a unique attack card that can be selected by Sal as a reward from Nadan for joining The Spree.

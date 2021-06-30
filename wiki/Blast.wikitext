@@ -1,0 +1,42 @@
+{{Card
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = 
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Fiery Blast
+|upgrade2 = Visionary Blast
+|upgrade3 = Loaded Blast
+|upgrade4 = Lucid Blast
+|upgrade5 = Charged Blast
+|upgrade6 = Induction Blast
+|upgrade7 = Mirrored Blast
+}}
+{{Quote|Center mass!}}
+
+'''Blast''' is a 1-cost Basic '''Attack''' card for [[Rook]]. It deals 2-4 base damage. As a base card '''Blast''' is always part of the available card pool for [[Rook]].
+
+==Upgrades==
+After accruing 6 experience '''Blast''' is able to be upgraded.  Like every basic card, '''Blast''' has more than two upgrades, from which it randomly picks 2 you can decide from.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Fiery Blast.png|150px]]
+|[[File:Visionary Blast.png|150px]]
+|[[File:Loaded Blast.png|150px]]
+|[[File:Lucid Blast.png|150px]]
+|-
+!Apply 2 [[Burn]]
+!Draw a card
+![[Fully Charged]]: This cost 0
+![[Expend]]
+|-
+|[[File:Charged Blast.png|150px]]
+|[[File:Induction Blast.png|150px]]
+|[[File:Mirrored Blast.png|150px]]
+|-
+!Spend 1 [[Charge]]: Deal 2 bonus damage
+!Gain 1 [[Charge]]
+!Attack twice
+|}

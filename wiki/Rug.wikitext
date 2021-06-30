@@ -1,4 +1,4 @@
-Nothing happens [[File:Rug.png|thumb]]
+ [[File:Rug.png|thumb]]
 Rug wanders around the Griftlands, looking for patrons willing to try out his culinary creations.
 {| class="wikitable"
 |+
@@ -12,7 +12,10 @@ Rug wanders around the Griftlands, looking for patrons willing to try out his cu
 |Lose 10 HP.
 |-
 |Deep-eel eclair
-|
+|No effect
+|-
+|Fleadmilk Brandy Pudding
+|Gain a "Fleadshell Brandy" card. (0 cost, Battle, Unique Item, Drink, Gain 1 action, Destroy after 3 uses)
 |-
 |Tidepool Pods
 |Lose 8 HP. Gain a "Tidepool Pods" card. (1 cost, Battle, Unique Item, 3-6 damage, Hits all enemies, Destroy after 5 uses)

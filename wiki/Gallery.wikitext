@@ -1,0 +1,24 @@
+{{Card
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Fully Charged]]
+|upgradeable = Yes
+|expreq = 8
+|upgrade1 = Twisted Gallery
+|upgrade2 = Boosted Gallery}}
+{{Quote|It's like shooting tallowfish in a barrel.}}
+
+'''Gallery''' is a 1-cost Common '''Attack''' card for [[Rook]]. It deals 3 base damage. It has the effect "[[Fully Charged]]: deals 2 bonus damage and hits all enemies".
+
+==Upgrades==
+After accruing 8 experience '''Gallery''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Twisted Gallery.png|150px]]
+|[[File:Boosted Gallery.png|150px]]
+|-
+!Deal 4 base damage; Hits all enemies
+!Deals 4 bonus damage
+|}

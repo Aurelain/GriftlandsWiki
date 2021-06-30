@@ -1,0 +1,22 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Expend]], [[Ambush]] 
+|upgradeable = Yes
+|expreq = 8
+|upgrade1 = Rooted Steel
+|upgrade2 = Deep Silent Steel}}
+{{Quote|The noisy ones are scarier, but a lot easier to avoid.}}
+
+==Upgrades==
+At 8 experience, '''Silent Steel''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Rooted Steel.png|150px]]
+|[[File:Deep Silent Steel.png|150px]]
+|-
+!Deals 3 more damage
+!Applies 1 [[Impair]]
+|}

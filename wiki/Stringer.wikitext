@@ -1,0 +1,22 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = [[Defense]], [[Counter]] 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Stringer
+|upgrade2 = Pale Stringer}}
+{{Quote|Not bad, but try staying a little lower to the ground.}}
+
+==Upgrades==
+At 9 experience, '''Stringer''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Stringer.png|150px]]
+|[[File:Pale Stringer.png|150px]]
+|-
+!Gain 4 [[Defense]]. When discarded, gain 4 [[Defense]] and 4 [[Counter]]
+!Costs 0 actions
+|}

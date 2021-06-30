@@ -1,0 +1,22 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|character = Sal
+|keywords = 
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Instinct
+|upgrade2 = Promoted Instinct}}
+{{Quote|It was right there a second ago...}}
+
+==Upgrades==
+At 7 experience, '''Thieves' Instinct''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Instinct.png|150px]]
+|[[File:Promoted Instinct.png|150px]]
+|-
+!Improvise a random uncommon or rare card instead
+!Improvise an upgraded card
+|}

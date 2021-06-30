@@ -1,0 +1,22 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Bleed]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Slice
+|upgrade2 = Promoted Slice}}
+{{Quote|The cuts were so clean they didn't even realize anything was wrong until it was tool late.}}
+
+==Upgrades==
+At 9 experience, '''Slice''' can be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Boosted Slice.png|150px]]
+|[[File:Promoted Slice.png|150px]]
+|-
+!Apply 1 more [[Bleed]]
+!If the target has 5 [[Bleed]] or more, Apply 2 [[Impair]]
+|}

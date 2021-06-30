@@ -1,0 +1,12 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = [[Panic]], [[Power]], [[Heal]], [[Expend]]
+|upgradeable = No
+|expreq = }}
+{{Quote|The Spree have a history of viciousness that permeates all of Murder Bay, it's time to get in line.}}
+
+==Notes==
+Terrorize is a unique attack card that can be selected by Sal as a reward from Nadan for joining The Spree.

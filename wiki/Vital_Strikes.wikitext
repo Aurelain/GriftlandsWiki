@@ -1,0 +1,12 @@
+{{Card
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|character = Sal
+|keywords = 
+|upgradeable = No
+}}
+{{Quote|Just below the shoulder, above the abdomen, and then finish it with anywhere on the neck.}}
+
+==Notes==
+Vital Strikes is a unique maneuver card that can be selected by Sal as a reward from Nadan for joining The Spree. (maybe, needs verification)

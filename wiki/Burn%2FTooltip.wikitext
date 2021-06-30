@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Burn
+  |body=<center> At the start of your turn, take damage equal to the stack of '''Burn''' and deal half as much to all allies. Remove half of the stacks of '''Burn'''.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

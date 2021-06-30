@@ -4,6 +4,7 @@
 
 == [[file:Sal Portrait.png|50px|link=Sal]] Sal's Battle Cards  ==
 {{cols|3|
+*[[Absolute Domination]]
 *[[Active Defense]]
 *[[Adapt]]
 *[[Assault]]
@@ -27,6 +28,7 @@
 *[[Combination]]
 *[[Concentrate]]
 *[[Cross]]
+*[[Crusher]]
 *[[Crushing Blow]]
 *[[Cynotrainer]]
 *[[Dagger Storm]]
@@ -60,34 +62,40 @@
 *[[Gash]]
 *[[Ghost Strike]]
 *[[Haymaker]]
+*[[Hemophage]]
 *[[Hemorrhage]]
 *[[Hilt Bash]]
 *[[Improved Accuracy]]
 *[[Inside Fighting]]
 *[[Into the Night]]
+*[[Jarackle Free-Fighting]]
 *[[Kidney Shot]]
 *[[Kra'deshi Barbstorm]]
 *[[Lacerate]]
 *[[Leech]]
+*[[Murder Bay Boxing]]
 *[[Muscle Memory]]
 *[[Over Extension]]
+*[[Prediction]]
+*[[Projector]]
 *[[Psionic Feedback]]
 *[[Ravenous]]
 *[[Readiness]]
 *[[Rebound]]
 *[[Reckless Swing]]
 *[[Relentless]]
+*[[Resonance]]
 *[[Reversal]]
 *[[Rummage]]
 *[[Sal's Daggers]]
-**Hammer Grip
-**Saber Grip
-*[[Sal's Bloody Daggers]]
-**Gouge
-**Vertical Slash
-*[[Sal's Combo Daggers]]
-**Gut Shot
-**Rain of Blades
+***Hammer Grip
+***Saber Grip
+**[[Sal's Bloody Daggers]]
+***Gouge
+***Vertical Slash
+**[[Sal's Combo Daggers]]
+***Gut Shot
+***Rain of Blades
 *[[Scatter]]
 *[[Seeker]]
 *[[Shadow Mastery]]
@@ -111,14 +119,18 @@
 *[[Tackle]]
 *[[Target Practice]]
 *[[Terrorize]]
+*[[The Slip]]
 *[[Thieves' Instinct]]
 *[[Thirst]]
+*[[Trained Strike]]
 *[[Uppercut]]
 *[[Viciousness]]
 *[[Vital Strikes]]
+*[[Waylay]]
 *[[Wild Lunge]]
 *[[Wind Up]]
 *[[Wretched Strike]]
+*[[Zig Zag]]
 }}
 
 == [[file:Rook Portrait.png|50px|link=Rook]] Rook's Battle Cards ==
