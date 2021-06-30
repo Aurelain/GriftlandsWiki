@@ -1,6 +1,7 @@
 const fs = require('fs');
 const axios = require('axios'); // TODO: replace with got
 
+const attemptSelfRun = require('../utils/attemptSelfRun');
 const inspectImages = require('./inspectImages');
 const guard = require('../utils/guard');
 const {RAW, DEBUG} = require('../utils/CONFIG');
@@ -68,3 +69,4 @@ const deleteRaw = async (bag) => {
 //  E X P O R T
 // =====================================================================================================================
 module.exports = download;
+attemptSelfRun(download);

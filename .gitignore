@@ -1,4 +1,4 @@
 node_modules
 .idea
 raw/
-credentials.json
+credentials*.json

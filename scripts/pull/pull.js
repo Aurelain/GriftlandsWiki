@@ -3,6 +3,7 @@ const assert = require('assert').strict;
 const fsExtra = require('fs-extra');
 const got = require('got');
 
+const attemptSelfRun = require('../utils/attemptSelfRun');
 const tally = require('../utils/tally');
 const guard = require('../utils/guard');
 const inspect = require('./inspect');
@@ -351,3 +352,4 @@ const getFocusedPages = async (focus) => {
 //  E X P O R T
 // =====================================================================================================================
 module.exports = pull;
+attemptSelfRun(pull);

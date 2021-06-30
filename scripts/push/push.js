@@ -1,19 +1,17 @@
 const fs = require('fs');
 const assert = require('assert').strict;
-const {resolve} = require('path');
 const got = require('got');
 const FormData = require('form-data');
 const {CookieJar} = require('tough-cookie');
 
+const attemptSelfRun = require('../utils/attemptSelfRun');
 const pull = require('../pull/pull');
 const guard = require('../utils/guard');
-const {ENDPOINT, RAW, DEBUG} = require('../utils/CONFIG');
+const {ENDPOINT, CREDENTIALS, RAW, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-const credentialsPath = resolve(__dirname + '/credentials.json');
-
 const cookieJar = new CookieJar();
 
 // =====================================================================================================================
@@ -30,7 +28,7 @@ const push = async (focus = '') => {
         }
 
         const credentials = await getCredentials();
-        assert(credentials, `Invalid credentials! See "${credentialsPath}"`);
+        assert(credentials, `Invalid credentials! See "${CREDENTIALS}"`);
 
         const token = await getCsrfToken(credentials);
         const botPasswords = ENDPOINT.replace(/[^/]*$/, 'wiki/Special:BotPasswords');
@@ -80,10 +78,10 @@ const deletePagesFromCloud = async (token, {cloudOnly}) => {
 const getCredentials = () => {
     let credentials;
     try {
-        return JSON.parse(fs.readFileSync(credentialsPath, 'utf8'));
+        return JSON.parse(fs.readFileSync(CREDENTIALS, 'utf8'));
     } catch (e) {
         credentials = {username: '', password: ''};
-        fs.writeFileSync(credentialsPath, JSON.stringify(credentials, null, 4));
+        fs.writeFileSync(CREDENTIALS, JSON.stringify(credentials, null, 4));
     }
     return credentials.password && credentials.password ? credentials : null;
 };
@@ -222,3 +220,4 @@ const formalize = (bag) => {
 //  E X P O R T
 // =====================================================================================================================
 module.exports = push;
+attemptSelfRun(push);

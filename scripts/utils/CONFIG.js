@@ -1,8 +1,16 @@
+const {resolve} = require('path');
+
 /**
  * The wiki url, pointing to /api.php
  */
 // const ENDPOINT = 'https://griftlands.fandom.com/api.php';
 const ENDPOINT = 'http://127.0.0.1/mediawiki/api.php';
+
+/**
+ * Authentication information, obtained from `Special:BotPasswords`, needed by `push`.
+ */
+// const CREDENTIALS = resolve(__dirname + '/credentials.json');
+const CREDENTIALS = resolve(__dirname + '/credentials_local.json');
 
 /**
  * A file name (in the local OS file system) cannot contain some special characters, so we replace them.
@@ -41,6 +49,7 @@ const DEBUG = true;
 // =====================================================================================================================
 module.exports = {
     ENDPOINT,
+    CREDENTIALS,
     REPLACEMENTS,
     STORAGE,
     RAW,
