@@ -49,9 +49,9 @@ Sends the local changes to the online wiki:
 1. performs a `pull` so it can compare the local files with the most recent online version
 2. offers a summary of what's about to happen
 3. asks you if you want to proceed
-4. obtains a CSRF token for editing, based on the credentials from `/src/utils/credentials.json`
-5. write the needed changes to the online wiki
-6. removes online pages that have no local counterpart
+4. obtains a CSRF token for editing, based on the credentials from `/scripts/utils/credentials.json`
+5. writes the needed changes to the online wiki
+6. (currently disabled) removes online pages that have no local counterpart
 
 ### update
 ```sh
@@ -63,7 +63,7 @@ Parses the game files and changes the local wiki accordingly
 3. TODO. This is still Work-in-Progress
 
 ## Options
-- You can find some configuration options in `/src/utils/CONFIG.js`
+- You can find some configuration options in `/scripts/utils/CONFIG.js`
 - Most commands accept a page title as parameter to focus on that particular item and not scan the whole wiki.
 For example:
 ```sh

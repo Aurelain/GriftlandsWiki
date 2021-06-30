@@ -35,7 +35,7 @@ const push = async (focus = '') => {
         assert(token?.length > 2, `Could not log in!\nVisit "${botPasswords}".`);
 
         await writePagesToCloud(status, token);
-        await deletePagesFromCloud(token, status);
+        //await deletePagesFromCloud(token, status); // TODO: uncomment this when we have enough guards in place
 
         console.log('Finished push.');
     } catch (e) {
