@@ -57,6 +57,6 @@ Rug wanders around the Griftlands, looking for patrons willing to try out his cu
 |Gain a "Hawb Drumstick" card. (Heals 8, destroy after one use)
 |-
 |Curds and Floaters
-|Gain a "Pickled Floater" card. (Gain 5 concentration, destroy after one use)
+|Gain a "Pickled Floater" card. (Gain 5 concentration, destroy after two uses)
 |}
 <ref>https://forums.kleientertainment.com/forums/topic/113370-rugs-food/</ref>
