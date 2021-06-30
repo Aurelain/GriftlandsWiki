@@ -45,12 +45,12 @@ const createOrUpdateRaw = async (bag) => {
         const parallelFileNames = fileNames.slice(i, i + PARALLEL_DOWNLOADS);
         const requests = parallelFileNames.map((fileName) => {
             const {url} = bag[fileName].content;
+            console.log(`Downloading "${fileName}" from ${url}`);
             return axios.get(url, {responseType: 'arraybuffer'});
         });
         const results = await Promise.all(requests);
         for (let j = 0; j < requests.length; j++) {
-            const {destinationFile} = parallelFileNames[j];
-            fs.writeFileSync(destinationFile, results[j].data, {encoding: null});
+            fs.writeFileSync(RAW + '/' + parallelFileNames[j], results[j].data, {encoding: null});
         }
     }
 };
