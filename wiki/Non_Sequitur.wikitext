@@ -1,0 +1,25 @@
+{{Card
+|character = Sal
+|rarity = Uncommon
+|cardtype = Manipulate
+|decktype = Negotiation
+|keywords = [[Expend]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Enduring Non Sequitur
+|upgrade2 = Pale Non Sequitur}}
+
+{{Quote|What does any of that have to do with apples?}}
+
+'''Non Sequitur''' is a 1-cost Uncommon '''Manipulate''' card for [[Sal]]. It has the effect: "Your next card this turn costs 0 actions. [[Expend]]".
+
+==Upgrades==
+After accruing 9 experience '''Non Sequitur''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Enduring Non Sequitur.png|150px]]
+|[[File: Pale Non Sequitur.png|150px]]
+|-
+!Remove [[Expend]]
+!Cost 1 action less
+|}

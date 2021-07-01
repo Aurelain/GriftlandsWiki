@@ -1,0 +1,27 @@
+{{Reupload}}
+
+{{Card
+|character = Sal
+|rarity = Rare
+|cardtype = Diplomacy
+|decktype = Negotiation
+|keywords = [[Influence]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Boosted Appeal
+|upgrade2 = Pale Appeal}}
+
+{{Quote|Look, you're a smart guy.}}
+
+'''Appeal to Reason''' is a 4-cost Rare '''Diplomacy''' card for [[Sal]]. It deals 4-6 base damage. It has the effect: "Costs 1 less for each [[Influence]] you have".
+
+==Upgrades==
+After accruing 5 experience '''Appeal to Reason''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Boosted Appeal.png|150px]]
+|[[File: Pale Appeal.png|150px]]
+|-
+!Deals 5-8 base damage
+!Cost 1 action less (3-cost)
+|}

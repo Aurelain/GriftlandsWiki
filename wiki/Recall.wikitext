@@ -1,0 +1,27 @@
+{{Card
+|character = Sal
+|rarity = Rare
+|cardtype = Manipulate
+|decktype = Negotiation
+|keywords = [[Expend]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Recall
+|upgrade2 = Pale Recall}}
+
+{{Quote|Medium build, great teeth, smelled terrible.}}
+
+'''Recall''' is a 1-cost Rare '''Manipulate''' card for [[Sal]]. It has the effect: "Gain: Whenever you [[Expend]] a card, draw 1 card. [[Expend]]".
+
+'''Recall''' is an argument with 5 resolve.
+
+==Upgrades==
+After accruing 7 experience '''Recall''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Boosted Recall.png|150px]]
+|[[File: Pale Recall.png|150px]]
+|-
+!Draw 2 cards
+!Cost 1 action less
+|}

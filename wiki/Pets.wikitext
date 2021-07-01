@@ -23,11 +23,15 @@
 
 *Bristle: Pet gains +2 power.
 *(Savage Bite: Attacks twice and applies 1 bleed - Need confirmation on name and bleed stacks)
+*'''Trained'''
+**Possible actions per turn
+***Gain 3-4 power
+***Deal damage + 2 bleed
 
 === Yotes in Negotiations ===
 
 *'''Untrained:''' The enemy gains an argument with 5 resolve that deals 2 damage to a random friendly argument each turn.
-*'''Trained:''' The player gains an argument with 5 resolve that deals 2 damage to a random enemy argument each turn.
+*'''Trained:''' The player gains an argument with 3 resolve that deals 3 damage to a random enemy argument each turn.
 
 == Erchin ==
 
@@ -90,7 +94,7 @@ Just like their wild variant, Fleads gain flat defense every turn from '''chitin
 *'''Howl:''' Grants the pet Vroc 5 defense. and gives you an extra action and draw the next turn
 *'''Charge:''' Single hit high damage attack
 *'''If Trained and Upgraded'''
-**67 hp
+**62 hp without mettle bonus
 **50 panic
 **'''3x Nimble:''' At the start of each enemy turn, gain 1 Evasion and reduce Nimble by 1
 **'''Metallic:''' Immune to Bleed and Wound
@@ -108,8 +112,16 @@ Just like their wild variant, Fleads gain flat defense every turn from '''chitin
 === Lumicytes in Combat ===
 
 *'''Kindling:''' When pet receives damage, reduce Kindling by 1 and apply Kindling to the attacker. At the end of the pet's turn, convert all Kindling to Temporary Power
+*'''Trained'''
+**46hp
+**Possible actions per turn
+***'''3 Kindling''': Whenever pet receives damage, reduce Kindling by 1 and apply Kindling to attacker. At the end of the pet's turn, all Kindling becomes Temp Power for the owner (i.e if it's on enemy, enemy gets Temp power)
+***2-hit attack + Exposed (Defence only generates 1/2 the normal stacks)
+***Leap strike: 1-hit attack
 
 === Lumicytes in Negotiations ===
+
+* '''Trained:''' The player gains an argument with 3 resolve that deals 3 damage to a random enemy argument each turn.
 
 *
 
