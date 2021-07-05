@@ -184,9 +184,9 @@ Can be a [[Hatch]] card(likely will get fixed).
 |[[Spark Barons|Spark Baron]] Professional
 |
 |-
-|Weapons Supplier
+|[[File:Screenshot 2021-07-04 20.59.39.jpg|center|frameless|67x67px]]'''Weapons Supplier'''
 |Receive a random item card every morning.
-|Spark Barons Security Guard
+|[[Spark Barons]] Security Guard
 |Brawl mode: Give 100 shills to change from Liked to Loved
 |- id="Surprise Attack"
 |style="text-align:center"|[[File:Graft surprise attack.png|64px]]<br>'''Surprise Attack'''

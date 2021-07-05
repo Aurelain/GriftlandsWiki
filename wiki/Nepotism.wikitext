@@ -1,0 +1,50 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Courtly Nepotism
+|upgrade2 = Degrading Nepotism}}
+
+{{Quote|Well that's just unfair.}}
+
+'''Nepotism''' is a 1-cost Basic '''Manipulate''' card for [[Smith]]. It has the effect: "Insert '''Self Promotion''' or '''Clout''' into your hand".
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Self Promotion.png|150px]]
+|[[File: Clout.png|150px]]
+|-
+!0-cost Diplomacy; Gain 1 [[Influence]]. At the end of your turn lose 1 [[Influence]]. [[Expend]]
+!0-cost Hostility; Base damage 1. Play this card twice. [[Expend]]
+|}
+
+==Upgrades==
+After accruing 9 experience '''Nepotism''' can be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Courtly Nepotism.png|150px]]
+|[[File: Degrading Nepotism.png|150px]]
+|-
+!Insert '''Buffer''' or '''Compel''' into your hand
+!Insert '''Notion''' or '''Overturn''' into your hand
+|}
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Buffer.png|150px]]
+|[[File: Compel.png|150px]]
+|[[File: Notion.png|150px]]
+|[[File: Overturn.png|150px]]
+|-
+!0-cost Diplomacy; Gain 2 [[Influence]]. [[Expend]]
+!0-cost Diplomacy; Base damage 2-3. [[Renowned]] 3: This card deals double damage and hits all opponent arguments. [[Expend]]
+!0-cost Hostility; Gain 2 [[Domination]]. At the end of your turn lose 2 [[Domination]]. [[Expend]]
+!0-cost Hostility; Base damage 2. Play this card twice. [[Expend]]
+|}

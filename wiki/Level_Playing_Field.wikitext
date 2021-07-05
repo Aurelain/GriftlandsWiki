@@ -1,0 +1,27 @@
+{{Reupload}}
+
+{{Card
+|character = Sal
+|rarity = Uncommon
+|cardtype = Diplomacy
+|decktype = Negotiation
+|keywords = [[Vulnerability]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Purified Playing Field
+|upgrade2 = Boosted Playing Field}}
+
+{{Quote|Let's start this over.}}
+
+'''Level Playing Field''' is a 1-cost Uncommon '''Diplomacy''' card for [[Sal]]. It has the effect: "Gain 2 [[Vulnerability]]. All cards deal +3 damage this turn".
+
+==Upgrades==
+After accruing 9 experience '''Level Playing Field''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Purified Playing Field.png|150px]]
+|[[File: Boosted Playing Field.png|150px]]
+|-
+!Gain 1 [[Vulnerability]]
+!All cards deal +4 damage this turn
+|}

@@ -356,7 +356,7 @@ Note: Also fully heals all pets at time of install
 |-
 |[[File:Graft critical expanse.png|64px]]<br>'''Critical Expanse'''
 |data-sort-value="4"|{{Rarity|Unique}}
-|At the start of each turn, draw cards until your hand is full.
+|At the start of each turn, draw one extra card for each card in your hand at the end of last turn.
 |colspan=2|Unupgradable
 |-
 |[[File:Graft dynamic reset.png|64px]]<br>'''Dynamic Reset'''

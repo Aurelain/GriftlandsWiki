@@ -95,6 +95,8 @@ Sal: Huh. Nice.
 
 Sal: Phew! Invigorated is right!
 
+Sal's max health is increased by 4.
+
 
 
 '''*Pick the swirly purple Vial*'''

@@ -7,7 +7,8 @@
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Visionary Cynotrainer
-|upgrade2 = Focused Cynotrainer}}
+|upgrade2 = Focused Cynotrainer
+}}
 {{Quote|Cybernetics and neuron enhancements give people an extra edge in battle. The rich ones anyways.}}
 '''Cynotrainer''' is a 1-cost Rare '''Maneuver''' card for [[Sal]]. It says "Discard a card. Double the damage on a random card in your hand this turn."
 

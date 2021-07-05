@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Sticky
+  |body=<center>This card is not discarded at the end of your turn.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

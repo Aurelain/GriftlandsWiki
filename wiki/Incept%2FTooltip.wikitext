@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Incept
+  |body=<center>This effect is added to the opponent's arguments.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

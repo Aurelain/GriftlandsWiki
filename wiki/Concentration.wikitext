@@ -1,0 +1,4 @@
+{{Stub}}
+'''Concentration''' is one of the card key words. It says "Increases minimum damage of all attacks by 1. Halve your '''Concentration''' when you take enemy damage."
+
+[[Category:Keywords]]

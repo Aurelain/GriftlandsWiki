@@ -1,0 +1,4 @@
+{{Stub}}
+'''Bravado''' is one of the card key words. It says "This card deals bonus damage equal to the number of Hostility cards played in a row this turn."
+
+[[Category:Keywords]]

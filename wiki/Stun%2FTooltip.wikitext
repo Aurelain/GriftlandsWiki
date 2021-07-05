@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Stun
+  |body=<center>Can't act this turn. Remove stun at the end of the turn. This condition does not stack.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

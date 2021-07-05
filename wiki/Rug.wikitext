@@ -6,7 +6,7 @@ Rug wanders around the Griftlands, looking for patrons willing to try out his cu
 !Effect
 |-
 |Mud jumper muffins
-|
+|Gain 5 resolve immediately.
 |-
 |Heshbladder au vin
 |Lose 10 HP.

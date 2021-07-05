@@ -1,0 +1,26 @@
+{{Card
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Renown]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Networked
+|upgrade2 = Visionary Networked}}
+
+{{Quote|People are looking at your profile!}}
+
+'''Networked''' is a 1-cost Uncommon '''Manipulate''' card for [[Smith]]. It has the effect: "Gain 1 [[Renown]] for every card in your hand".
+
+==Upgrades==
+After accruing 9 experience '''Networked''' can be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Boosted Networked.png|150px]]
+|[[File: Visionary Networked.png|150px]]
+|-
+!Gain 1 [[Renown]] for every card in your hand +2
+!Draw a card
+|}

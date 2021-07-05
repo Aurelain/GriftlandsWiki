@@ -1,6 +1,6 @@
 '''Heroes''' are the playable characters in Griftlands. There are three heroes total planned for release. Each Hero has their own unique story, map, quests, play-style, and decks. 
 
-[[File:Char1.png|link=|left|250px|caption]]
+[[File:Char1.png|link=|left|250px|^(from left to right, the three heroes) Smith, Sal Fallon, Rook.]]
 
 
 

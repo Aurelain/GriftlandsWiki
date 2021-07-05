@@ -1,0 +1,42 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Renowned]], [[Renown]]
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Rooted Brag
+|upgrade2 = Tall Brag
+|upgrade3 = Lucid Brag
+|upgrade4 = Brag of Clarity
+|upgrade5 = Famous Brag
+|upgrade6 = Visionary Brag}}
+
+{{Quote|I don't mean to come off too cocky but...}}
+
+'''Brag''' is a 1-cost Basic '''Diplomacy''' card for [[Smith]]. It deals 1-3 base damage. It has the effect: "[[Renowned]] 1: increase the maximum damage of this card by 2".
+As a base card '''Brag''' is always part of the available card pool for Smith.
+
+==Upgrades==
+Like every basic card, '''Brag''' has more than two upgrades, from which it randomly picks 2 you can decide from.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Rooted Brag.png|150px]]
+|[[File: Tall Brag.png|150px]]
+|[[File: Lucid Brag.png|150px]]
+|[[File: Brag of Clarity.png|150px]]
+|-
+!Deal 3-3 base damage
+!Deal 1-5 base damage
+!Deal 5 base damage; [[Expend]]
+!Deal 7 base damage; [[Destroy]]
+|-
+|[[File: Famous Brag.png|150px]]
+|[[File: Visionary Brag.png|150px]]
+|-
+!Gain 1 [[Renown]]
+!Draw a card
+|}

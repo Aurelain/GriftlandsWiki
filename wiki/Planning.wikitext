@@ -5,9 +5,21 @@
 |cardtype = Manipulate
 |keywords = None
 |upgradeable = Yes
-|expreq = 8
+|expreq = 10
 |upgrade1 = Boosted Planning
 |upgrade2 = Improvised Planning}}
+
 {{Quote|Alright, make some room.}}
 
-'''Planning''' is a rare Manipulate card for [[Sal]], it costs 0 Actions and has the effect: "Draw 1 card. Choose a card from your hand to place on top of your draw pile."
+'''Planning''' is a 0-cost Rare '''Manipulate''' card for [[Sal]]. It has the effect: "Draw 1 card. Choose a card from your hand to place on top of your draw pile."
+
+==Upgrades==
+After accruing 10 experience '''Planning''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Boosted Planning.png|150px]]
+|[[File: Improvised Planning.png|150px]]
+|-
+!Draw 2 cards
+![[Improvise]] 1 card from your draw pile
+|}

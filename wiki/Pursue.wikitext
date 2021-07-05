@@ -1,0 +1,28 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Improvise]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Pursue
+|upgrade2 = Seeking Pursue}}
+
+{{Quote|I'm gonna get you.}}
+
+'''Pursue''' is a 1-cost Common '''Manipulate''' card for [[Smith]]. It has the effect: "[[Improvise]] a card from your discard pile and increase its damage by 2 this negotiation".
+
+==Upgrades==
+After accruing 9 experience '''Pursue''' can be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Boosted Pursue.png|150px]]
+|[[File: Seeking Pursue.png|150px]]
+|-
+!increase its damage by 3
+![[Improvise+]] a card
+|}

@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Renowned
+  |body=<center>This card has additional effect if you have enough [[Renown]].
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

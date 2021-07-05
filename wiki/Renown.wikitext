@@ -1,0 +1,10 @@
+'''Renown''' is a Negotiation [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "'''Renown''': When destroyed, deal 1 damage to your core argument per stack of '''Renown'''. 
+
+At the end of your turn, this deals 1 damage for every two stacks to a random opponent argument. At the start of your turn, '''Renown''' is reduced by 1 stack.
+
+'''Renown''' is an argument with 3 resolve.".
+
+[[Category:Keywords]]
