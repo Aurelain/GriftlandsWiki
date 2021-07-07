@@ -13,6 +13,11 @@ const MURKOT_EXCEPTION = 'HESH_OUTPOST_LUMINARI';
 const SKINS = 'scripts/content/characters/character_skins.lua';
 const CHARACTERS_DIR = 'scripts/content/characters/';
 
+const REDIRECTS = {
+    Fellemo: 'Lellyn Fellemo',
+    Kalandra: 'Prindo Kalandra',
+};
+
 // =====================================================================================================================
 //  P U B L I C
 // =====================================================================================================================
@@ -243,7 +248,11 @@ const getBosses = (allDefs, allSkins) => {
  *
  */
 const getAgent = (def, skin) => {
-    return {...def, ...skin};
+    const output = {...def, ...skin};
+    if (output.name in REDIRECTS) {
+        output.name = REDIRECTS[output.name];
+    }
+    return output;
 };
 
 /**
