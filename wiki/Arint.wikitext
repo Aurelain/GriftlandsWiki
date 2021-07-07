@@ -1,11 +1,10 @@
 {{stub}}
 
 {{Character
-| name     = Arint
-| image    = Arint Mugshot.png
-| race     = Shroke
+| race = Shroke
 | location = Havaria - Grout Bog
-| faction  = Spark Barons
+| faction = spark barons
+| title = Lieutenant
 }}
 
 {{quote|I will be watching you, Grifter. I suggest you watch yourself.|Arint}}

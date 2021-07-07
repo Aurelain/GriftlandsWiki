@@ -1,10 +1,8 @@
 {{Character
-| name     = Alo
-| image    = Alo.png
-| race     = Human
+| race = Human
 | location = Havaria - Murder Bay
-| faction  = Admiralty 
-| faction2 = Guard
+| faction = admiralty
+| title = Guard
 }}
 
 {{quote|It's clear at a glance that Alo dislikes her job. Maybe making it a little more pleasant might earn you some traction.|Alo's Compendium Description}}'''Alo''' is a character in {{Gamename}} and an [[Admiralty]] Guard.

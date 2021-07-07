@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Ban
-| image    = Ban.jpg
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Jakes - Smuggler
-| ID       =
-}}{{quote|Ban can knock some sense into you— or out. Your choice.|Ban's Compendium Description}}'''Ban''' is a character in {{Gamename}} and a [[Jakes]] Smuggler.
+| faction = jakes
+| title = Smuggler
+}}
+
+{{quote|Ban can knock some sense into you— or out. Your choice.|Ban's Compendium Description}}'''Ban''' is a character in {{Gamename}} and a [[Jakes]] Smuggler.
 
 == Death Loot ==
 If '''Ban''' is killed in combat, she will drop a [[Triage]].

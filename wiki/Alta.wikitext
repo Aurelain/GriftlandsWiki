@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Alta
-| image    = Alta.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Cult of Hesh - Priest
-| ID       =
-}}{{quote|Alta's the type who thinks the sky itself is proof of her faith — 'cause it hasn't fallen down, yet.|Alta's Compendium Description}}'''Alta''' is a character in {{Gamename}} and a [[Cult of Hesh]] Priest.
+| faction = cult of hesh
+| title = Priest
+}}
+
+{{quote|Alta's the type who thinks the sky itself is proof of her faith — 'cause it hasn't fallen down, yet.|Alta's Compendium Description}}'''Alta''' is a character in {{Gamename}} and a [[Cult of Hesh]] Priest.
 
 
 She is one of the priests who give the mission [[Friend or Fanatic]], where [[Sal]] will be offered a reward to save a Cult of Hesh [[Luminari]] from [[Spree]] bandits. If completed, she will receive 65 shills.

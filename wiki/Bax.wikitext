@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Bax
-| image    = Bax.jpg
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Spree - Thug
-| ID       =
-}}{{quote|Bax is dangerously predictable: he'll sell you out for a hit of slurry, then break your heart when he feels bad about it.|Bax's Compendium Description}}'''Bax''' is a character in {{Gamename}} and a [[Spree]] Thug.
+| faction = spree
+| title = Thug
+}}
+
+{{quote|Bax is dangerously predictable: he'll sell you out for a hit of slurry, then break your heart when he feels bad about it.|Bax's Compendium Description}}'''Bax''' is a character in {{Gamename}} and a [[Spree]] Thug.
 
 == Death Loot ==
 If '''Bax''' is killed in combat, he will drop a [[Makeshift Dagger]].

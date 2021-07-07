@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Ash
-| image    = Ash.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Spree - Raider
-| ID       =
-}}{{quote|It's hard work being a bandit — even harder when you're hooked on the slurry. But Ash gets the job done.|Ash's Compendium Description}}
+| faction = spree
+| title = Raider
+}}
+
+{{quote|It's hard work being a bandit — even harder when you're hooked on the slurry. But Ash gets the job done.|Ash's Compendium Description}}
 
 '''Ash''' is a character in {{Gamename}} and a [[Spree]] Raider.
 

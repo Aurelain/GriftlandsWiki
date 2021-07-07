@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Bina
-| image    = Bina.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Jakes - Smuggler
-| ID       =
-}}{{quote|Bina comes from a long line of warriors, known for getting the job done.|Bina's Compendium Description}}'''Bina''' is a character in {{Gamename}} and a [[Jakes]] Smuggler.
+| faction = jakes
+| title = Smuggler
+}}
+
+{{quote|Bina comes from a long line of warriors, known for getting the job done.|Bina's Compendium Description}}'''Bina''' is a character in {{Gamename}} and a [[Jakes]] Smuggler.
 
 == Death Loot ==
 If '''Bina''' is killed in combat, she will drop a [[Triage]].

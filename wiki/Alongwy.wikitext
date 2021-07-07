@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Alongwy
-| image    = Alongwy.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Jakes - Smuggler
-| ID       =
-}}{{quote|You have a feeling you once lost a job to this guy, but that might've been a different Alongwy. You hadn't heard he'd changed work.|Alongwy's Compendium Description}}'''Alongwy''' is a character in {{Gamename}} and a [[Jakes]] Smuggler. He also works part-time as a bounty hunter.
+| faction = jakes
+| title = Smuggler
+}}
+
+{{quote|You have a feeling you once lost a job to this guy, but that might've been a different Alongwy. You hadn't heard he'd changed work.|Alongwy's Compendium Description}}'''Alongwy''' is a character in {{Gamename}} and a [[Jakes]] Smuggler. He also works part-time as a bounty hunter.
 
 
 In a random event, [[Sal]] can run into Alongwy in the wilderness trying to arrest a [[Spree]] member with a warrant. She can either agree to work with Alongwy and capture the member, or you can help the Spree member and fight Alongwy.

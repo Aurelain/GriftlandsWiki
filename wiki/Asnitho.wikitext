@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Asnitho
-| image    = Asnitho.png
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Admiralty - Patrol Leader
-| ID       =
-}}{{quote|Asnitho likes to spend her time off walking in nature. And she's got the yote scars to prove it.|Asnitho's Compendium Description}}
+| faction = admiralty
+| title = Patrol Leader
+}}
+
+{{quote|Asnitho likes to spend her time off walking in nature. And she's got the yote scars to prove it.|Asnitho's Compendium Description}}
 
 '''Asnitho''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
 
