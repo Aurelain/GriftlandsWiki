@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Brill
-| image    = Brill.jpg
-| race     = Jarackle
+{{Character
+| race = Jarackle
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Civilian - Laborer
-| ID       =
-}}{{quote|You wouldn't want Brill's job. But then, neither does Brill.|Brill's Compendium Description}}'''Brill''' is a character in {{Gamename}} and a [[Civilian]] Laborer.
+| faction = civilian
+| title = Laborer
+}}
+
+{{quote|You wouldn't want Brill's job. But then, neither does Brill.|Brill's Compendium Description}}'''Brill''' is a character in {{Gamename}} and a [[Civilian]] Laborer.
 
 == Death Loot ==
 If '''Brill''' is killed in combat, he will drop an [[Anchor]]'''.'''

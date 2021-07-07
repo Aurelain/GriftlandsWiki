@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Gode
-| image    = Gode portrait.png
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Civilian- Foreman
-| ID       =
-}}{{quote|Like most foremen, Gode prefers folks who can get the job done.|Gode's Compendium Description}}'''Gode''' is a character in {{Gamename}} and a [[Civilian]] Foreman.
+| faction = civilian
+| title = Foreman
+}}
+
+{{quote|Like most foremen, Gode prefers folks who can get the job done.|Gode's Compendium Description}}'''Gode''' is a character in {{Gamename}} and a [[Civilian]] Foreman.
 
 == Death Loot ==
 If '''Gode''' is killed in combat, he will drop an [[Adrenaline Shot]].

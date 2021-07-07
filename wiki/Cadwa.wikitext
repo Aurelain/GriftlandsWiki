@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Cadwa
-| image    = Cadwa portrait.png
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Admiralty - Clerk
-| ID       =
-}}{{quote|The name 'Cadwa' comes from an old folk story about outsmarting a cruel foreman, but as a bureaucrat this Cadwa definitely has the upper hand.|Cadwa's Compendium Description}}
+| faction = admiralty
+| title = Clerk
+}}
+
+{{quote|The name 'Cadwa' comes from an old folk story about outsmarting a cruel foreman, but as a bureaucrat this Cadwa definitely has the upper hand.|Cadwa's Compendium Description}}
 
 '''Cadwa''' is a character in {{Gamename}} and a [[Admiralty]] Clerk.
 

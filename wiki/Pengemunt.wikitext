@@ -1,14 +1,10 @@
 {{stub}}
 
-{{Infobox
-| name     = Pengemunt
-| image    = Pengemunt.png
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Grout Bog - The Last Stand
-| source   = 
-| reward   = 
-| related  = Admiralty - Retired
-| ID       =
+| faction = admiralty
+| title = Coin Trader
 }}
 
 {{quote|Looking for coins? I've got some good ones for trade.|Pengemunt}}

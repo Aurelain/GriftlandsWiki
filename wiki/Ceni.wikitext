@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Ceni
-| image    = Ceni portrait.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Admiralty - Goon
-| ID       =
-}}{{quote|Ceni's squint suggests that he might be a slow reader. Best not to ask him about it, though.|Ceni's Compendium Description}}'''Ceni''' is a character in {{Gamename}} and an [[Admiralty]] Goon.
+| faction = admiralty
+| title = Goon
+}}
+
+{{quote|Ceni's squint suggests that he might be a slow reader. Best not to ask him about it, though.|Ceni's Compendium Description}}'''Ceni''' is a character in {{Gamename}} and an [[Admiralty]] Goon.
 
 == Death Loot ==
 If '''Ceni''' is killed in combat, he will drop [[Admiralty Intel]].

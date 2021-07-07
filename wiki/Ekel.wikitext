@@ -1,10 +1,8 @@
 {{Character
-| name     = Ekel
-| image    = Ekel portrait.png
-| race     = Shroke
+| race = Shroke
 | location = Havaria - Murder Bay
-| faction  = Civilian
-| faction2 = Laborer
+| faction = civilian
+| title = Laborer
 }}
 
 {{quote|Ekel's made a reputation of keeping her chin up and taking the blows that come her way. Not sure that's a reputation anyone should want, really.|Ekel's Compendium Description}}'''Ekel''' is a character in {{Gamename}} and a [[Civilian]] Laborer.

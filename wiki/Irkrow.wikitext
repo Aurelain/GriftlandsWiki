@@ -1,4 +1,12 @@
 {{stub}}
+
+{{Character
+| race = Jarackle
+| location = 
+| faction = civilian
+| title = Bartender
+}}
+
 '''Irkrow''' is a character in [[{{Gamename}}]] and players can find him in [[The Slurping Snail]], where he is a bartender. 
 
 

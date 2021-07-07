@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Feporo
-| image    = Feporo portrait.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Admiralty - Guard
-| ID       =
-}}{{quote|Sometimes when you satre into the void, Feporo stares back.|Feporo's Compendium Description}}'''Feporo''' is a character in {{Gamename}} and a [[Admiralty]] Guard.
+| faction = admiralty
+| title = Guard
+}}
+
+{{quote|Sometimes when you satre into the void, Feporo stares back.|Feporo's Compendium Description}}'''Feporo''' is a character in {{Gamename}} and a [[Admiralty]] Guard.
 
 == Death Loot ==
 If '''Feporo''' is killed in combat, she will drop a [[Admiralty Requisition]].

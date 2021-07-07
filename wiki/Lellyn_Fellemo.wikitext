@@ -1,14 +1,10 @@
 {{stub}}
 
-{{Infobox
-| name     = Lellyn Fellemo
-| image    = Fellemo Mugshot.png
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Grout Bog
-| source   = 
-| reward   = 
-| related  = Spark Barons
-| ID       =
+| faction = spark barons
+| title = Regional Manager
 }}
 
 {{quote|Rook, you old Scoundrel! Figured you'd be able to move faster than that, even with that bum leg of yours. Let's get you to work, so you can see what I'm up against.|Fellemo}}

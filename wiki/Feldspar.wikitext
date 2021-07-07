@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Feldspar
-| image    = Feldspar portrait.png
-| race     = Shroke
+{{Character
+| race = Shroke
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Admiralty - Patrol Leader
-| ID       =
-}}{{quote|Feldspar has a reputation for fixing difficult problems, when he's not making problems, more difficult first.|Feldspar's Compendium Description}}'''Feldspar''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
+| faction = admiralty
+| title = Patrol Leader
+}}
+
+{{quote|Feldspar has a reputation for fixing difficult problems, when he's not making problems, more difficult first.|Feldspar's Compendium Description}}'''Feldspar''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
 
 == Death Loot ==
 If '''Feldspar''' is killed in combat, he will drop a [[Spear Head]].

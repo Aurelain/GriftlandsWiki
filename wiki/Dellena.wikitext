@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Dellena
-| image    = Dellena.jpg
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Cult of Hesh - Priest
-| ID       =
-}}{{quote|Having your own parish is the closest a common Deltrean can get to nobility. The rules are different in Havaria, but maybe nobody told Dellena that.|Dellena's Compendium Description}}'''Dellena''' is a character in {{Gamename}} and a [[Cult of Hesh]] Priest.
+| faction = cult of hesh
+| title = Priest
+}}
+
+{{quote|Having your own parish is the closest a common Deltrean can get to nobility. The rules are different in Havaria, but maybe nobody told Dellena that.|Dellena's Compendium Description}}'''Dellena''' is a character in {{Gamename}} and a [[Cult of Hesh]] Priest.
 
 == Death Loot ==
 If '''Dellena''' is killed in combat, he will drop a [[Heshian Amulet]].

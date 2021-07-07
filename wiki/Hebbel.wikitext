@@ -1,14 +1,10 @@
 {{stub}}
 
-{{Infobox
-| name     = Hebbel
-| image    = Hebbel Mugshot.png
-| race     = Shroke
+{{Character
+| race = Shroke
 | location = Grout Bog
-| source   = 
-| reward   = 
-| related  = Spree
-| ID       =
+| faction = spree
+| title = Bartender
 }}
 
 '''Hebbel''' is the proprietor of [[The Last Stand]] in [[Grout Bog]]. He prides himself on his family business and its independence from the '''Spark Barons'''. Hebbel acts as an informant for special clientele, passing along messages and delivering packages to clients.

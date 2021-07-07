@@ -1,14 +1,10 @@
 {{stub}}
 
-{{Infobox
-| name     = Prindo Kalandra
-| image    = Kalandra Mugshot.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Grout Bog
-| source   = 
-| reward   = 
-| related  = The Rise
-| ID       =
+| faction = rise
+| title = Organizer
 }}
 
 {{quote|My workers like me. That's reason enough for the Barons to cast me as a villain.|Kalandra}}

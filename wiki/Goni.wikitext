@@ -1,6 +1,12 @@
 {{stub}}
+
 {{Character
-|faction = Spree}}
+| race = Shroke
+| location = 
+| faction = spree
+| title = Thug
+}}
+
 '''Goni''' is a character in {{Gamename}}. He is one of the [[Spree]] and tries to track down [[Nand]].
 
 [[Category:Spree]]

@@ -1,12 +1,8 @@
-{{Infobox
-| name     = Smith
-| image    = Smith Mugshot.png
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Unknown
-| source   = 
-| reward   = 
-| related  = 
-| ID       =
+| faction = grifters
+| title = Walking Disaster
 }}
 
 <!--{{Quote|Insert flavor text|Smith}}-->

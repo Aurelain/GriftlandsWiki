@@ -1,10 +1,14 @@
 {{stub}}
-{{Quote|Jeol's blank gaze is a little unnerving, but you've cracked harder heads.|Compendium}}
 
 {{Character
-|race = Human
-|faction = spark barons
-|title = Drone Master}}
+| race = Human
+| location = 
+| faction = spark barons
+| title = Drone Master
+}}
+
+{{Quote|Jeol's blank gaze is a little unnerving, but you've cracked harder heads.|Compendium}}
+
 '''Jeol''' is a Human Spark Baron Drone Master. He is one of three possible bosses that show up on [[Sal|Sal's]] first day, fought in [[The Grog n' Dog]].
 
 ==Relationship==

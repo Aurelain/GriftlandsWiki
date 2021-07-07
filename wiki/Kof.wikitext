@@ -1,16 +1,10 @@
 {{stub}}
-{{Infobox
-| name     = Kof
-| image    = Kof.jpg
-| race     = Jakes
+
+{{Character
+| race = Shroke
 | location = The Gro n' Dog
-| source   = 
-| reward   = 
-| related  = 
-| ID       =
-| Boon     = First Aid
-| Bane     = 
-| Death Loot = Triage
+| faction = jakes
+| title = Smuggler
 }}
 
 <!-- {{quote|.|Kof}} -->

@@ -1,8 +1,9 @@
-
 {{Character
-| race     = Human
 | location = Grout Bog
-| faction2  = Unknown - Formerly Admiralty}}
+| faction = grifters
+| faction2 = Unknown - Formerly Admiralty
+| title = Operative
+}}
 
 {{Quote|Well, at least ''I'm'' honest. Some of the time. As far as you know.|Rook}}
 

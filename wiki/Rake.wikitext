@@ -1,1 +1,8 @@
+{{Character
+| race = Human
+| location = 
+| faction = jakes
+| title = Smuggler
+}}
+
 cute

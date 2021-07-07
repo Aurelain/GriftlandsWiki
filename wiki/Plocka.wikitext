@@ -1,7 +1,10 @@
-{{stub}}{{Character
-|race = Shroke
-|faction = Spark Barons
-|title = Professional}}
+{{stub}}
+
+{{Character
+| race = Shroke
+| location = 
+| title = Professional
+}}
 
 '''Plocka 'The Swab'''' is a [[Shroke]] [[Spark Barons|Spark Baron]] Professional. She is notable as a graft merchant, selling up to 3 (Common, Uncommon, Rare) at scaling prices. She is a unique character because of the fact that she appears as the graft vendor in all three characters' stories.
 

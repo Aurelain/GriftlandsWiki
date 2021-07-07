@@ -1,14 +1,10 @@
 {{stub}}
 
-{{Infobox
-| name     = Oolo
-| image    = Oolo Mugshot.png
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Deltrean Admiralty 
-| ID       =
+| faction = admiralty
+| title = Intelligence Officer
 }}
 
 {{Quote|The Admiralty gets its cut or you get cut, understand? Now scoot. I have schemes to incubate, plots to hatch.|Oolo}}

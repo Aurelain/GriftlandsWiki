@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Fallopallo
-| image    = Fallopallo.jpg
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Spark Barons - Taskmaster
-| ID       =
-}}{{quote|Fallopallo's brood is likely disappointed in his choice of career, considering Fallopallo was the name of a famous Heshian priest.|Fallopallo's Compendium Description}}'''Fallopallo''' is a character in {{Gamename}} and a [[Spark Barons]] Taskmaster.
+| faction = spark barons
+| title = Taskmaster
+}}
+
+{{quote|Fallopallo's brood is likely disappointed in his choice of career, considering Fallopallo was the name of a famous Heshian priest.|Fallopallo's Compendium Description}}'''Fallopallo''' is a character in {{Gamename}} and a [[Spark Barons]] Taskmaster.
 
 == Death Loot ==
 If '''Fallopallo''' is killed in combat, he will drop a [[Spark Cannon]].

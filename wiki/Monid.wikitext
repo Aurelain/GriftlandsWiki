@@ -1,4 +1,12 @@
 {{stub}}
+
+{{Character
+| race = Kra'deshi
+| location = 
+| faction = admiralty
+| title = Guard
+}}
+
 '''Monid''' is a character in [[{{Gamename}}]]. Players can find him in [[The Slurping Snail]]. He is an admirality guard.
 
 [[Category:Characters]]

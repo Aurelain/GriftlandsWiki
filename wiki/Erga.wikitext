@@ -1,13 +1,11 @@
-{{Infobox
-| name     = Erga
-| image    = Erga portrait.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Jakes - Lifter
-| ID       =
-}}'''Erga''' is a character in {{Gamename}} and a [[Jakes]] Lifter.
+| faction = jakes
+| title = Lifter
+}}
+
+'''Erga''' is a character in {{Gamename}} and a [[Jakes]] Lifter.
 
 == Death Loot ==
 If '''Erga''' is killed in combat, he will drop a [[Lifter Claw]].

@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Fyrdinan
-| image    = Fyrdinan portrait.png
-| race     = Shroke
+{{Character
+| race = Shroke
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Admiralty - Clerk
-| ID       =
-}}{{quote|Shroke aren't usually drawn to bureaucracy but then, who is?|Fyrdinan's Compendium Description}}'''Fyridnan''' is a character in {{Gamename}} and a [[Admiralty]] Clerk.
+| faction = admiralty
+| title = Clerk
+}}
+
+{{quote|Shroke aren't usually drawn to bureaucracy but then, who is?|Fyrdinan's Compendium Description}}'''Fyridnan''' is a character in {{Gamename}} and a [[Admiralty]] Clerk.
 
 == Death Loot ==
 If '''Fyrdinan''' is killed in combat, she will drop a [[Letter Opener]].

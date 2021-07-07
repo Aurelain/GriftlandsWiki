@@ -1,5 +1,12 @@
 {{stub}}
 
+{{Character
+| race = Human
+| location = 
+| faction = civilian
+| title = Laborer
+}}
+
 '''Veep''' is a [[human]] character in [[Griftlands]]. He is in debt with [[Pluk]]. He plays a role in the quest [[Another Day Older and Deeper in Debt]]. 
 
 [[Category:Characters]]

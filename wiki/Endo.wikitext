@@ -1,13 +1,11 @@
-{{Infobox
-| name     = Endo
-| image    = Endo.jpg
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Cult of Hesh - Priest
-| ID       =
-}}{{quote|Either Endo's got a smudge on his nose, or the call of the divine has turned his gaze within.|Endo's Compendium Description}}'''Endo''' is a character in {{Gamename}} and a [[Cult of Hesh]] Priest.
+| faction = cult of hesh
+| title = Priest
+}}
+
+{{quote|Either Endo's got a smudge on his nose, or the call of the divine has turned his gaze within.|Endo's Compendium Description}}'''Endo''' is a character in {{Gamename}} and a [[Cult of Hesh]] Priest.
 
 == Death Loot ==
 If '''Endo''' is killed in combat, he will drop a [[Heshian Amulet.|Heshian Amulet]].

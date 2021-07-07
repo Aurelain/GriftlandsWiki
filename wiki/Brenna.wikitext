@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Brenna
-| image    = Brenna.png
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Rise - Rebel
-| ID       =
-}}{{quote|Brenna is a true believer in the goals of the Rise, even if the Rise is not always a true believer in the goals of Brenna.|Brenna's Compendium Description}}'''Brenna''' is a character in {{Gamename}} and a [[Rise]] Rebel.
+| faction = rise
+| title = Rebel
+}}
+
+{{quote|Brenna is a true believer in the goals of the Rise, even if the Rise is not always a true believer in the goals of Brenna.|Brenna's Compendium Description}}'''Brenna''' is a character in {{Gamename}} and a [[Rise]] Rebel.
 
 == Death Loot ==
 If '''Brenna''' is killed in combat, she will drop a [[Guerrilla Tactic]].

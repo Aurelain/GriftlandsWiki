@@ -1,14 +1,10 @@
 {{stub}}
 
-{{Infobox
-| name     = Fssh Menewene
-| image    = Fssh Mugshot.png
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Jakes
-| ID       =
+| faction = jakes
+| title = Bartender
 }}
 
 {{quote|Welcome back, Sal. Let's not waste much time, huh? You got work to do, and I got things to help you do it.|Fssh}}

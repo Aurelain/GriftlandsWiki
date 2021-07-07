@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Cambury
-| image    = Cambury.jpg
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Admiralty - Patrol Leader
-| ID       =
-}}{{quote|Cambury has a reputation for eloquence and poise in difficult situations. It'd be fun to see if it holds up.|Cambury's Compendium Description}}'''Cambury''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
+| faction = admiralty
+| title = Patrol Leader
+}}
+
+{{quote|Cambury has a reputation for eloquence and poise in difficult situations. It'd be fun to see if it holds up.|Cambury's Compendium Description}}'''Cambury''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
 
 == Death Loot ==
 If '''Cambury''' is killed in combat, he will drop a [[Spear Head]].

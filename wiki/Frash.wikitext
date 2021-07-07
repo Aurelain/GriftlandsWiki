@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Frash
-| image    = Frash.jpg
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Spark Barons - Taskmaster
-| ID       =
-}}{{quote|Frash is a trickster in kra'deshi myth, known for bringing fire from the stars to lesser lifeforms. Jury's out on whether this Frash is equally patronizing.|Frash's Compendium Description}}'''Frash''' is a character in {{Gamename}} and a [[Spark Barons]] Taskmaster.
+| faction = spark barons
+| title = Taskmaster
+}}
+
+{{quote|Frash is a trickster in kra'deshi myth, known for bringing fire from the stars to lesser lifeforms. Jury's out on whether this Frash is equally patronizing.|Frash's Compendium Description}}'''Frash''' is a character in {{Gamename}} and a [[Spark Barons]] Taskmaster.
 
 == Death Loot ==
 If '''Frash''' is killed in combat, he will drop a [[Spark Cannon]].

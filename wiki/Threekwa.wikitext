@@ -1,13 +1,10 @@
 {{stub}}
 
-{{Infobox
-| name     = Threekwa
-| title    = Hunter
-| image    = Threekwa.jpg
-| race     = Shroke
+{{Character
+| race = Shroke
 | location = Havaria, Grout Bog
-| faction  = Rentorians
-| class    = Hunter
+| faction = rentorians
+| title = Hunter
 }}
 
 {{quote|Besides, look at you. A bum leg. No pension, no friends. Maybe you should ''let'' me put you down.|Threekwa, to Rook}}

@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Del
-| image    = Del.jpg
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Civilian - Foreman
-| ID       =
-}}{{quote|Word is, Del fights for his workers. But nobody's ever really selfless in the griftlands, right?|Del's Compendium Description}}'''Del''' is a character in {{Gamename}} and a [[Civilian]] Foreman.
+| faction = civilian
+| title = Foreman
+}}
+
+{{quote|Word is, Del fights for his workers. But nobody's ever really selfless in the griftlands, right?|Del's Compendium Description}}'''Del''' is a character in {{Gamename}} and a [[Civilian]] Foreman.
 
 == Death Loot ==
 If '''Del''' is killed in combat, he will drop an [[Adrenaline Shot]].

@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Cobb
-| image    = Cobb portrait.png
-| race     = Jarackle
+{{Character
+| race = Jarackle
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Admiralty - Goon
-| ID       =
-}}{{quote|Surviving Admiralty bootcamp requires either the very cunning or the very resilient. It's unclear if Cobb is either of these.|Cobb's Compendium Description}}'''Cobb''' is a character in {{Gamename}} and a [[Admiralty]] Goon.
+| faction = admiralty
+| title = Goon
+}}
+
+{{quote|Surviving Admiralty bootcamp requires either the very cunning or the very resilient. It's unclear if Cobb is either of these.|Cobb's Compendium Description}}'''Cobb''' is a character in {{Gamename}} and a [[Admiralty]] Goon.
 
 == Death Loot ==
 If '''Cobb''' is killed in combat, he will drop [[Admiralty Intel]].

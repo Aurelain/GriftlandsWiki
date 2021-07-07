@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Dauler
-| image    = Dauler portrait.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Spree - Thief
-| ID       =
-}}{{quote|There are plenty of jobs for the adventurous type in Havaria, but it takes a special kind of nerve to cut purses, and Dauler has it in spades.|Dauler's Compendium Description}}'''Dauler''' is a character in {{Gamename}} and a [[Spree]] Thief.
+| faction = spree
+| title = Thief
+}}
+
+{{quote|There are plenty of jobs for the adventurous type in Havaria, but it takes a special kind of nerve to cut purses, and Dauler has it in spades.|Dauler's Compendium Description}}'''Dauler''' is a character in {{Gamename}} and a [[Spree]] Thief.
 
 == Death Loot ==
 If '''Dauler''' is killed in combat, she will drop a [[Makeshift Dagger]].

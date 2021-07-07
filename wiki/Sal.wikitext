@@ -1,9 +1,11 @@
 {{stub}}
+
 {{Character
-| race     = Human
+| race = Human
 | location = Havaria - Murder Bay
-| faction = Grifters
-| faction2  = Independent - Bounty hunter
+| faction = grifters
+| faction2 = Independent - Bounty hunter
+| title = Bounty Hunter
 }}
 
 {{quote|A bounty hunter with a chip on her shoulder and a glint in her eye, Sal escapes a life of servitude to claim the ultimate bounty—and get her revenge.|Sal's Compendium Description}}

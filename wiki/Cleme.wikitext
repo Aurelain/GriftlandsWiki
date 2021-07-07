@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Cleme
-| image    = Cleme.jpg
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Rise - Pamphleteer
-| ID       =
-}}{{quote|There's a spark of justice in Cleme's eye that makes you wonder what another life might have turned her into.|Cleme's Compendium Description}}
+| faction = rise
+| title = Pamphleteer
+}}
+
+{{quote|There's a spark of justice in Cleme's eye that makes you wonder what another life might have turned her into.|Cleme's Compendium Description}}
 
 '''Cleme''' is a character in {{Gamename}} and a [[Rise]] Pamphleteer
 

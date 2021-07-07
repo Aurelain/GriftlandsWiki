@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Ebbe
-| image    = Ebbe portrait.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Admiralty - Patrol Leader
-| ID       =
-}}{{quote|You've heard Ebbe has a steel gut, a steel toe, and a steely eye. So don't punch him in any of those places.|Ebbe's Compendium Description}}'''Ebbe''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
+| faction = admiralty
+| title = Patrol Leader
+}}
+
+{{quote|You've heard Ebbe has a steel gut, a steel toe, and a steely eye. So don't punch him in any of those places.|Ebbe's Compendium Description}}'''Ebbe''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
 
 == Death Loot ==
 If '''Ebbe''' is killed in combat, he will drop a [[Spear Head]].

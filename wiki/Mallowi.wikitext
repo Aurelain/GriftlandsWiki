@@ -1,4 +1,12 @@
 {{stub}}
+
+{{Character
+| race = Human
+| location = 
+| faction = cult of hesh
+| title = Luminari
+}}
+
 '''Mallowi''' is a [[Cult of Hesh]] [[Luminari]] and character in {{Gamename}}.
 
 [[Category:Characters]]

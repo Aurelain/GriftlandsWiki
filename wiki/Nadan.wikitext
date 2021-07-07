@@ -1,7 +1,12 @@
 {{stub}}
+
 {{Character
-|race = Human
-|faction = Spree}}
+| race = Human
+| location = 
+| faction = spree
+| title = Leader
+}}
+
 {{quote|Another day in the Feud, huh?|Nadan}}
 '''Nadan''' is a character in [[{{Gamename}}]] and [[Spree|the Spree]] leader of Murder Bay. He doesn't talk much, but rumors have it he's less brutish than his reputation suggests.
 

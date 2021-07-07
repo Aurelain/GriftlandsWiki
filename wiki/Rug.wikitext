@@ -1,4 +1,11 @@
- [[File:Rug.png|thumb]]
+{{Character
+| race = Kra'deshi
+| location = 
+| faction = civilian
+| title = Bartender
+}}
+
+[[File:Rug.png|thumb]]
 Rug wanders around the Griftlands, looking for patrons willing to try out his culinary creations.
 {| class="wikitable"
 |+

@@ -1,9 +1,8 @@
 {{Character
-| name     = Frizz
-| image    = Frizz Mugshot.png
-| race     = Jarackle
+| race = Jarackle
 | location = Havaria - Grout Bog
-| faction  = Admiralty
+| faction = admiralty
+| title = Weaponsmith
 }}
 
 {{Quote|You still using those old things?|Frizz}}

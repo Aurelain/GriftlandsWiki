@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Brash
-| image    = Brash.png
-| race     = Human
+{{Character
+| race = Human
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Jakes - Dockhand
-| ID       =
-}}{{quote|Despite her name, Brash is actually pretty level-headed.|Brale's Compendium Description}}'''Brash''' is a character in {{Gamename}} and a [[Jakes]] Dockhand.
+| faction = jakes
+| title = Dockhand
+}}
+
+{{quote|Despite her name, Brash is actually pretty level-headed.|Brale's Compendium Description}}'''Brash''' is a character in {{Gamename}} and a [[Jakes]] Dockhand.
 
 == Death Loot ==
 If '''Brash''' is killed in combat, she will drop a [[Gaff]].

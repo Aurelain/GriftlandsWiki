@@ -1,14 +1,10 @@
 {{stub}}
 
-{{Infobox
-| name     = Flekfis
-| image    = Flekfis Mugshot.png
-| race     = Jarackle
+{{Character
+| race = Jarackle
 | location = Havaria - Grout Bog
-| source   = 
-| reward   = 
-| related  = The Rise
-| ID       =
+| faction = rise
+| title = Lieutenant
 }}
 
 '''Flekfis''' is [[Prindo Kalandra|Prindo Kalandra's]] second in command. Loyal, a staunch warrior, and a hulking presence, '''Flekfis''' has no qualms with throwing his weight around in a fight. However, his old age and size has begun to slow him down and thus is happy to serve as Kalandra's personal bodyguard.

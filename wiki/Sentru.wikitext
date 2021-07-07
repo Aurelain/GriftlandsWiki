@@ -1,4 +1,12 @@
 {{stub}}
+
+{{Character
+| race = Shroke
+| location = 
+| faction = civilian
+| title = Foreman
+}}
+
 '''Sentru''' is a character in [[{{Gamename}}]] and players can find her in [[The Slurping Snail]]. She is a feud citizenry foreman.
 
 [[Category:Characters]]

@@ -1,13 +1,11 @@
-{{Infobox
-| name     = Durno
-| image    = Durno.jpg
-| race     = Shroke
+{{Character
+| race = Shroke
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Spree - Raider
-| ID       =
-}}{{quote|Good bandits are hard to come by. Fortunately, there's Durno.|Durno's Compendium Description.}}
+| faction = spree
+| title = Raider
+}}
+
+{{quote|Good bandits are hard to come by. Fortunately, there's Durno.|Durno's Compendium Description.}}
 
 '''Durno''' is a character in {{Gamename}} and a [[Spree]] Raider.
 

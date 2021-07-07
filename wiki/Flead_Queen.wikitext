@@ -1,3 +1,8 @@
+{{Character
+| location = 
+| title = Brooding Matron
+}}
+
 The '''Flead Queen''' is a boss encountered at the end of day 2 as [[Rook]]. She is an accident on part by the Rise after they brought Flead eggs into the [[Bog]]. The other boss you can fight is Bossbit.
 
 == Backstory ==

@@ -1,15 +1,11 @@
-
-
-{{Infobox
-| name     = Dillawno
-| image    = Dillawno.jpg
-| race     = Kra'deshi
+{{Character
+| race = Kra'deshi
 | location = Havaria - Murder Bay
-| source   = 
-| reward   = 
-| related  = Spark Barons - Taskmaster
-| ID       =
-}}{{quote|Dillawno is the Baron you commission when you want a complicated solution to a simple problem.|Dillawno's Compendium Description}}'''Dillawno''' is a character in {{Gamename}} and a [[Spark Barons]] Taskmaster.
+| faction = spark barons
+| title = Taskmaster
+}}
+
+{{quote|Dillawno is the Baron you commission when you want a complicated solution to a simple problem.|Dillawno's Compendium Description}}'''Dillawno''' is a character in {{Gamename}} and a [[Spark Barons]] Taskmaster.
 
 == Death Loot ==
 If '''Dillawno''' is killed in combat, she will drop a [[Spark Cannon]].

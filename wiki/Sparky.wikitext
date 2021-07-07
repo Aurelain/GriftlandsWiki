@@ -1,8 +1,12 @@
 {{stub}}
+
 {{Character
-|race = 
-|faction = 
-|title = }}
+| race = Jarackle
+| location = 
+| faction = spark barons
+| title = Boss
+}}
+
 '''Sparky''' is one of the boss that's fightable on [[Sal]] campaign on day 1, he have some learnable pattern and can charge his weapon for massive amount of damage.
 
 ==Relationship==

@@ -1,8 +1,11 @@
 {{stub}}
+
 {{Character
-|race = Human
-|faction = Admiralty
-|title = Clerk}}
+| race = Human
+| location = 
+| faction = admiralty
+| title = Clerk
+}}
 
 '''Yunni''' is a character in [[{{Gamename}}]]. She appears in quest [[Another Day Older and Deeper in Debt]]. 
 
