@@ -1,0 +1,29 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Threshold]], [[Moxie]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Tall Hold 'em
+|upgrade2 = Enhanced Hold 'em
+}}
+
+{{Quote|Know when to walk away.}}
+
+'''Hold 'em''' is a 1-cost Uncommon '''Attack''' card for [[Smith]]. It deals 2-4 base damage. It has the effect: "[[Threshold]] 4: Increase your [[Moxie]] by 4".
+
+==Upgrades==
+After accruing 9 experience '''Hold 'em''' is able to be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Tall Hold 'em.png|150px]]
+|[[File: Enhanced Hold 'em.png|150px]]
+|-
+!Deal 2-6 base damage
+![[Threshold]] 4: Increase your [[Moxie]] by 6
+|}
