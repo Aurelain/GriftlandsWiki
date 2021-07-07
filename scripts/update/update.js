@@ -1,3 +1,4 @@
+const fs = require('fs');
 const AdmZip = require('adm-zip');
 
 const attemptSelfRun = require('../utils/attemptSelfRun');
@@ -6,6 +7,7 @@ const getFactions = require('./getFactions');
 const guard = require('../utils/guard');
 const prepareCharacters = require('./prepareCharacters');
 const inspectCharacters = require('./inspectCharacters');
+const {STORAGE} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -30,12 +32,22 @@ const update = async () => {
     if (!(await guard(charactersStatus, true))) {
         return;
     }
-    console.log('TODO');
+    writeCharacters(prepared);
 };
 
 // =====================================================================================================================
 //  P R I V A T E
 // =====================================================================================================================
+/**
+ *
+ */
+const writeCharacters = (prepared) => {
+    for (const filePath in prepared) {
+        const {content} = prepared[filePath];
+        const fullPath = STORAGE + '/' + filePath;
+        fs.writeFileSync(fullPath, content);
+    }
+};
 
 // =====================================================================================================================
 //  E X P O R T

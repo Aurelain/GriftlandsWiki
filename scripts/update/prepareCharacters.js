@@ -41,7 +41,7 @@ const prepareCharacters = ({people, bosses}, factions) => {
  *
  */
 const updateInfobox = (content, character, factions) => {
-    const {name, species, faction_id, title} = character;
+    const {species, faction_id, title} = character;
 
     const hasStub = content.startsWith('{{stub}}') || !content;
     content = content.replace(/^{{stub}}\s*/, ''); // remove starting stub, as we'll add it later
@@ -51,20 +51,34 @@ const updateInfobox = (content, character, factions) => {
     content = content.replace(/{{Character[\s\S]*?}}\s*/, ''); // remove Character, as we'll add it later
     content = content.replace(/{{Infobox[\s\S]*?}}\s*/, ''); // remove Infobox, as we'll add it later
 
+    content = content.replace(/^\s*/, ''); // trim start
+
     const race = species || '';
     let infobox = '';
     infobox += '{{Character\n';
-    infobox += `| name     = ${name}\n`;
-    infobox += `| image    = ${name}.png\n`;
-    infobox += `| race     = ${race.charAt(0) + race.substr(1).toLowerCase()}\n`;
+
+    // infobox += `| name     = ${name}\n`;
+
+    // infobox += `| image    = ${name}.png\n`;
+
+    infobox += `| race = ${race.charAt(0) + race.substr(1).toLowerCase()}\n`;
+
     infobox += `| location = ${location}\n`;
-    infobox += `| faction  = ${factions[faction_id]}\n`;
-    infobox += `| faction2 = ${faction2}\n`;
-    infobox += `| title    = ${title}\n`;
+
+    infobox += `| faction = ${factions[faction_id]}\n`;
+
+    if (faction2 && faction2 !== title) {
+        infobox += `| faction2 = ${faction2}\n`;
+    }
+
+    if (title) {
+        infobox += `| title = ${title}\n`;
+    }
+
     infobox += `}}\n`;
 
     const stubPrefix = hasStub ? '{{stub}}\n\n' : '';
-    content = stubPrefix + '\n' + infobox + '\n' + content;
+    content = stubPrefix + infobox + '\n' + content;
 
     // if (name === 'Threekwa') {
     //     console.log('character: ' + JSON.stringify(character, null, 4));
