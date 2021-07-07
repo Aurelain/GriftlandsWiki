@@ -1,0 +1,8 @@
+{{stub}}
+
+{{Character
+| race = Mech
+| location = 
+| faction = civilian
+| title = Party Machine
+}}

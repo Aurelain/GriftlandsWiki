@@ -1,0 +1,7 @@
+{{stub}}
+
+{{Character
+| race = Mech
+| location = 
+| title = Automech
+}}

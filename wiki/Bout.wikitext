@@ -1,0 +1,7 @@
+{{stub}}
+
+{{Character
+| race = Human
+| location = 
+| title = Promoted Luminitiate
+}}

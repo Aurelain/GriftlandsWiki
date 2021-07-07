@@ -1,0 +1,8 @@
+{{stub}}
+
+{{Character
+| race = Jarackle
+| location = 
+| faction = admiralty
+| title = Promoted Goon
+}}

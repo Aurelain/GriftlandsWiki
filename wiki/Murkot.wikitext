@@ -1,0 +1,7 @@
+{{stub}}
+
+{{Character
+| location = 
+| faction = cult of hesh
+| title = Luminari
+}}

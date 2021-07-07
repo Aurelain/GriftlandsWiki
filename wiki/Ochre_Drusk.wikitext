@@ -1,0 +1,6 @@
+{{stub}}
+
+{{Character
+| location = 
+| title = Shambling Conglomeration
+}}

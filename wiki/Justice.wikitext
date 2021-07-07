@@ -1,0 +1,8 @@
+{{stub}}
+
+{{Character
+| race = Human
+| location = 
+| faction = spree
+| title = Captain
+}}

@@ -1,0 +1,8 @@
+{{stub}}
+
+{{Character
+| race = Shroke
+| location = 
+| faction = jakes
+| title = Protégé
+}}

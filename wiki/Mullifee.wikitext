@@ -1,0 +1,8 @@
+{{stub}}
+
+{{Character
+| race = Kra'deshi
+| location = 
+| faction = admiralty
+| title = Guard Captain
+}}
