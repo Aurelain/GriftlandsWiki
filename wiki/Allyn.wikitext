@@ -1,8 +1,10 @@
 {{Character
-|race = Shroke
-|location = Havaria - Murder Bay
-|faction = Civilian
-|title = Wealthy Merchant}}
+| race = Shroke
+| location = Havaria - Murder Bay
+| faction = civilian
+| title = Wealthy Merchant
+}}
+
 {{quote|Allyn's prices are fair, even when the skies aren't.|Allyn's Compendium Description}}
 '''Allyn''' is a character in {{Gamename}} and a [[Civilian]] Wealthy Merchant.
 __TOC__
