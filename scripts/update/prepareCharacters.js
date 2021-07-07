@@ -61,7 +61,7 @@ const updateInfobox = (content, character, factions) => {
     content = content.replace(/{{Character[\s\S]*?}}\s*/, ''); // remove Character, as we'll add it later
     content = content.replace(/{{Infobox[\s\S]*?}}\s*/, ''); // remove Infobox, as we'll add it later
 
-    content = content.replace(/^\s*/, ''); // trim start
+    content = content.trim();
 
     let infobox = '';
     infobox += '{{Character\n';
@@ -99,7 +99,7 @@ const updateInfobox = (content, character, factions) => {
     //     console.log('character: ' + JSON.stringify(character, null, 4));
     //     console.log('content:', content);
     // }
-    return content;
+    return content.trim();
 };
 
 /**
