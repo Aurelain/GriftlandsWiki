@@ -18,25 +18,31 @@ const {STORAGE} = require('../utils/CONFIG');
  *     localOnly: {...},
  * }
  */
-const inspectCharacters = ({people, bosses}) => {
+const inspectCharacters = (prepared) => {
     console.log('Inspecting characters...');
-    const all = [...people, ...bosses];
     const synchronized = {};
     const different = {};
     const cloudOnly = {};
     const localOnly = {};
-    for (const character of all) {
-        const {name} = character;
-        const filePath = getFilePath(name, '');
-        if (fs.existsSync(STORAGE + '/' + filePath)) {
-            synchronized[filePath] = {
-                title: name,
-                content: '',
-            };
-            // console.log('synchronized:', name);
+    for (const filePath in prepared) {
+        const {title, content} = prepared[filePath];
+        const fullPath = STORAGE + '/' + filePath;
+        if (fs.existsSync(fullPath)) {
+            const fileContent = fs.readFileSync(fullPath, 'utf8');
+            if (fileContent === content) {
+                synchronized[filePath] = {
+                    title,
+                    content: '',
+                };
+            } else {
+                different[filePath] = {
+                    title,
+                    content: '',
+                };
+            }
         } else {
             cloudOnly[filePath] = {
-                title: name,
+                title,
                 content: '',
             };
         }

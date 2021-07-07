@@ -1,36 +1,43 @@
-const AdmZip = require('adm-zip');
-
-const attemptSelfRun = require('../utils/attemptSelfRun');
-const getCharacters = require('./getCharacters');
-const getFactions = require('./getFactions');
-const guard = require('../utils/guard');
-const prepareCharacters = require('./prepareCharacters');
-const inspectCharacters = require('./inspectCharacters');
+const assert = require('assert');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-/**
- * Installation directory, which should contain the game archives ("data_scripts.zip" and others).
- */
-const GAME_DIR = 'C:/Program Files (x86)/Steam/steamapps/common/Griftlands';
+const SOURCE_FILE = 'scripts/content/factions/factions.lua';
+const WIKI_FACTIONS = {
+    ADMIRALTY: 'admiralty',
+    BANDITS: 'spree',
+    BILEBROKERS: 'bilebroker',
+    BOGGERS: 'boggers',
+    CULT_OF_HESH: 'cult of hesh',
+    DELTREAN: 'deltreans',
+    FEUD_CITIZEN: 'civilian',
+    GRIFTER: 'grifters',
+    JAKES: 'jakes',
+    RENTORIAN: 'rentorians',
+    RISE: 'rise',
+    SPARK_BARONS: 'spark barons',
+};
 
 // =====================================================================================================================
 //  P U B L I C
 // =====================================================================================================================
 /**
- *
+ * Output:
+ * {
+ *     'RENTORIAN': 'rentorians',
+ *     ...
+ * }
  */
-const update = async () => {
-    const zip = new AdmZip(GAME_DIR + '/data_scripts.zip');
-    const characters = getCharacters(zip);
-    const factions = getFactions(zip);
-    const prepared = prepareCharacters(characters, factions);
-    const charactersStatus = inspectCharacters(prepared);
-    if (!(await guard(charactersStatus, true))) {
-        return;
-    }
-    console.log('TODO');
+const getFactions = (zip) => {
+    const lua = zip.getEntry(SOURCE_FILE).getData().toString('utf8');
+    const bag = {};
+    lua.replace(/id = "(.*?)"[\s\S]*?name = "(.*?)"/g, (matched, capturedId) => {
+        // Note: we're not using the game name. Instead, we're using the wiki name.
+        assert(WIKI_FACTIONS[capturedId], 'Unknown faction!');
+        bag[capturedId] = WIKI_FACTIONS[capturedId];
+    });
+    return bag;
 };
 
 // =====================================================================================================================
@@ -40,5 +47,4 @@ const update = async () => {
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
-module.exports = update;
-attemptSelfRun(update);
+module.exports = getFactions;

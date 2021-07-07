@@ -17,7 +17,50 @@ const CHARACTERS_DIR = 'scripts/content/characters/';
 //  P U B L I C
 // =====================================================================================================================
 /**
- *
+ * Output:
+ * {
+ *     people: [
+ *         {
+ *             id: 'CHEMIST',
+ *             faction_id: 'BILEBROKERS',
+ *             base_def: 'DREDGER_BASE',
+ *             loved_graft: 'doze_bug',
+ *             hated_graft: 'spiked_drink',
+ *             death_item: 'vapor_vial',
+ *             bio: "It's unclear whether Leesha's easygoing attitude is a result of her temperament,...",
+ *             gender: 'FEMALE',
+ *             hair_colour: 876105983,
+ *             head: 'head_dredger_female',
+ *             name: 'Leesha',
+ *             skin_colour: 3516105471,
+ *             species: 'HUMAN',
+ *             traits: {},
+ *             uuid: 'af48dcab-a73f-4e75-b6d0-ca80113c5a03'
+ *         },
+ *         ...
+ *     ],
+ *     bosses: [
+ *          {
+ *            id: 'VIXMALLI',
+ *            faction_id: 'CULT_OF_HESH',
+ *            base_def: 'PRIEST',
+ *            death_item: 'heshian_amulet',
+ *            loved_graft: 'bio_feedback',
+ *            hated_graft: 'bad_faith',
+ *            name: 'Vixmalli',
+ *            boss: true,
+ *            build: 'male_vixmali_build',
+ *            content_id: 'VIXMALLI',
+ *            gender: 'MALE',
+ *            hair_colour: 876105983,
+ *            head: 'head_male_vixmali',
+ *            skin_colour: 3333903871,
+ *            species: 'KRADESHI',
+ *            uuid: '82334e02-a387-46f0-b63d-887b225f0fe5'
+ *          },
+ *          ...
+ *     ]
+ * }
  */
 const getCharacters = (zip) => {
     const skins = parseCharacterSkins(zip);
@@ -131,6 +174,7 @@ const parseDefinition = (text) => {
         JSON.stringify({
             id,
             name: capture(text, /name = "([^"]*)"/),
+            title: capture(text, /title = "([^"]*)"/),
             base_def: capture(text, /base_def = "([^"]*)"/),
             faction_id: capture(text, /faction_id = "?(\w+)/),
             loved_graft: capture(text, /loved_graft = "([^"]*)"/),
