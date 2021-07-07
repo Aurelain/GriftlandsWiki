@@ -1,0 +1,7 @@
+'''Threshold''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "Activates an added effect if damage is at of above the Threshold number".
+
+
+[[Category:Keywords]]

@@ -58,5 +58,8 @@ Rug wanders around the Griftlands, looking for patrons willing to try out his cu
 |-
 |Curds and Floaters
 |Gain a "Pickled Floater" card. (Gain 5 concentration, destroy after two uses)
+|-
+|Fire-Shucked Barnacles
+|Gain a "[[Sick]]" card. Sick is a 1-cost, Negotiation, status card with [[Expend]] and Sleep It Off. Then you have two options. One, you can forgive Rug, improving his relationship with you; two, you can scold him, damaging his relationship with you but removing the Sick card.
 |}
 <ref>https://forums.kleientertainment.com/forums/topic/113370-rugs-food/</ref>

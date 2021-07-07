@@ -1,0 +1,7 @@
+'''Impair''' is a Battle [[Key Words|key word]].
+
+==Effect==
+In game description: "Attack damage by this target is reduced by 33%. At the beginning of their turn, reduce '''Impair''' by 1".
+
+
+[[Category:Keywords]]

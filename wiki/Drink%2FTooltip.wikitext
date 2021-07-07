@@ -1,0 +1,8 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Drink
+  |body=<center>Add an '''Empty Bottle''' card to your discard pile
+
+[[File: Empty Bottle.png|150px]]
+
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

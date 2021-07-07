@@ -1,0 +1,30 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Uncommon
+|cardtype = Maneuver
+|decktype = Battle
+|keywords = [[Ability]], [[Threshold]], [[Defense]], [[Expend]]
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Pale High Stakes
+|upgrade2 = Stone High Stakes
+}}
+
+{{Quote|Looks like you're at the wrong table, friend.}}
+
+'''High Stakes''' is a 2-cost Uncommon '''Maneuver''' card for [[Smith]]. It has the effect: "[[Ability]]: Whenevery you trigger a card's [[Threshold]], gain 2 [[Defense]]. [[Expend]]".
+
+==Upgrades==
+After accruing 5 experience '''High Stakes''' is able to be upgraded. 
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Pale High Stakes.png|150px]]
+|[[File: Stone High Stakes.png|150px]]
+|-
+!Cost 1 action less
+!Gain 3 [[Defense]]
+|-
+|}

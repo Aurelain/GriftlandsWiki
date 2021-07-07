@@ -1,0 +1,9 @@
+'''Drink''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "Add an '''Empty Bottle''' card to your discard pile".
+
+[[File: Empty Bottle.png|150px]]
+
+
+[[Category:Keywords]]

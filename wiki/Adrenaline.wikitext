@@ -1,0 +1,10 @@
+'''Adrenaline''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "Attack damage is increased by '''X'''. At the end of your turn, remove all '''Adrenaline'''".
+
+Where '''X''' is the amount of stacks of '''Adrenaline'''.
+
+
+
+[[Category:Keywords]]

@@ -1,0 +1,52 @@
+{{Card
+|character = Smith
+|rarity = Basic
+|cardtype = Maneuver
+|decktype = Battle
+|keywords = [[Drink]], [[Improvise]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Smith's Boosted Flask
+|upgrade2 = Smith's Wide Flask}}
+
+{{Quote|I stole this from a guy, so now it's mine.}}
+
+'''Smith's Flask''' is a 1-cost Basic '''Maneuver''' card for [[Smith]]. It has the effect: "[[Drink]]. [[Improvise]] a card from a special pool of cards".
+As a base card '''Smith's Flask''' is always part of the available card pool for [[Smith]].
+
+==Upgrades==
+After accruing 9 experience '''Smith's Flask''' is able to be upgraded.
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Smith's Boosted Flask.png|150px]]
+|[[File: Smith's Wide Flask.png|150px]]
+|-
+![[Improvise]] a card from a pool of upgraded special cards
+![[Improvise+]] a card from a pool of special cards
+|-
+|}
+
+==Special Cards==
+'''Smith's Flask''' has several special cards in its pool, those being:
+* [[Big Brain]]: 0-cost; Maneuver; [[Drink]]. Draw 2 cards. [[Expend]].
+* [[Murder Bay Blaster]]: 1-cost; Maneuver; [[Drink]]. Gain 1 [[Power]]. [[Expend]].
+* [[Green Juice]]: 0-cost; Maneuver; [[Drink]]. [[Alleviate]] 4 health. [[Expend]].
+* [[Kra'deshi Collider]]: 0-cost; Maneuver; [[Drink]]. Take 2 damage. [[Expend]].
+* [[Shrokian Pepper Shot]]: 0-cost; Attack; [[Expend]] 1 [[Empty Bottle]] card from your deck: Apply 1 [[Impair]]. [[Expend]].
+* [[Stack]]: 0-cost; Attack; 0 damage; [[Expend]] up to 2 [[Empty Bottle]] cards from your deck: Deal 3 damage for each bottle. [[Expend]].
+* [[Rumble]]: 0-cost; Attack;  [[Expend]] 1 [[Empty Bottle]] card from your deck: Apply 2 [[Trauma]]. [[Expend]].
+* [[Hair of the Vrok]]: 0-cost; Maneuver; [[Drink]]. Gain 2 [[Adrenaline]]. [[Expend]].
+* [[Chug]]: 0-cost; Maneuver; Play '''Smith's Flask''' again. [[Expend]].
+
+== Upgraded Special Cards ==
+'''Smith's Boosted Flask''' draws from a pool of "Boosted" versions of the same cards:
+
+* [[Visionary Big Brain]]: 0-cost; Maneuver; [[Drink]]. Draw 3 cards. [[Expend]].
+* [[Pale Murder Bay Blaster]]: 0-cost; Maneuver; [[Drink]]. Gain 1 [[Power]]. [[Expend]].
+* [[Boosted Green Juice]]: 0-cost; Maneuver; [[Drink]]. [[Alleviate]] 6 health. [[Expend]].
+* [[Boosted Kra'deshi Collider]]: 0-cost; Maneuver; [[Drink]]. Take 2 damage twice. [[Expend]].
+* [[Boosted Shrokian Pepper Shot]]: 0-cost; Attack; [[Expend]] 1 [[Empty Bottle]] card from your deck: Apply 2 [[Impair]]. [[Expend]].
+* [[Boosted Stack]]: 0-cost; Attack; 0 damage; [[Expend]] up to 2 [[Empty Bottle]] cards from your deck: Deal 4 damage for each bottle. [[Expend]].
+* [[Boosted Rumble]]: 0-cost; Attack;  [[Expend]] 1 [[Empty Bottle]] card from your deck: Apply 3 [[Trauma]]. [[Expend]].
+* [[Boosted Hair of the Vrok]]: 0-cost; Maneuver; [[Drink]]. Gain 3 [[Adrenaline]]. [[Expend]].
+* [[Boosted Chug]]: 0-cost; Maneuver; Play '''Smith's Boosted Flask''' again. [[Expend]].

@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Adrenaline
+  |body=<center>Attack damage is increased by '''X'''. At the end of your turn, remove all '''Adrenaline'''.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

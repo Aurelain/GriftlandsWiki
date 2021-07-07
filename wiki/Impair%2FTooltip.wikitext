@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Impair
+  |body=<center>Attack damage by this target is reduced by 33%. At the beginning of their turn, reduce '''Impair''' by 1
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

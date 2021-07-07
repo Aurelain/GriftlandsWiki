@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Threshold
+  |body=<center>Activates an added effect if damage is at of above the Threshold number
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

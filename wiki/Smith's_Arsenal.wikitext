@@ -1,12 +1,38 @@
-{{Stub}}
+{{Reupload}}
+
 {{Card
 |character = Smith
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Hammer Throw]], [[Bottle Smash]]
+|keywords = [[Trauma]], [[Traumatized]], [[Expend]], [[Wound]]
 |upgradeable = Yes
-|expreq = 7}}
-'''Smith's Arsenal''' is a 0-cost Basic Maneuver card for [[Smith]]. It has the effect "Insert '''[[Hammer Throw]]''' or '''[[Bottle Smash]]''' into your hand."
+|expreq = 7
+|upgrade1 = Smith's Hammer
+|upgrade2 = Smith's Bottle
+}}
+
+{{Quote|Never go anywhere without a basher and a brew.}}
+
+
+'''Smith's Arsenal''' is a 1-cost Basic Maneuver card for [[Smith]]. It has the effect "Insert '''[[Hammer Throw]]''' or '''[[Bottle Smash]]''' into your hand." As a base card '''Smith's Arsenal''' is always part of the available card pool for Smith.
+
+* [[Hammer Throw]]: 0-cost; Attack; 2-3 damage. Apply 1 [[Trauma]]. [[Expend]].
+* [[Bottle Smash]]: 0-cost; Attack; 2-3 damage. [[Expend]] one [[Empty Bottle]] card from your deck to play this. Apply 1 [[Wound]]. [[Expend]].
 
 ==Upgrades==
+After accruing 9 experience '''Smith's Arsenal''' can be upgraded. 
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Smith's Hammer.png|150px]]
+|[[File: Smith's Bottle.png|150px]]
+|-
+!Insert '''Maul''' or '''One One One''' into your hand
+!Insert '''Fracture''' or '''Slam''' into your hand
+|}
+
+* [[Maul]]: 0-cost; Attack; 3 damage. If the target has no [[Trauma]], apply 2 [[Trauma]]. [[Expend]].
+* [[One One One]]: 0-cost; Attack; 1 damage. Attack three times. [[Expend]]. [[Restrained]]
+* [[Fracture]]: 0-cost; Attack; 5 damage. [[Expend]] one [[Empty Bottle]] card from your deck to play this. Apply 1 [[Wound]]. [[Expend]].
+* [[Slam]]: 0-cost; Maneuver; [[Drink]] 2 and gain 2 [[Adrenaline]]. [[Expend]].

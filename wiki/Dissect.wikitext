@@ -1,0 +1,28 @@
+{{Card
+|character = Smith
+|rarity = Uncommon
+|cardtype = Manipulate
+|decktype = Negotiation
+|keywords = [[Expend]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Pale Dissect
+|upgrade2 = Enduring Dissect}}
+
+{{Quote|It's going to be impossible to solve.}}
+
+'''Dissect''' is a 1-cost Uncommon '''Manipulate''' card for [[Smith]]. It has the effect: "Duplicate a friendly argument and halve the resolve of both arguments. [[Expend]]".
+
+The amount of remaining resolve is rounded up.
+
+==Upgrades==
+After accruing 7 experience '''Dissect''' is able to be upgraded. 
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Pale Dissect.png|150px]]
+|[[File: Enduring Dissect.png|150px]]
+|-
+!Cost 1 action less
+!Remove [[Expend]]
+|-
+|}

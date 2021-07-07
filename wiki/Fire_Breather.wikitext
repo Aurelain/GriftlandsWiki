@@ -1,0 +1,28 @@
+{{Card
+|character = Smith
+|rarity = Common
+|cardtype = Maneuver
+|decktype = Battle
+|keywords = [[Drink]], [[Adrenaline]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Gulping Fire Breather
+|upgrade2 = Boosted Fire Breather
+}}
+
+{{Quote|Fermented by the more cruel Shrokian brewmasters. You're going to want a chaser.}}
+
+'''Fire Breather''' is a 1-cost Common '''Maneuver''' card for [[Smith]]. It has the effect: "[[Drink]] and gain 2 [[Adrenaline]]".
+
+==Upgrades==
+After accruing 9 experience '''Fire Breather''' is able to be upgraded. 
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Gulping Fire Breather.png|150px]]
+|[[File: Boosted Fire Breather.png|150px]]
+|-
+![[Drink]] 2
+!Gain 3 [[Adrenaline]]
+|-
+|}
