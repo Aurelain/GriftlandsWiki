@@ -1,0 +1,55 @@
+{{Card
+|character = Smith
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Biting Bash
+|upgrade2 = Rooted Bash
+|upgrade3 = Lucid Bash
+|upgrade4 = Bash of Clarity
+|upgrade5 = Rolling Bash
+|upgrade6 = Rapid Bash
+|upgrade7 = Quenched Bash
+|upgrade8 = Six Pack Bash
+|upgrade9 = Traumatic Bash
+}}
+
+{{Quote|I call it my speciality.}}
+
+'''Bash''' is a 1-cost Basic '''Attack''' card for [[Smith]]. It deals 6 base damage. It has the effect: "Take 3 damage".
+
+==Upgrades==
+Like most basic cards, '''Bash''' has more than two upgrades, from which it randomly picks 2 you can decide from.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Biting Bash.png|150px]]
+|[[File: Rooted Bash.png|150px]]
+|[[File: Lucid Bash.png|150px]]
+|[[File: Bash of Clarity.png|150px]]
+|-
+!Take 2 damage
+!Deal 4 base damage.
+!Deal 6-8 base damage; [[Expend]]
+!Deal 8 base damage; [[Destroy]]
+|-
+|[[File: Rolling Bash.png|150px]]
+|[[File: Rapid Bash.png|150px]]
+|[[File: Quenched Bash.png|150px]]
+|[[File: Six Pack Bash.png|150px]]
+|-
+!Deal 1-2 base damage. 
+Deal 1 bonus damage per card played this turn
+!Deal 3-4 base damage. 
+Attack twice. [[Restrained]]
+!Deals 4 bonus damage if you drank this turn
+!Deals 6 bonus damage if you have 6
+or more [[Empty Bottle]] cards in your deck
+|-
+|[[File: Traumatic Bash.png|150px]]
+|-
+!Apply 2 [[Trauma]]
+|}

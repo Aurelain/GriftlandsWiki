@@ -1,0 +1,44 @@
+{{Card
+|character = Smith
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Biting Dropkick
+|upgrade2 = Boosted Dropkick
+|upgrade3 = Lucid Dropkick
+|upgrade4 = Dropkick of Clarity
+|upgrade5 = Heavy Dropkick
+|upgrade6 = Flying Dropkick
+|upgrade7 = Quenched Dropkick
+}}
+
+{{Quote|Both feet first!}}
+
+'''Dropkick''' is a 1-cost Basic '''Attack''' card for [[Smith]]. It deals 6 base damage. It has the effect: "Take 3 damage".
+
+==Upgrades==
+Like most basic cards, '''Dropkick''' has more than two upgrades, from which it randomly picks 2 you can decide from.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Biting Dropkick.png|150px]]
+|[[File: Boosted Dropkick.png|150px]]
+|[[File: Lucid Dropkick.png|150px]]
+|[[File: Dropkick of Clarity.png|150px]]
+|-
+!Take 2 damage twice
+!Deal 8 base damage
+!Deal 11 base damage; [[Expend]]
+!Deal 16 base damage; [[Destroy]]
+|-
+|[[File: Heavy Dropkick.png|150px]]
+|[[File: Flying Dropkick.png|150px]]
+|[[File: Quenched Dropkick.png|150px]]
+|-
+!Apply 2 [[Trauma]]
+!Gain 1 [[Evasion]]. [[Expend]]
+!Deals 4 bonus damage if you drank this turn
+|}

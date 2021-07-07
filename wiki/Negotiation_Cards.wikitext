@@ -2,7 +2,7 @@
 
 '''Negotiation cards''' are used by the player when engaged in negotiation. For mechanics involved in '''Negotiation''', see: [[Negotiation]]
 
-== [[file:Sal Portrait.png|50px|link=Sal]] Sal's Negotiation Cards ==
+== [[file:Sal portrait.png|40px|link=Sal]] Sal's Negotiation Cards ==
 {{cols|3|
 * [[Abrupt Remark]]
 * [[Agitation]]
@@ -104,7 +104,7 @@
 * [[Withdrawn]]
 }}
 
-== [[file:Rook Portrait.png|50px|link=Rook]] Rook's Negotiation Cards ==
+== [[file:Rook portrait.png|40px|link=Rook]] Rook's Negotiation Cards ==
 
 == Smith's Negotiation Cards ==
 

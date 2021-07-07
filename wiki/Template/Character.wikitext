@@ -17,6 +17,7 @@
 | boggers = [[File:Faction boggers.png{{!}}35px{{!}}link{{=}}Boggers]]<br>[[Boggers]]
 | civilian = [[File:Faction citizen.png{{!}}35px{{!}}link{{=}}Civilian]]<br>[[Civilian]]
 | cult of hesh = [[File:Faction cult of hesh.png{{!}}35px{{!}}link{{=}}Cult of Hesh]]<br>[[Cult of Hesh]]
+| deltreans = [[File:Faction deltreans.png{{!}}35px{{!}}link{{=}}Deltreans]]<br>[[Deltreans]]
 | grifters = [[File:Faction grifter.png{{!}}35px{{!}}link{{=}}Grifters]]<br>[[Grifters]]
 | jakes = [[File:Faction jakes.png{{!}}35px{{!}}link{{=}}Jakes]]<br>[[Jakes]]
 | rentorians = [[File:Faction retorian.png{{!}}35px{{!}}link{{=}}Retorian]]<br>[[Retorian]]
@@ -29,5 +30,5 @@
 |-
 {{#if: {{{title|}}} | {{!}} width=90 {{!}}<div>Title</div>{{!!}} {{{title}}} }}
 |}
-{{#ifeq: {{NAMESPACE}} | Template | | <includeonly>[[Category:Characters]] {{#ifeq: {{lc:{{{faction}}}}} | admiralty | [[Category:Admiralty]] }} {{#ifeq: {{lc:{{{faction}}}}} | bilebroker | [[Category:Bilebroker]] }} {{#ifeq: {{lc:{{{faction}}}}} | boggers | [[Category:Boggers]] }} {{#ifeq: {{lc:{{{faction}}}}} | civilian | [[Category:Civilian]] }} {{#ifeq: {{lc:{{{faction}}}}} | cult of hesh | [[Category:Cult of Hesh]] }} {{#ifeq: {{lc:{{{faction}}}}} | grifters | [[Category:Grifter]] }} {{#ifeq: {{lc:{{{faction}}}}} | jakes | [[Category:Jakes]] }} {{#ifeq: {{lc:{{{faction}}}}} | rentorians | [[Category:Rentorians]] }} {{#ifeq: {{lc:{{{faction}}}}} | rise | [[Category:Rise]] }} {{#ifeq: {{lc:{{{faction}}}}} | spark barons | [[Category:Spark Barons]] }} {{#ifeq: {{lc:{{{faction}}}}} | spree | [[Category:Spree]] }}</includeonly> }}<noinclude>{{clear}}{{doc}}
+{{#ifeq: {{NAMESPACE}} | Template | | <includeonly>[[Category:Characters]] {{#ifeq: {{lc:{{{faction}}}}} | admiralty | [[Category:Admiralty]] }} {{#ifeq: {{lc:{{{faction}}}}} | bilebroker | [[Category:Bilebroker]] }} {{#ifeq: {{lc:{{{faction}}}}} | boggers | [[Category:Boggers]] }} {{#ifeq: {{lc:{{{faction}}}}} | civilian | [[Category:Civilian]] }} {{#ifeq: {{lc:{{{faction}}}}} | cult of hesh | [[Category:Cult of Hesh]] }} {{#ifeq: {{lc:{{{faction}}}}} | deltreans | [[Category:Deltreans]] }} {{#ifeq: {{lc:{{{faction}}}}} | grifters | [[Category:Grifter]] }} {{#ifeq: {{lc:{{{faction}}}}} | jakes | [[Category:Jakes]] }} {{#ifeq: {{lc:{{{faction}}}}} | rentorians | [[Category:Rentorians]] }} {{#ifeq: {{lc:{{{faction}}}}} | rise | [[Category:Rise]] }} {{#ifeq: {{lc:{{{faction}}}}} | spark barons | [[Category:Spark Barons]] }} {{#ifeq: {{lc:{{{faction}}}}} | spree | [[Category:Spree]] }}</includeonly> }}<noinclude>{{clear}}{{doc}}
 [[Category:Infobox templates]]</noinclude>

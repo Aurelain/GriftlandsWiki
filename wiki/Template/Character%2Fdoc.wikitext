@@ -7,7 +7,7 @@ This is an infobox for all the characters in [[Griftlands]].
 | image    = 
 | race     = 
 | location = 
-| faction  = admiralty / bilebroker / boggers / civilian / cult of hesh / grifters / jakes / rentorians / rise / spark barons / spree
+| faction  = admiralty / bilebroker / boggers / civilian / cult of hesh / deltreans / grifters / jakes / rentorians / rise / spark barons / spree
 | faction2 = any other
 | title    =
 }}

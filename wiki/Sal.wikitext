@@ -1,8 +1,5 @@
 {{stub}}
-
 {{Character
-| name     = Sal Fallon
-| image    = Sal Portrait.png
 | race     = Human
 | location = Havaria - Murder Bay
 | faction = Grifters

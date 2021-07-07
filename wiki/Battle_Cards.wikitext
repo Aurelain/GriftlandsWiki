@@ -2,7 +2,7 @@
 
 '''Battle cards''' are used by the player when engaged in combat. For mechanics involved in '''Battle''', see: [[Battle]]
 
-== [[file:Sal Portrait.png|50px|link=Sal]] Sal's Battle Cards  ==
+== [[file:Sal portrait.png|40px|link=Sal]] Sal's Battle Cards  ==
 {{cols|3|
 *[[Absolute Domination]]
 *[[Active Defense]]
@@ -133,7 +133,7 @@
 *[[Zig Zag]]
 }}
 
-== [[file:Rook Portrait.png|50px|link=Rook]] Rook's Battle Cards ==
+== [[file:Rook portrait.png|40px|link=Rook]] Rook's Battle Cards ==
 {{cols|3|
 *[[Accelerant]]
 *[[Ammo Pouch]]

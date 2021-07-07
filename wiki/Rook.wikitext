@@ -1,11 +1,8 @@
 
 {{Character
-| name     = Rook
-| image    = Rook Portrait.png
 | race     = Human
 | location = Grout Bog
-| faction2  = Unknown - Formerly Admiralty 
-}}
+| faction2  = Unknown - Formerly Admiralty}}
 
 {{Quote|Well, at least ''I'm'' honest. Some of the time. As far as you know.|Rook}}
 
