@@ -57,6 +57,7 @@ const updateInfobox = (content, character, factions) => {
     content = content.replace(/^{{stub}}\s*/, ''); // remove starting stub, as we'll add it later
 
     const location = (content.match(/\|\s*location\s*=\s*(\w[^\n|}]*)/) || [null, ''])[1];
+    const image = (content.match(/\|\s*image\s*=\s*(\w[^\n|}]*)/) || [null, ''])[1];
     const faction2 = (content.match(/\|\s*faction2\s*=\s*(\w[^\n|}]*)/) || [null, ''])[1];
     content = content.replace(/{{Character[\s\S]*?}}\s*/, ''); // remove Character, as we'll add it later
     content = content.replace(/{{Infobox[\s\S]*?}}\s*/, ''); // remove Infobox, as we'll add it later
@@ -68,7 +69,9 @@ const updateInfobox = (content, character, factions) => {
 
     // infobox += `| name     = ${name}\n`;
 
-    // infobox += `| image    = ${name}.png\n`;
+    if (image) {
+        infobox += `| image = ${image}\n`;
+    }
 
     const race = getRace(species);
     if (race) {

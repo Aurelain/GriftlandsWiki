@@ -1,3 +1,4 @@
+const writeSheet = require('../utils/writeSheet');
 const tally = require('../utils/tally');
 
 // =====================================================================================================================
@@ -67,7 +68,7 @@ const REDIRECTS = {
  *     ]
  * }
  */
-const getCharacters = (zip) => {
+const getCharacters = async (zip) => {
     const skins = parseCharacterSkins(zip);
     const defs = parseCharacterDefs(zip);
 
@@ -79,6 +80,7 @@ const getCharacters = (zip) => {
     console.log('Bosses:', tally(bosses));
     // prettyCharacters(bosses);
 
+    await writeCharactersSheet([...people, ...bosses]);
     return {people, bosses};
 };
 
@@ -295,6 +297,38 @@ const prettyCharacters = (list) => {
         pretty += (names[i] + ' '.repeat(32)).substring(0, 32);
     }
     console.log('output:', pretty);
+};
+
+/**
+ *
+ */
+const writeCharactersSheet = async (list) => {
+    const matrix = [];
+    for (const character of list) {
+        const row = [];
+        row.push(character.name);
+        row.push(character.title);
+        row.push(character.faction_id);
+        row.push(character.bio);
+        row.push(character.loved_graft);
+        row.push(character.hated_graft);
+        row.push(character.death_item);
+        row.push(character.species);
+        row.push(Boolean(character.boss));
+        matrix.push(row);
+    }
+    matrix.sort((a, b) => (a[0] < b[0] ? -1 : 1));
+    matrix.unshift(['Name', 'Title', 'Faction', 'Bio', 'Love', 'Hate', 'Death', 'Species', 'Boss']);
+    await writeSheet(__dirname + '/../../sheets/characters.xlsx', matrix, sheetMutation);
+};
+
+/**
+ *
+ */
+const sheetMutation = (workbook) => {
+    const sheet = workbook.worksheets[0]; //the first one;
+    sheet.properties.defaultColWidth = 21;
+    sheet.getColumn(4).width = 88;
 };
 
 // =====================================================================================================================

@@ -25,7 +25,7 @@ const GAME_DIR = 'C:/Program Files (x86)/Steam/steamapps/common/Griftlands';
  */
 const update = async () => {
     const zip = new AdmZip(GAME_DIR + '/data_scripts.zip');
-    const characters = getCharacters(zip);
+    const characters = await getCharacters(zip);
     const factions = getFactions(zip);
     const prepared = prepareCharacters(characters, factions);
     const charactersStatus = inspectCharacters(prepared);
