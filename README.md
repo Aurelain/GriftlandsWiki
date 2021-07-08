@@ -11,6 +11,7 @@ A mirror for the [Griftlands Wiki](https://griftlands.fandom.com/wiki/Griftlands
   - `download` retrieves the raw image files. They are not to be stored on git.
   - `push` sends the local changes to the online wiki
   - `update` parses the game files and changes the local wiki accordingly
+  - `datamine` extracts and converts images from the game files
 - All commands have a guard in place that warns and informs you about the incoming operations.
 
 ## Installation
@@ -61,6 +62,14 @@ Parses the game files and changes the local wiki accordingly
 1. unpacks the game files
 2. parses and cross-references all Compendium Characters (241 people + 29 bosses)
 3. TODO. This is still Work-in-Progress
+
+### datamine
+```sh
+npm run datamine
+```
+Extracts and converts images from the game files
+1. unpacks the game files
+2. extracts the characters portraits textures (TEX > DDS > DXT5 > cropped PNG)
 
 ## Options
 - You can find some configuration options in `/scripts/utils/CONFIG.js`

@@ -1,3 +1,4 @@
+const fsExtra = require('fs-extra');
 const sharp = require('sharp');
 
 const decompressDds = require('../utils/decompressDds');
@@ -50,11 +51,13 @@ const extractPortrait = async (name, uuid, dataZip, pipeline) => {
     const bottom = Math.round(rawHeight * readFloat(tex, 53));
     const width = right - left;
     const height = bottom - top;
+    const destinationDir = RAW_GAME + '/portraits';
+    fsExtra.ensureDirSync(destinationDir);
     await pipeline
         .clone()
         .extract({left, top, width, height})
         .flop()
-        .toFile(RAW_GAME + `/portraits/${name}_portrait.png`);
+        .toFile(destinationDir + `/${name}_portrait.png`);
 };
 
 /**
