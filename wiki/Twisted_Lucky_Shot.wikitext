@@ -1,0 +1,12 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = 
+|character = Rook
+|keywords = [[Charge]]
+|upgradeable = No
+}}
+{{Quote|'It's that cool head of his that's the real danger.'}}
+
+==Description==
+Spend 1 Charge: deal 2 bonus damage per Charge.

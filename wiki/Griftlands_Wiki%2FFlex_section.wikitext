@@ -7,7 +7,7 @@
 :'''Genre:'''        Roguelike, Deck Building
 :'''Developer:'''    Klei Entertainment
 :'''Publisher:'''    Klei Entertainment	
-:'''Release Date:''' TBA, currently in Early Access
+:'''Release Date:''' June 1, 2021
 
 
 </div>

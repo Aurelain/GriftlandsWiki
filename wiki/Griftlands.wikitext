@@ -7,7 +7,7 @@
 |engine = 
 |version = 
 |platform = PC
-|releasedate = July 11, 2019 (Alpha)
+|releasedate = July 11, 2019 (Alpha) <br> June 1, 2021 (Full Access)
 |genre = Roguelike, Deck Building
 |mode = Singleplayer
 |rating = 

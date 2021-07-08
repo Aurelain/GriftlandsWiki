@@ -1,0 +1,28 @@
+{{Card
+|character = Rook
+|rarity = Common
+|cardtype = Hostility
+|decktype = Negotiation
+|keywords = [[Gamble]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Slugstorm
+|upgrade2 = Wide Slugstorm
+}}
+
+{{Quote|See? You lose the matriarch in the swarm. It's what they want.}}
+
+'''Slugstorm''' is a 1-cost Common '''Hostility''' card for [[Rook]]. It has the effect: "[[Gamble]]. [[Snails]]: Deal 2 damage to all opponent arguments".
+
+==Upgrades==
+After accruing 9 experience '''Slugstorm''' is able to be upgraded. 
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Boosted Slugstorm.png|150px]]
+|[[File: Wide Slugstorm.png|150px]]
+|-
+![[Snails]]: Deal 4 damage to all opponent arguments
+![[Heads]]: Deal 1 damage to all opponent arguments
+|-
+|}

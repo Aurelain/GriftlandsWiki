@@ -1,0 +1,28 @@
+{{Card
+|character = Rook
+|rarity = Uncommon
+|cardtype = Hostility
+|decktype = Negotiation
+|keywords = [[Gamble]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Visionary Vulgar
+|upgrade2 = Boosted Vulgar
+}}
+
+{{Quote|Don't sit at the table if you don't know the rules you idiot.}}
+
+'''Vulgar''' is a 1-cost Uncommon '''Hostility''' card for [[Rook]]. It has the effect: "Draw 2 cards. [[Gamble]] for each '''Hostility''' card drawn".
+
+==Upgrades==
+After accruing 9 experience '''Vulgar''' is able to be upgraded. 
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Visionary Vulgar.png|150px]]
+|[[File: Boosted Vulgar.png|150px]]
+|-
+!Draw 3 cards
+![[Gamble]] for each '''Hostility''' card drawn +1
+|-
+|}

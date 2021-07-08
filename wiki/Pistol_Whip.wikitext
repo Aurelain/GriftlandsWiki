@@ -1,0 +1,27 @@
+{{Card
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Empty]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Tall Pistol Whip
+|upgrade2 = Rooted Pistol Whip
+}}
+
+{{Quote|I thought he was reloading...}}
+
+'''Pistol Whip''' is a 1-cost Common '''Attack''' card for [[Rook]]. It deals 4 base damage. It has the effect: "[[Empty]]: this cost 0". 
+
+==Upgrades==
+After accruing 7 experience '''Pistol Whip''' is able to be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Tall Pistol Whip.png|150px]]
+|[[File: Rooted Pistol Whip.png|150px]]
+|-
+!Deal 4-8 base damage
+!Deal 6 base damage
+|}

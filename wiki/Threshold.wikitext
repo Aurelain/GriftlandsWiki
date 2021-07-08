@@ -1,4 +1,4 @@
-'''Threshold''' is a Battle [[Key Words|key word]] for [[Smith]].
+'''Threshold''' is a Battle [[Key Words|key word]] for [[Rook]] and [[Smith]].
 
 ==Effect==
 In game description: "Activates an added effect if damage is at of above the Threshold number".

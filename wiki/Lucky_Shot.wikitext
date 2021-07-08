@@ -1,0 +1,22 @@
+{{Card
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = 
+|character = Rook
+|keywords = [[Charge]]
+|upgradeable = Yes
+|expreq = 
+|upgrade1 = Twisted Lucky Shot
+|upgrade2 = Boosted Lucky Shot
+}}
+{{Quote|'Right between the eyes! And they were on the move! I tell you, one in a million!'}}
+
+==Description==
+Spend 1 Charge: deal 2 bonus damage per empty cell.
+
+==Upgrades==
+{| class="wikitable" style="text-align:center"
+|-
+|[[File:Twisted Lucky Shot.png|150px]]
+|[[File:Boosted Lucky Shot.png|150px]]
+|}

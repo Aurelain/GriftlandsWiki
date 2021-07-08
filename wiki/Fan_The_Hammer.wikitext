@@ -1,0 +1,27 @@
+{{Card
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]]
+|upgradeable = Yes
+|expreq = 6
+|upgrade1 = Visionary Hammer
+|upgrade2 = Overcharging Hammer
+}}
+
+{{Quote|Fill them full of holes! We've got plenty of ammo!}}
+
+'''Fan The Hammer''' is a 1-cost Uncommon '''Attack''' card for [[Rook]]. It deals 2-4 base damage. It has the effect: "Spend all [[Charge]]: Attack once for each [[Charge]]". 
+
+==Upgrades==
+After accruing 6 experience '''Fan The Hammer''' is able to be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Visionary Hammer.png|150px]]
+|[[File: Overcharging Hammer.png|150px]]
+|-
+!And draw a card for each [[Charge]]
+!And gain 1 [[Overcharge]] for each [[Charge]]
+|}
