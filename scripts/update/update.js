@@ -7,15 +7,7 @@ const getFactions = require('./getFactions');
 const guard = require('../utils/guard');
 const prepareCharacters = require('./prepareCharacters');
 const inspectCharacters = require('./inspectCharacters');
-const {STORAGE} = require('../utils/CONFIG');
-
-// =====================================================================================================================
-//  D E C L A R A T I O N S
-// =====================================================================================================================
-/**
- * Installation directory, which should contain the game archives ("data_scripts.zip" and others).
- */
-const GAME_DIR = 'C:/Program Files (x86)/Steam/steamapps/common/Griftlands';
+const {STORAGE, GAME_DIR} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  P U B L I C

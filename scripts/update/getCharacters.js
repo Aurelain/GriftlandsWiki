@@ -1,5 +1,8 @@
+const fs = require('fs');
+
 const writeSheet = require('../utils/writeSheet');
 const tally = require('../utils/tally');
+const {RAW} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -315,10 +318,19 @@ const writeCharactersSheet = async (list) => {
         row.push(character.death_item);
         row.push(character.species);
         row.push(Boolean(character.boss));
+        row.push(character.uuid);
         matrix.push(row);
     }
     matrix.sort((a, b) => (a[0] < b[0] ? -1 : 1));
-    matrix.unshift(['Name', 'Title', 'Faction', 'Bio', 'Love', 'Hate', 'Death', 'Species', 'Boss']);
+
+    for (const row of matrix) {
+        const name = row[0];
+        if (!fs.existsSync(RAW + '/' + name + '_portrait.png')) {
+            console.log(`Missing portrait for ${name}!`);
+        }
+    }
+
+    matrix.unshift(['Name', 'Title', 'Faction', 'Bio', 'Love', 'Hate', 'Death', 'Species', 'Boss', 'Uuid']);
     await writeSheet(__dirname + '/../../sheets/characters.xlsx', matrix, sheetMutation);
 };
 

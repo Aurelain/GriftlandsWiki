@@ -13,6 +13,7 @@
         "tough-cookie": "^4.0.0"
     },
     "scripts": {
+        "datamine": "node ./scripts/datamine/datamine.js",
         "download": "node ./scripts/download/download.js",
         "pull": "node ./scripts/pull/pull.js",
         "push": "node ./scripts/push/push.js",

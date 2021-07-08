@@ -30,6 +30,11 @@ const REPLACEMENTS = {
 };
 
 /**
+ * Installation directory, which should contain the game archives ("data_scripts.zip" and others).
+ */
+const GAME_DIR = 'C:/Program Files (x86)/Steam/steamapps/common/Griftlands';
+
+/**
  * Directory where we store the pulled pages.
  */
 const STORAGE = __dirname + '/../../wiki';
@@ -51,6 +56,7 @@ module.exports = {
     ENDPOINT,
     CREDENTIALS,
     REPLACEMENTS,
+    GAME_DIR,
     STORAGE,
     RAW,
     DEBUG,

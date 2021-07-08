@@ -2,3 +2,6 @@ node_modules
 .idea
 raw/
 credentials*.json
+
+# temporary files start with a tilde
+~*
