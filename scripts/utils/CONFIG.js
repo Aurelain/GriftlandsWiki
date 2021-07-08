@@ -42,7 +42,12 @@ const STORAGE = __dirname + '/../../wiki';
 /**
  * Directory where we store the images that correspond to each json in the "File" folder.
  */
-const RAW = __dirname + '/../../raw/web';
+const RAW_WEB = __dirname + '/../../raw/web';
+
+/**
+ * Directory where we store assets extracted (datamined) from the game.
+ */
+const RAW_GAME = __dirname + '/../../raw/game';
 
 /**
  * A flag for verbosity.
@@ -58,6 +63,7 @@ module.exports = {
     REPLACEMENTS,
     GAME_DIR,
     STORAGE,
-    RAW,
+    RAW_WEB,
+    RAW_GAME,
     DEBUG,
 };

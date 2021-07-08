@@ -26,11 +26,10 @@ const RACE_WORDS = {
  *     ...
  * }
  */
-const prepareCharacters = ({people, bosses}, factions) => {
+const prepareCharacters = (characters, factions) => {
     console.log('Preparing characters...');
-    const all = [...people, ...bosses];
     const bag = {};
-    for (const character of all) {
+    for (const character of characters) {
         const {name} = character;
         const filePath = getFilePath(name, '');
         const fullPath = STORAGE + '/' + filePath;

@@ -7,7 +7,7 @@ const {CookieJar} = require('tough-cookie');
 const attemptSelfRun = require('../utils/attemptSelfRun');
 const pull = require('../pull/pull');
 const guard = require('../utils/guard');
-const {ENDPOINT, CREDENTIALS, RAW, DEBUG} = require('../utils/CONFIG');
+const {ENDPOINT, CREDENTIALS, RAW_WEB, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -184,7 +184,7 @@ const deletePage = async (title, token) => {
  *
  */
 const uploadImage = async (title, filePath, token) => {
-    const rawPath = RAW + '/' + filePath.replace('File/', '').replace(/\.[^.]*$/, '');
+    const rawPath = RAW_WEB + '/' + filePath.replace('File/', '').replace(/\.[^.]*$/, '');
     assert(fs.existsSync(rawPath), `Raw file "${rawPath}" not found!`);
     console.log(`Uploading "${title}"...`);
     const {body} = await got(ENDPOINT, {

@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const writeSheet = require('../utils/writeSheet');
 const tally = require('../utils/tally');
-const {RAW} = require('../utils/CONFIG');
+const {RAW_WEB} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -71,7 +71,7 @@ const REDIRECTS = {
  *     ]
  * }
  */
-const getCharacters = async (zip) => {
+const getCharacters = async (zip, silent = false) => {
     const skins = parseCharacterSkins(zip);
     const defs = parseCharacterDefs(zip);
 
@@ -83,8 +83,11 @@ const getCharacters = async (zip) => {
     console.log('Bosses:', tally(bosses));
     // prettyCharacters(bosses);
 
-    await writeCharactersSheet([...people, ...bosses]);
-    return {people, bosses};
+    const list = [...people, ...bosses];
+    if (!silent) {
+        await writeCharactersSheet(list);
+    }
+    return list;
 };
 
 // =====================================================================================================================
@@ -325,7 +328,7 @@ const writeCharactersSheet = async (list) => {
 
     for (const row of matrix) {
         const name = row[0];
-        if (!fs.existsSync(RAW + '/' + name + '_portrait.png')) {
+        if (!fs.existsSync(RAW_WEB + '/' + name + '_portrait.png')) {
             console.log(`Missing portrait for ${name}!`);
         }
     }

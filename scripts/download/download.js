@@ -4,7 +4,7 @@ const axios = require('axios'); // TODO: replace with got
 const attemptSelfRun = require('../utils/attemptSelfRun');
 const inspectImages = require('./inspectImages');
 const guard = require('../utils/guard');
-const {RAW, DEBUG} = require('../utils/CONFIG');
+const {RAW_WEB, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -51,7 +51,7 @@ const createOrUpdateRaw = async (bag) => {
         });
         const results = await Promise.all(requests);
         for (let j = 0; j < requests.length; j++) {
-            fs.writeFileSync(RAW + '/' + parallelFileNames[j], results[j].data, {encoding: null});
+            fs.writeFileSync(RAW_WEB + '/' + parallelFileNames[j], results[j].data, {encoding: null});
         }
     }
 };
@@ -61,7 +61,7 @@ const createOrUpdateRaw = async (bag) => {
  */
 const deleteRaw = async (bag) => {
     for (const fileName in bag) {
-        fs.unlinkSync(RAW + '/' + fileName);
+        fs.unlinkSync(RAW_WEB + '/' + fileName);
     }
 };
 

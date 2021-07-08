@@ -3,7 +3,7 @@ const crypto = require('crypto');
 
 const tally = require('../utils/tally');
 const getFilePath = require('../utils/getFilePath');
-const {STORAGE, RAW} = require('../utils/CONFIG');
+const {STORAGE, RAW_WEB} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  P U B L I C
@@ -79,13 +79,13 @@ const collectFiles = (focus) => {
  *
  */
 const collectRaw = (focus) => {
-    const rawNames = focus ? [focus.replace(/\.[^.]*$/, '')] : fs.readdirSync(RAW);
+    const rawNames = focus ? [focus.replace(/\.[^.]*$/, '')] : fs.readdirSync(RAW_WEB);
     const bag = {};
     for (const fileName of rawNames) {
         bag[fileName] = {
             title: fileName,
             content: {
-                sha1: getSha1(RAW + '/' + fileName),
+                sha1: getSha1(RAW_WEB + '/' + fileName),
             },
         };
     }

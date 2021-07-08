@@ -1,8 +1,8 @@
+const AdmZip = require('adm-zip');
+
 const attemptSelfRun = require('../utils/attemptSelfRun');
+const extractPortraits = require('./extractPortraits');
 const {GAME_DIR, DEBUG} = require('../utils/CONFIG');
-const fs = require('fs');
-const Jimp = require('jimp');
-const decompressDds = require('../utils/decompressDds');
 
 // =====================================================================================================================
 //  P U B L I C
@@ -12,13 +12,11 @@ const decompressDds = require('../utils/decompressDds');
  */
 const datamine = async () => {
     try {
-        const buffer = Buffer.from(fs.readFileSync(__dirname + '/portraits.dds')).buffer;
-        const dds = decompressDds(buffer);
-        new Jimp(dds, (err, image) => {
-            image.write(__dirname + '/aur.png');
-        });
+        const dataZip = new AdmZip(GAME_DIR + '/data.zip');
+        const scriptsZip = new AdmZip(GAME_DIR + '/data_scripts.zip');
+        await extractPortraits(dataZip, scriptsZip);
     } catch (e) {
-        console.log(DEBUG ? e.stack : e.message);
+        console.log(DEBUG ? e.stack : `Error: ${e.message}`);
     }
 };
 
