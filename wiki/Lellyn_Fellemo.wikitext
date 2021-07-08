@@ -1,6 +1,7 @@
 {{stub}}
 
 {{Character
+| image = Fellemo portrait.png
 | race = Kra'deshi
 | location = Havaria - Grout Bog
 | faction = spark barons

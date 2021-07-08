@@ -1,6 +1,7 @@
 {{stub}}
 
 {{Character
+| image = Kalandra portrait.png
 | race = Human
 | location = Havaria - Grout Bog
 | faction = rise

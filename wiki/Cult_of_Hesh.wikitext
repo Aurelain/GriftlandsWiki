@@ -39,7 +39,7 @@ Luminitiates are the lowest-ranked and the weakest of the Cult of Hesh titles.
 |Mallowi
 | rowspan="6" |Luminari
 | rowspan="4" |Human
-|All Luminari are a bit stuck-up, but Mallowi's got sermons on the brain and a pike up his abyss
+|All Luminari are a bit stuck-up, but Mallowi's got sermons on the brain and a pike up his abyss.
 |[[File:Mallowi.jpg|125px]]
 |-
 |Tei Utaro
@@ -78,16 +78,18 @@ Luminitiates are the lowest-ranked and the weakest of the Cult of Hesh titles.
 |Either Endo's got a smudge on his nose, or the call of the divine has turned his gaze within.
 |[[File:Endo.jpg|125px]]
 |-
-|Phrylotas
-| rowspan="3" |Kra'deshi
-| rowspan="2" |N/A
+|Phryniwin
+|Jarackle
+|Phryniwin's family dedicated her to the Cult at a young age, but she's taken it better than most.
 |
 |-
-|Phyrna
+|Llullably
+| rowspan="2" |Kra'deshi
+|Llullably is rumored to have a voice as sweet as clover, but the Heshian chants reduce it to a watery gurgle.
 |[[File:Phyrna.jpg|125px]]
 |-
-|Phryniwin
-|Phtyniwin's family dedicated her to the Cult at a young age, but she's taken it better than most.
+|Phrylotas
+|N/A
 |[[File:Phyrniwin.jpg|125px]]
 |-
 |Brale
@@ -102,20 +104,22 @@ Luminitiates are the lowest-ranked and the weakest of the Cult of Hesh titles.
 |-
 |Quale
 |[[Jarackle]]
-|
+|As a pup, Quale never thought he'd find purpose in Hesh's slippery grip.
 |[[File:Quale.png|125px]]
 |-
-|Lumack
+|Henders
 | rowspan="3" |Luminitiate
 | rowspan="2" |[[Jarackle]]
-| rowspan="3" |N/A
+|Henders used to stick his head beneath the water in the hopes of getting a look at Hesh. The constant lack of oxygen might've had an effect.
 |[[File:Lumack.jpg|125px]]
 |-
-|Lumax
+|Pestafur
+|Though she almost drowned once as a pup, Pestafur grew up a true-blue zealot with only the smallest fear of water.
 |[[File:Lumax.jpg|125px]]
 |-
-|Lumoo
+|Lumika
 |Human
+|Lumika might not only have grown up with the silver spoon, but swallowed it whole.
 |[[File:Lumoo.jpg|125px]]
 |}
 

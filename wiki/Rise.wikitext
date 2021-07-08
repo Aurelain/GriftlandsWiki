@@ -27,7 +27,7 @@
 |Kalandra
 |Human
 |[[Organizer]]
-|None
+|A life of labor in the Bog has made Kalandra as cunning as she is adept.
 |[[File:Kalandra.jpg|125px]]
 [[File:Forewoman Kalandra.jpg|125px]]
 |-
@@ -72,7 +72,7 @@
 |Brenna
 |Kra'deshi
 | rowspan="6" |[[Rebel]]
-|Brenna is a true believer in the goals of the Rise, even if the Rise is not always a true believer in the goals of Brenna.
+|The life of a laborer is hard, but it seems the life of a rebel is even harder.
 |
 |-
 |Malo
@@ -102,10 +102,11 @@
 |Galth
 | rowspan="2" |Kra'deshi
 | rowspan="2" |Promoted Rebel
-| rowspan="2" |None
+|Galth's swallowed enough dirt to feel at one with the land, and he moves through is like an eel in swamp sludge.
 |[[File:Galth.jpg|125px]]
 |-
 |Tumus
+|You almost don't recognize the blaze in Tumus' eye, until you realize it's hope.
 |[[File:Tumus.jpg|125px]]
 |}
 
