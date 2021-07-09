@@ -1,0 +1,29 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Threshold]], [[Wound]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Fold 'em
+|upgrade2 = Enhanced Fold 'em
+}}
+
+{{Quote|Know when to run.}}
+
+'''Fold 'em''' is a 1-cost Uncommon '''Attack''' card for [[Smith]]. It deals 1-6 base damage. It has the effect: "[[Threshold]] 6: Apply 2 [[Wound]]".
+
+==Upgrades==
+After accruing 9 experience '''Fold 'em''' is able to be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Boosted Fold 'em.png|150px]]
+|[[File: Enhanced Fold 'em.png|150px]]
+|-
+!Deal 3-6 base damage
+![[Threshold]] 6: Apply 3 [[Wound]]
+|}

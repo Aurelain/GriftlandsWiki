@@ -1,0 +1,34 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Drink]], [[Chain]]
+|upgradeable = No
+|expreq = 
+|upgrade1 = Kra'deshi Cup II
+|upgrade2 = Kra'deshi Cup III
+|upgrade3 = Kra'deshi Cup IV
+}}
+
+{{Quote|More for a rite of passage than a drink.}}
+
+'''Kra'deshi Cup''' is a 2-cost Uncommon '''Attack''' card for [[Smith]]. It deals 4 base damage. It has the effect "[[Drink]]. [[Chain]]"
+
+==Chain==
+'''Kra'deshi Cup''' will [[Chain]] into the following cards:
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Kra'deshi Cup.png|150px]]
+|[[File: Kra'deshi Cup II.png|150px]]
+|[[File: Kra'deshi Cup III.png|150px]]
+|[[File: Kra'deshi Cup IV.png|150px]]
+|-
+!2-cost. Deal 4 base damage. [[Drink]]
+!1-cost. Deal 4 base damage. [[Drink]] 2
+!1-cost. Deal 4 base damage. [[Drink]] 3
+!1-cost. Deal 4 base damage. [[Drink]] 4. Draw 2 cards
+|}

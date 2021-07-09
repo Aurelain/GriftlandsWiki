@@ -1,0 +1,30 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Uncommon
+|cardtype = Attack
+|decktype = Battle
+|keywords = [[Defense]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Conquer
+|upgrade2 = Focused Conquer}}
+
+{{Quote|We should've made our move earlier, we're doomed.}}
+
+'''Conquer''' is a 2-cost Uncommon '''Attack''' card for [[Smith]]. It deals 4 base damage. It has the effect: "Hits all enemies. This card deals bonus damage equal to half of your [[Defense]]".
+
+==Upgrades==
+After accruing 7 experience '''Conquer''' is able to be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Boosted Conquer.png|150px]]
+|[[File: Focused Conquer.png|150px]]
+|-
+!2-cost. Deal 7 base damage
+!2-cost. Deal 4 base damage. 
+Deals bonus damage equal to your [[Defense]]. Remove: Hits all enemies
+|-
+|}

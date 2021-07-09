@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Burnout
+  |body=<center>If this card is in your hand at the end of your turn, '''Expend''' it.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

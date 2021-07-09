@@ -1,0 +1,7 @@
+'''Evasion''' is a Battle [[Key Words|key word]].
+
+==Effect==
+In game description: "Dodge next hit. Remove 1 '''Evasion''' when you dodge a hit and at the start of your turn".
+
+
+[[Category:Keywords]]

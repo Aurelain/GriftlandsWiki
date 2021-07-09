@@ -1,0 +1,30 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Uncommon
+|cardtype = Maneuver
+|decktype = Battle
+|keywords = [[Evasion]], [[Expend]], [[Burnout]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Stable Duck!
+|upgrade2 = Pale Duck!
+}}
+
+{{Quote|Where?}}
+
+'''Duck!''' is a 1-cost Uncommon '''Maneuver''' card for [[Smith]]. It has the effect: "Gain 1 [[Evasion]]. [[Expend]], [[Burnout]]".
+
+==Upgrades==
+After accruing 7 experience '''Duck!''' is able to be upgraded. 
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Stable Duck!.png|150px]]
+|[[File: Pale Duck!.png|150px]]
+|-
+!Remove [[Burnout]]
+!Cost 1 less (0-cost)
+|-
+|}

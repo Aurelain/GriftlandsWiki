@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Evasion
+  |body=<center>Dodge next hit. Remove 1 '''Evasion''' when you dodge a hit and at the start of your turn
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

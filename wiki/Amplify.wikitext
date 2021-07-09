@@ -1,0 +1,28 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Amplify
+|upgrade2 = Wide Amplify}}
+
+{{Quote|Smith? Yeah I would say that guy is a little intense.}}
+
+'''Amplify''' is a 1-cost Common '''Manipulate''' card for [[Smith]]. It has the effect: "Choose a card in your hand and increase its damage by 2 this negotiation".
+
+==Upgrades==
+After accruing 9 experience '''Amplify''' is able to be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Boosted Amplify.png|150px]]
+|[[File: Wide Amplify.png|150px]]
+|-
+!Choose a card in your hand and increase its damage by 3 this negotiation
+!Choose up to 2 cards in your hand and increase its damage by 2 this negotiation
+|}

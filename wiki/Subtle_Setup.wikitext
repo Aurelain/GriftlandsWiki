@@ -1,0 +1,30 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Enduring Subtle Setup
+|upgrade2 = Pale Subtle Setup}}
+
+{{Quote|That's just so slick.}}
+
+'''Subtle Setup''' is a 1-cost Uncommon '''Manipulate''' card for [[Smith]]. It has the effect: "Create: Whenever this argument takes damage, deal that much damage to a random opponent argument. [[Expend]]".
+
+'''Subtle Setup''' is an argument with 4 resolve.
+
+==Upgrades==
+After accruing 9 experience '''Subtle Setup''' is able to be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Enduring Subtle Setup.png|150px]]
+|[[File: Pale Subtle Setup.png|150px]]
+|-
+!Remove [[Expend]]
+!Cost 1 action less
+|}

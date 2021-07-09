@@ -1,0 +1,28 @@
+{{Card
+|character = Smith
+|rarity = Common
+|cardtype = Maneuver
+|decktype = Battle
+|keywords = 
+|upgradeable = Yes
+|expreq = 10
+|upgrade1 = Visionary Push It
+|upgrade2 = Split Push It
+}}
+
+{{Quote|Now wait a minute y'all.}}
+
+'''Push It''' is a 0-cost Common '''Maneuver''' card for [[Smith]]. It has the effect: "Take 5 damage. Draw 2 cards".
+
+==Upgrades==
+After accruing 10 experience '''Push It''' is able to be upgraded. 
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Visionary Push It.png|150px]]
+|[[File: Split Push It.png|150px]]
+|-
+!Draw 3 cards
+!Take 3 damage twice
+|-
+|}

@@ -1,0 +1,7 @@
+'''Burnout''' is a generic [[Key Words|key word]].
+
+==Effect==
+In game description: "If this card is in your hand at the end of your turn, [[Expend]] it".
+
+
+[[Category:Keywords]]

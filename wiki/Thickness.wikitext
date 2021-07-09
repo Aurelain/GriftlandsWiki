@@ -1,0 +1,28 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defense]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Stone Thickness
+|upgrade2 = Regenerating Thickness}}
+
+{{Quote|I unloaded my whole magazine into them, and the psycho just smiled! Who does that!?}}
+
+'''Thickness''' is a 2-cost Rare '''Maneuver''' card for [[Smith]]. It has the effect: "Double your [[Defense]]. At the start of your next turn, lose no [[Defense]]".
+
+==Upgrades==
+After accruing 7 experience '''Thickness''' is able to be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Stone Thickness.png|150px]]
+|[[File: Regenerating Thickness.png|150px]]
+|-
+!Gain 5 [[Defense]], then double your [[Defense]].
+!Gain 3 [[Moxie]]
+|}

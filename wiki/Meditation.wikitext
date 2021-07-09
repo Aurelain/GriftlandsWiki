@@ -1,0 +1,34 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Moxie]], [[Alleviate]], [[Chain]]
+|upgradeable = No
+|expreq = 
+|upgrade1 = Meditation II
+|upgrade2 = Meditation III
+|upgrade3 = Meditation IV
+}}
+
+{{Quote|Clear your mind, no food or drink allowed on the premises sir.}}
+
+'''Kra'deshi Cup''' is a 2-cost Uncommon '''Maneuver''' card for [[Smith]]. It has the effect "Increase your [[Moxie]] by 1 this turn. [[Alleviate]] 2 health. [[Chain]]"
+
+==Chain==
+'''Kra'deshi Cup''' will [[Chain]] into the following cards:
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Meditation.png|150px]]
+|[[File: Meditation II.png|150px]]
+|[[File: Meditation III.png|150px]]
+|[[File: Meditation IV.png|150px]]
+|-
+!Increase [[Moxie]] by 1. [[Alleviate]] 2 health.
+!Increase [[Moxie]] by 2. [[Alleviate]] 3 health.
+!Increase [[Moxie]] by 3. [[Alleviate]] 4 health.
+!Increase [[Moxie]] by 3. Trigger your [[Moxie]].
+|}

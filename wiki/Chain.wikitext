@@ -1,0 +1,8 @@
+'''Chain''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "Transform this card and add it to your draw pile. If this goes into your discard pile, this card reverts to its basic form".
+
+
+
+[[Category:Keywords]]

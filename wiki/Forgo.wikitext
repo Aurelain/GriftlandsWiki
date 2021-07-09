@@ -1,0 +1,27 @@
+{{Reupload}}
+
+{{Card
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|expreq = 9
+|upgrade1 = Pale Forgo
+|upgrade2 = Boosted Forgo}}
+
+{{Quote|Dispense with the formalities.}}
+
+'''Forgo''' is a 1-cost Uncommon '''Manipulate''' card for [[Smith]]. It has the effect: "[[Expend]] a card in your hand, all other cards in your hand gain 2 damage until played".
+
+==Upgrades==
+After accruing 9 experience '''Forgo''' is able to be upgraded.
+
+{| class="wikitable" style="text-align:center"
+|-
+|[[File: Pale Forgo.png|150px]]
+|[[File: Boosted Forgo.png|150px]]
+|-
+!Cost 1 action less
+!All other cards in your hand gain 3 damage until played
+|}
