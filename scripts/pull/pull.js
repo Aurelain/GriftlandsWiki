@@ -71,6 +71,7 @@ const TEXT_NAMESPACES = {
     14: 'Category',
 };
 const FILES_NAMESPACE = 6;
+const TIMESTAMP_PATH = __dirname + '/timestamp.txt';
 
 // =====================================================================================================================
 //  P U B L I C
@@ -83,6 +84,12 @@ const FILES_NAMESPACE = 6;
  */
 const pull = async (focus = '', ethereal = false) => {
     try {
+        const timestamp = await getTimestamp();
+        if (ethereal) {
+            const localTimestamp = fs.readFileSync(TIMESTAMP_PATH, 'utf8');
+            assert(timestamp === localTimestamp, 'Cannot pull ethereally because the local state is outdated!');
+        }
+
         const pages = focus ? await getFocusedPages(focus) : await getAllInterestingPages();
 
         const status = inspect(pages, focus);
@@ -91,6 +98,7 @@ const pull = async (focus = '', ethereal = false) => {
             const pendingWrite = {...status.different, ...status.cloudOnly};
             writePages(pendingWrite);
             removeOrphanPages(status.localOnly);
+            fs.writeFileSync(TIMESTAMP_PATH, timestamp);
         }
 
         console.log('Finished pull.');
@@ -104,6 +112,28 @@ const pull = async (focus = '', ethereal = false) => {
 // =====================================================================================================================
 //  P R I V A T E
 // =====================================================================================================================
+/**
+ * https://griftlands.fandom.com/api.php?action=query&list=recentchanges&rcprop=timestamp&rclimit=1&format=json
+ */
+const getTimestamp = async () => {
+    console.log('Getting timestamp...');
+    const gotTimestamp = await got(ENDPOINT, {
+        method: 'get',
+        searchParams: {
+            action: 'query',
+            format: 'json',
+            list: 'recentchanges',
+            rcprop: 'timestamp',
+            rclimit: '1',
+        },
+        responseType: 'json',
+    });
+    const {body} = gotTimestamp;
+    const timestamp = body?.query?.recentchanges?.[0]?.timestamp;
+    assert(timestamp, 'Could not obtain online timestamp!');
+    return timestamp;
+};
+
 /**
  *
  */

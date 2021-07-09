@@ -22,10 +22,10 @@ const update = async () => {
     const factions = getFactions(zip);
     const prepared = prepareCharacters(characters, factions);
     const charactersStatus = inspectCharacters(prepared);
-    await writeCharactersSheet(characters);
     if (!(await guard(charactersStatus, true))) {
         return;
     }
+    await writeCharactersSheet(characters);
     writeCharacters(prepared);
 };
 
