@@ -7,6 +7,7 @@ const getFactions = require('./getFactions');
 const guard = require('../utils/guard');
 const prepareCharacters = require('./prepareCharacters');
 const inspectCharacters = require('./inspectCharacters');
+const writeCharactersSheet = require('./writeCharactersSheet');
 const {STORAGE, GAME_DIR} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -16,11 +17,12 @@ const {STORAGE, GAME_DIR} = require('../utils/CONFIG');
  *
  */
 const update = async () => {
-    const zip = new AdmZip(GAME_DIR + '/data_scripts.zip');
+    const zip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
     const characters = await getCharacters(zip);
     const factions = getFactions(zip);
     const prepared = prepareCharacters(characters, factions);
     const charactersStatus = inspectCharacters(prepared);
+    await writeCharactersSheet(characters);
     if (!(await guard(charactersStatus, true))) {
         return;
     }

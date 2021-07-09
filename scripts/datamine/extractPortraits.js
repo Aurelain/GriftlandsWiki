@@ -23,7 +23,7 @@ const extractPortraits = async (dataZip, scriptsZip) => {
     const dds = decompressDds(portraitsDds);
     const pipeline = sharp(dds.data, {raw: {width: dds.width, height: dds.height, channels: 4}}).png();
 
-    const characters = await getCharacters(scriptsZip, true);
+    const characters = await getCharacters(scriptsZip);
     for (const {name, uuid} of characters) {
         if (uuid) {
             await extractPortrait(name, uuid, dataZip, pipeline);
