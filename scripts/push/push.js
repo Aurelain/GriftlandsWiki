@@ -7,6 +7,7 @@ const {CookieJar} = require('tough-cookie');
 const attemptSelfRun = require('../utils/attemptSelfRun');
 const pull = require('../pull/pull');
 const guard = require('../utils/guard');
+const writeSafetyTimestamp = require('../utils/writeSafetyTimestamp');
 const {ENDPOINT, CREDENTIALS, RAW_WEB, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -155,7 +156,9 @@ const writeText = async (title, text, token) => {
         responseType: 'json',
         cookieJar,
     });
-    assert(body?.edit?.result === 'Success', JSON.stringify(body, null, 4));
+    assert(body?.edit?.result === 'Success', 'Could not write text!\n' + JSON.stringify(body, null, 4));
+    const newtimestamp = body.edit.newtimestamp;
+    writeSafetyTimestamp(newtimestamp);
 };
 
 /**
@@ -202,7 +205,9 @@ const uploadImage = async (title, filePath, token) => {
         responseType: 'json',
         cookieJar,
     });
-    assert(body?.upload?.result === 'Success', JSON.stringify(body, null, 4));
+    assert(body?.upload?.result === 'Success', 'Could not upload file!\n' + JSON.stringify(body, null, 4));
+    const newtimestamp = body.upload.imageinfo.timestamp;
+    writeSafetyTimestamp(newtimestamp);
 };
 
 /**

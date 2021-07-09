@@ -8,6 +8,8 @@ const tally = require('../utils/tally');
 const guard = require('../utils/guard');
 const inspect = require('./inspect');
 const getFilePath = require('../utils/getFilePath');
+const checkSafetyTimestamp = require('../utils/checkSafetyTimestamp');
+const writeSafetyTimestamp = require('../utils/writeSafetyTimestamp');
 const {ENDPOINT, STORAGE, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -71,7 +73,6 @@ const TEXT_NAMESPACES = {
     14: 'Category',
 };
 const FILES_NAMESPACE = 6;
-const TIMESTAMP_PATH = __dirname + '/timestamp.txt';
 
 // =====================================================================================================================
 //  P U B L I C
@@ -86,8 +87,7 @@ const pull = async (focus = '', ethereal = false) => {
     try {
         const timestamp = await getTimestamp();
         if (ethereal) {
-            const localTimestamp = fs.readFileSync(TIMESTAMP_PATH, 'utf8');
-            assert(timestamp === localTimestamp, 'Cannot pull ethereally because the local state is outdated!');
+            checkSafetyTimestamp(timestamp);
         }
 
         const pages = focus ? await getFocusedPages(focus) : await getAllInterestingPages();
@@ -98,7 +98,7 @@ const pull = async (focus = '', ethereal = false) => {
             const pendingWrite = {...status.different, ...status.cloudOnly};
             writePages(pendingWrite);
             removeOrphanPages(status.localOnly);
-            fs.writeFileSync(TIMESTAMP_PATH, timestamp);
+            writeSafetyTimestamp(timestamp);
         }
 
         console.log('Finished pull.');

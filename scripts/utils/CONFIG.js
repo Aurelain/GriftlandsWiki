@@ -54,6 +54,11 @@ const RAW_GAME = __dirname + '/../../raw/game';
  */
 const DEBUG = false;
 
+/**
+ * The location of a file containing the latest pulled or pushed timestamp of the online wiki.
+ */
+const SAFETY_TIMESTAMP_PATH = __dirname + '/safetyTimestamp.txt';
+
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
@@ -66,4 +71,5 @@ module.exports = {
     RAW_WEB,
     RAW_GAME,
     DEBUG,
+    SAFETY_TIMESTAMP_PATH,
 };
