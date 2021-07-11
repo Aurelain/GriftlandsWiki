@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Restrained
+  |body=<center>The damage of this card cannot be increased
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

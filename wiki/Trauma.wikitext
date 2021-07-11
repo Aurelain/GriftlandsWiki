@@ -1,0 +1,7 @@
+'''Trauma''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "Whenever owner is attacked, increase '''Trauma''' by 1. At 10 stacks, owner gains [[Traumatized]] and loses '''Trauma'''".
+
+
+[[Category:Keywords]]

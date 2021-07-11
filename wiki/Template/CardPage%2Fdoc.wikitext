@@ -1,0 +1,106 @@
+{{doc/start}}
+Use this Template for all card pages. 
+
+==General Usage==
+<pre style="overflow: auto;">
+{{CardPage
+|name = card's name. Skip it (or leave it empty) to use the pagename!
+|image = card's image. Skip it (or leave it empty) to use the pagename!
+|cost = card's cost
+|character = Sal / Rook / Smith / Other / Enemy
+|rarity = Basic / Common / Uncommon / Rare / Unique
+|decktype = Battle / Negotiation
+|cardtype = Attack / Maneuver / Hostility / Diplomacy / Manipulate / Item / Status / Parasite / Score
+|keywords = card's keywords / None
+|expreq = the amount of experience needed to upgrade the card
+|upgrade1 = the name of the first upgrade option of the current card.
+|upgrade1summary = some brief words that explain how this upgrade improves the current card
+|upgrade2 = 
+|upgrade2summary = 
+|upgrade3 = 
+|upgrade3summary = 
+|upgrade4 = 
+|upgrade4summary = 
+|upgrade5 = 
+|upgrade5summary = 
+|upgrade6 = 
+|upgrade6summary = 
+|upgrade7 = 
+|upgrade7summary = 
+|upgrade8 = 
+|upgrade8summary = 
+|upgrade9 =
+|upgrade9summary = 
+|upgrade10 =
+|upgrade10summary = 
+|special1 = the name of the first special card spawned by the current card
+|special2 = 
+|special3 = 
+|special4 = 
+|special5 = 
+|special6 = 
+|special7 = 
+|special8 = 
+|special9 =
+|special10 =
+|parent = the name of the primitive (original, normal) card that was upgraded to obtain the current card
+|generator = the name of the card that spawned the current card
+}}
+</pre>
+
+==Example: A card with upgrades and specials==
+<pre style="overflow: auto;">
+{{CardPage
+|name = Ammo Pouch
+|image = Ammo Pouch.png
+|quote = I can never find anything in these damned things.
+|description = Improvise a card from a pool of special cards.
+|cost = 1
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|character = Rook
+|keywords = [[Improvise]]
+|expreq = 8
+|upgrade1 = Promoted Ammo Pouch
+|upgrade1summary = Upgraded special cards
+|upgrade2 = Boosted Ammo Pouch
+|upgrade2summary = [[Improvise+]]
+|special1 = Spare Battery
+|special2 = Laser Sight
+|special3 = Scour
+|special4 = Rat Shot
+|special5 = Yote Shot
+|special6 = Tracer Round
+|special7 = Flow
+|special8 = Blowout
+|special9 = Deep Breath
+}}
+</pre>
+{{CardPage
+|name = Ammo Pouch
+|image = Ammo Pouch.png
+|quote = I can never find anything in these damned things.
+|description = Improvise a card from a pool of special cards.
+|cost = 1
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|character = Rook
+|keywords = [[Improvise]]
+|expreq = 8
+|upgrade1 = Promoted Ammo Pouch
+|upgrade1summary = Upgraded special cards
+|upgrade2 = Boosted Ammo Pouch
+|upgrade2summary = [[Improvise+]]
+|special1 = Spare Battery
+|special2 = Laser Sight
+|special3 = Scour
+|special4 = Rat Shot
+|special5 = Yote Shot
+|special6 = Tracer Round
+|special7 = Flow
+|special8 = Blowout
+|special9 = Deep Breath
+}}
+{{clear}}{{doc/end}}

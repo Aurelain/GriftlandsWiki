@@ -6,6 +6,7 @@ Use this infobox for all card pages.
 {{Card
 |name = 
 |image = 
+|cost = 
 |character = 
 |rarity = 
 |decktype = 
@@ -28,6 +29,7 @@ Use this infobox for all card pages.
 {{Card
 |name = card's name
 |image = card's image
+|cost = card's cost
 |character = Sal / Rook / Smith / Other / Enemy
 |rarity = Basic / Common / Uncommon / Rare / Unique
 |decktype = Battle / Negotiation
@@ -60,6 +62,10 @@ Use this infobox for all card pages.
 ! colspan="2" | [[File:Stab.png|250x250px]]
 |-
 ! colspan="2" class="infoboxdetails" | Details 
+|-
+| width=90 |<div>Cost</div>|| 1
+|-
+| width=90 |<div>Character</div>|| Sal
 |-
 | width=90 |<div>Rarity</div>|| {{Rarity|Basic}}
 |-
@@ -95,6 +101,7 @@ Use this infobox for all card pages.
 {{Card
 |name = Stab
 |image = Stab.png
+|cost = 1
 |character = Sal
 |rarity = Basic
 |decktype = Battle

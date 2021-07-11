@@ -39,6 +39,10 @@ Three generic NPCs owe Fssh a favor, and each offers Sal a job from the followin
 * [[Silence a Rival]]
 * [[Sing for your Supper]]
 * [[Travel Insurance]]
+* [[Private Security]]
+* [[A Matter of Faith]]
+* [[Secret Shopper]]
+* [[Middle Man]]
 
 The jobs have 3 different bonus rewards, which can be:
 
@@ -68,6 +72,6 @@ After completing the job, the person that you chose will lead you to the night m
 * Phroluk 'of the Beasts' sells various monster-related item cards and random pets each day. He can also upgrade or heal your current pet (NOTE: upgrading a pet won't make it trained, it will just increase their health and damage)
 
 == Boss Fight ==
-After you discover the night market, you'll need to go to the Grog n' Dog. There you will encounter [[Kashio]]. After exchanging some words, she'll depart, leaving her bodyguard to deal with you. Before fighting with him, you have a chance to convince the bouncer of the Grog n' Dog to fight with you. The bodyguard will either be [[Sparky]] or [[Jeol]]. After defeating the boss, you'll need to rest, which will restore your health and resolve and progress you to the next day.
+After you discover the night market, you'll need to go to the Grog n' Dog. There you will encounter [[Kashio]]. After exchanging some words, she'll depart, leaving her bodyguard to deal with you. Before fighting with him, you have a chance to convince the bouncer of the Grog n' Dog to fight with you. The bodyguard will either be [[Sparky]], [[Jeol]] or [[Buleet]]. After defeating the boss, you'll need to rest, which will restore your health and resolve and progress you to the next day.
 
 [[Category:Sal Quests]]

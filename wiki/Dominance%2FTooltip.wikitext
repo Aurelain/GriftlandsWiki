@@ -1,0 +1,7 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Dominance
+  |body=<center>Hostility cards deal an additional '''+X''' damage. Remove 1 stack at the start of your turn. 
+
+'''Dominance''' is an argument with 2 resolve.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

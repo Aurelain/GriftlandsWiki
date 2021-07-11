@@ -1,0 +1,6 @@
+{| class="wikitable" style="text-align:center; display:inline-block;"
+|-
+|{{CardLink|{{{1}}}}}
+|-
+|{{#if:{{{2|}}}|{{{2}}}|&nbsp;}}
+|}

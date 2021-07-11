@@ -1,0 +1,8 @@
+'''Traumatized''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "The next attack against owner deals double damage and reduces this by 1".
+
+A card with multiple hits is considered as one attack.
+
+[[Category:Keywords]]

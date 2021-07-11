@@ -1,0 +1,17 @@
+{{stub}}
+'''Sing for your Supper''' is a quest in [[{{Gamename}}]]. 
+==Difficulty==
+{{Difficulty|diff2}}
+
+==Focus==
+* Negotiation
+
+==Description==
+Cadwa is trying to get Gnak to turn informant. Gnak is looking for help to get out of this arrangement.
+
+==Rewards==
+* starting Bonus
+* Graft
+* 75 Shills
+* 2 Mettle (only on 2nd playthrough and above)
+[[Category:Quests]]

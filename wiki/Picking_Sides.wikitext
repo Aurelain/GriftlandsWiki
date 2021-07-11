@@ -1,0 +1,30 @@
+{{stub}}
+== Choosing Sides ==
+
+You can choose between the [[Spree]] and [[Admiralty]].
+
+Depending on which side you choose, you will have different quests lines throughout the next days and also will get different bonuses for the last battle.
+
+You will immediatly have the choice between 2 different faction cards for the faction you choose.
+There is a pool of different faction cards so you won't find the same once every run even if you choose the same side.
+The [[Spree]] faction card will be a battle card while the [[Admiralty]] card will be a negotiation card.
+
+== Faction quests ==
+
+=== [[Admiralty]] quests ===
+* [[Making Molehills]]
+
+=== [[Spree]] quests ===
+
+== Auction rewards ==
+These rewards are guranteed to be granted,
+if you complete the task given by Oolo or Nadan on the last day.
+If you fail that task, those rewards are not given.
+=== [[Admiralty]] ===
+* You gain a [[requisition chit]] for a free auction reward.<br>
+* This reward can be taken without having to do the auction negotiation event and is given before the auction starts.<br>
+* You gain an [[Call Oolo]] card, which provides valuable AOE for the fight.
+
+=== [[Spree]] ===
+* You can take a free auction reward from behind the scenes.<br>
+* You gain an [[Nadan]] card.

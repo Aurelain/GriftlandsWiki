@@ -1,0 +1,7 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Influence
+  |body=<center>All Diplomacy cards deal maximum damage.
+
+'''Influence''' is an argument with 2 resolve.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

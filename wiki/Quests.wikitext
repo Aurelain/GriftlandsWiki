@@ -15,7 +15,7 @@ Some quests in Sal's campaign may give an initial bonus of a card choice. Additi
 {{stub}}
 
 === Main Quests ===
-'''Sal's Campaign'''
+'''[[Sal's Campaign]]'''
 
 #[[Welcome to Havaria]]
 #[[Picking Sides]]
@@ -28,6 +28,7 @@ Some quests in Sal's campaign may give an initial bonus of a card choice. Additi
 #[[Stepping in it]]
 
 <br />
+
 === Side Quests ===
 '''Sal's Campaign'''
 

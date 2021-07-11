@@ -69,12 +69,45 @@ Sal has 10 unlock-able card sets. Each card set contains 3 negotiation and 3 bat
 *[[Arguments and Bar Fights]]
 *[[Distraction and Masters]]
 
+== NPC Encounters ==
+Sal can be found in Rook and Smith's stories through random encounters.
+
+=== Rook ===
+If playing as Rook, Sal will approach the player in Grout Bog for help tracking down a target from Murder Bay (a Spark Baron enforcer, Sparky or Jeol). The player can ask Sal questions about her background, in which she will playfully jab at Rook's old age, mention that she's afraid of reliving childhood trauma in the Bog, and reveal that she successfully killed Kashio, implying that ''"The Bog Job"'' takes place after ''"Hunting Kashio"''.
+
+==== Agree to the deal ====
+
+* If the player follows through and helps Sal fight the Spark Baron, Sal will love you regardless of whether you accept her money, granting the player her 'People Person' boon.
+* If the player refuses to take Sal's money as payment, Sal will offer Rook one of her cards instead, telling him "maybe one day you can be as tough as me".
+
+==== Agree to the deal but betray Sal/side with the Spark Baron ====
+
+* Sal will hate the player and angrily call Rook's mustache a rat tail before engaging in battle.
+
+=== Smith ===
+If playing as Smith, Sal will warily approach the player in Pearl-On-The-Foam with the intent to kill Smith. Sal will always have an upgraded pet in her party.
+
+==== Defend yourself (Fight Sal) ====
+
+* If Sal is spared, she will reveal that she was hired by Vixmalli to assassinate Smith. She describes Vix as "the Heshy one with the money".
+* If Sal is killed and her pet fled during battle, the pet will return to the scene and nuzzle Sal's corpse before becoming docile to Smith. The player will then have the option to leave the pet alone or take it along.
+
+==== Convince Sal not to attack you (Negotiate with Sal) ====
+
+* Sal will reveal that despite her distaste for Vixmalli, she took the job to earn enough money to return to Murder Bay. She mentions that she has personal business there and that Smith "isn't the only one with messed up family stuff to work out", implying that the events of ''"Hunting Kashio"'' take place after ''"The Inheritance"''.
+* Sal can be paid by Smith to lie to Vixmalli, telling him that she chased Smith out of town. She will then love the player and grant you her boon.
+* Sal is more serious and lacks the cheeky quips she usually says in her main campaign. It can be assumed that she was fresh off the derricks when she meets Smith.
+
 == Trivia ==
 
 * If Sal rescues a wild [[Yote]] before meeting Phroluk, she'll mention she's a "Crayote" person.
 * Fssh tells Sal she needs to re-teach her how to throw a punch after seeing her fight [[Sparky]] or [[Jeol]] and she'll hurt herself if she doesn't change her form. This interaction elaborates on Sal's training with Fssh as a child and is likely referring to [[Over Extension]].
 *Sal's Daggers are called Dag and Gurr, respectively. This is found on her Sal's Daggers card and its upgrade, Sal's Combo Daggers.
-**'This one's called Dag. The other one's called Gurr. Yeah? Well I don't like '''your''' name either, pal.'
+**"This one's called Dag. The other one's called Gurr. Yeah? Well I don't like '''your''' name either, pal."
+*Sal was friends with [[Prindo Kalandra]] in their childhood, and evidently still cares for her despite the passing of time.
+**''That night you dream you're a kid again, with the mud up to your armpits and your friend Prindo laughing at you.'' (Bedtime quip)
+**"Hold it. Whatever you're involved with, don't say anything that might get [[Prindo Kalandra|her]] in trouble." (Conversation with a Rise Rebel in the quest Rise and Shine)
+*Being the grifter who can use the battle card '[[Ravenous]]', Sal is not above cannibalism.
 
 [[Category:Heroes]]
 [[Category:Human]]

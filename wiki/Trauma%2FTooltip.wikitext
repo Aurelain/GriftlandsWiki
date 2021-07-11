@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Trauma
+  |body=<center>Whenever owner is attacked, increase '''Trauma''' by 1. At 10 stacks, owner gains '''Traumatized''' and loses '''Trauma'''
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

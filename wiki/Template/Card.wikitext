@@ -1,10 +1,14 @@
 {| class="infoboxtable"
 |-
-! colspan="2" class="infoboxname" |  {{{name|{{PAGENAME}}}}}
+! colspan="2" class="infoboxname" |  {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}
 |-
-{{#if: {{{image|}}} | ! colspan="2" {{!}} [[File:{{{image}}}|250x250px]] | {{#ifexist: File:{{PAGENAME}}.png | ! colspan="2" {{!}} [[File:{{{image|{{PAGENAME}}.png}}}|250x250px]] | {{#ifeq: {{NAMESPACE}} | Template | | [[Category:Infoboxes lacking images]]}} }} }}
+{{#if: {{{image|}}} | ! colspan="2" {{!}} [[File:{{{image}}}|250x250px]] | {{#ifexist: File:{{PAGENAME}}.png | ! colspan="2" {{!}} [[File:{{PAGENAME}}.png|250x250px]] | {{#ifeq: {{NAMESPACE}} | Template | | [[Category:Infoboxes lacking images]]}} }} }}
 |-
 ! colspan="2" class="infoboxdetails" | Details 
+|-
+{{#if: {{{cost|}}} | {{!}} width=90 {{!}}<div>Cost</div>{{!!}} {{{cost}}} }}
+|-
+{{#if: {{{character|}}} | {{!}} width=90 {{!}}<div>Character</div>{{!!}} {{{character}}} }}
 |-
 {{#if: {{{rarity|}}} | {{!}} width=90 {{!}}<div>Rarity</div>{{!!}} {{Rarity|{{{rarity}}}}} }}
 |-
@@ -20,26 +24,26 @@
 |-
 {{#if: {{{expreq|}}} | {{!}} width=90 {{!}}<div>XP required</div>{{!!}} {{{expreq}}} }}
 |-
-{{#if: {{{upgrade1|}}} | {{!}} width=90 {{!}}<div>Upgrade 1</div>{{!!}} {{{upgrade1}}} }}
+{{#if: {{{upgrade1|}}} | {{!}} width=90 {{!}}<div>Upgrade 1</div>{{!!}} [[{{{upgrade1}}}]] }}
 |-
-{{#if: {{{upgrade2|}}} | {{!}} width=90 {{!}}<div>Upgrade 2</div>{{!!}} {{{upgrade2}}} }}
+{{#if: {{{upgrade2|}}} | {{!}} width=90 {{!}}<div>Upgrade 2</div>{{!!}} [[{{{upgrade2}}}]] }}
 |-
-{{#if: {{{upgrade3|}}} | {{!}} width=90 {{!}}<div>Upgrade 3</div>{{!!}} {{{upgrade3}}} }}
+{{#if: {{{upgrade3|}}} | {{!}} width=90 {{!}}<div>Upgrade 3</div>{{!!}} [[{{{upgrade3}}}]] }}
 |-
-{{#if: {{{upgrade4|}}} | {{!}} width=90 {{!}}<div>Upgrade 4</div>{{!!}} {{{upgrade4}}} }}
+{{#if: {{{upgrade4|}}} | {{!}} width=90 {{!}}<div>Upgrade 4</div>{{!!}} [[{{{upgrade4}}}]] }}
 |-
-{{#if: {{{upgrade5|}}} | {{!}} width=90 {{!}}<div>Upgrade 5</div>{{!!}} {{{upgrade5}}} }}
+{{#if: {{{upgrade5|}}} | {{!}} width=90 {{!}}<div>Upgrade 5</div>{{!!}} [[{{{upgrade5}}}]] }}
 |-
-{{#if: {{{upgrade6|}}} | {{!}} width=90 {{!}}<div>Upgrade 6</div>{{!!}} {{{upgrade6}}} }}
+{{#if: {{{upgrade6|}}} | {{!}} width=90 {{!}}<div>Upgrade 6</div>{{!!}} [[{{{upgrade6}}}]] }}
 |-
-{{#if: {{{upgrade7|}}} | {{!}} width=90 {{!}}<div>Upgrade 7</div>{{!!}} {{{upgrade7}}} }}
+{{#if: {{{upgrade7|}}} | {{!}} width=90 {{!}}<div>Upgrade 7</div>{{!!}} [[{{{upgrade7}}}]] }}
 |-
-{{#if: {{{upgrade8|}}} | {{!}} width=90 {{!}}<div>Upgrade 8</div>{{!!}} {{{upgrade8}}} }}
+{{#if: {{{upgrade8|}}} | {{!}} width=90 {{!}}<div>Upgrade 8</div>{{!!}} [[{{{upgrade8}}}]] }}
 |-
-{{#if: {{{upgrade9|}}} | {{!}} width=90 {{!}}<div>Upgrade 9</div>{{!!}} {{{upgrade9}}} }}
+{{#if: {{{upgrade9|}}} | {{!}} width=90 {{!}}<div>Upgrade 9</div>{{!!}} [[{{{upgrade9}}}]] }}
 |-
-{{#if: {{{upgrade10|}}} | {{!}} width=90 {{!}}<div>Upgrade 10</div>{{!!}} {{{upgrade10}}} }}
+{{#if: {{{upgrade10|}}} | {{!}} width=90 {{!}}<div>Upgrade 10</div>{{!!}} [[{{{upgrade10}}}]] }}
 |}
-<includeonly>[[Category:All cards]]{{#if: {{{character|}}} | [[Category:{{{character}}} cards]] }}{{#if: {{{decktype|}}} | [[Category:{{{decktype}}} cards]] }}{{#if: {{{cardtype|}}} | [[Category:{{{cardtype}}} cards]] }}{{#if: {{{rarity|}}} | [[Category:{{{rarity}}} cards]] }}</includeonly>
+<includeonly>[[Category:All cards]]{{#if: {{{cost|}}} | [[Category:{{{cost}}}-cost cards]] }}{{#if: {{{character|}}} | [[Category:{{{character}}} cards]] }}{{#if: {{{decktype|}}} | [[Category:{{{decktype}}} cards]] }}{{#if: {{{cardtype|}}} | [[Category:{{{cardtype}}} cards]] }}{{#if: {{{rarity|}}} | [[Category:{{{rarity}}} cards]] }}</includeonly>
 <noinclude>{{clear}}{{doc}}
 [[Category:Infobox templates]]</noinclude>

@@ -1,0 +1,20 @@
+{{Reupload}}
+
+{{CardPage
+|quote = Nothing you've been saying has meant much of anything.
+|description = Create: If this argument is destroyed by you, recreate it and increase its damage by 3. [[Expend]]
+
+'''Hot Air''' targets an opponent argument each turn for 2-2 damage. '''Hot Air''' is an argument with 2 resolve.
+|cost = 1
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|character = Smith
+|keywords = [[Expend]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Pale Hot Air
+|upgrade1summary = Cost 1 action less
+|upgrade2 = Enduring Hot Air
+|upgrade2summary = Remove: [[Expend]]
+}}

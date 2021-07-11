@@ -1,0 +1,16 @@
+{{CardPage
+|quote = This will keep them busy.
+|description = Attack one per [[Trauma]] on your target. [[Restrained]]
+|cost = 2
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Smith
+|keywords = [[Trauma]], [[Restrained]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Boosted Knuckle Down
+|upgrade1summary = Deal 3 base damage
+|upgrade2 = Pale Knuckle Down
+|upgrade2summary = Cost 1 action less
+}}

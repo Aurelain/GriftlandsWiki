@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Traumatized
+  |body=<center>The next attack against owner deals double damage and reduces this by 1
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

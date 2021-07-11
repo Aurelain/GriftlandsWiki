@@ -99,7 +99,7 @@
     border-left-color: transparent;
     border-right-color: transparent;
     border-radius:5px;
-    color: #08e0db;
+    color: #ffffff;
     float: right;
     font-size: 89%; 
     margin-bottom: 0.5em; 
@@ -356,3 +356,51 @@ table.collapsed tr.collapsible {
 /***********************/
 /* end of fpbox layout */
 /***********************/
+
+/* scroll */
+::-webkit-scrollbar-button:vertical:increment {
+background-image:url('https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/f/f9/Scroll_bar_down.png/revision/latest?cb=20200830193428');
+background-repeat:no-repeat;
+width:11px;
+height:14px
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+background-image:url('https://static.wikia.nocookie.net/griftlands_gamepedia_en/images/8/8f/Scroll_bar_up.png/revision/latest?cb=20200830193429');
+background-repeat:no-repeat;
+width:11px;
+height:14px
+}
+
+::-webkit-scrollbar-track {
+background-color:black;
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 2px;
+border-radius: 2px;
+background-color:#08e0db;
+}
+
+::-webkit-scrollbar{
+width: 11px;
+}
+
+/* navigation blocks highlighting */
+.navhov {
+	transform: scale(0.9);
+	transition: all .5s;
+	display: inline-block;
+}
+ 
+.navhov:hover {
+	transform: scale(1);
+	transition: all .5s;
+	filter: brightness(130%) drop-shadow(0px 0px 10px #b2f4f3);
+}
+
+a:hover {
+  text-shadow: 0 0 4px;
+  text-decoration: none;
+  color: #08e0db;
+}

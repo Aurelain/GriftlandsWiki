@@ -1,0 +1,21 @@
+{{CardPage
+|quote = I can never find anything in these damned things.
+|description = [[Improvise]] a card from a pool of upgraded special cards.
+|cost = 1
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|character = Rook
+|keywords = [[Improvise]]
+|upgradeable = No
+|parent = Ammo Pouch
+|special1 = Boosted Spare Battery
+|special2 = Focused Laser Sight
+|special3 = Visionary Scour
+|special4 = Boosted Rat Shot
+|special5 = Boosted Yote Shot
+|special6 = Boosted Tracer Round
+|special7 = Boosted Flow
+|special8 = Boosted Blowout
+|special9 = Deeper Breath
+}}

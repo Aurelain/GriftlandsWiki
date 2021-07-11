@@ -1,0 +1,7 @@
+'''Restrained''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "The damage of this card cannot be increased".
+
+
+[[Category:Keywords]]

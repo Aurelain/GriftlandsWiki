@@ -1,0 +1,73 @@
+{{Card
+|name = {{#if:{{{name|}}}|{{{name}}}}}
+|image = {{#if:{{{image|}}}|{{{image}}}}}
+|cost = {{#if:{{{cost|}}}| {{{cost}}} }}
+|character = {{#if:{{{character|}}}| {{{character}}} }}
+|rarity = {{#if:{{{rarity|}}}| {{{rarity}}} }}
+|decktype = {{#if:{{{decktype|}}}| {{{decktype}}} }}
+|cardtype = {{#if:{{{cardtype|}}}| {{{cardtype}}} }}
+|keywords = {{#if:{{{keywords|}}}| {{{keywords}}} }}
+|upgradeable = {{#if:{{{upgradeable|}}}| {{{upgradeable}}} }}
+|expreq = {{#if:{{{expreq|}}}| {{{expreq}}} }}
+|upgrade1 = {{#if:{{{upgrade1|}}}| {{{upgrade1}}} }}
+|upgrade2 = {{#if:{{{upgrade2|}}}| {{{upgrade2}}} }}
+|upgrade3 = {{#if:{{{upgrade3|}}}| {{{upgrade3}}} }}
+|upgrade4 = {{#if:{{{upgrade4|}}}| {{{upgrade4}}} }}
+|upgrade5 = {{#if:{{{upgrade5|}}}| {{{upgrade5}}} }}
+|upgrade6 = {{#if:{{{upgrade6|}}}| {{{upgrade6}}} }}
+|upgrade7 = {{#if:{{{upgrade7|}}}| {{{upgrade7}}} }}
+|upgrade8 = {{#if:{{{upgrade8|}}}| {{{upgrade8}}} }}
+|upgrade9 = {{#if:{{{upgrade9|}}}| {{{upgrade9}}} }}
+|upgrade10 = {{#if:{{{upgrade10|}}}| {{{upgrade10}}} }}
+}}
+{{Quote|{{{quote}}}}}
+'''{{PAGENAME}}''' is a {{{cost}}}-cost {{{rarity}}} [[:Category:{{{cardtype}}}_cards|{{{cardtype}}}]] card for [[{{{character}}}]].
+<!-- ====================== D E S C R I P T I O N ====================== -->
+==Description==
+{{{description}}}
+<!-- ====================== U P G R A D E S ====================== -->
+{{#if:{{{upgrade1|}}}|
+==Upgrades==
+}}<!--
+-->
+{{#if:{{{expreq|}}}|
+After accruing {{{expreq}}} experience, '''{{PAGENAME}}''' can be upgraded:<br />
+}}<!--
+-->{{#if:{{{upgrade1|}}}|{{CardUpgrade|{{{upgrade1}}}|{{{upgrade1summary|}}}}}|<b></b>}}
+{{#if:{{{upgrade2|}}}|{{CardUpgrade|{{{upgrade2}}}|{{{upgrade2summary|}}}}}|<b></b>}}
+{{#if:{{{upgrade3|}}}|{{CardUpgrade|{{{upgrade3}}}|{{{upgrade3summary|}}}}}|<b></b>}}
+{{#if:{{{upgrade4|}}}|{{CardUpgrade|{{{upgrade4}}}|{{{upgrade4summary|}}}}}|<b></b>}}
+{{#if:{{{upgrade5|}}}|{{CardUpgrade|{{{upgrade5}}}|{{{upgrade5summary|}}}}}|<b></b>}}
+{{#if:{{{upgrade6|}}}|{{CardUpgrade|{{{upgrade6}}}|{{{upgrade6summary|}}}}}|<b></b>}}
+{{#if:{{{upgrade7|}}}|{{CardUpgrade|{{{upgrade7}}}|{{{upgrade7summary|}}}}}|<b></b>}}
+{{#if:{{{upgrade8|}}}|{{CardUpgrade|{{{upgrade8}}}|{{{upgrade8summary|}}}}}|<b></b>}}
+{{#if:{{{upgrade9|}}}|{{CardUpgrade|{{{upgrade9}}}|{{{upgrade9summary|}}}}}|<b></b>}}
+{{#if:{{{upgrade10|}}}|{{CardUpgrade|{{{upgrade10}}}|{{{upgrade10summary|}}}}}|<b></b>}}
+<!-- ====================== S P E C I A L S ====================== -->
+{{#if:{{{special1|}}}|
+==Special cards==
+'''{{PAGENAME}}''' may spawn the following cards:<br /><br />
+}}<!--
+-->{{#if:{{{special1|}}}|{{CardLink|{{{special1}}}}}|<b></b>}}
+{{#if:{{{special2|}}}|{{CardLink|{{{special2}}}}}|<b></b>}}
+{{#if:{{{special3|}}}|{{CardLink|{{{special3}}}}}|<b></b>}}
+{{#if:{{{special4|}}}|{{CardLink|{{{special4}}}}}|<b></b>}}
+{{#if:{{{special5|}}}|{{CardLink|{{{special5}}}}}|<b></b>}}
+{{#if:{{{special6|}}}|{{CardLink|{{{special6}}}}}|<b></b>}}
+{{#if:{{{special7|}}}|{{CardLink|{{{special7}}}}}|<b></b>}}
+{{#if:{{{special8|}}}|{{CardLink|{{{special8}}}}}|<b></b>}}
+{{#if:{{{special9|}}}|{{CardLink|{{{special9}}}}}|<b></b>}}
+{{#if:{{{special10|}}}|{{CardLink|{{{special10}}}}}|<b></b>}}
+<!-- ====================== P A R E N T ====================== -->
+{{#if:{{{parent|}}}|
+==Parent card==
+'''{{PAGENAME}}''' is the upgraded version of:<br />
+{{CardLink|{{{parent}}}}}
+}}
+<!-- ====================== G E N E R A T O R ====================== -->
+{{#if:{{{generator|}}}|
+==Generator card==
+'''{{PAGENAME}}''' is spawned by:<br />
+{{CardLink|{{{generator}}}}}
+}}
+<noinclude>{{clear}}{{doc}}</noinclude>

@@ -1,4 +1,5 @@
-{{Tocright}}
+This article is old, potentially outdated, incomplete and is low on links. For another overview of [[Sal's campaign]], consider [[Sal's campaign|this]] article.
+
 {{quote|Sal escapes a life of servitude to claim the ultimate bounty—and get her revenge.}}
 
 Hunting Kashio is the first campaign for [[Sal]].
@@ -25,7 +26,7 @@ Night Merchant Quest
 
 Limited Time Opportunity
 
-Boss: [[Drone Master Jeol]] or [[Sparky]]. First, you can negotiate with the bouncer to add them to your party in the fight.
+Boss: [[Jeol]] or [[Sparky]]. First, you can negotiate with the bouncer to add them to your party in the fight.
 
 === Day 2: Picking Sides ===
 
