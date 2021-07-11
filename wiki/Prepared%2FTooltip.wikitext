@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Prepared
+  |body=<center>A card is '''Prepared''' if it is the left-most card in your hand.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

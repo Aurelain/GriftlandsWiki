@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Flustered
+  |body=<center>Reduces damage by 33%. Remove 1 stack at the end of owner's turn
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

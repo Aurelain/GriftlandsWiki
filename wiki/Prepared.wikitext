@@ -1,0 +1,6 @@
+'''Prepared''' is a Negotiation [[Key Words|key word]] for [[Rook]].
+
+==Effect==
+In game description: "A card is '''Prepared''' if it is the left-most card in your hand".
+
+[[Category:Keywords]]

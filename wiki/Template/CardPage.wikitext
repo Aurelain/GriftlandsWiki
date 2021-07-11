@@ -21,7 +21,9 @@
 |upgrade10 = {{#if:{{{upgrade10|}}}| {{{upgrade10}}} }}
 }}
 {{Quote|{{{quote}}}}}
-'''{{PAGENAME}}''' is a {{{cost}}}-cost {{{rarity}}} [[:Category:{{{cardtype}}}_cards|{{{cardtype}}}]] card for [[{{{character}}}]].
+'''{{PAGENAME}}''' is
+{{#if:{{{cost|}}}|a {{{cost}}}-cost|an [[Unplayable]]}}
+{{{rarity}}} [[:Category:{{{cardtype}}}_cards|{{{cardtype}}}]] card for [[{{{character}}}]].
 <!-- ====================== D E S C R I P T I O N ====================== -->
 ==Description==
 {{{description}}}
@@ -61,7 +63,7 @@ After accruing {{{expreq}}} experience, '''{{PAGENAME}}''' can be upgraded:<br /
 <!-- ====================== P A R E N T ====================== -->
 {{#if:{{{parent|}}}|
 ==Parent card==
-'''{{PAGENAME}}''' is the upgraded version of:<br />
+'''{{PAGENAME}}''' is an upgraded version of:<br />
 {{CardLink|{{{parent}}}}}
 }}
 <!-- ====================== G E N E R A T O R ====================== -->

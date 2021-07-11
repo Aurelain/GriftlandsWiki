@@ -1,0 +1,9 @@
+'''Set the coin''' is a Negotiation [[Key Words|key word]] for [[Rook]].
+
+==Effect==
+In game description: "Choose a side of the coin and flip it to that side".
+
+You will gain the effect of your Coin regardless of the current side.
+
+
+[[Category:Keywords]]

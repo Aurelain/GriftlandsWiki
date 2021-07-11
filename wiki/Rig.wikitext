@@ -1,0 +1,6 @@
+'''Rig''' is a Negotiation [[Key Words|key word]] for [[Rook]].
+
+==Effect==
+In game description: "Guarantees the result of your next gamble. Only one outcome can be rigged at a time".
+
+[[Category:Keywords]]

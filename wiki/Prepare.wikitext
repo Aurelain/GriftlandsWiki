@@ -1,0 +1,6 @@
+'''Prepare''' is a Negotiation [[Key Words|key word]] for [[Rook]].
+
+==Effect==
+In game description: "Choose a card in your hand and move it to the prepared (left-most) position".
+
+[[Category:Keywords]]

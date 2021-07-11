@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Set the coin
+  |body=<center>Choose a side of the coin and flip it to that side.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

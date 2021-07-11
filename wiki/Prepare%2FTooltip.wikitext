@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Prepare
+  |body=<center>Choose a card in your hand and move it to the prepared (left-most) position
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

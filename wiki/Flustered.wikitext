@@ -1,0 +1,6 @@
+'''Flustered''' is a Negotiation [[Key Words|key word]].
+
+==Effect==
+In game description: "Reduces damage by 33%. Remove 1 stack at the end of owner's turn".
+
+[[Category:Keywords]]

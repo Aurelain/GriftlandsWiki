@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Rig
+  |body=<center>Guarantees the result of your next gamble. Only one outcome can be rigged at a time
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>
