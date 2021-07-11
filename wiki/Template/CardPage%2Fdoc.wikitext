@@ -4,6 +4,8 @@ Use this Template for all card pages.
 ==General Usage==
 <pre style="overflow: auto;">
 {{CardPage
+|quote = card's flavour
+|description = card's in-game description
 |name = card's name. Skip it (or leave it empty) to use the pagename!
 |image = card's image. Skip it (or leave it empty) to use the pagename!
 |cost = card's cost
@@ -45,6 +47,25 @@ Use this Template for all card pages.
 |special10 =
 |parent = the name of the primitive (original, normal) card that was upgraded to obtain the current card
 |generator = the name of the card that spawned the current card
+}}
+</pre>
+
+==Common Usage==
+<pre style="overflow: auto;">
+{{CardPage
+|quote = 
+|description = 
+|cost = 
+|character = Sal / Rook / Smith / Other / Enemy
+|rarity = Basic / Common / Uncommon / Rare / Unique
+|decktype = Battle / Negotiation
+|cardtype = Attack / Maneuver / Hostility / Diplomacy / Manipulate / Item / Status / Parasite / Score
+|keywords = 
+|expreq = 
+|upgrade1 = 
+|upgrade1summary = 
+|upgrade2 = 
+|upgrade2summary = 
 }}
 </pre>
 

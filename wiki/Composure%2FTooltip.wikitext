@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Composure
+  |body=<center>Reduce resolve loss for one turn
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

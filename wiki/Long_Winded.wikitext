@@ -1,0 +1,16 @@
+{{CardPage
+|quote = Great, you got him started. We're going to be here a while.
+|description = Draw 2 cards and play them for free. [[Expend]]
+|cost = 1
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|character = Smith
+|keywords = [[Expend]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Pale Long Winded
+|upgrade1summary = Cost 1 action less
+|upgrade2 = Visionary Long Winded
+|upgrade2summary = Draw 3 cards
+}}

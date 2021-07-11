@@ -1,0 +1,9 @@
+'''Composure''' is a Negotiation [[Key Words|key word]].
+
+'''Composure''' is a temporary stat applied to an argument that resets to 0 at the start of each turn or is removed by attacks.
+
+
+==Effect==
+In game description: "Reduce resolve loss for one turn".
+
+[[Category:Keywords]]

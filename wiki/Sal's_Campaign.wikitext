@@ -1,1 +1,45 @@
-#REDIRECT [[Sal's Campaign]]
+For an overview of when limited opportunities are available sometimes,
+consider [[Hunting_Kashio#Timeline|this]] article.
+
+== Day 1 [[Welcome to Havaria]] ==
+* Choose a [[Welcome_to_Havaria#Lost and Found|starting bonus]].<br>
+* Complete 2 [[Welcome_to_Havaria#Pick_a_Job|Job Quests]].<br>
+* Complete 1 [[Welcome_to_Havaria#Night_Merchants|Night Merchant Quest]].<br>
+* Complete 1 [[Welcome_to_Havaria#boss fight|Boss Fight]].<br>
+* You will be able to sleep restoring all or 50% of your [[health]] and [[resolve]] depending on [[difficulty]].
+
+Strategy note: You can't eat or drink after visiting the night market, because entering the [[Grog n' Dog]] you will trigger the last fight, so if you suffered any [[health]] or [[resolve]] damage that you want to heal before the final encounter, your last chance to do so, is before visiting the night market itself after the night market quest (so before turning the quest in).
+
+== Day 2 [[Picking Sides]] ==
+* [[Picking_Sides|Choose a side]].<br>
+* Complete 1 [[Picking_Sides#Faction_quests|Faction quest]].<br>
+* You will be able to sleep, but you are ambushed by an Assassin Boss, either:
+** [[Zyn]]
+** [[Hanbi]].
+* You will be able to decide if to kill the boss yourself, let [[Fssh]] kill him, or let him off.<br>
+* You will be able to sleep restoring all or 50% of your [[health]] and [[resolve]] depending on [[difficulty]].
+
+== Day 3 [[Getting Settled]] ==
+* Choose one of 2 [[Getting_Settled#Faction_quests|Faction quests]].<br>
+* Then help [[Fssh]] get contraband from the docks in the quest [[Roaloch and Load]].<br>
+** This involves 2 negotiations or fights,<br>
+** and then a boss fight against either:<br>
+*** [[Shroog]] and 3 smaller [[Shroog#Shrooglets|Shrooglets]] <br>
+*** [[Crimson Drusk]] and [[Ochre Drusk]]<br>
+* You will be able to sleep restoring all or 50% of your [[health]] and [[resolve]] depending on [[difficulty]].
+
+== Day 4 [[Final Pieces]] ==
+* Complete 1 [[Faction Side Quest]].<br>
+* Complete either:
+** [[Capture Nadan]], if you sided with Admiralty,
+** [[Assassinate Oolo]], if you sided with the Spree.
+* You will be able to sleep restoring all or 50% of your [[health]] and [[resolve]] depending on [[difficulty]].
+
+== Day 5 [[Auction Day]] ==
+* Go to the auction.<br>
+* Finish the last Negotiation or fight before the auction to get [[Picking_Sides#Auction_rewards|special rewards]], that might help in the final boss fight.
+* Either: 
+** partake at the auction to get some extra items or grafts,<br>
+** go directly for the boss fight.
+If you partake at the auction you will most likely get discovered by the end boss and have to fight,
+but the fighting condition are the same in both choices.
