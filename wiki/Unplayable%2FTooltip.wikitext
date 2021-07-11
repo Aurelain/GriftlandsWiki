@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Unplayable
+  |body=<center>This card can not be played.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

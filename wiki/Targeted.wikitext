@@ -1,0 +1,8 @@
+'''Targeted''' is a Battle [[Key Words|key word]].
+
+==Effect==
+In game description: "All non-player characters will prioritize this target".
+
+
+
+[[Category:Keywords]]

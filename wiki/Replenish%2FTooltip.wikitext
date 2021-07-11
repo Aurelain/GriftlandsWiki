@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Replenish
+  |body=<center>When this card is drawn, draw another card.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

@@ -1,0 +1,20 @@
+{{Reupload}}
+
+{{CardPage
+|quote = A for effort.
+|description = Deals 1-6 base damage.
+
+[[Prepared]]: Gain 2 [[Influence]].
+|cost = 1
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|character = Rook
+|keywords = [[Prepared]], [[Influence]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Cordial Praise
+|upgrade1summary = [[Prepared]]: Gain 3 [[Influence]]
+|upgrade2 = Tall Praise
+|upgrade2summary = Deals 1-8 base damage
+}}

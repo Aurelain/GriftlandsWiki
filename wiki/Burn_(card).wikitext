@@ -1,0 +1,18 @@
+{{CardPage
+|name = Burn
+|image = Burn.png
+|quote = Alright already! I said no guns!
+|description = [[Snails]]: Hits all opponent arguments
+|cost = 1
+|damage = 2
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Snails]]
+|expreq = 9
+|upgrade1 = Tall Burn
+|upgrade1summary = Max damage +2
+|upgrade2 = Boosted Burn
+|upgrade2summary = Damage +1
+}}

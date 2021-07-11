@@ -21,7 +21,7 @@
 |upgrade10 = {{#if:{{{upgrade10|}}}| {{{upgrade10}}} }}
 }}
 {{Quote|{{{quote}}}}}
-'''{{PAGENAME}}''' is
+'''{{{name|{{PAGENAME}}}}}''' is
 {{#if:{{{cost|}}}|a {{{cost}}}-cost|an [[Unplayable]]}}
 {{{rarity}}} [[:Category:{{{cardtype}}}_cards|{{{cardtype}}}]] card for [[{{{character}}}]].
 <!-- ====================== D E S C R I P T I O N ====================== -->
@@ -33,7 +33,7 @@
 }}<!--
 -->
 {{#if:{{{expreq|}}}|
-After accruing {{{expreq}}} experience, '''{{PAGENAME}}''' can be upgraded:<br />
+After accruing {{{expreq}}} experience, '''{{{name|{{PAGENAME}}}}}''' can be upgraded:<br />
 }}<!--
 -->{{#if:{{{upgrade1|}}}|{{CardUpgrade|{{{upgrade1}}}|{{{upgrade1summary|}}}}}|<b></b>}}
 {{#if:{{{upgrade2|}}}|{{CardUpgrade|{{{upgrade2}}}|{{{upgrade2summary|}}}}}|<b></b>}}
@@ -48,7 +48,7 @@ After accruing {{{expreq}}} experience, '''{{PAGENAME}}''' can be upgraded:<br /
 <!-- ====================== S P E C I A L S ====================== -->
 {{#if:{{{special1|}}}|
 ==Special cards==
-'''{{PAGENAME}}''' may spawn the following cards:<br /><br />
+'''{{{name|{{PAGENAME}}}}}''' may spawn the following cards:<br /><br />
 }}<!--
 -->{{#if:{{{special1|}}}|{{CardLink|{{{special1}}}}}|<b></b>}}
 {{#if:{{{special2|}}}|{{CardLink|{{{special2}}}}}|<b></b>}}
@@ -63,13 +63,13 @@ After accruing {{{expreq}}} experience, '''{{PAGENAME}}''' can be upgraded:<br /
 <!-- ====================== P A R E N T ====================== -->
 {{#if:{{{parent|}}}|
 ==Parent card==
-'''{{PAGENAME}}''' is an upgraded version of:<br />
+'''{{{name|{{PAGENAME}}}}}''' is an upgraded version of:<br />
 {{CardLink|{{{parent}}}}}
 }}
 <!-- ====================== G E N E R A T O R ====================== -->
 {{#if:{{{generator|}}}|
 ==Generator card==
-'''{{PAGENAME}}''' is spawned by:<br />
+'''{{{name|{{PAGENAME}}}}}''' is spawned by:<br />
 {{CardLink|{{{generator}}}}}
 }}
 <noinclude>{{clear}}{{doc}}</noinclude>

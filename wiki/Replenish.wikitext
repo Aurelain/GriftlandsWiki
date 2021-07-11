@@ -1,0 +1,7 @@
+'''Replenish''' is a generic [[Key Words|key word]].
+
+==Effect==
+In game description: "When this card is drawn, draw another card".
+
+
+[[Category:Keywords]]

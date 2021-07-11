@@ -1,0 +1,4 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Resonance
+  |body=<center>Whenever a card is '''Improvised''', lose 1 health.</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

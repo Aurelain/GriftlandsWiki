@@ -1,0 +1,16 @@
+{{CardPage
+|quote = Those aren't even words.
+|description = [[Prepared]]: +3 damage and draw a card.
+|cost = 1
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|character = Rook
+|keywords = [[Prepared]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Grunt
+|upgrade1summary = Deals 3-5 base damage
+|upgrade2 = Enhanced Grunt
+|upgrade2summary = [[Prepared]]: +5 damage and draw a card
+}}

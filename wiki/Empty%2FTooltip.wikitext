@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Empty
+  |body=<center> This card has an additional effect if you have no '''Charge'''.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

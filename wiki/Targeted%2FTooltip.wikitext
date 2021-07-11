@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Targeted
+  |body=<center>All non-player characters will prioritize this target.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

@@ -1,0 +1,20 @@
+{{Reupload}}
+
+{{CardPage
+|quote = You've been practicing!
+|description = Deals 3-4 base damage.
+
+Next turn, draw 2 additional cards.
+|cost = 1
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|character = Rook
+|keywords = 
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Direct Hit
+|upgrade1summary = Deals 6-8 base damage
+|upgrade2 = Visionary Hit
+|upgrade2summary = Next turn, draw 3 additional cards
+}}

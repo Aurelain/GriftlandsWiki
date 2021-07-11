@@ -1,0 +1,7 @@
+'''Empty''' is a Battle [[Key Words|key word]] for [[Rook]].
+
+==Effect==
+In game description: "This card has an additional effect if you have no [[Charge]]".
+
+
+[[Category:Keywords]]

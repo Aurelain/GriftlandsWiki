@@ -1,4 +1,5 @@
 {{ {{{1|Tooltip hover box}}}
   |title=<center>Hatch</center>
-  |body=<center>When this card reaches full XP, it is destroyed and triggers a special event.</center>
+  |body=<center>When this card's effect is triggered the specified number of times, it is destroyed and a special event occurs. The hatch counter is not changed while fatigued.
+</center>
 }}<noinclude>[[Category:Tooltip templates]]</noinclude>
