@@ -19,22 +19,25 @@ const writeCardsSheet = async (bag) => {
         const card = bag[id];
         const row = [];
         row.push(id);
-        row.push(card.name);
-        row.push(card.desc);
-        row.push(card.flavour);
-        row.push(card.rarity);
-        row.push(card.parent);
-        row.push(card.upgrade1);
-        row.push(card.upgrade2);
-        row.push(card.upgrade3);
-        row.push(card.upgrade4);
-        row.push(card.upgrade5);
-        row.push(card.upgrade6);
-        row.push(card.upgrade7);
-        row.push(card.upgrade8);
-        row.push(card.upgrade9);
-        row.push(card.upgrade10);
-        row.push(card.cost);
+        row.push(card.name || ' ');
+        row.push(card.desc || ' ');
+        row.push(card.deckType || ' ');
+        row.push(card.cardType || ' ');
+        row.push(card.keywords || ' ');
+        row.push(card.flavour || ' ');
+        row.push(card.rarity || ' ');
+        row.push(card.parent || ' ');
+        row.push(card.upgrade1 || ' ');
+        row.push(card.upgrade2 || ' ');
+        row.push(card.upgrade3 || ' ');
+        row.push(card.upgrade4 || ' ');
+        row.push(card.upgrade5 || ' ');
+        row.push(card.upgrade6 || ' ');
+        row.push(card.upgrade7 || ' ');
+        row.push(card.upgrade8 || ' ');
+        row.push(card.upgrade9 || ' ');
+        row.push(card.upgrade10 || ' ');
+        row.push(card.cost || ' ');
         row.push(card.xp);
         row.push(card.minDamage);
         row.push(card.maxDamage);
@@ -53,6 +56,9 @@ const writeCardsSheet = async (bag) => {
         'Id',
         'Name',
         'Description',
+        'DeckType',
+        'CardType',
+        'Keywords',
         'Flavour',
         'Rarity',
         'Parent',

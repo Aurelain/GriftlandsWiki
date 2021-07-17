@@ -6,7 +6,40 @@ const removeUndefined = require('../utils/removeUndefined');
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-let count = 0;
+const RARITIES = {
+    'CARD_RARITY.BASIC': 'Basic',
+    'CARD_RARITY.COMMON': 'Common',
+    'CARD_RARITY.UNCOMMON': 'Uncommon',
+    'CARD_RARITY.RARE': 'Rare',
+    'CARD_RARITY.UNIQUE': 'Unique',
+    'CARD_RARITY.BOSS': 'Boss',
+};
+
+/**
+ *  data_scripts/scripts/battle/battle_defs.lua
+ *  or
+ *  data_scripts/scripts/negotiation/negotiation_defs.lua
+ */
+const KEYWORDS = {
+    'CARD_FLAGS.UNPLAYABLE': 'Unplayable',
+    'CARD_FLAGS.EXPEND': 'Expend',
+    'CARD_FLAGS.MULTISHOT': 'Multishot',
+    'CARD_FLAGS.AMBUSH': 'Ambush',
+    'CARD_FLAGS.CONSUME': 'Destroy',
+    'CARD_FLAGS.PIERCING': 'Piercing',
+    'CARD_FLAGS.PARASITE': 'Parasite',
+    'CARD_FLAGS.FLOURISH': 'Flourish',
+    'CARD_FLAGS.STICKY': 'Sticky',
+    'CARD_FLAGS.TOOLBOX': 'Toolbox',
+    'CARD_FLAGS.BURNOUT': 'Burnout',
+    'CARD_FLAGS.RESTRAINED': 'Restrained',
+    'CARD_FLAGS.SCORE': 'Score',
+    'CARD_FLAGS.GALVANIZED': 'Galvanized',
+    'CARD_FLAGS.SLIMY': 'Slimy',
+    'CARD_FLAGS.SLEEP_IT_OFF': 'Sleep It Off',
+    'CARD_FLAGS.COMBO_FINISHER': 'Finisher',
+    'CARD_FLAGS.DUD': 'Dud',
+};
 
 // =====================================================================================================================
 //  P U B L I C
@@ -64,17 +97,26 @@ const collectCardsFromLua = (luaContent, luaName) => {
             continue;
         }
         const name = captureText(enclosure, 'name');
+
+        const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
         output[id] = removeUndefined({
             id,
             name,
             desc: captureText(enclosure, 'desc'),
-            rarity,
-            flavour: captureText(enclosure, 'flavour') || ' ',
+            deckType: parseDeckType(flags),
+            cardType: parseCardType(flags),
+            keywords: parseKeywords(flags),
+            rarity: RARITIES[rarity],
+            flavour: cleanFlavour(captureText(enclosure, 'flavour')),
             cost: captureNumber(enclosure, 'cost'),
             xp: captureNumber(enclosure, 'max_xp'),
             minDamage: captureNumber(enclosure, 'min_damage'),
             maxDamage: captureNumber(enclosure, 'min_damage'),
         });
+        if (name === 'Overdrive') {
+            console.log('enclosure:', enclosure);
+            console.log('output[id]: ' + JSON.stringify(output[id], null, 4));
+        }
     }
     return output;
 };
@@ -97,6 +139,55 @@ const captureText = (text, prop) => {
     const re = new RegExp('\\s*' + prop + '\\s*=\\s*"([\\s\\S]+?)"');
     const found = text.match(re) || [];
     return found[1];
+};
+
+/**
+/**
+ *
+ */
+const cleanFlavour = (flavour) => {
+    if (!flavour) {
+        return;
+    }
+    flavour = flavour.replace(/^['’]+/m, '');
+    flavour = flavour.replace(/^['’]+$/m, '');
+    return flavour;
+};
+
+/**
+ *
+ */
+const parseDeckType = (flags) => {
+    if (!flags) {
+        return;
+    }
+    return undefined;
+};
+
+/**
+ *
+ */
+const parseCardType = (flags) => {
+    if (!flags) {
+        return;
+    }
+    return undefined;
+};
+
+/**
+ *
+ */
+const parseKeywords = (flags) => {
+    if (!flags) {
+        return;
+    }
+    const keywords = [];
+    for (const keyword in KEYWORDS) {
+        if (flags.includes(keyword)) {
+            keywords.push(KEYWORDS[keyword]);
+        }
+    }
+    return keywords.length ? keywords.join(', ') : undefined;
 };
 
 /**
