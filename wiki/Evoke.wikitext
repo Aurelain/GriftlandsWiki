@@ -1,0 +1,6 @@
+'''Evoke''' is a Negotiation [[Key Words|key word]].
+
+==Effect==
+In game description: "Once per turn, play this card for from free wherever it is when the specified requirements are met".
+
+[[Category:Keywords]]

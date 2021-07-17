@@ -1,0 +1,16 @@
+{{CardPage
+|quote = Alright, that's getting a little too underhanded.
+|description = The next card played this turn is played twice. </br> [[Expend]]
+|cost = 1
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|character = Sal
+|keywords = [[Expend]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Enduring Duplicity
+|upgrade1summary = Remove [[Expend]]
+|upgrade2 = Pale Duplicity
+|upgrade2summary = Cost 1 action less
+}}

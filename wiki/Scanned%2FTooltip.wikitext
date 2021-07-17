@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Scanned
+  |body=<center>Whenever you attack this target, draw a card. At the start of the owner's turn, remove 1 '''Scanned'''.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Dud
+  |body=<center>Created when trying to improvise a card type you do not have.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

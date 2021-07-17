@@ -1,0 +1,14 @@
+{{Reupload}}
+
+{{CardPage
+|quote = Pull the pin and throw, easy enough. You barely have to aim with a blast radius like that.
+|description = Deal 5-7 base damage. </br> Hits all enemies. </br> Apply 2 [[Wound]]. </br> Apply 2 [[Exposed]]. </br> [[Destroy]] after 1 use.
+|cost = 1
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|character = Other
+|keywords = [[Wound]], [[Exposed]], [[Destroy]]
+|upgradeable = No
+|expreq = 
+}}

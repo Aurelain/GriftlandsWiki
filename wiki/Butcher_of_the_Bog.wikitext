@@ -1,0 +1,16 @@
+{{CardPage
+|quote = A lumbering shape shambled towards the group and then swifted into the mire. We thought we would be spared until we awoke to Veep in pieces.
+|description = Gain 4 [[Wound]]. Your next attack this turn deals double damage. </br> [[Parasite]]  </br> [[Hatch]] 4
+|cost = 1
+|rarity = Rare
+|decktype = Battle
+|cardtype = Parasite
+|keywords = [[Wound]], [[Parasite]], [[Hatch]]
+|character = Rook
+|upgradeable = No
+|expreq = 
+|special1 = Bog Symbiosis
+}}
+
+==Hatch==
+When '''Butcher of the Bog''' Hatches, it's transformed into [[Bog Symbiosis]].

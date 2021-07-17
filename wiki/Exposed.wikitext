@@ -1,1 +1,8 @@
-[[File:Icon Status Exposed.png|thumb|Ally/You/Opponent receive 50% less defense this turn]]
+'''Exposed''' is a Battle [[Key Words|key word]].
+
+==Effect==
+In game description: "When receiving [[Defense]], reduce the amount by 50%. At the end of your turn, reduce [[Exposed]] by 1".
+
+[[File:Icon Status Exposed.png]]
+
+[[Category:Keywords]]

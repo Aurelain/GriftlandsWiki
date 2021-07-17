@@ -75,24 +75,24 @@ Sal can be found in Rook and Smith's stories through random encounters.
 === Rook ===
 If playing as Rook, Sal will approach the player in Grout Bog for help tracking down a target from Murder Bay (a Spark Baron enforcer, Sparky or Jeol). The player can ask Sal questions about her background, in which she will playfully jab at Rook's old age, mention that she's afraid of reliving childhood trauma in the Bog, and reveal that she successfully killed Kashio, implying that ''"The Bog Job"'' takes place after ''"Hunting Kashio"''.
 
-==== Agree to the deal ====
+'''<u>Agree to the deal</u>'''
 
 * If the player follows through and helps Sal fight the Spark Baron, Sal will love you regardless of whether you accept her money, granting the player her 'People Person' boon.
 * If the player refuses to take Sal's money as payment, Sal will offer Rook one of her cards instead, telling him "maybe one day you can be as tough as me".
 
-==== Agree to the deal but betray Sal/side with the Spark Baron ====
+'''<u>Agree to the deal but betray Sal/side with the Spark Baron</u>'''
 
 * Sal will hate the player and angrily call Rook's mustache a rat tail before engaging in battle.
 
 === Smith ===
 If playing as Smith, Sal will warily approach the player in Pearl-On-The-Foam with the intent to kill Smith. Sal will always have an upgraded pet in her party.
 
-==== Defend yourself (Fight Sal) ====
+'''<u>Defend yourself (Fight Sal)</u>'''
 
 * If Sal is spared, she will reveal that she was hired by Vixmalli to assassinate Smith. She describes Vix as "the Heshy one with the money".
 * If Sal is killed and her pet fled during battle, the pet will return to the scene and nuzzle Sal's corpse before becoming docile to Smith. The player will then have the option to leave the pet alone or take it along.
 
-==== Convince Sal not to attack you (Negotiate with Sal) ====
+'''<u>Convince Sal not to attack you (Negotiate with Sal)</u>'''
 
 * Sal will reveal that despite her distaste for Vixmalli, she took the job to earn enough money to return to Murder Bay. She mentions that she has personal business there and that Smith "isn't the only one with messed up family stuff to work out", implying that the events of ''"Hunting Kashio"'' take place after ''"The Inheritance"''.
 * Sal can be paid by Smith to lie to Vixmalli, telling him that she chased Smith out of town. She will then love the player and grant you her boon.

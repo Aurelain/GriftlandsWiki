@@ -1,29 +1,15 @@
-{{Card
+{{CardPage
+|quote = Look they helped me out, my hands are tied.
+|description = [[Prepare]] a card, gain [[Influence]] equal to its cost
+|cost = 1
 |rarity = Uncommon
 |cardtype = Diplomacy
 |decktype = Negotiation
+|character = Rook
 |upgradeable = Yes
-|expreq = 7
+|expreq = 9
 |upgrade1 = Boosted Obligation
+|upgrade1summary = Gain [[Influence]] equal to its cost +1
 |upgrade2 = Twisted Obligation
-|character = Rook}}
-'''Obligation''' is a 1-cost '''Diplomacy''' card for [[Rook]]. It has the effect "Prepare a card, gain influence equal to its cost."
-
-== Upgrades ==
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Damage
-!Effect
-|-
-|Boosted Obligation
-|1
-|NA
-|Prepare a card, gain influence equal to its cost +1
-|-
-|Twisted Obligation
-|1
-|NA
-|Prepare a card, gain Dominance equal to its cost +1
-|}
+|upgrade2summary = Gain [[Dominance]] equal to its cost +1
+}}

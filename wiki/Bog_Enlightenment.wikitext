@@ -1,0 +1,19 @@
+{{CardPage
+|quote = And I became the antennae to attend to even more of the swamp, from places impossibly far reaching.
+|description = Create 1 '''Bog Boil'''. </br> [[Expend]], [[Parasite]]
+|cost = 1
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Parasite
+|character = Rook
+|keywords = [[Expend]], [[Parasite]]
+|upgradeable = No
+|expreq = 
+}}
+
+==Notes==
+'''Bog Boil''' targets an opponent argument each turn for 3-3 damage.
+
+Restore resolve to a random friendly argument equal to the resolve lost from '''Bog Boil''''s attack.
+
+'''Bog Boil''' is an argument with 4 resolve.

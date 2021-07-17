@@ -1,0 +1,18 @@
+{{CardPage
+|quote = Eeeeeeee.
+|description = When this card is drawn, deal 2 damage to a random friendly argument. </br> [[Unplayable]], [[Parasite]] </br> [[Hatch]] 5
+|cost = 
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Parasite
+|keywords = [[Unplayable]], [[Parasite]], [[Hatch]]
+|character = Rook
+|upgradeable = No
+|expreq = 
+|special1 = Memory Lapse
+|special2 = Scrub
+|special3 = Voices
+}}
+
+==Hatch==
+When '''Tinnitus''' Hatches, it's randomly transformed into either [[Memory Lapse]], [[Scrub]] or [[Voices]].

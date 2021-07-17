@@ -1,0 +1,18 @@
+{{Reupload}}
+
+{{CardPage
+|quote = How did he see that coming? Is he psychic or something?!
+|description = Gain 2 [[Concentration]]. Apply 2 [[Defense]] per [[Concentration]] you have. 
+|cost = 2
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Concentration]], [[Defense]]
+|character = Rook
+|upgradeable = Yes
+|expreq = 8
+|upgrade1 = Spined Telegraph
+|upgrade1summary = 2-cost. Gain 2 [[Concentration]]. </br> Apply 2 [[Defense]] and gain 1 [[Counter]] per [[Concentration]]
+|upgrade2 = Stone Telegraph
+|upgrade2summary = 2-cost. Gain 3 [[Concentration]]. </br> Apply 2 [[Defense]] per [[Concentration]]
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I don't understand, does that make it unroll faster or something?
+|description = Remove random debuff. </br> [[Replenish]]. </br> [[Destroy]] after 3 uses.
+|cost = 1
+|rarity = Common
+|decktype = Battle
+|cardtype = Item
+|character = Other
+|keywords = [[Replenish]], [[Destroy]]
+|upgradeable = No
+|expreq = 
+}}

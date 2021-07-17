@@ -1,0 +1,12 @@
+{{CardPage
+|quote = You aren't supposed to like the smell, it keeps you standing.
+|description = Apply 6 [[Mending]]. </br> [[Replenish]] </br> [[Destroy]] after 1 use.
+|cost = 1
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|character = Other
+|keywords = [[Mending]], [[Replenish]], [[Destroy]]
+|upgradeable = No
+|expreq = 
+}}

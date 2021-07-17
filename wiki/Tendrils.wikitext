@@ -1,13 +1,18 @@
-{{Card
-|character = Rook
+{{CardPage
+|quote = I looked on in horror as new appendages sloughed out from my body, far too many and far to easily. It was as if they'd always been.
+|description = While this is in your hand, gain 2 [[Power]]. Take 2 damage whenever you play a card. </br> [[Expend]], [[Parasite]]  </br> [[Hatch]] 4
+|cost = 0
 |rarity = Common
 |decktype = Battle
 |cardtype = Parasite
 |keywords = [[Power]], [[Expend]], [[Parasite]], [[Hatch]]
-|expreq = 4}}
-{{Quote|I looked on in horror as new appendages sloughed out from my body, far too many and far to easily. It was as if they'd always been.}}
-
-'''Tendrils''' is a common battle [[Bog Parasites|Bog-Parasite]] for [[Rook]], it costs 0 actions and has the effect: "While this is in your hand, gain 2 '''Power'''. Take 2 damage whenever you play a card. '''Expend, Parasite, Hatch'''"
+|character = Rook
+|upgradeable = No
+|expreq = 
+|special1 = Branch
+|special2 = Delirium
+|special3 = Fever
+}}
 
 ==Hatch==
-When Tendrils Hatches, it's transformed into a random uncommon battle Bog Parasite, so [[Branch]], [[Delirium]] or [[Fever]].
+When '''Tendrils''' Hatches, it's randomly transformed into either [[Branch]], [[Delirium]] or [[Fever]].

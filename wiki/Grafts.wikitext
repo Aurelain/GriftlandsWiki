@@ -78,11 +78,23 @@ Note: Also fully heals all pets at time of install
 |[[File:Graft red bandana plus.png|64px]]<br>'''Boosted Red Bandana'''
 |Your allies receive '''3 Power''' at the start of battle.
 |-
+|'''Rugged Wiring'''
+|{{Rarity|Common}}
+|Gain 2 '''Power''' at the start of each battle. Lose 2 '''Power''' the first time you take enemy damage.
+|
+|
+|-
 |[[File:Graft snap talon.png|64px]]<br>'''Snap Talon'''
 |data-sort-value="1"|{{Rarity|Common}}
 |Your attacks deal 2 bonus damage to targets with '''Bleed'''.
 |[[File:Graft snap talon plus.png|64px]]<br>'''Boosted Snap Talon'''
 |Your attacks deal '''3''' bonus damage to targets with '''Bleed'''.
+|-
+|'''Twinshot'''
+|{{Rarity|Common}}
+|At the start of each battle, gain 2 '''Charge'''.
+|
+|
 |-
 |[[File:Graft arterial scanner.png|64px]]<br>'''Boosted Arterial Scanner'''
 |data-sort-value="2"|{{Rarity|Uncommon}}
@@ -155,6 +167,12 @@ Note: Also fully heals all pets at time of install
 |Whenever you prevent all damage from an attack, gain 2 '''Combo'''.
 |[[File:Graft counter band plus.png|64px]]<br>'''Rival's Counter Band'''
 |Whenever you prevent all damage from an attack, gain '''3 Combo'''.
+|-
+|'''Scan Code'''
+|{{Rarity|Rare}}
+|At the start of each battle, apply 3 '''Scanned''' to a random enemy.
+|
+|
 |-
 |[[File:Graft booster clamp.png|64px]]<br>'''Booster Clamp'''
 |data-sort-value="4"|{{Rarity|Boss}}
@@ -253,6 +271,12 @@ Note: Also fully heals all pets at time of install
 |[[File:Graft keenskin plus.png|64px]]<br>'''Stone Keenskin'''
 |Gain '''4 Composure''' whenever an opponent's argument is dismissed by a card.
 |-
+|'''Pocket Bomb'''
+|{{Rarity|Common}}
+|Whenever you shuffle your deck, deal 3 damage to a random opponent argument.
+|
+|
+|-
 |[[File:Graft reflexor heads.png|64px]]<br>'''Reflexor: Heads'''
 |data-sort-value="1"|{{Rarity|Common}}
 |At the start of each turn, '''Rig''' 2 '''Heads'''.
@@ -283,6 +307,12 @@ Note: Also fully heals all pets at time of install
 |[[File:Graft disruptive glanworm plus.png|64px]]<br>'''Assertive Glanworm'''
 |Start each negotiation with '''4 Dominance'''.
 |-
+|'''Frontal Goad'''
+|{{Rarity|Uncommon}}
+|All friendly arguments come into play with 2 bonus resolve.
+|
+|
+|-
 |[[File:Graft luminjectors.png|64px]]<br>'''Luminjectors'''
 |data-sort-value="2"|{{Rarity|Uncommon}}
 |One of your arguments gains 2 resolve at the beginning of your turn.
@@ -306,6 +336,12 @@ Note: Also fully heals all pets at time of install
 |Increase the maximum damage of all cards by 1.
 |[[File:Graft pons mite plus.png|64px]]<br>'''Boosted Pons Mite'''
 |Increase the maximum damage of all cards by '''2'''. 
+|-
+|'''Weighted Coin'''
+|{{Rarity|Rare}}
+|Every 5th time you '''Gamble''', gain 1 action.
+|
+|
 |-
 |[[File:Graft brain spur.png|64px]]<br>'''Brain Spur'''
 |data-sort-value="3"|{{Rarity|Rare}}
@@ -342,6 +378,12 @@ Note: Also fully heals all pets at time of install
 |Gain 1 action at the start of your turn. All Hostility cards deal 50% less damage.
 |[[File:Graft roller drum plus.png|64px]]<br>'''Visionary Roller Drum'''
 |Gain 1 action '''and draw a card''' at the start of your turn. All Hostility cards deal 50% less damage.
+|-
+|'''Shrokian Glamour Stones'''
+|{{Rarity|Boss}}
+|Gain 1 action at the start of your turn, bystanders and pets no longer assist you in negotiations.
+|'''Visionary Glamour Stones'''
+|Gain 1 action '''and draw a card''' at the start of your turn, bystanders and pets no longer assist you in negotiations.
 |-
 |[[File:Graft three fingers.png|64px]]<br>'''Three Fingers'''
 |data-sort-value="4"|{{Rarity|Boss}}

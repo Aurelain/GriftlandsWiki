@@ -1,0 +1,29 @@
+{{CardPage
+|quote = What's wrong with me? I can't see myself think.
+|description = Insert 3 [[Affliction]] cards into your draw pile. </br> [[Expend]]
+|cost = 2
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+|character = Rook
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Boosted Psionic Storm
+|upgrade1summary = Insert 5 [[Affliction]] cards into your draw pile
+|upgrade2 = Pale Psionic Storm
+|upgrade2summary = Cost 1 action less
+|special1 = Affliction
+|special2 = Current
+|special3 = Melt
+|special4 = Riptide
+|special5 = Shear
+|special6 = Twist
+|special7 = Wave
+|special8 = Whirl
+|special9 = 
+|special10 = 
+}}
+
+==Notes==
+The card '''Affliction''' will automatically change into one of the other cards.

@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Temporary Power
+  |body=<center>'''Power''' that is removed at the end of your turn.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

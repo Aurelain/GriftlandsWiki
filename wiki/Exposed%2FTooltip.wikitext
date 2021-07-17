@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Exposed
+  |body=<center>When receiving '''Defense''', reduce the amount by 50%. At the end of your turn, reduce '''Exposed''' by 1.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

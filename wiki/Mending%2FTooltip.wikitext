@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Mending
+  |body=<center>At the end of your turn, '''Heal''' an amount equal to '''Mending''' and reduce '''Mending''' by 1.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

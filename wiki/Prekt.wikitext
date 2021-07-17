@@ -6,3 +6,33 @@
 | faction = spree
 | title = Thug
 }}
+
+'''Prekt''' is a character in {{Gamename}} and a [[Spree]] Thug.
+__TOC__
+{{clear}}
+
+==Boon/Bane==
+{{Boon/Bane
+|boon = King Hit
+|boonimage = sucker punch
+|boondesc = +4 damage on the first attack in battle.
+|bane = Marked
+|baneimage = marked
+|banedesc = Enemy Spree join battle with less [[Panic]].
+}}
+
+==Death Loot==
+If '''Prekt''' is killed in combat, she will drop a [[Makeshift Dagger]].
+
+===Makeshift Dagger===
+*Deals 2-3 damage and costs 0 action per turn.
+*Apply 1 [[Wound]].
+*50% chance to [[Destroy]] this card.
+<br>[[File:Makeshift Dagger.png|thumb|alt=|none]]
+
+==Gallery==
+<gallery>
+Prekt.jpg
+</gallery>
+
+[[Category:Thug]]

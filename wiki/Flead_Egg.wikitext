@@ -1,0 +1,17 @@
+{{CardPage
+|quote = You can tell it's a girl by holding it up to the light.
+|description = Draw a card. </br> [[Hatch]] 4
+|cost = 1
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|character = Rook
+|keywords = [[Hatch]]
+|upgradeable = No
+|expreq = 
+|special1 = Hatched Egg
+}}
+
+{{Quote|Don't worry, it thinks your its mother.}} 
+==Notes==
+You will gain a [[Flead]] pet.

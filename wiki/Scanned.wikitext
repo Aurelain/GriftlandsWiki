@@ -1,0 +1,6 @@
+'''Scanned''' is a Battle [[Key Words|key word]] for [[Rook]].
+
+==Effect==
+In game description: "Whenever you attack this target, draw a card. At the start of the owner's turn, remove 1 '''Scanned'''".
+
+[[Category:Keywords]]

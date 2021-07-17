@@ -1,0 +1,18 @@
+{{CardPage
+|quote = It's getting real messy real fast.
+|description = Create: Whenever you [[Gamble]], deal 2 damage to a random opponent argument. </br>[[Expend]].
+|cost = 2
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|character = Rook
+|upgradeable = Yes
+|expreq = 5
+|upgrade1 = Initial Fallout
+|upgrade1summary = [[Ambush]]
+|upgrade2 = Pale Fallout
+|upgrade2summary = Cost 1 action less
+}}
+
+==Notes==
+'''Fallout''' is an argument with 4 resolve.

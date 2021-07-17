@@ -1,0 +1,19 @@
+{{CardPage
+|quote = My veins were hot fire and erupted from my arm in a viciousness so brutal that it had to have been a terrible dream.
+|description = Gain 3 [[Temporary Power]]. Take 8 damage. </br> [[Parasite]]  </br> [[Hatch]] 4
+|cost = 1
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Parasite
+|keywords = [[Temporary Power]], [[Parasite]], [[Hatch]]
+|character = Rook
+|upgradeable = No
+|expreq = 
+|special1 = Beast of the Bog
+|special2 = Bough
+|special3 = Butcher of the Bog
+|special4 = Funky Fungi
+}}
+
+==Hatch==
+When '''Branch''' Hatches, it's randomly transformed into either [[Beast of the Bog]], [[Bough]], [[Butcher of the Bog]] or [[Funky Fungi]].

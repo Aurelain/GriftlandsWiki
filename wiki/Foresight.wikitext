@@ -1,0 +1,19 @@
+{{CardPage
+|quote = Just lucky I guess
+|description = Gain: At the end of your turn, [[Rig]] 2 '''Heads''' or 2 '''Snails''' </br> [[Expend]]
+|cost = 1
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|character = Rook
+|keywords = [[Rig]], [[Expend]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Initial Foresight
+|upgrade1summary = [[Ambush]]
+|upgrade2 = Pale Foresight
+|upgrade2summary = Cost 1 action less
+}}
+
+==Notes==
+'''Foresight''' is an argument with 1 resolve.

@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Evoke
+  |body=<center>Once per turn, play this card for free from wherever it is when the specified requirements are met.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

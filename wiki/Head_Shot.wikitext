@@ -1,0 +1,16 @@
+{{CardPage
+|quote = Slipped, sorry.
+|description = Targets a random opponent argument. [[Evoke]]: [[Gamble]] [[Heads]] twice.
+|cost = 1
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|character = Rook
+|keywords = [[Evoke]], [[Gamble]], [[Heads]]
+|upgradeable = Yes
+|expreq = 9
+|upgrade1 = Boosted Head Shot
+|upgrade1summary = Deals 5 base damage
+|upgrade2 = Pale Head Shot
+|upgrade2summary = [[Evoke]]: [[Gamble]] [[Heads]]
+}}

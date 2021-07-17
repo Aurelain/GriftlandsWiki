@@ -1,0 +1,18 @@
+{{CardPage
+|quote = I brought my own from home.
+|description = Gain: At the start of your turn, choose a card in your hand and [[Prepare]] it. </br>[[Expend]].
+|cost = 1
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|character = Rook
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Initial Stacked Deck
+|upgrade1summary = [[Ambush]]
+|upgrade2 = Pale Stacked Deck
+|upgrade2summary = Cost 1 action less
+}}
+
+==Notes==
+'''Stacked Deck''' is an argument with 2 resolve.
