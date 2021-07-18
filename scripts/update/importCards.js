@@ -27,6 +27,7 @@ const importCards = () => {
         const card = parseCardContent(wikitext, name);
         output[card.id] = card;
     }
+    fixCosts(output);
     console.log('importCards', tally(output));
     return output;
 };
@@ -78,7 +79,10 @@ const getField = (text, fieldName) => {
  */
 const parseNumber = (value) => {
     if (value !== undefined) {
-        return Number(value);
+        const nr = Number(value);
+        if (!isNaN(nr)) {
+            return nr;
+        }
     }
 };
 
@@ -88,7 +92,11 @@ const parseNumber = (value) => {
 const getUpgrades = (text) => {
     const upgrades = [];
     for (let i = 1; i <= 10; i++) {
-        const field = getField(text, 'upgrade' + i);
+        let field = getField(text, 'upgrade' + i);
+        if (!field) {
+            continue;
+        }
+        field = field.replace(/[,"]*$/, '');
         if (field) {
             upgrades.push(field);
         }
@@ -103,8 +111,8 @@ const cleanFlavour = (flavour) => {
     if (!flavour) {
         return;
     }
-    flavour = flavour.replace(/^['’\s]+/m, '');
-    flavour = flavour.replace(/['’\s]+$/m, '');
+    flavour = flavour.replace(/^['’",\s]+/m, '');
+    flavour = flavour.replace(/['’",\s]+$/m, '');
     return flavour;
 };
 
@@ -121,6 +129,17 @@ const cleanKeywords = (keywords) => {
     return keywords.split(',').sort().join(',');
 };
 
+/**
+ *
+ */
+const fixCosts = (bag) => {
+    for (const id in bag) {
+        const card = bag[id];
+        if (card.hasOwnProperty('cost') && card.keywords && card.keywords.includes('Unplayable')) {
+            delete card.cost;
+        }
+    }
+};
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================

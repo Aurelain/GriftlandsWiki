@@ -62,6 +62,7 @@ const getCards = (zip) => {
         }
     }
     fillUpgrades(output);
+    fixCosts(output);
     console.log('getCards', tally(output));
     return output;
 };
@@ -73,7 +74,8 @@ const getCards = (zip) => {
  *
  */
 const collectCardsFromLua = (luaContent, luaName) => {
-    let draft = luaContent.replace(/--.*/g, ''); // remove comments
+    let draft = luaContent.replace(/--\[\[[\s\S]*?]]--/g, ''); // remove block comments
+    draft = draft.replace(/--.*/g, ''); // remove  comments
     draft = removeGraftDefinitions(draft);
 
     const nameRegExp = /\w+\s*=\s*{\s*name\s*=\s*"/g;
@@ -96,14 +98,15 @@ const collectCardsFromLua = (luaContent, luaName) => {
         const name = captureText(enclosure, 'name');
 
         const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
+        const desc = captureText(enclosure, 'desc');
         output[id] = removeUndefined({
             name,
             id,
-            desc: captureText(enclosure, 'desc'),
+            desc,
             character: undefined, // TODO
             deckType: parseDeckType(flags),
             cardType: parseCardType(flags),
-            keywords: parseKeywords(flags),
+            keywords: parseKeywords(flags, desc),
             flavour: cleanFlavour(captureText(enclosure, 'flavour')),
             rarity: RARITIES[rarity],
             parent: undefined,
@@ -190,13 +193,14 @@ const parseKeywords = (flags) => {
     if (!flags) {
         return;
     }
-    const keywords = [];
+    const keywords = {};
     for (const keyword in KEYWORDS) {
         if (flags.includes(keyword)) {
-            keywords.push(KEYWORDS[keyword]);
+            keywords[KEYWORDS[keyword]] = true;
         }
     }
-    return keywords.length ? keywords.sort().join(',') : undefined;
+
+    return tally(keywords) ? Object.keys(keywords).sort().join(',') : undefined;
 };
 
 /**
@@ -204,26 +208,48 @@ const parseKeywords = (flags) => {
  */
 const fillUpgrades = (bag) => {
     for (const id in bag) {
-        const plusIndex = id.indexOf('_plus');
-        if (plusIndex > 0) {
-            const base = id.substr(0, plusIndex);
-            assert(bag[base], 'Base card is missing!');
+        const baseId = getBaseId(id);
+        if (baseId) {
+            assert(bag[baseId], 'Base card is missing!');
             bag[id] = {
-                ...bag[base],
+                ...bag[baseId],
                 ...bag[id],
-                parent: bag[base].name,
+                parent: bag[baseId].name,
             };
             delete bag[id].upgrades;
-            if (!bag[base].upgrades) {
-                bag[base].upgrades = [];
+            if (!bag[baseId].upgrades) {
+                bag[baseId].upgrades = [];
             }
-            bag[base].upgrades.push(bag[id].name);
+            bag[baseId].upgrades.push(bag[id].name);
         }
+        // if (id.includes('yote')) {
+        //     console.log('bag[id]: ' + JSON.stringify(bag[id], null, 4));
+        // }
     }
     for (const id in bag) {
         const {upgrades} = bag[id];
         if (upgrades) {
             bag[id].upgrades = upgrades.sort().join(',');
+        }
+    }
+};
+
+/**
+ *
+ */
+const getBaseId = (id) => {
+    const cleanId = id.replace(/_plus.*|_upgraded.*/, '');
+    return cleanId !== id ? cleanId : '';
+};
+
+/**
+ *
+ */
+const fixCosts = (bag) => {
+    for (const id in bag) {
+        const card = bag[id];
+        if (card.hasOwnProperty('cost') && card.keywords && card.keywords.includes('Unplayable')) {
+            delete card.cost;
         }
     }
 };

@@ -23,9 +23,10 @@ const update = async () => {
     try {
         const zip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
         const cards = getCards(zip);
-        // await writeCardsSheet(cards, 'cards');
-
         const importedCards = importCards(zip);
+
+        // transferSomeFields(cards, importedCards);
+        // await writeCardsSheet(cards, 'cards');
         // await writeCardsSheet(importedCards, 'importedCards');
 
         compareCards(cards, importedCards);
@@ -71,8 +72,29 @@ const compareCards = (cards, importedCards) => {
     }
     for (const id in importedCards) {
         const {name} = importedCards[id];
-        if (!cardsByName[name]) {
+        const gameCard = cardsByName[name];
+        if (!gameCard) {
             console.log('Missing!', name);
+            continue;
+        }
+        const importedCard = importedCards[id];
+        if (gameCard.upgrades !== importedCard.upgrades) {
+            console.log('Different upgrades!', name);
+        }
+        if (gameCard.xp !== importedCard.xp) {
+            // console.log('Different xp!', name);
+        }
+        if (gameCard.cost !== importedCard.cost) {
+            // console.log('Different cost!', name, '=', gameCard.cost, '=', importedCard.cost);
+        }
+        if (gameCard.rarity !== importedCard.rarity) {
+            // console.log('Different rarity!', name, '=', gameCard.rarity, '=', importedCard.rarity);
+        }
+        if (gameCard.flavour !== importedCard.flavour) {
+            // console.log('Different flavour!', name, '=', gameCard.flavour, '=', importedCard.flavour);
+        }
+        if (gameCard.keywords !== importedCard.keywords) {
+            // console.log('Different keywords!', name, '=', gameCard.keywords, '=', importedCard.keywords);
         }
     }
 };
