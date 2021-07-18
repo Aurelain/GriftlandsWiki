@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Well if it isn’t everybody’s favorite bounty hunter.
+|description = Gains 3 damage each time this is drawn while you have Influence.
+|cost = 2
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|expreq = 7
+|upgrade1 = Boosted Beguile
+|upgrade1summary = 
+|upgrade2 = Tall Beguile
+|upgrade2summary = 
+}}

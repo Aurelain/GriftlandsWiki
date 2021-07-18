@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Alright, I have a few ideas.
+|description = Draw 4 cards.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Brainstorm
+}}

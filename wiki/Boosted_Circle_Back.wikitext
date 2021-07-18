@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Now wait a second!
+|description = Duplicate a friendly argument twice, then destroy the original.<br/>Expend
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Circle Back
+}}

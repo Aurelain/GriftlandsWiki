@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’m not too worried about it.
+|description = Apply 4 Composure.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]], [[Expend]]
+|parent = Aloof
+}}

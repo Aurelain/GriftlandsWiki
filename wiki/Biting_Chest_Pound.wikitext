@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’ll take on any one of you losers here!
+|description = Take 2 damage twice, gain 1 Power.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Power]]
+|parent = Chest Pound
+}}

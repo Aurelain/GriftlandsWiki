@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Feels… funny.
+|description = Double your Moxie.<br/>Exert
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Moxie]]
+|expreq = 9
+|upgrade1 = Boosted Blood Flow
+|upgrade1summary = 
+|upgrade2 = Pure Blood Flow
+|upgrade2summary = 
+}}

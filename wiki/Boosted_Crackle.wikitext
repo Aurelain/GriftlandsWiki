@@ -1,0 +1,13 @@
+{{CardPage
+|quote = There's a reason you can't use these, they are unstable as all Hesh.
+|description = If the target has Burn, gain 2 Charge.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]], [[Charge]]
+|parent = Crackle
+|mindamage = 6
+|maxdamage = 6
+}}

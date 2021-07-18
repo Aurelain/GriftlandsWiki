@@ -1,0 +1,15 @@
+{{CardPage
+|quote = And another thing!.
+|description = Incept 2 Flustered.
+|cost = 2
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Flustered]], [[Incept]]
+|expreq = 7
+|upgrade1 = Boosted Bluster
+|upgrade1summary = 
+|upgrade2 = Twisted Bluster
+|upgrade2summary = 
+}}

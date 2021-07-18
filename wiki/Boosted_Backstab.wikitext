@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Nobody ever said it was fair, they just said that it works.
+|description = If this card was Improvised, double its damage until the end of the turn.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Improvise]]
+|parent = Backstab
+|mindamage = 5
+|maxdamage = 7
+}}

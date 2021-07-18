@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Nobody knows who designed the original razor-dust emitters but there have been many copycats.
+|description = Ability: Your Counter attacks apply 2 Bleed.<br/>Expend, Ambush
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Ambush]], [[Bleed]], [[Counter]], [[Expend]]
+|parent = Barbed Defense
+}}

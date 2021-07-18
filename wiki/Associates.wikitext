@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Hold on, I’m pretty sure I have her card here somewhere.
+|description = Gain 2 Renown for every person that loves you.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]], [[Renown]]
+|expreq = 7
+|upgrade1 = Boosted Associates
+|upgrade1summary = 
+|upgrade2 = Pale Associates
+|upgrade2summary = 
+}}

@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Probably a little too heavy to do what you want.
+|description = Apply 8 Defense.<br/>This card costs 1 more per other card in your hand.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|expreq = 9
+|upgrade1 = Heavy Anchor
+|upgrade1summary = 
+|upgrade2 = Stone Anchor
+|upgrade2summary = 
+}}

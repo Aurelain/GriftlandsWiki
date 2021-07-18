@@ -1,0 +1,17 @@
+{{CardPage
+|quote = He’ll be feeling that in the morning.
+|description = If your target has Trauma or Traumatized, this deals double damage.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Trauma]]
+|expreq = 9
+|upgrade1 = Rooted Body Blow
+|upgrade1summary = 
+|upgrade2 = Tall Body Blow
+|upgrade2summary = 
+|mindamage = 2
+|maxdamage = 4
+}}

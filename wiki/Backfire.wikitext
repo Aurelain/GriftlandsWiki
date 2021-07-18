@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Now you are just showing off.
+|description = Ability: At the end of your turn, gain 1 Counter per Charge.<br/>Expend
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Charge]], [[Counter]], [[Expend]]
+|expreq = 6
+|upgrade1 = Initial Backfire
+|upgrade1summary = 
+|upgrade2 = Pale Backfire
+|upgrade2summary = 
+}}

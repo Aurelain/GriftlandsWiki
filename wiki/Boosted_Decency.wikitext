@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I'm sure that we can work this out like adults.
+|description = Gain 1 Influence. Draw 2 cards.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|parent = Decency
+}}

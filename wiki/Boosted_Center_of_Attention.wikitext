@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Wouldn’t miss it for the world.
+|description = Add 3 resolve to all friendly arguments.<br/>Expend
+|cost = 2
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|parent = Center of Attention
+}}

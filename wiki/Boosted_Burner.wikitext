@@ -1,0 +1,13 @@
+{{CardPage
+|quote = It just ends up smelling so bad.
+|description = Apply 2 Burn.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]]
+|parent = Burner
+|mindamage = 3
+|maxdamage = 6
+}}

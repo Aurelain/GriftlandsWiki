@@ -1,0 +1,12 @@
+{{CardPage
+|quote = How did that storm happen inside? My head is still ringing.
+|description = Remove all debuffs on all enemies and deal 3 bonus damage per debuff removed. Hits all enemies.
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|parent = Cataclysm
+|mindamage = 5
+|maxdamage = 5
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Look, you’re a smart guy.
+|description = Costs 1 less for each Influence you have.
+|cost = 4
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|parent = Appeal to Reason
+}}

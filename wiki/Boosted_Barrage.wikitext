@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I think that he’s forgotten his point all together.
+|description = Blind.<br/>Attack with this card 2 times.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Barrage
+}}

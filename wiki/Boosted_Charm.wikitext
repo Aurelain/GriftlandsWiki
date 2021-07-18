@@ -1,0 +1,11 @@
+{{CardPage
+|quote = The room just lights right up.
+|description = Draw 2 cards. Gain 1 Influence for each Diplomacy card drawn + 1.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|parent = Magnetic Charm
+}}

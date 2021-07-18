@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hey pay attention, this here is important.
+|description = Gamble.<br/>: Gain 3 bonus damage.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Gamble]]
+|parent = Blank
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Where do they keep coming from!?
+|description = Insert 3 Blade Flash cards into your draw pile.
+|cost = 2
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Dagger Storm
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Limber up!
+|description = Alleviate 8.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Alleviate]]
+|parent = Back Stretch
+}}

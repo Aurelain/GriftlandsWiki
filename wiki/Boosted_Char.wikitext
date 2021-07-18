@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Everyone has a plan until they are set on fire.
+|description = If the target has Burn, gain 1 action.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]]
+|parent = Char
+|mindamage = 4
+|maxdamage = 5
+}}

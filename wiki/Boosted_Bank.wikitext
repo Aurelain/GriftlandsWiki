@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Put your money where your mouth is. Bets are closing.
+|description = Give your currently Prepared card +3 bonus damage until the end of this turn.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]], [[Prepare]], [[Prepared]]
+|parent = Bank
+}}
