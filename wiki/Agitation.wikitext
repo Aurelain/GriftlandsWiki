@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I’m a patient person but this is getting ridiculous.
+|description = Create 3 Heated arguments.<br/>Expend
+|cost = 3
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]], [[Heated]]
+|expreq = 3
+|upgrade1 = Boosted Agitation
+|upgrade1summary = 
+|upgrade2 = Pale Agitation
+|upgrade2summary = 
+}}

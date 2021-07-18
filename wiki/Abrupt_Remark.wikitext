@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Wrong!
+|description = Draw 1 card.<br/>Evoke: An opponent argument is removed or destroyed.<br/>Unplayable
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Evoke]], [[Unplayable]]
+|expreq = 6
+|upgrade1 = Visionary Remark
+|upgrade1summary = 
+|upgrade2 = Wide Remark
+|upgrade2summary = 
+}}

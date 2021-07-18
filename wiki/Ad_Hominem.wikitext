@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Rook? That Fink!?
+|description = Gain: At the end of your turn, spend 1 Renown and apply 2 Composure to all your arguments.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]], [[Expend]], [[Renown]]
+|expreq = 7
+|upgrade1 = Boosted Ad Hominem
+|upgrade1summary = 
+|upgrade2 = Pale Ad Hominem
+|upgrade2summary = 
+}}

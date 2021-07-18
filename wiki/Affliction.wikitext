@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Hey it's a strange world, there could be any number of things wrong with them.
+|description = When drawn, apply a random debuff to a random enemy.<br/>Unplayable, Replenish
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Replenish]], [[Unplayable]]
+}}
