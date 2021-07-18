@@ -4,6 +4,7 @@ const AdmZip = require('adm-zip');
 const attemptSelfRun = require('../utils/attemptSelfRun');
 const importCards = require('./importCards');
 const getCards = require('./getCards');
+const updateCards = require('./updateCards');
 const getCharacters = require('./getCharacters');
 const getFactions = require('./getFactions');
 const guard = require('../utils/guard');
@@ -24,12 +25,14 @@ const update = async () => {
         const zip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
         const cards = getCards(zip);
         const importedCards = importCards(zip);
+        // compareCards(cards, importedCards);
 
-        // transferSomeFields(cards, importedCards);
+        const finalCards = mergeCards(cards, importedCards);
+        updateCards(finalCards);
+
         // await writeCardsSheet(cards, 'cards');
         // await writeCardsSheet(importedCards, 'importedCards');
 
-        compareCards(cards, importedCards);
         return;
 
         const characters = await getCharacters(zip);
@@ -97,6 +100,34 @@ const compareCards = (cards, importedCards) => {
             // console.log('Different keywords!', name, '=', gameCard.keywords, '=', importedCard.keywords);
         }
     }
+};
+/**
+ *
+ */
+const mergeCards = (cards, importedCards) => {
+    const mergedCards = {};
+    for (const id in importedCards) {
+        const gameCard = importedCards[id];
+        const importedCard = importedCards[id];
+        mergedCards[id] = {
+            name: importedCard.name,
+            id: gameCard.id,
+            desc: importedCard.desc,
+            character: importedCard.character,
+            deckType: importedCard.deckType,
+            cardType: importedCard.cardType,
+            keywords: importedCard.keywords,
+            flavour: gameCard.flavour,
+            rarity: gameCard.rarity,
+            parent: gameCard.parent,
+            upgrades: gameCard.upgrades,
+            cost: gameCard.cost,
+            xp: importedCards.xp,
+            minDamage: gameCard.minDamage,
+            maxDamage: gameCard.maxDamage,
+        };
+    }
+    return mergedCards;
 };
 
 // =====================================================================================================================
