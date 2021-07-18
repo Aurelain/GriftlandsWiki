@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Sorry boss, we just couldn’t rattle them.
+|description = Apply 2 Composure to all friendly arguments.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]]
+|expreq = 9
+|upgrade1 = Boosted Calm
+|upgrade1summary = 
+|upgrade2 = Pale Calm
+|upgrade2summary = 
+}}

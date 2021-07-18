@@ -1,0 +1,15 @@
+{{CardPage
+|quote = That was just a warmup.
+|description = Destroy a card in hand.<br/>Choose one of 3 cards to add to your deck permanently.<br/>Expend
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|expreq = 5
+|upgrade1 = Final Do Over
+|upgrade1summary = 
+|upgrade2 = Wide Do Over
+|upgrade2summary = 
+}}

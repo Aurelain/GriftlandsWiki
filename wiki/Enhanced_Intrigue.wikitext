@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Very interesting.
+|description = Spend 1 Influence: Deal an additional 5 damage.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|parent = Intrigue
+}}

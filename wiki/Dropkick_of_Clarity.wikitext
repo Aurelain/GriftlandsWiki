@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Both feet first!
+|description = Take 3 damage.<br/>Destroy
+|cost = 1
+|character = Smith
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Destroy]]
+|parent = Dropkick
+|mindamage = 16
+|maxdamage = 16
+}}

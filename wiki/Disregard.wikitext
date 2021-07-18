@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I’ve stopped listening.
+|description = Discard your hand. Draw 5 cards.<br/>Expend
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]]
+|expreq = 7
+|upgrade1 = Enduring Disregard
+|upgrade1summary = 
+|upgrade2 = Pale Disregard
+|upgrade2summary = 
+}}

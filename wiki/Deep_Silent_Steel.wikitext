@@ -1,0 +1,13 @@
+{{CardPage
+|quote = The noisy ones are scarier, but a lot easier to avoid.
+|description = Apply 1 Impair.<br/>Expend, Ambush
+|cost = 0
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Impair]]
+|parent = Silent Steel
+|mindamage = 5
+|maxdamage = 5
+}}

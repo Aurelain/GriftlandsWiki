@@ -1,0 +1,8 @@
+{{CardPage
+|description = Draw a card.
+|cost = 1
+|character = Smith
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+}}

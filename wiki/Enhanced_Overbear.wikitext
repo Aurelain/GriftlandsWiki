@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Wait. Why is he standing up?
+|description = Attack a random opponent argument once and draw a card for each opponent argument.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Overbear
+}}

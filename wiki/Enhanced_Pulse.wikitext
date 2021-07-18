@@ -1,0 +1,13 @@
+{{CardPage
+|quote = How many settings do these Heshing things have?!
+|description = Apply 3 Ricochet.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Ricochet]]
+|parent = Pulse
+|mindamage = 2
+|maxdamage = 2
+}}

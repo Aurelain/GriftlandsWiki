@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Oh, I’ve been well thank you.
+|description = Set the coin.<br/>: Deal max damage.<br/>Expend
+|cost = 1
+|character = Rook
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Expend]]
+|parent = Pleasantries
+}}

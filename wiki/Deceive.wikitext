@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Trust me.
+|description = Each card in hand is assigned a random cost from 0 to 2 until the end of negotiation.
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|expreq = 9
+|upgrade1 = Pale Deceive
+|upgrade1summary = 
+|upgrade2 = Wide Deceive
+|upgrade2summary = 
+}}

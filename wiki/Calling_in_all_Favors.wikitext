@@ -1,0 +1,15 @@
+{{CardPage
+|quote = You know the Ollowano family? The same, they’ll be interested to hear about this.
+|description = Double your Influence.<br/>Gain 3 Vulnerability.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Ability]], [[Expend]], [[Influence]], [[Vulnerability]]
+|expreq = 7
+|upgrade1 = Short Favors
+|upgrade1summary = 
+|upgrade2 = Tall Favors
+|upgrade2summary = 
+}}

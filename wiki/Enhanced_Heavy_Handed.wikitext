@@ -1,0 +1,11 @@
+{{CardPage
+|quote = What is this? Some kind of Bandit deal?!
+|description = Spend 3 Dominance: Destroy ALL opponent arguments.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]]
+|parent = Heavy Handed
+}}

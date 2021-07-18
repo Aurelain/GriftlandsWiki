@@ -1,0 +1,10 @@
+{{CardPage
+|quote = What does any of that have to do with apples?
+|description = Your next card this turn costs 0 actions.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Non Sequitur
+}}

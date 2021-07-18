@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Heads or snails?
+|description = Set the coin.<br/>Sticky
+|cost = 0
+|character = Rook
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Call it
+}}

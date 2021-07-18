@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Let me get that for you.
+|description = Gain 2 Influence and apply 3 Composure to it.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]], [[Influence]]
+|expreq = 9
+|upgrade1 = Boosted Rapport
+|upgrade1summary = 
+|upgrade2 = Initial Rapport
+|upgrade2summary = 
+}}

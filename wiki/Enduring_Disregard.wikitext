@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I’ve stopped listening.
+|description = Discard your hand. Draw 5 cards.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Disregard
+}}

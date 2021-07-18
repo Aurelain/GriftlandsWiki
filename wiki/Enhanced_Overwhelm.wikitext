@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Am I losing or is it already over?
+|description = Deal +2 damage for every argument you have.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Overwhelm
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|quote = I don't want to have to hurt you, but I will if I have to.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Threaten
+}}

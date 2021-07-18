@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Lumin-laced banderclaws seem to bring out the worst in fighters.
+|description = For the rest of the turn, gain Counter equal to half of any attack damage you deal.
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Viciousness
+}}

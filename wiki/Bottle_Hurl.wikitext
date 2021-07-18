@@ -1,0 +1,16 @@
+{{CardPage
+|quote = This one is on me.
+|description = Expend 2 Empty Bottle cards from your deck to play this.
+|cost = 0
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|expreq = 10
+|upgrade1 = Boosted Bottle Hurl
+|upgrade1summary = 
+|upgrade2 = Pale Bottle Hurl
+|upgrade2summary = 
+|mindamage = 5
+|maxdamage = 5
+}}

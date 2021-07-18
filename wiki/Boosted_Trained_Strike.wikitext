@@ -1,0 +1,13 @@
+{{CardPage
+|quote = One thousand times a day, every day of the week
+|description = Whenever this card is Improvised it gains 3 damage until the end of combat.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Improvise]]
+|parent = Trained Strike
+|mindamage = 2
+|maxdamage = 4
+}}

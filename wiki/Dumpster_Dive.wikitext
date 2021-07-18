@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Now what do we have here?
+|description = Move up to 3 Empty Bottle cards from your draw pile to your discard pile.<br/>Draw 2 cards.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|expreq = 9
+|upgrade1 = Boosted Dumpster Dive
+|upgrade1summary = 
+|upgrade2 = Visionary Dumpster Dive
+|upgrade2summary = 
+}}

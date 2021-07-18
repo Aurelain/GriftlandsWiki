@@ -1,0 +1,15 @@
+{{CardPage
+|quote = You’re going to be picking up your teeth after I’m through with you!
+|description = Spend 3 Dominance: Gain 2 actions.
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]]
+|expreq = 7
+|upgrade1 = Pale Domineer
+|upgrade1summary = 
+|upgrade2 = Visionary Domineer
+|upgrade2summary = 
+}}

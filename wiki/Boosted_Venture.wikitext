@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You can lay in with this bet, but it costs you a little more than a good word.
+|description = Spend up to 2 Influence: Rig 3  for each Influence spent + 1.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]], [[Rig]]
+|parent = Venture
+}}

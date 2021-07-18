@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Usually a little difficult to do, the more focused the combatant the better the results.
+|description = Draw a card. It costs 0 until played.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Concentrate
+}}

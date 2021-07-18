@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I think he just talks fast to make it look like he knows what he’s doing.
+|description = : Gain 2 Influence.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|parent = Jabber
+}}

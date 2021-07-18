@@ -1,0 +1,16 @@
+{{CardPage
+|quote = I've never heard that kind of taste before.
+|description = Deals +2 damage for every debuff on the target.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|expreq = 8
+|upgrade1 = Boosted Ego Rip
+|upgrade1summary = 
+|upgrade2 = Enhanced Ego Rip
+|upgrade2summary = 
+|mindamage = 2
+|maxdamage = 2
+}}

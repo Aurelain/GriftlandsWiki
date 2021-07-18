@@ -1,0 +1,13 @@
+{{CardPage
+|quote = See, people always expect the daggers. That's why I hit them with the elbow sometimes.
+|description = Gain 3 Counter.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Counter]]
+|parent = Elbow Strike
+|mindamage = 3
+|maxdamage = 3
+}}

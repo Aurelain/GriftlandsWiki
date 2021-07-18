@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Bartender approved!
+|description = Drink.<br/>Gain 3 Moxie and return this card to your hand and give it Burnout.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Burn]], [[Drink]], [[Moxie]]
+|expreq = 9
+|upgrade1 = Gulping Bottomless Vial
+|upgrade1summary = 
+|upgrade2 = Healing Bottomless Vial
+|upgrade2summary = 
+}}

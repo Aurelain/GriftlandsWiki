@@ -1,0 +1,15 @@
+{{CardPage
+|quote = This is going to work out really well for us both.
+|description = Gain: At the start of your turn, gain 1 action and draw 1 less card.<br/>Expend
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Expend]]
+|expreq = 5
+|upgrade1 = Enduring Compromise
+|upgrade1summary = 
+|upgrade2 = Initial Compromise
+|upgrade2summary = 
+}}

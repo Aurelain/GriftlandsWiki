@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Okay, the NEXT one will just barely miss you...
+|description = Attack 3 random enemies.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Target Practice
+|mindamage = 2
+|maxdamage = 5
+}}

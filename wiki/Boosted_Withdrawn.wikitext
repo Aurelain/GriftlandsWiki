@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Give me some space.
+|description = Apply 5 Composure.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Withdrawn
+}}

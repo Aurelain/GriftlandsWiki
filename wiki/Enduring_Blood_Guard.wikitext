@@ -1,0 +1,10 @@
+{{CardPage
+|quote = The violence she brought on made it difficult for anyone to approach her.
+|description = For the rest of your turn, gain Defense equal to the amount of Bleed you apply.
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Blood Guard
+}}

@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I just saw a lot of myself back there.
+|description = You and your opponent restore 6 resolve.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Expend]]
+|expreq = 7
+|upgrade1 = Boosted Empathy
+|upgrade1summary = 
+|upgrade2 = Initial Empathy
+|upgrade2summary = 
+}}

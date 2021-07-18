@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Alas, poor Rook. I knew him well.
+|description = Choose a card in your hand and double its damage.
+|cost = 2
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Rehearsal
+}}

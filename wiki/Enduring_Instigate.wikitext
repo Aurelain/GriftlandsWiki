@@ -1,0 +1,10 @@
+{{CardPage
+|quote = What the Hesh?
+|description = Create: Whenever an argument is destroyed, increase Instigate by 1 and draw a card. At 8 stacks, remove this argument and deal 14 damage to a random enemy target.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Instigate
+}}

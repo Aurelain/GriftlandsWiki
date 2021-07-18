@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Some of my best ideas come at the last possible moment.
+|description = Improvise+ a card from a pool of special cards.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Improvise]]
+|parent = Quick Thinking
+}}

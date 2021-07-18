@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Can I have that when you are finished?
+|description = Expend up to 4 cards from your hand. Add that many Empty Bottle cards to your discard pile.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+|expreq = 7
+|upgrade1 = Visionary Supply
+|upgrade1summary = 
+|upgrade2 = Wide Supply
+|upgrade2summary = 
+}}

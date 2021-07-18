@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Spiked knuckles are a common addition to the local street toughs, flashy and effective.
+|description = Discard 3 cards. Attack a random enemy.
+|cost = 0
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Duster
+|mindamage = 2
+|maxdamage = 2
+}}

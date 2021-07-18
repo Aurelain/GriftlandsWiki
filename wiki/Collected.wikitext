@@ -1,0 +1,14 @@
+{{CardPage
+|quote = The key to winning an argument, is never losing your cool.
+|description = Apply 3 Composure to your Influence.<br/>Evoke: Gain Influence.<br/>Unplayable
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]], [[Evoke]], [[Influence]], [[Unplayable]]
+|expreq = 10
+|upgrade1 = Boosted Collected
+|upgrade1summary = 
+|upgrade2 = Flexible Collected
+|upgrade2summary = 
+}}

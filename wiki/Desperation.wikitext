@@ -1,0 +1,16 @@
+{{CardPage
+|quote = desperate times...
+|description = While you have less than 50% health, this card costs 1 less.
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|expreq = 7
+|upgrade1 = Boosted Desperation
+|upgrade1summary = 
+|upgrade2 = Pale Desperation
+|upgrade2summary = 
+|mindamage = 10
+|maxdamage = 12
+}}

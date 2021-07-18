@@ -1,0 +1,16 @@
+{{CardPage
+|quote = Ouch...
+|description = Costs 1 less per empty cell.
+|cost = 5
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|expreq = 3
+|upgrade1 = Boosted Cheap Shot
+|upgrade1summary = 
+|upgrade2 = Very Cheap Shot
+|upgrade2summary = 
+|mindamage = 4
+|maxdamage = 7
+}}

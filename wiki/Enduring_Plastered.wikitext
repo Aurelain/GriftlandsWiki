@@ -1,0 +1,10 @@
+{{CardPage
+|quote = What a walking disaster.
+|description = Destroy a friendly argument, destroy a random opponent argument.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Plastered
+}}

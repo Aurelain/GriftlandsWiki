@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Pain is just weakness leaving the body, or something.
+|description = For the rest of your turn, any damage you receive is reduced to 1.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Power Through
+}}

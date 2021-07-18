@@ -1,0 +1,14 @@
+{{CardPage
+|quote = You’ve made your point! Put the damn gun away!
+|description = Attack once for each action available.
+|cost = 0
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|expreq = 8
+|upgrade1 = Boosted Browbeat
+|upgrade1summary = 
+|upgrade2 = Extended Browbeat
+|upgrade2summary = 
+}}

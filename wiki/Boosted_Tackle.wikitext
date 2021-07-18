@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Nobody got by me, I was a wall back in the day!
+|description = Gain 4 Defense.<br/>Apply 1 Impair
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Defend]], [[Impair]]
+|parent = Tackle
+|mindamage = 3
+|maxdamage = 5
+}}

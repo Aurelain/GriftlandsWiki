@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Being aware of all options can keep you safe and in fighting shape.
+|description = Apply 4 Defense.<br/>Increase by 3 for each card discarded this turn.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|parent = Active Defense
+}}

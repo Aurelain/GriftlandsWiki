@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Let me get this straight.
+|description = Gain 1 bonus action next turn.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|expreq = 0
+|upgrade1 = Boosted Carry Over
+|upgrade1summary = 
+}}

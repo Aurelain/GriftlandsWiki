@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Did you see what he’s wearing? It’s terrible!
+|description = Play this card twice.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]]
+}}

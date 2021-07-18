@@ -1,0 +1,10 @@
+{{CardPage
+|quote = This argument is heating up!
+|description = Gain 1 Heated<br/>Evoke: Play 3 Hostility cards in a single turn. <br/>Unplayable
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Evoke]], [[Heated]], [[Unplayable]]
+|parent = Invective
+}}

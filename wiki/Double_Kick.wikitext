@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Keep it low and use your hips, they'll never see it coming.
+|description = Attack twice.
+|cost = 2
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|parent = Kick
+|mindamage = 5
+|maxdamage = 5
+}}

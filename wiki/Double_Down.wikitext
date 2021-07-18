@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I can't lose.
+|description = Choose a card in your hand. Play it twice with a random target and then Expend it.<br/>Expend
+|cost = 2
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|expreq = 5
+|upgrade1 = Pale Double Down
+|upgrade1summary = 
+|upgrade2 = Soft Double Down
+|upgrade2summary = 
+}}

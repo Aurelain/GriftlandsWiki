@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Don’t tell anyone where you got those, I’m in enough trouble as it is.
+|description = Choose a card in your hand, it deals double damage until played.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Intensify
+}}

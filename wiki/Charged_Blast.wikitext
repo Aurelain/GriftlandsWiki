@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Center mass!
+|description = Spend 1 Charge: Deal 2 bonus damage.
+|cost = 1
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]]
+|parent = Blast
+|mindamage = 2
+|maxdamage = 4
+}}

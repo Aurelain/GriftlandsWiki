@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hesh, even Snellick’s worst isn’t half bad.
+|description = Drink.<br/>Gain 3 Moxie.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Drink]], [[Moxie]]
+|parent = Snellick's Finest
+}}

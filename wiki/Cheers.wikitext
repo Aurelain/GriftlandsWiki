@@ -1,0 +1,17 @@
+{{CardPage
+|quote = To absent friends!
+|description = Drink.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Drink]]
+|expreq = 9
+|upgrade1 = Boosted Cheers
+|upgrade1summary = 
+|upgrade2 = Rooted Cheers
+|upgrade2summary = 
+|mindamage = 3
+|maxdamage = 6
+}}

@@ -1,0 +1,15 @@
+{{CardPage
+|quote = It’s all going to be cleared up, don’t you worry.
+|description = Duplicate a random friendly argument.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Expend]]
+|expreq = 7
+|upgrade1 = Enduring Elucidate
+|upgrade1summary = 
+|upgrade2 = Focused Elucidate
+|upgrade2summary = 
+}}

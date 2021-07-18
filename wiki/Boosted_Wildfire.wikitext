@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You idiot! We needed that!
+|description = Apply 2 Burn to target enemy, then apply Burn to all other enemies equal to Burn on the target.
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Burn]]
+|parent = Wildfire
+}}

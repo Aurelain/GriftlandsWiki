@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Two cards, please.
+|description = Draw 2 cards. All Hostility cards drawn cost 1 less until played.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|expreq = 10
+|upgrade1 = Pale Drawback
+|upgrade1summary = 
+|upgrade2 = Visionary Drawback
+|upgrade2summary = 
+}}

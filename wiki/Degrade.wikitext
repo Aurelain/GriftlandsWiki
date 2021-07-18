@@ -1,0 +1,14 @@
+{{CardPage
+|quote = What an absolute joke.
+|description = Hits twice. Can target opponent or friendly arguments.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|expreq = 9
+|upgrade1 = Boosted Degrade
+|upgrade1summary = 
+|upgrade2 = Mirrored Degrade
+|upgrade2summary = 
+}}

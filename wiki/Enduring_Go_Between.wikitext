@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Come on, you’re my guy! It’ll be worth it!
+|description = Gain: Damage spills over to this argument before your core argument.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Go Between
+}}

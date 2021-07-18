@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Okay, we got off on the wrong foot here.
+|description = Remove all arguments in play.<br/>Expend
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|expreq = 5
+|upgrade1 = Boosted Slate
+|upgrade1summary = 
+|upgrade2 = Pale Slate
+|upgrade2summary = 
+}}

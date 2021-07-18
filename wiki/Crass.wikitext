@@ -1,0 +1,15 @@
+{{CardPage
+|quote = No YOU have something on your face!
+|description = Gain 2 Dominance and 1 Vulnerability.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Ability]], [[Dominance]], [[Vulnerability]]
+|expreq = 9
+|upgrade1 = Boosted Crass
+|upgrade1summary = 
+|upgrade2 = Pure Crass
+|upgrade2summary = 
+}}

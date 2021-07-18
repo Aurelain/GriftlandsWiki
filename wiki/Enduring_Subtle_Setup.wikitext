@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That's just so slick.
+|description = Create: Whenever this argument takes damage, deal that much damage to a random opponent argument.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Subtle Setup
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It’s all over!
+|description = Spend all Dominance: Gain 1 action and draw a card for each Dominance.
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = This Ends Now
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I knew that you’d see things our way eventually.
+|description = Renowned 3: This card deals double damage and hits all opponent arguments.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Expend]], [[Renown]], [[Renowned]]
+}}

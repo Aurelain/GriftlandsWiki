@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Make some space! She has you right where she wants you!
+|description = Gain 2 Combo.<br/>Ability: Whenever you attack, gain 1 Combo.<br/>Expend
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|keywords = [[Ability]], [[Combo]]
+|parent = Inside Fighting
+}}

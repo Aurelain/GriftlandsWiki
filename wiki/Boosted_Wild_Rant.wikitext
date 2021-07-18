@@ -1,0 +1,11 @@
+{{CardPage
+|quote = He just came in here screaming something about voices!
+|description = Improvise+ 2 Hostile cards from your draw pile and play them with random targets.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Improvise]]
+|parent = Wild Rant
+}}

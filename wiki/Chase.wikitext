@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Oh I really got you there didn’t I?
+|description = If this destroys an argument, play this card a second time.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|expreq = 9
+|upgrade1 = Rooted Chase
+|upgrade1summary = 
+|upgrade2 = Tall Chase
+|upgrade2summary = 
+}}

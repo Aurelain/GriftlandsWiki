@@ -1,0 +1,15 @@
+{{CardPage
+|quote = The job over on the docks? That was this guy?
+|description = Hits all opponent arguments. Lose all Dominance.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]]
+|expreq = 9
+|upgrade1 = Boosted Brute
+|upgrade1summary = 
+|upgrade2 = Maintained Brute
+|upgrade2summary = 
+}}

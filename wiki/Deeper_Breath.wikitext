@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I love the smell of lumin in the morning.
+|description = Gain 4 Concentration. Draw a card.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Concentration]], [[Expend]]
+|parent = Deep Breath
+}}

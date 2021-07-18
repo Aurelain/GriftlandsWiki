@@ -1,0 +1,17 @@
+{{CardPage
+|quote = When they are properly spun up, the power these babies deal out is tremendous.
+|description = Fully Charged: Deals max damage.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Primed]]
+|expreq = 6
+|upgrade1 = Boosted Double Time
+|upgrade1summary = 
+|upgrade2 = Pale Double Time
+|upgrade2summary = 
+|mindamage = 2
+|maxdamage = 7
+}}

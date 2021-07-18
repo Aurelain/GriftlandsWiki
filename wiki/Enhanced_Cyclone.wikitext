@@ -1,0 +1,12 @@
+{{CardPage
+|quote = What's happening? I can't even think straight.
+|description = Remove all debuffs on a target and deal 5 bonus damage per debuff.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Cyclone
+|mindamage = 1
+|maxdamage = 1
+}}

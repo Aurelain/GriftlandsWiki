@@ -1,0 +1,13 @@
+{{CardPage
+|quote = You have to be careful, I've seen these go off holstered.
+|description = Spend 1 Charge: deal 6 bonus damage.
+|cost = 1
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]]
+|parent = Hair Trigger
+|mindamage = 2
+|maxdamage = 3
+}}
