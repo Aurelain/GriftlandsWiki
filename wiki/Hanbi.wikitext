@@ -1,10 +1,18 @@
 {{stub}}
 
 {{Character
+| image = Hanbi bosspose.png
 | race = Phicket
 | location = Murder Bay
 | faction = jakes
 | title = Assassin
 }}
 
-'''Hanbi''' is a [[Jakes]] Assassin. He is usually encountered in [[Sal]]'s story, where he attempts to assassinate the hunter in her room.
+'''Hanbi''' is a [[Jakes]] Assassin. He is usually encountered on Day 2 of [[Sal]]'s story, where he attempts to assassinate the hunter in her room.
+
+== Hunting Kashio ==
+In Sal's Story, Hanbi can possibly appear on Day 2, with the other appearance being [[Zyn]]. When Sal returns to the bar and goes to sleep, [[Fssh]] will warn her about a suspicious character that asked her about Sal. When Sal actually enters her room, she notices the assassin, who reveals himself. The player is then presented with the option to either fight Hanbi with advantage or engage in a Negotiation to demoralize the assassin.
+
+== Trivia ==
+*Hanbi is the name of a Mesopotamian god of evil.
+*He and Zyn are the only Phickets to appear in the game.

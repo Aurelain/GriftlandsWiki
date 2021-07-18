@@ -1,0 +1,18 @@
+{{Reupload}}
+
+{{CardPage
+|quote = A few more of those and I'm all yours.
+|description = When this card is drawn, deal 1 damage to a random opponent argument and gain 1 [[Influence]]. </br> [[Unplayable]]
+|cost = 
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|character = Sal
+|keywords = [[Influence]], [[Unplayable]]
+|upgradeable = Yes
+|expreq = 10
+|upgrade1 = Strong Point
+|upgrade1summary = Deal 3 damage to a random opponent argument
+|upgrade2 = Visionary Point 
+|upgrade2summary = Gain 2 [[Influence]]
+}}

@@ -44,16 +44,6 @@ Her starting deck consists of the following cards:
 === Sal's Savvy ===
 '''Sal's Savvy''' is Sal's core argument. It has "At the beginning of each turn, gain 1 [[Composure]]".
 
-== Outfits ==
-
-<gallery>
-File:Sal outfit Bounty Hunter.png|Bounty Hunter
-File:Sal outfit Professional.png|Professional
-File:Sal outfit Hunter.png|Hunter
-File:Sal outfit Infiltrator.png|Infiltrator
-</gallery>
-:
-
 == Card Sets ==
 
 Sal has 10 unlock-able card sets. Each card set contains 3 negotiation and 3 battle cards.
@@ -97,6 +87,25 @@ If playing as Smith, Sal will warily approach the player in Pearl-On-The-Foam wi
 * Sal will reveal that despite her distaste for Vixmalli, she took the job to earn enough money to return to Murder Bay. She mentions that she has personal business there and that Smith "isn't the only one with messed up family stuff to work out", implying that the events of ''"Hunting Kashio"'' take place after ''"The Inheritance"''.
 * Sal can be paid by Smith to lie to Vixmalli, telling him that she chased Smith out of town. She will then love the player and grant you her boon.
 * Sal is more serious and lacks the cheeky quips she usually says in her main campaign. It can be assumed that she was fresh off the derricks when she meets Smith.
+
+<br />
+== Gallery ==
+
+=== Outfits ===
+<gallery>
+File:Sal outfit Bounty Hunter.png|Bounty Hunter
+File:Sal outfit Professional.png|Professional
+File:Sal outfit Hunter.png|Hunter
+File:Sal outfit Infiltrator.png|Infiltrator
+</gallery>
+
+=== Pre-Battle ===
+<gallery>
+File:Sal bosspose 1.png
+File:Sal bosspose 2.png
+File:Sal bosspose 3.png
+File:Sal bosspose 4.png
+</gallery>
 
 == Trivia ==
 

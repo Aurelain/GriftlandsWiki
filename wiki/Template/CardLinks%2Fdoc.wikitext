@@ -1,0 +1,10 @@
+{{doc/start}}
+Use this Template when you want to enumerate some cards, each being represented by an image that points to its page.
+
+Supports a maximum of 10 cards.
+
+==Example==
+<pre style="overflow: auto;">
+{{CardLinks|Deception,Subtlety}}</pre>
+{{CardLinks|Deception,Subtlety}}
+{{clear}}{{doc/end}}

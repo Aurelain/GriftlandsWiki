@@ -70,6 +70,6 @@ After accruing {{{expreq}}} experience, '''{{{name|{{PAGENAME}}}}}''' can be upg
 {{#if:{{{generator|}}}|
 ==Generator card==
 '''{{{name|{{PAGENAME}}}}}''' is spawned by:<br />
-{{CardLink|{{{generator}}}}}
+{{CardLinks|{{{generator}}}}}
 }}
 <noinclude>{{clear}}{{doc}}</noinclude>

@@ -1,0 +1,11 @@
+{{#if:{{#explode:{{{1}}}|,|0}}|{{CardLink|{{#explode:{{{1}}}|,|0}}}}}}<!--
+-->{{#if:{{#explode:{{{1}}}|,|1}}|{{CardLink|{{#explode:{{{1}}}|,|1}}}}}}<!--
+-->{{#if:{{#explode:{{{1}}}|,|2}}|{{CardLink|{{#explode:{{{1}}}|,|2}}}}}}<!--
+-->{{#if:{{#explode:{{{1}}}|,|3}}|{{CardLink|{{#explode:{{{1}}}|,|3}}}}}}<!--
+-->{{#if:{{#explode:{{{1}}}|,|4}}|{{CardLink|{{#explode:{{{1}}}|,|4}}}}}}<!--
+-->{{#if:{{#explode:{{{1}}}|,|5}}|{{CardLink|{{#explode:{{{1}}}|,|5}}}}}}<!--
+-->{{#if:{{#explode:{{{1}}}|,|6}}|{{CardLink|{{#explode:{{{1}}}|,|6}}}}}}<!--
+-->{{#if:{{#explode:{{{1}}}|,|7}}|{{CardLink|{{#explode:{{{1}}}|,|7}}}}}}<!--
+-->{{#if:{{#explode:{{{1}}}|,|8}}|{{CardLink|{{#explode:{{{1}}}|,|8}}}}}}<!--
+-->{{#if:{{#explode:{{{1}}}|,|9}}|{{CardLink|{{#explode:{{{1}}}|,|9}}}}}}<!--
+--><noinclude>{{clear}}{{doc}}</noinclude>

@@ -10,7 +10,8 @@ The following cards have [[Key Words|key word]] '''Dud''':
 [[File: Off Hand.png|150px]]
 {{Quote| Hey, at least he's trying.}}
 
-[[Ad Lib]]: 0-cost, Manipulate. ? base damage. [[Expend]], [[Dud]]
+[[Ad Lib]]: 0-cost, Manipulate. 2 base damage. [[Expend]], [[Dud]]
 [[File: Ad Lib.png|150px]]
+{{Quote| Wait a minute!}}
 
 [[Category:Keywords]]
