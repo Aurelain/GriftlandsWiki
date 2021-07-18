@@ -62,7 +62,7 @@ const getCards = (zip) => {
         }
     }
     fillUpgrades(output);
-    console.log('count', tally(output));
+    console.log('getCards', tally(output));
     return output;
 };
 
@@ -100,23 +100,22 @@ const collectCardsFromLua = (luaContent, luaName) => {
 
         const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
         output[id] = removeUndefined({
-            id,
             name,
+            id,
             desc: captureText(enclosure, 'desc'),
+            character: undefined, // TODO
             deckType: parseDeckType(flags),
             cardType: parseCardType(flags),
             keywords: parseKeywords(flags),
-            rarity: RARITIES[rarity],
             flavour: cleanFlavour(captureText(enclosure, 'flavour')),
+            rarity: RARITIES[rarity],
+            parent: undefined,
+            upgrades: undefined,
             cost: captureNumber(enclosure, 'cost'),
             xp: captureNumber(enclosure, 'max_xp'),
             minDamage: captureNumber(enclosure, 'min_damage'),
             maxDamage: captureNumber(enclosure, 'min_damage'),
         });
-        if (name === 'Overdrive') {
-            console.log('enclosure:', enclosure);
-            console.log('output[id]: ' + JSON.stringify(output[id], null, 4));
-        }
     }
     return output;
 };
@@ -142,15 +141,14 @@ const captureText = (text, prop) => {
 };
 
 /**
-/**
  *
  */
 const cleanFlavour = (flavour) => {
     if (!flavour) {
         return;
     }
-    flavour = flavour.replace(/^['’]+/m, '');
-    flavour = flavour.replace(/^['’]+$/m, '');
+    flavour = flavour.replace(/^['’\s]+/m, '');
+    flavour = flavour.replace(/['’\s]+$/m, '');
     return flavour;
 };
 
@@ -161,7 +159,7 @@ const parseDeckType = (flags) => {
     if (!flags) {
         return;
     }
-    return undefined;
+    return undefined; // TODO
 };
 
 /**
@@ -171,7 +169,7 @@ const parseCardType = (flags) => {
     if (!flags) {
         return;
     }
-    return undefined;
+    return undefined; // TODO
 };
 
 /**
@@ -187,7 +185,7 @@ const parseKeywords = (flags) => {
             keywords.push(KEYWORDS[keyword]);
         }
     }
-    return keywords.length ? keywords.join(', ') : undefined;
+    return keywords.length ? keywords.sort().join(',') : undefined;
 };
 
 /**
@@ -202,25 +200,23 @@ const fillUpgrades = (bag) => {
             bag[id] = {
                 ...bag[base],
                 ...bag[id],
-                parent: base,
+                parent: bag[base].name,
             };
-            for (const prop in bag[id]) {
-                if (prop.startsWith('upgrade')) {
-                    delete bag[id][prop];
-                }
+            delete bag[id].upgrades;
+            if (!bag[base].upgrades) {
+                bag[base].upgrades = [];
             }
-            let i = 1;
-            while (true) {
-                if (bag[base]['upgrade' + i]) {
-                    i++;
-                } else {
-                    bag[base]['upgrade' + i] = id;
-                    break;
-                }
-            }
+            bag[base].upgrades.push(bag[id].name);
+        }
+    }
+    for (const id in bag) {
+        const {upgrades} = bag[id];
+        if (upgrades) {
+            bag[id].upgrades = upgrades.sort().join(',');
         }
     }
 };
+
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================

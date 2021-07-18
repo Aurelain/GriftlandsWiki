@@ -4,7 +4,8 @@ const {join} = require('path');
 const tally = require('../utils/tally');
 const getFilePath = require('../utils/getFilePath');
 const jsonParse = require('../utils/jsonParse');
-const {REPLACEMENTS, STORAGE} = require('../utils/CONFIG');
+const prettyName = require('../utils/prettyName');
+const {STORAGE} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  P U B L I C
@@ -65,26 +66,13 @@ const getLocalOnly = (pages, focus) => {
     }
     for (const localFile of localFiles) {
         if (!(localFile in pages)) {
-            const title = prepareTitle(localFile);
+            const title = prettyName(localFile);
             const fileContent = fs.readFileSync(STORAGE + '/' + localFile, 'utf8');
             const content = localFile.startsWith('File/') ? JSON.parse(fileContent) : fileContent;
             localOnly[localFile] = {title, content};
         }
     }
     return localOnly;
-};
-
-/**
- *
- */
-const prepareTitle = (fileName) => {
-    let title = fileName.replace(/\.[^.]*$/, '');
-    title = title.replace('/', ':');
-    for (const unsafe in REPLACEMENTS) {
-        const safe = REPLACEMENTS[unsafe];
-        title = title.split(safe).join(unsafe);
-    }
-    return title;
 };
 
 /**

@@ -2,6 +2,7 @@ const fs = require('fs');
 const AdmZip = require('adm-zip');
 
 const attemptSelfRun = require('../utils/attemptSelfRun');
+const importCards = require('./importCards');
 const getCards = require('./getCards');
 const getCharacters = require('./getCharacters');
 const getFactions = require('./getFactions');
@@ -22,8 +23,12 @@ const update = async () => {
     try {
         const zip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
         const cards = getCards(zip);
-        // console.log('cards: ' + JSON.stringify(cards, null, 4));
-        await writeCardsSheet(cards);
+        await writeCardsSheet(cards, 'cards');
+
+        const importedCards = importCards(zip);
+        await writeCardsSheet(importedCards, 'importedCards');
+
+        compareCards(cards, importedCards);
         return;
 
         const characters = await getCharacters(zip);
@@ -53,6 +58,15 @@ const writeCharacters = (prepared) => {
         const fullPath = STORAGE + '/' + filePath;
         fs.writeFileSync(fullPath, content);
     }
+};
+
+/**
+ *
+ */
+const compareCards = (cards, importedCards) => {
+    // for (const id in importedCards) {
+    //     const {name} = importedCards[id];
+    // }
 };
 
 // =====================================================================================================================
