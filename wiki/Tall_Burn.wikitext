@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Alright already! I said no guns!
+|description = : Hits all opponent arguments.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Burn
+}}

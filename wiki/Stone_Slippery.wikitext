@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hold still so I can kill you!
+|description = Improvise a card from your discard pile.<br/>Gain 6 Defense.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]], [[Improvise]]
+|parent = Slippery
+}}

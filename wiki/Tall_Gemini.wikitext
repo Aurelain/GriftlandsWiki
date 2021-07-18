@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Guns akimbo and fresh magazines.
+|description = Fully Charged: Attack twice.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Primed]]
+|parent = Gemini
+|mindamage = 3
+|maxdamage = 8
+}}

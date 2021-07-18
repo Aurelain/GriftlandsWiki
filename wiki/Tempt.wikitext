@@ -1,0 +1,14 @@
+{{CardPage
+|quote = It's just so juicy!
+|description = Whenever a friendly argument is destroyed, reduce the cost of this card by 1 for the rest of this negotiation.
+|cost = 6
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|expreq = 3
+|upgrade1 = Boosted Tempt
+|upgrade1summary = 
+|upgrade2 = Pale Tempt
+|upgrade2summary = 
+}}

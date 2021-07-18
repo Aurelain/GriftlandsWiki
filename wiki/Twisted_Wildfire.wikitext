@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You idiot! We needed that!
+|description = Apply 1 Scorched to target enemy, then apply Scorched to all other enemies equal to Scorched on the target.
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Scorched]]
+|parent = Wildfire
+}}

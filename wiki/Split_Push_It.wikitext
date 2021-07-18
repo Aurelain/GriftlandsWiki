@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Now wait a minute y'all.
+|description = Take 3 damage twice. Draw 2 cards.
+|cost = 0
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Push It
+}}

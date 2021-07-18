@@ -1,0 +1,15 @@
+{{CardPage
+|quote = A'ha! Got you!
+|description = Improvise a card that costs 0 from your discard pile.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Improvise]]
+|expreq = 9
+|upgrade1 = Boosted Rebuttal
+|upgrade1summary = 
+|upgrade2 = Visionary Rebuttal
+|upgrade2summary = 
+}}

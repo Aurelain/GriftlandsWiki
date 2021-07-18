@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’ve got your number now pal.
+|description = Gain 5 Defense. Apply 2 Tracer.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]], [[Tracer]], [[Tracer]]
+|parent = Tracer
+}}

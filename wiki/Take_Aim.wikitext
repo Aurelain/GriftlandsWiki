@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Hold your breath and keep it steady.
+|description = Apply 2 Mark.<br/>Draw a card.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Mark]]
+|expreq = 6
+|upgrade1 = Maintained Aim
+|upgrade1summary = 
+|upgrade2 = Visionary Aim
+|upgrade2summary = 
+}}

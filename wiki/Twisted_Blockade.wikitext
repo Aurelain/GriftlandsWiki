@@ -1,0 +1,11 @@
+{{CardPage
+|quote = He’s a tough nut to crack, I’ll give you that.
+|description = Gamble.<br/>: Apply 4 Composure to all friendly arguments.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]], [[Gamble]]
+|parent = Blockade
+}}

@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Why do I have two daggers? Well, I have two hands, don't I?
+|description = Apply 2 Bleed.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Bleed]]
+|parent = Stab
+|mindamage = 2
+|maxdamage = 5
+}}

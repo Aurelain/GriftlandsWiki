@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Get behind that pillar before it disintegrates!
+|description = Apply 12 Defense.<br/>Burnout
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|parent = Tight Spot
+}}

@@ -1,0 +1,17 @@
+{{CardPage
+|quote = Keep them pinned down! I'll loop around and flank them!
+|description = Target all enemies. Gain 2 Defense per target.
+|cost = 2
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Defend]]
+|expreq = 7
+|upgrade1 = Boosted Suppressing Fire
+|upgrade1summary = 
+|upgrade2 = Promoted Suppressing Fire
+|upgrade2summary = 
+|mindamage = 2
+|maxdamage = 6
+}}

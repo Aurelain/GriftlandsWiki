@@ -1,0 +1,12 @@
+{{CardPage
+|quote = If it was so obvious then why did you get hit by it?
+|description = Discard this card: Increase the damage of this card by 2 for the rest of this battle and return it to your hand.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Wind up
+|mindamage = 4
+|maxdamage = 4
+}}

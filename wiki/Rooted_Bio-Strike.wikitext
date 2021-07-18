@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Yeah it’s wired right into your bio-metrics. It’s not something that you are supposed to be doing. There’s legality involved.
+|description = Increase your Moxie by the amount of damage dealt by this card.
+|cost = 2
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Moxie]]
+|parent = Bio-strike
+|mindamage = 6
+|maxdamage = 6
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’m in.
+|description = Discard 2 cards, Set the coin.<br/>Sticky
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Sticky]]
+|parent = Ante
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Trust me.
+|description = ALL your cards are assigned a random cost from 0 to 2 until the end of negotiation.
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Deceive
+}}

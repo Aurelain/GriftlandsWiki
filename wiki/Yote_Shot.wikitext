@@ -1,0 +1,15 @@
+{{CardPage
+|quote = A focused setting on the lumin round, it can punch through a carapace easier.
+|description = Spend 1 Charge: Apply 1 Wound.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]], [[Expend]], [[Wound]]
+|expreq = 0
+|upgrade1 = Boosted Yote Shot
+|upgrade1summary = 
+|mindamage = 2
+|maxdamage = 2
+}}

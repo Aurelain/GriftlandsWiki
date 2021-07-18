@@ -1,0 +1,8 @@
+{{CardPage
+|description = .<br/>Unplayable
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Unplayable]]
+}}

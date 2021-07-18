@@ -1,0 +1,14 @@
+{{CardPage
+|quote = He just never shuts his trap!
+|description = If this card destroys an argument, gain 1 action and return it to your hand.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|expreq = 9
+|upgrade1 = Rooted Unyielding
+|upgrade1summary = 
+|upgrade2 = Tall Unyielding
+|upgrade2summary = 
+}}

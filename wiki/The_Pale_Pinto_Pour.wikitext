@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Only the keenest eyes appreciate the absolute craftsmanship of the bottle.
+|description = Drink.<br/>Gain 2 Power.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Drink]], [[Expend]], [[Power]]
+|parent = The Pinto Pour
+}}

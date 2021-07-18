@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Never go anywhere without a basher and a brew.
+|description = Insert Fracture or Slam into your hand.
+|cost = 1
+|character = Smith
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Smith's Arsenal
+}}

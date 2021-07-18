@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hit the dirt!
+|description = Apply 3 Defense.<br/>Gain 2 Overcharge.
+|cost = 1
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]], [[Overcharge]]
+|parent = Hunker Down
+}}

@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Yeah, I'm familiar with that vest. It's why I'm not wearing one myself actually.
+|description = All attacks are Piercing until the end of your turn.<br/>Expend
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]], [[Piercing]]
+|expreq = 7
+|upgrade1 = Enduring Weak Points
+|upgrade1summary = 
+|upgrade2 = Pale Weak Points
+|upgrade2summary = 
+}}

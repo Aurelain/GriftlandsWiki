@@ -1,0 +1,10 @@
+{{CardPage
+|quote = For emergencies of course.
+|description = Set the coin to  and draw a card, then discard a card.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Snail in the Pocket
+}}

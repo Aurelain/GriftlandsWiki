@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Slick duds pal.
+|description = Draw 2 cards and upgrade them for this negotiation.<br/>Sticky
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Sticky]]
+|parent = Pure Style
+}}

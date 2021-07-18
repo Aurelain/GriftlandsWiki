@@ -1,0 +1,10 @@
+{{CardPage
+|quote = This is what we need to discuss now.
+|description = Attack 2 random arguments.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|parent = Agency
+}}

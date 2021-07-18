@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Where?
+|description = Gain 1 Evasion.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+|parent = Duck!
+}}

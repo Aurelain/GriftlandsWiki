@@ -1,0 +1,11 @@
+{{CardPage
+|quote = That’s a great idea!
+|description = Choose a card in your hand, place it on top of your draw pile.<br/>Sticky
+|cost = 0
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Sticky]]
+|parent = Shelve
+}}

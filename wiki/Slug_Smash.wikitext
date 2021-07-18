@@ -1,0 +1,17 @@
+{{CardPage
+|quote = Where is he getting all this strength from?
+|description = This card deals bonus damage equal to your Moxie.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Moxie]]
+|expreq = 9
+|upgrade1 = Boosted Slug Smash
+|upgrade1summary = 
+|upgrade2 = Soothing Slug Smash
+|upgrade2summary = 
+|mindamage = 0
+|maxdamage = 0
+}}

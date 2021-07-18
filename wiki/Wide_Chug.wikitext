@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Sir, that’s one per table not customer.
+|description = Play Smith's Wide Flask again.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+|parent = Chug
+}}

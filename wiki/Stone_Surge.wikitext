@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I don't know what to tell you, I hit them like, six times...
+|description = Gain 2 Defense. Increase by 3 for each card played this turn.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|parent = Defensive Surge
+}}

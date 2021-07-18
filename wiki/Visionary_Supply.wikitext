@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Can I have that when you are finished?
+|description = Draw 3 cards.<br/>Expend up to 4 cards from your hand. Add that many Empty Bottle cards to your discard pile.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Endless Supply
+}}

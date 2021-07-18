@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I’m keeping all the good parts in.
+|description = Draw 4 cards, discard 2 random cards from your hand.
+|cost = 0
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Ransack
+}}

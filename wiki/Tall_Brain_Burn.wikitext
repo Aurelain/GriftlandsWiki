@@ -1,0 +1,13 @@
+{{CardPage
+|quote = I picked this one up after Operation Reed Walker. Haven't used it since.
+|description = Apply 1 Burn per Concentration.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]], [[Concentration]]
+|parent = Brain Burn
+|mindamage = 1
+|maxdamage = 6
+}}

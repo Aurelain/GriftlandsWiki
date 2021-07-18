@@ -1,0 +1,12 @@
+{{CardPage
+|quote = All aboard!
+|description = Whenever you take damage, reduce the cost of this card by 2 until played.
+|cost = 10
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|parent = The Pain Train
+|mindamage = 8
+|maxdamage = 14
+}}

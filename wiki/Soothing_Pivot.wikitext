@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’ve never seen anything keep fighting for that long.
+|description = Remove up to 6 Adrenaline and Alleviate that much health.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Adrenaline]], [[Alleviate]]
+|parent = Pivot
+}}

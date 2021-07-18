@@ -1,0 +1,9 @@
+{{CardPage
+|quote = I’m begging here.
+|cost = 0
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|parent = Plead
+}}

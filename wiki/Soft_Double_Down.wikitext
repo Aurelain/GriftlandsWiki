@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I can't lose.
+|description = Choose a card in your hand. Play it twice with a random target.<br/>Expend
+|cost = 2
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Double Down
+}}

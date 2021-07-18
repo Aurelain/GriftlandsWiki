@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Makes them a lot easier to hit in the dark, I'll tell you that much.
+|description = Apply Burn equal to damage dealt by this card.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]]
+|parent = Sear
+|mindamage = 1
+|maxdamage = 7
+}}

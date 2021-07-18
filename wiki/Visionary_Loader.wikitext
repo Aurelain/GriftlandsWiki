@@ -1,0 +1,11 @@
+{{CardPage
+|quote = The newest model is twenty percent more efficient, and it also comes in blue!
+|description = Draw a card. Spend all Charge, gain 2 Temporary Power for each Charge spent.
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]], [[Power]]
+|parent = Loader
+}}

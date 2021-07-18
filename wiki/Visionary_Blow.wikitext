@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Ok I have to give it to him, that was well done.
+|description = Threshold 5: Draw 3 cards.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Threshold]]
+|parent = Inspirational Blow
+|mindamage = 3
+|maxdamage = 5
+}}

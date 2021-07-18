@@ -1,0 +1,16 @@
+{{CardPage
+|quote = All aboard!
+|description = Whenever you take damage, reduce the cost of this card by 1 until played.
+|cost = 10
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|expreq = 9
+|upgrade1 = The Pale Pain Train
+|upgrade1summary = 
+|upgrade2 = The Rooted Pain Train
+|upgrade2summary = 
+|mindamage = 8
+|maxdamage = 14
+}}

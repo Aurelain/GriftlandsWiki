@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Oof, that’s been here a while.
+|description = Discard any number of cards and draw as many. Take 2 damage per card discarded.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Clean House
+}}

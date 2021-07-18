@@ -1,0 +1,12 @@
+{{CardPage
+|quote = This one gets a little technical.
+|description = Hits all enemies.<br/>Take 2 damage.
+|cost = 2
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Smash
+|mindamage = 6
+|maxdamage = 8
+}}

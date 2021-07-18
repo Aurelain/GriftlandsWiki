@@ -1,0 +1,17 @@
+{{CardPage
+|quote = Yeah I could get in a lot of trouble for installing this, but you are just so damned persuasive.
+|description = If you have any Overcharge: Attack twice.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Overcharge]]
+|expreq = 9
+|upgrade1 = Boosted Surge Coil
+|upgrade1summary = 
+|upgrade2 = Rooted Surge Coil
+|upgrade2summary = 
+|mindamage = 2
+|maxdamage = 5
+}}

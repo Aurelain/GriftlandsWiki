@@ -1,0 +1,13 @@
+{{CardPage
+|quote = They came at me like some kind of wild animal.
+|description = Attack 1 random enemy, apply 1 Wound.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Wound]]
+|parent = Wild Lunge
+|mindamage = 2
+|maxdamage = 14
+}}

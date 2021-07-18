@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I think we are BOTH going to feel that in the morning.
+|description = Add an Injury card to your discard pile. <br/>Cannot be played with an Injury in your hand.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Over Extension
+|mindamage = 11
+|maxdamage = 11
+}}

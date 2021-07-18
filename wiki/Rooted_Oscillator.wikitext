@@ -1,0 +1,13 @@
+{{CardPage
+|quote = The initial blast causes a reflective energy coating that makes it so consecutive... are you even listening?
+|description = Apply Ricochet equal to damage dealt by this card.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Ricochet]]
+|parent = Oscillator
+|mindamage = 4
+|maxdamage = 4
+}}

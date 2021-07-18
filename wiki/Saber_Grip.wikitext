@@ -1,0 +1,12 @@
+{{CardPage
+|quote = You seem to be having trouble keeping your insides in, friend.
+|description = Apply 2 Bleed.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]]
+|mindamage = 2
+|maxdamage = 2
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That's going to leave one Hesh of a cool scar if you make it through this.
+|description = Apply 5 Bleed.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]]
+}}

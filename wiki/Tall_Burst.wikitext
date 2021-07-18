@@ -1,0 +1,13 @@
+{{CardPage
+|quote = The claws ripped right through his armor like it wasn't even there.
+|description = Apply Bleed equal to damage dealt by this card.
+|cost = 2
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Bleed]]
+|parent = Burst
+|mindamage = 3
+|maxdamage = 9
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You think you and your crew scare me? I’ve been taking on worse before you could even crawl!
+|description = Gain 5 Defense per enemy targeting you.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|parent = Challenger
+}}

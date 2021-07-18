@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You should definitely get that looked at.
+|description = This card gains 1 damage every time you Gamble and get .
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Gamble]]
+|parent = Snail Bite
+}}

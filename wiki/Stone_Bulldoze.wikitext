@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Outta my way!
+|description = Gain 4 Composure.<br/>Gain: Whenever you destroy an argument, gain an action.<br/>Expend
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Composure]]
+|parent = Bulldoze
+}}

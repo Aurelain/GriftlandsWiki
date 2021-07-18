@@ -1,0 +1,10 @@
+{{CardPage
+|quote = A few more rewrites and we'll be a lot closer.
+|description = Destroy all friendly arguments and create new copies of them.<br/>Draw a card for every argument destroyed.<br/>Expend
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Revision
+}}

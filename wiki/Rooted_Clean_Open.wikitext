@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Shoot first.
+|description = Empty: Attack twice.<br/>Gain 1 Charge.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]], [[Empty]]
+|parent = Clean Open
+|mindamage = 5
+|maxdamage = 5
+}}

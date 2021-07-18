@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Ouch...
+|description = Costs 1 less per empty cell.
+|cost = 4
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Cheap Shot
+|mindamage = 4
+|maxdamage = 7
+}}

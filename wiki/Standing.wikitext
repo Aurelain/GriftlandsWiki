@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Looking good there Smith.
+|description = Apply 3 Composure.<br/>Renowned 3: apply 3 bonus Composure.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]], [[Renown]], [[Renowned]]
+|expreq = 9
+|upgrade1 = Pale Standing
+|upgrade1summary = 
+|upgrade2 = Stone Standing
+|upgrade2summary = 
+}}

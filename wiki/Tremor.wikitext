@@ -1,0 +1,15 @@
+{{CardPage
+|quote = After this, be sure to toss in that grenade, it's going to be beautiful.
+|description = Apply 1 Ricochet to all enemies.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ricochet]]
+|expreq = 9
+|upgrade1 = Boosted Tremor
+|upgrade1summary = 
+|upgrade2 = Inductive Tremor
+|upgrade2summary = 
+}}

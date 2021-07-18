@@ -1,0 +1,15 @@
+{{CardPage
+|quote = They are going to wish they never took a swing at me.
+|description = Ability: Whenever you gain Charge, gain 2 Counter.<br/>Expend
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Charge]], [[Counter]], [[Expend]]
+|expreq = 6
+|upgrade1 = Initial Tank
+|upgrade1summary = 
+|upgrade2 = Pale Tank
+|upgrade2summary = 
+}}

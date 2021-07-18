@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Old targeting tech from the Aerostat, I've made a few adjustments.
+|description = Apply 2 Scanned to a random enemy.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Scanned]]
+|expreq = 9
+|upgrade1 = Boosted Scanner
+|upgrade1summary = 
+|upgrade2 = Precise Scanner
+|upgrade2summary = 
+}}

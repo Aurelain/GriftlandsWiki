@@ -1,0 +1,14 @@
+{{CardPage
+|quote = That’s a great idea!
+|description = Choose a card in your hand, place it on top of your draw pile.
+|cost = 0
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|expreq = 10
+|upgrade1 = Sticky Shelve
+|upgrade1summary = 
+|upgrade2 = Visionary Shelve
+|upgrade2summary = 
+}}

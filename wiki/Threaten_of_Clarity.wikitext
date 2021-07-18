@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I don't want to have to hurt you, but I will if I have to.
+|description = Destroy
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Destroy]]
+|parent = Threaten
+}}

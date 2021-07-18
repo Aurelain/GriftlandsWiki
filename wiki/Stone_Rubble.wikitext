@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Why yes, I’ll gladly show you what’s inside the briefcase.
+|description = Discard up to 2 cards, gain 4 Defense per card discarded.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|parent = Rubble
+}}

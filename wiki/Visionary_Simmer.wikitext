@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You might want to blow on that one.
+|description = When drawn, reduce the cost of a random Hostile card in your hand by 1 until played.<br/>Unplayable, Replenish
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Replenish]], [[Unplayable]]
+|parent = Simmer
+}}

@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Pretty sure that was just a distraction.
+|description = Can only target friendly arguments.<br/>Dismiss a random enemy intent.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|expreq = 9
+|upgrade1 = Pale Topple
+|upgrade1summary = 
+|upgrade2 = Softened Topple
+|upgrade2summary = 
+}}

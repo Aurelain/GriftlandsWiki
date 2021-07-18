@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You haven’t made a decent point in hours! Just give up already.
+|description = If this card destroys an argument, gain 1 Dominance.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]]
+|parent = Oppress
+}}

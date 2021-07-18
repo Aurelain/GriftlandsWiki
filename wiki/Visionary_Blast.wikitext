@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Center mass!
+|description = Draw a card.
+|cost = 1
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|parent = Blast
+|mindamage = 2
+|maxdamage = 4
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Kra'deshi pugilists tend to feint a lot of their strikes, waiting for the perfect opening.
+|description = Draw two cards.<br/>Discard this card: Your attacks deal 2 bonus damage this turn.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Ghost Strike
+|mindamage = 1
+|maxdamage = 2
+}}

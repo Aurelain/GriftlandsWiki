@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Ah! That reminds me.
+|description = Draw 1 card.<br/>Return the next card you play this turn to your draw pile.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|expreq = 9
+|upgrade1 = Enhanced Segue
+|upgrade1summary = 
+|upgrade2 = Visionary Segue
+|upgrade2summary = 
+}}

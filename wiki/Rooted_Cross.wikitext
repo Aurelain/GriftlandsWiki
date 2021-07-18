@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Sure it's slow, but the follow up is amazing.
+|description = Gain Combo equal to damage dealt by this card.
+|cost = 2
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Combo]]
+|parent = Cross
+|mindamage = 6
+|maxdamage = 6
+}}

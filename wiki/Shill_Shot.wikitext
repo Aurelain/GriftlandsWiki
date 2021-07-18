@@ -1,0 +1,14 @@
+{{CardPage
+|quote = You can never be too prepared, I bought all the best gear before I arrived.
+|description = Spend all Charge: Draw a card for each Charge spent.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]]
+|upgrade1 = Boosted Shill Shot
+|upgrade1summary = 
+|upgrade2 = Stone Shill Shot
+|upgrade2summary = 
+}}

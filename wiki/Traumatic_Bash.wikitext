@@ -1,0 +1,13 @@
+{{CardPage
+|quote = I call it my speciality.
+|description = Apply 2 Trauma.
+|cost = 1
+|character = Smith
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Trauma]]
+|parent = Bash
+|mindamage = 2
+|maxdamage = 4
+}}

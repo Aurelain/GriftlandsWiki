@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That was just a warmup.
+|description = Destroy a card in hand.<br/>Choose one of 5 cards to add to your deck permanently.<br/>Expend
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Do Over
+}}

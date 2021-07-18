@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I'm not even going to address that.
+|description = Apply 3 Composure<br/>Draw a card.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]]
+|parent = Deflection
+}}

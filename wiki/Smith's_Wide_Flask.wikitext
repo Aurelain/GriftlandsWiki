@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I stole this from a guy, so now it’s mine.
+|description = Drink.<br/>Improvise+ a card from a pool of special cards.
+|cost = 1
+|character = Smith
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Drink]], [[Improvise]]
+|parent = Smith's Flask
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|quote = He didn’t even have to say anything. The whole place could feel it.
+|cost = 0
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Veiled Anger
+}}

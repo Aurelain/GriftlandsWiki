@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Sometimes it just takes determination.
+|description = Deal bonus damage equal to twice the cost of your hand.
+|cost = 2
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Freighter
+|mindamage = 5
+|maxdamage = 5
+}}

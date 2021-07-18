@@ -1,0 +1,17 @@
+{{CardPage
+|quote = All over this land.
+|description = If your target has Trauma, apply 2 Impair.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Impair]], [[Trauma]]
+|expreq = 9
+|upgrade1 = The Rooted Sledge
+|upgrade1summary = 
+|upgrade2 = The Stifling Sledge
+|upgrade2summary = 
+|mindamage = 3
+|maxdamage = 5
+}}

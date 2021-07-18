@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Name's Rook, nice to meet you.
+|description = Empty: Deal 2 bonus damage and apply 2 Impair.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Empty]], [[Impair]]
+|parent = Sucker Punch
+|mindamage = 5
+|maxdamage = 5
+}}

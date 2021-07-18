@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Where is he getting all this strength from?
+|description = This card deals bonus damage equal to your Moxie.<br/>Alleviate 5 health.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Alleviate]], [[Moxie]]
+|parent = Slug Smash
+|mindamage = 0
+|maxdamage = 0
+}}

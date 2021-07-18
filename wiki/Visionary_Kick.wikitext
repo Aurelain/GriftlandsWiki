@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Keep it low and use your hips, they'll never see it coming.
+|description = Draw a card.
+|cost = 2
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|parent = Kick
+|mindamage = 8
+|maxdamage = 8
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = When the pistols are spun up enough, you can actually get a pretty decent shield going.
+|description = Spend up to 3 Overcharge: Gain 2 Defense and 3 Counter for each Overcharge spent.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Counter]], [[Defend]], [[Overcharge]]
+|parent = Arc Deflection
+}}

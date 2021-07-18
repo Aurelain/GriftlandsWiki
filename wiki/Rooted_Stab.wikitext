@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Why do I have two daggers? Well, I have two hands, don't I?
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Improvise]]
+|parent = Stab
+|mindamage = 4
+|maxdamage = 5
+}}

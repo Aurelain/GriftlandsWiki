@@ -1,0 +1,12 @@
+{{CardPage
+|quote = They are out in the open just begging to be hit.
+|description = Gain 1 minimum damage per empty cell.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Clear Shot
+|mindamage = 1
+|maxdamage = 8
+}}

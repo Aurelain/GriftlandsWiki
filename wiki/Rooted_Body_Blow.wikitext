@@ -1,0 +1,13 @@
+{{CardPage
+|quote = He’ll be feeling that in the morning.
+|description = If your target has Trauma or Traumatized, this deals double damage.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Trauma]]
+|parent = Body Blow
+|mindamage = 4
+|maxdamage = 4
+}}

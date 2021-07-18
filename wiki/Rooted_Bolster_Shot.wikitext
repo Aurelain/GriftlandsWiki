@@ -1,0 +1,12 @@
+{{CardPage
+|quote = These are going to leave some wicked holes my friend.
+|description = Deal bonus damage equal to the cost of the two most expensive cards in your hand.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Bolster Shot
+|mindamage = 5
+|maxdamage = 5
+}}

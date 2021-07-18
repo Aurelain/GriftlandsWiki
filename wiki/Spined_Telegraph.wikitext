@@ -1,0 +1,11 @@
+{{CardPage
+|quote = How did he see that coming? Is he psychic or something?!.
+|description = Gain 2 Concentration.<br/>Apply 2 Defense and gain 1 Counter per Concentration.
+|cost = 2
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Concentration]], [[Counter]], [[Defend]]
+|parent = Telegraph
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = It's like shooting tallowfish in a barrel!
+|description = Hits all enemies.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Gallery
+|mindamage = 4
+|maxdamage = 4
+}}

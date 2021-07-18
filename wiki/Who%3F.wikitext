@@ -1,0 +1,15 @@
+{{CardPage
+|quote = ...Me?
+|description = Double your Renown. At the end of your turn, lose all Renown.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Renown]]
+|expreq = 9
+|upgrade1 = Boosted Who?
+|upgrade1summary = 
+|upgrade2 = Pale Who?
+|upgrade2summary = 
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Pay day!
+|description = Spend all Dominance. Gamble that many times +1.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Dominance]], [[Gamble]]
+|parent = Prominence
+}}

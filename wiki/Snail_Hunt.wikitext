@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I’ve never seen them this aggressive, must be starving.
+|description = Rig 2 , then Improvise a Hostility card from your draw pile.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Improvise]], [[Rig]]
+|expreq = 9
+|upgrade1 = Enhanced Snail Hunt
+|upgrade1summary = 
+|upgrade2 = Rigged Snail Hunt
+|upgrade2summary = 
+}}

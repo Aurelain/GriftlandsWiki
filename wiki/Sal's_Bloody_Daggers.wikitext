@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You don't need to know where to hit them if you go deep enough.
+|description = Insert Gouge or Vertical Slash into your hand.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Sal's Daggers
+}}

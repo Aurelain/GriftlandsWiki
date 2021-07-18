@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Yeah it was Kleeta’s move back on the derrick, I just make it look better.
+|description = Whenever you Improvise while this card is in your hand, reduce its cost by 1 for the rest of this battle.
+|cost = 4
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Improvise]]
+|parent = Crusher
+|mindamage = 10
+|maxdamage = 10
+}}

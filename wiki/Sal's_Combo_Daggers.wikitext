@@ -1,0 +1,10 @@
+{{CardPage
+|quote = This one's called Dag. The other one's Gurr.\nYeah? Well I don't like <b>your</> name, either, pal.
+|description = Insert Rain of Blades or Gut Shot into your hand.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Sal's Daggers
+}}

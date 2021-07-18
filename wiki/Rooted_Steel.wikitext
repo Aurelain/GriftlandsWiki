@@ -1,0 +1,13 @@
+{{CardPage
+|quote = The noisy ones are scarier, but a lot easier to avoid.
+|description = Expend, Ambush
+|cost = 0
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Ambush]], [[Expend]]
+|parent = Silent Steel
+|mindamage = 8
+|maxdamage = 8
+}}

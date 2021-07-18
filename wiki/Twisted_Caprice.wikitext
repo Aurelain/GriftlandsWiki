@@ -1,0 +1,11 @@
+{{CardPage
+|quote = One second everything was cool, and the next, he was screaming!
+|description = Improvise+ 2 random Hostility cards. They cost 1 less until played.<br/>Expend
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Improvise]]
+|parent = Caprice
+}}

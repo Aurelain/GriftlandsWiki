@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Just get to the point already.
+|description = Expend any number of cards.<br/>Gain 1 Smarts for each card expended + 1.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Smarts]]
+|parent = Just the Facts
+}}

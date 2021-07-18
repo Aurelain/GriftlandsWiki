@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I could do this all day!
+|description = Gain 1 action for every 3 cards in your discard pile.<br/>Draw a card.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Second Wind
+}}

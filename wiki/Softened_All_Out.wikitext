@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You asked for it!
+|description = Gain 1 Defenseless.<br/>Reduce the cost of 2 random cards in your hand by 1 until the end of your turn.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Defenseless]]
+|parent = All Out
+}}

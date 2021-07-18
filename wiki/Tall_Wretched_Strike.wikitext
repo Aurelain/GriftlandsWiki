@@ -1,0 +1,12 @@
+{{CardPage
+|quote = That was the worst thing that I ever saw...
+|description = Deals 1 bonus damage for every card drawn this turn.
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|parent = Wretched Strike
+|mindamage = 1
+|maxdamage = 6
+}}

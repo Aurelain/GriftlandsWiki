@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Sometimes the loudest thing in the room wins.
+|description = Deal 1 bonus damage for every other Hostility card in your hand.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Bellow
+}}

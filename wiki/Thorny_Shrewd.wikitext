@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Nice try.
+|description = Gain Defense equal to the damage of your target's next attack.<br/>Gain 5 Counter.
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Counter]], [[Defend]]
+|parent = Shrewd
+}}

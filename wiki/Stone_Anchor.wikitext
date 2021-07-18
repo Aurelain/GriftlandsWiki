@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Probably a little too heavy to do what you want.
+|description = Apply 12 Defense.<br/>This card costs 1 more per other card in your hand.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|parent = Boat Anchor
+}}

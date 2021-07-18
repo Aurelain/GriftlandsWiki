@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Thugs and bandits quickly took advantage of how dark the roads get in Havaria.
+|description = Ability: Whenever you discard a card, gain 2 Defense.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Defend]]
+|parent = Into the Night
+}}

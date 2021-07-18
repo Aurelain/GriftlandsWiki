@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Back in the hole you mutts!
+|description = Gain 9 Defense at the start of your next turn.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|parent = Hole Up
+}}

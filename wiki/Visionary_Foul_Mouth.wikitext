@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You kiss your mother with that mouth?
+|description = Draw a card, discard a card.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Foul Mouth
+}}

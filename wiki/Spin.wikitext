@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Where it stops on the table is where the scoring bracket is placed, try and keep up please.
+|description = Deal 1 to 4 damage. Gamble once per resolve lost.
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Gamble]]
+|expreq = 9
+|upgrade1 = Rooted Spin
+|upgrade1summary = 
+|upgrade2 = Tall Spin
+|upgrade2summary = 
+}}

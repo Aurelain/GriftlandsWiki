@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Know when to walk away.
+|description = Threshold 4: Increase your Moxie by 4.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Moxie]], [[Threshold]]
+|parent = Hold 'em
+|mindamage = 2
+|maxdamage = 6
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Spontaneous combustion anyone? The fire was inside them this whole time.
+|description = When drawn, apply 3 Burn to a random enemy.<br/>Unplayable, Replenish
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]], [[Replenish]], [[Unplayable]]
+}}

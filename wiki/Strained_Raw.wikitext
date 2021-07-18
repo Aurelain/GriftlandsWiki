@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Watch the birdie.
+|description = When this card is drawn, Gamble. Then discard a card.<br/>Unplayable
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Gamble]]
+|parent = Raw
+}}

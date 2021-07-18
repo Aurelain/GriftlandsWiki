@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You're just looking at it wrong. Here, let me step you through it...
+|description = Gain 3 Composure.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]]
+|parent = Fast Talk
+}}

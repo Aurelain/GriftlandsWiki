@@ -1,0 +1,13 @@
+{{CardPage
+|quote = I’m not going near that thing!
+|description = Expend up to 3 Empty Bottle cards from your deck: Attack a random enemy and apply 2 Trauma per card expended.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Trauma]]
+|parent = Hurricane
+|mindamage = 3
+|maxdamage = 4
+}}

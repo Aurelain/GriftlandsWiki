@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Whoah, slow down there.
+|description = Draw 3 cards. Expend all Empty Bottle cards in your hand. Drink 2 per card expended.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Drink]]
+|parent = Gulper
+}}

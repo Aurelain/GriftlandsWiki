@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’m begging here.
+|description = Lose 1 Influence.
+|cost = 0
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|parent = Plead
+}}

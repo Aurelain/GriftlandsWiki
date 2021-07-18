@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Ah! That reminds me.
+|description = Draw 2 cards.<br/>Return the next card you play this turn to your draw pile.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Segue
+}}

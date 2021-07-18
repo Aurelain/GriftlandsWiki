@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Tastes as old as an autodog and garnished with a ball bearing.
+|description = Drink 2 and gain 5 Defense.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]], [[Drink]]
+|expreq = 9
+|upgrade1 = Gulping Rust Bucket
+|upgrade1summary = 
+|upgrade2 = Stone Rust Bucket
+|upgrade2summary = 
+}}

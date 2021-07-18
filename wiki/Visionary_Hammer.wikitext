@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Fill them full of holes! We've got plenty of ammo!
+|description = Spend all Charge: Attack once and draw a card for each Charge.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]]
+|parent = Fan The Hammer
+|mindamage = 2
+|maxdamage = 4
+}}

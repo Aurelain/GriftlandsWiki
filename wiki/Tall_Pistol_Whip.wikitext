@@ -1,0 +1,13 @@
+{{CardPage
+|quote = I thought he was reloading...
+|description = Empty: this costs 0.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Empty]]
+|parent = Pistol Whip
+|mindamage = 4
+|maxdamage = 8
+}}
