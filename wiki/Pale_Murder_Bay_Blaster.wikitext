@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Don’t swallow the battery, unless you want a real rough couple of days.
+|description = Drink.<br/>Gain 1 Power.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Drink]], [[Expend]], [[Power]]
+|parent = Murder Bay Blaster
+}}

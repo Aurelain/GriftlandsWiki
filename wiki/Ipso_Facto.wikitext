@@ -1,0 +1,14 @@
+{{CardPage
+|quote = I think it’s Latin? Sure makes it hard to figure out.
+|description = Gain 1 Influence.<br/>Evoke: An opponent's argument is removed or destroyed.<br/>Unplayable
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Evoke]], [[Influence]], [[Unplayable]]
+|expreq = 10
+|upgrade1 = Boosted Facto
+|upgrade1summary = 
+|upgrade2 = Flexible Facto
+|upgrade2summary = 
+}}

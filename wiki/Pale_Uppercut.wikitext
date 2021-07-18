@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Glass jaw. Knew it.
+|description = Gain 1 Power.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Power]]
+|parent = Uppercut
+|mindamage = 2
+|maxdamage = 5
+}}

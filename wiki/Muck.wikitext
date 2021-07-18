@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Double or nothing, come on you know I’m good for it.
+|description = Gamble.<br/>: Attack with this card twice.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Gamble]]
+|expreq = 9
+|upgrade1 = Boosted Muck
+|upgrade1summary = 
+|upgrade2 = Focused Muck
+|upgrade2summary = 
+}}

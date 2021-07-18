@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Center mass!
+|description = Gain 1 Charge.
+|cost = 1
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]]
+|parent = Blast
+|mindamage = 2
+|maxdamage = 4
+}}

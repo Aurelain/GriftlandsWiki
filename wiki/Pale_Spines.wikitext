@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Now where the Hesh did those come from?
+|description = Ability: Gain 1 Counter whenever you gain Defense.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Counter]], [[Defend]], [[Expend]]
+|parent = Spines
+}}

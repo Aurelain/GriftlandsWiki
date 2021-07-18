@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Don’t get me started.
+|description = Apply 5 Composure.<br/>Prepared: Apply 1 Composure to all friendly arguments.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]], [[Prepare]], [[Prepared]]
+|parent = Prattle
+}}

@@ -1,0 +1,17 @@
+{{CardPage
+|quote = Bonk!
+|description = Apply 1 Stun.<br/>Expend
+|cost = 3
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]], [[Stun]]
+|expreq = 3
+|upgrade1 = Boosted Obliterate
+|upgrade1summary = 
+|upgrade2 = Pale Obliterate
+|upgrade2summary = 
+|mindamage = 10
+|maxdamage = 12
+}}

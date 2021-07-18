@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Ahh yes. Thank you brother, be well.
+|description = Shield all friendly arguments until the start of your next turn.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Expend]]
+|parent = Amnesty
+}}

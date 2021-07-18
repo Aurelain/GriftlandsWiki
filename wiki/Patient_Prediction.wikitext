@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Well, I wasn’t expecting that.
+|description = Apply 3 Defense. Increase by 3 for the rest of this battle whenever this card is Improvised.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]], [[Improvise]]
+|parent = Prediction
+}}

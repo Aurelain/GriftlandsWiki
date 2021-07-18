@@ -1,0 +1,11 @@
+{{CardPage
+|quote = One strike is usually all you need when emerging from darkness.
+|description = Ability: Whenever you discard a card, gain 1 Adrenaline.<br/>Expend, Ambush
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Adrenaline]], [[Ambush]], [[Expend]]
+|parent = Shadow Mastery
+}}

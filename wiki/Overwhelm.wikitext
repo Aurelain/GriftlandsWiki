@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Am I losing or is it already over?
+|description = Deal +1 damage for every argument you have.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|expreq = 9
+|upgrade1 = Boosted Overwhelm
+|upgrade1summary = 
+|upgrade2 = Enhanced Overwhelm
+|upgrade2summary = 
+}}

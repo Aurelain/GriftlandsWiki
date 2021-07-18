@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Still good!
+|description = Discard Empty Bottle cards from your hand and draw that many cards.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|expreq = 9
+|upgrade1 = Boosted Reuse
+|upgrade1summary = 
+|upgrade2 = Pale Reuse
+|upgrade2summary = 
+}}

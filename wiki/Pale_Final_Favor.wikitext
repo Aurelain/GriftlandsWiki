@@ -1,0 +1,11 @@
+{{CardPage
+|quote = This is the last one, I promise.
+|description = Spend all Influence: Apply 2 Composure per Influence spent to all friendly arguments.
+|cost = 0
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]], [[Influence]]
+|parent = Final Favor
+}}

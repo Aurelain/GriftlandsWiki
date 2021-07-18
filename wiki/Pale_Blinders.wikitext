@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It's an ironic name, I can see a lot better with these things.
+|description = Ability: For each Charge you spend, apply 1 Mark to a random enemy.<br/>Expend
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Charge]], [[Expend]], [[Mark]]
+|parent = Blinders
+}}

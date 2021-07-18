@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I unloaded my whole magazine into them, and the psycho just smiled! Who does that!?
+|description = Gain 3 Moxie. Double your Defense. At the start of your next turn, lose no Defense.
+|cost = 2
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]], [[Moxie]]
+|parent = Thickness
+}}

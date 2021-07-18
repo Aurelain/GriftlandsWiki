@@ -1,0 +1,17 @@
+{{CardPage
+|quote = I’ll raise you this Heshing table!
+|description = Threshold 5: Reduce the cost of a random card in your hand by 1 until played.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Threshold]]
+|expreq = 9
+|upgrade1 = Boosted Raise
+|upgrade1summary = 
+|upgrade2 = Wide Raise
+|upgrade2summary = 
+|mindamage = 2
+|maxdamage = 6
+}}

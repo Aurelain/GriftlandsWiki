@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Stick to the plan and we’ll all get what we want.
+|description = Gain: Whenever you Prepare a card, deal 2 damage to a random opponent argument.<br/>Expend
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Expend]], [[Prepare]]
+|parent = Strategy
+}}

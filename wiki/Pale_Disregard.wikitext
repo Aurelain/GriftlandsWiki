@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I’ve stopped listening.
+|description = Discard your hand. Draw 7 cards.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Disregard
+}}

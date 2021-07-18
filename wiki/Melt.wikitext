@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Could be something to do with their glands, I never cared enough to look at the corpses.
+|description = When drawn, apply 2 Scorched to a random enemy.<br/>Unplayable, Replenish
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Replenish]], [[Scorched]], [[Unplayable]]
+}}

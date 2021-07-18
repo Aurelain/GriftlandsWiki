@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Just extend your range a little more and those blades will be biting into everyone!
+|description = Ability: Whenever you apply Bleed, apply 1 Bleed to all other enemies.<br/>Expend, Ambush
+|cost = 2
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Ambush]], [[Bleed]], [[Expend]]
+|parent = Bloodbath
+}}

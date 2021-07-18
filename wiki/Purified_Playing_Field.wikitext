@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Let’s start this over.
+|description = Gain 1 Vulnerability.<br/>All cards deal +3 damage this turn.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Ability]], [[Vulnerability]]
+|parent = Level Playing Field
+}}

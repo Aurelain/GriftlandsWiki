@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Consistency is just going to get you dead. If something's not working, it's time to try the opposite.
+|description = Insert Obtuse, Mean or Inspiration into your hand.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Sal's Instincts
+}}

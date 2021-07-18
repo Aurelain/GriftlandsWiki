@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I can't let this go.
+|description = Remove all Composure from all friendly arguments, apply that much Composure to your target.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]]
+|expreq = 9
+|upgrade1 = Boosted Fixate
+|upgrade1summary = 
+|upgrade2 = Pale Fixate
+|upgrade2summary = 
+}}

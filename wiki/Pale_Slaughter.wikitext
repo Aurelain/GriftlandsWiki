@@ -1,0 +1,12 @@
+{{CardPage
+|quote = It was a massacre, people get named after things like that.
+|description = Draw cards equal to the damage dealt by this card.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Slaughter
+|mindamage = 2
+|maxdamage = 5
+}}

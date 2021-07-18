@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It’s Smithering time!
+|description = Replace all Brag cards in your deck with Bully cards.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]]
+|parent = Classic Smith
+}}

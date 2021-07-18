@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Both feet first!
+|description = Take 3 damage.<br/>Deals 4 bonus damage if you drank this turn.
+|cost = 1
+|character = Smith
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|parent = Dropkick
+|mindamage = 6
+|maxdamage = 6
+}}

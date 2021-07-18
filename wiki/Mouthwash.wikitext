@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Now with flavor!
+|description = Drink.<br/>Remove a random debuff. Draw a card.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Drink]], [[Expend]]
+|expreq = 7
+|upgrade1 = Boosted Mouthwash
+|upgrade1summary = 
+|upgrade2 = Visionary Mouthwash
+|upgrade2summary = 
+}}

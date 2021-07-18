@@ -1,0 +1,12 @@
+{{CardPage
+|quote = desperate times...
+|description = While you have less than 65% health, this card costs 1 less.
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Desperation
+|mindamage = 10
+|maxdamage = 12
+}}

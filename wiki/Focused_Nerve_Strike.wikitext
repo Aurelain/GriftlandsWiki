@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Ahh! Right on the funny bone!
+|description = Threshold 6: Apply 4 Impair.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Impair]], [[Threshold]]
+|parent = Nerve Strike
+|mindamage = 2
+|maxdamage = 6
+}}

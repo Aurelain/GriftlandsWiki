@@ -1,0 +1,10 @@
+{{CardPage
+|quote = What do you mean? They show up on time and get their work done.
+|description = This card loses 1 damage each time you end your turn.
+|cost = 0
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|parent = Good Impression
+}}

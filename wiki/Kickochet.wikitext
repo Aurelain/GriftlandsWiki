@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Keep it low and use your hips, they'll never see it coming.
+|description = Apply 1 Ricochet.
+|cost = 2
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Ricochet]]
+|parent = Kick
+|mindamage = 8
+|maxdamage = 8
+}}

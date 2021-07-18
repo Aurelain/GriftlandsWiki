@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I don't know where that one came from. He's waiting for you in the back.
+|description = Whenever you gain Renown, reduce the cost of this card by 1.
+|cost = 7
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Renown]]
+|parent = Parvenu
+}}

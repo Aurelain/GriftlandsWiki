@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Be sure to hit even harder when they are off balance. You aren't here to fight fair.
+|description = Ability: All your attacks deal 2 bonus damage if the target has a debuff.<br/>Expend
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Expend]]
+|parent = Offset
+}}

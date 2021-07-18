@@ -1,0 +1,11 @@
+{{CardPage
+|quote = What does any of that have to do with apples?
+|description = Your next card this turn costs 0 actions.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Non Sequitur
+}}

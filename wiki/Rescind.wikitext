@@ -1,0 +1,15 @@
+{{CardPage
+|quote = The deal has changed.
+|description = Attack a random argument.<br/>Spend all Renown: Attack again per Renown spent.
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Renown]]
+|expreq = 7
+|upgrade1 = Boosted Rescind
+|upgrade1summary = 
+|upgrade2 = Focused Rescind
+|upgrade2summary = 
+}}

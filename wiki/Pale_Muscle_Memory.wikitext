@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Practice makes perfect. Or at least good enough.
+|description = Improvise a card from your draw pile. Duplicate it.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]], [[Improvise]]
+|parent = Muscle Memory
+}}

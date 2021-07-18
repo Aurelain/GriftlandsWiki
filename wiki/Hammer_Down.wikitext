@@ -1,0 +1,17 @@
+{{CardPage
+|quote = This is going to be a big one.
+|description = Power and Adrenaline are twice as effective on this card.
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Adrenaline]], [[Power]]
+|expreq = 7
+|upgrade1 = Boosted Hammer Down
+|upgrade1summary = 
+|upgrade2 = Pale Hammer Down
+|upgrade2summary = 
+|mindamage = 7
+|maxdamage = 12
+}}

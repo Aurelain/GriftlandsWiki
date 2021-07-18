@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Nothing beats a hard day’s work.
+|description = Alleviate all of your Recoverable Health.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]], [[Heal]]
+|parent = Gumption
+}}

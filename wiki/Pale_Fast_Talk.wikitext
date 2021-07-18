@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You're just looking at it wrong. Here, let me step you through it...
+|description = Spend 1 Influence: This card costs 0 to play.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|parent = Fast Talk
+}}

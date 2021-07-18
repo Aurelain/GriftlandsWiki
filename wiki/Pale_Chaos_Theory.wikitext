@@ -1,0 +1,11 @@
+{{CardPage
+|quote = How familiar are you with the area around the crash site?
+|description = Gain: At the start of your turn, play a random card in your hand for free.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Chaos Theory
+}}

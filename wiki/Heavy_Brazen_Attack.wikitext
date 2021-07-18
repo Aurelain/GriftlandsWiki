@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Big and loud attacks are riskier but leave your opponents reeling.
+|description = Apply 3 Impair.<br/>Piercing
+|cost = 2
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Impair]]
+|parent = Brazen Attack
+|mindamage = 4
+|maxdamage = 8
+}}

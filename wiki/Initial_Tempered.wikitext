@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It sounds obvious, but when enemies are on fire they are a lot more distracted.
+|description = Ability: Whenever you attack an enemy that has Burn, gain 2 Defense.<br/>Expend, Ambush
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Ambush]], [[Burn]], [[Defend]], [[Expend]]
+|parent = Tempered
+}}

@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Be sure to use every part of the weapon, that's just good value.
+|description = Gain 1 Combo for every card in your hand + 2.
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Combo]]
+|parent = Hilt Bash
+|mindamage = 2
+|maxdamage = 3
+}}

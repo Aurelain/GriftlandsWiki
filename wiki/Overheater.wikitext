@@ -1,0 +1,17 @@
+{{CardPage
+|quote = It's a lot like drag racing your weaponry, right off the start you are dealing with power.
+|description = Double your Overcharge.
+|cost = 2
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Overcharge]]
+|expreq = 7
+|upgrade1 = Boosted Overheater
+|upgrade1summary = 
+|upgrade2 = Loaded Overheater
+|upgrade2summary = 
+|mindamage = 4
+|maxdamage = 8
+}}

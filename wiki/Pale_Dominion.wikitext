@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You thought this was just a game?
+|description = Spend up to 3 Renown: Gain Dominance equal to the Renown spent.
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]], [[Renown]]
+|parent = Dominion
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I’m just getting warmed up here.
+|description = Expend one Empty Bottle card from your deck to play this.<br/>Apply 1 Wound.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]], [[Wound]]
+|mindamage = 5
+|maxdamage = 5
+}}

@@ -1,0 +1,14 @@
+{{CardPage
+|quote = This boosts the bet but only if it lands in my favor, understand?
+|description = Discard this card: Deal 3 damage to a random target.<br/>: Draw a card.<br/>Unplayable
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Unplayable]]
+|expreq = 10
+|upgrade1 = Boosted Kicker
+|upgrade1summary = 
+|upgrade2 = Twisted Kicker
+|upgrade2summary = 
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Great, you got him started. We are going to be here a while.
+|description = Draw 2 cards and play them for free.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Long Winded
+}}

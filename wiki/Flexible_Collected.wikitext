@@ -1,0 +1,9 @@
+{{CardPage
+|quote = The key to winning an argument, is never losing your cool.
+|description = Apply 3 Composure to your Influence.<br/>Evoke: Gain Influence.
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|parent = Collected
+}}

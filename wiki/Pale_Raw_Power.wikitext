@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I feel great!
+|description = Reduce the cost of all cards in your hand to 0 until the end of your turn or until played. Take 3 damage per card.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+|parent = Raw Power
+}}

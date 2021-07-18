@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I don’t know what it is. But I don’t like it.
+|description = Gain: At the beginning of your turn, gain 1 Dominance.<br/>Expend
+|cost = 3
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]], [[Expend]]
+|expreq = 3
+|upgrade1 = Initial Menacing Air
+|upgrade1summary = 
+|upgrade2 = Pale Menacing Air
+|upgrade2summary = 
+}}

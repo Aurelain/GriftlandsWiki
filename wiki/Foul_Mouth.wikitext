@@ -1,0 +1,14 @@
+{{CardPage
+|quote = You kiss your mother with that mouth?
+|description = Discard a card.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|expreq = 9
+|upgrade1 = Boosted Foul Mouth
+|upgrade1summary = 
+|upgrade2 = Visionary Foul Mouth
+|upgrade2summary = 
+}}

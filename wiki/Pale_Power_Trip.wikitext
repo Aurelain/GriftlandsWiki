@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It ain’t bragging if it’s true.
+|description = Gain 1 Adrenaline. If you had no Adrenaline, gain an additional 2 Adrenaline.
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Adrenaline]]
+|parent = Power Trip
+}}

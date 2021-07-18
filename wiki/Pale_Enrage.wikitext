@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Now you've gone and made this personal!
+|description = Gain 1 Power.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+|parent = Enrage
+}}

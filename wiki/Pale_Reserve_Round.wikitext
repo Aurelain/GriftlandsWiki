@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Just don't forget to take them out before you wash your clothes.
+|description = Spend 2 Overcharge: this card costs 0.
+|cost = 2
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Overcharge]]
+|parent = Reserve Round
+|mindamage = 5
+|maxdamage = 8
+}}

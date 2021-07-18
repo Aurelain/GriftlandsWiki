@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Look, I'm not technically supposed to have these, but I could tell when you walked in that you needed an edge.
+|description = Ability: Whenever you gain Charge, deal 2 damage to a random enemy.<br/>Expend
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Charge]], [[Expend]]
+|parent = Scatterphase
+}}

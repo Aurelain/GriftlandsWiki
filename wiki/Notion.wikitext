@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Listen up.
+|description = Gain 2 Dominance. At the end of your turn, lose 2 Dominance.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]], [[Expend]]
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You aren’t changing my mind.
+|description = Spend 1 Influence: Apply 8 Composure.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]], [[Influence]]
+|parent = Aplomb
+}}

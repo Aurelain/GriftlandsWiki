@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It’s all about shrinking that carbon footprint.
+|description = Expend up to 2 Empty Bottle cards from your deck, Heal 3 health per bottle.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Heal]]
+|parent = Recycle
+}}

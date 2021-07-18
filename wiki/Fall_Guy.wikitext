@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Wrong place at the wrong time.
+|description = Apply 3 Composure to a random friendly argument and force all enemy intents and arguments to target it.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]]
+|expreq = 9
+|upgrade1 = Focused Fall Guy
+|upgrade1summary = 
+|upgrade2 = Stone Fall Guy
+|upgrade2summary = 
+}}

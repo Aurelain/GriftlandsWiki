@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I didn’t feel a thing!
+|description = Apply 7 Defense.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]], [[Expend]]
+|parent = Toughen Up
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Listen up you little punk!
+|description = Spend 1 Influence: Gain 2 Dominance.
+|cost = 0
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]], [[Influence]]
+|parent = Tyrannize
+}}

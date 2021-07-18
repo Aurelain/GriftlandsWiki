@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Waiting for the right moment can be the difference between victory and defeat.
+|description = Combo points spent for the rest of this turn are regained at the start of your next turn.
+|cost = 0
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Combo]]
+|parent = Follow Through
+}}

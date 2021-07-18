@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Um, Actually...
+|description = Gain 3 Smarts and 1 Vulnerability.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Ability]], [[Smarts]], [[Vulnerability]]
+|expreq = 9
+|upgrade1 = Boosted Know it All
+|upgrade1summary = 
+|upgrade2 = Purified Know it All
+|upgrade2summary = 
+}}

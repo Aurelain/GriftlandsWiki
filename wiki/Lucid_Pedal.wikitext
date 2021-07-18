@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Look, you guys got me all wrong!
+|description = Expend up to 2 chosen cards in your hand.<br/>Apply 5 Composure.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]]
+|parent = Back Pedal
+}}

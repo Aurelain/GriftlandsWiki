@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Nothing gets through to that guy.
+|description = Gain 3 Renown.<br/>Can only be played if you have no Renown.
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Renown]]
+|expreq = 10
+|upgrade1 = Famous Incredulous
+|upgrade1summary = 
+|upgrade2 = Pure Incredulous
+|upgrade2summary = 
+}}

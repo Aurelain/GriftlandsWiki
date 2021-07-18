@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’m not one to gossip, but I did see him yesterday with a suspiciously noisy bag.
+|description = Gamble twice.<br/>Evoke: Prepare a card.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Gab
+}}

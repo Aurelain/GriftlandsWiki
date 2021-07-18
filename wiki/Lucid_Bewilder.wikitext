@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Wait, give me a second here.
+|description = Apply 7 Composure.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]], [[Expend]]
+|parent = Bewilder
+}}

@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Good luck getting that flimsy case to stick buddy.
+|description = Spend up to 4 Renown: Apply 1 Composure per Renown spent to all friendly arguments.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Composure]], [[Expend]], [[Renown]]
+|expreq = 7
+|upgrade1 = Enduring Immunity
+|upgrade1summary = 
+|upgrade2 = Stone Immunity
+|upgrade2summary = 
+}}

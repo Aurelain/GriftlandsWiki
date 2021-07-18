@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You’re tuned into Radio Smith! All Smith, all day!
+|description = Renowned 1: this deals 3 bonus damage.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Renown]], [[Renowned]]
+|parent = Influencer
+}}

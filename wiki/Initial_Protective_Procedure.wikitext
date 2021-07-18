@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Wow I look better than ever! I can’t even see the scars!
+|description = Ability: At the end of your turn, gain 3 Defense.<br/>Expend, Ambush
+|cost = 2
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ambush]], [[Expend]]
+|parent = Protective Procedure
+}}

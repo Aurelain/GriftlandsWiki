@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Be sure to get the adjustments right, the dealers are always calibrating these things poorly.
+|description = Apply 2 Mark.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]], [[Mark]]
+|expreq = 0
+|upgrade1 = Focused Laser Sight
+|upgrade1summary = 
+}}

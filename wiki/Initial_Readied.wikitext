@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Glancing blows just don't shake them up enough, you need to do some real damage!
+|description = Ability: Whenever you fully mitigate an attack, gain 2 Concentration.<br/>Expend, Ambush
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Ambush]], [[Concentration]], [[Expend]]
+|parent = Readied
+}}

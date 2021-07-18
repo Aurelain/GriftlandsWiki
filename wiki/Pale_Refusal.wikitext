@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Look pal, you have to give me SOMETHING here.
+|description = Create: Whenever you spend Renown with a card, deal 3 damage to a random opponent argument.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]], [[Renown]]
+|parent = Refusal
+}}

@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I'm always amazed that people take what I say seriously. I don't even take what I am seriously.
+|description = Whenever you draw this, increase its damage by 2 for the rest of this negotiation if you have any Renown.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Renown]]
+|expreq = 9
+|upgrade1 = Boosted Fame
+|upgrade1summary = 
+|upgrade2 = Planned Fame
+|upgrade2summary = 
+}}

@@ -1,0 +1,17 @@
+{{CardPage
+|quote = The initial blast causes a reflective energy coating that makes it so consecutive... are you even listening?
+|description = Apply Ricochet equal to damage dealt by this card.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Ricochet]]
+|expreq = 9
+|upgrade1 = Rooted Oscillator
+|upgrade1summary = 
+|upgrade2 = Tall Oscillator
+|upgrade2summary = 
+|mindamage = 2
+|maxdamage = 5
+}}

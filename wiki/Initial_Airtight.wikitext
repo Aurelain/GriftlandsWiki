@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Veep grumbled and slumped back into his chair. Deflated.
+|description = Gain: Whenever you play a Diplomacy card, apply 2 Composure to a random argument.<br/>Expend, Ambush
+|cost = 3
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Ambush]], [[Composure]], [[Expend]]
+|parent = Airtight
+}}

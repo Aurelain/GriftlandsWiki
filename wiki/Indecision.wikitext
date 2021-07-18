@@ -1,0 +1,14 @@
+{{CardPage
+|quote = No wait, I changed my mind.
+|description = Draw 1 card, discard 1 card.
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|expreq = 10
+|upgrade1 = Boosted Indecision
+|upgrade1summary = 
+|upgrade2 = Visionary Indecision
+|upgrade2summary = 
+}}

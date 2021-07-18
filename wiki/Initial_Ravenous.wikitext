@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hey, buddy, you gonna eat that?
+|description = Ability: Whenever an enemy dies, Heal 8.<br/>Expend, Ambush
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Ambush]], [[Expend]], [[Heal]]
+|parent = Ravenous
+}}

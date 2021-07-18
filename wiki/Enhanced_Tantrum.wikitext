@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It was a stupid game anyway!
+|description = Discard up to 3 cards, gain Dominance equal to their combined cost.
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]]
+|parent = Tantrum
+}}

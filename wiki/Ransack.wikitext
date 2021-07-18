@@ -1,0 +1,14 @@
+{{CardPage
+|quote = I’m keeping all the good parts in.
+|description = Draw 3 cards, discard 2 random cards from your hand.
+|cost = 0
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|expreq = 10
+|upgrade1 = Precise Ransack
+|upgrade1summary = 
+|upgrade2 = Visionary Ransack
+|upgrade2summary = 
+}}

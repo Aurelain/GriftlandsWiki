@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Alright, make some room.
+|description = Improvise 1 card from your draw pile. Choose a card from your hand to place on top of your draw pile.
+|cost = 0
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Improvise]]
+|parent = Planning
+}}

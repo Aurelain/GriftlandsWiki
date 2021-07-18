@@ -1,0 +1,13 @@
+{{CardPage
+|quote = They'll be seeing stars after I get through with them!
+|description = Apply Stun.<br/>Expend, Piercing
+|cost = 3
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]], [[Piercing]]
+|parent = Crushing Blow
+|mindamage = 8
+|maxdamage = 12
+}}

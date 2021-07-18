@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You don’t last as long as Rook by not being able to take a beating.
+|description = Gain 10 Defense. Until the start of your next turn, gain 2 Charge whenever you are hit by an attack.
+|cost = 2
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]], [[Defend]]
+|parent = Sentinel
+}}

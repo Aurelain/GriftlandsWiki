@@ -1,0 +1,11 @@
+{{CardPage
+|quote = They're the same picture.
+|description = Choose a card in your hand and create an exact copy of it.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Carbon Copy
+}}

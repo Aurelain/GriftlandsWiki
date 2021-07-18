@@ -1,0 +1,16 @@
+{{CardPage
+|quote = Come on! Is that all you wimps got!?
+|description = While this card is in your hand, it gains 1 damage until played whenever you take damage.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|expreq = 9
+|upgrade1 = Boosted Frenzy
+|upgrade1summary = 
+|upgrade2 = Lasting Frenzy
+|upgrade2summary = 
+|mindamage = 4
+|maxdamage = 6
+}}

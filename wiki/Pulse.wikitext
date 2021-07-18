@@ -1,0 +1,17 @@
+{{CardPage
+|quote = How many settings do these Heshing things have?!
+|description = Apply 2 Ricochet.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Ricochet]]
+|expreq = 9
+|upgrade1 = Boosted Pulse
+|upgrade1summary = 
+|upgrade2 = Enhanced Pulse
+|upgrade2summary = 
+|mindamage = 2
+|maxdamage = 2
+}}

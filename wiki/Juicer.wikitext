@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Are you sure that’s legal?
+|description = Alleviate health equal to your Moxie.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Alleviate]], [[Expend]], [[Moxie]]
+|expreq = 7
+|upgrade1 = Enduring Juicer
+|upgrade1summary = 
+|upgrade2 = Pale Juicer
+|upgrade2summary = 
+}}

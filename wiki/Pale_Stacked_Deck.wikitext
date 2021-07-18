@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I brought my own from home.
+|description = Gain: At the start of your turn, choose a card in your hand and Prepare it.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]], [[Prepare]]
+|parent = Stacked Deck
+}}

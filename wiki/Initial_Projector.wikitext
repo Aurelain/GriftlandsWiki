@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It took a bit of tinkering, but your servo will have some extra punch.
+|description = Ability: Any attack cards you Improvise deal 3 bonus damage until played.<br/>Expend, Ambush
+|cost = 2
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Ambush]], [[Expend]], [[Improvise]]
+|parent = Projector
+}}

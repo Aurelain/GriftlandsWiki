@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Good to keep that back straight, you've been doing this for long enough.
+|description = Apply 3 Defense. Gain 3 Concentration.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Concentration]], [[Defend]]
+|expreq = 9
+|upgrade1 = Boosted Posture
+|upgrade1summary = 
+|upgrade2 = Stone Posture
+|upgrade2summary = 
+}}

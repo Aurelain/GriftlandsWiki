@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Did someone say my name?
+|description = Destroy a friendly argument, apply Composure equal to its maximum resolve to all friendly arguments.
+|cost = 0
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]]
+|parent = Turnabout
+}}

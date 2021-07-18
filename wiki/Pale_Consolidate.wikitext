@@ -1,0 +1,11 @@
+{{CardPage
+|quote = My associates will be here momentarily.
+|description = Spend 2 Renown: Add 2 resolve to a friendly argument.
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Renown]]
+|parent = Consolidate
+}}

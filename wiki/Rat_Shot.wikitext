@@ -1,0 +1,14 @@
+{{CardPage
+|quote = A wider blast setting, useful for small targets.
+|description = Spend 1 Charge: Apply 1 Impair.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]], [[Expend]], [[Impair]]
+|upgrade1 = Boosted Rat Shot
+|upgrade1summary = 
+|mindamage = 2
+|maxdamage = 2
+}}

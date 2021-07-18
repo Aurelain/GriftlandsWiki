@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Let me show you how to drink.
+|description = Ability: Whenever you Drink, Heal 1 health.<br/>Expend, Ambush
+|cost = 3
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ambush]], [[Expend]]
+|parent = Soothing Concoctions
+}}

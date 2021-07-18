@@ -1,0 +1,11 @@
+{{CardPage
+|quote = He’s over here!
+|description = Apply 10 Defense.<br/>Gain 1 Exposed at the beginning of your next turn.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|parent = Dugout
+}}

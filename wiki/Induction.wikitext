@@ -1,0 +1,15 @@
+{{CardPage
+|quote = It's hard to explain, but I can use the energy in a different way.
+|description = Ability: Whenever you spend Overcharge, draw a card.<br/>Expend
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Expend]], [[Overcharge]]
+|expreq = 5
+|upgrade1 = Initial Induction
+|upgrade1summary = 
+|upgrade2 = Pale Induction
+|upgrade2summary = 
+}}

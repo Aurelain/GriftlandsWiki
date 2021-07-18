@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I don't think you heard me the first time.
+|description = Duplicate the next argument you create.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|expreq = 7
+|upgrade1 = Boosted Insistence
+|upgrade1summary = 
+|upgrade2 = Extended Insistence
+|upgrade2summary = 
+}}

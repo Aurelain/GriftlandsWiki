@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Okay, we got off on the wrong foot here.
+|description = Remove all arguments in play.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Clean Slate
+}}

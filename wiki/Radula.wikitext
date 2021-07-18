@@ -1,0 +1,15 @@
+{{CardPage
+|quote = See the markings on the shell? This one's a fighter, that’s for sure.
+|description = Rig 3 . Draw a card.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Rig]]
+|expreq = 9
+|upgrade1 = Rigged Radula
+|upgrade1summary = 
+|upgrade2 = Visionary Radula
+|upgrade2summary = 
+}}

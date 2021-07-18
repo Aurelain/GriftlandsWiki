@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Keep it low and use your hips, they'll never see it coming.
+|description = Destroy
+|cost = 2
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Destroy]]
+|parent = Kick
+|mindamage = 14
+|maxdamage = 14
+}}

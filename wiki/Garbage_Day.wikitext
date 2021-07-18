@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Where did all this crap come from!?
+|description = Gain Defense equal to the number of cards in your discard.
+|cost = 2
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|expreq = 7
+|upgrade1 = Boosted Garbage Day
+|upgrade1summary = 
+|upgrade2 = Visionary Garbage Day
+|upgrade2summary = 
+}}

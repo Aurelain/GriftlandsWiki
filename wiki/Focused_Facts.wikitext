@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You can’t fight these.
+|description = Apply 2 Composure. Increase by 1 for each card played this turn.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]]
+|parent = Hard Facts
+}}

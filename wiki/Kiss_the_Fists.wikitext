@@ -1,0 +1,16 @@
+{{CardPage
+|quote = For luck.
+|description = Attack with this card twice.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|expreq = 9
+|upgrade1 = Boosted Kiss the Fists
+|upgrade1summary = 
+|upgrade2 = Mirrored Kiss the Fists
+|upgrade2summary = 
+|mindamage = 2
+|maxdamage = 3
+}}

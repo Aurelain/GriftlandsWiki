@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hey, buddy, you gonna eat that?
+|description = Ability: Whenever an enemy dies, Heal 8.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Expend]], [[Heal]]
+|parent = Ravenous
+}}

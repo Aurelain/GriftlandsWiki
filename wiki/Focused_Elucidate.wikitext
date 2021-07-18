@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It’s all going to be cleared up, don’t you worry.
+|description = Duplicate a chosen friendly argument.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|parent = Elucidate
+}}

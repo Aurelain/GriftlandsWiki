@@ -1,0 +1,13 @@
+{{CardPage
+|quote = One of the more ferocious dagger combinations seen on the mainland.
+|description = Spend up to 3 Combo: Attack once extra per Combo.<br/>Gain 2 Combo.<br/>Finisher
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Combo]]
+|parent = Blade Fury
+|mindamage = 3
+|maxdamage = 4
+}}

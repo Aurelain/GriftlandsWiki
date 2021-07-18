@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I picture it in my mind like a wave, and when it crashes it all just comes together.
+|description = Draw cards until you draw a Maneuver card and Heal 1 for each card drawn. The card costs 1 less until played.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]], [[Heal]]
+|parent = Churn
+}}

@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Well, when you put it that way...
+|description = Remove one of your arguments, inceptions, or bounties.<br/>Gain 2 actions.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|expreq = 7
+|upgrade1 = Pale Reconsider
+|upgrade1summary = 
+|upgrade2 = Visionary Reconsider
+|upgrade2summary = 
+}}

@@ -1,0 +1,13 @@
+{{CardPage
+|quote = You sure that guy even has kidneys?
+|description = Apply Stun.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]]
+|parent = Kidney Shot
+|mindamage = 1
+|maxdamage = 3
+}}

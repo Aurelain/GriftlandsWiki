@@ -1,0 +1,15 @@
+{{CardPage
+|quote = A few more rewrites and we'll be a lot closer.
+|description = Destroy all friendly arguments and create new copies of them.<br/>Expend
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|expreq = 5
+|upgrade1 = Pale Revision
+|upgrade1summary = 
+|upgrade2 = Visionary Revision
+|upgrade2summary = 
+}}

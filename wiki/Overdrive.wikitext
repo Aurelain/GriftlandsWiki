@@ -1,0 +1,15 @@
+{{CardPage
+|quote = What took you so long!? I'm on my 16th cup!
+|description = On your next turn, all your cards are played twice but also Expend.<br/>Expend, Burnout
+|cost = 3
+|character = Smith
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Burnout]], [[Expend]]
+|expreq = 3
+|upgrade1 = Pale Overdrive
+|upgrade1summary = 
+|upgrade2 = Stable Overdrive
+|upgrade2summary = 
+}}

@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Take them apart one piece at a time.
+|description = Apply 1 Wound per empty cell + 1.
+|cost = 2
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Wound]]
+|parent = Wounding Shot
+|mindamage = 4
+|maxdamage = 5
+}}

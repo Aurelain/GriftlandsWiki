@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Oh yeah, we go way back.
+|description = Gain 3 Renown, draw a card.
+|cost = 1
+|character = Smith
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Renown]]
+|parent = Name Drop
+}}

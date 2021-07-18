@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Center mass!
+|description = Apply 2 Burn.
+|cost = 1
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]]
+|parent = Blast
+|mindamage = 2
+|maxdamage = 4
+}}

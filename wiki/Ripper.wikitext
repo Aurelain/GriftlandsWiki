@@ -1,0 +1,16 @@
+{{CardPage
+|quote = I don't feel so good, boss...
+|description = Remove a random debuff from target enemy: Gain 1 action.
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|expreq = 9
+|upgrade1 = Rooted Ripper
+|upgrade1summary = 
+|upgrade2 = Tall Ripper
+|upgrade2summary = 
+|mindamage = 3
+|maxdamage = 6
+}}

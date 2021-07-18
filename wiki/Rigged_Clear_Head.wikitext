@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I just needed to get some air.
+|description = Rig 4 , then Prepare a card.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Prepare]], [[Rig]]
+|parent = Clear Head
+}}

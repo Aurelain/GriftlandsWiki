@@ -1,0 +1,12 @@
+{{CardPage
+|quote = It’s all a setup.
+|description = Attack three times.<br/>Expend, Restrained
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]]
+|mindamage = 1
+|maxdamage = 1
+}}

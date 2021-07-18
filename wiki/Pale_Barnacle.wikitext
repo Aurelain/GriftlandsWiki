@@ -1,0 +1,11 @@
+{{CardPage
+|quote = One of the more unconventional blood strikes, this attack strengthens ones durability.
+|description = Apply 3 Bleed, then gain Defense equal to target's Bleed.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Bleed]], [[Defend]]
+|parent = Barnacle
+}}

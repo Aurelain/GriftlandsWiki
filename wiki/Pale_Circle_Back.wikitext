@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Now wait a second!
+|description = Duplicate a friendly argument, then destroy the original.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Circle Back
+}}

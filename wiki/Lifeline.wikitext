@@ -1,0 +1,15 @@
+{{CardPage
+|quote = The implants work really well with this tech, lumin really is some kind of miracle.
+|description = Draw 2 cards.<br/>Empty: Gain 1 Charge and this costs 0.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]], [[Empty]]
+|expreq = 9
+|upgrade1 = Inductive Lifeline
+|upgrade1summary = 
+|upgrade2 = Visionary Lifeline
+|upgrade2summary = 
+}}

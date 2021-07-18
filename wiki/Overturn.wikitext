@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I’m going to reiterate.
+|description = Play this card twice.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]]
+}}

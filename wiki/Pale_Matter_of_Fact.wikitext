@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You’re wrong, and here’s why.
+|description = Lose Composure from all friendly arguments, deal damage equal to the Composure lost.
+|cost = 0
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]]
+|parent = Matter of Fact
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = This is brutal to watch.
+|description = Ability: While you have at least 8 Combo, play your first attack each turn twice.<br/>Expend, Ambush
+|cost = 3
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ambush]], [[Expend]]
+|parent = Absolute Domination
+}}

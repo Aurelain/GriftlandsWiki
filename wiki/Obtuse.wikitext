@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Remind me again why I should listen to you.
+|description = Gain 2 Dominance.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]]
+}}

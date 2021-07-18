@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Try to catch them off guard. They always come prepared.
+|description = Target a random enemy for each card in your hand + 1.
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|parent = Discharge
+|mindamage = 2
+|maxdamage = 2
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Well, I sure as Hesh can't move the damn thing...
+|description = Ability: Whenever you play a card, gain 1 Defense.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Defend]], [[Expend]]
+|parent = Boulder Stance
+}}

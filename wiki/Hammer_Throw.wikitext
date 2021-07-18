@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Comes right back!
+|description = Apply 1 Trauma.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]], [[Trauma]]
+|mindamage = 2
+|maxdamage = 3
+}}

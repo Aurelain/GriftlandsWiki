@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Slick duds pal.
+|description = Draw 2 cards and upgrade them for this negotiation.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|expreq = 9
+|upgrade1 = Boosted Style
+|upgrade1summary = 
+|upgrade2 = Sticky Style
+|upgrade2summary = 
+}}

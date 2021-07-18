@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You either got them or you're done.
+|description = Discard a card.<br/>Gain 5 Defense.
+|cost = 0
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]]
+|parent = Survival Reflexes
+}}

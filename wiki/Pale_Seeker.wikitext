@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You can barely see the implant through the gloves, and it works like a charm.
+|description = Gain 6 Defense. <br/>Discard this card: Heal 3.
+|cost = 0
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defend]], [[Heal]]
+|parent = Seeker
+}}

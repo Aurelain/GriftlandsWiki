@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’ve got this one in the bag.
+|description = Ability: Whenever you gain Defense, gain 2 Adrenaline.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Adrenaline]], [[Defend]], [[Expend]]
+|parent = Certainty
+}}

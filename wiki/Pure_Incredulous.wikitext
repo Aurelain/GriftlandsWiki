@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Nothing gets through to that guy.
+|description = Gain 2 Renown.
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Renown]]
+|parent = Incredulous
+}}

@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Center mass!
+|description = Destroy
+|cost = 1
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Destroy]]
+|parent = Blast
+|mindamage = 7
+|maxdamage = 7
+}}

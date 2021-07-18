@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It’s going to be impossible to solve.
+|description = Duplicate a friendly argument and halve the resolve of both arguments.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Dissect
+}}

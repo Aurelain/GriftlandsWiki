@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I just couldn’t keep up with them!
+|description = Attack a random argument.<br/>Spend all Influence: Attack again per Influence spent.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|expreq = 9
+|upgrade1 = Boosted Fire
+|upgrade1summary = 
+|upgrade2 = Maintained Fire
+|upgrade2summary = 
+}}

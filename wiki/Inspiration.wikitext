@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Let's look at what we have in common, then.
+|description = Gain 2 Influence.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Expend]]
+}}

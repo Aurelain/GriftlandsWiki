@@ -1,0 +1,17 @@
+{{CardPage
+|quote = There's no way we are insured for this.
+|description = Spend all Charge, apply 2 Burn per Charge spent.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]], [[Charge]]
+|expreq = 9
+|upgrade1 = Boosted Firestorm
+|upgrade1summary = 
+|upgrade2 = Wide Firestorm
+|upgrade2summary = 
+|mindamage = 3
+|maxdamage = 4
+}}

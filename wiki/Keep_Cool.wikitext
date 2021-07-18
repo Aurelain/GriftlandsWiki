@@ -1,0 +1,15 @@
+{{CardPage
+|quote = Nothing fazes them, it’s unreal.
+|description = Double Composure on all arguments.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]]
+|expreq = 7
+|upgrade1 = Keep Composed
+|upgrade1summary = 
+|upgrade2 = Sticky Keep Cool
+|upgrade2summary = 
+}}

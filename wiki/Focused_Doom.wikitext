@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Game over man! GAME OVER!
+|description = Double the Panic meter of all enemies.
+|cost = 3
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Doom
+}}

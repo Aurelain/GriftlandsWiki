@@ -1,0 +1,13 @@
+{{CardPage
+|quote = It's about momentum, you can feel the weapons hum when they are cycling properly.
+|description = Deal 1 bonus damage per Overcharge. Gain 5 Overcharge.
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Overcharge]]
+|parent = Shock Therapy
+|mindamage = 2
+|maxdamage = 3
+}}

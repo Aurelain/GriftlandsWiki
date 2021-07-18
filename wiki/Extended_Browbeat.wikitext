@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You’ve made your point! Put the damn gun away!
+|description = Attack once for each action available + 1.
+|cost = 0
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Browbeat
+}}

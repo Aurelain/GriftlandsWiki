@@ -1,0 +1,12 @@
+{{CardPage
+|quote = It's a simple plan. I'm going to hit you, and then hit you again, but harder.
+|description = Deal 2 bonus damage if you have any Combo.<br/>Gain 2 Combo.
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Combo]]
+|mindamage = 1
+|maxdamage = 2
+}}

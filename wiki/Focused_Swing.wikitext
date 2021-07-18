@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Jarackle Free-Fighting is a martial art with such a loose structure that it appears that no one knows what they are doing.
+|description = Draw a card.<br/>Discard a card.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Reckless Swing
+|mindamage = 5
+|maxdamage = 5
+}}

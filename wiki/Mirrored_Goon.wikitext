@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I never seen that guy in all my life! I swear!
+|description = Create 2: At the start of your turn, apply 2 Composure to this argument.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Composure]]
+|parent = Goon
+}}

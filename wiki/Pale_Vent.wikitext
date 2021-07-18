@@ -1,0 +1,13 @@
+{{CardPage
+|quote = These things have a tendency to overheat. Oh, and so do the guns.
+|description = Spend all Charge. This card costs 1 less per charge. Hits all enemies.
+|cost = 3
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Charge]]
+|parent = Vent
+|mindamage = 5
+|maxdamage = 8
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = This is kind of your thing isn’t it?
+|description = Ability: Whenever you take damage on your turn, gain 1 Adrenaline.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Adrenaline]], [[Expend]]
+|parent = Masochist
+}}

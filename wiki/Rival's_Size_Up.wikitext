@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I probably know your jacket size too, let's do this.
+|description = Draw 2 cards, gain Combo equal to their combined cost +2.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Combo]]
+|parent = Size Up
+}}

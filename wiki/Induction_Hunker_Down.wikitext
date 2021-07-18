@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hit the dirt!
+|description = Apply 3 Defense.<br/>Gain 1 Charge.
+|cost = 1
+|character = Rook
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]], [[Defend]]
+|parent = Hunker Down
+}}

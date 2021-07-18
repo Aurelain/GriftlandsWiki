@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Is that him? I thought he was dead!
+|description = Gain 2 Diversion.<br/>Expend
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|parent = Red Herring
+}}

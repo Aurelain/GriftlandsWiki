@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Heads or snails?
+|description = Gamble.<br/>Replenish, Sticky
+|cost = 0
+|character = Rook
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Replenish]], [[Sticky]]
+|parent = Call it
+}}

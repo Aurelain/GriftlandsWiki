@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I don't think that target is regulation size.
+|description = Your attacks deal max damage for the next 3 turns.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Improve Accuracy
+}}

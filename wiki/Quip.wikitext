@@ -1,0 +1,15 @@
+{{CardPage
+|quote = This guy gets it.
+|description = Gain: Whenever your core argument is attacked, deal 3 damage to a random target.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]]
+|expreq = 7
+|upgrade1 = Enduring Quip
+|upgrade1summary = 
+|upgrade2 = Pale Quip
+|upgrade2summary = 
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Footwork that's popular in Jarackle wrestling, you can get a lot more heft in your attacks apparently.
+|description = Ability: Your Counter attacks apply 1 Wound.<br/>Expend, Ambush
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Ambush]], [[Counter]], [[Expend]], [[Wound]]
+|parent = Deepstance
+}}

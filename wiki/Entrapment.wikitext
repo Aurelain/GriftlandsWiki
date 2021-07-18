@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I can’t believe I trusted you.
+|description = Add 3 Bait.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Bait]], [[Expend]]
+|expreq = 7
+|upgrade1 = Boosted Entrapment
+|upgrade1summary = 
+|upgrade2 = Pale Entrapment
+|upgrade2summary = 
+}}

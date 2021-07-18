@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Single out one person from the whole group, and bring them all of the pain.
+|description = If this is the only card in your hand and your draw pile is empty, attack 4 times with 4 bonus damage.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Focused Assault
+|mindamage = 4
+|maxdamage = 6
+}}

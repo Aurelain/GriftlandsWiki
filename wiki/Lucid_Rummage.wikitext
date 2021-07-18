@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I know it's in here somewhere, who drew all these pockets?
+|description = Draw 2 cards.<br/>Expend a card.
+|cost = 0
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Rummage
+}}

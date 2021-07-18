@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Sometimes it just takes determination.
+|description = Deal bonus damage equal to twice the cost of your hand.<br/>Replenish
+|cost = 2
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Replenish]]
+|parent = Freighter
+|mindamage = 2
+|maxdamage = 2
+}}

@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Wait. I thought it was the other side.
+|description = Reverse your lucky coin.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|expreq = 0
+|upgrade1 = Twisted Flipside
+|upgrade1summary = 
+}}

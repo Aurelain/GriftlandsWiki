@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Why change the vector of attack if they keep falling for it?
+|description = Return to your hand when played.<br/>Gain 1-3 Combo.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Combo]]
+|parent = Echo Strike
+|mindamage = 2
+|maxdamage = 2
+}}
