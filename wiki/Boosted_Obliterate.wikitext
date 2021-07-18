@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Bonk!
+|description = Apply 1 Stun.<br/>Expend
+|cost = 3
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]], [[Stun]]
+|parent = Obliterate
+|mindamage = 16
+|maxdamage = 18
+}}

@@ -1,0 +1,13 @@
+{{CardPage
+|quote = This will keep him busy.
+|description = Attack once per Trauma on your target.<br/>Restrained
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Trauma]]
+|parent = Knuckle Down
+|mindamage = 3
+|maxdamage = 3
+}}

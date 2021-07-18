@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Medium build, great teeth, smelled terrible.
+|description = Gain: Whenever you Expend a card, draw 2 cards.<br/>Expend
+|cost = 1
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Recall
+}}

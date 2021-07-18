@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Jarackle dance instructors tended to be the only ones standing after a street fight.
+|description = Discard any number of cards. Gain actions equal to their combined cost + 1.<br/>Expend
+|cost = 0
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|parent = Footwork
+}}

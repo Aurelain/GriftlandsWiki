@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Hold these.
+|description = Expend up to 2 Empty Bottle cards from your deck: Deal 4 damage for each bottle.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]]
+|parent = Stack
+|mindamage = 0
+|maxdamage = 0
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Nothing up my sleeves.
+|description = Gain 5 Vanish.
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Pinch
+}}

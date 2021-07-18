@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Wait, what are you doing with tha-
+|description = Expend up to 3 Empty Bottle cards from your deck. Attack a random enemy per card expended.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Right in the Face
+|mindamage = 6
+|maxdamage = 6
+}}

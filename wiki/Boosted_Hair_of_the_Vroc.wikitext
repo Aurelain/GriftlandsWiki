@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Oh yeah, that’s the stuff.
+|description = Drink.<br/>Gain 3 Adrenaline.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Adrenaline]], [[Drink]], [[Expend]]
+|parent = Hair of the Vroc
+}}

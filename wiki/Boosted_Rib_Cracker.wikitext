@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Thanks for helping me break in my new boots!
+|description = If your target has Trauma, apply 2 Wound.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Trauma]], [[Wound]]
+|parent = Rib Cracker
+|mindamage = 4
+|maxdamage = 6
+}}

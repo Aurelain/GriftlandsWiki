@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Let’s get this party started!
+|description = Expend 1 Empty Bottle card from your deck: Apply 3 Trauma.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]], [[Trauma]]
+|parent = Rumble
+}}

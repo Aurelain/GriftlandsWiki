@@ -1,0 +1,11 @@
+{{CardPage
+|quote = And another thing!
+|description = Discard a card. Gain 2 Dominance.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]]
+|parent = Rant
+}}

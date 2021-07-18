@@ -1,0 +1,11 @@
+{{CardPage
+|quote = He just walked in here like he owned the place. Put everyone on edge.
+|description = Gamble.<br/>: Remove Composure.<br/>: Steal Composure.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Composure]], [[Gamble]]
+|parent = Roughneck
+}}

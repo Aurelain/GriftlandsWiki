@@ -1,0 +1,13 @@
+{{CardPage
+|quote = It's that cool head of his that's the real danger.
+|description = Concentrated: Attack twice.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Concentrated]]
+|parent = Gunslinger
+|mindamage = 3
+|maxdamage = 7
+}}

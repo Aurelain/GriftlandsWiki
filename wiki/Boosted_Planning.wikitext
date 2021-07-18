@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Alright, make some room.
+|description = Draw 2 cards. Choose a card from your hand to place on top of your draw pile.
+|cost = 0
+|character = Sal
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Planning
+}}

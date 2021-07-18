@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Not your lucky day.
+|description = Discard up to 2 cards.<br/>Sticky
+|cost = 0
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Hostility
+|parent = Snag
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|quote = You start again when the flips are that pattern, everyone knows that.
+|description = When this card is drawn, gain 2 actions and Expend.<br/>Unplayable
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|parent = Spotty
+}}

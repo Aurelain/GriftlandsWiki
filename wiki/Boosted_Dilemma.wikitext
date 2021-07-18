@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Give me time to think it over.
+|description = Every time you Gamble, reduce the cost of this card by 1 until played.
+|cost = 4
+|character = Rook
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Gamble]]
+|parent = Dilemma
+}}

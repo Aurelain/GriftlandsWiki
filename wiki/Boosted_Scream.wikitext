@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hesh! That’s Heshing loud!
+|description = Gain 4 Adrenaline. Take 3 damage every time you play a card until the end of this turn.<br/>Expend
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Adrenaline]]
+|parent = Scream
+}}

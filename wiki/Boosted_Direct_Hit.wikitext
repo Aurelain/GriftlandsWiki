@@ -1,0 +1,12 @@
+{{CardPage
+|quote = You've been practicing!
+|description = Next turn, draw 2 additional cards.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Direct Hit
+|mindamage = 6
+|maxdamage = 8
+}}

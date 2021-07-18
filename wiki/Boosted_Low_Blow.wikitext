@@ -1,0 +1,11 @@
+{{CardPage
+|quote = That’s gotta hurt.
+|description = Remove target argument's Composure.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Composure]]
+|parent = Low Blow
+}}

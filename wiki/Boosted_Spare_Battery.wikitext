@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Never leave home without it.
+|description = Gain 2 Charge and gain 2 Defense.<br/>Expend
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]], [[Defend]], [[Expend]]
+|parent = Spare Battery
+}}

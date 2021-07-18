@@ -1,0 +1,12 @@
+{{CardPage
+|quote = For luck.
+|description = Attack with this card twice.
+|cost = 1
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|parent = Kiss the Fists
+|mindamage = 4
+|maxdamage = 6
+}}

@@ -1,0 +1,13 @@
+{{CardPage
+|quote = I tell you, surging your pistols lights up every little machine in your whole Heshing body!
+|description = This card costs 1 less per Overcharge.
+|cost = 4
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Overcharge]]
+|parent = Jolt
+|mindamage = 5
+|maxdamage = 8
+}}

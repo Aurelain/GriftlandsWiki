@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Sound the damn bell! It's over!
+|description = Spend all your Combo: Deal 4 bonus damage per Combo.<br/>Finisher
+|cost = 2
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Combo]]
+|parent = Haymaker
+|mindamage = 3
+|maxdamage = 5
+}}

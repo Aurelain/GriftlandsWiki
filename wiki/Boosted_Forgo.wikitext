@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Dispense with the formalities.
+|description = Expend a card in your hand, all other cards in your hand gain 3 damage until played.
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Forgo
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Nothing you've been saying has meant much of anything.
+|description = Create: If this argument is destroyed by you, recreate it and increase its damage by 5.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|parent = Hot Air
+}}

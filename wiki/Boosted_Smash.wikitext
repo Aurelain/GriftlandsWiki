@@ -1,0 +1,13 @@
+{{CardPage
+|quote = This one gets a little technical.
+|description = Hits all enemies.<br/>Take 4 damage.
+|cost = 2
+|character = Smith
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]], [[Wound]]
+|parent = Smash
+|mindamage = 8
+|maxdamage = 10
+}}

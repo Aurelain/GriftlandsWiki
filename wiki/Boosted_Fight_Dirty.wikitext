@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I fight to win, not to make friends.
+|description = Improvise+ a card from a pool of special cards.
+|cost = 1
+|character = Sal
+|rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Improvise]]
+|parent = Fight Dirty
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = There was a high pitched noise, and then my chest plate started malfunctioning.
+|description = Ability: Whenever you Improvise a card, a random enemy gains 2 Resonance.<br/>Expend
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Improvise]]
+|parent = Resonance
+}}

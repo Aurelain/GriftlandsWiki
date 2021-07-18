@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Keeps people from following and makes a Hesh of a noise.
+|description = Spend all Charge, gain 3 Counter for each Charge spent.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]], [[Counter]]
+|parent = Spurs
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Green is totally your color.
+|description = Add a copy of this card to your discards.<br/>When drawn, Incept 2 Doubt.<br/>Replenish
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Doubt]], [[Incept]]
+|parent = White Lie
+}}

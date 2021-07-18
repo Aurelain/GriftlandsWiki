@@ -1,0 +1,11 @@
+{{CardPage
+|quote = If you do a job well enough, nobody can tell you were there at all.
+|description = Spend 1 Influence: Draw 3 cards.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|parent = Subtlety
+}}

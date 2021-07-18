@@ -1,0 +1,10 @@
+{{CardPage
+|quote = No wait, I changed my mind.
+|description = Draw 3 cards, discard 3 cards.
+|cost = 0
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Indecision
+}}

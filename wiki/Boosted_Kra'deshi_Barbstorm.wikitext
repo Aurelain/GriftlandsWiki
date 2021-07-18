@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Kra'deshi tend to fight with chaotically bladed weapons, relying on their healing factor to take care of superficial lacerations.
+|description = Apply 2 Bleed.<br/>Discard this card: Apply 3 Bleed to all enemies and put this card back in your hand.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Bleed]]
+|parent = Kra'deshi Barbstorm
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’ve got your number, punk.
+|description = Apply 3 Fixed.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Fixed]]
+|parent = Fixed
+}}

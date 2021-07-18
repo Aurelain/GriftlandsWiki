@@ -1,0 +1,13 @@
+{{CardPage
+|quote = DING DING DING!
+|description = Threshold 10: Apply 1 Stun.
+|cost = 2
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Stun]], [[Threshold]]
+|parent = Jackpot
+|mindamage = 4
+|maxdamage = 6
+}}

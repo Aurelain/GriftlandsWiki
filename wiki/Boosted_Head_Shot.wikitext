@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Slipped, sorry.
+|description = Targets a random opponent argument.<br/>Evoke: Gamble  twice.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Evoke]], [[Gamble]]
+|parent = Head Shot
+}}

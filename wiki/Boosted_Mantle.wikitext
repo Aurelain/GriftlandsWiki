@@ -1,0 +1,11 @@
+{{CardPage
+|quote = They pull their juice from the spooled up reserves, just make sure you are running hot.
+|description = Apply 4 Scorched to all enemies.
+|cost = 2
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Scorched]]
+|parent = Mantle
+}}

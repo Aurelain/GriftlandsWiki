@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I don't care what you grab! Just get me some ammunition!
+|description = Draw 2 cards, gain 2 Charge for each attack card drawn + 1.
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]]
+|parent = Fistful
+}}

@@ -1,0 +1,13 @@
+{{CardPage
+|quote = I’ve made a living out of reading people’s faces.
+|description = Threshold 5: Reduce all Thresholds by 1 for the rest of this turn.
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Threshold]]
+|parent = Mean Streak
+|mindamage = 3
+|maxdamage = 5
+}}

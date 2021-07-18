@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Not bad, but try staying a little lower to the ground.
+|description = Gain 4 Defense. <br/>Discard this card: Gain 4 Defense and 4 Counter.
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Counter]], [[Defend]]
+|parent = Stringer
+}}

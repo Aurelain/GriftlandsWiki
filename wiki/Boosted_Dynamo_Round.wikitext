@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Hard on the barrel, but much harder on the target.
+|description = Deal 2 bonus damage for every Overcharge. Consumes all Overcharge.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Overcharge]]
+|parent = Dynamo Round
+|mindamage = 5
+|maxdamage = 5
+}}

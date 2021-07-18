@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I've changed my mind!
+|description = Attack a random argument. Expend any number of cards in your hand, attack again per card Expended.<br/>Expend
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]]
+|parent = Renounce
+}}

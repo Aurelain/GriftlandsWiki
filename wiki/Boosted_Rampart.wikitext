@@ -1,0 +1,13 @@
+{{CardPage
+|quote = I’ll take you all on! Bring it!
+|description = Hits all enemies.<br/>Gain 6 Defense.
+|cost = 2
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Defend]]
+|parent = Rampart
+|mindamage = 5
+|maxdamage = 7
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Some individuals have been shown to exhibit strange abilities, I wouldn't exactly call them lucky or anything.
+|description = If you have discarded a card this turn, this card costs 0.
+|cost = 2
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|parent = Psionic Feedback
+|mindamage = 5
+|maxdamage = 7
+}}

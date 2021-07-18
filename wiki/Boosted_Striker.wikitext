@@ -1,0 +1,13 @@
+{{CardPage
+|quote = So the timing is a little tricky, but yeah, just smash the bottom priming cap and you should be able to get some extra juice.
+|description = Threshold 4: Gain 4 Overcharge.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Overcharge]], [[Threshold]]
+|parent = Striker
+|mindamage = 2
+|maxdamage = 5
+}}
