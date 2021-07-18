@@ -114,7 +114,7 @@ const collectCardsFromLua = (luaContent, luaName) => {
             cost: captureNumber(enclosure, 'cost'),
             xp: captureNumber(enclosure, 'max_xp'),
             minDamage: captureNumber(enclosure, 'min_damage'),
-            maxDamage: captureNumber(enclosure, 'min_damage'),
+            maxDamage: captureNumber(enclosure, 'max_damage'),
         });
     }
     return output;

@@ -18,13 +18,17 @@ const CONFLICTED_NAMES = {
  *
  */
 const updateCards = (bag) => {
+    let count = 0;
     for (const id in bag) {
         const card = bag[id];
         const fileName = getFilePath(card.name, '');
         if (!fs.existsSync(STORAGE + '/' + fileName)) {
             const wikitext = generateWikitext(card);
-            console.log('wikitext:', wikitext);
-            // fs.writeFileSync(fileName, wikitext);
+            fs.writeFileSync(STORAGE + '/' + fileName, wikitext);
+            count++;
+            if (count > 10) {
+                return;
+            }
         }
     }
 };

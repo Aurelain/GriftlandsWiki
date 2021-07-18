@@ -106,23 +106,28 @@ const compareCards = (cards, importedCards) => {
  */
 const mergeCards = (cards, importedCards) => {
     const mergedCards = {};
+    const cardsByName = {};
+    for (const id in cards) {
+        const card = cards[id];
+        cardsByName[card.name] = card;
+    }
     for (const id in importedCards) {
-        const gameCard = importedCards[id];
         const importedCard = importedCards[id];
+        const gameCard = cardsByName[importedCard.name];
         mergedCards[id] = {
             name: importedCard.name,
             id: gameCard.id,
-            desc: importedCard.desc,
-            character: importedCard.character,
-            deckType: importedCard.deckType,
-            cardType: importedCard.cardType,
-            keywords: importedCard.keywords,
+            desc: importedCard.desc, // mystischism
+            character: importedCard.character, // mystischism
+            deckType: importedCard.deckType, // mystischism
+            cardType: importedCard.cardType, // mystischism
+            keywords: importedCard.keywords, // mystischism
             flavour: gameCard.flavour,
             rarity: gameCard.rarity,
             parent: gameCard.parent,
             upgrades: gameCard.upgrades,
             cost: gameCard.cost,
-            xp: importedCards.xp,
+            xp: importedCard.xp, // mystischism
             minDamage: gameCard.minDamage,
             maxDamage: gameCard.maxDamage,
         };
