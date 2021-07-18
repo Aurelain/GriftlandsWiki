@@ -8,6 +8,7 @@ const attemptSelfRun = require('../utils/attemptSelfRun');
 const pull = require('../pull/pull');
 const guard = require('../utils/guard');
 const writeSafetyTimestamp = require('../utils/writeSafetyTimestamp');
+const sleep = require('../utils/sleep');
 const {ENDPOINT, CREDENTIALS, RAW_WEB, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -60,6 +61,7 @@ const writePagesToCloud = async (status, token) => {
         } else {
             await writeText(title, localContent || content, token);
         }
+        await sleep(500);
     }
 };
 

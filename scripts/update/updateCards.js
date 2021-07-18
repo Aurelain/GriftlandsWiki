@@ -26,7 +26,7 @@ const updateCards = (bag) => {
             const wikitext = generateWikitext(card);
             fs.writeFileSync(STORAGE + '/' + fileName, wikitext);
             count++;
-            if (count > 10) {
+            if (count >= 200) {
                 return;
             }
         }
