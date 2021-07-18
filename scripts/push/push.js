@@ -61,7 +61,7 @@ const writePagesToCloud = async (status, token) => {
         } else {
             await writeText(title, localContent || content, token);
         }
-        await sleep(500);
+        await sleep(1000);
     }
 };
 
