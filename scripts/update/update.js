@@ -23,10 +23,10 @@ const update = async () => {
     try {
         const zip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
         const cards = getCards(zip);
-        await writeCardsSheet(cards, 'cards');
+        // await writeCardsSheet(cards, 'cards');
 
         const importedCards = importCards(zip);
-        await writeCardsSheet(importedCards, 'importedCards');
+        // await writeCardsSheet(importedCards, 'importedCards');
 
         compareCards(cards, importedCards);
         return;
@@ -64,9 +64,17 @@ const writeCharacters = (prepared) => {
  *
  */
 const compareCards = (cards, importedCards) => {
-    // for (const id in importedCards) {
-    //     const {name} = importedCards[id];
-    // }
+    const cardsByName = {};
+    for (const id in cards) {
+        const card = cards[id];
+        cardsByName[card.name] = card;
+    }
+    for (const id in importedCards) {
+        const {name} = importedCards[id];
+        if (!cardsByName[name]) {
+            console.log('Missing!', name);
+        }
+    }
 };
 
 // =====================================================================================================================

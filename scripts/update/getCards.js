@@ -74,11 +74,8 @@ const getCards = (zip) => {
  */
 const collectCardsFromLua = (luaContent, luaName) => {
     let draft = luaContent.replace(/--.*/g, ''); // remove comments
-    const isNegotiation = draft.includes('AddNegotiationCard');
-    const isBattle = draft.includes('AddBattleCard');
-    if (!isNegotiation && !isBattle) {
-        // return;
-    }
+    draft = removeGraftDefinitions(draft);
+
     const nameRegExp = /\w+\s*=\s*{\s*name\s*=\s*"/g;
     let myResult;
     const output = {};
@@ -118,6 +115,20 @@ const collectCardsFromLua = (luaContent, luaName) => {
         });
     }
     return output;
+};
+
+/**
+ *
+ */
+const removeGraftDefinitions = (luaContent) => {
+    while (true) {
+        const found = luaContent.match(/GRAFTS\s*=/);
+        if (!found) {
+            return luaContent;
+        }
+        const enclosure = findEnclosure(luaContent, found.index, '{', '}');
+        luaContent = luaContent.split(enclosure).join(',');
+    }
 };
 
 /**

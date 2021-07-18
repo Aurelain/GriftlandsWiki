@@ -4,8 +4,7 @@ const {REPLACEMENTS} = require('./CONFIG');
  *
  */
 const prettyName = (fileName) => {
-    let title = fileName.replace(/\.[^.]*$/, '');
-    title = title.replace('/', ':');
+    let title = fileName;
     for (const unsafe in REPLACEMENTS) {
         const safe = REPLACEMENTS[unsafe];
         title = title.split(safe).join(unsafe);

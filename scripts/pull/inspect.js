@@ -66,7 +66,8 @@ const getLocalOnly = (pages, focus) => {
     }
     for (const localFile of localFiles) {
         if (!(localFile in pages)) {
-            const title = prettyName(localFile);
+            const cleanFileName = localFile.replace(/\.[^.]*$/, '').replace('/', ':');
+            const title = prettyName(cleanFileName);
             const fileContent = fs.readFileSync(STORAGE + '/' + localFile, 'utf8');
             const content = localFile.startsWith('File/') ? JSON.parse(fileContent) : fileContent;
             localOnly[localFile] = {title, content};

@@ -22,7 +22,7 @@ const importCards = () => {
     const list = fs.readdirSync(CARDS_DIR);
     const output = {};
     for (const file of list) {
-        const name = file.split('.')[0];
+        const name = file.replace(/\.[^.]*$/, '');
         const wikitext = fs.readFileSync(CARDS_DIR + '/' + file, 'utf8');
         const card = parseCardContent(wikitext, name);
         output[card.id] = card;
