@@ -24,6 +24,7 @@ const update = async () => {
     try {
         const zip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
         const cards = getCards(zip);
+        return;
         const importedCards = importCards(zip);
         // compareCards(cards, importedCards);
 

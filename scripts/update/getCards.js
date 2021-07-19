@@ -2,6 +2,7 @@ const assert = require('assert');
 const tally = require('../utils/tally');
 const findEnclosure = require('../utils/findEnclosure');
 const removeUndefined = require('../utils/removeUndefined');
+const getConditions = require('./getConditions.js');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -13,6 +14,11 @@ const RARITIES = {
     'CARD_RARITY.RARE': 'Rare',
     'CARD_RARITY.UNIQUE': 'Unique',
     'CARD_RARITY.BOSS': 'Boss',
+};
+
+const DESCRIPTION_FIXES = {
+    '<b>Thresholds</>': '[[Threshold|Thresholds]]',
+    '<b>Expended</>': '[[Expend|Expended]]',
 };
 
 /**
@@ -52,12 +58,13 @@ const KEYWORDS = {
  */
 const getCards = (zip) => {
     const entries = zip.getEntries();
+    const conditions = getConditions(zip);
     const output = {};
     for (const entry of entries) {
         const {entryName} = entry;
         if (entryName.endsWith('.lua')) {
             const lua = entry.getData().toString('utf8');
-            const cards = collectCardsFromLua(lua, entryName);
+            const cards = collectCardsFromLua(lua, conditions);
             Object.assign(output, cards);
         }
     }
@@ -73,7 +80,7 @@ const getCards = (zip) => {
 /**
  *
  */
-const collectCardsFromLua = (luaContent, luaName) => {
+const collectCardsFromLua = (luaContent, conditions) => {
     let draft = luaContent.replace(/--\[\[[\s\S]*?]]--/g, ''); // remove block comments
     draft = draft.replace(/--.*/g, ''); // remove  comments
     draft = removeGraftDefinitions(draft);
@@ -96,9 +103,8 @@ const collectCardsFromLua = (luaContent, luaName) => {
             continue;
         }
         const name = captureText(enclosure, 'name');
-
         const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
-        const desc = captureText(enclosure, 'desc');
+        const desc = cleanDescription(captureText(enclosure, 'desc'), conditions, enclosure, name);
         output[id] = removeUndefined({
             name,
             id,
@@ -152,6 +158,59 @@ const captureText = (text, prop) => {
     const re = new RegExp('\\s*' + prop + '\\s*=\\s*"([\\s\\S]+?)"');
     const found = text.match(re) || [];
     return found[1];
+};
+
+/**
+ *
+ */
+const cleanDescription = (description, conditions, enclosure, name) => {
+    if (description) {
+        let draft = description;
+        const params = getParamsFromEnclosure(description, enclosure) || [];
+        if (params.length) {
+            // console.log('===========');
+            // console.log('name:', name);
+            // console.log('params: ' + JSON.stringify(params));
+            console.log(params);
+        }
+        // for (const fragment in DESCRIPTION_FIXES) {
+        //     draft = draft.split(fragment).join(DESCRIPTION_FIXES[fragment]);
+        // }
+        // draft = draft.replace(/<b>(.*?)<\/>/g, '[[$1]]');
+        // draft = draft.split('<#UPGRADE>').join('');
+        // draft = draft.split('</>').join('');
+        // for (const condition in conditions) {
+        //     draft = draft.split('{' + condition + '}').join('[[' + conditions[condition] + ']]');
+        // }
+        if (draft !== description) {
+            console.log('================');
+            console.log('old:', description);
+            console.log('new:', draft);
+        }
+    }
+};
+
+/**
+ *
+ */
+const getParamsFromEnclosure = (description, enclosure) => {
+    if (!description.match(/{\d}/)) {
+        return;
+    }
+    const found = enclosure.match(/loc\.format\(.*?,(.*)/);
+    if (!found) {
+        return;
+    }
+    let draft = found[1];
+    draft = draft.split('self.userdata.names_taken and #self.userdata.names_taken or ').join(''); // "Blacklist"
+    draft = draft.split('self.def.modifier.turns, self.def.modifier.damage').join('3, 8'); // "Grisly Trophy"
+    draft = draft.split('self:CalculateThresholdText(self)').join('self.threshold');
+    draft = draft.replace(/self:CalculateComposureText\((.*?)\)/g, '$1');
+    draft = draft.replace(/self:CalculateDefendText\(([^,)]*).*?\)/g, '$1');
+    draft = draft.split(' or ').join('||');
+    draft = draft.replace(/\W*$/g, '');
+    const params = draft.split(/,/);
+    return params;
 };
 
 /**
