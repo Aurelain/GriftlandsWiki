@@ -50,8 +50,8 @@ const parseDescriptionFormat = (description, enclosure, name) => {
     // "Underdriver"
     draft = draft.split('self:CalculateDefendText(current_bonus)').join('self.base_def');
 
-    // "Krill Ichor" doesn't have stacks
-    // draft = draft.split('self.power_amt, self.stacks').join('self.power_amt');
+    // "Sharpen"
+    draft = draft.split('(self.stacks or 2)').join('2');
 
     // "Striker" and others
     draft = draft.split('self:CalculateThresholdText(self)').join('self.threshold');
@@ -62,11 +62,11 @@ const parseDescriptionFormat = (description, enclosure, name) => {
     // "Carapace" and others
     draft = draft.replace(/self:CalculateDefendText\(([^,)]*).*?\)/g, '$1');
 
-    // "Sharpen" has some useless parenthesis:
-    draft = draft.replace(/[()]/g, '');
-
     // "Lifeline" and others:
     draft = draft.split(' or ').join('||');
+
+    // Remove garbage at the end:
+    draft = draft.replace(/[^\w"]+$/g, '');
 
     // Remove ALL whitespace:
     draft = draft.replace(/\s*/g, '');

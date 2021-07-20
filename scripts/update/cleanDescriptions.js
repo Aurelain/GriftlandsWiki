@@ -22,13 +22,26 @@ const cleanDescriptions = (bag) => {
 /**
  *
  */
-const cleanDescription = ({desc, descParams, enclosure}) => {
+const cleanDescription = ({desc, descParams, enclosure, name}) => {
     if (!desc) {
         return;
     }
     let draft = desc;
-    if (descParams) {
-        const computedParams = getComputedParams(descParams, enclosure);
+    const requiredParams = getRequiredParams(desc);
+    if (requiredParams) {
+        assert(descParams, `A description requires params, but they were not provided! ${name}`);
+        const parts = descParams.split(',');
+        for (const param in requiredParams) {
+            const mutationParam = parts[Number(param) - 1];
+            assert(
+                mutationParam,
+                `Expecting a format parameter for ${name}: ${param} in ${desc}. DescParams: ${descParams}`
+            );
+            const value = evaluateMutationParam(mutationParam, enclosure, name);
+            draft = draft.split('{' + param + '}').join(value);
+            // console.log(`${param}=${value}`);
+        }
+        // const computedParams = getComputedParams(descParams, enclosure);
     }
     // for (const fragment in DESCRIPTION_FIXES) {
     //     draft = draft.split(fragment).join(DESCRIPTION_FIXES[fragment]);
@@ -40,7 +53,7 @@ const cleanDescription = ({desc, descParams, enclosure}) => {
     //     draft = draft.split('{' + condition + '}').join('[[' + conditions[condition] + ']]');
     // }
     if (draft !== desc) {
-        console.log('================');
+        console.log('================', name);
         console.log('old:', desc);
         console.log('new:', draft);
     }
@@ -49,21 +62,36 @@ const cleanDescription = ({desc, descParams, enclosure}) => {
 /**
  *
  */
-const getComputedParams = (params, enclosure) => {
-    const selfVariables = params.match(/#\w+/g);
+const getRequiredParams = (desc) => {
+    const found = desc.match(/{\d}/g);
+    if (found) {
+        const bag = {};
+        for (const param of found) {
+            bag[param.match(/\d/)[0]] = true;
+        }
+        return bag;
+    }
+};
+
+/**
+ *
+ */
+const evaluateMutationParam = (mutationParam, enclosure, name) => {
+    let draft = mutationParam;
+    const selfVariables = mutationParam.match(/#\w+/g);
     if (selfVariables) {
         for (const selfVariable of selfVariables) {
             const variableName = selfVariable.substr(1);
-            const value = captureNumber(enclosure, variableName);
+            let value = captureNumber(enclosure, variableName);
             if (value === undefined) {
-                console.log('variableName:', variableName);
-                console.log('enclosure:', enclosure);
-                console.log('cleaned:', cleaned);
-                process.exit();
+                console.log(`Warning: "${name}" does not provide a "${variableName}" field!`);
+                value = 0; // so it fails "or" checks
             }
+            draft = draft.split('#' + variableName).join(value);
         }
         cleaned++;
     }
+    return eval(draft);
 };
 
 /**
