@@ -3,6 +3,8 @@ const tally = require('../utils/tally');
 const findEnclosure = require('../utils/findEnclosure');
 const removeUndefined = require('../utils/removeUndefined');
 const getConditions = require('./getConditions.js');
+const parseDescriptionFormat = require('./parseDescriptionFormat.js');
+const cleanDescriptions = require('./cleanDescriptions.js');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -69,6 +71,7 @@ const getCards = (zip) => {
         }
     }
     fillUpgrades(output);
+    cleanDescriptions(output); // must come after upgrades, because it uses the concatenated enclosures
     fixCosts(output);
     console.log('getCards', tally(output));
     return output;
@@ -104,7 +107,7 @@ const collectCardsFromLua = (luaContent, conditions) => {
         }
         const name = captureText(enclosure, 'name');
         const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
-        const desc = cleanDescription(captureText(enclosure, 'desc'), conditions, enclosure, name);
+        const desc = captureText(enclosure, 'desc');
         output[id] = removeUndefined({
             name,
             id,
@@ -121,6 +124,8 @@ const collectCardsFromLua = (luaContent, conditions) => {
             xp: captureNumber(enclosure, 'max_xp'),
             minDamage: captureNumber(enclosure, 'min_damage'),
             maxDamage: captureNumber(enclosure, 'max_damage'),
+            enclosure, // internal
+            descParams: parseDescriptionFormat(desc, enclosure, name), // internal
         });
     }
     return output;
@@ -158,59 +163,6 @@ const captureText = (text, prop) => {
     const re = new RegExp('\\s*' + prop + '\\s*=\\s*"([\\s\\S]+?)"');
     const found = text.match(re) || [];
     return found[1];
-};
-
-/**
- *
- */
-const cleanDescription = (description, conditions, enclosure, name) => {
-    if (description) {
-        let draft = description;
-        const params = getParamsFromEnclosure(description, enclosure) || [];
-        if (params.length) {
-            // console.log('===========');
-            // console.log('name:', name);
-            // console.log('params: ' + JSON.stringify(params));
-            console.log(params);
-        }
-        // for (const fragment in DESCRIPTION_FIXES) {
-        //     draft = draft.split(fragment).join(DESCRIPTION_FIXES[fragment]);
-        // }
-        // draft = draft.replace(/<b>(.*?)<\/>/g, '[[$1]]');
-        // draft = draft.split('<#UPGRADE>').join('');
-        // draft = draft.split('</>').join('');
-        // for (const condition in conditions) {
-        //     draft = draft.split('{' + condition + '}').join('[[' + conditions[condition] + ']]');
-        // }
-        if (draft !== description) {
-            console.log('================');
-            console.log('old:', description);
-            console.log('new:', draft);
-        }
-    }
-};
-
-/**
- *
- */
-const getParamsFromEnclosure = (description, enclosure) => {
-    if (!description.match(/{\d}/)) {
-        return;
-    }
-    const found = enclosure.match(/loc\.format\(.*?,(.*)/);
-    if (!found) {
-        return;
-    }
-    let draft = found[1];
-    draft = draft.split('self.userdata.names_taken and #self.userdata.names_taken or ').join(''); // "Blacklist"
-    draft = draft.split('self.def.modifier.turns, self.def.modifier.damage').join('3, 8'); // "Grisly Trophy"
-    draft = draft.split('self:CalculateThresholdText(self)').join('self.threshold');
-    draft = draft.replace(/self:CalculateComposureText\((.*?)\)/g, '$1');
-    draft = draft.replace(/self:CalculateDefendText\(([^,)]*).*?\)/g, '$1');
-    draft = draft.split(' or ').join('||');
-    draft = draft.replace(/\W*$/g, '');
-    const params = draft.split(/,/);
-    return params;
 };
 
 /**
@@ -275,15 +227,13 @@ const fillUpgrades = (bag) => {
                 ...bag[id],
                 parent: bag[baseId].name,
             };
+            bag[id].enclosure += bag[baseId].enclosure;
             delete bag[id].upgrades;
             if (!bag[baseId].upgrades) {
                 bag[baseId].upgrades = [];
             }
             bag[baseId].upgrades.push(bag[id].name);
         }
-        // if (id.includes('yote')) {
-        //     console.log('bag[id]: ' + JSON.stringify(bag[id], null, 4));
-        // }
     }
     for (const id in bag) {
         const {upgrades} = bag[id];
