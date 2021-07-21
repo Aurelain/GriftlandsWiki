@@ -2,7 +2,6 @@ const assert = require('assert');
 const tally = require('../utils/tally');
 const findEnclosure = require('../utils/findEnclosure');
 const removeUndefined = require('../utils/removeUndefined');
-const getConditions = require('./getConditions.js');
 const parseDescriptionFormat = require('./parseDescriptionFormat.js');
 const cleanDescriptions = require('./cleanDescriptions.js');
 
@@ -16,11 +15,6 @@ const RARITIES = {
     'CARD_RARITY.RARE': 'Rare',
     'CARD_RARITY.UNIQUE': 'Unique',
     'CARD_RARITY.BOSS': 'Boss',
-};
-
-const DESCRIPTION_FIXES = {
-    '<b>Thresholds</>': '[[Threshold|Thresholds]]',
-    '<b>Expended</>': '[[Expend|Expended]]',
 };
 
 /**
@@ -60,18 +54,17 @@ const KEYWORDS = {
  */
 const getCards = (zip) => {
     const entries = zip.getEntries();
-    const conditions = getConditions(zip);
     const output = {};
     for (const entry of entries) {
         const {entryName} = entry;
         if (entryName.endsWith('.lua')) {
             const lua = entry.getData().toString('utf8');
-            const cards = collectCardsFromLua(lua, conditions);
+            const cards = collectCardsFromLua(lua);
             Object.assign(output, cards);
         }
     }
     fillUpgrades(output);
-    cleanDescriptions(output); // must come after upgrades, because it uses the concatenated enclosures
+    cleanDescriptions(output, zip); // must come after upgrades, because it uses the concatenated enclosures
     fixCosts(output);
     console.log('getCards', tally(output));
     return output;
@@ -83,7 +76,7 @@ const getCards = (zip) => {
 /**
  *
  */
-const collectCardsFromLua = (luaContent, conditions) => {
+const collectCardsFromLua = (luaContent) => {
     let draft = luaContent.replace(/--\[\[[\s\S]*?]]--/g, ''); // remove block comments
     draft = draft.replace(/--.*/g, ''); // remove  comments
     draft = removeGraftDefinitions(draft);
