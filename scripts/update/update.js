@@ -4,6 +4,7 @@ const AdmZip = require('adm-zip');
 const attemptSelfRun = require('../utils/attemptSelfRun');
 const importCards = require('./importCards');
 const getCards = require('./getCards');
+const getKeywords = require('./getKeywords');
 const updateCards = require('./updateCards');
 const getCharacters = require('./getCharacters');
 const getFactions = require('./getFactions');
@@ -11,6 +12,7 @@ const guard = require('../utils/guard');
 const prepareCharacters = require('./prepareCharacters');
 const inspectCharacters = require('./inspectCharacters');
 const writeCardsSheet = require('./writeCardsSheet');
+const writeKeywordsSheet = require('./writeKeywordsSheet');
 const writeCharactersSheet = require('./writeCharactersSheet');
 const {STORAGE, GAME_DIR, DEBUG} = require('../utils/CONFIG');
 
@@ -23,8 +25,12 @@ const {STORAGE, GAME_DIR, DEBUG} = require('../utils/CONFIG');
 const update = async () => {
     try {
         const zip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
-        const cards = getCards(zip);
+        const keywords = getKeywords(zip);
+        console.log('keywords:', keywords);
+        // await writeKeywordsSheet(keywords);
+
         return;
+        const cards = getCards(zip);
         const importedCards = importCards(zip);
         // compareCards(cards, importedCards);
 

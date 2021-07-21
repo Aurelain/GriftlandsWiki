@@ -1,7 +1,4 @@
-const fs = require('fs');
-
 const writeSheet = require('../utils/writeSheet');
-const {RAW_WEB} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S

@@ -1,6 +1,5 @@
 const fs = require('fs');
 const assert = require('assert');
-const getConditions = require('./getConditions');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -17,12 +16,9 @@ let problems = 0;
 /**
  *
  */
-const cleanDescriptions = (bag, zip) => {
-    const conditions = getConditions(zip);
-    // fs.writeFileSync('conditions.json', JSON.stringify(conditions, null, 4));
-
+const cleanDescriptions = (bag, keywords) => {
     for (const id in bag) {
-        cleanDescription(bag[id], conditions, bag);
+        cleanDescription(bag[id], keywords, bag);
     }
     console.log('problems:', problems);
 };
@@ -33,7 +29,7 @@ const cleanDescriptions = (bag, zip) => {
 /**
  *
  */
-const cleanDescription = ({desc, descParams, enclosure, name}, conditions, bag) => {
+const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) => {
     if (!desc) {
         return;
     }
@@ -58,7 +54,7 @@ const cleanDescription = ({desc, descParams, enclosure, name}, conditions, bag) 
 
     // Some cards reference other cards, e.g. "Sal's Daggers"
     for (const id in bag) {
-        if (!conditions[id]) {
+        if (!keywords[id]) {
             // draft = draft.split('{' + id + '}').join('[[' + bag[id].name + ']]');
         }
     }
@@ -67,8 +63,8 @@ const cleanDescription = ({desc, descParams, enclosure, name}, conditions, bag) 
     // We're using only the alternative.
     draft = draft.replace(/{[^}]*\|(\w+[a-z])}/g, '$1');
 
-    for (const condition in conditions) {
-        draft = draft.split('{' + condition + '}').join('[[' + conditions[condition] + ']]');
+    for (const condition in keywords) {
+        draft = draft.split('{' + keywords + '}').join('[[' + keywords[condition] + ']]');
     }
     // if (draft !== desc) {
     if (draft.match(/[{#<]/)) {
