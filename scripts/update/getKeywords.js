@@ -24,14 +24,15 @@ const NEGOTIATION_FLAGS_FILE = 'scripts/negotiation/negotiation_defs.lua';
 const getKeywords = (zip) => {
     const entries = zip.getEntries();
     const output = {};
+
     parseFlagKeywords(zip.getEntry(BATTLE_FLAGS_FILE).getData().toString('utf8'), output);
     parseFlagKeywords(zip.getEntry(NEGOTIATION_FLAGS_FILE).getData().toString('utf8'), output); // same as battle
+
     for (const entry of entries) {
         const {entryName} = entry;
         if (entryName.endsWith('.lua')) {
             const lua = entry.getData().toString('utf8');
-            parseConditionsFromLua(lua, output);
-            parseCardConditions(lua, output);
+            parseKeywordsFromLua(lua, output);
         }
     }
 
@@ -51,58 +52,49 @@ const getKeywords = (zip) => {
  */
 const parseFlagKeywords = (luaContent, keywords) => {
     luaContent = removeLuaComments(luaContent);
-    const strings = findEnclosure(luaContent, luaContent.indexOf('CARD_FLAG_STRINGS'), '{', '}');
-    strings.replace(/\[\w+\.(\w+)]\s*=\s*"(.*?)"/g, (matched, id, name) => {
+    const namesBlock = findEnclosure(luaContent, luaContent.indexOf('CARD_FLAG_STRINGS'), '{', '}');
+    const foundNames = namesBlock.matchAll(/\[\w+\.(\w+)]\s*=\s*"(.*?)"/g);
+    for (const [, id, name] of foundNames) {
         keywords[id] = {
             id,
             name,
         };
-    });
-    const details = findEnclosure(luaContent, luaContent.indexOf('CARD_FLAG_DETAILS'), '{', '}');
-    details.replace(/\[\w+\.(\w+)]\s*=\s*"(.*?)"/g, (matched, id, detail) => {
-        // Note: Some keywords have no name, but have a description (e.g. ONE_OF_A_KIND);
+    }
+    const detailsBlock = findEnclosure(luaContent, luaContent.indexOf('CARD_FLAG_DETAILS'), '{', '}');
+    const foundFlags = detailsBlock.matchAll(/\[\w+\.(\w+)]\s*=\s*"(.*?)"/g);
+    for (const [, id, detail] of foundFlags) {
         if (id in keywords) {
             keywords[id].desc = detail;
         }
-    });
-};
-
-/**
- *
- */
-const parseConditionsFromLua = (luaContent, keywords) => {
-    luaContent = removeLuaComments(luaContent);
-    const conditionsRegExp = /conditions\s*=\s*{|modifiers\s*=\s*{|FEATURES\s*=\s*{/gi;
-    let myResult;
-    while ((myResult = conditionsRegExp.exec(luaContent)) !== null) {
-        const index = conditionsRegExp.lastIndex - myResult[0].length;
-        const enclosure = findEnclosure(luaContent, index, '{', '}');
-        if (!enclosure) {
-            continue;
-        }
-        parseConditionsFromBlock(enclosure, keywords);
     }
 };
 
 /**
  *
  */
-const parseConditionsFromBlock = (block, keywords) => {
-    const regExp = /\w+\s*=\s*{[^{}]*?\bname\s*=\s*"/g;
-    let myResult;
-    while ((myResult = regExp.exec(block)) !== null) {
-        const index = regExp.lastIndex - myResult[0].length;
-        const enclosure = findEnclosure(block, index, '{', '}');
-        if (!enclosure) {
-            continue;
-        }
-        const id = enclosure.match(/\w+/)[0];
-        const name = enclosure.match(/\bname\s*=\s*"(.*?)"/)[1];
+const parseKeywordsFromLua = (luaContent, keywords) => {
+    luaContent = removeLuaComments(luaContent);
+    const foundBlocks = luaContent.matchAll(/conditions\s*=\s*{|modifiers\s*=\s*{|FEATURES\s*=\s*{/gi);
+    for (const {index} of foundBlocks) {
+        const enumerationBlock = findEnclosure(luaContent, index, '{', '}');
+        parseKeywordsFromEnumeration(enumerationBlock, keywords);
+    }
+    parseCardKeyword(luaContent, keywords);
+};
+
+/**
+ *
+ */
+const parseKeywordsFromEnumeration = (enumerationBlock, keywords) => {
+    const foundKeywords = enumerationBlock.matchAll(/(\w+)\s*=\s*{[^{}]*?\bname\s*=\s*"(.*?)"/g);
+    for (const foundKeyword of foundKeywords) {
+        const [, id, name] = foundKeyword;
         keywords[id] = {
             id,
             name,
         };
-        const desc = (enclosure.match(/\bdesc\s*=\s*"([^"]*)/) || [])[1];
+        const keywordBlock = findEnclosure(enumerationBlock, foundKeyword.index, '{', '}');
+        const desc = (keywordBlock.match(/\bdesc\s*=\s*"([^"]*)/) || [])[1];
         if (desc) {
             keywords[id].desc = desc;
         }
@@ -112,16 +104,11 @@ const parseConditionsFromBlock = (block, keywords) => {
 /**
  *
  */
-const parseCardConditions = (luaContent, keywords) => {
-    const regExp = /AddCondition\(".*?"[^{}]*condition\s*=\s*{/g;
-    let myResult;
-    while ((myResult = regExp.exec(luaContent)) !== null) {
-        const index = regExp.lastIndex - myResult[0].length;
-        const enclosure = findEnclosure(luaContent, index, '{', '}');
-        if (!enclosure) {
-            continue;
-        }
-        const id = enclosure.match(/AddCondition\("(.*?)"/)[1];
+const parseCardKeyword = (luaContent, keywords) => {
+    const cardKeywords = luaContent.matchAll(/AddCondition\("(.*?)"[^{}]*condition\s*=\s*{/g);
+    for (const cardKeyword of cardKeywords) {
+        const enclosure = findEnclosure(luaContent, cardKeyword.index, '{', '}');
+        const [, id] = cardKeyword;
         const name = (enclosure.match(/\bname\s*=\s*"(.*?)"/) || [])[1];
         if (!name) {
             continue;

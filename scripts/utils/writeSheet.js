@@ -1,9 +1,17 @@
+const fs = require('fs');
 const ExcelJS = require('exceljs');
 
 /**
  *
  */
 const writeSheet = async (path, matrix, mutation) => {
+    const jsonPath = path.replace(/[^.]*$/, 'json');
+    if (fs.existsSync(jsonPath)) {
+        const existingContent = fs.readFileSync(jsonPath, 'utf8');
+        if (existingContent === JSON.stringify(matrix, null, 4)) {
+            return;
+        }
+    }
     const rows = matrix.length;
     const cols = matrix[0].length;
     const workbook = new ExcelJS.Workbook();
@@ -30,6 +38,7 @@ const writeSheet = async (path, matrix, mutation) => {
     };
     mutation && mutation(workbook);
     await workbook.xlsx.writeFile(path);
+    fs.writeFileSync(jsonPath, JSON.stringify(matrix, null, 4));
 };
 
 // =====================================================================================================================

@@ -10,9 +10,10 @@ const writeSheet = require('../utils/writeSheet');
 /**
  *
  */
-const writeKeywordsSheet = async (list) => {
+const writeKeywordsSheet = async (bag) => {
     const matrix = [];
-    for (const character of list) {
+    for (const id in bag) {
+        const character = bag[id];
         const row = [];
         row.push(character.name);
         row.push(character.id);

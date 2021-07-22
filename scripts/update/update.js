@@ -14,6 +14,7 @@ const inspectCharacters = require('./inspectCharacters');
 const writeCardsSheet = require('./writeCardsSheet');
 const writeKeywordsSheet = require('./writeKeywordsSheet');
 const writeCharactersSheet = require('./writeCharactersSheet');
+const tally = require('../utils/tally');
 const {STORAGE, GAME_DIR, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -26,8 +27,9 @@ const update = async () => {
     try {
         const zip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
         const keywords = getKeywords(zip);
-        console.log('keywords:', keywords);
-        // await writeKeywordsSheet(keywords);
+        // console.log('keywords:', keywords);
+        console.log('keywords:', tally(keywords));
+        await writeKeywordsSheet(keywords);
 
         return;
         const cards = getCards(zip);
