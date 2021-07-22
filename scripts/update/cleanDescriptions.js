@@ -18,7 +18,10 @@ let problems = 0;
  */
 const cleanDescriptions = (bag, keywords) => {
     for (const id in bag) {
-        cleanDescription(bag[id], keywords, bag);
+        const clean = cleanDescription(bag[id], keywords, bag);
+        if (clean) {
+            bag[id].desc = clean;
+        }
     }
     console.log('problems:', problems);
 };
@@ -33,7 +36,14 @@ const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) =>
     if (!desc) {
         return;
     }
-    let draft = replaceNumbers(desc, descParams, enclosure, name);
+    let draft = desc;
+
+    // "Big Score" and others have a description like: "Gain {1#points_total}..."
+    // "A Hot Tip" and others have a description like: "Gain {1#money}..."
+    // "Legacy Blade" and others have a description like: "Gain {1#points}..."
+    draft = draft.replace(/{(\d)#\w+}/g, '{$1}');
+
+    draft = replaceNumbers(draft, descParams, enclosure, name);
 
     for (const fragment in DESCRIPTION_FIXES) {
         draft = draft.split(fragment).join(DESCRIPTION_FIXES[fragment]);
@@ -52,10 +62,14 @@ const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) =>
     // We're removing it.
     draft = draft.replace(/{[^}]*\|}/g, '');
 
+    // Some cards are referenced with a "card." prefix (e.g. "Nepotism" references "{card.self_promotion}").
+    // We're removing it.
+    draft = draft.replace(/{card\./g, '{');
+
     // Some cards reference other cards, e.g. "Sal's Daggers"
     for (const id in bag) {
         if (!keywords[id]) {
-            // draft = draft.split('{' + id + '}').join('[[' + bag[id].name + ']]');
+            draft = draft.split('{' + id + '}').join('[[' + bag[id].name + ']]');
         }
     }
 
@@ -63,17 +77,19 @@ const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) =>
     // We're using only the alternative.
     draft = draft.replace(/{[^}]*\|(\w+[a-z])}/g, '$1');
 
-    for (const condition in keywords) {
-        draft = draft.split('{' + keywords + '}').join('[[' + keywords[condition] + ']]');
+    for (const keyword in keywords) {
+        draft = draft.split('{' + keyword + '}').join('[[' + keywords[keyword].name + ']]');
     }
     // if (draft !== desc) {
     if (draft.match(/[{#<]/)) {
         // console.log('================', name);
         // console.log('old:', desc);
         // console.log('new:', draft);
-        console.log(`${name}: ${draft}`);
+        console.log(`${name}: ${draft}, ${descParams}`);
         problems++;
     }
+
+    return draft;
 };
 
 /**
@@ -132,7 +148,12 @@ const evaluateSolutionPart = (solutionPart, enclosure, name) => {
             draft = draft.split('#' + variableName).join(value);
         }
     }
-    return eval(draft);
+    try {
+        return eval(draft);
+    } catch (e) {
+        console.log(`Failed to evaluate solution "${solutionPart}" for "${name}"!`);
+        return 0;
+    }
 };
 
 /**

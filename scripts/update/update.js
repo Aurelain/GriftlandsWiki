@@ -27,17 +27,15 @@ const update = async () => {
     try {
         const zip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
         const keywords = getKeywords(zip);
-        // console.log('keywords:', keywords);
-        console.log('keywords:', tally(keywords));
         await writeKeywordsSheet(keywords);
 
-        return;
-        const cards = getCards(zip);
-        const importedCards = importCards(zip);
+        const cards = getCards(zip, keywords);
+        await writeCardsSheet(cards);
+        // const importedCards = importCards(zip);
         // compareCards(cards, importedCards);
 
-        const finalCards = mergeCards(cards, importedCards);
-        updateCards(finalCards);
+        // const finalCards = mergeCards(cards, importedCards);
+        // updateCards(finalCards);
 
         // await writeCardsSheet(cards, 'cards');
         // await writeCardsSheet(importedCards, 'importedCards');

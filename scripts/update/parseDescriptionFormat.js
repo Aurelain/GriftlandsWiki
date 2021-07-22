@@ -9,7 +9,7 @@ const tally = require('../utils/tally');
  * Output: '#defend_amount*2,#riposte_amount||1'
  */
 const parseDescriptionFormat = (description, enclosure, name) => {
-    if (!description || !description.match(/{\d}/)) {
+    if (!description || !description.match(/{\d/)) {
         return;
     }
 
@@ -52,6 +52,12 @@ const parseDescriptionFormat = (description, enclosure, name) => {
 
     // "Sharpen"
     draft = draft.split('(self.stacks or 2)').join('2');
+
+    // "Assassin's Mark"
+    draft = draft.replace(/self.*?UI\.CARDS\.OWNER[^,]*/, '"Owner"');
+
+    // "Big Score" and others
+    draft = draft.split('self.scoring.value').join('self.value');
 
     // "Striker" and others
     draft = draft.split('self:CalculateThresholdText(self)').join('self.threshold');

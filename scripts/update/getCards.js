@@ -52,7 +52,7 @@ const KEYWORDS = {
  *
  * }
  */
-const getCards = (zip) => {
+const getCards = (zip, keywords) => {
     const entries = zip.getEntries();
     const output = {};
     for (const entry of entries) {
@@ -64,7 +64,7 @@ const getCards = (zip) => {
         }
     }
     fillUpgrades(output);
-    cleanDescriptions(output, zip); // must come after upgrades, because it uses the concatenated enclosures
+    cleanDescriptions(output, keywords); // must come after upgrades, because it uses the concatenated enclosures
     fixCosts(output);
     console.log('getCards', tally(output));
     return output;
@@ -79,28 +79,35 @@ const getCards = (zip) => {
 const collectCardsFromLua = (luaContent) => {
     let draft = luaContent.replace(/--\[\[[\s\S]*?]]--/g, ''); // remove block comments
     draft = draft.replace(/--.*/g, ''); // remove  comments
-    draft = removeGraftDefinitions(draft);
+    draft = removeBlocks(draft, /GRAFTS\s*=/);
+    draft = removeBlocks(draft, /\bevent_handlers\s*=/);
 
-    const nameRegExp = /\w+\s*=\s*{\s*name\s*=\s*"/g;
+    const nameRegExp = /\w+\s*=\s*{[^{}]*name\s*=\s*"/g;
     let myResult;
     const output = {};
+    // TODO: convert to matchAll
     while ((myResult = nameRegExp.exec(draft)) !== null) {
         const index = nameRegExp.lastIndex - myResult[0].length;
-        const enclosure = findEnclosure(draft, index, '{', '}');
+        let enclosure = findEnclosure(draft, index, '{', '}');
         if (!enclosure) {
             // TODO: investigate why this happens
             continue;
         }
         const id = enclosure.match(/\w+/)[0];
         const rarity = (enclosure.match(/\s*rarity\s*=\s*(\w+\.\w+)/) || [])[1];
-        const isUpgrade = id.includes('_plus');
-        const isCard = rarity || isUpgrade;
+        const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
+        const isCard = rarity || id.includes('_plus') || (flags && flags.includes('CARD_FLAGS'));
         if (!isCard) {
             continue;
         }
         const name = captureText(enclosure, 'name');
-        const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
-        const desc = captureText(enclosure, 'desc');
+        let desc = captureText(enclosure, 'desc');
+
+        // "Pinned" needs this
+        if (desc && desc.includes('{card.{1}}')) {
+            desc = captureText(enclosure, 'NO_CARD');
+        }
+
         output[id] = removeUndefined({
             name,
             id,
@@ -127,14 +134,14 @@ const collectCardsFromLua = (luaContent) => {
 /**
  *
  */
-const removeGraftDefinitions = (luaContent) => {
+const removeBlocks = (content, regExp) => {
     while (true) {
-        const found = luaContent.match(/GRAFTS\s*=/);
+        const found = content.match(regExp);
         if (!found) {
-            return luaContent;
+            return content;
         }
-        const enclosure = findEnclosure(luaContent, found.index, '{', '}');
-        luaContent = luaContent.split(enclosure).join(',');
+        const enclosure = findEnclosure(content, found.index, '{', '}');
+        content = content.split(enclosure).join(',');
     }
 };
 
