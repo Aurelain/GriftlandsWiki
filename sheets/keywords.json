@@ -85,6 +85,11 @@
         "A bid from another patron. When destroyed, another Anonymous Bid is created to replace it.\\n\\n<#PENALTY>If this argument kills an auction item, it is removed from play!</>"
     ],
     [
+        "Apprehensive",
+        "apprehensive",
+        "Apply <#HILITE>{1}</> {COMPOSURE} to a random argument at the end of turn."
+    ],
+    [
         "Appropriated",
         "APPROPRIATED",
         "When this argument is destroyed, all cards are returned to {2}'s hand. {2} gains 2 {VULNERABILITY}."
@@ -1018,6 +1023,11 @@
         "Interrogate",
         "INTERROGATE",
         null
+    ],
+    [
+        "Intimidated",
+        "intimidated",
+        "Hostility cards deal an additional {3%+d} damage. Remove 1 stack when you play a non-Hostility card."
     ],
     [
         "Investigator",

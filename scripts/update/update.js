@@ -37,7 +37,6 @@ const update = async () => {
         // const finalCards = mergeCards(cards, importedCards);
         // updateCards(finalCards);
 
-        // await writeCardsSheet(cards, 'cards');
         // await writeCardsSheet(importedCards, 'importedCards');
 
         return;

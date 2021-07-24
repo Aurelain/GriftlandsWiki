@@ -16611,7 +16611,7 @@
     [
         "Intimidate",
         "intimidate",
-        "At the end of your turn, [[Incept]] 2 {intimidated}.",
+        "At the end of your turn, [[Incept]] 2 [[Intimidated]].",
         " ",
         " ",
         " ",
@@ -23938,7 +23938,7 @@
     [
         "Reputation Preceding",
         "reputation_preceding",
-        "At the end of your turn, [[Incept]] 2 {apprehensive} and [[Destroy]] this card.",
+        "At the end of your turn, [[Incept]] 2 [[Apprehensive]] and [[Destroy]] this card.",
         " ",
         " ",
         " ",

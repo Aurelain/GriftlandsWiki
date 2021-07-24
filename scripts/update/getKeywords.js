@@ -80,6 +80,7 @@ const parseKeywordsFromLua = (luaContent, keywords) => {
         parseKeywordsFromEnumeration(enumerationBlock, keywords);
     }
     parseCardKeyword(luaContent, keywords);
+    parseModifierKeyword(luaContent, keywords);
 };
 
 /**
@@ -111,6 +112,29 @@ const parseCardKeyword = (luaContent, keywords) => {
         const [, id] = cardKeyword;
         const name = (enclosure.match(/\bname\s*=\s*"(.*?)"/) || [])[1];
         if (!name) {
+            continue;
+        }
+        keywords[id] = {
+            id,
+            name,
+        };
+        const desc = (enclosure.match(/\bdesc\s*=\s*"([^"]*)/) || [])[1];
+        if (desc) {
+            keywords[id].desc = desc;
+        }
+    }
+};
+
+/**
+ *
+ */
+const parseModifierKeyword = (luaContent, keywords) => {
+    const modifiers = luaContent.matchAll(/\bmodifier\s*=\s*{/g);
+    for (const modifier of modifiers) {
+        const enclosure = findEnclosure(luaContent, modifier.index, '{', '}');
+        const id = (enclosure.match(/\bid\s*=\s*"(.*?)"/) || [])[1];
+        const name = (enclosure.match(/\bname\s*=\s*"(.*?)"/) || [])[1];
+        if (!id || !name) {
             continue;
         }
         keywords[id] = {
