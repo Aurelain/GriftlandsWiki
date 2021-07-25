@@ -54,20 +54,20 @@ const KEYWORDS = {
  */
 const getCards = (zip, keywords, artIds) => {
     const entries = zip.getEntries();
-    const output = {};
+    const bag = {};
     for (const entry of entries) {
         const {entryName} = entry;
         if (entryName.endsWith('.lua')) {
             const lua = entry.getData().toString('utf8');
-            const cards = collectCardsFromLua(lua, artIds);
-            Object.assign(output, cards);
+            collectCardsFromLua(lua, artIds, bag);
         }
     }
-    fillUpgrades(output);
-    cleanDescriptions(output, keywords); // must come after upgrades, because it uses the concatenated enclosures
-    fixCosts(output);
-    console.log('getCards', tally(output));
-    return output;
+    fillUpgrades(bag);
+    checkDuplicateNames(bag);
+    cleanDescriptions(bag, keywords); // must come after upgrades, because it uses the concatenated enclosures
+    fixCosts(bag);
+    console.log('getCards', tally(bag));
+    return bag;
 };
 
 // =====================================================================================================================
@@ -76,44 +76,38 @@ const getCards = (zip, keywords, artIds) => {
 /**
  *
  */
-const collectCardsFromLua = (luaContent, artIds) => {
+const collectCardsFromLua = (luaContent, artIds, bag) => {
     let draft = luaContent.replace(/--\[\[[\s\S]*?]]--/g, ''); // remove block comments
     draft = draft.replace(/--.*/g, ''); // remove  comments
     draft = removeBlocks(draft, /GRAFTS\s*=/);
     draft = removeBlocks(draft, /\bevent_handlers\s*=/);
+    draft = removeBlocks(draft, /\bmodifier\s*=/);
 
-    const nameRegExp = /\w+\s*=\s*{[^{}]*name\s*=\s*"/g;
-    let myResult;
-    const output = {};
-    // TODO: convert to matchAll
-    while ((myResult = nameRegExp.exec(draft)) !== null) {
-        const index = nameRegExp.lastIndex - myResult[0].length;
-        let enclosure = findEnclosure(draft, index, '{', '}');
-        if (!enclosure) {
-            // TODO: investigate why this happens
+    const nameMatches = draft.matchAll(/(\w+)\s*=\s*{[^{}]*\bname\s*=\s*"/g);
+    for (const nameMatch of nameMatches) {
+        let enclosure = findEnclosure(draft, nameMatch.index, '{', '}');
+        const id = nameMatch[1];
+        const art = getArtId(enclosure, id, artIds);
+        if (!art) {
             continue;
         }
-        const id = enclosure.match(/\w+/)[0];
         const rarity = (enclosure.match(/\s*rarity\s*=\s*(\w+\.\w+)/) || [])[1];
         const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
-        const isCard = rarity || id.includes('_plus') || (flags && flags.includes('CARD_FLAGS'));
-        if (!isCard) {
-            continue;
-        }
         const name = captureText(enclosure, 'name');
         let desc = captureText(enclosure, 'desc');
 
-        // "Pinned" needs this
+        // Exception for "Pinned":
         if (desc && desc.includes('{card.{1}}')) {
             desc = captureText(enclosure, 'NO_CARD');
         }
 
-        output[id] = removeUndefined({
+        bag[id] = removeUndefined({
             name,
             id,
+            art,
             desc,
             character: undefined, // TODO
-            deckType: parseDeckType(flags),
+            deckType: artIds[art] ? 'battle' : 'negotiation',
             cardType: parseCardType(flags),
             keywords: parseKeywords(flags, desc),
             flavour: cleanFlavour(captureText(enclosure, 'flavour')),
@@ -125,11 +119,9 @@ const collectCardsFromLua = (luaContent, artIds) => {
             minDamage: captureNumber(enclosure, 'min_damage'),
             maxDamage: captureNumber(enclosure, 'max_damage'),
             enclosure, // internal
-            icon: parseIcon(captureText(enclosure, 'icon'), id),
             descParams: parseDescriptionFormat(desc, enclosure, name), // internal
         });
     }
-    return output;
 };
 
 /**
@@ -150,7 +142,7 @@ const removeBlocks = (content, regExp) => {
  *
  */
 const captureNumber = (text, prop) => {
-    const re = new RegExp('\\s*' + prop + '\\s*=\\s*(\\d+)');
+    const re = new RegExp('\\s*\\b' + prop + '\\s*=\\s*(\\d+)');
     const found = text.match(re);
     if (found) {
         return Number(found[1]);
@@ -161,7 +153,7 @@ const captureNumber = (text, prop) => {
  *
  */
 const captureText = (text, prop) => {
-    const re = new RegExp('\\s*' + prop + '\\s*=\\s*"([\\s\\S]+?)"');
+    const re = new RegExp('\\s*\\b' + prop + '\\s*=\\s*"([\\s\\S]+?)"');
     const found = text.match(re) || [];
     return found[1];
 };
@@ -181,16 +173,6 @@ const cleanFlavour = (flavour) => {
 /**
  *
  */
-const parseDeckType = (flags) => {
-    if (!flags) {
-        return;
-    }
-    return undefined; // TODO
-};
-
-/**
- *
- */
 const parseCardType = (flags) => {
     if (!flags) {
         return;
@@ -201,17 +183,29 @@ const parseCardType = (flags) => {
 /**
  *
  */
-const parseIcon = (iconField, id) => {
-    if (!iconField) {
-        return id;
+const getArtId = (enclosure, id, artIds) => {
+    const icon = captureText(enclosure, 'icon');
+    if (icon) {
+        // Happens rarely, when a card overrides the expected art id, e.g. "xxx".
+        const parts = icon.split('/');
+        const [folderName, fileName] = parts;
+        const isBattle = folderName === 'battle';
+        if (!isBattle && folderName !== 'negotiation') {
+            // This is not a card
+            // console.log(`${id}: Not a card, based on icon: "${icon}"`);
+            return;
+        }
+        if (parts.length !== 2) {
+            // This is a condition or a modifier
+            // console.log(`${id}: Unexpected icon path "${icon}"!`);
+            return;
+        }
+        const artId = fileName.split('.')[0];
+        assert(artIds[artId] === isBattle, `${id}: Unexpected icon value "${icon}!"`);
+        return artId;
     }
-    const parts = iconField.split('/');
-    if (parts.length !== 2) {
-        // This is a modifier or a condition
-        return null;
-    }
-    const iconId = parts[1].replace(/\.tex$/, '');
-    return iconId + '#' + iconField.charAt(0).toUpperCase();
+    const expectedArtId = getParentId(id) || id;
+    return expectedArtId in artIds ? expectedArtId : undefined;
 };
 
 /**
@@ -236,9 +230,9 @@ const parseKeywords = (flags) => {
  */
 const fillUpgrades = (bag) => {
     for (const id in bag) {
-        const baseId = getBaseId(id);
+        const baseId = getParentId(id);
         if (baseId) {
-            assert(bag[baseId], 'Base card is missing!');
+            assert(bag[baseId], `${id}: Base card "${baseId}" is missing!`);
             bag[id] = {
                 ...bag[baseId],
                 ...bag[id],
@@ -263,9 +257,25 @@ const fillUpgrades = (bag) => {
 /**
  *
  */
-const getBaseId = (id) => {
+const getParentId = (id) => {
+    // Somewhat unsafe, since a card name may legitimately contain "_upgraded":
     const cleanId = id.replace(/_plus.*|_upgraded.*/, '');
     return cleanId !== id ? cleanId : '';
+};
+
+/**
+ *
+ */
+const checkDuplicateNames = (bag) => {
+    const names = {};
+    for (const id in bag) {
+        const {name} = bag[id];
+        if (names[name]) {
+            console.log(`${id}: Name collision with id "${names[name]}" for "${name}"!`);
+        } else {
+            names[name] = id;
+        }
+    }
 };
 
 /**

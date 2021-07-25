@@ -16,8 +16,9 @@ const writeCardsSheet = async (bag, name = 'cards') => {
         const card = bag[id];
         const row = [];
         row.push(card.name);
-        row.push(id);
         row.push(card.desc || ' ');
+        row.push(id);
+        row.push(card.art);
         row.push(card.character || ' ');
         row.push(card.deckType || ' ');
         row.push(card.cardType || ' ');
@@ -43,8 +44,9 @@ const writeCardsSheet = async (bag, name = 'cards') => {
 
     matrix.unshift([
         'Name',
-        'Id',
         'Description',
+        'Id',
+        'Art',
         'Character',
         'DeckType',
         'CardType',
@@ -71,7 +73,7 @@ const sheetMutation = (workbook) => {
     const sheet = workbook.worksheets[0]; //the first one;
     sheet.properties.defaultColWidth = 7;
     sheet.getColumn(1).width = 20; // Name
-    sheet.getColumn(3).width = 80; // Description
+    sheet.getColumn(2).width = 80; // Description
 };
 
 // =====================================================================================================================

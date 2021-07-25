@@ -6,7 +6,7 @@ const ExcelJS = require('exceljs');
  */
 const writeSheet = async (path, matrix, mutation) => {
     const jsonPath = path.replace(/[^.]*$/, 'json');
-    if (fs.existsSync(jsonPath)) {
+    if (fs.existsSync(path) && fs.existsSync(jsonPath)) {
         const existingContent = fs.readFileSync(jsonPath, 'utf8');
         if (existingContent === JSON.stringify(matrix, null, 4)) {
             return;
