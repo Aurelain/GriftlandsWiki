@@ -52,14 +52,14 @@ const KEYWORDS = {
  *
  * }
  */
-const getCards = (zip, keywords) => {
+const getCards = (zip, keywords, artIds) => {
     const entries = zip.getEntries();
     const output = {};
     for (const entry of entries) {
         const {entryName} = entry;
         if (entryName.endsWith('.lua')) {
             const lua = entry.getData().toString('utf8');
-            const cards = collectCardsFromLua(lua);
+            const cards = collectCardsFromLua(lua, artIds);
             Object.assign(output, cards);
         }
     }
@@ -76,7 +76,7 @@ const getCards = (zip, keywords) => {
 /**
  *
  */
-const collectCardsFromLua = (luaContent) => {
+const collectCardsFromLua = (luaContent, artIds) => {
     let draft = luaContent.replace(/--\[\[[\s\S]*?]]--/g, ''); // remove block comments
     draft = draft.replace(/--.*/g, ''); // remove  comments
     draft = removeBlocks(draft, /GRAFTS\s*=/);
@@ -125,6 +125,7 @@ const collectCardsFromLua = (luaContent) => {
             minDamage: captureNumber(enclosure, 'min_damage'),
             maxDamage: captureNumber(enclosure, 'max_damage'),
             enclosure, // internal
+            icon: parseIcon(captureText(enclosure, 'icon'), id),
             descParams: parseDescriptionFormat(desc, enclosure, name), // internal
         });
     }
@@ -195,6 +196,22 @@ const parseCardType = (flags) => {
         return;
     }
     return undefined; // TODO
+};
+
+/**
+ *
+ */
+const parseIcon = (iconField, id) => {
+    if (!iconField) {
+        return id;
+    }
+    const parts = iconField.split('/');
+    if (parts.length !== 2) {
+        // This is a modifier or a condition
+        return null;
+    }
+    const iconId = parts[1].replace(/\.tex$/, '');
+    return iconId + '#' + iconField.charAt(0).toUpperCase();
 };
 
 /**

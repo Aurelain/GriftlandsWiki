@@ -1,6 +1,7 @@
 const sharp = require('sharp');
 const decompressDds = require('../utils/decompressDds');
 const extractPng = require('../utils/extractPng');
+const getArtIds = require('../update/getArtIds');
 const {RAW_GAME} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -13,9 +14,10 @@ const {RAW_GAME} = require('../utils/CONFIG');
 /**
  *
  */
-const extractCardArt = async (dataZip) => {
-    await extractCardArtFromFolder(dataZip, 'negotiation');
-    await extractCardArtFromFolder(dataZip, 'battle');
+const extractCardArt = async (assetsZip) => {
+    const artIds = getArtIds(assetsZip);
+    await extractCardArtFromFolder(assetsZip, true, artIds);
+    await extractCardArtFromFolder(assetsZip, false, artIds);
 };
 
 // =====================================================================================================================
@@ -24,23 +26,18 @@ const extractCardArt = async (dataZip) => {
 /**
  *
  */
-const extractCardArtFromFolder = async (dataZip, folderName) => {
-    const portraitsTex = dataZip.getEntry(folderName + '/' + folderName + '.tex').getData();
+const extractCardArtFromFolder = async (assetsZip, isBattle, artIds) => {
+    const folderName = isBattle ? 'battle' : 'negotiation';
+    const portraitsTex = assetsZip.getEntry(folderName + '/' + folderName + '.tex').getData();
     const portraitsDds = Buffer.from(portraitsTex.slice(9)).buffer;
     const dds = decompressDds(portraitsDds);
     const pipeline = sharp(dds.data, {raw: {width: dds.width, height: dds.height, channels: 4}}).png();
 
-    const entries = dataZip.getEntries();
-    for (const entry of entries) {
-        const {entryName} = entry;
-        if (entryName.startsWith(folderName) && entryName.split('/').length === 2) {
-            // TODO: use jszip
-            const name = entryName.match(/([^/]*)\.tex$/)[1];
-            if (name !== folderName) {
-                const texBuffer = dataZip.getEntry(entryName).getData();
-                const pngPath = RAW_GAME + '/cardArt/' + name + '#' + folderName.charAt(0).toUpperCase() + '.png';
-                await extractPng(texBuffer, pngPath, pipeline);
-            }
+    for (const artId in artIds) {
+        if (artIds[artId] === isBattle) {
+            const texBuffer = assetsZip.getEntry(folderName + '/' + artId + '.tex').getData();
+            const pngPath = RAW_GAME + '/cardArt/' + artId + '#' + folderName.charAt(0).toUpperCase() + '.png';
+            await extractPng(texBuffer, pngPath, pipeline);
         }
     }
 };
