@@ -4,6 +4,7 @@ const findEnclosure = require('../utils/findEnclosure');
 const removeUndefined = require('../utils/removeUndefined');
 const parseDescriptionFormat = require('./parseDescriptionFormat.js');
 const cleanDescriptions = require('./cleanDescriptions.js');
+const isActualCard = require('./isActualCard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -53,13 +54,17 @@ const KEYWORDS = {
  * }
  */
 const getCards = (zip, keywords, artIds) => {
+    const lowercaseKeywordIds = {};
+    for (const keyword in keywords) {
+        lowercaseKeywordIds[keyword.toLowerCase()] = true;
+    }
     const entries = zip.getEntries();
     const bag = {};
     for (const entry of entries) {
         const {entryName} = entry;
         if (entryName.endsWith('.lua')) {
             const lua = entry.getData().toString('utf8');
-            collectCardsFromLua(lua, artIds, bag);
+            collectCardsFromLua(lua, lowercaseKeywordIds, artIds, bag);
         }
     }
     fillUpgrades(bag);
@@ -76,7 +81,7 @@ const getCards = (zip, keywords, artIds) => {
 /**
  *
  */
-const collectCardsFromLua = (luaContent, artIds, bag) => {
+const collectCardsFromLua = (luaContent, lowercaseKeywordIds, artIds, bag) => {
     let draft = luaContent.replace(/--\[\[[\s\S]*?]]--/g, ''); // remove block comments
     draft = draft.replace(/--.*/g, ''); // remove  comments
     draft = removeBlocks(draft, /GRAFTS\s*=/);
@@ -90,6 +95,13 @@ const collectCardsFromLua = (luaContent, artIds, bag) => {
         const art = getArtId(enclosure, id, artIds);
         if (!art) {
             continue;
+        }
+        if (id in lowercaseKeywordIds) {
+            if (!isActualCard(id, enclosure)) {
+                continue;
+            } else {
+                console.log('In keywords:', id);
+            }
         }
         const rarity = (enclosure.match(/\s*rarity\s*=\s*(\w+\.\w+)/) || [])[1];
         const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];

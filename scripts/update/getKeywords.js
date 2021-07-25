@@ -6,6 +6,7 @@ const removeLuaComments = require('../utils/removeLuaComments');
 // =====================================================================================================================
 const BATTLE_FLAGS_FILE = 'scripts/battle/battle_defs.lua';
 const NEGOTIATION_FLAGS_FILE = 'scripts/negotiation/negotiation_defs.lua';
+const AI_KEYWORDS = 'scripts/content/negotiation/ai_negotiation.lua';
 
 // =====================================================================================================================
 //  P U B L I C
@@ -35,6 +36,8 @@ const getKeywords = (zip) => {
             parseKeywordsFromLua(lua, output);
         }
     }
+
+    parseAiKeywords(zip.getEntry(AI_KEYWORDS).getData().toString('utf8'), output);
 
     // Manual overrides:
     output['SNAILS'].name = 'Snails'; // was "<p img='icons/ic_coin_snails.tex' scale=1.0>"
@@ -146,6 +149,15 @@ const parseModifierKeyword = (luaContent, keywords) => {
             keywords[id].desc = desc;
         }
     }
+};
+
+/**
+ *
+ */
+const parseAiKeywords = (luaContent, keywords) => {
+    const draft = removeLuaComments(luaContent);
+    const cardsBlock = findEnclosure(draft, draft.indexOf('CARDS'), '{', '}');
+    parseKeywordsFromEnumeration(cardsBlock, keywords);
 };
 
 // =====================================================================================================================
