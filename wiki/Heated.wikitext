@@ -1,0 +1,10 @@
+'''Heated''' is a Negotiation [[Key Words|key word]] for [[Sal]].
+
+==Effect==
+In game description: "Targets an opponent argument each turn for 1 damage per stack.
+
+At the end of owner's turn, add 1 stack of '''Heated'''.
+
+'''Heated''' is an argument with 3 resolve".
+
+[[Category:Keywords]]

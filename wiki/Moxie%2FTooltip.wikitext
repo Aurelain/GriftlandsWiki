@@ -1,0 +1,7 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Moxie
+  |body=<center>Whenever you take damage on your turn, increase your '''Moxie''' by a random amount between 1 and 2.
+
+At the end of your turn, '''Heal''' health equal to your '''Moxie''' and then halve your '''Moxie''' down to a minimum of 1.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

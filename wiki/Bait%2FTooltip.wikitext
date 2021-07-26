@@ -1,0 +1,7 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Bait
+  |body=<center>Must be targeted before anything else. Gains 2 resolve for each stack of '''Bait'''.
+
+'''Bait''' is an argument with 2 resolve.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

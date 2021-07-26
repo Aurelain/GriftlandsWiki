@@ -1,0 +1,8 @@
+'''Moxie''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "Whenever you take damage on your turn, increase your '''Moxie''' by a random amount between 1 and 2.
+
+At the end of your turn, [[Heal]] health equal to your '''Moxie''' and then halve your '''Moxie''' down to a minimum of 1".
+
+[[Category:Keywords]]

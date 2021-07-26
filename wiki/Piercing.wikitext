@@ -1,0 +1,6 @@
+'''Piercing''' is a Battle [[Key Words|key word]] for [[Sal]].
+
+==Effect==
+In game description: "Ignores damage blocked by [[Defense]]".
+
+[[Category:Keywords]]

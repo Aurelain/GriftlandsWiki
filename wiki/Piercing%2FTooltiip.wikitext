@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Piercing
+  |body=<center>Ignores damage blocked by '''Defense'''.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

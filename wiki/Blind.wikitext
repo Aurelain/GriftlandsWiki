@@ -1,0 +1,6 @@
+'''Blind''' is a Negotiation [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "This card selects a target randomly".
+
+[[Category:Keywords]]

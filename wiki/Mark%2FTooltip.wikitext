@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Mark
+  |body=<center>When you attack this target, gain 1 '''Charge''' and reduce '''Mark''' by 1.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

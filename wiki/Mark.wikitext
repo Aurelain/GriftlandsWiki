@@ -1,0 +1,6 @@
+'''Mark''' is a Battle [[Key Words|key word]] for [[Rook]].
+
+==Effect==
+In game description: "When you attack this target, gain 1 [[Charge]] and reduce '''Mark''' by 1".
+
+[[Category:Keywords]]

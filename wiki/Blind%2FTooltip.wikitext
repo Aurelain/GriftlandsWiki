@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Blind
+  |body=<center>This card selects a target randomly.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

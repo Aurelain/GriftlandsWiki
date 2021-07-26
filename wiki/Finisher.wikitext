@@ -1,0 +1,6 @@
+'''Finisher''' is a Battle [[Key Words|key word]] for [[Sal]].
+
+==Effect==
+In game description: "Finishers spend some or all of your [[Combo]] points to enact powerful effects".
+
+[[Category:Keywords]]

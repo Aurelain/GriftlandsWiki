@@ -1,0 +1,13 @@
+'''Intimidated''' is a Negotiation [[Key Words|key word]].
+
+==Effect==
+In game description: "Hostility cards deal an additional +'''X''' damage.
+
+Remove a stack of when you play a non-Hostility card".
+
+Where '''X''' is the amount of stacks of '''Intimidated'''.
+
+
+
+
+[[Category:Keywords]]

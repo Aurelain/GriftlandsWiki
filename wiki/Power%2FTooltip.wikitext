@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Power
+  |body=<center>Attack damage is increased by '''X'''.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

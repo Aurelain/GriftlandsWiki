@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Panic
+  |body=<center>You can choose to win battle if all enemies '''Panic'''. A fighter with '''Panic''' cannot act, and reduces their '''Panic''' by 1 at the end of their turn.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

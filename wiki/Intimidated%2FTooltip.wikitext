@@ -1,0 +1,7 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Intimidated
+  |body=<center>Hostility cards deal an additional +'''X''' damage.
+
+Remove a stack of when you play a non-Hostility card.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

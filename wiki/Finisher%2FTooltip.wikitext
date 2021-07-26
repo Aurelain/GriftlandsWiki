@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Finisher
+  |body=<center>Finishers spend some or all of your '''Combo''' points to enact powerful effects.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

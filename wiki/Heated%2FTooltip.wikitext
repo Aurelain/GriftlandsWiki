@@ -1,0 +1,9 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Heated
+  |body=<center>Targets an opponent argument each turn for 1 damage per stack.
+
+At the end of owner's turn, add 1 stack of '''Heated'''.
+
+'''Heated''' is an argument with 3 resolve.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>
