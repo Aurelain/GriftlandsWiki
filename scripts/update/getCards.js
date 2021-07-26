@@ -120,6 +120,7 @@ const collectCardsFromLua = (luaContent, lowercaseKeywordIds, artIds, bag) => {
             maxDamage: captureNumber(enclosure, 'max_damage'),
             enclosure, // internal
             descParams: parseDescriptionFormat(desc, enclosure, name), // internal
+            maxCharges: captureNumber(enclosure, 'max_charges'), // internal, used by `addKeywords()`
         });
     }
 };

@@ -79,15 +79,18 @@ const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) =>
     for (const keyword in keywords) {
         draft = draft.split('{' + keyword + '}').join('[[' + keywords[keyword].name + ']]');
     }
+
+    draft = draft.split('\\n').join('\n');
+
     // if (draft !== desc) {
-    if (draft.match(/[{#<]/)) {
+    if (draft.match(/[{#\\<]/)) {
         // console.log('================', name);
         // console.log('old:', desc);
         // console.log('new:', draft);
         console.log(`${name}: ${draft}, ${descParams}`);
     }
 
-    draft = draft.split('\n').join('<br />');
+    draft = draft.split('\n').join('<br/>');
 
     return draft;
 };

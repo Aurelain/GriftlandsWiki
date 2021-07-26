@@ -64,6 +64,7 @@ const getFlagRanks = (zip, entryPath) => {
  *
  */
 const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRanks) => {
+    const {maxCharges} = card;
     const usedBag = {};
     const allKeywords = [];
 
@@ -95,6 +96,18 @@ const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRa
         const prefix = card.desc ? card.desc + '<br/>' : '';
         card.desc = prefix + wikiKeywords;
     }
+
+    if (maxCharges) {
+        const consumeName = globalKeywordLowIds['consume'].name;
+        const link = '[[' + consumeName + ']]';
+        const uses = maxCharges > 1 ? 'uses' : 'use';
+        const prefix = card.desc ? card.desc + '<br/>' : '';
+        card.desc = prefix + `${link} after ${maxCharges} ${uses}.`;
+        if (!allKeywords.includes(consumeName)) {
+            allKeywords.push(consumeName);
+        }
+    }
+
     if (allKeywords.length) {
         card.keywords = allKeywords.join(',');
     } else {
