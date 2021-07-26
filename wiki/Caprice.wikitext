@@ -1,4 +1,7 @@
-{{Card
+{{CardPage
+|quote = One second everything was cool, and the next, he was screaming!
+|description = [[Improvise]] 1 random Hostility card. It costs 1 less until played. </br> [[Expend]]
+|cost = 1
 |character = Sal
 |rarity = Rare
 |cardtype = Hostility
@@ -6,19 +9,7 @@
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Twisted Caprice
-|upgrade2 = Boosted Caprice}}
-{{Quote|One second everything was cool, and the next, he was screaming!}}
-
-'''Caprice''' is a 1-cost Rare '''Hostility''' card for [[Sal]]. It will '''Improvise''' 1 random '''Hostility''' card. This card cost 1 action less until played. '''Caprice''' will then '''Expend'''
-
-==Upgrades==
-After accruing 7 experience '''Caprice''' is able to be upgraded. 
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Twisted Caprice.png|150px]]
-|[[File:Boosted Caprice.png|150px]]
-|-
-![[Improvise]] 2 [[Hostility]] cards
-![[Improvise+]] 1 upgraded [[Hostility]] cards
-|-
-|}
+|upgrade1summary = [[Improvise+]] 2 Hostility cards
+|upgrade2 = Boosted Caprice
+|upgrade2summary = [[Improvise]] 1 upgraded Hostility card
+}}

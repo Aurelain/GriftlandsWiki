@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = They'll be seeing stars after I get through with them!
+|description = Apply [[Stun]]. </br> [[Expend]]
+|cost = 3
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = [[Stun]], [[Expend]]
 |upgradeable = Yes
 |expreq = 3
 |upgrade1 = Boosted Crushing Blow
-|upgrade2 = Nailed Crushing Blow}}
-{{Quote|They'll be seeing stars after I get through with them!}}
-
-'''Crushing Blow''' is a 3-cost Uncommon '''Attack''' card for [[Sal]]. It deals 8-12 base damage. It has the effect "Apply '''Stun'''. '''Expend'''"
-
-==Upgrades==
-After accruing 8 experience '''Crushing Blow''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Crushing Blow.png|150px]]
-|[[File:Nailed Crushing Blow.png|150px]]
-|-
-!Deals additional damage.
-!The attack is Piercing.
-|}
+|upgrade1summary = Deal 12-16 base damage
+|upgrade2 = Nailed Crushing Blow
+|upgrade2summary = [[Piercing]]
+}}

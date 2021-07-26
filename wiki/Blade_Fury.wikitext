@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = One of the more ferocious dagger combinations seen on the mainland.
+|description = Spend up to 3 [[Combo]]: Attack once extra per [[Combo]]. </br> [[Finisher]]
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = [[Combo]], [[Finisher]]
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Blade Fury
-|upgrade2 = Rival's Blade Fury}}
-{{Quote|One of the more ferocious dagger combinations seen on the mainland.}}
-
-'''Blade Fury''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It deals 3-4 base damage. It has the effect "Spend up to 3 '''Combo''': Attack once extra per '''Combo'''. '''Finisher'''"
-
-==Upgrades==
-After accruing 7 experience '''Blade Fury''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Blade Fury.png|150px]]
-|[[File:Rival's Blade Fury.png|150px]]
-|-
-!4-6 damage.
-!Gain 2 [[Combo]].
-|}
+|upgrade1summary = Deal 4-6 base damage
+|upgrade2 = Rival's Blade Fury
+|upgrade2summary = Gain 2 [[Combo]]
+}}

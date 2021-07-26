@@ -10,4 +10,5 @@
 |expreq = 0
 |upgrade1 = Boosted Options
 |upgrade1summary = 
+|generator = Quick Thinking, Boosted Thinking
 }}

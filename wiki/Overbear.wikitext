@@ -1,4 +1,9 @@
-{{Card
+{{Reupload|enemy argument has been renamed to opponent argument.}}
+
+{{CardPage
+|quote = Wait. Why is he standing up?
+|description = Attack a random opponent argument once for each opponent argument.
+|cost = 1
 |character = Sal
 |rarity = Uncommon
 |cardtype = Hostility
@@ -6,19 +11,7 @@
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Enhanced Overbear
-|upgrade2 = Tall Overbear}}
-{{Quote|Wait. Why is he standing up?}}
-
-'''Overbear''' is a 1-cost Uncommon '''Hostility''' card for [[Sal]]. It deals 1-3 base damage to a random enemy argument. It will attack this argument multiple times for each enemy argument.
-
-==Upgrades==
-After accruing 9 experience '''Overbear''' is able to be upgraded. 
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Enhanced Overbear.png|150px]]
-|[[File:Tall Overbear.png|150px]]
-|-
-!Draw a card for each enemy argument
-!Increase max damage
-|-
-|}
+|upgrade1summary = Draw a card for each enemy argument
+|upgrade2 = Tall Overbear
+|upgrade2summary = Deal 1-5 base damage
+}}

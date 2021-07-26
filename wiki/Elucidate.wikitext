@@ -1,6 +1,8 @@
+{{Reupload}}
+
 {{CardPage
 |quote = It’s all going to be cleared up, don’t you worry.
-|description = Duplicate a random friendly argument.<br/>Expend
+|description = Duplicate a random friendly argument.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
@@ -9,7 +11,7 @@
 |keywords = [[Expend]]
 |expreq = 7
 |upgrade1 = Enduring Elucidate
-|upgrade1summary = 
+|upgrade1summary = Remove [[Expend]]
 |upgrade2 = Focused Elucidate
-|upgrade2summary = 
+|upgrade2summary = Duplicate a chosen friendly argument
 }}

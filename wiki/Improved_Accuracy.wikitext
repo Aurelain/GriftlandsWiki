@@ -1,3 +1,5 @@
+{{delete|This page is a typo of Improve Accuracy}}
+
 {{Card
 |rarity = Common
 |decktype = Battle

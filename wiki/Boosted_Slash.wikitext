@@ -10,4 +10,5 @@
 |parent = Slash
 |mindamage = 1
 |maxdamage = 2
+|generator = Promoted Fight Dirty
 }}

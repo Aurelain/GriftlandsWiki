@@ -1,23 +1,16 @@
-{{Card
+{{CardPage
+|quote = Be sure to use every part of the weapon, that's just good value.
+|description = Gain 1 [[Combo]] for every card in your hand.
+|cost = 1
+|character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = [[Combo]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Rival's Hilt Bash
-|upgrade2 = Boosted Hilt Bash}}
-{{Quote|Be sure to use every part of the weapon, that's just good value.}}
-'''Hilt Bash''' is a 1-cost Rare '''Attack''' card for [[Sal]]. It deals 2-3 damage and says "Gain 1 [[Combo]] for every card in your hand"
-
-==Upgrades==
-At 9 experience, '''Hilt Bash''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Rival's Hilt Bash.png|150px]]
-|[[File:Boosted Hilt Bash.png|150px]]
-|-
-!Gain 2 additional [[Combo]]
-!Deals 4-6 damage
-|}
+|upgrade1summary = Gain 2 additional [[Combo]]
+|upgrade2 = Boosted Hilt Bash
+|upgrade2summary = Deals 4-6 base damage
+}}

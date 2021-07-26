@@ -8,4 +8,5 @@
 |cardtype = Maneuver
 |keywords = [[Expend]]
 |parent = Hide
+|generator = Promoted Fight Dirty
 }}

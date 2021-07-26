@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = Nobody ever said it was fair, they just said that it works.
+|description = If this card was '''Improvised''', double its damage until the end of the turn.
+|cost = 1
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = [[Improvise]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Backstab
-|upgrade2 = Enhanced Backstab}}
-{{Quote|Nobody ever said it was fair, they just said that it works.}}
-
-'''Backstab''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 3-5 base damage. It has the effect "If this card was '''Improvised''', double its damage until the end of the turn.".
-
-==Upgrades==
-After accruing 9 experience '''Backstab''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Backstab.png|150px]]
-|[[File:Enhanced Backstab.png|150px]]
-|-
-!Deals 5-7 damage.
-!Damage triples, but<br>the card [[Expend]]s.
-|}
+|upgrade1summary = Deals 5-7 base damage
+|upgrade2 = Enhanced Backstab
+|upgrade2summary = Triple its damage. <br> [[Expend]]
+}}

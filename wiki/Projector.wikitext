@@ -1,23 +1,16 @@
-{{Card
+{{CardPage
+|quote = It took a bit of tinkering, but your servo will have some extra punch.
+|description = [[Ability]]: Any attack cards you [[Improvise]] deal 3 bonus damage until played. </br> [[Expend]]
+|cost = 2
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Ability]], [[Improvise]], [[Expend]]
 |upgradeable = Yes
 |expreq = 5
 |upgrade1 = Initial Projector
-|upgrade2 = Pale Projector}}
-{{Quote|It took a bit of tinkering, but your servo will have some extra punch.}}
-'''Projector''' is a 2-cost Uncommon '''Maneuver''' card for [[Sal]]. It says "[[Ability]]: Any attack cards you [[Improvise]] deal 3 bonus damage until played. [[Expend]]."
-
-==Upgrades==
-After accruing 5 experience, '''Projector''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Initial Projector.png|150px]]
-|[[File:Pale Projector.png|150px]]
-|-
-![[Ambush]]
-!Costs 1 action less
-|}
+|upgrade1summary = [[Ambush]]
+|upgrade2 = Pale Projector
+|upgrade2summary = Costs 1 action less
+}}

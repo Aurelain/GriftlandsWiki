@@ -8,4 +8,5 @@
 |cardtype = Maneuver
 |keywords = [[Expend]]
 |parent = Scrounge
+|generator = Promoted Fight Dirty
 }}

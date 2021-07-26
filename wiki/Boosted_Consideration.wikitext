@@ -8,4 +8,5 @@
 |cardtype = Manipulate
 |keywords = [[Composure]], [[Expend]]
 |parent = Consideration
+|generator = Promoted Thinking
 }}

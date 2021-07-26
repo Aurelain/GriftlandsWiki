@@ -7,4 +7,7 @@
 |decktype = Negotiation
 |cardtype = Manipulate
 |parent = Sal's Instincts
+|special1 = Obtuse
+|special2 = Mean 
+|special3 = Inspiration 
 }}

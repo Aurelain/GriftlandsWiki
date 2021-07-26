@@ -1,23 +1,16 @@
-{{Card
+{{CardPage
+|quote = Lumin cells and other batteries can be recycled in the gray bins, or you can just hurl them at someone.
+|description = [[Ability]]: Whenever you discard a card, deal 2 damage to a random enemy. </br> [[Expend]]
+|cost = 2
+|character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Ability]], [[Expend]]
 |upgradeable = Yes
 |expreq = 5
 |upgrade1 = Serial Disposal
-|upgrade2 = Pale Disposal}}
-{{Quote|Lumin cells and other batteries can be recycled in the gray bins, or you can just hurl them at someone}}
-'''Efficient Disposal''' is a 2-cost Rare '''Maneuver''' card for [[Sal]]. It says "[[Ability]]: Whenever you discard a card, deal 2 damage to a random enemy. [[Expend]]."
-
-==Upgrades==
-At 5 experience, '''Efficient Disposal''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Serial Disposal.png|150px]]
-|[[File:Pale Disposal.png|150px]]
-|-
-![[Expend]]ing also triggers the ability.
-!Costs 1 action.
-|}
+|upgrade1summary = [[Expend]]ing also triggers the [[Ability]]
+|upgrade2 = Pale Disposal
+|upgrade2summary = Cost 1 action less
+}}

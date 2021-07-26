@@ -1,15 +1,16 @@
-{{Stub}}
-{{Card
+{{CardPage
+|quote = Practice makes perfect. Or at least good enough.
+|description = [[Improvise]] a card from your draw pile. Duplicate it. </br> [[Expend]]
+|cost = 2
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
+|keywords = [[Improvise]], [[Expend]]
 |upgradeable = Yes
 |expreq = 3
-|upgrade1 = Pale Muscle Memory: costs 1 '''Action'''
-|upgrade2 = Graven Muscle Memory: '''Improvise''' a card from your discard pile
-|character = Sal}}
-{{Quote|Practice makes perfect. Or at least good enough.}}
-
-'''Muscle Memory''' is a 2-cost uncommon  Maneuver-card for [[Sal]], it has the following effect: "'''Improvise''' a card from your draw pile. Duplicate it. '''Expend'''"
-
-== Upgrades ==
+|upgrade1 = Pale Muscle Memory
+|upgrade1summary = Cost 1 action less
+|upgrade2 = Graven Muscle Memory
+|upgrade2summary = [[Improvise]] a card from your discard pile
+}}

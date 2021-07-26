@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = That's why I don't take prisoners, you just can't trust anyone.
+|description = [[Improvise]] an attack card from your draw pile. That card deals +4 damage until played.
+|cost = 1
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Improvise]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Tall Deception
-|upgrade2 = Boosted Deception}}
-{{Quote|That's why I don't take prisoners, you just can't trust anyone.}}
-
-'''Deception''' is a 1-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "'''Improvise''' an attack card from your draw pile. That card deals +4 damage until played."
-
-==Upgrades==
-After accruing 9 experience '''Deception''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Tall Deception.png|150px]]
-|[[File:Boosted Deception.png|150px]]
-|-
-!The '''Improvised''' card<br>deals +6 damage.
-!Offers a wider<br>selection of cards.
-|}
+|upgrade1summary = The card deals +6 damage.
+|upgrade2 = Boosted Deception
+|upgrade2summary = [[Improvise+]]
+}}

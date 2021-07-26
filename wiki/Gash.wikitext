@@ -1,4 +1,7 @@
-{{Card
+{{CardPage
+|quote = A bleeding target can get a whole lot worse in a matter of seconds.
+|description = If the target has [[Bleed]], apply 1 [[Impair]] and 1 [[Wound]].
+|cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
@@ -7,17 +10,7 @@
 |upgradeable = Yes
 |expreq = 5
 |upgrade1 = Enhanced Gash
-|upgrade2 = Boosted Gash}}
-{{Quote|A bleeding target can get a whole lot worse in a matter of seconds.}}
-'''Gash''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 2-3 base damage. It has the effect "If the target has [[Bleed]], apply 1 [[Impair]] and 1 [[Wound]]."
-
-==Upgrades==
-After accruing 5 experience '''Gash''' is able to be upgraded.
-{| class="wikitable" style="text-align:center; width:305px;"
-|-
-|[[File:Enhanced Gash.png|150px]]
-|[[File:Boosted Gash.png|150px]]
-|-
-!If the target has [[Bleed]], apply 2 [[Impair]] and 2 [[Wound]].
-!4-6 damage
-|}
+|upgrade1summary = If the target has [[Bleed]], apply 2 [[Impair]] and 2 [[Wound]].
+|upgrade2 = Boosted Gash
+|upgrade2summary = Deal 4-6 base damage
+}}

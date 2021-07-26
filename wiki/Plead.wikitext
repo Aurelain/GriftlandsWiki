@@ -1,4 +1,7 @@
-{{Card
+{{CardPage
+|quote = I'm begging here.
+|description = Lose 1 [[Influence]].
+|cost = 0
 |character = Sal
 |rarity = Common
 |cardtype = Diplomacy
@@ -7,18 +10,7 @@
 |upgradeable = Yes
 |expreq = 10
 |upgrade1 = Simple Plead
-|upgrade2 = Tall Plead}}
-{{Quote|I'm begging here.}}
-
-'''Plead''' is a 0-cost Common '''Diplomacy''' card for [[Sal]]. It deals 0-3 base damage. It has the effect: "Lose 1 [[Influence]]".
-
-==Upgrades==
-After accruing 10 experience '''Plead''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Simple Plead.png|150px]]
-|[[File: Tall Plead.png|150px]]
-|-
-!Remove: Lose 1 [[Influence]]
-!deals 0-5 base damage
-|}
+|upgrade1summary = Remove: Lose 1 [[Influence]]
+|upgrade2 = Tall Plead
+|upgrade2summary = Deals 0-5 base damage
+}}

@@ -8,4 +8,5 @@
 |cardtype = Hostility
 |keywords = [[Expend]], [[Flustered]], [[Incept]]
 |parent = Gruff
+|generator = Promoted Thinking
 }}

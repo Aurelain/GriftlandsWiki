@@ -5,6 +5,7 @@
 |character = Sal
 |rarity = Rare
 |decktype = Battle
+|cardtype = Maneuver
 |keywords = [[Ability]], [[Combo]]
 |parent = Inside Fighting
 }}

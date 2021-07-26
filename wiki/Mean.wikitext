@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Get out of here you mutt!
-|description = Expend
+|description = [[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Hostility
 |keywords = [[Expend]]
+|generator = Hostile Instincts
 }}

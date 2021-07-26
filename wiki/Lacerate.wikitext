@@ -1,4 +1,7 @@
-{{Card
+{{CardPage
+|quote = You shouldn't be playing with knives.
+|description = Apply 4 [[Bleed]].
+|cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
@@ -7,17 +10,7 @@
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Lacerate
-|upgrade2 = Savage Lacerate}}
-{{Quote|You shouldn't be playing with knives.}}
-'''Lacerate''' is a 1-cost Common '''Attack''' card in [[Sal]]'s card pool. It deals 2-4 base damage. It has the effect "Apply 4 '''[[Bleed]]'''."
-
-==Upgrades==
-After accruing 7 experience '''Lacerate''' is able to be upgraded.
-{| class="wikitable" style="text-align:center; width:305px;"
-|-
-|[[File:Boosted Lacerate.png|150px]]
-|[[File:Savage Lacerate.png|150px]]
-|-
-!Apply 5 '''[[Bleed]]'''.
-!If the target has '''[[Bleed]]''', apply 6 '''[[Bleed]]'''.
-|}
+|upgrade1summary = Apply 5 [[Bleed]].
+|upgrade2 = Savage Lacerate
+|upgrade2summary = If the target has [[Bleed]], apply 6 [[Bleed]].
+}}

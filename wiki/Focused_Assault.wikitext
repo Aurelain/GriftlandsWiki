@@ -1,24 +1,18 @@
-{{Card
+{{CardPage
+|quote = Single out one person from the whole group, and bring them all of the pain.
+|description = If this is the only card in your hand, attack 2 times with 4 bonus damage.
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = 
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Assault
-|upgrade2 = Final Assault}}
-{{Quote|Single out one person from the whole group, and bring them all of the pain.}}
-
-'''Focused Assault''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It deals 4-6 base damage. It has the effect "If this is the only card in your hand, attack 2 times with 4 bonus damage."
-
-==Upgrades==
-After accruing 7 experience '''Focused Assault''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Assault.png|150px]]
-|[[File:Final Assault.png|150px]]
-|-
-!Increases the bonus damage.
-!The special effect only<br>triggers if your draw<br>pile is empty, and<br>attacks 4 times.
-|}
+|upgrade1summary = 6 bonus damage.
+|upgrade2 = Final Assault
+|upgrade2summary = The special effect only<br>triggers if your draw<br>pile is empty, and<br>attacks 4 times.
+|mindamage = 4
+|maxdamage = 6
+}}

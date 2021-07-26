@@ -8,4 +8,5 @@
 |cardtype = Attack
 |keywords = [[Expend]]
 |parent = Throw Dust
+|generator = Promoted Fight Dirty
 }}

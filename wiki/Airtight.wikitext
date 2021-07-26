@@ -1,4 +1,7 @@
-{{Card
+{{CardPage
+|quote = Veep grumbled and slumped back into his chair. Deflated.
+|description = Gain: Whenever you play a Diplomacy card, apply 2 [[Composure]] to a random argument. </br> [[Expend]]
+|cost = 3
 |character = Sal
 |rarity = Rare
 |cardtype = Diplomacy
@@ -7,21 +10,9 @@
 |upgradeable = Yes
 |expreq = 3
 |upgrade1 = Initial Airtight
-|upgrade2 = Pale Airtight}}
-
-{{Quote|Veep grumbled and slumped back into his chair. Deflated.}}
-
-'''Airtight''' is a 3-cost Rare '''Diplomacy''' card for [[Sal]]. It has the effect: "Gain: Whenever you play a Diplomacy card, apply 2 [[Composure]] to a random argument. [[Expend]]".
-
+|upgrade1summary = [[Ambush]]
+|upgrade2 = Pale Airtight
+|upgrade2summary = Cost 1 action less
+}}
+==Notes==
 '''Airtight''' is an argument with 8 resolve.
-
-==Upgrades==
-After accruing 3 experience '''Airtight''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Initial Airtight.png|150px]]
-|[[File: Pale Airtight.png|150px]]
-|-
-![[Ambush]]
-!Cost 1 action less
-|}

@@ -8,4 +8,5 @@
 |cardtype = Maneuver
 |keywords = [[Expend]]
 |parent = Scrapper
+|generator = Promoted Fight Dirty
 }}

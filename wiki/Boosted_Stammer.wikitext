@@ -8,4 +8,5 @@
 |cardtype = Manipulate
 |keywords = [[Ability]], [[Expend]], [[Incept]], [[Vulnerability]]
 |parent = Stammer
+|generator = Promoted Thinking
 }}

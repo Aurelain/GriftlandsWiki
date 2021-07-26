@@ -1,12 +1,14 @@
-{{Card
-|cardtype = Maneuver
-|decktype = Battle
-|rarity = Unique
+{{CardPage
+|quote = They'll never see it coming... again.
+|description = The next attack card is played twice. </br> [[Expend]]
+|cost = 0
 |character = Sal
+|decktype = Battle
+|cardtype = Maneuver
+|rarity = Unique
 |keywords = [[Expend]]
-|upgradeable = No}}
-{{Quote|They'll never see it coming... again.}}
+|upgradeable = No
+}}
 
-'''Assault''' is a 0-cost Unique '''Maneuver''' card for [[Sal]]. It plays the next attack Card twice and is [[Expend]]ed.  This card is a unique [[Spree]] Card.
-
-This card can't be '''Upgraded'''.
+==Notes==
+This card is a unique [[Spree]] Card. This card can't be '''Upgraded'''.

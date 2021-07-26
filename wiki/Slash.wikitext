@@ -12,4 +12,5 @@
 |upgrade1summary = 
 |mindamage = 1
 |maxdamage = 2
+|generator = Fight Dirty, Boosted Fight Dirty
 }}

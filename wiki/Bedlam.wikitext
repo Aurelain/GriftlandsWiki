@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = It's great to be outnumbered when there's a good chance you don't know who you'll be hitting.
+|description = Discard a card. </br> Attack a random enemy.
+|cost = 1
+|character = Sal
 |rarity = Common
 |cardtype = Attack
 |decktype = Battle
-|character = Sal
 |keywords = None
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Bedlam
-|upgrade2 = Focused Bedlam}}
-{{Quote|It's great to be outnumbered when there's a good chance you don't know who you'll be hitting.}}
-
-'''Bedlam''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 8 base damage. It has the effect "Discard a card. Attack a random target.".
-
-==Upgrades==
-After accruing 9 experience '''Bedlam''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Bedlam.png|150px]]
-|[[File:Focused Bedlam.png|150px]]
-|-
-!12 damage.
-!Draw a card.
-|}
+|upgrade1summary = Deal 12 base damage
+|upgrade2 = Focused Bedlam
+|upgrade2summary = Draw a card
+}}

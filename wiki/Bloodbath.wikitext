@@ -1,4 +1,8 @@
-{{Card
+{{CardPage
+|quote = Just extend your range a little more and those blades will be biting into everyone!
+|description = [[Ability]]: Whenever you apply [[Bleed]], apply 1 [[Bleed]] to all other enemies. </br> [[Expend]]
+|cost = 2
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
@@ -7,17 +11,7 @@
 |upgradeable = Yes
 |expreq = 5
 |upgrade1 = Pale Bloodbath
-|upgrade2 = Initial Bloodbath}}
-{{Quote|Just extend your range a little more and those blades will be biting into everyone!}}
-'''Bloodbath''' is a 2-cost Uncommon Maneuver card for [[Sal]]. It has the effect "[[Ability]]: Whenever you apply [[Bleed]], apply 1 [[Bleed]] to all other enemies. [[Expend]]."
-
-==Upgrades==
-After accruing 5 experience '''Bloodbath''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Pale Bloodbath.png|150px]]
-|[[File:Initial Bloodbath.png|150px]]
-|-
-!Costs 1.
-![[Ambush]].
-|}
+|upgrade1summary = Cost 1 action less
+|upgrade2 = Initial Bloodbath
+|upgrade2summary = [[Ambush]]
+}}

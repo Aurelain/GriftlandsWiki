@@ -1,23 +1,16 @@
-{{Card
+{{CardPage
+|quote = I think we are BOTH going to feel that in the morning
+|description = Add an [[Injury]] card to your discard pile. </br> Cannot be played with an [[Injury]] in your hand.
+|cost = 1
+|character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = 
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Rooted Over Extension
-|upgrade2 = Tall Over Extension}}
-{{Quote|I think we are BOTH going to feel that in the morning}}
-'''Over Extension''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It deals 8-10 damage and says "Add an [[Injury]] card to your discard pile. Cannot be played with an [[Injury]] in your hand. "
-
-==Upgrades==
-At 7 experience, '''Over Extension''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Rooted Over Extension.png|150px]]
-|[[File:Tall Over Extension.png|150px]]
-|-
-!Deals 11 damage
-!Deals 8-13 damage
-|}
+|upgrade1summary = Deals 11 base damage
+|upgrade2 = Tall Over Extension
+|upgrade2summary = Deals 8-13 base damage
+}}

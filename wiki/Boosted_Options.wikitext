@@ -8,4 +8,5 @@
 |cardtype = Manipulate
 |keywords = [[Expend]]
 |parent = Options
+|generator = Promoted Thinking
 }}

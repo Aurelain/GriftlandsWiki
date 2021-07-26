@@ -9,64 +9,71 @@
 Rug wanders around the Griftlands, looking for patrons willing to try out his culinary creations.
 {| class="wikitable"
 |+
+!Character
 !Choice
 !Effect
 |-
-|Mud jumper muffins
-|Gain 5 resolve immediately.
+| rowspan="7" |Smith
+|Mud Jumper Muffins
+|Restore 5 resolve.
 |-
-|Heshbladder au vin
-|Lose 10 HP.
-|-
-|Deep-eel eclair
-|No effect
+|Deep-eel Eclair
+|Max out the XP of a random battle or negotiation card.
 |-
 |Fleadmilk Brandy Pudding
-|Gain a "Fleadshell Brandy" card. (0 cost, Battle, Unique Item, Drink, Gain 1 action, Destroy after 3 uses)
+|Gain a "[[Fleadshell Brandy]]" card. (0 cost, Drink, Gain 1 action, Destroy after 3 uses)
+|-
+|Heshbladder Au Vin
+|Lose 10 HP. Gain 5 max HP. 
 |-
 |Tidepool Pods
-|Lose 8 HP. Gain a "Tidepool Pods" card. (1 cost, Battle, Unique Item, 3-6 damage, Hits all enemies, Destroy after 5 uses)
+|Lose 8 HP. Gain a "[[Tidepool Pods]]" card. (1 cost, deals 3-6 damage to all enemies, Destroy after 5 uses)
 |-
+|Fire-shucked Barnacles
+|Gain a "[[Sick]]" card. 
+|-
+|Truffled Scuttlers
+|Gain an "[[Ulcer]]" card.
+|-
+| rowspan="7" |Sal
 |Oshnu Bile Tartare
-|Gain a "Well Fed" card. (0 cost, regain 5 HP)
+|Gain a "[[Well Fed]]" card. (0 cost, restore 5 HP, Destroy)
 |-
 |Crayote Courage Casserole
-|Gain 4 resolve and 4 health immediately.
+|Restore 4 resolve and 4 HP.
 |-
-|Fungus And Nettleworm Brownies
-|Gain a "Hearty" card. (0 cost, Restore 5 resolve. '''Destroy''')
-|-
-|Pickled Talons
-|Gain an "Ulcer" card. Ulcer is a 2-cost, Negotiation, status card with [[Destroy]] and [[Sleep It Off]]. Then you have two options. One, you can forgive Rug, improving his relationship with you; two, you can scold him, damaging his relationship with you but removing the Ulcer card. 
+|Fungus And Mettlenettle Brownies
+|Gain a "[[Hearty]]" card.
 |-
 |Gristled Gristle
-|Gain 8 resolve immediately.
-|-
-|Bogleech Sausage
-|Gain a "Sick" card.
+|Restore 8 resolve.
 |-
 |Blackened Flead Guts
-|Gain 5 resolve immediately.
+|Restore 5 resolve.
 |-
-|Spakling Oshnu Aspic
-|Gain 5 resolve immediately.
+|Bogleech Sausage
+|Gain a "[[Sick]]" card.
 |-
-|Sickle Tickle Stew
-|Gain an "Ulcer" card.
+|Pickled Talons
+|Gain an "[[Ulcer]]" card. 
 |-
-|Grawket Fillets
-|Gain a "Sick" card.
+| rowspan="6" |Rook
+|Sparkling Oshnu Aspic
+|Restore 5 resolve.
+|-
+|Scab-roasted Hawb Drumstick
+|Gain a "[[Hawb Drumstick]]" card. (Heal 8 HP, Destroy after 2 uses)
+|-
+|Curds and Floaters
+|Gain a "[[Pickled Floater]]" card. (Gain 5 concentration, Destroy after 2 uses)
+|-
+|Sickletickle Stew
+|Gain an "[[Ulcer]]" card.
+|-
+|Grawkit Fillets
+|Gain a "[[Sick]]" card.
 |-
 |Tart Stinger Tart
 |Lose 4 HP. 
-|-
-|Scab-Roasted Hawb Drumstick
-|Gain a "Hawb Drumstick" card. (Heals 8, destroy after one use)
-|-
-|Curds and Floaters
-|Gain a "Pickled Floater" card. (Gain 5 concentration, destroy after two uses)
-|-
-|Fire-Shucked Barnacles
-|Gain a "[[Sick]]" card. Sick is a 1-cost, Negotiation, status card with [[Expend]] and Sleep It Off. Then you have two options. One, you can forgive Rug, improving his relationship with you; two, you can scold him, damaging his relationship with you but removing the Sick card.
 |}
 <ref>https://forums.kleientertainment.com/forums/topic/113370-rugs-food/</ref>

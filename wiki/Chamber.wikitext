@@ -1,11 +1,15 @@
-{{Card
-|cardtype = Maneuver
+{{CardPage
+|quote = Murder Bay Boxing has come a long way. You could almost say the fighters actually know what they are doing.
+|description = Gain 4 [[Defense]]. At the start of your next turn gain 2 [[Combo]].
+|cost = 1
+|character = Sal
 |decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Combo]], [[Defense]]
 |expreq = 7
 |rarity = Common
-|upgrade1 = Stone Chamber: Gain 6 '''Defense'''
-|upgrade2 = Rival's Chamber: gain 3 '''Combo'''
-|character = Sal}}
-{{Quote|Murder Bay Boxing has come a long way. You could almost say the fighters actually know what they are doing.}}
-
-'''Chamber''' is a 1-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "Gain 4 '''Defense'''. At the start of your next turn gain 2 '''Combo'''.
+|upgrade1 = Stone Chamber
+|upgrade1summary = Gain 6 [[Defense]]
+|upgrade2 = Rival's Chamber
+|upgrade2summary = Gain 3 [[Combo]]
+}}

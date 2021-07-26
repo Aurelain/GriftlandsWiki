@@ -10,4 +10,5 @@
 |parent = Mud Tosser
 |mindamage = 2
 |maxdamage = 2
+|generator = Promoted Fight Dirty
 }}

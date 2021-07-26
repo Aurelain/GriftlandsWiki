@@ -1,4 +1,9 @@
-{{Card
+{{Reupload| The image for Visionary Deflection is called Visionary Reflection}}
+
+{{CardPage
+|quote = I'm not even going to address that.
+|description = Apply 3 [[Composure]]
+|cost = 1
 |character = Sal
 |rarity = Basic
 |decktype = Negotiation
@@ -6,28 +11,13 @@
 |upgradeable = Yes
 |expreq = 6
 |upgrade1 = Boosted Deflection
-|upgrade2 = Visionary Deflection
-|upgrade3 = Wide Deflection
-|upgrade4 = Deflection of Clarity
-|upgrade5 = Lucid Deflection}}
-{{Quote|I'm not even going to address that.}}
-'''Deflection''' is a basic manipulate card for [[Sal]], it costs 1 action and has the effect: "Apply 3 [[Composure]]".
-
-==Upgrades==
-Like every basic card, Deflection has more than two upgrades, from which it randomly picks 2 you can decide from.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Deflection.png|150px]]
-|[[File:Visionary Reflection.png|150px]]
-|[[File:Wide Deflection.png|150px]]
-|[[File:Deflection of Clarity.png|150px]]
-|-
-!Apply 4 [[Composure]]
-!Draw a card
-!Apply 4 [[Composure]] to all your arguments; [[Expend]]
-!Restore 5 resolve and apply 5 [[Composure]]; [[Destroy]]
-|-
-|[[File:Lucid Deflection.png|150px]]
-|-
-!Apply 6 [[Composure]]; [[Expend]]
-|}
+|upgrade1summary = Apply 4 [[Composure]]
+|upgrade2 = Deflection of Clarity
+|upgrade2summary = Restore 5 resolve and apply 5 [[Composure]]. </br> [[Destroy]]
+|upgrade3 = Lucid Deflection
+|upgrade3summary = Apply 6 [[Composure]]. </br> [[Expend]]
+|upgrade4 = Visionary Deflection
+|upgrade4summary = Draw a card
+|upgrade5 = Wide Deflection
+|upgrade5summary = Apply 4 [[Composure]] to all your arguments. </br> [[Expend]]
+}}

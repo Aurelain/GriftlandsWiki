@@ -1,4 +1,7 @@
-{{Card
+{{CardPage
+|quote = Alright, make some room.
+|description = Draw 1 card. Choose a card from your hand to place on top of your draw pile.
+|cost = 0
 |character = Sal
 |rarity = Rare
 |decktype = Negotiation
@@ -7,19 +10,7 @@
 |upgradeable = Yes
 |expreq = 10
 |upgrade1 = Boosted Planning
-|upgrade2 = Improvised Planning}}
-
-{{Quote|Alright, make some room.}}
-
-'''Planning''' is a 0-cost Rare '''Manipulate''' card for [[Sal]]. It has the effect: "Draw 1 card. Choose a card from your hand to place on top of your draw pile."
-
-==Upgrades==
-After accruing 10 experience '''Planning''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Boosted Planning.png|150px]]
-|[[File: Improvised Planning.png|150px]]
-|-
-!Draw 2 cards
-![[Improvise]] 1 card from your draw pile
-|}
+|upgrade1summary = Draw 2 cards
+|upgrade2 = Improvised Planning
+|upgrade2summary = [[Improvise]] 1 card from your draw pile
+}}

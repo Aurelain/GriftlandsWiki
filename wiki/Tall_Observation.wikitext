@@ -8,4 +8,5 @@
 |cardtype = Diplomacy
 |keywords = [[Expend]]
 |parent = Observation
+|generator = Promoted Thinking
 }}

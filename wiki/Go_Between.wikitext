@@ -1,6 +1,8 @@
+{{Reupload}}
+
 {{CardPage
 |quote = Come on, you’re my guy! It’ll be worth it!
-|description = Gain: Damage spills over to this argument before your core argument.<br/>Expend
+|description = Gain: Damage spills over to this argument before your core argument.<br/> [[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Common
@@ -9,7 +11,9 @@
 |keywords = [[Expend]]
 |expreq = 7
 |upgrade1 = Enduring Go Between
-|upgrade1summary = 
+|upgrade1summary = Remove [[Expend]]
 |upgrade2 = Pale Go Between
-|upgrade2summary = 
+|upgrade2summary = cost 1 action less
 }}
+==Notes==
+'''Go Between''' is an argument with 4 resolve. The argument gains 2 bonus resolve per additional stack.

@@ -1,1 +1,9 @@
+'''Panic''' is a Battle [[Key Words|key word]].
+
+==Effect==
+In game description: "You can choose to win battle if all enemies '''Panic'''. A fighter with '''Panic''' cannot act, and reduces their '''Panic''' by 1 at the end of their turn".
+
+==Notes==
 Panic is a concept for {{battle}} encounters. When a character's health is brought below the amount of their panic meter, the character enters panic. Within panic, a character will not take any actions for a few turns. If all enemy characters are in panic, they will try to surrender.
+
+[[Category:Keywords]]

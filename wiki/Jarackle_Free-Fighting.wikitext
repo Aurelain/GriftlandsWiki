@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = This jewelry isn't just for looks you know.
+|description = [[Ability]]: While you have at least 4 [[Combo]], gain 2 [[Power]]. </br> [[Expend]]
+|cost = 2
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
-|keywords = [[Ability]]. [[Combo]], [[Power]], [[Expend]]
+|keywords = [[Ability]], [[Combo]], [[Power]], [[Expend]]
 |upgradeable = Yes
 |expreq = 5
 |upgrade1 = Evasive Free-Fighting
-|upgrade2 = Boosted Free-Fighting}}
-{{Quote|This jewelry isn't just for looks you know.}}
-
-'''Jarackle Free-Fighting''' is a 2-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "'''Ability''': While you have at least 4 '''Combo''', gain 2 '''Power'''. '''Expend'''"
-
-==Upgrades==
-After accruing 5 experience '''Jarackle Free-Fighting''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Evasive Free-Fighting.png|150px]]
-|[[File:Boosted Free-Fighting.png|150px]]
-|-
-!Gain 1 '''Evasion'''.
-!Increased '''Power''' gain.
-|}
+|upgrade1summary = Gain 1 [[Evasion]]
+|upgrade2 = Boosted Free-Fighting
+|upgrade2summary = Gain 3 [[Power]]
+}}

@@ -10,4 +10,5 @@
 |expreq = 0
 |upgrade1 = Boosted Trip
 |upgrade1summary = 
+|generator = Fight Dirty, Boosted Fight Dirty
 }}

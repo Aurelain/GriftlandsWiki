@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = Blades forged on the Derricks had considerably more heft to them on the mainland.
+|description = If this card was [[Improvise|Improvised]] this turn, attack three times. </br> Apply 2 [[Bleed]] per attack.
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = [[Bleed]], [[Improvise]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Blademouth Beating
-|upgrade2 = Savage Blademouth Beating}}
-{{Quote|Blades forged on the Derricks had considerably more heft to them on the mainland.}}
-
-'''Blademouth Beating''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It deals 1-2 base damage. It has the effect "If this card was '''Improvised''' this turn, attack three times. Apply 2 '''Bleed''' per attack.".
-
-==Upgrades==
-After accruing 9 experience '''Blademouth Beating''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Blademouth Beating.png|150px]]
-|[[File:Savage Blademouth Beating.png|150px]]
-|-
-!3 damage.
-!3 [[Bleed]].
-|}
+|upgrade1summary = Deal 3 base damage
+|upgrade2 = Savage Blademouth Beating
+|upgrade2summary = 3 [[Bleed]]
+}}

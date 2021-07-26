@@ -1,36 +1,17 @@
-{{Card
+{{CardPage
+|quote = Consistency is just going to get you dead. If something is not working, it's time to try the opposite
+|description = Insert [[Inspiration]] or [[Attitude]] into your hand.
+|cost = 1
 |character = Sal
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Manipulate
 |upgradeable = Yes
 |expreq = 8
-|upgrade1 = Hostile Instincts: Insert [[Obtuse]], [[Mean]] or [[Inspiration]] into your hand.
-|upgrade2 = Diplomatic Instincts: Insert [[Flatter]], [[Compliment]] or [[Attitude]] into your hand.}}
-{{Quote|Consistency is just going to get you dead. If something is not working, it's time to try the opposite}}
-
-'''Sal's Instincts''' is a 1-cost Basic '''Manipulate''' card for [[Sal]]. It inserts either [[Inspiration]] or [[Attitude]] into your hand. As a base card '''Sal's Instincts''' is always part of the available card pool for [[Sal]].
-
-==Upgrades==
-After accruing 8 experience '''Sal's Instincts''' is able to be upgraded.
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Effect
-|-
-|Hostile Instincts
-|1
-|Insert [[Obtuse]], [[Mean]] or [[Inspiration]] into your hand.
-|-
-|Diplomatic Instincts
-|1
-|Insert [[Flatter]], [[Compliment]] or [[Attitude]] into your hand.
-|}
-
-* [[Obtuse]]: 0-cost;  2 damage; Gain 2 '''Dominance'''; '''Expend'''
-* [[Mean]]: 0-cost;  4 damage;  '''Expend'''
-* [[Inspiration]]: 0-cost; 2 damage; Gain 2 '''Influence'''; '''Expend'''
-* [[Flatter]]: 0-cost; 3 damage; Spend 1 '''Influence''': Deal 2 bonus damage and hits all opponent arguments; '''Expend'''
-* [[Compliment]]: 0-cost; Gain 2 '''Influence''', then deal damage equal to half your '''Influence''' to a random opponent argument; '''Expend'''
-* [[Attitude]]: 0-cost; 2 damage; gain 1 '''Dominance'''; '''Expend'''
+|upgrade1 = Hostile Instincts
+|upgrade1summary = Insert [[Obtuse]], [[Mean]] or [[Inspiration]] into your hand.
+|upgrade2 = Diplomatic Instincts
+|upgrade2summary = Insert [[Flatter]], [[Compliment]] or [[Attitude]] into your hand.
+|special1 = Inspiration
+|special2 = Attitude
+}}

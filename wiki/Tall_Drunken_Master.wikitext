@@ -9,4 +9,5 @@
 |parent = Drunken Master
 |mindamage = 2
 |maxdamage = 14
+|special1 = Tipsy
 }}

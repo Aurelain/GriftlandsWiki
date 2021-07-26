@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = Yeah it was Kleeta's move back on the derrick, I just make it look better.
+|description = Whenever you [[Improvise]] while this card is in your hand, reduce its cost by 1 for the rest of this battle.
+|cost = 4
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = [[Improvise]]
 |upgradeable = Yes
 |expreq = 3
 |upgrade1 = Rooted Crusher
-|upgrade2 = Pale Crusher}}
-{{Quote|Yeah it was Kleeta's move back on the derrick, I just make it look better.}}
-
-'''Crusher''' is a 4-cost Uncommon '''Attack''' card for [[Sal]]. It deals 6-10 base damage. It has the effect "Whenever you '''Improvise''' while this card is in your hand, reduce its cost by 1 for the rest of this battle."
-
-==Upgrades==
-After accruing 3 experience '''Crusher''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Rooted Crusher.png|150px]]
-|[[File:Pale Crusher.png|150px]]
-|-
-!Increased minimum damage.
-!Reduces card cost.
-|}
+|upgrade1summary = Deal 10 base damage
+|upgrade2 = Pale Crusher
+|upgrade2summary = Cost 1 action less
+}}

@@ -1,23 +1,16 @@
-{{Card
+{{CardPage
+|quote = Some individuals have been shown to exhibit strange abilities, I wouldn't exactly call them lucky or anything.
+|description = If you have discarded a card this turn, this card costs 0.
+|cost = 1
+|character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = 
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Feedback
-|upgrade2 = Pale Feedback}}
-{{Quote|Some individuals have been shown to exhibit strange abilities, I wouldn't exactly call them lucky or anything.}}
-'''Psionic Feedback''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It deals 3-5 damage and says "If you have discarded a card this turn, this card costs 0."
-
-==Upgrades==
-At 7 experience, '''Psionic Feedback''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Feedback.png|150px]]
-|[[File:Pale Feedback.png|150px]]
-|-
-!Deals 5-7 damage
-!Costs 1 action
-|}
+|upgrade1summary = Deals 5-7 base damage
+|upgrade2 = Pale Feedback
+|upgrade2summary = Costs 1 action less
+}}

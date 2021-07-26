@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = Shroke combat scarring has become its own fashion statement in Havaria.
+|description = Discard your hand. </br> Gain 2 [[Defense]] and 2 [[Counter]] for each card discarded. </br> [[Expend]]
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |cardtype = Maneuver
 |decktype = Battle
-|character = Sal
 |keywords = [[Defense]], [[Counter]], [[Expend]]
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Stone Scars
-|upgrade2 = Enduring Scars}}
-{{Quote|Shroke combat scarring has become its own fashion statement in Havaria.}}
-
-'''Battle Scars''' is a 1-cost Uncommon '''Maneuver''' card for [[Sal]]. The player discards his hand and gains 2 Defense and 2 Counter for each card discarded. This card is '''Expended'''.
-
-==Upgrades==
-After gaining 7 experience this card can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Stone Scars.png|150px]]
-|[[File:Enduring Scars.png|150px]]
-|-
-!3 [[Counter]]
-!No longer [[Expend]]
-|}
+|upgrade1summary = 3 [[Counter]]
+|upgrade2 = Enduring Scars
+|upgrade2summary = Remove [[Expend]]
+}}

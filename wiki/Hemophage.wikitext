@@ -1,22 +1,16 @@
-{{Card
+{{CardPage
+|quote = Some of it got in my mouth and I'm not gonna lie; I could get used to it.
+|description = [[Ability]]: Whenever you apply [[Bleed]], [[Heal]] 1. </br> [[Expend]]
+|cost = 2
+|character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Ability]], [[Bleed]], [[Heal]], [[Expend]]
 |upgradeable = Yes
 |expreq = 5
 |upgrade1 = Initial Hemophage
-|upgrade2 = BoostedHemophage}}
-{{Quote|Some of it got in my mouth and I'm not gonna lie; I could get used to it.}}
-
-==Upgrades==
-At 5 experience, '''Hemophage''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Initial Hemophage.png|150px]]
-|[[File:Boosted Hemophage.png|150px]]
-|-
-!Gains [[Ambush]]
-![[Heal]] 2 instead
-|}
+|upgrade1summary = [[Ambush]]
+|upgrade2 = Boosted Hemophage
+|upgrade2summary = [[Heal]] 2 instead
+}}

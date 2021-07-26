@@ -8,4 +8,5 @@
 |cardtype = Attack
 |keywords = [[Expend]]
 |parent = Trip
+|generator = Promoted Fight Dirty
 }}

@@ -8,4 +8,5 @@
 |cardtype = Maneuver
 |keywords = [[Expend]]
 |parent = Enrage
+|generator = Promoted Fight Dirty
 }}

@@ -8,4 +8,5 @@
 |cardtype = Manipulate
 |keywords = [[Expend]]
 |parent = Withdrawn
+|generator = Promoted Thinking
 }}

@@ -8,4 +8,12 @@
 |cardtype = Maneuver
 |keywords = [[Improvise]]
 |parent = Fight Dirty
+|special1 = Pale Enrage
+|special2 = Boosted Hide
+|special3 = Boosted Mud Tosser
+|special4 = Boosted Scrapper
+|special5 = Boosted Scrounge
+|special6 = Boosted Slash
+|special7 = Boosted Throw Dust
+|special8 = Boosted Trip
 }}

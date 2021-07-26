@@ -1,2 +1,9 @@
-<br />
-[[File:Power.gif|alt=|thumb|263x263px|Gain 1 damage per stack]]
+'''Power''' is a Battle [[Key Words|key word]].
+
+==Effect==
+In game description: "Attack damage is increased by '''X'''".
+
+Where '''X''' is the amount of stacks of '''Power'''.
+[[File:Power.gif|alt=|thumb|263x263px|Power]]
+
+[[Category:Keywords]]

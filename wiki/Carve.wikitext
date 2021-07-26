@@ -1,32 +1,18 @@
+{{reupload}}
 
-
-{{Card Infobox|cardtype=Attack|decktype=Battle|name=Carve|set=Uncommon|expreq=7|upgrade1=Tall Carve: Spend up to 3 '''Combo''': Apply 1 '''Wound''' per '''Combo''' spent.|upgrade2=Boosted Carve: 4-6 damage||image=Carve.png|cost=1}}
-
-''Look, I'm not a doctor, but there's no way they're going to make it.''
-
-'''Carve''' is a 1-cost Uncommon '''Attack''' card for [[Sal]]. It deals 3-4 base damage. It has the effect "Spend up to 2 '''Combo''': Apply 1 '''Wound''' per '''Combo''' spent.".
-
-== Upgrades ==
-After accruing 7 experience '''Carve''' is able to be upgraded.
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Damage
-!Effect
-|-
-|'''Tall Carve'''
-|1
-|3-4
-|Spend up to 3 '''Combo''': Apply 1 '''Wound''' per '''Combo''' spent.
-|-
-|'''Boosted Carve'''
-|1
-|4-6
-|Spend up to 2 '''Combo''': Apply 1 '''Wound''' per '''Combo''' spent.
-|}
-<br />[[Category:All cards]]
-[[Category:Battle cards]]
-[[Category:Sal cards]]
-[[Category:Attack cards]]
-[[Category:Uncommon cards]]
+{{CardPage
+|quote = Look, I'm not a doctor, but there's no way they're going to make it.
+|description = Spend up to 2 [[Combo]]: Apply 1 [[Wound]] per [[Combo]] spent. </br> [[Finisher]]
+|cost = 1
+|character = Sal
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Combo]], [[Finisher]], [[Wound]]
+|upgradeable = Yes
+|expreq = 7
+|upgrade1 = Tall Carve
+|upgrade1summary = Spend up to 3 [[Combo]]
+|upgrade2 = Boosted Carve
+|upgrade2summary = Deal 4-6 base damage
+}}

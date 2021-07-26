@@ -10,4 +10,5 @@
 |expreq = 0
 |upgrade1 = Boosted Throw Dust
 |upgrade1summary = 
+|generator = Fight Dirty, Boosted Fight Dirty
 }}

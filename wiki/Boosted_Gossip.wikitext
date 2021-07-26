@@ -8,4 +8,5 @@
 |cardtype = Manipulate
 |keywords = [[Bait]], [[Expend]]
 |parent = Gossip
+|generator = Promoted Thinking
 }}

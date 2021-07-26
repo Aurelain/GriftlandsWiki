@@ -1,24 +1,17 @@
-{{Card
+{{CardPage
+|quote = Where do they keep coming from!?
+|description = Insert 2 [[Blade Flash]] cards into your draw pile.
+|cost = 2
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = 
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Dagger Storm
-|upgrade2 = Pale Dagger Storm}}
-{{Quote|Where do they keep coming from!?}}
-
-'''Dagger Storm''' is a 2-cost Uncommon '''Maneuver''' card for [[Sal]]. It has the effect "Insert 2 '''[[Blade Flash]]''' cards into your draw pile."
-
-==Upgrades==
-After accruing 7 experience '''Dagger Storm''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Dagger Storm.png|150px]]
-|[[File:Pale Dagger Storm.png|150px]]
-|-
-!Adds 3 Blade Flash cards.
-!Reduced card cost.
-|}
+|upgrade1summary = Adds 3 [[Blade Flash]] cards
+|upgrade2 = Pale Dagger Storm
+|upgrade2summary = Cost 1 action less
+|special1 = Blade Flash
+}}
