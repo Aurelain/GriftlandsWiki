@@ -8,13 +8,13 @@ const assert = require('assert');
  * The ones mentioned here will be ignored.
  */
 const COLLISION_ART = {
-    backfire: true,
-    barrage: false,
-    erupt: false,
-    reversal: true,
-    size_up: true,
-    spin: false,
-    switch_blade: true,
+    backfire: 'battle', // Rook
+    barrage: 'negotiation', // Smith
+    erupt: 'negotiation', // Sal
+    reversal: 'battle', // Sal
+    size_up: 'battle', // Sal
+    spin: 'negotiation', // Rook
+    switch_blade: 'battle', // Sal
 };
 
 // =====================================================================================================================
@@ -42,9 +42,12 @@ const getArtIds = (assetsZip) => {
                     // This is the sprite-sheet.
                     continue;
                 }
-                if (id in COLLISION_ART && COLLISION_ART[id] === isBattle) {
-                    // Useless art
-                    continue;
+                if (id in COLLISION_ART) {
+                    const deckType = COLLISION_ART[id];
+                    if ((deckType === 'battle' && !isBattle) || (deckType === 'negotiation' && isBattle)) {
+                        // Useless art
+                        continue;
+                    }
                 }
                 assert(bag[id] === undefined, `"${id}" already appears in the art list!`);
                 bag[id] = isBattle;

@@ -47,6 +47,7 @@ const getKeywords = (zip) => {
     output['SNAILS'].name = 'Snails'; // was "<p img='icons/ic_coin_snails.tex' scale=1.0>"
     output['HEADS'].name = 'Heads'; // was "<p img='icons/ic_coin_heads.tex' scale=1.0>",
     output['HEADS_AND_SNAILS'].name = 'Heads and Snails'; // was "Heads <...> and Snails <...>"
+    output['HATCH'] = {...output['HATCH_X'], name: 'Hatch'}; // because "HATCH" is the keyword, not "HATCH_X"
 
     return output;
 };

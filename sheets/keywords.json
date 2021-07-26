@@ -905,6 +905,11 @@
         "Your next attack deals 8 bonus damage."
     ],
     [
+        "Hatch",
+        "HATCH_X",
+        "When this card's effect is triggered the specified number of times, it is destroyed and a special event occurs. The hatch counter is not changed while fatigued."
+    ],
+    [
         "Heads",
         "HEADS",
         null

@@ -21,33 +21,6 @@ const RARITIES = {
 };
 
 /**
- *  data_scripts/scripts/battle/battle_defs.lua
- *  or
- *  data_scripts/scripts/negotiation/negotiation_defs.lua
- *  TODO: use the keywords from getKeywords
- */
-const KEYWORDS = {
-    'CARD_FLAGS.UNPLAYABLE': 'Unplayable',
-    'CARD_FLAGS.EXPEND': 'Expend',
-    'CARD_FLAGS.MULTISHOT': 'Multishot',
-    'CARD_FLAGS.AMBUSH': 'Ambush',
-    'CARD_FLAGS.CONSUME': 'Destroy',
-    'CARD_FLAGS.PIERCING': 'Piercing',
-    'CARD_FLAGS.PARASITE': 'Parasite',
-    'CARD_FLAGS.FLOURISH': 'Flourish',
-    'CARD_FLAGS.STICKY': 'Sticky',
-    'CARD_FLAGS.TOOLBOX': 'Toolbox',
-    'CARD_FLAGS.BURNOUT': 'Burnout',
-    'CARD_FLAGS.RESTRAINED': 'Restrained',
-    'CARD_FLAGS.SCORE': 'Score',
-    'CARD_FLAGS.GALVANIZED': 'Galvanized',
-    'CARD_FLAGS.SLIMY': 'Slimy',
-    'CARD_FLAGS.SLEEP_IT_OFF': 'Sleep It Off',
-    'CARD_FLAGS.COMBO_FINISHER': 'Finisher',
-    'CARD_FLAGS.DUD': 'Dud',
-};
-
-/**
  * The following card ids are skipped, even though they have artwork.
  * They're never displayed as cards to the user (?).
  */
@@ -68,7 +41,7 @@ const DENIED = {
 const getCards = (zip, keywords, artIds) => {
     const lowercaseKeywordIds = {};
     for (const keyword in keywords) {
-        lowercaseKeywordIds[keyword.toLowerCase()] = true;
+        lowercaseKeywordIds[keyword.toLowerCase()] = keywords[keyword];
     }
     const entries = zip.getEntries();
     const bag = {};
@@ -82,7 +55,7 @@ const getCards = (zip, keywords, artIds) => {
     fillUpgrades(bag);
     eliminateCollisions(bag, keywords);
     cleanDescriptions(bag, keywords); // must come after upgrades, because it uses the concatenated enclosures
-    addKeywords(bag, keywords);
+    addKeywords(bag, keywords, zip);
     fixCosts(bag);
     console.log('getCards', tally(bag));
     return bag;
@@ -108,18 +81,18 @@ const collectCardsFromLua = (luaContent, lowercaseKeywordIds, artIds, bag) => {
         if (id in DENIED) {
             continue;
         }
-        // if (id !== 'silent_shiv') {
+        // if (id !== 'aerostat_coilgun') {
         //     continue;
         // }
-        const art = getArtId(enclosure, id, artIds);
-        if (!art) {
+        const {artId, deckType} = getArtIdAndDeckType(enclosure, id, artIds) || {};
+        if (!artId) {
             continue;
         }
         if (id in lowercaseKeywordIds && !isActualCard(id, enclosure)) {
             continue;
         }
-        const rarity = (enclosure.match(/\s*rarity\s*=\s*(\w+\.\w+)/) || [])[1];
-        const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
+        const rarity = (enclosure.match(/\s+rarity\s*=\s*(\w+\.\w+)/) || [])[1];
+        const flags = (enclosure.match(/\s+flags\s*=\s*([^,\r\n]+)/) || [])[1];
         const name = captureText(enclosure, 'name');
 
         let desc = captureText(enclosure, 'desc');
@@ -131,12 +104,12 @@ const collectCardsFromLua = (luaContent, lowercaseKeywordIds, artIds, bag) => {
         bag[id] = removeUndefined({
             name,
             id,
-            art,
+            art: artId,
             desc,
             character: undefined, // TODO
-            deckType: artIds[art] ? 'Battle' : 'Negotiation',
+            deckType,
             cardType: parseCardType(flags),
-            keywords: parseKeywords(flags, desc),
+            keywords: flags, // handled furthermore in `addKeywords()`
             flavour: cleanFlavour(captureText(enclosure, 'flavour')),
             rarity: RARITIES[rarity],
             parent: undefined,
@@ -210,7 +183,7 @@ const parseCardType = (flags) => {
 /**
  *
  */
-const getArtId = (enclosure, id, artIds) => {
+const getArtIdAndDeckType = (enclosure, id, artIds) => {
     const icon = captureText(enclosure, 'icon');
     if (icon) {
         // Happens rarely, when a card overrides the expected art id, e.g. "xxx".
@@ -227,29 +200,18 @@ const getArtId = (enclosure, id, artIds) => {
             // console.log(`${id}: Unexpected icon path "${icon}"!`);
             return;
         }
-        const artId = fileName.split('.')[0];
-        assert(artIds[artId] === isBattle, `${id}: Unexpected icon value "${icon}!"`);
-        return artId;
+        return {
+            artId: fileName.split('.')[0],
+            deckType: isBattle ? 'Battle' : 'Negotiation',
+        };
     }
     const expectedArtId = getParentId(id) || id;
-    return expectedArtId in artIds ? expectedArtId : undefined;
-};
-
-/**
- *
- */
-const parseKeywords = (flags) => {
-    if (!flags) {
-        return;
+    if (expectedArtId in artIds) {
+        return {
+            artId: expectedArtId,
+            deckType: artIds[expectedArtId] ? 'Battle' : 'Negotiation',
+        };
     }
-    const keywords = {};
-    for (const keyword in KEYWORDS) {
-        if (flags.includes(keyword)) {
-            keywords[KEYWORDS[keyword]] = true;
-        }
-    }
-
-    return tally(keywords) ? Object.keys(keywords).sort().join(',') : undefined;
 };
 
 /**
