@@ -18,6 +18,7 @@ const updateCards = (cardsBag) => {
     let count = 0;
     for (const id in cardsBag) {
         const card = cardsBag[id];
+        console.log('card:', card);
         const filePath = STORAGE + '/' + getFilePath(card.name, '');
         if (!fs.existsSync(filePath)) continue;
         console.log('filePath:', filePath);
@@ -26,7 +27,7 @@ const updateCards = (cardsBag) => {
         const futureCard = {...card, ...existingCard};
         const futureCardWikitext = generateCardWikitext(futureCard);
         const futureWikitext = generateWikitext(existingWikitext, futureCardWikitext);
-        // console.log('futureWikitext:', futureWikitext);
+        console.log('futureWikitext:', futureWikitext);
         // process.exit();
         fs.writeFileSync(filePath, futureWikitext);
         count++;
@@ -100,6 +101,7 @@ const generateCardWikitext = (card) => {
         maxDamage,
         summaries,
     } = card;
+
     let draft = '{{CardPage\n';
     if (flavour) {
         draft += `|quote = ${flavour}\n`;
@@ -168,6 +170,8 @@ const generateWikitext = (existingWikitext, futureCardWikitext) => {
             draft = futureCardWikitext;
         }
     }
+
+    draft = draft.replace(/^\s+{{Card/, '{{Card');
 
     return draft;
 };

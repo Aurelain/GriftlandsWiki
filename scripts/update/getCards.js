@@ -6,6 +6,7 @@ const parseDescriptionFormat = require('./cardHelpers/parseDescriptionFormat.js'
 const cleanDescriptions = require('./cardHelpers/cleanDescriptions.js');
 const isActualCard = require('./cardHelpers/isActualCard');
 const eliminateCollisions = require('./cardHelpers/eliminateCollisions');
+const addKeywords = require('./cardHelpers/addKeywords');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -81,6 +82,7 @@ const getCards = (zip, keywords, artIds) => {
     fillUpgrades(bag);
     eliminateCollisions(bag, keywords);
     cleanDescriptions(bag, keywords); // must come after upgrades, because it uses the concatenated enclosures
+    addKeywords(bag, keywords);
     fixCosts(bag);
     console.log('getCards', tally(bag));
     return bag;
@@ -106,6 +108,9 @@ const collectCardsFromLua = (luaContent, lowercaseKeywordIds, artIds, bag) => {
         if (id in DENIED) {
             continue;
         }
+        // if (id !== 'silent_shiv') {
+        //     continue;
+        // }
         const art = getArtId(enclosure, id, artIds);
         if (!art) {
             continue;
@@ -129,7 +134,7 @@ const collectCardsFromLua = (luaContent, lowercaseKeywordIds, artIds, bag) => {
             art,
             desc,
             character: undefined, // TODO
-            deckType: artIds[art] ? 'battle' : 'negotiation',
+            deckType: artIds[art] ? 'Battle' : 'Negotiation',
             cardType: parseCardType(flags),
             keywords: parseKeywords(flags, desc),
             flavour: cleanFlavour(captureText(enclosure, 'flavour')),
