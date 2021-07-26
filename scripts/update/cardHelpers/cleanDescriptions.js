@@ -8,7 +8,6 @@ const DESCRIPTION_FIXES = {
     '<b>Thresholds</>': '[[Threshold|Thresholds]]',
     '<b>Expended</>': '[[Expend|Expended]]',
 };
-let problems = 0;
 
 // =====================================================================================================================
 //  P U B L I C
@@ -23,7 +22,6 @@ const cleanDescriptions = (bag, keywords) => {
             bag[id].desc = clean;
         }
     }
-    console.log('problems:', problems);
 };
 
 // =====================================================================================================================
@@ -42,6 +40,7 @@ const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) =>
     // "A Hot Tip" and others have a description like: "Gain {1#money}..."
     // "Legacy Blade" and others have a description like: "Gain {1#points}..."
     draft = draft.replace(/{(\d)#\w+}/g, '{$1}');
+    // TODO use shills
 
     draft = replaceNumbers(draft, descParams, enclosure, name);
 
@@ -86,8 +85,9 @@ const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) =>
         // console.log('old:', desc);
         // console.log('new:', draft);
         console.log(`${name}: ${draft}, ${descParams}`);
-        problems++;
     }
+
+    draft = draft.split('\n').join('<br />');
 
     return draft;
 };

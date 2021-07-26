@@ -36,11 +36,8 @@ const update = async () => {
 
         const cards = getCards(scriptsZip, keywords, artIds);
         await writeCardsSheet(cards);
-        // const importedCards = importCards(zip);
-        // compareCards(cards, importedCards);
 
-        // const finalCards = mergeCards(cards, importedCards);
-        // updateCards(finalCards);
+        updateCards(cards);
 
         // await writeCardsSheet(importedCards, 'importedCards');
 

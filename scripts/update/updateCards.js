@@ -1,15 +1,12 @@
 const assert = require('assert');
 const fs = require('fs');
 const getFilePath = require('../utils/getFilePath');
+const tally = require('../utils/tally');
 const {STORAGE} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-const CONFLICTED_NAMES = {
-    Burn: 'Burn_(card)',
-    Resonance: 'Resonance_(card)',
-};
 
 // =====================================================================================================================
 //  P U B L I C
@@ -17,13 +14,24 @@ const CONFLICTED_NAMES = {
 /**
  *
  */
-const updateCards = (bag) => {
-    for (const id in bag) {
-        const card = bag[id];
-        const fileName = getFilePath(card.name, '');
-        if (!fs.existsSync(STORAGE + '/' + fileName)) {
-            const wikitext = generateWikitext(card);
-            fs.writeFileSync(STORAGE + '/' + fileName, wikitext);
+const updateCards = (cardsBag) => {
+    let count = 0;
+    for (const id in cardsBag) {
+        const card = cardsBag[id];
+        const filePath = STORAGE + '/' + getFilePath(card.name, '');
+        if (!fs.existsSync(filePath)) continue;
+        console.log('filePath:', filePath);
+        const existingWikitext = (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8')) || '';
+        const existingCard = parseCardFromWikitext(existingWikitext);
+        const futureCard = {...card, ...existingCard};
+        const futureCardWikitext = generateCardWikitext(futureCard);
+        const futureWikitext = generateWikitext(existingWikitext, futureCardWikitext);
+        // console.log('futureWikitext:', futureWikitext);
+        // process.exit();
+        fs.writeFileSync(filePath, futureWikitext);
+        count++;
+        if (count >= 10) {
+            break;
         }
     }
 };
@@ -34,7 +42,47 @@ const updateCards = (bag) => {
 /**
  *
  */
-const generateWikitext = (card) => {
+const parseCardFromWikitext = (wikitext) => {
+    const card = {};
+    const upgrades = [];
+    const summaries = {};
+    const fieldsFound = wikitext.matchAll(/\|\s*(\w+)\s*=\s*([^}|]*)/g);
+    for (const [, fieldName, fieldValue] of fieldsFound) {
+        const value = fieldValue.trim();
+
+        const upgradeNumber = (fieldName.match(/^upgrade(\d+)$/) || [])[1];
+        if (upgradeNumber) {
+            upgrades[upgradeNumber] = value;
+            continue;
+        }
+
+        const upgradeSummaryNumber = (fieldName.match(/^upgrade(\d+)summary$/) || [])[1];
+        if (upgradeSummaryNumber) {
+            const upgradeName = upgrades[upgradeSummaryNumber];
+            assert(upgradeName, 'Expecting upgrade name!');
+            if (value) {
+                summaries[upgradeName] = value;
+            }
+            continue;
+        }
+
+        // TODO remove these when we have them in getCards.
+        if (fieldName === 'character') {
+            card.character = value;
+        } else if (fieldName === 'cardtype') {
+            card.cardType = value;
+        }
+    }
+    if (tally(summaries)) {
+        card.summaries = summaries;
+    }
+    return card;
+};
+
+/**
+ *
+ */
+const generateCardWikitext = (card) => {
     const {
         flavour,
         desc,
@@ -50,6 +98,7 @@ const generateWikitext = (card) => {
         parent,
         minDamage,
         maxDamage,
+        summaries,
     } = card;
     let draft = '{{CardPage\n';
     if (flavour) {
@@ -58,9 +107,6 @@ const generateWikitext = (card) => {
     if (desc) {
         draft += `|description = ${desc.replace(/[\r\n]+/g, '<br/>')}\n`;
     }
-    // if (CONFLICTED_NAMES[name]) {
-    //     draft += `|image = \n`;
-    // }
     if (cost !== undefined) {
         draft += `|cost = ${cost}\n`;
     }
@@ -85,8 +131,10 @@ const generateWikitext = (card) => {
     if (upgrades) {
         const list = upgrades.split(',');
         for (let i = 0; i < list.length; i++) {
-            draft += `|upgrade${i + 1} = ${list[i]}\n`;
-            draft += `|upgrade${i + 1}summary = \n`;
+            const upgradeName = list[i];
+            assert(!summaries || summaries[upgradeName], `${name}: Expecting a summary value for "${upgradeName}"!`);
+            draft += `|upgrade${i + 1} = ${upgradeName}\n`;
+            draft += `|upgrade${i + 1}summary = ${summaries[upgradeName]}\n`;
         }
     }
     if (parent) {
@@ -99,6 +147,28 @@ const generateWikitext = (card) => {
         draft += `|maxdamage = ${maxDamage}\n`;
     }
     draft += '}}';
+    return draft;
+};
+
+/**
+ *
+ */
+const generateWikitext = (existingWikitext, futureCardWikitext) => {
+    let draft = existingWikitext;
+
+    draft = draft.replace(/{{stub}}/i, '');
+
+    if (draft.includes('{{Card')) {
+        draft = draft.replace(/{{Card[\s\S]*?}}/, futureCardWikitext);
+    } else {
+        draft = draft.trimStart();
+        if (draft) {
+            draft = futureCardWikitext + '\n' + draft;
+        } else {
+            draft = futureCardWikitext;
+        }
+    }
+
     return draft;
 };
 
