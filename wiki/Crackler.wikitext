@@ -1,12 +1,12 @@
 {{CardPage
 |quote = You might want to close your eyes when you pull the trigger.
-|description = Deal 6-12 base damage. </br> Increases target [[Panic]] meter by damage done. </br> [[Destroy]] after 1 use.
+|description = Increases the target's [[Panic]] meter by damage done.<br/>[[Destroy]] after 1 use.
 |cost = 1
+|character = Other
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Item
-|character = Other
 |keywords = [[Panic]], [[Destroy]]
-|upgradeable = No
-|expreq = 
+|mindamage = 6
+|maxdamage = 12
 }}

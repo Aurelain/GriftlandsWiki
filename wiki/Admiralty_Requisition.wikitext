@@ -1,12 +1,10 @@
 {{CardPage
 |quote = Hey I'm just the messenger.
-|description = Draw 3 cards. </br> [[Destroy]] after 1 use.
+|description = Draw 3 cards.<br/>[[Destroy]] after 1 use.
 |cost = 0
-|rarity = Uncommon
-|decktype = Negotiation
-|cardtype = Item
 |character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
 |keywords = [[Destroy]]
-|upgradeable = No
-|expreq = 
 }}
