@@ -44,6 +44,15 @@ const KEYWORDS = {
     'CARD_FLAGS.DUD': 'Dud',
 };
 
+/**
+ * The following card ids are skipped, even though they have artwork.
+ * They're never displayed as cards to the user (?).
+ */
+const DENIED = {
+    choose_diplomacy: true,
+    choose_hostile: true,
+};
+
 // =====================================================================================================================
 //  P U B L I C
 // =====================================================================================================================
@@ -68,7 +77,7 @@ const getCards = (zip, keywords, artIds) => {
         }
     }
     fillUpgrades(bag);
-    checkDuplicateNames(bag);
+    checkDuplicateNames(bag, keywords);
     cleanDescriptions(bag, keywords); // must come after upgrades, because it uses the concatenated enclosures
     fixCosts(bag);
     console.log('getCards', tally(bag));
@@ -92,22 +101,21 @@ const collectCardsFromLua = (luaContent, lowercaseKeywordIds, artIds, bag) => {
     for (const nameMatch of nameMatches) {
         let enclosure = findEnclosure(draft, nameMatch.index, '{', '}');
         const id = nameMatch[1];
+        if (id in DENIED) {
+            continue;
+        }
         const art = getArtId(enclosure, id, artIds);
         if (!art) {
             continue;
         }
-        if (id in lowercaseKeywordIds) {
-            if (!isActualCard(id, enclosure)) {
-                continue;
-            } else {
-                console.log('In keywords:', id);
-            }
+        if (id in lowercaseKeywordIds && !isActualCard(id, enclosure)) {
+            continue;
         }
         const rarity = (enclosure.match(/\s*rarity\s*=\s*(\w+\.\w+)/) || [])[1];
         const flags = (enclosure.match(/\s*flags\s*=\s*([^,\r\n]+)/) || [])[1];
         const name = captureText(enclosure, 'name');
-        let desc = captureText(enclosure, 'desc');
 
+        let desc = captureText(enclosure, 'desc');
         // Exception for "Pinned":
         if (desc && desc.includes('{card.{1}}')) {
             desc = captureText(enclosure, 'NO_CARD');
@@ -278,7 +286,12 @@ const getParentId = (id) => {
 /**
  *
  */
-const checkDuplicateNames = (bag) => {
+const checkDuplicateNames = (bag, keywords) => {
+    const keywordNames = {};
+    for (const keyword in keywords) {
+        const {id, name} = keywords[keyword];
+        keywordNames[name] = id;
+    }
     const names = {};
     for (const id in bag) {
         const {name} = bag[id];
@@ -286,6 +299,9 @@ const checkDuplicateNames = (bag) => {
             console.log(`${id}: Name collision with id "${names[name]}" for "${name}"!`);
         } else {
             names[name] = id;
+        }
+        if (keywordNames[name]) {
+            console.log(`${id}: Name collision with keyword "${keywordNames[name]}" for "${name}"!`);
         }
     }
 };

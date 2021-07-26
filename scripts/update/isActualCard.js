@@ -1,8 +1,22 @@
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
-const ONLY_KEYWORD = {
+const ALWAYS_KEYWORD = {
     pickpocket: true, // verified it doesn't exist in the Compendium
+    frisk: true, // the id of the card named "Frisk" is "admiralty_manipulate". This is a wiki-CONFLICT!
+};
+const ALWAYS_CARD = {
+    gluey_antennae: true, // verified it exists in the Compendium. The keyword is actually "Glued".
+    blinders: true, // verified it exists in the Compendium. The keyword "Blinders" is a battle condition.
+    fixed: true, // verified it exists in the Compendium. The keyword "Fixed" is a CONFLICT!
+    casings: true, // verified it exists in the Compendium. The keyword "Casings" is a battle condition.
+    tempered: true, // verified it exists in the Compendium. The keyword "Tempered" is a battle condition.
+    deception: true, // verified it exists in the Compendium. The keyword "Deception" is an argument.
+    spines: true, // verified it exists in the Compendium. The keyword "Spines" is a battle condition.
+    viciousness: true, // verified it exists in the Compendium. The keyword "Viciousness" is a battle condition.
+    hemophage: true, // verified it exists in the Compendium. The keyword "Hemophage" is a battle condition.
+    shatter: true, // verified it exists in the Compendium. The keyword "Shatter" is a battle condition.
+    tracer: true, // verified it exists in the Compendium. The keyword "Tracer" is a CONFLICT!
 };
 
 // =====================================================================================================================
@@ -16,9 +30,21 @@ const ONLY_KEYWORD = {
  * 2. when the id ONLY belongs to a keyword (e.g. "Pickpocket"), and is not in fact a real card
  */
 const isActualCard = (id, content) => {
-    if (id in ONLY_KEYWORD) {
+    if (id in ALWAYS_KEYWORD) {
         return false;
     }
+    if (id in ALWAYS_CARD) {
+        return true;
+    }
+    switch (id) {
+        case 'drunk':
+        case 'mettle':
+        case 'burn':
+            return content.includes('CARD_FLAGS');
+        default:
+            console.log(`${id}: Doubt as to whether this is a card or a keyword!`);
+    }
+
     return true;
 };
 

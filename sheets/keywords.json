@@ -25,11 +25,6 @@
         "Every turn, <#HILITE>{1}</> random {1*card|cards} in your hand {1*costs|cost} 1 more until played. At the end of your turn, remove 1 <b>Acidic Slime</>."
     ],
     [
-        "Add Item",
-        "auctioneer_add_item",
-        null
-    ],
-    [
         "Adrenaline",
         "ADRENALINE",
         "Attack damage is increased by <#HILITE>{1}</>. At the end of your turn, remove all <b>Adrenaline</>."
@@ -130,16 +125,6 @@
         "{1}'s multi-attack applies {BURN} unless mitigated."
     ],
     [
-        "Bad Deal",
-        "bad_deal",
-        "Pay {1#money}.\\nIf you end your turn with this card, take {2} damage."
-    ],
-    [
-        "Baffled",
-        "baffled",
-        "At the end of your turn, take 2 resolve damage and {EXPEND} this card."
-    ],
-    [
         "Bait",
         "BAIT",
         "Must be targeted before anything else. Gains 2 resolve for each stack of <b>Bait</b>."
@@ -195,11 +180,6 @@
         "At the start of {1}’s turn, restore {2} resolve to its core argument and remove 1 <b>Blister</>."
     ],
     [
-        "Bog Blast",
-        "bog_blast",
-        "Deals {1} less damage per friendly argument."
-    ],
-    [
         "Bog Boil",
         "BOG_BOSS_BOIL",
         "If destroyed, deal {1} damage to {2}'s core argument. At the end of {2}'s turn, remove 1 <b>Bog Boil</>."
@@ -238,11 +218,6 @@
         "Bombard",
         "bombard",
         "{1}'s attacks insert a random potion into your draw pile."
-    ],
-    [
-        "Bone Tired",
-        "bone_tired",
-        "When destroyed, {1} loses {2} resolve."
     ],
     [
         "Bonus Action",
@@ -288,11 +263,6 @@
         "Burnout",
         "BURNOUT",
         "If this card is in your hand at the end of your turn, {EXPEND} it."
-    ],
-    [
-        "Call for Bids",
-        "auctioneer_defend_items",
-        null
     ],
     [
         "Call to Rise",
@@ -510,11 +480,6 @@
         "Will not {SURRENDER} while they have allies that have not panicked."
     ],
     [
-        "Day Shift",
-        "task_argument",
-        "If any argument is removed or destroyed, {CONSUME} this and draw a card."
-    ],
-    [
         "Deadline",
         "DEADLINE",
         "When destroyed, {1}'s core argument gains {2} {COMPOSURE}."
@@ -563,11 +528,6 @@
         "Devoted",
         "DEVOTED",
         "Whenever a {FAITH_IN_HESH} argument is destroyed, this argument restores {1} resolve."
-    ],
-    [
-        "Diplomacy",
-        "choose_diplomacy",
-        null
     ],
     [
         "Disease Ridden",
@@ -663,11 +623,6 @@
         "Drunk",
         "DRUNK",
         "When destroyed, remove a random intent from {1}."
-    ],
-    [
-        "Drunk",
-        "ai_drunk",
-        null
     ],
     [
         "Dud",
@@ -803,11 +758,6 @@
         "Fear",
         "FEAR",
         "When destroyed, gives {1} {IMPATIENCE 1}. {1} will obtain {battle.DEFECT} when you enter battle."
-    ],
-    [
-        "Fearless",
-        "fearless",
-        "Targets the opponent argument with the least resolve.\\n\\nIf the argument is destroyed, duplicate <b>Fearless</b>, otherwise, increase its stacks by 1."
     ],
     [
         "Fetor",
@@ -975,11 +925,6 @@
         "At the end of {1}'s turn, add 1 stack of <b>Heated</>."
     ],
     [
-        "Heckler",
-        "heckler",
-        null
-    ],
-    [
         "Hemophage",
         "HEMOPHAGE",
         "Whenever you apply {BLEED}, <#HILITE>{HEAL} {1}</>."
@@ -1010,11 +955,6 @@
         "Can be used in various ways to bully your opponent into submission."
     ],
     [
-        "Hostility",
-        "choose_hostile",
-        null
-    ],
-    [
         "Hover Pack",
         "HOVER_PACK",
         "When {1} is hit, reduce its number of attacks this turn by 1. If no attacks remain, {1} becomes {STUN|Stunned}."
@@ -1028,11 +968,6 @@
         "Hungry",
         "hungry_shrooglet",
         "{1}'s Feed attack heals it for {2} health."
-    ],
-    [
-        "Hush Money",
-        "hush_money",
-        "Dismiss a random enemy intent."
     ],
     [
         "Impair",
@@ -1053,11 +988,6 @@
         "Impatience",
         "IMPATIENCE",
         "{1}'s Intents and Arguments deploy with +{2} damage.\\n{1}'s Arguments deploy with +{3} resolve."
-    ],
-    [
-        "Impatience",
-        "impatience",
-        null
     ],
     [
         "Impending Doom",
@@ -1110,11 +1040,6 @@
         "Hostility cards deal an additional {3%+d} damage. Remove 1 stack when you play a non-Hostility card."
     ],
     [
-        "Intuition",
-        "intuition",
-        "When you deploy a new argument, increase this argument's damage and resolve by {1}."
-    ],
-    [
         "Investigator",
         "INVESTIGATOR",
         "At the end of {1}'s turn, {INCEPT} {PLANTED_EVIDENCE} arguments until {2} has 2."
@@ -1133,11 +1058,6 @@
         "Keepsake",
         "KEEPSAKE",
         "Gain additional points if this is still in your deck at the end of the daily challenge."
-    ],
-    [
-        "Kickback",
-        "kickback",
-        null
     ],
     [
         "Kindling",
@@ -1285,11 +1205,6 @@
         "Whenever this argument is attacked, its damage is increased by {1}."
     ],
     [
-        "Moment of Weakness",
-        "moment_of_weakness",
-        "When this argument is destroyed, deal {1} damage to the owner's core argument and spawn two new <b>Moment of Weakness</>."
-    ],
-    [
         "Momentum",
         "flekfis_momentum",
         "{1} is strong but slow. His damage is reduced by 1 for every card you play. At the end of {1}'s turn, reset this to 1."
@@ -1360,11 +1275,6 @@
         "Next turn, draw <#HILITE>{1}</> additional {1*card|cards}."
     ],
     [
-        "Night Shift",
-        "task_diplomacy",
-        "If you gain {INFLUENCE}, {CONSUME} this and draw a card."
-    ],
-    [
         "Nimble",
         "nimble",
         "At the start of each enemy turn, gain 1 {EVASION} and reduce <b>Nimble</b> by 1."
@@ -1405,11 +1315,6 @@
         "The oshnu cannot be killed but will hide in its shell and lose all {POWER} when brought to 1 health."
     ],
     [
-        "Oshnu Slime",
-        "oshnu_slime",
-        "You draw 1 less card at the start of your turn. At the end of your turn, remove 1 <b>Oshnu Slime</>."
-    ],
-    [
         "Out of Ammo",
         "foreman_empty",
         "{1} is out of ammo and can't fire their gun until they reload."
@@ -1433,11 +1338,6 @@
         "Panic",
         "SURRENDER",
         "You can choose to win battle if all enemies <b>Panic</b>. {1} is unable to act for {2} {2*turn|turns}."
-    ],
-    [
-        "Paper Pusher",
-        "paper_pusher",
-        "Insert {1} {baffled} card into {2}'s draw pile at the beginning of {3}'s turn."
     ],
     [
         "Parasite",
@@ -1478,11 +1378,6 @@
         "Planted Evidence",
         "PLANTED_EVIDENCE",
         "When this argument is destroyed, deal {1} damage to {2}'s core argument."
-    ],
-    [
-        "Ploy",
-        "ploy",
-        "At the end of each turn, double the damage this argument deals."
     ],
     [
         "Potential Ally",
@@ -1553,11 +1448,6 @@
         "Prickly",
         "vix_resentment_4",
         "Gains {1} {1*stack|stacks} whenever one of {2}'s arguments is destroyed.\\n\\nGives a random friendly argument {3} {COMPOSURE} at the start of every turn."
-    ],
-    [
-        "Propaganda",
-        "propaganda",
-        "{PREPARE} a card. Swap its cost with this card's cost."
     ],
     [
         "Proper Channel",
@@ -1850,11 +1740,6 @@
         "Will not act while their allies are surrendering."
     ],
     [
-        "Silence",
-        "silence",
-        null
-    ],
-    [
         "Singled Out",
         "SINGLED_OUT",
         "{1}'s next attack against you will deal <#HILITE>{2}</> bonus damage. Remove {3} <b>Singled Out</> whenever you play a Maneuver card."
@@ -1995,11 +1880,6 @@
         "At the end of your turn, gain {DEFEND} equal to <b>Stored Defense</> and remove all <b>Stored Defense</>."
     ],
     [
-        "Straw Man",
-        "straw_man",
-        "When this argument is destroyed, gain {1} {VULNERABILITY}."
-    ],
-    [
         "Stubborn",
         "STUBBORN",
         "At the start of {1}’s turn, remove this argument and apply {2} composure to all friendly arguments."
@@ -2028,11 +1908,6 @@
         "Suspicion",
         "SUSPICION",
         "Diplomacy cards deal {1%+d} damage, with a minimum of 1 damage.\\n\\nReduce <b>Suspicion</b> by 1 at the beginning of {2}'s turn."
-    ],
-    [
-        "Swindle",
-        "swindle",
-        "Adds {1} {bad_deal} {1*card|cards} to your draw pile."
     ],
     [
         "Sympathizer",
@@ -2173,11 +2048,6 @@
         "Under Your Skin",
         "vix_resentment_1",
         "Gain {1} {1*stack|stacks} whenever you play a Manipulate card.\\n\\nIf this argument reaches {2} stacks: Incept {3} {vix_self_doubt} and destroy this argument."
-    ],
-    [
-        "Unimpressed",
-        "default",
-        null
     ],
     [
         "Unknown",

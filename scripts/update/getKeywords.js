@@ -37,7 +37,11 @@ const getKeywords = (zip) => {
         }
     }
 
-    parseAiKeywords(zip.getEntry(AI_KEYWORDS).getData().toString('utf8'), output);
+    // The following exceptions are needed because "ai_negotiation.lua" calls its keywords "CARDS".
+    // Should we parse the whole file, we would also get some actual cards (e.g. "baffled").
+    const aiNegotiation = removeLuaComments(zip.getEntry(AI_KEYWORDS).getData().toString('utf8'));
+    parseKeyword('bog_boil', aiNegotiation, output); // referenced in descriptions
+    parseKeyword('frisk', aiNegotiation, output); // referenced in descriptions
 
     // Manual overrides:
     output['SNAILS'].name = 'Snails'; // was "<p img='icons/ic_coin_snails.tex' scale=1.0>"
@@ -154,9 +158,9 @@ const parseModifierKeyword = (luaContent, keywords) => {
 /**
  *
  */
-const parseAiKeywords = (luaContent, keywords) => {
-    const draft = removeLuaComments(luaContent);
-    const cardsBlock = findEnclosure(draft, draft.indexOf('CARDS'), '{', '}');
+const parseKeyword = (keyword, content, keywords) => {
+    const index = content.indexOf(keyword + ' =');
+    const cardsBlock = findEnclosure(content, index, '{', '}');
     parseKeywordsFromEnumeration(cardsBlock, keywords);
 };
 
