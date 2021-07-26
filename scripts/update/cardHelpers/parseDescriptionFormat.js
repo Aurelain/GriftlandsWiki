@@ -1,5 +1,5 @@
 const assert = require('assert');
-const tally = require('../utils/tally');
+const tally = require('../../utils/tally');
 
 // =====================================================================================================================
 //  P U B L I C

@@ -1602,7 +1602,7 @@
         null
     ],
     [
-        "Bleed",
+        "Bleed (card)",
         "At the end of your turn, take 2 damage and [[Expend]] this card.",
         "status_bleed",
         "status_bleed",
@@ -1638,7 +1638,7 @@
         null
     ],
     [
-        "Blinders",
+        "Blinders (card)",
         "[[Ability]]: For each [[Charge]] you spend, apply 1 [[Mark]] to a random enemy.",
         "blinders",
         "blinders",
@@ -2376,7 +2376,7 @@
         3
     ],
     [
-        "Boosted Barrage",
+        "Boosted Barrage (card)",
         "[[Blind]].\\nAttack with this card 2 times.",
         "barrage_plus2",
         "barrage",
@@ -8280,7 +8280,7 @@
         null
     ],
     [
-        "Burn",
+        "Burn (card)",
         "[[Snails]]: Hits all opponent arguments.",
         "burn",
         "burn",
@@ -8838,7 +8838,7 @@
         null
     ],
     [
-        "Casings",
+        "Casings (card)",
         "[[Ability]]: Whenever you spend [[Charge]], gain 2 [[Defense]] per [[Charge]] spent.",
         "casings",
         "casings",
@@ -8982,7 +8982,7 @@
         null
     ],
     [
-        "Chaos Theory",
+        "Chaos Theory (card)",
         "Gain: At the start of your turn, play a random card in your hand for free.",
         "discord",
         "discord",
@@ -9054,7 +9054,7 @@
         4
     ],
     [
-        "Charged Disc",
+        "Charged Disc (card)",
         "Hits all enemies. Apply 2 [[Wound]].",
         "charged_disc",
         "charged_disc",
@@ -10188,7 +10188,7 @@
         null
     ],
     [
-        "Deception",
+        "Deception (card)",
         "[[Improvise]] an attack card from your draw pile. That card deals +4 damage until played.",
         "deception",
         "deception",
@@ -13554,7 +13554,7 @@
         null
     ],
     [
-        "Fixed",
+        "Fixed (card)",
         "Apply 2 [[Fixed]].",
         "fixed",
         "fixed",
@@ -14364,7 +14364,7 @@
         null
     ],
     [
-        "Frisk",
+        "Frisk (card)",
         "Gain 3 [[Frisk]].",
         "admiralty_manipulate",
         "frisk",
@@ -15444,7 +15444,7 @@
         6
     ],
     [
-        "Heads",
+        "Heads (card)",
         "[[Heads]].",
         "coin_heads",
         "coin_heads",
@@ -15678,7 +15678,7 @@
         null
     ],
     [
-        "Hemophage",
+        "Hemophage (card)",
         "[[Ability]]: Whenever you apply [[Bleed]], [[Heal]] 1.",
         "hemophage",
         "hemophage",
@@ -24930,7 +24930,7 @@
         null
     ],
     [
-        "Resonance",
+        "Resonance (card)",
         "[[Ability]]: Whenever you [[Improvise]] a card, a random enemy gains 1 [[Resonance]].",
         "resonance",
         "resonance",
@@ -27270,7 +27270,7 @@
         3
     ],
     [
-        "Shatter",
+        "Shatter (card)",
         "[[Expend]] 2 [[Empty Bottle]] cards from your deck: apply 2 [[Wound]].",
         "shatter",
         "shatter",
@@ -28206,7 +28206,7 @@
         null
     ],
     [
-        "Snails",
+        "Snails (card)",
         "[[Snails]].",
         "coin_snails",
         "coin_snails",
@@ -28800,7 +28800,7 @@
         null
     ],
     [
-        "Spines",
+        "Spines (card)",
         "[[Ability]]: Gain 1 [[Counter]] whenever you gain [[Defense]].",
         "spines",
         "spines",
@@ -30618,7 +30618,7 @@
         null
     ],
     [
-        "Subtle Setup",
+        "Subtle Setup (card)",
         "Create: Whenever this argument takes damage, deal that much damage to a random opponent argument.",
         "slick",
         "slick",
@@ -32022,7 +32022,7 @@
         null
     ],
     [
-        "Tempered",
+        "Tempered (card)",
         "[[Ability]]: Whenever you attack an enemy that has [[Burn]], gain 2 [[Defense]].",
         "tempered",
         "tempered",
@@ -32796,7 +32796,7 @@
         null
     ],
     [
-        "Tracer",
+        "Tracer (card)",
         "Apply 2 [[Tracer]].",
         "tracer",
         "tracer",
@@ -33822,7 +33822,7 @@
         null
     ],
     [
-        "Viciousness",
+        "Viciousness (card)",
         "For the rest of the turn, gain [[Counter]] equal to half of any attack damage you deal.",
         "viciousness",
         "viciousness",

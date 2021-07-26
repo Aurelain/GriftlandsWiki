@@ -2,9 +2,10 @@ const assert = require('assert');
 const tally = require('../utils/tally');
 const findEnclosure = require('../utils/findEnclosure');
 const removeUndefined = require('../utils/removeUndefined');
-const parseDescriptionFormat = require('./parseDescriptionFormat.js');
-const cleanDescriptions = require('./cleanDescriptions.js');
-const isActualCard = require('./isActualCard');
+const parseDescriptionFormat = require('./cardHelpers/parseDescriptionFormat.js');
+const cleanDescriptions = require('./cardHelpers/cleanDescriptions.js');
+const isActualCard = require('./cardHelpers/isActualCard');
+const eliminateCollisions = require('./cardHelpers/eliminateCollisions');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -22,6 +23,7 @@ const RARITIES = {
  *  data_scripts/scripts/battle/battle_defs.lua
  *  or
  *  data_scripts/scripts/negotiation/negotiation_defs.lua
+ *  TODO: use the keywords from getKeywords
  */
 const KEYWORDS = {
     'CARD_FLAGS.UNPLAYABLE': 'Unplayable',
@@ -77,7 +79,7 @@ const getCards = (zip, keywords, artIds) => {
         }
     }
     fillUpgrades(bag);
-    checkDuplicateNames(bag, keywords);
+    eliminateCollisions(bag, keywords);
     cleanDescriptions(bag, keywords); // must come after upgrades, because it uses the concatenated enclosures
     fixCosts(bag);
     console.log('getCards', tally(bag));
@@ -281,29 +283,6 @@ const getParentId = (id) => {
     // Somewhat unsafe, since a card name may legitimately contain "_upgraded":
     const cleanId = id.replace(/_plus.*|_upgraded.*/, '');
     return cleanId !== id ? cleanId : '';
-};
-
-/**
- *
- */
-const checkDuplicateNames = (bag, keywords) => {
-    const keywordNames = {};
-    for (const keyword in keywords) {
-        const {id, name} = keywords[keyword];
-        keywordNames[name] = id;
-    }
-    const names = {};
-    for (const id in bag) {
-        const {name} = bag[id];
-        if (names[name]) {
-            console.log(`${id}: Name collision with id "${names[name]}" for "${name}"!`);
-        } else {
-            names[name] = id;
-        }
-        if (keywordNames[name]) {
-            console.log(`${id}: Name collision with keyword "${keywordNames[name]}" for "${name}"!`);
-        }
-    }
 };
 
 /**
