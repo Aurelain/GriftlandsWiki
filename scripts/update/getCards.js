@@ -7,6 +7,9 @@ const cleanDescriptions = require('./cardHelpers/cleanDescriptions.js');
 const isActualCard = require('./cardHelpers/isActualCard');
 const eliminateCollisions = require('./cardHelpers/eliminateCollisions');
 const addKeywords = require('./cardHelpers/addKeywords');
+const removeLuaComments = require('../utils/removeLuaComments');
+const getNegotiationCards = require('./cardHelpers/getNegotiationCards');
+const convertLuaToJs = require('../utils/convertLuaToJs');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -38,7 +41,7 @@ const DENIED = {
  *
  * }
  */
-const getCards = (zip, keywords, artIds) => {
+const getCards0 = (zip, keywords, artIds) => {
     const lowercaseKeywordIds = {};
     for (const keyword in keywords) {
         lowercaseKeywordIds[keyword.toLowerCase()] = keywords[keyword];
@@ -61,9 +64,43 @@ const getCards = (zip, keywords, artIds) => {
     return bag;
 };
 
+/**
+ * Output:
+ * {
+ *
+ * }
+ */
+const getCards = (zip, keywords, artIds) => {
+    const entries = zip.getEntries();
+    const cards = {};
+    for (const entry of entries) {
+        const {entryName} = entry;
+        if (entryName.endsWith('.lua')) {
+            const cleanLua = removeLuaComments(entry.getData().toString('utf8'));
+            if (cleanLua.match(/\.AddNegotiationCard\(/)) {
+                console.log('entryName:', entryName);
+                const hybridLua = convertLuaToJs(cleanLua);
+                addCards(getNegotiationCards(hybridLua, entryName, artIds), cards);
+            }
+        }
+    }
+    console.log('getCards', tally(cards));
+    process.exit();
+};
+
 // =====================================================================================================================
 //  P R I V A T E
 // =====================================================================================================================
+/**
+ *
+ */
+const addCards = (addedCards, cards) => {
+    for (const id in addedCards) {
+        assert(!cards[id], `Duplicate card "${id}"!`);
+        cards[id] = addedCards[id];
+    }
+};
+
 /**
  *
  */
