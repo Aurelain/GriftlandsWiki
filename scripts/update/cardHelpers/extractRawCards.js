@@ -10,8 +10,8 @@ const parseLoopLines = require('./parseLoopLines');
  *
  */
 const DENIED_LOOPS = {
-    // 'self.negotiation_data.defs': true,
-    // args: true,
+    'self.negotiation_data.defs': true,
+    args: true,
 };
 
 // =====================================================================================================================
@@ -20,10 +20,12 @@ const DENIED_LOOPS = {
 /**
  *
  */
-const getBattleCards = (lua, luaPath) => {
-    const battleCards = {};
-    const additionsFound = lua.matchAll(/\.AddBattleCard\(/g);
-    for (const {index} of additionsFound) {
+const extractRawCards = (lua, luaPath) => {
+    const cards = {};
+    const additionsFound = lua.matchAll(/\.Add([A-Z]\w+)Card\(/g);
+    for (const addition of additionsFound) {
+        const deckType = addition[1];
+        const {index} = addition;
         const enclosure = findEnclosure(lua, index, '(', ')');
         const idParameter = enclosure.match(/^[^(]+\(([^,]+),/)[1];
         const idClean = cleanId(idParameter, lua);
@@ -42,7 +44,7 @@ const getBattleCards = (lua, luaPath) => {
                 continue;
             }
             const bag = getVarContents(varName, lua, luaPath);
-            evaluateLoopBlock(code, bag, battleCards);
+            evaluateLoopBlock(code, bag, cards, deckType);
             // console.log('varName:', varName);
             // console.log('loopBlock:', loopBlock);
             // console.log('bag:', bag);
@@ -50,10 +52,10 @@ const getBattleCards = (lua, luaPath) => {
             // console.log(code);
         } else {
             const card = parseCardContent(enclosure, luaPath, idClean);
-            addBattleCard(idClean, card, battleCards);
+            addCard(idClean, card, cards, deckType);
         }
     }
-    return battleCards;
+    return cards;
 };
 
 // =====================================================================================================================
@@ -62,9 +64,10 @@ const getBattleCards = (lua, luaPath) => {
 /**
  *
  */
-const addBattleCard = (id, card, battleCards) => {
-    assert(!battleCards[id], `Duplicate battle card id "${id}"!`);
-    battleCards[id] = card;
+const addCard = (id, card, cards, deckType) => {
+    assert(!cards[id], `Duplicate card id "${id}"!`);
+    card.deckType = deckType;
+    cards[id] = card;
 };
 
 /**
@@ -78,7 +81,6 @@ const cleanId = (idParameter, lua) => {
     if (idParameter.charAt(0) === '"') {
         return idParameter.substring(1, idParameter.length - 1);
     }
-    console.log('idParameter:', idParameter);
 
     // The only ones left are "CARD_BLASPHEMER" and "CARD_OPEN_MIND".
     const declarationFound = lua.match(new RegExp('local.*' + idParameter + '.*'));
@@ -110,7 +112,7 @@ const parseLoopBlock = (loopBlock) => {
         for (const id in bag) {
             const ${defName} = bag[id];
             ${lines}
-            addBattleCard(id, ${defName}, battleCards);
+            addCard(id, ${defName}, deckCards, deckType);
         }  
     })()`;
     return {varName, code};
@@ -150,7 +152,7 @@ const getVarContents = (varName, lua, luaPath) => {
 /**
  *
  */
-const evaluateLoopBlock = (code, bag, battleCards) => {
+const evaluateLoopBlock = (code, bag, deckCards, deckType) => {
     try {
         eval(code);
     } catch (e) {
@@ -161,4 +163,4 @@ const evaluateLoopBlock = (code, bag, battleCards) => {
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
-module.exports = getBattleCards;
+module.exports = extractRawCards;

@@ -8,9 +8,8 @@ const isActualCard = require('./cardHelpers/isActualCard');
 const eliminateCollisions = require('./cardHelpers/eliminateCollisions');
 const addKeywords = require('./cardHelpers/addKeywords');
 const removeLuaComments = require('../utils/removeLuaComments');
-const getNegotiationCards = require('./cardHelpers/getNegotiationCards');
 const convertLuaToJs = require('../utils/convertLuaToJs');
-const getBattleCards = require('./cardHelpers/getBattleCards');
+const extractRawCards = require('./cardHelpers/extractRawCards');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -78,21 +77,17 @@ const getCards = (zip, keywords, artIds) => {
         const {entryName} = entry;
         if (entryName.endsWith('.lua')) {
             const cleanLua = removeLuaComments(entry.getData().toString('utf8'));
-            if (cleanLua.match(/\.AddNegotiationCard\(/)) {
+            if (cleanLua.match(/\.Add[A-Z]\w+Card\(/)) {
                 // if (!entryName.includes('ai_negotiation.lua')) continue;
                 // console.log('=============================entryName:', entryName);
                 const hybridLua = convertLuaToJs(cleanLua);
-                addCards(getNegotiationCards(hybridLua, entryName, artIds), cards);
-            }
-            if (cleanLua.match(/\.AddBattleCard\(/)) {
-                // if (!entryName.includes('ai_negotiation.lua')) continue;
-                // console.log('=============================entryName:', entryName);
-                const hybridLua = convertLuaToJs(cleanLua);
-                addCards(getBattleCards(hybridLua, entryName, artIds), cards);
+                addCards(extractRawCards(hybridLua, entryName), cards);
             }
         }
     }
+    // console.log('getCards', cards);
     console.log('getCards', tally(cards));
+
     // require('fs').writeFileSync(
     //     'ids.txt',
     //     JSON.stringify(Object.keys(cards).sort(), null, 4).replace(/[ ,"\[\]]/g, '')

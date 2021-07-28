@@ -14,7 +14,6 @@ const CONSTANTS = [];
  */
 const parseLoopLines = (loopBlock) => {
     let lines = loopBlock;
-    console.log('loopBlock:', loopBlock);
     lines = lines.replace(/^[^{]*{/, '');
     lines = lines.replace(/}[^}]*$/, '');
     lines = lines.replace(/.*\bassert\b.*/g, '');
