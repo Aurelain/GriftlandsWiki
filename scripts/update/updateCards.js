@@ -27,11 +27,12 @@ const updateCards = (cardsBag) => {
         const futureCardWikitext = generateCardWikitext(futureCard);
         const futureWikitext = generateWikitext(existingWikitext, futureCardWikitext);
         // console.log('futureWikitext:', futureWikitext);
-        // process.exit();
-        // fs.writeFileSync(filePath, futureWikitext);
-        count++;
-        if (count >= 10) {
-            break;
+        if (futureWikitext !== existingWikitext) {
+            fs.writeFileSync(filePath, futureWikitext);
+            count++;
+            if (count >= 10) {
+                break;
+            }
         }
     }
 };
