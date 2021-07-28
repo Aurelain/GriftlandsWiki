@@ -41,36 +41,30 @@ const DENIED = {
  *
  * }
  */
-const getCards0 = (zip, keywords, artIds) => {
-    const lowercaseKeywordIds = {};
-    for (const keyword in keywords) {
-        lowercaseKeywordIds[keyword.toLowerCase()] = keywords[keyword];
-    }
-    const entries = zip.getEntries();
-    const bag = {};
-    for (const entry of entries) {
-        const {entryName} = entry;
-        if (entryName.endsWith('.lua')) {
-            const lua = entry.getData().toString('utf8');
-            collectCardsFromLua(lua, lowercaseKeywordIds, artIds, bag);
-        }
-    }
-    fillUpgrades(bag);
-    eliminateCollisions(bag, keywords);
-    cleanDescriptions(bag, keywords); // must come after upgrades, because it uses the concatenated enclosures
-    addKeywords(bag, keywords, zip);
-    fixCosts(bag);
-    console.log('getCards', tally(bag));
-    return bag;
+const getCards = (zip, keywords, artIds) => {
+    const cards = getRawCards(zip);
+    fillUpgrades(cards);
+
+    resolveArtId(cards, artIds);
+    console.log('cardsWithArt', tally(cards));
+
+    eliminateCollisions(cards, keywords);
+    // console.log('cards.adapt:', cards.adapt);
+    // console.log('cards.adapt_plus:', cards.adapt_plus);
+    return;
+    cleanDescriptions(cards, keywords); // must come after upgrades, because it uses the concatenated enclosures
+    addKeywords(cards, keywords, zip);
+    fixCosts(cards);
+    return cards;
 };
 
+// =====================================================================================================================
+//  P R I V A T E
+// =====================================================================================================================
 /**
- * Output:
- * {
  *
- * }
  */
-const getCards = (zip, keywords, artIds) => {
+const getRawCards = (zip) => {
     const entries = zip.getEntries();
     const cards = {};
     for (const entry of entries) {
@@ -81,31 +75,16 @@ const getCards = (zip, keywords, artIds) => {
                 // if (!entryName.includes('ai_negotiation.lua')) continue;
                 // console.log('=============================entryName:', entryName);
                 const hybridLua = convertLuaToJs(cleanLua);
-                addCards(extractRawCards(hybridLua, entryName), cards);
+                const luaCards = extractRawCards(hybridLua, entryName);
+                for (const id in luaCards) {
+                    assert(!cards[id], `Duplicate card "${id}"!`);
+                    cards[id] = luaCards[id];
+                }
             }
         }
     }
-    // console.log('getCards', cards);
-    console.log('getCards', tally(cards));
-
-    // require('fs').writeFileSync(
-    //     'ids.txt',
-    //     JSON.stringify(Object.keys(cards).sort(), null, 4).replace(/[ ,"\[\]]/g, '')
-    // );
-    process.exit();
-};
-
-// =====================================================================================================================
-//  P R I V A T E
-// =====================================================================================================================
-/**
- *
- */
-const addCards = (addedCards, cards) => {
-    for (const id in addedCards) {
-        assert(!cards[id], `Duplicate card "${id}"!`);
-        cards[id] = addedCards[id];
-    }
+    console.log('rawCards', tally(cards));
+    return cards;
 };
 
 /**
@@ -272,18 +251,42 @@ const fillUpgrades = (bag) => {
                 ...bag[id],
                 parent: bag[baseId].name,
             };
-            bag[id].enclosure += bag[baseId].enclosure;
             delete bag[id].upgrades;
+            bag[id].baseId = baseId;
             if (!bag[baseId].upgrades) {
                 bag[baseId].upgrades = [];
             }
             bag[baseId].upgrades.push(bag[id].name);
+            if (bag[id].name === bag[baseId].name) {
+                bag[id].name += '+'; // "assassins_mark_plus" needs this
+            }
         }
     }
     for (const id in bag) {
         const {upgrades} = bag[id];
         if (upgrades) {
             bag[id].upgrades = upgrades.sort().join(',');
+        }
+    }
+};
+
+/**
+ *
+ */
+const resolveArtId = (cards, artIds) => {
+    for (const id in cards) {
+        const card = cards[id];
+        if (!card.icon) {
+            const folderName = card.deckType.toLowerCase();
+            const artId = card.baseId || card.id;
+            card.icon = folderName + '/' + artId;
+            if (!artIds[card.icon]) {
+                // console.log(`${id}: Unexpected inferred icon path "${card.icon}"!`);
+                delete cards[id];
+            }
+        } else {
+            card.icon = card.icon.replace(/\.[^.]*$/, '');
+            assert(artIds[card.icon], `${id}: Unexpected given icon path "${card.icon}"!`);
         }
     }
 };

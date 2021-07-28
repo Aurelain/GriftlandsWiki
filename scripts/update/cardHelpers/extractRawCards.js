@@ -66,6 +66,7 @@ const extractRawCards = (lua, luaPath) => {
  */
 const addCard = (id, card, cards, deckType) => {
     assert(!cards[id], `Duplicate card id "${id}"!`);
+    card.id = id;
     card.deckType = deckType;
     cards[id] = card;
 };
