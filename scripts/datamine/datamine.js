@@ -16,7 +16,7 @@ const datamine = async () => {
         const dataZip = new AdmZip(GAME_DIR + '/data.zip');
         const scriptsZip = new AdmZip(GAME_DIR + '/data_scripts.zip');
         // await extractPortraits(dataZip, scriptsZip);
-        await extractCardArt(dataZip, scriptsZip);
+        await extractCardArt(dataZip);
     } catch (e) {
         console.log(DEBUG ? e.stack : `Error: ${e.message}`);
     }

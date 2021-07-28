@@ -27,6 +27,10 @@ const CARD_KEYWORD_COLLISIONS = {
     coin_snails: 'SNAILS',
     slick: 'subtle_setup',
     discord: 'chaos_theory',
+    flead_larvae_card: 'tiny_stinger',
+    hologram_projection_belt: 'kashio_hologram_belt',
+    suitcase_grenades: 'kashio_suitcase_grenades',
+    choose_hostile: 'HOSTILITY',
 };
 
 // =====================================================================================================================
@@ -38,8 +42,8 @@ const CARD_KEYWORD_COLLISIONS = {
 const eliminateCollisions = (cardsBag, keywords) => {
     for (const cardId in CARD_KEYWORD_COLLISIONS) {
         const keywordId = CARD_KEYWORD_COLLISIONS[cardId];
-        assert(cardsBag[cardId], `Missing card for collision! "${cardId}`);
-        assert(keywords[keywordId], `Missing keyword for collision! "${keywordId}`);
+        assert(cardsBag[cardId], `Missing card for collision! "${cardId}"`);
+        assert(keywords[keywordId], `Missing keyword for collision! "${keywordId}"`);
         assert(cardsBag[cardId].name === keywords[keywordId].name, `Expected collision did not happen! "${cardId}`);
         cardsBag[cardId].name += ' (card)';
     }

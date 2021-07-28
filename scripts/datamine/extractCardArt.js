@@ -15,9 +15,22 @@ const {RAW_GAME} = require('../utils/CONFIG');
  *
  */
 const extractCardArt = async (assetsZip) => {
+    const pipelines = {
+        battle: getPipeline(assetsZip, 'battle'),
+        negotiation: getPipeline(assetsZip, 'negotiation'),
+    };
     const artIds = getArtIds(assetsZip);
-    await extractCardArtFromFolder(assetsZip, true, artIds);
-    await extractCardArtFromFolder(assetsZip, false, artIds);
+    const entries = assetsZip.getEntries();
+    for (const entry of entries) {
+        const {entryName} = entry;
+        const standardPath = entryName.replace(/\.tex$/, '').toLowerCase();
+        if (standardPath in artIds) {
+            const texBuffer = assetsZip.getEntry(entryName).getData();
+            const [folderName, artId] = standardPath.split('/');
+            const pngPath = RAW_GAME + '/cardArt/' + artId + '#' + folderName.charAt(0).toUpperCase() + '.png';
+            await extractPng(texBuffer, pngPath, pipelines[folderName]);
+        }
+    }
 };
 
 // =====================================================================================================================
@@ -34,12 +47,23 @@ const extractCardArtFromFolder = async (assetsZip, isBattle, artIds) => {
     const pipeline = sharp(dds.data, {raw: {width: dds.width, height: dds.height, channels: 4}}).png();
 
     for (const artId in artIds) {
-        if (artIds[artId] === isBattle) {
+        if (artId.startsWith(folderName)) {
             const texBuffer = assetsZip.getEntry(folderName + '/' + artId + '.tex').getData();
             const pngPath = RAW_GAME + '/cardArt/' + artId + '#' + folderName.charAt(0).toUpperCase() + '.png';
             await extractPng(texBuffer, pngPath, pipeline);
         }
     }
+};
+
+/**
+ *
+ */
+const getPipeline = (assetsZip, folderName) => {
+    const portraitsTex = assetsZip.getEntry(folderName + '/' + folderName + '.tex').getData();
+    const portraitsDds = Buffer.from(portraitsTex.slice(9)).buffer;
+    const dds = decompressDds(portraitsDds);
+    const pipeline = sharp(dds.data, {raw: {width: dds.width, height: dds.height, channels: 4}}).png();
+    return pipeline;
 };
 
 // =====================================================================================================================
