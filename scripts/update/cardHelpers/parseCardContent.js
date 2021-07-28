@@ -13,6 +13,10 @@ const CONSTANTS = [
     'EVENT_PRIORITY_ADDITIVE',
     'table.empty',
     'ALL_DECKS',
+    'NoCharges',
+    'FIGHT_SHAKE_ABILITY',
+    'HEAL_PER_CHARGE', // TODO
+    'CHARGES', // TODO
 ];
 
 // =====================================================================================================================
@@ -29,6 +33,9 @@ const parseCardContent = (enclosure, luaPath, id) => {
     draft = obfuscateLuaTexts(draft);
 
     draft = draft.split('=').join(':');
+    draft = draft.split('math.huge').join('9999');
+    draft = draft.replace(/(SoundEvents.\w+)/g, '"$1"');
+    draft = draft.replace(/engine\.asset\.Texture\((.*?)\)/g, '$1');
     draft = removeFunctions(draft);
     draft = adaptArrays(draft);
     draft = adaptFlags(draft);
@@ -88,7 +95,7 @@ const adaptFlags = (cardContent) => {
  */
 const flagsReplacer = (line, flagsProp, flagsValue) => {
     flagsValue = flagsValue.split('|').join(',');
-    flagsValue = flagsValue.split('negotiation_defs.').join('');
+    flagsValue = flagsValue.replace(/\w+_defs\./g, '');
     return flagsProp + '[' + flagsValue + ']';
 };
 

@@ -10,6 +10,7 @@ const convertLuaToJs = (lua) => {
     lua = obfuscateLuaTexts(lua);
 
     lua = lua.replace(/\bnot\b\s*/g, '!');
+    lua = lua.replace(/\bnil\b/g, 'null');
     lua = lua.replace(/\bfunction\b([^)]*)\)/g, 'function$1){');
     lua = lua.replace(/\bfor\b([\s\S]*?)\bdo\b/g, 'for ($1) {');
     lua = lua.replace(/\bwhile\b([\s\S]*?)\bdo\b/g, 'while ($1) {');

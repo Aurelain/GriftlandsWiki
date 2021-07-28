@@ -10,6 +10,7 @@ const addKeywords = require('./cardHelpers/addKeywords');
 const removeLuaComments = require('../utils/removeLuaComments');
 const getNegotiationCards = require('./cardHelpers/getNegotiationCards');
 const convertLuaToJs = require('../utils/convertLuaToJs');
+const getBattleCards = require('./cardHelpers/getBattleCards');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -82,6 +83,12 @@ const getCards = (zip, keywords, artIds) => {
                 // console.log('=============================entryName:', entryName);
                 const hybridLua = convertLuaToJs(cleanLua);
                 addCards(getNegotiationCards(hybridLua, entryName, artIds), cards);
+            }
+            if (cleanLua.match(/\.AddBattleCard\(/)) {
+                // if (!entryName.includes('ai_negotiation.lua')) continue;
+                // console.log('=============================entryName:', entryName);
+                const hybridLua = convertLuaToJs(cleanLua);
+                addCards(getBattleCards(hybridLua, entryName, artIds), cards);
             }
         }
     }
