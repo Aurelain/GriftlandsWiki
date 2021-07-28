@@ -39,11 +39,11 @@ const parseCardContent = (enclosure, luaPath, id) => {
     let card;
     try {
         card = eval(code);
-        console.log('card:', card);
+        // console.log('card:', card);
     } catch (e) {
         assert(false, `Card could not be parsed! ${e.message}\n${code}`);
     }
-    return {};
+    return card;
 };
 
 // =====================================================================================================================

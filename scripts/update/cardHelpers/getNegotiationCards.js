@@ -1,6 +1,7 @@
 const assert = require('assert');
 const findEnclosure = require('../../utils/findEnclosure');
 const parseCardContent = require('./parseCardContent');
+const parseLoopLines = require('./parseLoopLines');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -12,6 +13,14 @@ const parseCardContent = require('./parseCardContent');
 const DENIED = {
     choose_diplomacy: true,
     choose_hostile: true,
+};
+
+/**
+ *
+ */
+const DENIED_LOOPS = {
+    'self.negotiation_data.defs': true,
+    args: true,
 };
 
 // =====================================================================================================================
@@ -38,6 +47,9 @@ const getNegotiationCards = (lua, luaPath, artIds) => {
             assert(loopBlock, `Cannot find "for" block in "${luaPath}"!`);
 
             const {varName, code} = parseLoopBlock(loopBlock);
+            if (varName in DENIED_LOOPS) {
+                continue;
+            }
             const bag = getVarContents(varName, lua, luaPath);
             evaluateLoopBlock(code, bag, negotiationCards);
             // console.log('varName:', varName);
@@ -99,7 +111,7 @@ const parseLoopBlock = (loopBlock) => {
     assert(varName, 'Cannot find var name!');
     const defName = (loopBlock.match(/(\w+) in/) || [])[1];
     assert(defName, 'Cannot find def name!');
-    const lines = parseLines(loopBlock.replace(/^[^{]*{/, '').replace(/}[^}]*$/, ''));
+    const lines = parseLoopLines(loopBlock);
     assert(lines.match(/\S/), 'Empty loop interior!');
     const code = `
     (() => {
@@ -112,16 +124,6 @@ const parseLoopBlock = (loopBlock) => {
     return {varName, code};
 };
 
-/**
- *
- */
-const parseLines = (lines) => {
-    lines = lines.replace(/.*\bassert\b.*/g, '');
-    lines = lines.replace(/ or /g, '||');
-    lines = lines.replace(/.*AddNegotiationCard.*/g, '');
-    return 'true';
-    return lines;
-};
 /**
  *
  */
@@ -160,7 +162,7 @@ const evaluateLoopBlock = (code, bag, negotiationCards) => {
     try {
         eval(code);
     } catch (e) {
-        throw new Error(`Could not evaluate loop "${code}"!`);
+        assert(false, `Could not evaluate loop: ${e.message}!\n${code}`);
     }
 };
 
