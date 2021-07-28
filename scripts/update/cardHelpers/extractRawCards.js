@@ -51,7 +51,7 @@ const extractRawCards = (lua, luaPath) => {
             // console.log('--------------------------code:');
             // console.log(code);
         } else {
-            const card = parseCardContent(enclosure, luaPath, idClean);
+            const card = parseCardContent(enclosure, lua, luaPath, idClean);
             addCard(idClean, card, cards, deckType);
         }
     }
@@ -145,7 +145,7 @@ const getVarContents = (varName, lua, luaPath) => {
         const id = (cardEnclosure.match(/\w+/) || [''])[0];
         assert(id, `Cannot find id in "${cardEnclosure}"!`);
         assert(!bag[id], `Duplicate id "${id}" in "${cardEnclosure}"!`);
-        bag[id] = parseCardContent(cardEnclosure, luaPath, id);
+        bag[id] = parseCardContent(cardEnclosure, lua, luaPath, id);
     }
     return bag;
 };

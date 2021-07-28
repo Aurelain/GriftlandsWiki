@@ -1,5 +1,5 @@
 const assert = require('assert');
-const tally = require('../../utils/tally');
+const findEnclosure = require('../../utils/findEnclosure');
 
 // =====================================================================================================================
 //  P U B L I C
@@ -8,14 +8,19 @@ const tally = require('../../utils/tally');
  * Input: '...desc_fn = ... loc.format(fmt_str, self.defend_amount * 2 , self.riposte_amount or 1)...'
  * Output: '#defend_amount*2,#riposte_amount||1'
  */
-const parseDescriptionFormat = (description, enclosure, name) => {
-    if (!description || !description.match(/{\d/)) {
+const parseDescriptionFormat = (enclosure, name) => {
+    // Get the description mutation function:
+    const index = enclosure.indexOf('desc_fn');
+    if (index < 0) {
+        return;
+    }
+    let draft = findEnclosure(enclosure, index, '{', '}');
+    if (!draft) {
         return;
     }
 
-    // Get the description mutation function:
-    let draft = (enclosure.match(/desc_fn\s*=[\s\S]*?\bend\b/) || [])[0];
-    if (!draft) {
+    if (draft.includes('"NO_CARD"')) {
+        // for the "status_pinned" card
         return;
     }
 
@@ -23,12 +28,19 @@ const parseDescriptionFormat = (description, enclosure, name) => {
     // - when running live, a branch adds a dynamic string at the end of the card
     // - in compendium, the other branch does something simple.
     // We're removing the first branch:
-    draft = draft.replace(/\bif\b[\s\S]*?else/, '');
+    draft = draft.replace(/\bif\b[\s\S]*?}/, '');
+
+    if (draft.includes('return fmt_str') || draft.match(/{\s*}/)) {
+        return; // no special formatting needed, e.g. "Wretched Strike"
+    }
 
     // Get the formatter function:
-    const found = draft.match(/return loc\.format\(.*?,(.*)/);
+    const found = draft.match(/return loc\.format\((.*)/);
     assert(found, `Could not find formatter function for "${name}"!`);
-    draft = found[1];
+    draft = found[1].split(',').slice(1).join(',');
+    if (!draft) {
+        return; // no first parameter was provided, e.g. "gallery_plus"
+    }
 
     // "Twisted Know a Guy" is a trap (doesn't actually have a special format)
     if (draft.includes('self.negotiator:GetName')) {

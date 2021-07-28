@@ -3,20 +3,17 @@ const deshell = require('../../utils/deshell');
 const findEnclosure = require('../../utils/findEnclosure');
 const obfuscateLuaTexts = require('../../utils/obfuscateLuaTexts');
 const restoreLuaTexts = require('../../utils/restoreLuaTexts');
+const parseDescriptionFormat = require('./parseDescriptionFormat');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
 const CONSTANTS = [
-    'TARGET_ANY_RESOLVE',
-    'EVENT_PRIORITY_MULTIPLIER',
-    'EVENT_PRIORITY_ADDITIVE',
-    'table.empty',
-    'ALL_DECKS',
-    'NoCharges',
-    'FIGHT_SHAKE_ABILITY',
-    'HEAL_PER_CHARGE', // TODO
-    'CHARGES', // TODO
+    'ALL_DECKS', // a global constant declared in "card_engine.lua"
+    'NoCharges', // a local function declared in "rook_actions.lua"
+    'TARGET_ANY_RESOLVE', // a global constant declared in "negotiation_defs.lua"
+    'FIGHT_SHAKE_ABILITY', // a global constant declared in "constants.lua"
+    'table.empty', // unknown, in "ai_negotiation.lua"
 ];
 
 // =====================================================================================================================
@@ -25,10 +22,10 @@ const CONSTANTS = [
 /**
  *
  */
-const parseCardContent = (enclosure, luaPath, id) => {
+const parseCardContent = (enclosure, lua, luaPath, id) => {
     let draft = deshell(enclosure);
 
-    draft = convertConstants(draft, id);
+    const descriptionFormat = parseDescriptionFormat(enclosure, id);
 
     draft = obfuscateLuaTexts(draft);
 
@@ -39,6 +36,7 @@ const parseCardContent = (enclosure, luaPath, id) => {
     draft = removeFunctions(draft);
     draft = adaptArrays(draft);
     draft = adaptFlags(draft);
+    draft = convertConstants(draft, lua);
 
     draft = restoreLuaTexts(draft);
 
@@ -48,7 +46,11 @@ const parseCardContent = (enclosure, luaPath, id) => {
         card = eval(code);
         // console.log('card:', card);
     } catch (e) {
+        console.log('enclosure:', enclosure);
         assert(false, `Card could not be parsed! ${e.message}\n${code}`);
+    }
+    if (descriptionFormat) {
+        card.desc_fn = descriptionFormat;
     }
     return card;
 };
@@ -102,11 +104,20 @@ const flagsReplacer = (line, flagsProp, flagsValue) => {
 /**
  *
  */
-const convertConstants = (cardContent) => {
+const convertConstants = (cardContent, lua) => {
     for (const name of CONSTANTS) {
         cardContent = cardContent.split(name).join(`"${name}"`);
     }
-    return cardContent.replace(/([A-Z_0-9]+\.[A-Z_0-9]+)/g, '"$1"');
+    cardContent = cardContent.replace(/([A-Z_0-9]+\.[A-Z_0-9]+)/g, '"$1"');
+    const constantsFound = cardContent.matchAll(/:\s*([A-Z]\w+)/g);
+    for (const [, constantName] of constantsFound) {
+        const declarationFound = lua.match(new RegExp('\\b' + constantName + '\\s*=(.*)'));
+        if (declarationFound) {
+            const value = declarationFound[1].trim();
+            cardContent = cardContent.split(constantName).join(value);
+        }
+    }
+    return cardContent;
 };
 
 // =====================================================================================================================

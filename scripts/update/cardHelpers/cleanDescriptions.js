@@ -30,7 +30,8 @@ const cleanDescriptions = (bag, keywords) => {
 /**
  *
  */
-const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) => {
+const cleanDescription = (card, keywords, bag) => {
+    const {desc, desc_fn, name} = card;
     if (!desc) {
         return;
     }
@@ -42,7 +43,7 @@ const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) =>
     draft = draft.replace(/{(\d)#\w+}/g, '{$1}');
     // TODO use shills
 
-    draft = replaceNumbers(draft, descParams, enclosure, name);
+    draft = replaceNumbers(draft, card);
 
     for (const fragment in DESCRIPTION_FIXES) {
         draft = draft.split(fragment).join(DESCRIPTION_FIXES[fragment]);
@@ -87,7 +88,8 @@ const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) =>
         // console.log('================', name);
         // console.log('old:', desc);
         // console.log('new:', draft);
-        console.log(`${name}: ${draft}, ${descParams}`);
+        console.log('card:', card);
+        console.log(`Strange description: ${name} = ${draft}`);
     }
 
     draft = draft.split('\n').join('<br/>');
@@ -98,18 +100,19 @@ const cleanDescription = ({desc, descParams, enclosure, name}, keywords, bag) =>
 /**
  *
  */
-const replaceNumbers = (desc, descParams, enclosure, name) => {
+const replaceNumbers = (desc, card) => {
+    const {desc_fn, name} = card;
     const requiredNumbers = getRequiredNumbers(desc);
     if (!requiredNumbers) {
         return desc;
     }
-    assert(descParams, `A description uses numbers, but no solution was provided! ${name}`);
+    assert(desc_fn, `A description uses numbers, but no solution was provided! ${name}`);
     let draft = desc;
-    const solutionParts = descParams.split(',');
+    const solutionParts = desc_fn.split(',');
     for (const requiredNumber in requiredNumbers) {
         const solutionPart = solutionParts[Number(requiredNumber) - 1];
-        assert(solutionPart, `No solution for ${name}: ${requiredNumber} in ${desc}. descParams=${descParams}`);
-        const value = evaluateSolutionPart(solutionPart, enclosure, name);
+        assert(solutionPart, `No solution for ${name}: ${requiredNumber} in ${desc}. desc_fn=${desc_fn}`);
+        const value = evaluateSolutionPart(solutionPart, card, name);
 
         draft = draft.split('{' + requiredNumber + '}').join(value);
 
@@ -137,15 +140,15 @@ const getRequiredNumbers = (desc) => {
 /**
  *
  */
-const evaluateSolutionPart = (solutionPart, enclosure, name) => {
+const evaluateSolutionPart = (solutionPart, card, name) => {
     let draft = solutionPart;
     const selfVariables = solutionPart.match(/#\w+/g);
     if (selfVariables) {
         for (const selfVariable of selfVariables) {
             const variableName = selfVariable.substr(1);
-            let value = captureNumber(enclosure, variableName);
+            let value = card[variableName];
             if (value === undefined) {
-                // console.log(`Warning: "${name}" does not provide a "${variableName}" field!`);
+                console.log(`Warning: "${name}" does not provide a "${variableName}" field!`);
                 value = 0; // so it fails "or" checks
             }
             draft = draft.split('#' + variableName).join(value);
@@ -154,7 +157,7 @@ const evaluateSolutionPart = (solutionPart, enclosure, name) => {
     try {
         return eval(draft);
     } catch (e) {
-        console.log(`Failed to evaluate solution "${solutionPart}" for "${name}"!`);
+        console.log(`Warning: Failed to evaluate solution "${solutionPart}" for "${name}"!`);
         return 0;
     }
 };
