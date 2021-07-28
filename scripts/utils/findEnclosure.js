@@ -1,7 +1,11 @@
+const assert = require('assert');
+
 /**
  *
  */
 const findEnclosure = (text, from, begin, end) => {
+    assert(text && from >= 0 && begin && end, 'Invalid parameter for "findEnclosure()"!');
+
     let indent = -1;
     for (let i = from; i < text.length; i++) {
         const c = text.charAt(i);

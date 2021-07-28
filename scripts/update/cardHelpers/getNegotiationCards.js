@@ -1,5 +1,6 @@
 const assert = require('assert');
 const findEnclosure = require('../../utils/findEnclosure');
+const parseCardContent = require('./parseCardContent');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -28,7 +29,7 @@ const getNegotiationCards = (lua, luaPath, artIds) => {
     const additionsFound = lua.matchAll(/\.AddNegotiationCard\(/g);
     for (const {index} of additionsFound) {
         const enclosure = findEnclosure(lua, index, '(', ')');
-        const [, idParameter, defParameter] = enclosure.match(/^[^(]+\(([^,]+),([\s\S]*)/);
+        const idParameter = enclosure.match(/^[^(]+\(([^,]+),/)[1];
         const idClean = cleanId(idParameter, lua);
         if (idClean === 'id') {
             // This is part of a "for" loop.
@@ -37,11 +38,16 @@ const getNegotiationCards = (lua, luaPath, artIds) => {
             assert(loopBlock, `Cannot find "for" block in "${luaPath}"!`);
 
             const {varName, code} = parseLoopBlock(loopBlock);
-            console.log('loopBlock:', loopBlock);
-            console.log('varName:', varName);
-            console.log('code:', code);
+            const bag = getVarContents(varName, lua, luaPath);
+            evaluateLoopBlock(code, bag, negotiationCards);
+            // console.log('varName:', varName);
+            // console.log('loopBlock:', loopBlock);
+            // console.log('bag:', bag);
+            // console.log('--------------------------code:');
+            // console.log(code);
         } else {
-            addNegotiationCard(idClean, 1, negotiationCards); // TODO
+            const card = parseCardContent(enclosure, luaPath, idClean);
+            addNegotiationCard(idClean, card, negotiationCards);
         }
     }
     return negotiationCards;
@@ -91,8 +97,71 @@ const cleanId = (idParameter, lua) => {
 const parseLoopBlock = (loopBlock) => {
     const varName = (loopBlock.match(/pairs\((.*?)\)/) || [null, ''])[1].trim();
     assert(varName, 'Cannot find var name!');
+    const defName = (loopBlock.match(/(\w+) in/) || [])[1];
+    assert(defName, 'Cannot find def name!');
+    const lines = parseLines(loopBlock.replace(/^[^{]*{/, '').replace(/}[^}]*$/, ''));
+    assert(lines.match(/\S/), 'Empty loop interior!');
+    const code = `
+    (() => {
+        for (const id in bag) {
+            const ${defName} = bag[id];
+            ${lines}
+            addNegotiationCard(id, ${defName}, negotiationCards);
+        }  
+    })()`;
+    return {varName, code};
+};
 
-    return {varName};
+/**
+ *
+ */
+const parseLines = (lines) => {
+    lines = lines.replace(/.*\bassert\b.*/g, '');
+    lines = lines.replace(/ or /g, '||');
+    lines = lines.replace(/.*AddNegotiationCard.*/g, '');
+    return 'true';
+    return lines;
+};
+/**
+ *
+ */
+const getVarContents = (varName, lua, luaPath) => {
+    // require('fs').writeFileSync('file.lua', lua);
+    const varIndex = lua.indexOf(`local ${varName} =`);
+    if (varIndex < 0) {
+        console.log(`Warning: Cannot find index of "${varName}"!`);
+        return {};
+    }
+
+    const enclosure = findEnclosure(lua, varIndex, '{', '}');
+    assert(enclosure, `Cannot find enclosure of "${varName}"!`);
+    // require('fs').writeFileSync('enclosure.lua', enclosure);
+
+    const bag = {};
+    let index = enclosure.indexOf('{') + 1;
+    while (true) {
+        const cardEnclosure = findEnclosure(enclosure, index, '{', '}');
+        if (!cardEnclosure) {
+            break;
+        }
+        index += cardEnclosure.length;
+        const id = (cardEnclosure.match(/\w+/) || [''])[0];
+        assert(id, `Cannot find id in "${cardEnclosure}"!`);
+        assert(!bag[id], `Duplicate id "${id}" in "${cardEnclosure}"!`);
+        bag[id] = parseCardContent(cardEnclosure, luaPath, id);
+    }
+    return bag;
+};
+
+/**
+ *
+ */
+const evaluateLoopBlock = (code, bag, negotiationCards) => {
+    try {
+        eval(code);
+    } catch (e) {
+        throw new Error(`Could not evaluate loop "${code}"!`);
+    }
 };
 
 // =====================================================================================================================

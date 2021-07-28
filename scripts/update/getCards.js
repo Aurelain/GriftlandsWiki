@@ -78,13 +78,18 @@ const getCards = (zip, keywords, artIds) => {
         if (entryName.endsWith('.lua')) {
             const cleanLua = removeLuaComments(entry.getData().toString('utf8'));
             if (cleanLua.match(/\.AddNegotiationCard\(/)) {
-                console.log('entryName:', entryName);
+                // if (!entryName.includes('ai_negotiation.lua')) continue;
+                console.log('=============================entryName:', entryName);
                 const hybridLua = convertLuaToJs(cleanLua);
                 addCards(getNegotiationCards(hybridLua, entryName, artIds), cards);
             }
         }
     }
     console.log('getCards', tally(cards));
+    require('fs').writeFileSync(
+        'ids.txt',
+        JSON.stringify(Object.keys(cards).sort(), null, 4).replace(/[ ,"\[\]]/g, '')
+    );
     process.exit();
 };
 
