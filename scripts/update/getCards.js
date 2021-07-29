@@ -10,7 +10,7 @@ const addKeywords = require('./cardHelpers/addKeywords');
 const removeLuaComments = require('../utils/removeLuaComments');
 const convertLuaToJs = require('../utils/convertLuaToJs');
 const extractRawCards = require('./cardHelpers/extractRawCards');
-const addCardType = require('./cardHelpers/addCardType');
+const inferCardType = require('./cardHelpers/inferCardType');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -364,7 +364,7 @@ const fixSomeValues = (bag) => {
             card.maxDamage = maxDamage;
         }
 
-        addCardType(card);
+        card.cardType = inferCardType(card);
     }
 };
 
