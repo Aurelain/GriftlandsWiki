@@ -40,8 +40,6 @@ const update = async () => {
 
         // updateCards(cards);
 
-        // await writeCardsSheet(importedCards, 'importedCards');
-
         return;
 
         const characters = await getCharacters(zip);
@@ -71,77 +69,6 @@ const writeCharacters = (prepared) => {
         const fullPath = STORAGE + '/' + filePath;
         fs.writeFileSync(fullPath, content);
     }
-};
-
-/**
- *
- */
-const compareCards = (cards, importedCards) => {
-    const cardsByName = {};
-    for (const id in cards) {
-        const card = cards[id];
-        cardsByName[card.name] = card;
-    }
-    for (const id in importedCards) {
-        const {name} = importedCards[id];
-        const gameCard = cardsByName[name];
-        if (!gameCard) {
-            console.log('Missing!', name);
-            continue;
-        }
-        const importedCard = importedCards[id];
-        if (gameCard.upgrades !== importedCard.upgrades) {
-            console.log('Different upgrades!', name);
-        }
-        if (gameCard.xp !== importedCard.xp) {
-            // console.log('Different xp!', name);
-        }
-        if (gameCard.cost !== importedCard.cost) {
-            // console.log('Different cost!', name, '=', gameCard.cost, '=', importedCard.cost);
-        }
-        if (gameCard.rarity !== importedCard.rarity) {
-            // console.log('Different rarity!', name, '=', gameCard.rarity, '=', importedCard.rarity);
-        }
-        if (gameCard.flavour !== importedCard.flavour) {
-            // console.log('Different flavour!', name, '=', gameCard.flavour, '=', importedCard.flavour);
-        }
-        if (gameCard.keywords !== importedCard.keywords) {
-            // console.log('Different keywords!', name, '=', gameCard.keywords, '=', importedCard.keywords);
-        }
-    }
-};
-/**
- *
- */
-const mergeCards = (cards, importedCards) => {
-    const mergedCards = {};
-    const cardsByName = {};
-    for (const id in cards) {
-        const card = cards[id];
-        cardsByName[card.name] = card;
-    }
-    for (const id in importedCards) {
-        const importedCard = importedCards[id];
-        const gameCard = cardsByName[importedCard.name];
-        mergedCards[id] = {
-            name: importedCard.name,
-            id: gameCard.id,
-            desc: importedCard.desc, // mystischism
-            character: importedCard.character, // mystischism
-            deckType: importedCard.deckType, // mystischism
-            cardType: importedCard.cardType, // mystischism
-            keywords: importedCard.keywords, // mystischism
-            flavour: gameCard.flavour,
-            rarity: gameCard.rarity,
-            parent: gameCard.parent,
-            upgrades: gameCard.upgrades,
-            cost: gameCard.cost,
-            xp: importedCard.xp, // mystischism
-            minDamage: gameCard.minDamage,
-            maxDamage: gameCard.maxDamage,
-        };
-    }
-    return mergedCards;
 };
 
 // =====================================================================================================================

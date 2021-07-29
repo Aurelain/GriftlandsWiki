@@ -21,6 +21,7 @@ const updateCards = (cardsBag) => {
         // console.log('card:', card);
         const filePath = STORAGE + '/' + getFilePath(card.name, '');
         if (!fs.existsSync(filePath)) continue;
+
         const existingWikitext = (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8')) || '';
         const existingCard = parseCardFromWikitext(existingWikitext);
         const futureCard = {...card, ...existingCard};
@@ -46,6 +47,7 @@ const updateCards = (cardsBag) => {
 const parseCardFromWikitext = (wikitext) => {
     const card = {};
     const upgrades = [];
+    const specials = [];
     const summaries = {};
     const fieldsFound = wikitext.matchAll(/\|\s*(\w+)\s*=\s*([^}|]*)/g);
     for (const [, fieldName, fieldValue] of fieldsFound) {
@@ -64,18 +66,18 @@ const parseCardFromWikitext = (wikitext) => {
             if (value) {
                 summaries[upgradeName] = value;
             }
-            continue;
         }
 
-        // TODO remove these when we have them in getCards.
-        if (fieldName === 'character') {
-            card.character = value;
-        } else if (fieldName === 'cardtype') {
-            card.cardType = value;
+        const specialNumber = (fieldName.match(/^special(\d+)$/) || [])[1];
+        if (specialNumber) {
+            specials[specialNumber] = value;
         }
     }
     if (tally(summaries)) {
         card.summaries = summaries;
+    }
+    if (tally(specials)) {
+        card.specials = specials; // TODO: remove when we have specials
     }
     return card;
 };
@@ -94,9 +96,11 @@ const generateCardWikitext = (card) => {
         deckType,
         cardType,
         keywords,
-        xp,
+        computedXp,
         upgrades,
         parent,
+        specials,
+        generator,
         minDamage,
         maxDamage,
         summaries,
@@ -127,8 +131,8 @@ const generateCardWikitext = (card) => {
     if (keywords) {
         draft += `|keywords = [[${keywords.split(',').join(']], [[')}]]\n`;
     }
-    if (xp !== undefined) {
-        draft += `|expreq = ${xp}\n`;
+    if (computedXp !== undefined) {
+        draft += `|expreq = ${computedXp}\n`;
     }
     if (upgrades) {
         const list = upgrades.split(',');
@@ -141,6 +145,15 @@ const generateCardWikitext = (card) => {
     }
     if (parent) {
         draft += `|parent = ${parent}\n`;
+    }
+    if (specials) {
+        const list = specials.split(',');
+        for (let i = 0; i < list.length; i++) {
+            draft += `|special${i + 1} = ${specials[i]}\n`;
+        }
+    }
+    if (generator) {
+        draft += `|generator = ${generator}\n`;
     }
     if (minDamage !== undefined) {
         draft += `|mindamage = ${minDamage}\n`;

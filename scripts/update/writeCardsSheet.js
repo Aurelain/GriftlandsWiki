@@ -28,9 +28,9 @@ const writeCardsSheet = async (bag, name = 'cards') => {
         row.push(card.parent || ' ');
         row.push(card.upgrades || ' ');
         row.push(card.cost || ' ');
-        row.push(card.max_xp);
-        row.push(chooseMinDamage(card));
-        row.push(chooseMaxDamage(card));
+        row.push(card.computedXp);
+        row.push(card.minDamage);
+        row.push(card.maxDamage);
         matrix.push(row);
     }
     matrix.sort((a, b) => (a[0] < b[0] ? -1 : 1));
@@ -74,36 +74,6 @@ const sheetMutation = (workbook) => {
     sheet.properties.defaultColWidth = 7;
     sheet.getColumn(1).width = 20; // Name
     sheet.getColumn(2).width = 80; // Description
-};
-
-/**
- *
- */
-const chooseMinDamage = (card) => {
-    if (card.min_damage === undefined) {
-        if (card.min_persuasion === undefined) {
-            return undefined;
-        } else {
-            return card.min_persuasion;
-        }
-    } else {
-        return card.min_damage;
-    }
-};
-
-/**
- *
- */
-const chooseMaxDamage = (card) => {
-    if (card.max_damage === undefined) {
-        if (card.max_persuasion === undefined) {
-            return undefined;
-        } else {
-            return card.max_persuasion;
-        }
-    } else {
-        return card.max_damage;
-    }
 };
 
 // =====================================================================================================================

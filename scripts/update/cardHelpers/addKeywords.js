@@ -126,11 +126,13 @@ const cleanFlags = (card, ranks) => {
     let draft = flags.join(',');
     draft = draft.toLowerCase();
     draft = draft.split('negotiation_flags.').join('');
-    draft = draft.split('card_flags.').join('');
+    draft = draft.split('card_flags.').join(''); // possibly added after `parseCardContent`
     draft = draft.replace(/\s*/g, '');
 
-    const fresh = [];
     const parts = draft.split(',');
+    card.flags = parts; // mutation!
+
+    const fresh = [];
     for (const part of parts) {
         if (part in SKIPPED_FLAGS) {
             continue;

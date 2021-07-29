@@ -27,7 +27,9 @@ const CONSTANTS = [
 const parseCardContent = (enclosure, lua, luaPath, id) => {
     let draft = deshell(enclosure);
 
-    // const descriptionFormat = parseDescriptionFormat(enclosure, id);
+    // if (id === 'assassins_mark') {
+    //     console.log('enclosure:', enclosure);
+    // }
 
     draft = draft.split('=').join(':'); // before obfuscation, to avoid replacing "=" in base64
     draft = obfuscateLuaTexts(draft);

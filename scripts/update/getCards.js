@@ -10,6 +10,7 @@ const addKeywords = require('./cardHelpers/addKeywords');
 const removeLuaComments = require('../utils/removeLuaComments');
 const convertLuaToJs = require('../utils/convertLuaToJs');
 const extractRawCards = require('./cardHelpers/extractRawCards');
+const addCardType = require('./cardHelpers/addCardType');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -100,7 +101,7 @@ const getRawCards = (zip) => {
                 const luaCards = extractRawCards(hybridLua, entryName);
                 for (const id in luaCards) {
                     if (!DENIED[id]) {
-                        // if (id !== 'little_score') continue;
+                        // if (id !== 'abrupt_remark') continue;
                         assert(!cards[id], `Duplicate card "${id}"!`);
                         cards[id] = luaCards[id];
                     }
@@ -353,6 +354,17 @@ const fixSomeValues = (bag) => {
         card.series = SERIES[cleanSeries];
 
         computeXp(card);
+
+        const minDamage = chooseMinDamage(card);
+        if (minDamage !== undefined) {
+            card.minDamage = minDamage;
+        }
+        const maxDamage = chooseMaxDamage(card);
+        if (maxDamage !== undefined) {
+            card.maxDamage = maxDamage;
+        }
+
+        addCardType(card);
     }
 };
 
@@ -360,19 +372,56 @@ const fixSomeValues = (bag) => {
  * Ported from "content.lua"
  */
 const computeXp = (card) => {
-    if (card.max_xp === undefined && card.upgrades) {
-        let default_xp = DEFAULT_CARD_XP - Math.max(0, 2 * card.cost - 1);
-        if (card.keywords && card.keywords.match(/Expend|Finisher/)) {
-            default_xp = default_xp - 2;
-        } else {
-            if (card.mod_xp) {
-                default_xp = default_xp + card.mod_xp;
+    if (card.max_xp === undefined) {
+        if (card.upgrades) {
+            let default_xp = DEFAULT_CARD_XP - Math.max(0, 2 * card.cost - 1);
+            if (card.keywords && card.keywords.match(/Expend|Finisher/)) {
+                default_xp = default_xp - 2;
+            } else {
+                if (card.mod_xp) {
+                    default_xp = default_xp + card.mod_xp;
+                }
             }
+            card.computedXp = Math.max(3, default_xp);
         }
-        card.max_xp = Math.max(3, default_xp);
+    } else {
+        if (card.max_xp === 0) {
+            delete card.max_xp;
+        } else {
+            card.computedXp = card.max_xp;
+        }
     }
 };
 
+/**
+ *
+ */
+const chooseMinDamage = (card) => {
+    if (card.min_damage === undefined) {
+        if (card.min_persuasion === undefined) {
+            return undefined;
+        } else {
+            return card.min_persuasion;
+        }
+    } else {
+        return card.min_damage;
+    }
+};
+
+/**
+ *
+ */
+const chooseMaxDamage = (card) => {
+    if (card.max_damage === undefined) {
+        if (card.max_persuasion === undefined) {
+            return undefined;
+        } else {
+            return card.max_persuasion;
+        }
+    } else {
+        return card.max_damage;
+    }
+};
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================
