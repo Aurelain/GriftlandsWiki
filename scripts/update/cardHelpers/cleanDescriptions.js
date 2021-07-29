@@ -1,5 +1,5 @@
-const fs = require('fs');
 const assert = require('assert');
+const applyDescriptionFormat = require('./applyDescriptionFormat');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -31,19 +31,22 @@ const cleanDescriptions = (bag, keywords) => {
  *
  */
 const cleanDescription = (card, keywords, bag) => {
-    const {desc, desc_fn, name} = card;
+    const {desc, name} = card;
     if (!desc) {
         return;
     }
     let draft = desc;
 
     // "Big Score" and others have a description like: "Gain {1#points_total}..."
-    // "A Hot Tip" and others have a description like: "Gain {1#money}..."
-    // "Legacy Blade" and others have a description like: "Gain {1#points}..."
-    draft = draft.replace(/{(\d)#\w+}/g, '{$1}');
-    // TODO use shills
+    draft = draft.replace(/{(\d)#points_total}/g, '{$1} PTS');
 
-    draft = replaceNumbers(draft, card);
+    // "A Hot Tip" and others have a description like: "Gain {1#money}..."
+    draft = draft.replace(/{(\d)#money}/g, '{$1} shill');
+
+    // "Legacy Blade" and others have a description like: "Gain {1#points}..."
+    draft = draft.replace(/{(\d)#points}/g, '{$1} PTS');
+
+    draft = applyDescriptionFormat(draft, card);
 
     for (const fragment in DESCRIPTION_FIXES) {
         draft = draft.split(fragment).join(DESCRIPTION_FIXES[fragment]);
@@ -83,13 +86,12 @@ const cleanDescription = (card, keywords, bag) => {
 
     draft = draft.split('\\n').join('\n');
 
-    // if (draft !== desc) {
     if (draft.match(/[{#\\<]/)) {
         // console.log('================', name);
         // console.log('old:', desc);
         // console.log('new:', draft);
-        console.log('card:', card);
-        console.log(`Strange description: ${name} = ${draft}`);
+        // console.log('card:', card);
+        console.log(`Strange description: ${name} = ${draft.split('\n').join('<br/>')}`);
     }
 
     draft = draft.split('\n').join('<br/>');
@@ -97,81 +99,6 @@ const cleanDescription = (card, keywords, bag) => {
     return draft;
 };
 
-/**
- *
- */
-const replaceNumbers = (desc, card) => {
-    const {desc_fn, name} = card;
-    const requiredNumbers = getRequiredNumbers(desc);
-    if (!requiredNumbers) {
-        return desc;
-    }
-    assert(desc_fn, `A description uses numbers, but no solution was provided! ${name}`);
-    let draft = desc;
-    const solutionParts = desc_fn.split(',');
-    for (const requiredNumber in requiredNumbers) {
-        const solutionPart = solutionParts[Number(requiredNumber) - 1];
-        assert(solutionPart, `No solution for ${name}: ${requiredNumber} in ${desc}. desc_fn=${desc_fn}`);
-        const value = evaluateSolutionPart(solutionPart, card, name);
-
-        draft = draft.split('{' + requiredNumber + '}').join(value);
-
-        // Also replace the number in "...{n*card|cards}..."
-        const noun = value === 1 ? '$1' : '$2';
-        draft = draft.replace(new RegExp('\\{' + requiredNumber + '\\*(.*?)\\|(.*?)}', 'g'), noun);
-    }
-    return draft;
-};
-
-/**
- *
- */
-const getRequiredNumbers = (desc) => {
-    const found = desc.match(/{\d}/g);
-    if (found) {
-        const bag = {};
-        for (const param of found) {
-            bag[param.match(/\d/)[0]] = true;
-        }
-        return bag;
-    }
-};
-
-/**
- *
- */
-const evaluateSolutionPart = (solutionPart, card, name) => {
-    let draft = solutionPart;
-    const selfVariables = solutionPart.match(/#\w+/g);
-    if (selfVariables) {
-        for (const selfVariable of selfVariables) {
-            const variableName = selfVariable.substr(1);
-            let value = card[variableName];
-            if (value === undefined) {
-                console.log(`Warning: "${name}" does not provide a "${variableName}" field!`);
-                value = 0; // so it fails "or" checks
-            }
-            draft = draft.split('#' + variableName).join(value);
-        }
-    }
-    try {
-        return eval(draft);
-    } catch (e) {
-        console.log(`Warning: Failed to evaluate solution "${solutionPart}" for "${name}"!`);
-        return 0;
-    }
-};
-
-/**
- *
- */
-const captureNumber = (text, prop) => {
-    const re = new RegExp('\\s*' + prop + '\\s*=\\s*(\\d+)');
-    const found = text.match(re);
-    if (found) {
-        return Number(found[1]);
-    }
-};
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================

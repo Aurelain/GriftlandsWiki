@@ -49,6 +49,7 @@ const getCards = (zip, keywords, artIds) => {
     console.log('cardsWithArt', tally(cards));
 
     eliminateCollisions(cards, keywords);
+
     cleanDescriptions(cards, keywords); // must come after upgrades, because it uses the concatenated enclosures
     return;
     addKeywords(cards, keywords, zip);
