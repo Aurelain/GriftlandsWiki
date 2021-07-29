@@ -36,7 +36,7 @@ const update = async () => {
         await writeKeywordsSheet(keywords);
 
         const cards = getCards(scriptsZip, keywords, artIds);
-        // await writeCardsSheet(cards);
+        await writeCardsSheet(cards);
 
         // updateCards(cards);
 

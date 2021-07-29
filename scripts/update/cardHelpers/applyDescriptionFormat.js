@@ -45,7 +45,7 @@ const applyDescriptionFormat = (description, card) => {
     code = code.replace(/loc.cap\([^)]*UI.CARDS.OWNER.*?\)/g, '"Owner"'); // "Assassin's Mark"
     code = code.replace(/self\.GetLocalizedString\((.*?)\)/g, 'self.loc_strings[$1]'); // "Pinned"
     code = code.replace(/ \.\. /g, ' + '); // "Lumin Burn"
-    code = code.replace(/self[\w.]*CalculateDefendText\((.*?)\)/g, '$1'); // "Carapace"
+    code = code.replace(/self[\w.]*CalculateDefendText\(([^),]*).*?\)/g, '$1'); // "Carapace"
     code = code.replace(/self[\w.]*CalculateComposureText\((.*?)\)/g, '$1'); // "Rationale"
     code = code.replace(/self.CalculateThresholdText.*?\)/g, 'self.threshold'); // "Striker"
     code = code.replace(/CombatCondition.*?\)/g, 'true'); // "Casings"
@@ -58,6 +58,7 @@ const applyDescriptionFormat = (description, card) => {
     let fn;
     try {
         fn = eval('(' + code + ')');
+        card.desc_fn = code;
     } catch (e) {
         assert(0, `${name}: ${e.message}\nCannot evaluate function body:\n${code}`);
     }

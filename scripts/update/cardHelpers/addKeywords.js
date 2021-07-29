@@ -64,7 +64,7 @@ const getFlagRanks = (zip, entryPath) => {
  *
  */
 const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRanks) => {
-    const {maxCharges} = card;
+    const {max_charges} = card;
     const usedBag = {};
     const allKeywords = [];
 
@@ -77,11 +77,11 @@ const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRa
     }
 
     const ranks = card.deckType === 'Battle' ? flagRanks.battle : flagRanks.negotiation;
-    const flags = cleanFlags(card.keywords, ranks, card.name);
+    const flags = cleanFlags(card, ranks);
     sortFlags(flags, ranks);
     const internalKeywords = [];
     for (const flag of flags) {
-        const globalKeyword = globalKeywordLowIds[flag];
+        const globalKeyword = globalKeywordLowIds[flag] || {}; // TODOOOOOO
         assert(globalKeyword, `${card.name}: Cannot resolve flag "${flag}"!`);
         const {name} = globalKeyword;
         internalKeywords.push(name);
@@ -97,12 +97,12 @@ const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRa
         card.desc = prefix + wikiKeywords;
     }
 
-    if (maxCharges) {
+    if (max_charges) {
         const consumeName = globalKeywordLowIds['consume'].name;
         const link = '[[' + consumeName + ']]';
-        const uses = maxCharges > 1 ? 'uses' : 'use';
+        const uses = max_charges > 1 ? 'uses' : 'use';
         const prefix = card.desc ? card.desc + '<br/>' : '';
-        card.desc = prefix + `${link} after ${maxCharges} ${uses}.`;
+        card.desc = prefix + `${link} after ${max_charges} ${uses}.`;
         if (!allKeywords.includes(consumeName)) {
             allKeywords.push(consumeName);
         }
@@ -118,28 +118,27 @@ const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRa
 /**
  *
  */
-const cleanFlags = (flagsDump, ranks, name) => {
-    if (!flagsDump) {
+const cleanFlags = (card, ranks) => {
+    const {flags, name, id} = card;
+    if (!flags) {
         return [];
     }
-    let draft = flagsDump;
+    let draft = flags.join(',');
     draft = draft.toLowerCase();
     draft = draft.split('negotiation_flags.').join('');
-    draft = draft.split('negotiation_defs.').join('');
-    draft = draft.split('battle_defs.').join('');
     draft = draft.split('card_flags.').join('');
     draft = draft.replace(/\s*/g, '');
 
-    const flags = [];
-    const parts = draft.split('|');
+    const fresh = [];
+    const parts = draft.split(',');
     for (const part of parts) {
         if (part in SKIPPED_FLAGS) {
             continue;
         }
-        assert(ranks[part], `${name}: Unrecognized flag "${part}"!`);
-        flags.push(part);
+        assert(ranks[part], `${id} (${name}): Unrecognized flag "${part}"!`);
+        fresh.push(part);
     }
-    return flags;
+    return fresh;
 };
 
 /**

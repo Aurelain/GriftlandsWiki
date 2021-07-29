@@ -18,8 +18,8 @@ const writeCardsSheet = async (bag, name = 'cards') => {
         row.push(card.name);
         row.push(card.desc || ' ');
         row.push(id);
-        row.push(card.art);
-        row.push(card.character || ' ');
+        row.push(card.icon.charAt(0).toUpperCase() + '/' + card.icon.split('/')[1]);
+        row.push(card.series || ' ');
         row.push(card.deckType || ' ');
         row.push(card.cardType || ' ');
         row.push(card.keywords || ' ');
@@ -28,9 +28,9 @@ const writeCardsSheet = async (bag, name = 'cards') => {
         row.push(card.parent || ' ');
         row.push(card.upgrades || ' ');
         row.push(card.cost || ' ');
-        row.push(card.xp);
-        row.push(card.minDamage);
-        row.push(card.maxDamage);
+        row.push(card.max_xp);
+        row.push(card.min_damage);
+        row.push(card.max_damage);
         matrix.push(row);
     }
     matrix.sort((a, b) => (a[0] < b[0] ? -1 : 1));

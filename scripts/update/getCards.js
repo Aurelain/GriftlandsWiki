@@ -14,6 +14,9 @@ const extractRawCards = require('./cardHelpers/extractRawCards');
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
+/**
+ * /data_scripts/scripts/lang/english.lua
+ */
 const RARITIES = {
     'CARD_RARITY.BASIC': 'Basic',
     'CARD_RARITY.COMMON': 'Common',
@@ -21,6 +24,19 @@ const RARITIES = {
     'CARD_RARITY.RARE': 'Rare',
     'CARD_RARITY.UNIQUE': 'Unique',
     'CARD_RARITY.BOSS': 'Boss',
+    'CARD_RARITY.COSMIC': 'Cosmic',
+};
+
+/**
+ *
+ */
+const SERIES = {
+    sal: 'Sal',
+    rook: 'Rook',
+    smith: 'Smith',
+    npc: 'Enemy',
+    general: 'Other',
+    daily: 'Other',
 };
 
 /**
@@ -28,8 +44,8 @@ const RARITIES = {
  * They're never displayed as cards to the user (?).
  */
 const DENIED = {
-    choose_diplomacy: true,
-    choose_hostile: true,
+    // choose_diplomacy: true,
+    // choose_hostile: true,
 };
 
 // =====================================================================================================================
@@ -51,9 +67,11 @@ const getCards = (zip, keywords, artIds) => {
     eliminateCollisions(cards, keywords);
 
     cleanDescriptions(cards, keywords); // must come after upgrades, because it uses the concatenated enclosures
-    return;
+
     addKeywords(cards, keywords, zip);
-    fixCosts(cards);
+
+    fixSomeValues(cards);
+
     return cards;
 };
 
@@ -71,11 +89,12 @@ const getRawCards = (zip) => {
         if (entryName.endsWith('.lua')) {
             const cleanLua = removeLuaComments(entry.getData().toString('utf8'));
             if (cleanLua.match(/\.Add[A-Z]\w+Card\(/)) {
-                // if (!entryName.includes('ai_negotiation.lua')) continue;
+                // if (!entryName.includes('daily_run_battle_cards.lua')) continue;
                 // console.log('=============================entryName:', entryName);
                 const hybridLua = convertLuaToJs(cleanLua);
                 const luaCards = extractRawCards(hybridLua, entryName);
                 for (const id in luaCards) {
+                    // if (id !== 'little_score') continue;
                     assert(!cards[id], `Duplicate card "${id}"!`);
                     cards[id] = luaCards[id];
                 }
@@ -302,12 +321,29 @@ const getParentId = (id) => {
 /**
  *
  */
-const fixCosts = (bag) => {
+const fixSomeValues = (bag) => {
     for (const id in bag) {
         const card = bag[id];
-        if (card.hasOwnProperty('cost') && card.keywords && card.keywords.includes('Unplayable')) {
+        const {rarity, series, flavour, name, keywords} = card;
+
+        assert(rarity && RARITIES[rarity], `"${id} (${name}) has an invalid rarity! ${rarity}`);
+        card.rarity = RARITIES[rarity];
+
+        if (card.hasOwnProperty('cost') && keywords && keywords.includes('Unplayable')) {
             delete card.cost;
         }
+
+        if (flavour) {
+            let cleanFlavour = flavour.replace(/^['’\s]+/m, '');
+            cleanFlavour = cleanFlavour.replace(/['’\s]+$/m, '');
+            card.flavour = cleanFlavour;
+        }
+
+        assert(series, `"${id} (${name}) has no series!`);
+        let cleanSeries = series.toLowerCase();
+        cleanSeries = cleanSeries.split('card_series.').join('');
+        assert(SERIES[cleanSeries], `"${id} (${name}) has an invalid series! ${series}`);
+        card.series = SERIES[cleanSeries];
     }
 };
 
