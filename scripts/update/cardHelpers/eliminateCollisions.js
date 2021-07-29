@@ -30,7 +30,7 @@ const CARD_KEYWORD_COLLISIONS = {
     flead_larvae_card: 'tiny_stinger',
     hologram_projection_belt: 'kashio_hologram_belt',
     suitcase_grenades: 'kashio_suitcase_grenades',
-    choose_hostile: 'HOSTILITY',
+    // choose_hostile: 'HOSTILITY', // Denied
 };
 
 // =====================================================================================================================

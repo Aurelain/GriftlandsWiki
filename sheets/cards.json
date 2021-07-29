@@ -67,7 +67,7 @@
         " ",
         "Initial Domination,Pale Domination",
         3,
-        null,
+        3,
         null,
         null
     ],
@@ -85,7 +85,7 @@
         " ",
         "Boosted Accelerant,Wide Accelerant",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -103,7 +103,7 @@
         " ",
         "Boosted Defense,Enhanced Defense",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -121,7 +121,7 @@
         " ",
         "Boosted Ad Hominem,Pale Ad Hominem",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -157,7 +157,7 @@
         " ",
         "Boosted Adapt,Enduring Adapt",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -301,7 +301,7 @@
         " ",
         "Rooted Agency,Tall Agency",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -337,7 +337,7 @@
         " ",
         "Boosted Agitation,Pale Agitation",
         3,
-        null,
+        3,
         null,
         null
     ],
@@ -373,7 +373,7 @@
         " ",
         "Initial Airtight,Pale Airtight",
         3,
-        null,
+        3,
         null,
         null
     ],
@@ -391,7 +391,7 @@
         " ",
         "Boosted All Out,Softened All Out",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -517,7 +517,7 @@
         " ",
         "Fixed Amnesty,Pale Amnesty",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -535,7 +535,7 @@
         " ",
         "Initial Amplifier,Pale Amplifier",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -553,7 +553,7 @@
         " ",
         "Boosted Amplify,Wide Amplify",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -607,7 +607,7 @@
         " ",
         "Boosted Aplomb,Pale Aplomb",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -625,7 +625,7 @@
         " ",
         "Boosted Appeal,Pale Appeal",
         4,
-        null,
+        5,
         null,
         null
     ],
@@ -679,7 +679,7 @@
         " ",
         "Boosted Arc Deflection,Thorny Arc Deflection",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -787,7 +787,7 @@
         " ",
         "Boosted Associates,Pale Associates",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -931,7 +931,7 @@
         " ",
         "Boosted Pedal,Lucid Pedal",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -949,7 +949,7 @@
         " ",
         "Boosted Back Stretch,Stony Back Stretch",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -985,7 +985,7 @@
         " ",
         "Boosted Backstab,Enhanced Backstab",
         1,
-        null,
+        9,
         3,
         5
     ],
@@ -1165,7 +1165,7 @@
         " ",
         "Barbed Dawn,Savage Defense",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -1219,7 +1219,7 @@
         " ",
         "Pale Barnacle,Savage Barnacle",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -1255,7 +1255,7 @@
         " ",
         "Boosted Barrage,Wide Barrage",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -1273,7 +1273,7 @@
         " ",
         "Bash of Clarity,Biting Bash,Lucid Bash,Quenched Bash,Rapid Bash,Rolling Bash,Rooted Bash,Six Pack Bash,Traumatic Bash",
         1,
-        null,
+        9,
         2,
         4
     ],
@@ -1309,7 +1309,7 @@
         " ",
         "Boosted Batter Up,Stifling Batter Up",
         1,
-        null,
+        7,
         1,
         2
     ],
@@ -1345,7 +1345,7 @@
         " ",
         "Enduring Scars,Stone Scars",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -1417,7 +1417,7 @@
         " ",
         "Boosted Bedlam,Focused Bedlam",
         1,
-        null,
+        9,
         8,
         8
     ],
@@ -1435,7 +1435,7 @@
         " ",
         "Boosted Beguile,Tall Beguile",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -1453,7 +1453,7 @@
         " ",
         "Rooted Bellow,Tall Bellow",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -1615,7 +1615,7 @@
         " ",
         "Rooted Bio-Strike,Tall Bio-Strike",
         2,
-        null,
+        7,
         4,
         6
     ],
@@ -1759,7 +1759,7 @@
         " ",
         "Boosted Blade Fury,Rival's Blade Fury",
         1,
-        null,
+        7,
         3,
         4
     ],
@@ -1777,7 +1777,7 @@
         " ",
         "Boosted Blademouth Beating,Savage Blademouth Beating",
         1,
-        null,
+        9,
         1,
         2
     ],
@@ -1795,7 +1795,7 @@
         " ",
         "Boosted Blank,Enhanced Blank",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -1939,7 +1939,7 @@
         " ",
         "Boosted Blockade,Twisted Blockade",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -1957,7 +1957,7 @@
         " ",
         "Boosted Blood Flow,Pure Blood Flow",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -1975,7 +1975,7 @@
         " ",
         "Enduring Blood Guard,Pale Blood Guard",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -1993,7 +1993,7 @@
         " ",
         "Initial Bloodbath,Pale Bloodbath",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -2029,7 +2029,7 @@
         " ",
         "Twisted Bluff,Visionary Bluff",
         1,
-        null,
+        8,
         null,
         null
     ],
@@ -2047,7 +2047,7 @@
         " ",
         "Boosted Bluster,Twisted Bluster",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -2065,7 +2065,7 @@
         " ",
         "Heavy Anchor,Stone Anchor",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -2083,7 +2083,7 @@
         " ",
         "Rooted Body Blow,Tall Body Blow",
         1,
-        null,
+        9,
         2,
         4
     ],
@@ -2281,7 +2281,7 @@
         " ",
         "Rooted Bolster Shot,Tall Bolster Shot",
         1,
-        null,
+        9,
         3,
         5
     ],
@@ -2353,7 +2353,7 @@
         " ",
         "Boosted Bonkers,Broken Bonkers",
         2,
-        null,
+        5,
         7,
         9
     ],
@@ -8113,7 +8113,7 @@
         " ",
         "Boosted Bottle Hurl,Pale Bottle Hurl",
         " ",
-        null,
+        8,
         5,
         5
     ],
@@ -8167,7 +8167,7 @@
         " ",
         "Gulping Bottomless Vial,Healing Bottomless Vial",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -8203,7 +8203,7 @@
         " ",
         "Initial Stance,Pale Stance",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -8221,7 +8221,7 @@
         " ",
         "Double-Barreled Bounty Hunter,Pale Bounty Hunter",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -8275,7 +8275,7 @@
         " ",
         "Boosted Braggart,Pale Braggart",
         3,
-        null,
+        3,
         null,
         null
     ],
@@ -8293,7 +8293,7 @@
         " ",
         "Boosted Brain Burn,Tall Brain Burn",
         1,
-        null,
+        9,
         1,
         4
     ],
@@ -8347,7 +8347,7 @@
         " ",
         "Boosted Brain Tick,Enhanced Brain Tick",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -8365,7 +8365,7 @@
         " ",
         "Boosted Brainstorm,Stone Brainstorm",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -8401,7 +8401,7 @@
         " ",
         "Boosted Brazen Attack,Heavy Brazen Attack",
         2,
-        null,
+        7,
         4,
         8
     ],
@@ -8419,7 +8419,7 @@
         " ",
         "Delayed Breather,Pale Breather",
         " ",
-        null,
+        8,
         null,
         null
     ],
@@ -8509,7 +8509,7 @@
         " ",
         "Boosted Browbeat,Extended Browbeat",
         " ",
-        null,
+        8,
         null,
         null
     ],
@@ -8545,7 +8545,7 @@
         " ",
         "Boosted Brute,Maintained Brute",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -8581,7 +8581,7 @@
         " ",
         "Boosted Rapport,Initial Rapport",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -8599,7 +8599,7 @@
         " ",
         "Dominant Bulldoze,Stone Bulldoze",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -8653,7 +8653,7 @@
         " ",
         "Boosted Burn,Tall Burn",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -8671,7 +8671,7 @@
         " ",
         "Boosted Burner,Enhanced Burner",
         1,
-        null,
+        9,
         2,
         3
     ],
@@ -8689,7 +8689,7 @@
         " ",
         "Rooted Burst,Tall Burst",
         2,
-        null,
+        7,
         3,
         6
     ],
@@ -8725,7 +8725,7 @@
         " ",
         "Boosted Time,Lean Time",
         " ",
-        null,
+        8,
         null,
         null
     ],
@@ -8761,7 +8761,7 @@
         " ",
         "Twisted Cachet,Wide Cachet",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -8995,7 +8995,7 @@
         " ",
         "Decisive Call it,Restored Call it",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -9013,7 +9013,7 @@
         " ",
         "Short Favors,Tall Favors",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -9031,7 +9031,7 @@
         " ",
         "Pale Callus,Visionary Callus",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -9049,7 +9049,7 @@
         " ",
         "Boosted Calm,Pale Calm",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -9085,7 +9085,7 @@
         " ",
         "Boosted Caprice,Twisted Caprice",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -9139,7 +9139,7 @@
         " ",
         "Mirrored Carbon Copy,Pale Carbon Copy",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -9175,7 +9175,7 @@
         " ",
         "Boosted Carve,Tall Carve",
         1,
-        null,
+        7,
         3,
         4
     ],
@@ -9193,7 +9193,7 @@
         " ",
         "Boosted Cash Out,Enduring Cash Out",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -9211,7 +9211,7 @@
         " ",
         "Initial Casings,Pale Casings",
         3,
-        null,
+        3,
         null,
         null
     ],
@@ -9229,7 +9229,7 @@
         " ",
         "Boosted Cataclysm,Pale Cataclysm",
         2,
-        null,
+        7,
         3,
         3
     ],
@@ -9247,7 +9247,7 @@
         " ",
         "Boosted Cauterize,Rooted Cauterize",
         1,
-        null,
+        9,
         2,
         5
     ],
@@ -9265,7 +9265,7 @@
         " ",
         "Boosted Cavalcade,Lasting Cavalcade",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -9283,7 +9283,7 @@
         " ",
         "Boosted Center of Attention,Pale Center of Attention",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -9301,7 +9301,7 @@
         " ",
         "Initial Certainty,Pale Certainty",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -9319,7 +9319,7 @@
         " ",
         "Stone Challenger,Thorny Challenger",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -9337,7 +9337,7 @@
         " ",
         "Rival's Chamber,Stone Chamber",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -9355,7 +9355,7 @@
         " ",
         "Enduring Chaos Theory,Pale Chaos Theory",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -9373,7 +9373,7 @@
         " ",
         "Boosted Char,Visionary Char",
         1,
-        null,
+        9,
         2,
         3
     ],
@@ -9445,7 +9445,7 @@
         " ",
         "Rooted Chase,Tall Chase",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -9463,7 +9463,7 @@
         " ",
         "Boosted Cheap Shot,Very Cheap Shot",
         5,
-        null,
+        3,
         4,
         7
     ],
@@ -9481,7 +9481,7 @@
         " ",
         "Boosted Cheers,Rooted Cheers",
         1,
-        null,
+        9,
         3,
         6
     ],
@@ -9499,7 +9499,7 @@
         " ",
         "Biting Chest Pound,Boosted Chest Pound",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -9517,7 +9517,7 @@
         " ",
         "Boosted Chimney,Tall Chimney",
         1,
-        null,
+        9,
         1,
         6
     ],
@@ -9553,7 +9553,7 @@
         " ",
         "Enduring Churn,Pale Churn",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -9571,7 +9571,7 @@
         " ",
         "Boosted Circle Back,Pale Circle Back",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -9625,7 +9625,7 @@
         " ",
         "Pale Smith,Promoted Smith",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -9661,7 +9661,7 @@
         " ",
         "Pale Clean House,Wide Clean House",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -9679,7 +9679,7 @@
         " ",
         "Rooted Clean Open,Tall Clean Open",
         1,
-        null,
+        9,
         2,
         5
     ],
@@ -9697,7 +9697,7 @@
         " ",
         "Boosted Slate,Pale Slate",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -9715,7 +9715,7 @@
         " ",
         "Rigged Clear Head,Visionary Clear Head",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -9733,7 +9733,7 @@
         " ",
         "Boosted Clear Shot,Tall Clear Shot",
         1,
-        null,
+        9,
         1,
         6
     ],
@@ -9913,7 +9913,7 @@
         " ",
         "Boosted Combination,Rival's Combination",
         1,
-        null,
+        9,
         2,
         4
     ],
@@ -10003,7 +10003,7 @@
         " ",
         "Enduring Compromise,Initial Compromise",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -10021,7 +10021,7 @@
         " ",
         "Enduring Concentrate,Vision Concentrate",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -10093,7 +10093,7 @@
         " ",
         "Boosted Conquer,Focused Conquer",
         2,
-        null,
+        7,
         4,
         4
     ],
@@ -10129,7 +10129,7 @@
         " ",
         "Boosted Consolidate,Pale Consolidate",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -10147,7 +10147,7 @@
         " ",
         "Rooted Contacts,Tall Contacts",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -10273,7 +10273,7 @@
         " ",
         "Boosted Crackle,Inductive Crackle",
         1,
-        null,
+        9,
         4,
         4
     ],
@@ -10309,7 +10309,7 @@
         " ",
         "Induction Crank,Stone Crank",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -10327,7 +10327,7 @@
         " ",
         "Boosted Crass,Pure Crass",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -10363,7 +10363,7 @@
         " ",
         "Rooted Cross,Tall Cross",
         2,
-        null,
+        7,
         3,
         6
     ],
@@ -10399,7 +10399,7 @@
         " ",
         "Pale Crusher,Rooted Crusher",
         4,
-        null,
+        3,
         6,
         10
     ],
@@ -10417,7 +10417,7 @@
         " ",
         "Boosted Crushing Blow,Nailed Crushing Blow",
         3,
-        null,
+        3,
         8,
         12
     ],
@@ -10489,7 +10489,7 @@
         " ",
         "Boosted Cyclone,Enhanced Cyclone",
         1,
-        null,
+        9,
         1,
         1
     ],
@@ -10507,7 +10507,7 @@
         " ",
         "Focused Cynotrainer,Visionary Cynotrainer",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -10525,7 +10525,7 @@
         " ",
         "Boosted Dagger Storm,Pale Dagger Storm",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -10543,7 +10543,7 @@
         " ",
         "Rooted Throw,Tall Dagger Throw",
         1,
-        null,
+        9,
         4,
         6
     ],
@@ -10561,7 +10561,7 @@
         " ",
         "Enduring Damnation,Long Damnation",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -10615,7 +10615,7 @@
         " ",
         "Pale Dead Draw,Twisted Dead Draw",
         2,
-        null,
+        8,
         null,
         null
     ],
@@ -10633,7 +10633,7 @@
         " ",
         "Enhanced Deal,Tall Deal",
         1,
-        null,
+        9,
         2,
         4
     ],
@@ -10669,7 +10669,7 @@
         " ",
         "Pale Deceive,Wide Deceive",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -10687,7 +10687,7 @@
         " ",
         "Boosted Decency,Enhanced Decency",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -10705,7 +10705,7 @@
         " ",
         "Boosted Deception,Tall Deception",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -10867,7 +10867,7 @@
         " ",
         "Deep Deepstance,Initial Deepstance",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -10903,7 +10903,7 @@
         " ",
         "Boosted Surge,Stone Surge",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -10957,7 +10957,7 @@
         " ",
         "Boosted Degrade,Mirrored Degrade",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -11065,7 +11065,7 @@
         " ",
         "Boosted Desperation,Pale Desperation",
         2,
-        null,
+        7,
         10,
         12
     ],
@@ -11083,7 +11083,7 @@
         " ",
         "Boosted Dig,Twisted Dig",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -11101,25 +11101,7 @@
         " ",
         "Boosted Dilemma,Pale Dilemma",
         4,
-        null,
-        null,
-        null
-    ],
-    [
-        "Diplomacy",
-        "[[Unplayable]]",
-        "choose_diplomacy",
-        "N/choose_diplomacy",
-        "Enemy",
-        "Negotiation",
-        " ",
-        "Unplayable",
-        " ",
-        "Unique",
-        " ",
-        " ",
-        " ",
-        null,
+        3,
         null,
         null
     ],
@@ -11191,7 +11173,7 @@
         " ",
         "Boosted Direct Hit,Visionary Hit",
         1,
-        null,
+        9,
         3,
         4
     ],
@@ -11209,7 +11191,7 @@
         " ",
         "Boosted Discharge,Mirrored Discharge",
         2,
-        null,
+        6,
         2,
         2
     ],
@@ -11227,7 +11209,7 @@
         " ",
         "Enduring Disregard,Pale Disregard",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -11245,7 +11227,7 @@
         " ",
         "Enduring Dissect,Pale Dissect",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -11263,7 +11245,7 @@
         " ",
         "Boosted Ditch,Visionary Ditch",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -11281,7 +11263,7 @@
         " ",
         "Final Do Over,Wide Do Over",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -11299,7 +11281,7 @@
         " ",
         "Rooted Dogged,Tall Dogged",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -11317,7 +11299,7 @@
         " ",
         "Boosted Domain,Stone Domain",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -11353,7 +11335,7 @@
         " ",
         "Pale Domineer,Visionary Domineer",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -11371,7 +11353,7 @@
         " ",
         "Boosted Dominion,Pale Dominion",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -11389,7 +11371,7 @@
         " ",
         "Focused Doom,Pale Doom",
         3,
-        null,
+        5,
         null,
         null
     ],
@@ -11407,7 +11389,7 @@
         " ",
         "Pale Double Down,Soft Double Down",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -11425,7 +11407,7 @@
         " ",
         "Rooted Entendre,Tall Entendre",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -11497,7 +11479,7 @@
         " ",
         "Boosted Down the Hatch,Visionary Down the Hatch",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -11515,7 +11497,7 @@
         " ",
         "Boosted Drain,Mending Drain",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -11533,7 +11515,7 @@
         " ",
         "Pale Drawback,Visionary Drawback",
         1,
-        null,
+        10,
         null,
         null
     ],
@@ -11569,7 +11551,7 @@
         " ",
         "Biting Dropkick,Boosted Dropkick,Dropkick of Clarity,Flying Dropkick,Heavy Dropkick,Lucid Dropkick,Quenched Dropkick",
         1,
-        null,
+        9,
         6,
         6
     ],
@@ -11623,7 +11605,7 @@
         " ",
         "Drunken-er Master,Tall Drunken Master",
         1,
-        null,
+        9,
         2,
         10
     ],
@@ -11713,7 +11695,7 @@
         " ",
         "Pale Duck!,Stable Duck!",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -11731,7 +11713,7 @@
         " ",
         "Purified Dugout,Stone Dugout",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -11749,7 +11731,7 @@
         " ",
         "Boosted Dumpster Dive,Visionary Dumpster Dive",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -11767,7 +11749,7 @@
         " ",
         "Enduring Duplicity,Pale Duplicity",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -11785,7 +11767,7 @@
         " ",
         "Boosted Duster,Enhanced Duster",
         " ",
-        null,
+        10,
         2,
         2
     ],
@@ -11803,7 +11785,7 @@
         " ",
         "Boosted Dynamo Round,Efficient Dynamo Round",
         1,
-        null,
+        9,
         3,
         3
     ],
@@ -11875,7 +11857,7 @@
         " ",
         "Boosted Echo Strike,Rival's Echo Strike",
         1,
-        null,
+        9,
         2,
         2
     ],
@@ -11893,7 +11875,7 @@
         " ",
         "Pale Disposal,Serial Disposal",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -11965,7 +11947,7 @@
         " ",
         "Enduring Elucidate,Focused Elucidate",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -12001,7 +11983,7 @@
         " ",
         "Boosted Empathy,Initial Empathy",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -12055,7 +12037,7 @@
         " ",
         "Visionary Supply,Wide Supply",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -12721,7 +12703,7 @@
         " ",
         "Boosted Energy Loop,Stable Energy Loop",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -13405,7 +13387,7 @@
         " ",
         "Boosted Entire Supply,Pale Entire Supply",
         2,
-        null,
+        5,
         2,
         2
     ],
@@ -13423,7 +13405,7 @@
         " ",
         "Boosted Entrapment,Pale Entrapment",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -13459,7 +13441,7 @@
         " ",
         "Boosted Ergo...,Visionary Ergo...",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -13495,7 +13477,7 @@
         " ",
         "Pale Escalate,Softened Escalate",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -13531,7 +13513,7 @@
         " ",
         "Boosted Even Footing,Stone Even Footing",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -13549,7 +13531,7 @@
         " ",
         "Pale Evil Eye,Visionary Evil Eye",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -13603,7 +13585,7 @@
         " ",
         "Boosted Executive,Pale Executive",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -13621,7 +13603,7 @@
         " ",
         "Boosted Exertion,Visionary Exertion",
         " ",
-        null,
+        8,
         null,
         null
     ],
@@ -13693,7 +13675,7 @@
         " ",
         "Enduring Weakness,Pale Weakness",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -13819,7 +13801,7 @@
         " ",
         "Focused Fall Guy,Stone Fall Guy",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -13837,7 +13819,7 @@
         " ",
         "Initial Fallout,Pale Fallout",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -13855,7 +13837,7 @@
         " ",
         "Boosted Fame,Planned Fame",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -14089,7 +14071,7 @@
         " ",
         "Boosted Fight Dirty,Promoted Fight Dirty",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -14143,7 +14125,7 @@
         " ",
         "Boosted Final Favor,Pale Final Favor",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -14179,7 +14161,7 @@
         " ",
         "Boosted Fire Breather,Gulping Fire Breather",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -14197,7 +14179,7 @@
         " ",
         "Boosted Firestorm,Wide Firestorm",
         1,
-        null,
+        9,
         3,
         4
     ],
@@ -14215,7 +14197,7 @@
         " ",
         "Boosted Fistful,Visionary Fistful",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -14233,7 +14215,7 @@
         " ",
         "Boosted Fixate,Pale Fixate",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -14251,7 +14233,7 @@
         " ",
         "Boosted Fixed,Wide Fixed",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -14521,7 +14503,7 @@
         " ",
         "Boosted Assault,Final Assault",
         1,
-        null,
+        7,
         4,
         6
     ],
@@ -14791,7 +14773,7 @@
         " ",
         "Boosted Focused Strike,Tall Focused Strike",
         1,
-        null,
+        9,
         2,
         5
     ],
@@ -14827,7 +14809,7 @@
         " ",
         "Boosted Fold 'em,Enhanced Fold 'em",
         1,
-        null,
+        9,
         1,
         6
     ],
@@ -14845,7 +14827,7 @@
         " ",
         "Pale Follow Through,Sticky Follow Through",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -14899,7 +14881,7 @@
         " ",
         "Boosted Footwork,Visionary Footwork",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -14935,7 +14917,7 @@
         " ",
         "Initial Foresight,Pale Foresight",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -14953,7 +14935,7 @@
         " ",
         "Boosted Forgo,Pale Forgo",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -14971,7 +14953,7 @@
         " ",
         "Boosted Fortitude,Stone Fortitude",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -14989,7 +14971,7 @@
         " ",
         "Boosted Foul Mouth,Visionary Foul Mouth",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -15025,7 +15007,7 @@
         " ",
         "Rooted Freebie,Tall Freebie",
         1,
-        null,
+        7,
         4,
         4
     ],
@@ -15043,7 +15025,7 @@
         " ",
         "Restored Freighter,Rooted Freighter",
         2,
-        null,
+        7,
         2,
         2
     ],
@@ -15061,7 +15043,7 @@
         " ",
         "Boosted Frenzy,Lasting Frenzy",
         1,
-        null,
+        9,
         4,
         6
     ],
@@ -15074,24 +15056,6 @@
         "Negotiation",
         " ",
         "bystander",
-        " ",
-        "Unique",
-        " ",
-        " ",
-        " ",
-        null,
-        null,
-        null
-    ],
-    [
-        "Frisk",
-        "Steal 5 shill",
-        "frisk",
-        "N/frisk",
-        "Enemy",
-        "Negotiation",
-        " ",
-        " ",
         " ",
         "Unique",
         " ",
@@ -15151,7 +15115,7 @@
         " ",
         "Spined Fully Loaded,Stone Fully Loaded",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -15241,7 +15205,7 @@
         " ",
         "Boosted Garbage Day,Visionary Garbage Day",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -15259,7 +15223,7 @@
         " ",
         "Boosted Gash,Enhanced Gash",
         1,
-        null,
+        7,
         2,
         3
     ],
@@ -15295,7 +15259,7 @@
         " ",
         "Rooted Gemini,Tall Gemini",
         1,
-        null,
+        9,
         3,
         5
     ],
@@ -15331,7 +15295,7 @@
         " ",
         "Boosted Ghost Strike,Visionary Ghost Strike",
         1,
-        null,
+        9,
         1,
         2
     ],
@@ -15403,7 +15367,7 @@
         " ",
         "Enduring Go Between,Pale Go Between",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -15421,7 +15385,7 @@
         " ",
         "Boosted Impression,Pale Impression",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -15439,7 +15403,7 @@
         " ",
         "Mirrored Goon,Pale Goon",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -15619,7 +15583,7 @@
         " ",
         "Boosted Grunt,Enhanced Grunt",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -15655,7 +15619,7 @@
         " ",
         "Boosted Gulper,Visionary Gulper",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -15745,7 +15709,7 @@
         " ",
         "Enduring Gumption,Pale Gumption",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -15871,7 +15835,7 @@
         " ",
         "Boosted Trigger,Enhanced Trigger",
         1,
-        null,
+        9,
         2,
         3
     ],
@@ -15907,7 +15871,7 @@
         " ",
         "Boosted Hammer Down,Pale Hammer Down",
         2,
-        null,
+        7,
         7,
         12
     ],
@@ -16069,7 +16033,7 @@
         " ",
         "Boosted Facts,Focused Facts",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -16159,7 +16123,7 @@
         " ",
         "Boosted Haymaker,Rival's Haymaker",
         2,
-        null,
+        5,
         3,
         5
     ],
@@ -16177,7 +16141,7 @@
         " ",
         "Boosted Head Shot,Pale Head Shot",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -16195,7 +16159,7 @@
         " ",
         "Boosted Head Split,Twisted Head Split",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -16213,7 +16177,7 @@
         " ",
         "Tall Head Turner,Visionary Head Turner",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -16231,7 +16195,7 @@
         " ",
         "Boosted Headbang,Rooted Headbang",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -16249,7 +16213,7 @@
         " ",
         "Softened Headbutt,Stifling Headbutt",
         1,
-        null,
+        9,
         4,
         6
     ],
@@ -16483,7 +16447,7 @@
         " ",
         "Enhanced Heavy Handed,Pale Heavy Handed",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -16573,7 +16537,7 @@
         " ",
         "Boosted Hemophage,Initial Hemophage",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -16591,7 +16555,7 @@
         " ",
         "Piercing Hemorrhage,Savage Hemorrhage",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -16663,7 +16627,7 @@
         " ",
         "Boosted High Places,Pale High Places",
         4,
-        null,
+        3,
         null,
         null
     ],
@@ -16681,7 +16645,7 @@
         " ",
         "Pale High Stakes,Stone Stakes",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -16717,7 +16681,7 @@
         " ",
         "Boosted Hilt Bash,Rival's Hilt Bash",
         1,
-        null,
+        9,
         2,
         3
     ],
@@ -16753,7 +16717,7 @@
         " ",
         "Enhanced Hold 'em,Tall Hold 'em",
         1,
-        null,
+        9,
         2,
         4
     ],
@@ -16771,7 +16735,7 @@
         " ",
         "Stone Hole Up,Twisted Hole Up",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -16830,24 +16794,6 @@
         null
     ],
     [
-        "Hostility (card)",
-        "[[Unplayable]]",
-        "choose_hostile",
-        "N/choose_hostile",
-        "Enemy",
-        "Negotiation",
-        " ",
-        "Unplayable",
-        " ",
-        "Unique",
-        " ",
-        " ",
-        " ",
-        null,
-        null,
-        null
-    ],
-    [
         "Hot Air",
         "Create: If this argument is destroyed by you, recreate it and increase its damage by 3.<br/>[[Expend]]",
         "hot_air",
@@ -16861,7 +16807,7 @@
         " ",
         "Boosted Hot Air,Enduring Hot Air",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -16879,7 +16825,7 @@
         " ",
         "Boosted Hunker Down,Induction Hunker Down,Lucid Hunker Down,Surging Hunker Down,Visionary Hunker Down",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -16897,7 +16843,7 @@
         " ",
         "Boosted Hurricane,Traumatic Hurricane",
         1,
-        null,
+        7,
         3,
         4
     ],
@@ -16951,7 +16897,7 @@
         " ",
         "Enduring Immunity,Stone Immunity",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -16987,7 +16933,7 @@
         " ",
         "Extended Accuracy,Pale Accuracy",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -17023,7 +16969,7 @@
         " ",
         "Famous Incredulous,Pure Incredulous",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -17041,7 +16987,7 @@
         " ",
         "Boosted Indecision,Visionary Indecision",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -17059,7 +17005,7 @@
         " ",
         "Initial Induction,Pale Induction",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -17221,7 +17167,7 @@
         " ",
         "Boosted Influencer,Pale Influencer",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -17977,7 +17923,7 @@
         " ",
         "Broad Inside Fighting,Initial Inside Fighting",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -18013,7 +17959,7 @@
         " ",
         "Boosted Insistence,Extended Insistence",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -18049,7 +17995,7 @@
         " ",
         "Boosted Inspirational Blow,Visionary Blow",
         1,
-        null,
+        9,
         3,
         5
     ],
@@ -18085,7 +18031,7 @@
         " ",
         "Enduring Instigate,Pale Instigate",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -18121,7 +18067,7 @@
         " ",
         "Enduring Intensify,Pale Intensify",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -18157,7 +18103,7 @@
         " ",
         "Initial Into the Night,Stone Into the Night",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -18175,7 +18121,7 @@
         " ",
         "Enhanced Intrigue,Sparing Intrigue",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -18229,7 +18175,7 @@
         " ",
         "Diplomatic Jabber,Tall Jabber",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -18247,7 +18193,7 @@
         " ",
         "Boosted Jackpot,Pale Jackpot",
         2,
-        null,
+        7,
         2,
         5
     ],
@@ -18283,7 +18229,7 @@
         " ",
         "Boosted Free-Fighting,Evasive Free-Fighting",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -18319,7 +18265,7 @@
         " ",
         "Boosted Jolt,Pale Jolt",
         4,
-        null,
+        3,
         4,
         6
     ],
@@ -18337,7 +18283,7 @@
         " ",
         "Enduring Juicer,Pale Juicer",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -18373,7 +18319,7 @@
         " ",
         "The Boosted Facts,The Visionary Facts",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -18409,7 +18355,7 @@
         " ",
         "Keep Composed,Sticky Keep Cool",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -18499,7 +18445,7 @@
         " ",
         "Boosted Kidney Shot,Pale Kidney Shot",
         1,
-        null,
+        7,
         1,
         3
     ],
@@ -18535,7 +18481,7 @@
         " ",
         "Boosted Kiss the Fists,Mirrored Kiss the Fists",
         1,
-        null,
+        9,
         2,
         3
     ],
@@ -18553,7 +18499,7 @@
         " ",
         "Boosted Know it All,Purified Know it All",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -18571,7 +18517,7 @@
         " ",
         "Boosted Know a Guy,Twisted Know a Guy",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -18607,7 +18553,7 @@
         " ",
         "Boosted Knuckle Down,Pale Knuckle Down",
         2,
-        null,
+        7,
         2,
         2
     ],
@@ -18625,7 +18571,7 @@
         " ",
         "Boosted Kra'deshi Barbstorm,Tall Kra'deshi Barbstorm",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -18769,7 +18715,7 @@
         " ",
         "Boosted Lacerate,Savage Lacerate",
         1,
-        null,
+        9,
         2,
         4
     ],
@@ -18931,7 +18877,7 @@
         " ",
         "Boosted Leech,Pale Leech",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -19003,7 +18949,7 @@
         " ",
         "Boosted Playing Field,Purified Playing Field",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -19021,7 +18967,7 @@
         " ",
         "Stone Lever,Surging Lever",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -19039,7 +18985,7 @@
         " ",
         "Inductive Lifeline,Visionary Lifeline",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -19147,7 +19093,7 @@
         " ",
         "Boosted Loader,Visionary Loader",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -19201,7 +19147,7 @@
         " ",
         "Boosted Long Night,Gulping Long Night",
         1,
-        null,
+        7,
         4,
         6
     ],
@@ -19219,7 +19165,7 @@
         " ",
         "Pale Long Winded,Visionary Long Winded",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -19237,7 +19183,7 @@
         " ",
         "Boosted Low Blow,Thief's Low Blow",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -19759,7 +19705,7 @@
         " ",
         "Boosted Charm,Enhanced Charm",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -19867,7 +19813,7 @@
         " ",
         "Boosted Mantle,Enhanced Mantle",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -19921,7 +19867,7 @@
         " ",
         "Boosted Masochist,Pale Masochist",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -19939,7 +19885,7 @@
         " ",
         "Pale Matter of Fact,Sticky Matter of Fact",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -19993,7 +19939,7 @@
         " ",
         "Boosted Mean Streak,Tall Mean Streak",
         1,
-        null,
+        9,
         1,
         5
     ],
@@ -20119,7 +20065,7 @@
         " ",
         "Initial Menacing Air,Pale Menacing Air",
         3,
-        null,
+        3,
         null,
         null
     ],
@@ -20389,7 +20335,7 @@
         " ",
         "Boosted Mouthwash,Visionary Mouthwash",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -20407,7 +20353,7 @@
         " ",
         "Boosted Muck,Focused Muck",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -20443,7 +20389,7 @@
         " ",
         "Initial Muddle,Pale Muddle",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -20497,7 +20443,7 @@
         " ",
         "Initial Bay Boxing,Rival's Bay Boxing",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -20515,7 +20461,7 @@
         " ",
         "Graven Muscle Memory,Pale Muscle Memory",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -20587,7 +20533,7 @@
         " ",
         "Prestigious Name Drop,Stone Name Drop",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -20623,7 +20569,7 @@
         " ",
         "Stone Nap,Visionary Nap",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -20641,7 +20587,7 @@
         " ",
         "Courtly Nepotism,Degrading Nepotism",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -20659,7 +20605,7 @@
         " ",
         "Boosted Nerve Strike,Focused Nerve Strike",
         1,
-        null,
+        9,
         2,
         6
     ],
@@ -20677,7 +20623,7 @@
         " ",
         "Boosted Networked,Visionary Networked",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -20695,7 +20641,7 @@
         " ",
         "Pale Networker,Visionary Networker",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -20749,7 +20695,7 @@
         " ",
         "Enduring Non Sequitur,Pale Non Sequitur",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -20821,7 +20767,7 @@
         " ",
         "Boosted Obligation,Twisted Obligation",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -20839,7 +20785,7 @@
         " ",
         "Boosted Obliterate,Pale Obliterate",
         3,
-        null,
+        3,
         10,
         12
     ],
@@ -20911,7 +20857,7 @@
         " ",
         "Initial Offset,Pale Offset",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -20983,7 +20929,7 @@
         " ",
         "Pale Open Mind,Visionary Open Mind",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -21019,7 +20965,7 @@
         " ",
         "Tall Oppress,Twisted Oppress",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -21055,7 +21001,7 @@
         " ",
         "Rooted Oscillator,Tall Oscillator",
         1,
-        null,
+        9,
         2,
         5
     ],
@@ -21109,7 +21055,7 @@
         " ",
         "Rooted Over Extension,Tall Over Extension",
         1,
-        null,
+        9,
         8,
         10
     ],
@@ -21127,7 +21073,7 @@
         " ",
         "Enhanced Overbear,Tall Overbear",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -21181,7 +21127,7 @@
         " ",
         "Pale Overdrive,Stable Overdrive",
         3,
-        null,
+        3,
         null,
         null
     ],
@@ -21217,7 +21163,7 @@
         " ",
         "Boosted Overheater,Loaded Overheater",
         2,
-        null,
+        7,
         4,
         8
     ],
@@ -21289,7 +21235,7 @@
         " ",
         "Boosted Overwhelm,Enhanced Overwhelm",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -21307,7 +21253,7 @@
         " ",
         "Boosted Packrat,Initial Packrat",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -24259,7 +24205,7 @@
         " ",
         "Boosted Parvenu,Pale Parvenu",
         9,
-        null,
+        3,
         null,
         null
     ],
@@ -24385,7 +24331,7 @@
         " ",
         "Boosted Pinch,Initial Pinch",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -24439,7 +24385,7 @@
         " ",
         "Boosted Pivot,Soothing Pivot",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -24475,7 +24421,7 @@
         " ",
         "Boosted Planning,Improvised Planning",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -24493,7 +24439,7 @@
         " ",
         "Enduring Plastered,Pale Plastered",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -24511,7 +24457,7 @@
         " ",
         "Simple Plead,Tall Plead",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -24583,7 +24529,7 @@
         " ",
         "Boosted Posture,Stone Posture",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -24601,7 +24547,7 @@
         " ",
         "Boosted Powder Keg,Pale Powder Keg",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -24655,7 +24601,7 @@
         " ",
         "Enduring Power Through,Pale Power Through",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -24673,7 +24619,7 @@
         " ",
         "Boosted Power Trip,Pale Power Trip",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -24691,7 +24637,7 @@
         " ",
         "Cordial Praise,Tall Praise",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -24709,7 +24655,7 @@
         " ",
         "Focused Prattle,Wide Prattle",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -24763,7 +24709,7 @@
         " ",
         "Patient Prediction,Stone Prediction",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -24799,7 +24745,7 @@
         " ",
         "Boosted Pressure,Tall Pressure",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -24835,7 +24781,7 @@
         " ",
         "Initial Projector,Pale Projector",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -24853,7 +24799,7 @@
         " ",
         "Boosted Prominence,Twisted Prominence",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -25069,7 +25015,7 @@
         " ",
         "Initial Protective Procedure,Pale Protective Procedure",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -25105,7 +25051,7 @@
         " ",
         "Boosted Feedback,Pale Feedback",
         2,
-        null,
+        7,
         3,
         5
     ],
@@ -25123,7 +25069,7 @@
         " ",
         "Boosted Psionic Storm,Pale Psionic Storm",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -25141,7 +25087,7 @@
         " ",
         "Boosted Pulse,Enhanced Pulse",
         1,
-        null,
+        9,
         2,
         2
     ],
@@ -25249,7 +25195,7 @@
         " ",
         "Boosted Style,Sticky Style",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -25321,7 +25267,7 @@
         " ",
         "Boosted Pursue,Seeking Pursue",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -25339,7 +25285,7 @@
         " ",
         "Split Push It,Visionary Push It",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -25447,7 +25393,7 @@
         " ",
         "Boosted Thinking,Promoted Thinking",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -25465,7 +25411,7 @@
         " ",
         "Enduring Quip,Pale Quip",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -25501,7 +25447,7 @@
         " ",
         "Rigged Radula,Visionary Radula",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -25573,7 +25519,7 @@
         " ",
         "Boosted Raise,Wide Raise",
         1,
-        null,
+        9,
         2,
         6
     ],
@@ -25591,7 +25537,7 @@
         " ",
         "Boosted Rampart,Stone Rampart",
         2,
-        null,
+        7,
         3,
         5
     ],
@@ -25609,7 +25555,7 @@
         " ",
         "Precise Ransack,Visionary Ransack",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -25627,7 +25573,7 @@
         " ",
         "Boosted Rant,Visionary Rant",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -25663,7 +25609,7 @@
         " ",
         "Boosted Fire,Maintained Fire",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -25717,7 +25663,7 @@
         " ",
         "Initial Ravenous,Pale Ravenous",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -25753,7 +25699,7 @@
         " ",
         "Enduring Raw Power,Pale Raw Power",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -25789,7 +25735,7 @@
         " ",
         "Initial Readied,Pale Readied",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -25807,7 +25753,7 @@
         " ",
         "Boosted Readiness,Stone Readiness",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -25825,7 +25771,7 @@
         " ",
         "Spined Rebound,Stone Rebound",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -25879,7 +25825,7 @@
         " ",
         "Boosted Recall,Pale Recall",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -25915,7 +25861,7 @@
         " ",
         "Boosted Reckless Insults,Pale Reckless Insults",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -25933,7 +25879,7 @@
         " ",
         "Boosted Swing,Focused Swing",
         1,
-        null,
+        9,
         5,
         5
     ],
@@ -25951,7 +25897,7 @@
         " ",
         "Pale Reconsider,Visionary Reconsider",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -25969,7 +25915,7 @@
         " ",
         "Boosted Recycle,Healing Recycle",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -25987,7 +25933,7 @@
         " ",
         "Boosted Red Herring,Pale Red Herring",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -26023,7 +25969,7 @@
         " ",
         "Stone Reduce,Wide Reduce",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -26059,7 +26005,7 @@
         " ",
         "Boosted Refusal,Pale Refusal",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -26095,7 +26041,7 @@
         " ",
         "Enduring Rehearsal,Pale Rehearsal",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -26113,7 +26059,7 @@
         " ",
         "Boosted Release Valve,Stone Release Valve",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -26149,7 +26095,7 @@
         " ",
         "Boosted Renounce,Visionary Renounce",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -26221,7 +26167,7 @@
         " ",
         "Boosted Rescind,Focused Rescind",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -26239,7 +26185,7 @@
         " ",
         "Pale Reserve Round,Tall Reserve Round",
         2,
-        null,
+        7,
         5,
         8
     ],
@@ -26311,7 +26257,7 @@
         " ",
         "Boosted Resonance,Wide Resonance",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -26365,7 +26311,7 @@
         " ",
         "Boosted Reuse,Pale Reuse",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -26383,7 +26329,7 @@
         " ",
         "Boosted Reversal,Focused Reversal",
         1,
-        null,
+        7,
         4,
         6
     ],
@@ -26401,7 +26347,7 @@
         " ",
         "Pale Revision,Visionary Revision",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -26419,7 +26365,7 @@
         " ",
         "Boosted Rib Cracker,Wide Rib Cracker",
         1,
-        null,
+        9,
         3,
         5
     ],
@@ -26527,7 +26473,7 @@
         " ",
         "Boosted Right in the Face,Wide Right in the Face",
         1,
-        null,
+        7,
         4,
         4
     ],
@@ -26545,7 +26491,7 @@
         " ",
         "Rooted Ripper,Tall Ripper",
         1,
-        null,
+        9,
         3,
         6
     ],
@@ -26851,7 +26797,7 @@
         " ",
         "Boosted Robo-Kick,Enhanced Robo-Kick",
         1,
-        null,
+        9,
         5,
         5
     ],
@@ -27715,7 +27661,7 @@
         " ",
         "Boosted Roughneck,Twisted Roughneck",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -27733,7 +27679,7 @@
         " ",
         "Stone Rubble,Visionary Rubble",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -27769,7 +27715,7 @@
         " ",
         "Boosted Rummage,Lucid Rummage",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -27805,7 +27751,7 @@
         " ",
         "Boosted Ruthless,Rooted Ruthless",
         1,
-        null,
+        9,
         3,
         5
     ],
@@ -27841,7 +27787,7 @@
         " ",
         "Boosted Sacrifice,Softened Sacrifice",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -27895,7 +27841,7 @@
         " ",
         "Sal's Bloody Daggers,Sal's Combo Daggers",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -28075,7 +28021,7 @@
         " ",
         "Pale Save Face,Stone Save Face",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -28093,7 +28039,7 @@
         " ",
         "Boosted Scanner,Precise Scanner",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -28111,7 +28057,7 @@
         " ",
         "Biting Scapegoat,Pale Scapegoat",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -28129,7 +28075,7 @@
         " ",
         "Boosted Scatter,Visionary Scatter",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -28165,7 +28111,7 @@
         " ",
         "Boosted Scorched Earth,Pale Scorched Earth",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -28219,7 +28165,7 @@
         " ",
         "Boosted Scream,Softened Scream",
         " ",
-        null,
+        8,
         null,
         null
     ],
@@ -28309,7 +28255,7 @@
         " ",
         "Rooted Sear,Tall Sear",
         1,
-        null,
+        9,
         1,
         4
     ],
@@ -28327,7 +28273,7 @@
         " ",
         "Boosted Searing Bullet,Promoted Searing Bullet",
         1,
-        null,
+        9,
         2,
         4
     ],
@@ -28345,7 +28291,7 @@
         " ",
         "Pale Wind,Visionary Wind",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -28417,7 +28363,7 @@
         " ",
         "Boosted Doubt,Visionary Doubt",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -28435,7 +28381,7 @@
         " ",
         "Boosted Seeker,Pale Seeker",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -28489,7 +28435,7 @@
         " ",
         "Boosted Seethe,Visionary Seethe",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -28507,7 +28453,7 @@
         " ",
         "Enhanced Segue,Visionary Segue",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -28543,7 +28489,7 @@
         " ",
         "Induction Sentinel,Stone Sentinel",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -28633,7 +28579,7 @@
         " ",
         "Boosted Setup,Pale Setup",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -28651,7 +28597,7 @@
         " ",
         "Initial Shadow Mastery,Pale Shadow Mastery",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -28669,7 +28615,7 @@
         " ",
         "Enduring Sharpen,Sharpen of Vision",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -28723,7 +28669,7 @@
         " ",
         "Boosted Shatter,Broken Shatter",
         1,
-        null,
+        7,
         3,
         5
     ],
@@ -28759,7 +28705,7 @@
         " ",
         "Sticky Shelve,Visionary Shelve",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -28867,7 +28813,7 @@
         " ",
         "Boosted Shock Therapy,Enhanced Shock Therapy",
         1,
-        null,
+        9,
         2,
         3
     ],
@@ -28957,7 +28903,7 @@
         " ",
         "Rival's Roll,Stone Roll",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -29047,7 +28993,7 @@
         " ",
         "Boosted Shrewd,Thorny Shrewd",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -29191,7 +29137,7 @@
         " ",
         "Deep Silent Steel,Rooted Steel",
         " ",
-        null,
+        8,
         5,
         5
     ],
@@ -29299,7 +29245,7 @@
         " ",
         "Rival's Size Up,Visionary Size Up",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -29371,7 +29317,7 @@
         " ",
         "Boosted Slaughter,Pale Slaughter",
         2,
-        null,
+        7,
         2,
         5
     ],
@@ -29407,7 +29353,7 @@
         " ",
         "Boosted Slice,Promoted Slice",
         1,
-        null,
+        9,
         2,
         3
     ],
@@ -29425,7 +29371,7 @@
         " ",
         "Boosted Slippery,Stone Slippery",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -29443,7 +29389,7 @@
         " ",
         "Boosted Slug Smash,Soothing Slug Smash",
         1,
-        null,
+        9,
         0,
         0
     ],
@@ -29479,7 +29425,7 @@
         " ",
         "Boosted Slugstorm,Wide Slugstorm",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -29515,7 +29461,7 @@
         " ",
         "Boosted Smash,Softened Smash",
         2,
-        null,
+        7,
         6,
         8
     ],
@@ -29533,7 +29479,7 @@
         " ",
         "Smith's Bottle,Smith's Hammer",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -29605,7 +29551,7 @@
         " ",
         "Smith's Boosted Flask,Smith's Wide Flask",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -29659,7 +29605,7 @@
         " ",
         "Assertive Snag,Boosted Snag",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -29677,7 +29623,7 @@
         " ",
         "Rooted Snail Bite,Tall Snail Bite",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -29695,7 +29641,7 @@
         " ",
         "Enhanced Snail Hunt,Rigged Snail Hunt",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -29713,7 +29659,7 @@
         " ",
         "Pale Snail in the Pocket,Visionary Snail in the Pocket",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -29749,7 +29695,7 @@
         " ",
         "Pale Sneak Attack,Tall Sneak Attack",
         2,
-        null,
+        5,
         3,
         8
     ],
@@ -29767,7 +29713,7 @@
         " ",
         "Boosted Snellick's Finest,Enduring Snellick's Finest",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -29947,7 +29893,7 @@
         " ",
         "Initial Soothing Concoctions,Pale Soothing Concoctions",
         3,
-        null,
+        3,
         null,
         null
     ],
@@ -30163,7 +30109,7 @@
         " ",
         "Rival's Specialty,Wide Specialty",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -30253,7 +30199,7 @@
         " ",
         "Rooted Spin,Tall Spin",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -30361,7 +30307,7 @@
         " ",
         "Pale Spines,Thorny Spines",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -30379,7 +30325,7 @@
         " ",
         "Aimed Splinter,Boosted Splinter",
         1,
-        null,
+        7,
         5,
         7
     ],
@@ -30451,7 +30397,7 @@
         " ",
         "Boosted Spurs,Stony Spurs",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -30469,7 +30415,7 @@
         " ",
         "Boosted Square Up,Pale Square Up",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -30523,7 +30469,7 @@
         " ",
         "Boosted Squeeze,Visionary Squeeze",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -30793,7 +30739,7 @@
         " ",
         "Initial Stacked Deck,Pale Stacked Deck",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -30829,7 +30775,7 @@
         " ",
         "Pale Standing,Stone Standing",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -31063,7 +31009,7 @@
         " ",
         "Boosted Stoke,Pale Stoke",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -31099,7 +31045,7 @@
         " ",
         "Boosted Stomp,Rooted Stomp",
         1,
-        null,
+        7,
         3,
         6
     ],
@@ -31981,7 +31927,7 @@
         " ",
         "Boosted Stool Pigeon,Enduring Stool Pigeon",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -32089,7 +32035,7 @@
         " ",
         "Initial Strategy,Pale Strategy",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -32143,7 +32089,7 @@
         " ",
         "Boosted Striker,Tall Striker",
         1,
-        null,
+        9,
         2,
         5
     ],
@@ -32161,7 +32107,7 @@
         " ",
         "Boosted Stringer,Pale Stringer",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -32233,7 +32179,7 @@
         " ",
         "Enduring Subtle Setup,Pale Subtle Setup",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -32251,7 +32197,7 @@
         " ",
         "Boosted Subtlety,Rooted Subtlety",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -32269,7 +32215,7 @@
         " ",
         "Boosted Sucker Punch,Stifling Sucker Punch",
         1,
-        null,
+        9,
         5,
         5
     ],
@@ -32341,7 +32287,7 @@
         " ",
         "Boosted Suppressing Fire,Promoted Suppressing Fire",
         2,
-        null,
+        7,
         2,
         6
     ],
@@ -32359,7 +32305,7 @@
         " ",
         "Boosted Surge Coil,Rooted Surge Coil",
         1,
-        null,
+        9,
         2,
         5
     ],
@@ -32413,7 +32359,7 @@
         " ",
         "Pale Reflexes,Visionary Reflexes",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -32467,7 +32413,7 @@
         " ",
         "Boosted Rebuttal,Visionary Rebuttal",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -32485,7 +32431,7 @@
         " ",
         "Boosted Swig,Mirrored Swig",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -32503,7 +32449,7 @@
         " ",
         "Barbed Switch Blade,Boosted Switch Blade",
         " ",
-        null,
+        8,
         2,
         2
     ],
@@ -32521,7 +32467,7 @@
         " ",
         "Boosted Tackle,Thorny Tackle",
         1,
-        null,
+        9,
         3,
         5
     ],
@@ -32539,7 +32485,7 @@
         " ",
         "Boosted Mind,Pale Mind",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -33637,7 +33583,7 @@
         " ",
         "Boosted Tantrum,Enhanced Tantrum",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -33655,7 +33601,7 @@
         " ",
         "Boosted Target Practice,Savage Target Practice",
         1,
-        null,
+        9,
         2,
         5
     ],
@@ -33727,7 +33673,7 @@
         " ",
         "Initial Tempered,Pale Tempered",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -33745,7 +33691,7 @@
         " ",
         "Boosted Tempt,Pale Tempt",
         6,
-        null,
+        3,
         null,
         null
     ],
@@ -33853,7 +33799,7 @@
         " ",
         "Tall Gamble,Visionary Gamble",
         1,
-        null,
+        9,
         1,
         4
     ],
@@ -33871,7 +33817,7 @@
         " ",
         "The Pale Pain Train,The Rooted Pain Train",
         10,
-        null,
+        3,
         8,
         14
     ],
@@ -33925,7 +33871,7 @@
         " ",
         "The Fortified Pinto Pour,The Pale Pinto Pour",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -33979,7 +33925,7 @@
         " ",
         "Gulping Rust Bucket,Stone Rust Bucket",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -33997,7 +33943,7 @@
         " ",
         "The Rooted Sledge,The Stifling Sledge",
         1,
-        null,
+        9,
         3,
         5
     ],
@@ -34015,7 +33961,7 @@
         " ",
         "The Evasive Slip,The Stone Slip",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -34087,7 +34033,7 @@
         " ",
         "Regenerating Thickness,Stone Thickness",
         2,
-        null,
+        7,
         null,
         null
     ],
@@ -34123,7 +34069,7 @@
         " ",
         "Boosted Instinct,Promoted Instinct",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -34159,7 +34105,7 @@
         " ",
         "Enduring This Ends Now,Pale This Ends Now",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -34267,7 +34213,7 @@
         " ",
         "Boosted Thoughtless,Pale Thoughtless",
         2,
-        null,
+        5,
         null,
         null
     ],
@@ -34357,7 +34303,7 @@
         " ",
         "Stable Tight Spot,Stone Tight Spot",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -34465,7 +34411,7 @@
         " ",
         "Pale Topple,Softened Topple",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -34519,7 +34465,7 @@
         " ",
         "Boosted Tough and Angry,Stone Tough and Angry",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -34537,7 +34483,7 @@
         " ",
         "Boosted Toughen Up,Easing Toughen Up,Excited Toughen Up,Lucid Toughen Up,Quenched Toughen Up,Rolling Toughen Up,Toughen Up of Clarity",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -34591,7 +34537,7 @@
         " ",
         "Boosted Tracer,Stone Tracer",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -34627,7 +34573,7 @@
         " ",
         "Boosted Trade,Pale Trade",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -34645,7 +34591,7 @@
         " ",
         "Boosted Trained Strike,Nailing Trained Strike",
         1,
-        null,
+        9,
         2,
         4
     ],
@@ -34699,7 +34645,7 @@
         " ",
         "Boosted Tremor,Inductive Tremor",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -34735,7 +34681,7 @@
         " ",
         "Boosted Trick Shot,Enhanced Trick Shot",
         1,
-        null,
+        9,
         1,
         8
     ],
@@ -34753,7 +34699,7 @@
         " ",
         "Promoted Trickery,Wide Trickery",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -34843,7 +34789,7 @@
         " ",
         "Boosted Turnabout,Pale Turnabout",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -35293,7 +35239,7 @@
         " ",
         "Enhanced Tyrannize,Pale Tyrannize",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -35401,7 +35347,7 @@
         " ",
         "Rooted Unyielding,Tall Unyielding",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -35419,7 +35365,7 @@
         " ",
         "Boosted Uppercut,Pale Uppercut",
         2,
-        null,
+        6,
         2,
         5
     ],
@@ -35437,7 +35383,7 @@
         " ",
         "Rooted Upright,Tall Upright",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -35473,7 +35419,7 @@
         " ",
         "Boosted Vantage,Visionary Vantage",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -35527,7 +35473,7 @@
         " ",
         "Mirrored Anger,Tall Anger",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -35545,7 +35491,7 @@
         " ",
         "Boosted Vent,Pale Vent",
         4,
-        null,
+        3,
         5,
         8
     ],
@@ -35563,7 +35509,7 @@
         " ",
         "Boosted Venture,Enhanced Venture",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -35653,7 +35599,7 @@
         " ",
         "Enduring Viciousness,Pale Viciousness",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -37165,7 +37111,7 @@
         " ",
         "Boosted Vulgar,Visionary Vulgar",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -37237,7 +37183,7 @@
         " ",
         "Stone Waylay,Wide Waylay",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -37255,7 +37201,7 @@
         " ",
         "Enduring Weak Points,Pale Weak Points",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -37417,7 +37363,7 @@
         " ",
         "Pale Weight,Tall Weight",
         4,
-        null,
+        3,
         null,
         null
     ],
@@ -37471,7 +37417,7 @@
         " ",
         "Boosted Lie,Pale Lie",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -37489,7 +37435,7 @@
         " ",
         "Boosted Who?,Pale Who?",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -37975,7 +37921,7 @@
         " ",
         "Tall Wild Lunge,Wide Wild Lunge",
         1,
-        null,
+        9,
         2,
         8
     ],
@@ -37993,7 +37939,7 @@
         " ",
         "Boosted Wild Rant,Enduring Wild Rant",
         1,
-        null,
+        7,
         null,
         null
     ],
@@ -38011,7 +37957,7 @@
         " ",
         "Boosted Wildfire,Twisted Wildfire",
         1,
-        null,
+        9,
         null,
         null
     ],
@@ -38029,7 +37975,7 @@
         " ",
         "Boosted Wind up,Twisted Wind up",
         1,
-        null,
+        9,
         4,
         4
     ],
@@ -38101,7 +38047,7 @@
         " ",
         "Boosted Wounding Shot,Enhanced Wounding Shot",
         2,
-        null,
+        7,
         4,
         5
     ],
@@ -38119,7 +38065,7 @@
         " ",
         "Rooted Wretched Strike,Tall Wretched Strike",
         1,
-        null,
+        9,
         1,
         3
     ],
@@ -38173,7 +38119,7 @@
         " ",
         "Boosted Zero,Enhanced Zero",
         1,
-        null,
+        9,
         2,
         5
     ],
@@ -38209,7 +38155,7 @@
         " ",
         "Boosted Zig Zag,Pale Zig Zag",
         1,
-        null,
+        9,
         null,
         null
     ],

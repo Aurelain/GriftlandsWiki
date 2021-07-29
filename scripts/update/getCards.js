@@ -40,12 +40,17 @@ const SERIES = {
 };
 
 /**
+ * From "constants.lua"
+ */
+const DEFAULT_CARD_XP = 10;
+
+/**
  * The following card ids are skipped, even though they have artwork.
- * They're never displayed as cards to the user (?).
  */
 const DENIED = {
-    // choose_diplomacy: true,
-    // choose_hostile: true,
+    choose_diplomacy: true, // hidden in Compendium (hide_in_cardex)
+    choose_hostile: true, // hidden in Compendium (hide_in_cardex)
+    frisk: true, // this is an internal card (not "admiralty_orders"), with the OPPONENT flag
 };
 
 // =====================================================================================================================
@@ -94,9 +99,11 @@ const getRawCards = (zip) => {
                 const hybridLua = convertLuaToJs(cleanLua);
                 const luaCards = extractRawCards(hybridLua, entryName);
                 for (const id in luaCards) {
-                    // if (id !== 'little_score') continue;
-                    assert(!cards[id], `Duplicate card "${id}"!`);
-                    cards[id] = luaCards[id];
+                    if (!DENIED[id]) {
+                        // if (id !== 'little_score') continue;
+                        assert(!cards[id], `Duplicate card "${id}"!`);
+                        cards[id] = luaCards[id];
+                    }
                 }
             }
         }
@@ -344,6 +351,25 @@ const fixSomeValues = (bag) => {
         cleanSeries = cleanSeries.split('card_series.').join('');
         assert(SERIES[cleanSeries], `"${id} (${name}) has an invalid series! ${series}`);
         card.series = SERIES[cleanSeries];
+
+        computeXp(card);
+    }
+};
+
+/**
+ * Ported from "content.lua"
+ */
+const computeXp = (card) => {
+    if (card.max_xp === undefined && card.upgrades) {
+        let default_xp = DEFAULT_CARD_XP - Math.max(0, 2 * card.cost - 1);
+        if (card.keywords && card.keywords.match(/Expend|Finisher/)) {
+            default_xp = default_xp - 2;
+        } else {
+            if (card.mod_xp) {
+                default_xp = default_xp + card.mod_xp;
+            }
+        }
+        card.max_xp = Math.max(3, default_xp);
     }
 };
 

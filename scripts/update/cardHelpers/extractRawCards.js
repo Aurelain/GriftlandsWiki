@@ -161,6 +161,38 @@ const evaluateLoopBlock = (code, bag, deckCards, deckType) => {
     }
 };
 
+// noinspection JSUnusedLocalSymbols
+/**
+ * Needed by `eval` in `evaluateLoopBlock`
+ */
+const CheckBits = (list, ...args) => {
+    if (!list) {
+        return false;
+    }
+    for (const item of args) {
+        if (!list.includes(item)) {
+            return false;
+        }
+    }
+    return true;
+};
+
+// noinspection JSUnusedLocalSymbols
+/**
+ * Needed by `eval` in `evaluateLoopBlock`
+ */
+const CheckAnyBits = (list, ...args) => {
+    if (!list) {
+        return false;
+    }
+    for (const item of args) {
+        if (list.includes(item)) {
+            return true;
+        }
+    }
+    return false;
+};
+
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================

@@ -22,9 +22,6 @@ const parseLoopLines = (loopBlock) => {
     lines = lines.replace(/^\s*table\.insert.*/gm, '');
     lines = lines.replace(/^\s*CONDITION_LOOKUPS.*/gm, '');
 
-    // "scripts/content/negotiation/ai_negotiation.lua" has difficult condition so we remove it:
-    lines = lines.replace(/.*?Check\w*Bits[^}]*}/g, '');
-
     // "scripts/content/attacks/monster_actions.lua"
     lines = lines.replace(/SetBits\((.*?),(.*?)\)/g, '($1)|$2');
 
@@ -74,6 +71,7 @@ const adaptBitField = (lines) => {
         draftLine += ']';
         lines = lines.split(line).join(draftLine);
     }
+    lines = lines.replace(/(.*?Check\w*Bits.*)]$/gm, '$1'); // remove the last bracket, see "ai_negotiation.lua"
     return lines;
 };
 
