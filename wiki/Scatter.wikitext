@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = Loop back around, I'll keep them distracted.
+|description = Discard up to 2 cards. <br/> Gain 1 [[Temporary Power]] for each card discarded.
+|cost = 1
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Temporary Power]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Scatter
-|upgrade2 = Visionary Scatter}}
-{{Quote|Loop back around, I'll keep them distracted.}}
-
-'''Scatter''' is a 1-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "Discard up to 2 cards. Gain 1 '''Temporary Power''' for each card discarded."
-
-==Upgrades==
-After accruing 9 experience '''Scatter''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Scatter.png|150px]]
-|[[File:Visionary Scatter.png|150px]]
-|-
-!Discard up to '''3''' cards.
-!Draw a card.
-|}
+|upgrade1summary = Discard up to '''3''' cards.
+|upgrade2 = Visionary Scatter
+|upgrade2summary = Draw a card.
+}}

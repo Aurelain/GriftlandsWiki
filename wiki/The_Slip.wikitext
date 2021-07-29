@@ -1,22 +1,16 @@
-{{Card
+{{CardPage
+|quote = She's too quick! I can't get a read on her!
+|description = Apply 8 [[Defense]]. If this card was [[Improvise|Improvised]] this turn, also gain 1 [[Evasion]].
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
-|keywords = 
+|keywords = [[Defense]], [[Evasion]], [[Improvise]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = The Stone Slip
-|upgrade2 = The Evasive Slip}}
-{{Quote|She's too quick! I can't get a bead on her!}}
-
-==Upgrades==
-At 9 experience, '''The Slip''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:The Stone Slip.png|150px]]
-|[[File:The Evasive Slip.png|150px]]
-|-
-!Apply 8 [[Defense]]
-!Gain 2 [[Evasion]] is improvised
-|}
+|upgrade1summary = Apply 8 [[Defense]]
+|upgrade2 = The Evasive Slip
+|upgrade2summary = Gain 2 [[Evasion]] if [[Improvise|Improvised]]
+}}

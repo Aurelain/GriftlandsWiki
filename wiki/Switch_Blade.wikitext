@@ -1,22 +1,20 @@
-{{Card
+{{Reupload}}
+
+{{CardPage
+|quote = It just keeps coming.
+|description = Add a copy of this card to your discard. <br/> Spend 2 [[Combo]]: Draw a card. <br/> [[Finisher]] 
+|cost = 0
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = [[Combo]], [[Finisher]] 
 |upgradeable = Yes
 |expreq = 8
 |upgrade1 = Barbed Switch Blade
-|upgrade2 = Boosted Switch Blade}}
-{{Quote|It just keeps coming.}}
-
-==Upgrades==
-At 8 experience, '''Switch Blade''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Barbed Switch Blade.png|150px]]
-|[[File:Boosted Switch Blade.png|150px]]
-|-
-!Gains "50% chance of applying 1 [[Wound]]"
-!Deals 4 damage
-|}
+|upgrade1summary = 50% chance of applying 1 [[Wound]]
+|upgrade2 = Boosted Switch Blade
+|upgrade2summary = Deals 4 base damage
+|mindamage = 2
+|maxdamage = 2
+}}

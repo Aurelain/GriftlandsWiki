@@ -1,23 +1,16 @@
-{{Card
+{{CardPage
+|quote = This one's called Dag. The other one's Gurr.<br>Yeah? Well I don't like '''your''' name, either, pal.
+|description = Insert [[Hammer Grip]] or [[Saber Grip]] into your hand.
+|cost = 1
+|character = Sal
 |cardtype = Maneuver
 |decktype = Battle
 |expreq = 9
 |rarity = Basic
-|upgrade1 = Sal's Bloody Daggers: Insert [[Gouge]] or [[Vertical Slash]] into your hand.
-|upgrade2 = Sal's Combo Daggers: Insert [[Rain of Blades]] or [[Gut Shot]] into your hand.
-|character = Sal}}
-{{Quote|This one's called Dag. The other one's Gurr.<br>Yeah? Well I don't like '''your''' name, either, pal.}}
-
-'''Sal's Daggers''' is a 1-cost Basic '''Maneuver''' card for [[Sal]]. It inserts either [[Hammer Grip]] or [[Saber Grip]] into your hand. As a base card '''Sal's Daggers''' is always part of the available card pool for [[Sal]].
-
-
-==Upgrades==
-At 9 experience, '''Sal's Daggers''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Sal's Bloody Daggers.png|150px]]
-|[[File:Sal's Combo Daggers.png|150px]]
-|-
-!Insert [[Gouge]] or [[Vertical Slash]] into your hand.
-!Insert [[Rain of Blades]] or [[Gut Shot]] into your hand.
-|}
+|upgrade1 = Sal's Bloody Daggers
+|upgrade1summary = Insert [[Gouge]] or [[Vertical Slash]] into your hand.
+|upgrade2 = Sal's Combo Daggers
+|upgrade2summary = Insert [[Rain of Blades]] or [[Gut Shot]] into your hand.
+|special1 = Hammer Grip
+|special2 = Saber Grip
+}}

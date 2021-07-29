@@ -1,24 +1,18 @@
-{{Card
+{{Reupload|[[Finisher]] from the deck instead of Attack card from draw pile.}}
+
+{{CardPage
+|quote = I call this one the Murder Bay Mauler!
+|description = [[Improvise]] a [[Finisher]] from your deck. Gain 2 [[Combo]].
+|cost = 1
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Improvise]], [[Finisher]], [[Combo]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Rival's Specialty
-|upgrade2 = Wide Specialty}}
-{{Quote|I call this one the Murder Bay Mauler!}}
-
-'''Specialty''' is a 1-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "'''Improvise''' a '''Finisher''' from your deck. Gain 2 '''Combo'''."
-
-==Upgrades==
-After accruing 5 experience '''Specialty''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Rival's Specialty.png|150px]]
-|[[File:Wide Specialty.png|150px]]
-|-
-!Gain 4 '''Combo'''.
-!'''Improvise+''' a Finisher.
-|}
+|upgrade1summary = Gain 4 [[Combo]].
+|upgrade2 = Wide Specialty
+|upgrade2summary = [[Improvise+]] a [[Finisher]].
+}}

@@ -1,23 +1,18 @@
-{{Card
+{{Reupload}}
+
+{{CardPage
+|quote = Hey you can't bring a Shroke in here to fight, I'll break my hand!
+|description = Spend all your [[Combo]]: Gain 3 [[Defense]] per [[Combo]]. Regain your spent [[Combo]] next turn. <br/> [[Finisher]]
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Combo]], [[Defense]], [[Finisher]]
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Stone Roll
-|upgrade2 = Rival's Roll}}
-{{Quote|Hey you can't bring a Shroke in here to fight, I'll break my hand!}}
-
-
-==Upgrades==
-At 7 experience, '''Shoulder Roll''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Stone Roll.png|150px]]
-|[[File:Rival's Roll.png|150px]]
-|-
-!Gain 3 [[Defense]] per [[Combo]]
-!Gain 2 more [[combo]] next turn
-|}
+|upgrade1summary = Gain 3 [[Defense]] per [[Combo]]
+|upgrade2 = Rival's Roll
+|upgrade2summary = Gain 2 more [[Combo]] next turn
+}}

@@ -36,6 +36,8 @@ When traveling, the player can have unforeseen encounters which are unrelated to
 
 [[You find a Jake sitting by the side of the road.]]
 
+[[Sal Gets An Envelope]]
+
 == Rook's Campaign ==
 
 [[One of the Cult's Zealots Approaches]]

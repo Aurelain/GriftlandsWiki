@@ -1,48 +1,31 @@
-{{Card
+{{CardPage
+|quote = Why do I have two daggers? Well, I have two hands, don't I?
+|description = 
+|cost = 1
+|character = Sal
 |rarity = Basic
 |cardtype = Attack
 |decktype = Battle
-|character = Sal
 |upgradeable = Yes
 |expreq = 6
 |upgrade1 = Stab of Clarity
+|upgrade1summary = Deal 10 base damage. <br/> [[Destroy]]
 |upgrade2 = Stab of the Stone
+|upgrade2summary = Gain 2 [[Defense]].
 |upgrade3 = Stab of Savagery
+|upgrade3summary = Apply 2 [[Bleed]].
 |upgrade4 = Stab of the Deep
+|upgrade4summary = Apply 1 [[Wound]].
 |upgrade5 = Stab of Vision
+|upgrade5summary = Draw a card.
 |upgrade6 = Stab of the Mirror
+|upgrade6summary = Deal 2-4 base damage. <br/> Attack twice.
 |upgrade7 = Stab of the Nail
+|upgrade7summary = [[Piercing]]
 |upgrade8 = Rooted Stab
-|upgrade9 = Strained Stab}}
-{{Quote|Why do I have two daggers? Well, I have two hands, don't I?}}
-
-'''Stab''' is a 1-cost Basic '''Attack''' card for [[Sal]]. It deals 2-5 base damage. As a base card '''Stab''' is always part of the available card pool for [[Sal]].
-
-==Upgrades==
-After accruing 6 experience '''Stab''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Stab of Clarity.png|150px]]
-|[[File:Stab of the Stone.png|150px]]
-|[[File:Stab of Savagery.png|150px]]
-|[[File:Stab of the Deep.png|150px]]
-|-
-![[Destroy]]
-!Gain 2 [[Defense]].
-!Apply 2 [[Bleed]].
-!Apply 1 [[Wound]].
-|-
-|[[File:Stab of Vision.png|150px]]
-|[[File:Stab of the Mirror.png|150px]]
-|[[File:Stab of the Nail.png|150px]]
-|[[File:Rooted Stab.png|150px]]
-|-
-!Draw a card.
-!Attack twice.
-![[Piercing]]
-!
-|-
-|[[File:Strained Stab.png|150px]]
-|-
-!Discard a card.
-|}
+|upgrade8summary = Deals 4-5 base damage.
+|upgrade9 = Strained Stab
+|upgrade9summary = Deal 4-6 base damage. <br/> Discard a card.
+|mindamage = 2
+|maxdamage = 5
+}}

@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = Hold still so I can kill you!
+|description = [[Improvise]] a card from your discard pile. <br/> Gain 4 [[Defense]].
+|cost = 1
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Improvise]], [[Defense]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Stone Slippery
-|upgrade2 = Boosted Slippery}}
-{{Quote|Hold still so I can kill you!}}
-
-'''Slippery''' is a 1-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "'''Improvise''' a card from your discard pile. Gain 4 '''Defense'''."
-
-==Upgrades==
-After accruing 5 experience '''Slippery''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Stone Slippery.png|150px]]
-|[[File:Boosted Slippery.png|150px]]
-|-
-!Gain 6 '''Defense'''.
-!'''Improvise+''' a card.
-|}
+|upgrade1summary = Gain 6 [[Defense]].
+|upgrade2 = Boosted Slippery
+|upgrade2summary = [[Improvise+]] a card.
+}}

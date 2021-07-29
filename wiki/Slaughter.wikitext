@@ -1,22 +1,18 @@
-{{Card
+{{CardPage
+|quote = It was a massacre, people get named after things like that.
+|description = Draw cards equal to the damage dealt by this card.
+|cost = 2
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = 
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Pale Slaughter
-|upgrade2 = Boosted Slaughter}}
-{{Quote|It was a massacre, people get named after things like that.}}
-
-==Upgrades==
-At 7 experience, '''Slaughter''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Pale Slaughter.png|150px]]
-|[[File:Boosted Slaughter.png|150px]]
-|-
-!Costs 1 action
-!Deals 3-6 damage
-|}
+|upgrade1summary = Costs 1 action less
+|upgrade2 = Boosted Slaughter
+|upgrade2summary = Deals 3-6 base damage
+|mindamage = 2
+|maxdamage = 5
+}}

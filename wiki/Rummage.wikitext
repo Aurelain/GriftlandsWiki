@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = I know it in here somewhere, who drew all these pockets?
+|description = Draw a card. <br/> Discard a card.
+|cost = 0
 |character = Sal
 |rarity = Uncommon
 |cardtype = Maneuver
 |decktype = Battle
+|keywords = 
 |upgradeable = Yes
 |expreq = 10
 |upgrade1 = Boosted Rummage
-|upgrade2 = Lucid Rummage}}
-{{Quote|I know it in here somewhere, who drew all these pockets?}}
-
-'''Rummage''' is a 0-cost Uncommon '''Maneuver''' card for [[Sal]]. It will draw a card, then you discard a card.
-
-==Upgrades==
-After accruing 10 experience '''Rummage''' is able to be upgraded. 
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Rummage.png|150px]]
-|[[File:Lucid Rummage.png|150px]]
-|-
-!Draw 2 cards; Discard 2 cards
-!Draw 2 cards; [[Expend]] a card
-|-
-|}
+|upgrade1summary = Draw 2 cards. <br/> Discard 2 cards.
+|upgrade2 = Lucid Rummage
+|upgrade2summary = Draw 2 cards. <br/> [[Expend]] a card.
+}}

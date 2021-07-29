@@ -1,22 +1,16 @@
-{{Card
+{{CardPage
+|quote = Not bad, but try staying a little lower to the ground.
+|description = Gain 2 [[Defense]]. <br/> Discard this card: gain 2 [[Defense]] and 2 [[Counter]]
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Defense]], [[Counter]] 
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Stringer
-|upgrade2 = Pale Stringer}}
-{{Quote|Not bad, but try staying a little lower to the ground.}}
-
-==Upgrades==
-At 9 experience, '''Stringer''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Stringer.png|150px]]
-|[[File:Pale Stringer.png|150px]]
-|-
-!Gain 4 [[Defense]]. When discarded, gain 4 [[Defense]] and 4 [[Counter]]
-!Costs 0 actions
-|}
+|upgrade1summary = Gain 4 [[Defense]]. <br/> When discarded, gain 4 [[Defense]] and 4 [[Counter]]
+|upgrade2 = Pale Stringer
+|upgrade2summary = <br/> Costs 0 actions
+}}

@@ -206,6 +206,10 @@ or
 ** If the boss is spared, Rook will finish them off, surprising Sal. Rook will then Like Sal.
 ** If the boss is killed by Sal, Rook will Love Sal.
 
+== Random Encounters ==
+
+* [[Damaged Enforcer]]
+
 ==Trivia==
 *Rook's original name was revealed as "Falcon", but was changed during development to "Rook". 
 *Rook has an infinite loop through the use of [[Gun Smoke]].

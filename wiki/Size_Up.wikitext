@@ -1,22 +1,16 @@
-{{Card
+{{CardPage
+|quote = I probably know your jacket size too, let's do this.
+|description = Draw 2 cards, gain [[Combo]] equal to their combined cost.
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Combo]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Visionary Size Up
-|upgrade2 = Rival's Size Up}}
-{{Quote|I probably know your jacket size too, let's do this.}}
-
-==Upgrades==
-At 9 experience, '''Size Up''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Visionary Size Up.png|150px]]
-|[[File:Rival's Size Up.png|150px]]
-|-
-!Draw 3 cards
-!Gain 2 more [[Combo]]
-|}
+|upgrade1summary = Draw 3 cards
+|upgrade2 = Rival's Size Up
+|upgrade2summary = Gain 2 more [[Combo]]
+}}

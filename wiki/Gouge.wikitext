@@ -1,12 +1,13 @@
 {{CardPage
 |quote = Once you're in, just give it a good twist. The blade does the rest.
-|description = Apply 3 Bleed.<br/>Expend
+|description = Apply 3 [[Bleed]].<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]]
+|keywords = [[Bleed]], [[Expend]]
 |mindamage = 3
 |maxdamage = 3
+|generator = Sal's Bloody Daggers
 }}

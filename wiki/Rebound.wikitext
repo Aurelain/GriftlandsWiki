@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = Right back at you!
+|description = Gain 2 [[Counter]] for each card played this turn.
+|cost = 1
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Counter]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Stone Rebound
-|upgrade2 = Spined Rebound}}
-{{Quote|Right back at you!}}
-
-'''Rebound''' is a 1-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "Gain 2 '''Counter''' for each card played this turn."
-
-==Upgrades==
-After accruing 9 experience '''Rebound''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Stone Rebound.png|150px]]
-|[[File:Spined Rebound.png|150px]]
-|-
-!Adds 1 '''Defense'''<br>per card played.
-!Increases '''Counter''' gain<br>to 3 per card.
-|}
+|upgrade1summary = Gain 1 [[Defense]] <br> per card played.
+|upgrade2 = Spined Rebound
+|upgrade2summary = Gain 3 [[Counter]] <br> per card played.
+}}

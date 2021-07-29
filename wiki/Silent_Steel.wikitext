@@ -1,22 +1,18 @@
-{{Card
+{{CardPage
+|quote = The noisy ones are scarier, but a lot easier to avoid.
+|description = [[Expend]], [[Ambush]] 
+|cost = 0
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = [[Expend]], [[Ambush]] 
 |upgradeable = Yes
 |expreq = 8
 |upgrade1 = Rooted Steel
-|upgrade2 = Deep Silent Steel}}
-{{Quote|The noisy ones are scarier, but a lot easier to avoid.}}
-
-==Upgrades==
-At 8 experience, '''Silent Steel''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Rooted Steel.png|150px]]
-|[[File:Deep Silent Steel.png|150px]]
-|-
-!Deals 3 more damage
-!Applies 1 [[Impair]]
-|}
+|upgrade1summary = Deal 8 base damage
+|upgrade2 = Deep Silent Steel
+|upgrade2summary = Apply 1 [[Impair]]
+|mindamage = 5
+|maxdamage = 5
+}}

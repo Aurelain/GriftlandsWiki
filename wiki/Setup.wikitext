@@ -1,4 +1,7 @@
-{{Card
+{{CardPage
+|quote = Okay, stop me if you've heard this one...
+|description = Gain 2 [[Influence]]. <br/> At the end of your turn, lose 2 [[Influence]]
+|cost = 0
 |character = Sal
 |rarity = Common
 |cardtype = Diplomacy
@@ -7,21 +10,9 @@
 |upgradeable = Yes
 |expreq = 10
 |upgrade1 = Boosted Setup
-|upgrade2 = Pale Setup}}
-
-{{Quote|Okay, stop me if you've heard this one...}}
-
-'''Setup''' is a 0-cost Common '''Diplomacy''' card for [[Sal]]. It has the effect: "Gain 2 [[Influence]]. At the end of your turn, lose 2 [[Influence]]".
-
+|upgrade1summary = Gain 3 [[Influence]]. Lose 3 [[Influence]]
+|upgrade2 = Pale Setup
+|upgrade2summary = Lose 1 [[Influence]]
+}}
+==Notes==
 '''Lose Influence''' is an argument on your side with 2 resolve.
-
-==Upgrades==
-After accruing 10 experience '''Setup''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Boosted Setup.png|150px]]
-|[[File: Pale Setup.png|150px]]
-|-
-!Gain 3 [[Influence]]; Lose 3 [[Influence]]
-!Lose 1 [[Influence]]
-|}

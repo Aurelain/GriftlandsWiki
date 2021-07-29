@@ -1,6 +1,8 @@
+{{Reupload}}
+
 {{CardPage
 |quote = Where did they get all those knives?!
-|description = Spend 2 Combo: deals 2 bonus damage and hits all enemies instead.<br/>Expend, Finisher
+|description = Spend 2 [[Combo]]: deals 2 bonus damage and hits all enemies instead.<br/>[[Expend]], [[Finisher]]
 |cost = 0
 |character = Sal
 |rarity = Unique
@@ -9,4 +11,5 @@
 |keywords = [[Combo]], [[Expend]], [[Finisher]]
 |mindamage = 3
 |maxdamage = 3
+|generator = Sal's Combo Daggers
 }}

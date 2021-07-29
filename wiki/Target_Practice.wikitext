@@ -1,24 +1,18 @@
-{{Card
+{{CardPage
+|quote = Okay, the NEXT one will just barely miss you...
+|description = Attack 2 random enemies.
+|cost = 
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = 
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Target Practice
-|upgrade2 = Savage Target Practice}}
-{{Quote|Okay, the NEXT one will just barely miss you...}}
-
-'''Target Practice''' is a 1-cost Common '''Attack''' card for [[Sal]]. It deals 2-5 base damage. It has the effect "Attack 2 random enemies."
-
-==Upgrades==
-After accruing 9 experience '''Target Practice''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Target Practice.png|150px]]
-|[[File:Savage Target Practice.png|150px]]
-|-
-!Attacks 3 enemies.
-!Adds 1 Bleed.
-|}
+|upgrade1summary = Attacks 3 enemies.
+|upgrade2 = Savage Target Practice
+|upgrade2summary = Apply 1 [[Bleed]].
+|mindamage = 2
+|maxdamage = 5
+}}

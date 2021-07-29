@@ -1,24 +1,16 @@
-{{Card
+{{CardPage
+|quote = You either got them or you're done.
+|description = Discard a card. <br/> Gain 5 [[Defense]].
+|cost = 1
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Defense]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Visionary Reflexes
-|upgrade2 = Pale Reflexes}}
-{{Quote|You either got them or you're done.}}
-
-'''Survival Reflexes''' is a 1-cost Common '''Maneuver''' card for [[Sal]]. It has the effect "Discard a card. Gain 5 '''Defense'''."
-
-==Upgrades==
-After accruing 5 experience '''Survival Reflexes''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Visionary Reflexes.png|150px]]
-|[[File:Pale Reflexes.png|150px]]
-|-
-!Draw a card.
-!Card cost is 0.
-|}
+|upgrade1summary = Draw a card.
+|upgrade2 = Pale Reflexes
+|upgrade2summary = Costs 0 actions.
+}}

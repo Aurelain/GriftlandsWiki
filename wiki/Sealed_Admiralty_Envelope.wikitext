@@ -1,9 +1,15 @@
-{{Card
+{{Stub}}
+
+{{CardPage
+|quote = ???
+|description = Gain 2 [[Influence]]. <br/> [[Hatch]] 6.
+|cost = 1
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Item
 |keywords = [[Influence]], [[Hatch]]
-|expreq = 6}}
-
-'''Sealed Admiralty Envelope''' is a '''Negotiation''' card for [[Sal]]. It costs 1 action and gains two [[influence]] upon playing. After gaining 6 experience, '''Sealed Admiralty Envelope''' hatches into [[Opened Admiralty Envelope]].
+|special1 = Opened Admiralty Envelope
+}}
+==Notes==
+Gained in event [[Sal Gets An Envelope]].

@@ -7,4 +7,5 @@
 |decktype = Battle
 |cardtype = Maneuver
 |parent = Dagger Storm
+|special1 = Blade Flash
 }}

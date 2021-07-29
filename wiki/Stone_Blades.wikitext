@@ -7,4 +7,5 @@
 |cardtype = Maneuver
 |keywords = [[Defend]]
 |parent = Spare Blades
+|special1 = Blade Flash
 }}

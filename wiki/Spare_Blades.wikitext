@@ -1,24 +1,19 @@
-{{Card
+{{Reupload|Keyword [[Unplayable]] is at the bottom.}}
+
+{{CardPage
+|quote = Feels like I'm carrying nothing at all!
+|description = If this is discarded, insert a [[Blade Flash]] into your hand. <br/> [[Unplayable]]
+|cost = 
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
-|keywords = [[Ability]]. [[Combo]], [[Power]], [[Expend]]
+|keywords = [[Unplayable]]
 |upgradeable = Yes
 |expreq = 8
 |upgrade1 = Boosted Blades
-|upgrade2 = Stone Blades}}
-{{Quote|Feels like I'm carrying nothing at all!}}
-
-'''Spare Blades''' is an '''Unplayable''' Common '''Maneuver''' card for [[Sal]]. It has the effect "If this is discarded, insert a '''[[Blade Flash]]''' into your hand. '''Unplayable'''."
-
-==Upgrades==
-After accruing 8 experience '''Spare Blades''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Blades.png|150px]]
-|[[File:Stone Blades.png|150px]]
-|-
-!Grants an additional<br>Blade Flash card.
-!Adds 3 '''Defense'''<br>when discarded. 
-|}
+|upgrade1summary = Insert 2 [[Blade Flash]] into your hand.
+|upgrade2 = Stone Blades
+|upgrade2summary = Gain 3 [[Defense]] when discarded. 
+|special1 = Blade Flash
+}}

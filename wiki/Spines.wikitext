@@ -1,22 +1,16 @@
-{{Card
+{{CardPage
+|quote = Now where the Hesh did those come from?
+|description = [[Ability]]: Gain 1 [[Counter]] whenever you gain [[Defense]]. <br/> [[Expend]]
+|cost = 2
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
-|keywords = 
+|keywords = [[Ability]], [[Counter]], [[Defense]], [[Expend]]
 |upgradeable = Yes
 |expreq = 5
 |upgrade1 = Thorny Spines
-|upgrade2 = Pale Spines}}
-{{Quote|Now where the Hesh did those come from?}}
-
-==Upgrades==
-At 7 experience, '''Spines''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Thorny Spines.png|150px]]
-|[[File:Pale Spines.png|150px]]
-|-
-!Gain 2 [[Counter]] whenever you gain [[Defense]]
-!Costs 1 action
-|}
+|upgrade1summary = Gain 2 [[Counter]] whenever you gain [[Defense]]
+|upgrade2 = Pale Spines
+|upgrade2summary = Costs 1 action
+}}

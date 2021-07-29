@@ -1,0 +1,36 @@
+== Task description ==
+This encounter with a damaged [[Automech|Enforcer]] has a variety of possible outcomes , including obtaining a pet Automech. Use the options ‘PRV’, ‘NXT’ and 'SEL' to navigate through the menu, or leave the automech alone.
+
+== Text ==
+<blockquote>You find evidence of a fight, and a damaged Enforcer.</blockquote><blockquote>It seems to be stuck in some kind of diagnostic loop.</blockquote><blockquote>Its maintenance panel is open, exposing its override controls.</blockquote><blockquote>The small window reads:</blockquote><u>‘0x45.0x58.0x50.0x4C.0x4F.0x44.0x45’ (Hexadecimal for EXPLODE – deals 10 HP damage?)</u>
+
+<u>‘0x53.0x43.0x52.0x41.0x50’ (Hexadecimal for SCRAP)</u>
+
+<u>‘0x46.0x4F.0x4C.0x4C.0x4F.0x57’ (Hexadecimal for FOLLOW)</u>
+
+
+The automech spools up.
+
+
+
+''FOLLOW MODE ACTIVATED''
+
+
+
+''AWAITING FURTHER INSTRUCTION''
+
+
+
+Looks like you just made a friend.
+<br />
+
+<u>‘0x41.0x54.0x54.0x41.0x43.0x4B’ (Hexadecimal for ATTACK)</u>
+
+<u>‘0x42.0x45.0x41.0x43.0x4F.0x4E’ (Hexadecimal for BEACON)</u>
+
+Signals a [[Spark Barons|Spark Baron]] with further dialogue options.
+
+== Enforcer Names ==
+
+* DRIVER
+* GATE

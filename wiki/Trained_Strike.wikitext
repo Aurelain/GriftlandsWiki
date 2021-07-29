@@ -1,22 +1,18 @@
-{{Card
+{{CardPage
+|quote = One thousand times a day, every day of the week.
+|description = Whenever this card is [[Improvise|Improvised]] it gains 2 damage until the end of combat.
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
-|keywords = 
+|keywords = [[Improvise]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Trained Strike
-|upgrade2 = Nailing Trained Strike}}
-{{Quote|One thousdan times a day, every day of the week.}}
-
-==Upgrades==
-At 9 experience, '''Trained Strike''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Trained Strike.png|150px]]
-|[[File:Nailing Trained Strike.png|150px]]
-|-
-!Gains 3 damage instead.
-!Gains [[Piercing]]
-|}
+|upgrade1summary = Gains 3 damage instead.
+|upgrade2 = Nailing Trained Strike
+|upgrade2summary = [[Piercing]]
+|mindamage = 2
+|maxdamage = 4
+}}

@@ -1,12 +1,15 @@
+{{Reupload|damage values are different.}}
+
 {{CardPage
 |quote = It's a simple plan. I'm going to hit you, and then hit you again, but harder.
-|description = Deal 2 bonus damage if you have any Combo.<br/>Gain 2 Combo.
+|description = Deal 2 bonus damage if you have any [[Combo]].<br/>Gain 2 [[Combo]].<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Combo]]
+|keywords = [[Combo]], [[Expend]]
 |mindamage = 1
 |maxdamage = 2
+|generator = Sal's Daggers
 }}

@@ -1,25 +1,20 @@
-{{Reupload}}
+{{Reupload| Deals 3-8 base damage}}
 
-{{Card
+{{CardPage
+|quote = It was probably the cheapest shot I've ever seen in my life.
+|description = Spend 2 [[Combo]]: This card deals max damage and cost one less. <br/> [[Finisher]]
+|cost = 2
+|character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
-|keywords = 
+|keywords = [[Combo]], [[Finisher]]
 |upgradeable = Yes
 |expreq = 5
 |upgrade1 = Pale Sneak Attack
-|upgrade2 = Tall Sneak Attack}}
-{{Quote|It was probably the cheapest shot I've ever seen in my life.}}
-'''Sneak Attack''' is a 2-cost Common '''Attack''' card for [[Sal]]. It deals 3-8 base damage. It has the effect "Spend 2 '''Combo''': This card deals max damage and cost one less. [[Finisher]]".
-
-==Upgrades==
-After accruing 5 experience '''Sneak Attack''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Pale Sneak Attack.png|150px]]
-|[[File:Tall Sneak Attack.png|150px]]
-|-
-!Spend 1 [[Combo]]
-!Deals 3-12 damage
-|}
+|upgrade1summary = Spend 1 [[Combo]]
+|upgrade2 = Tall Sneak Attack
+|upgrade2summary = Deals 3-12 damage
+|mindamage = 3
+|maxdamage = 8
+}}

@@ -1,22 +1,16 @@
-{{Card
+{{CardPage
+|quote = It was right there a second ago...
+|description = [[Improvise]] a random common or uncommon maneuver card. It costs 0 until played. <br/> [[Expend]]
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
-|keywords = 
+|keywords = [[Expend]], [[Improvise]]
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Instinct
-|upgrade2 = Promoted Instinct}}
-{{Quote|It was right there a second ago...}}
-
-==Upgrades==
-At 7 experience, '''Thieves' Instinct''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Instinct.png|150px]]
-|[[File:Promoted Instinct.png|150px]]
-|-
-!Improvise a random uncommon or rare card instead
-!Improvise an upgraded card
-|}
+|upgrade1summary = [[Improvise]] a uncommon or rare card
+|upgrade2 = Promoted Instinct
+|upgrade2summary = [[Improvise]] an upgraded uncommon card
+}}

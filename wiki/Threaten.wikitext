@@ -1,34 +1,24 @@
-{{Card
+{{CardPage
+|quote = I don't want to have to hurt you, but I will if I have to.
+|description = 
+|cost = 1
+|character = Sal
 |rarity = Basic
 |cardtype = Hostility
 |decktype = Negotiation
-|character = Sal
+|keywords = 
 |upgradeable = Yes
 |expreq = 6
 |upgrade1 = Boosted Threaten
+|upgrade1summary = Deal 3-4 base damage
 |upgrade2 = Visionary Threaten
+|upgrade2summary = Draw a card.
 |upgrade3 = Lucid Threaten
+|upgrade3summary = Gain 1 [[Dominance]].
 |upgrade4 = Mirrored Threaten
-|upgrade5 = Threaten of Clarity}}
-{{Quote|I don't want to have to hurt you, but I will if I have to.}}
-
-'''Threaten''' is a 1-cost Basic '''Hostility''' card for [[Sal]]. It deals 1-4 base damage. As a base card '''Threaten''' is always part of the available card pool for [[Sal]].
-
-==Upgrades==
-After accruing 6 experience '''Threaten''' is able to be upgraded. Like every basic card, '''Threaten''' has more than two upgrades, from which it randomly picks 2 you can decide from.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Threaten.png|150px]]
-|[[File:Visionary Threaten.png|150px]]
-|[[File:Lucid Threaten.png|150px]]
-|[[File:Mirrored Threaten.png|150px]]
-|-
-!
-!Draw a card
-!Gain 1 [[Dominance]]
-!Attack with this card twice
-|-
-|[[File:Threaten of Clarity.png|150px]]
-|-
-![[Destroy]]
-|}
+|upgrade4summary = Deal 1-2 base damage <br/> Attack with this card twice.
+|upgrade5 = Threaten of Clarity
+|upgrade5summary = Deal 8 base damage <br/> [[Destroy]]
+|mindamage = 1
+|maxdamage = 4
+}}

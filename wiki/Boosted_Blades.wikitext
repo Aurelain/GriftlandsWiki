@@ -6,4 +6,5 @@
 |decktype = Battle
 |cardtype = Maneuver
 |parent = Spare Blades
+|special1 = Blade Flash
 }}

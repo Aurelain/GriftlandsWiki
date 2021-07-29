@@ -1,22 +1,18 @@
-{{Card
+{{Reupload|Initial Ravenous still has [[Expend]].}}
+
+{{CardPage
+|quote = Hey, buddy, you gonna eat that?
+|description = [[Ability]]: Whenever an enemy dies, [[Heal]] 8. <br/> [[Expend]]
+|cost = 2
+|character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Ability]],[[Heal]],[[Expend]]
 |upgradeable = Yes
 |expreq = 5
 |upgrade1 = Initial Ravenous
-|upgrade2 = Pale Ravenous}}
-{{Quote|Hey, buddy, you gonna eat that?}}
-
-==Upgrades==
-At 5 experience, '''Ravenous''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Initial Ravenous.png|150px]]
-|[[File:Pale Ravenous.png|150px]]
-|-
-!Gains [[Ambush]]
-!Costs 1 action
-|}
+|upgrade1summary = [[Ambush]]
+|upgrade2 = Pale Ravenous
+|upgrade2summary = Cost 1 action less
+}}

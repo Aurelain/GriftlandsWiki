@@ -1,4 +1,7 @@
-{{Card
+{{CardPage
+|quote = If you do a job well enough, nobody can tell you were there at all.
+|description = Spend 1 [[Influence]]: Draw 2 cards.
+|cost = 1
 |character = Sal
 |rarity = Common
 |cardtype = Diplomacy
@@ -7,19 +10,9 @@
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Rooted Subtlety
-|upgrade2 = Boosted Subtlety}}
-
-{{Quote|If you do a job well enough, nobody can tell you were there at all.}}
-
-'''Subtlety''' is a 1-cost Common '''Diplomacy''' card for [[Sal]]. It deals 3 base damage. It has the effect: "Spend 1 [[Influence]]: Draw 2 cards".
-
-==Upgrades==
-After accruing 9 experience '''Subtlety''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Rooted Subtlety.png|150px]]
-|[[File: Boosted Subtlety.png|150px]]
-|-
-!Deals 5 base damage
-!Draw 3 cards
-|}
+|upgrade1summary = Deals 5 base damage
+|upgrade2 = Boosted Subtlety
+|upgrade2summary = Draw 3 cards.
+|mindamage = 3
+|maxdamage = 3
+}}
