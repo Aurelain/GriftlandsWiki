@@ -22,10 +22,10 @@ const cookieJar = new CookieJar();
 /**
  *
  */
-const push = async (focus = '') => {
+const push = async (focus = '', forced = '') => {
     try {
         const status = await pull(focus, true);
-        if (!(await guard(status))) {
+        if (forced !== '--forced' && !(await guard(status))) {
             return;
         }
 
