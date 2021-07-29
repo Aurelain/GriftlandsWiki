@@ -120,6 +120,11 @@
         "Introduces items for bidding. There {1*is|are} {1} {1*item|items} left.\\n\\nYou will get to keep the first item that you dismiss and the negotiation ends.\\n\\n<#PENALTY>If another bidder dimisses an item, it is removed from play.</>"
     ],
     [
+        "Automech Code",
+        "get_automech_code",
+        "When destroyed, grants you one access code for an automech."
+    ],
+    [
         "Automech Flame Cannon",
         "automech_flame_cannon",
         "{1}'s multi-attack applies {BURN} unless mitigated."
@@ -218,6 +223,11 @@
         "Bombard",
         "bombard",
         "{1}'s attacks insert a random potion into your draw pile."
+    ],
+    [
+        "Bonus",
+        "bonus_payment",
+        "When destroyed, add {1#money} to your bonus\\nReduce by {2#percent} at end of your turn.\\nWhen destroyed, {4} gains {IMPATIENCE 1}.\\n\\n<#PENALTY>If you lose the negotiation, you lose all bonuses!</>"
     ],
     [
         "Bonus Action",
@@ -443,6 +453,11 @@
         "Counter Point",
         "COUNTER_POINT",
         null
+    ],
+    [
+        "Covert Knowledge",
+        "discover_caves",
+        "When destroyed, discover the whereabouts of the bandit hideout."
     ],
     [
         "Crafty",
@@ -1510,6 +1525,11 @@
         "Rallied. Deals 25% more damage."
     ],
     [
+        "Rally Worker",
+        "convince_worker_to_fight_erchins",
+        "When destroyed, another worker is rallied to the fight."
+    ],
+    [
         "Rallying Howl",
         "vroc_howl",
         "At the start of your turn, gain 1 action and draw 1 card. At the end of your turn, remove this."
@@ -1653,6 +1673,11 @@
         "Scruple",
         "SCRUPLE",
         "When destroyed, {1} loses half their resolve.\\nThis bounty lasts for {2} more {2*turn|turns}."
+    ],
+    [
+        "Secret Intel",
+        "secret_intel",
+        "When destroyed, gain this argument and a bonus quest reward upon winning the negotiation. If <b>Secret Intel</> is destroyed under your ownership, you lose the negotiation!"
     ],
     [
         "Self-Doubt",
@@ -1903,6 +1928,11 @@
         "Suitcase Grenades",
         "kashio_suitcase_grenades",
         "At the end of {1}'s turn, {1} throws a grenade."
+    ],
+    [
+        "Summons",
+        "planted_summons",
+        "Remove {1} {1*stack|stacks} at the end of your turn.\\nWhen destroyed, returns to your draw pile.\\n\\n<#PENALTY>This must be attached to your opponent at the end of the negotiation to succeed!</>"
     ],
     [
         "Supporter",
@@ -2208,5 +2238,110 @@
         "Zeal",
         "ZEAL",
         "When an argument of {1}'s is removed or destroyed, all other arguments gain {2} resolve."
+    ],
+    [
+        "autoplay",
+        "AUTOPLAY",
+        null
+    ],
+    [
+        "bribe",
+        "BRIBE",
+        null
+    ],
+    [
+        "buff",
+        "BUFF",
+        null
+    ],
+    [
+        "bystander",
+        "BYSTANDER",
+        null
+    ],
+    [
+        "debuff",
+        "DEBUFF",
+        null
+    ],
+    [
+        "diplomacy",
+        "DIPLOMACY",
+        null
+    ],
+    [
+        "freebie",
+        "FREEBIE",
+        null
+    ],
+    [
+        "hostile",
+        "HOSTILE",
+        null
+    ],
+    [
+        "incepted",
+        "INCEPTED",
+        null
+    ],
+    [
+        "item",
+        "ITEM",
+        null
+    ],
+    [
+        "manipulate",
+        "MANIPULATE",
+        null
+    ],
+    [
+        "melee",
+        "MELEE",
+        null
+    ],
+    [
+        "npc",
+        "NPC",
+        null
+    ],
+    [
+        "one_of_a_kind",
+        "ONE_OF_A_KIND",
+        "Your deck can only contain 1 copy of this card."
+    ],
+    [
+        "opponent",
+        "OPPONENT",
+        null
+    ],
+    [
+        "ranged",
+        "RANGED",
+        null
+    ],
+    [
+        "skill",
+        "SKILL",
+        null
+    ],
+    [
+        "special",
+        "SPECIAL",
+        null
+    ],
+    [
+        "status",
+        "STATUS",
+        null
+    ],
+    [
+        "upgraded",
+        "UPGRADED",
+        null
+    ],
+    [
+        "variable_cost",
+        "VARIABLE_COST",
+        null
     ]
 ]

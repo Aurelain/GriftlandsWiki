@@ -1,5 +1,6 @@
 const findEnclosure = require('../utils/findEnclosure');
 const removeLuaComments = require('../utils/removeLuaComments');
+const deshell = require('../utils/deshell');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -75,6 +76,16 @@ const parseFlagKeywords = (luaContent, keywords) => {
             keywords[id].desc = detail;
         }
     }
+    const bitstrings = findEnclosure(luaContent, luaContent.indexOf('CARD_FLAG_BITSTRINGS'), '{', '}');
+    const interior = JSON.parse('[' + deshell(bitstrings).trim().replace(/,$/, '') + ']');
+    for (const bitstring of interior) {
+        if (!(bitstring in keywords)) {
+            keywords[bitstring] = {
+                id: bitstring,
+                name: bitstring.toLowerCase(),
+            };
+        }
+    }
 };
 
 /**
@@ -85,62 +96,21 @@ const parseKeywordsFromLua = (luaContent, keywords) => {
     const foundBlocks = luaContent.matchAll(/conditions\s*=\s*{|modifiers\s*=\s*{|FEATURES\s*=\s*{/gi);
     for (const {index} of foundBlocks) {
         const enumerationBlock = findEnclosure(luaContent, index, '{', '}');
-        parseKeywordsFromEnumeration(enumerationBlock, keywords);
+        parseBlocks(enumerationBlock, /(\w+)\s*=\s*{[^{}]*?\bname\s*=\s*"(.*?)"/g, keywords);
     }
-    parseCardKeyword(luaContent, keywords);
-    parseModifierKeyword(luaContent, keywords);
+    parseBlocks(luaContent, /AddCondition\("(.*?)"[^{}]*condition\s*=\s*{/g, keywords);
+    parseBlocks(luaContent, /\bmodifier\s*=\s*{/g, keywords);
+    parseBlocks(luaContent, /\bAddNegotiationModifier\(\s*"(.*?)"/g, keywords);
 };
 
 /**
  *
  */
-const parseKeywordsFromEnumeration = (enumerationBlock, keywords) => {
-    const foundKeywords = enumerationBlock.matchAll(/(\w+)\s*=\s*{[^{}]*?\bname\s*=\s*"(.*?)"/g);
-    for (const foundKeyword of foundKeywords) {
-        const [, id, name] = foundKeyword;
-        keywords[id] = {
-            id,
-            name,
-        };
-        const keywordBlock = findEnclosure(enumerationBlock, foundKeyword.index, '{', '}');
-        const desc = (keywordBlock.match(/\bdesc\s*=\s*"([^"]*)/) || [])[1];
-        if (desc) {
-            keywords[id].desc = desc;
-        }
-    }
-};
-
-/**
- *
- */
-const parseCardKeyword = (luaContent, keywords) => {
-    const cardKeywords = luaContent.matchAll(/AddCondition\("(.*?)"[^{}]*condition\s*=\s*{/g);
-    for (const cardKeyword of cardKeywords) {
-        const enclosure = findEnclosure(luaContent, cardKeyword.index, '{', '}');
-        const [, id] = cardKeyword;
-        const name = (enclosure.match(/\bname\s*=\s*"(.*?)"/) || [])[1];
-        if (!name) {
-            continue;
-        }
-        keywords[id] = {
-            id,
-            name,
-        };
-        const desc = (enclosure.match(/\bdesc\s*=\s*"([^"]*)/) || [])[1];
-        if (desc) {
-            keywords[id].desc = desc;
-        }
-    }
-};
-
-/**
- *
- */
-const parseModifierKeyword = (luaContent, keywords) => {
-    const modifiers = luaContent.matchAll(/\bmodifier\s*=\s*{/g);
-    for (const modifier of modifiers) {
-        const enclosure = findEnclosure(luaContent, modifier.index, '{', '}');
-        const id = (enclosure.match(/\bid\s*=\s*"(.*?)"/) || [])[1];
+const parseBlocks = (luaContent, regexp, keywords) => {
+    const foundBlocks = luaContent.matchAll(regexp);
+    for (const foundBlock of foundBlocks) {
+        const enclosure = findEnclosure(luaContent, foundBlock.index, '{', '}');
+        const id = foundBlock[1] || (enclosure.match(/\bid\s*=\s*"(.*?)"/) || [])[1];
         const name = (enclosure.match(/\bname\s*=\s*"(.*?)"/) || [])[1];
         if (!id || !name) {
             continue;
@@ -162,7 +132,7 @@ const parseModifierKeyword = (luaContent, keywords) => {
 const parseKeyword = (keyword, content, keywords) => {
     const index = content.indexOf(keyword + ' =');
     const cardsBlock = findEnclosure(content, index, '{', '}');
-    parseKeywordsFromEnumeration(cardsBlock, keywords);
+    parseBlocks(cardsBlock, /(\w+)\s*=\s*{[^{}]*?\bname\s*=\s*"(.*?)"/g, keywords);
 };
 
 // =====================================================================================================================

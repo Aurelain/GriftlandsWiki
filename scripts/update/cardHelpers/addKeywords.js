@@ -81,7 +81,7 @@ const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRa
     sortFlags(flags, ranks);
     const internalKeywords = [];
     for (const flag of flags) {
-        const globalKeyword = globalKeywordLowIds[flag] || {}; // TODOOOOOO
+        const globalKeyword = globalKeywordLowIds[flag];
         assert(globalKeyword, `${card.name}: Cannot resolve flag "${flag}"!`);
         const {name} = globalKeyword;
         internalKeywords.push(name);
