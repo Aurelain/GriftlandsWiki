@@ -53,6 +53,7 @@ const applyDescriptionFormat = (description, card) => {
     code = code.replace(/is_instance\(.*?\)/g, 'false'); // "Tough and Angry"
     code = code.replace(/GetAdvancementModifier\(.*?\)/g, '0'); // "Toxic Fumes"
     code = code.replace(/let fmt_str = def\.GetLocalizedDesc.*?\)/g, ''); // "Invective"
+    code = code.replace(/UI\.CARDS\.OPPONENT/g, 'opponent'); // "Sitting Duck"
 
     // Obtain the js function:
     let fn;
