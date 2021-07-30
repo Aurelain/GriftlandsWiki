@@ -1,8 +1,11 @@
-{{Stub}}
-{{Card
+{{CardPage
+|description = [[Take Names]].<br/>Gain 1 damage for each name taken (0 names).<br/>[[Expend]]
+|cost = 2
+|character = Rook
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Diplomacy
 |keywords = [[Take Names]], [[Expend]]
-|upgradeable = No
-|character = Rook}}
+|mindamage = 2
+|maxdamage = 2
+}}

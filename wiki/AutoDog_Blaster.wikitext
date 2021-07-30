@@ -1,8 +1,12 @@
-{{Card
-|cardtype = Attack
-|decktype = Battle
+{{CardPage
+|quote = TAMPERING WITH THE AUTODOG WEAPONRY IS NOT RECOMMENDED.
+|description = [[Piercing]]<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
 |rarity = Unique
-|character = Rook
-|upgradeable = No}}
-{{Quote|TAMPERING WITH THE AUTODOG WEAPONRY IS NOT RECOMMENDED.}}
-'''AutoDog Blaster''' is a 1-cost Unique '''Attack''' card for [[Rook]]. It deals 6-10 base damage. It has the effect "'''Piercing'''. '''Destroy''' after 3 uses.".
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Piercing]], [[Destroy]]
+|mindamage = 6
+|maxdamage = 10
+}}

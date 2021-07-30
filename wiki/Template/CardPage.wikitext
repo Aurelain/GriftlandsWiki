@@ -20,10 +20,15 @@
 |upgrade9 = {{#if:{{{upgrade9|}}}| {{{upgrade9}}} }}
 |upgrade10 = {{#if:{{{upgrade10|}}}| {{{upgrade10}}} }}
 }}
-{{Quote|{{{quote}}}}}
+{{#if:{{{quote|}}}|{{Quote|{{{quote}}}}}}}
 '''{{{name|{{PAGENAME}}}}}''' is
 {{#if:{{{cost|}}}|a {{{cost}}}-cost|an [[Unplayable]]}}
-{{{rarity}}} [[:Category:{{{cardtype}}}_cards|{{{cardtype}}}]] card for [[{{{character}}}]].
+{{{rarity}}} [[:Category:{{{cardtype}}}_cards|{{{cardtype}}}]] <!--
+-->{{#ifeq:{{{character}}}|Sal|card for [[Sal]].|}}<!--
+-->{{#ifeq:{{{character}}}|Rook|card for [[Rook]].|}}<!--
+-->{{#ifeq:{{{character}}}|Smith|card for [[Smith]].|}}<!--
+-->{{#ifeq:{{{character}}}|Enemy|enemy card.|}}<!--
+-->{{#ifeq:{{{character}}}|Other|general card.|}}
 <!-- ====================== D E S C R I P T I O N ====================== -->
 ==Description==
 {{{description}}}
