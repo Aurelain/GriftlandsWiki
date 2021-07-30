@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It's a lot like drag racing your weaponry, right off the start you are dealing with power.
-|description = Double your Overcharge.<br/>Replenish
+|description = Double your [[Overcharge]].<br/>[[Replenish]]
 |cost = 2
 |character = Rook
 |rarity = Uncommon

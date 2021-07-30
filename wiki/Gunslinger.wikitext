@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It's that cool head of his that's the real danger.
-|description = Concentrated: Attack twice.
+|description = [[Concentrated]]: Attack twice.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
@@ -8,9 +8,9 @@
 |cardtype = Attack
 |keywords = [[Concentrated]]
 |expreq = 8
-|upgrade1 = Boosted Gunslinger
+|upgrade1 = Focused Gunslinger
 |upgrade1summary = 
-|upgrade2 = Focused Gunslinger
+|upgrade2 = Boosted Gunslinger
 |upgrade2summary = 
 |mindamage = 1
 |maxdamage = 5

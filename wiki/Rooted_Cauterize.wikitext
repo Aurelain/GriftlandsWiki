@@ -1,6 +1,6 @@
 {{CardPage
 |quote = So it's just regular spark rounds with the safety sheared off? I didn't know that it was that easy.
-|description = Spend 1 Charge: Apply 2 Scorched.
+|description = Spend 1 [[Charge]]: Apply 2 [[Scorched]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon

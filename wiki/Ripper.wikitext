@@ -7,9 +7,9 @@
 |decktype = Battle
 |cardtype = Attack
 |expreq = 9
-|upgrade1 = Rooted Ripper
+|upgrade1 = Tall Ripper
 |upgrade1summary = 
-|upgrade2 = Tall Ripper
+|upgrade2 = Rooted Ripper
 |upgrade2summary = 
 |mindamage = 3
 |maxdamage = 6

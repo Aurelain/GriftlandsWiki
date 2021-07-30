@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Hard on the barrel, but much harder on the target.
-|description = Deal 2 bonus damage for every Overcharge. Consumes all Overcharge.
+|description = Deal 2 bonus damage for every [[Overcharge]]. Consumes all [[Overcharge]].
 |cost = 1
 |character = Rook
 |rarity = Common

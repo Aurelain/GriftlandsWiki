@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It's that cool head of his that's the real danger.
-|description = Concentrated: Attack three times.
+|description = [[Concentrated]]: Attack three times.
 |cost = 1
 |character = Rook
 |rarity = Uncommon

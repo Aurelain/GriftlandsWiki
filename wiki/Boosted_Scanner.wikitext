@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Old targeting tech from the Aerostat, I've made a few adjustments.
-|description = Apply 3 Scanned to a random enemy.
+|description = Apply 3 [[Scanned]] to a random enemy.
 |cost = 1
 |character = Rook
 |rarity = Uncommon

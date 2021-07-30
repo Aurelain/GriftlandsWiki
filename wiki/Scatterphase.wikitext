@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Look, I'm not technically supposed to have these, but I could tell when you walked in that you needed an edge.
-|description = Ability: Whenever you gain Charge, deal 2 damage to a random enemy.<br/>Expend
+|description = [[Ability]]: Whenever you gain [[Charge]], deal 2 damage to a random enemy.<br/>[[Expend]]
 |cost = 2
 |character = Rook
 |rarity = Rare
@@ -8,8 +8,8 @@
 |cardtype = Maneuver
 |keywords = [[Ability]], [[Charge]], [[Expend]]
 |expreq = 6
-|upgrade1 = Initial Scatterphase
+|upgrade1 = Pale Scatterphase
 |upgrade1summary = 
-|upgrade2 = Pale Scatterphase
+|upgrade2 = Initial Scatterphase
 |upgrade2summary = 
 }}

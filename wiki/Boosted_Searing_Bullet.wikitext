@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Hey I don't make the rules, you aren't supposed to have incendiary rounds in those things.
-|description = Spend up to 3 Overcharge: Apply 1 Wound per Overcharge spent.
+|description = Spend up to 3 [[Overcharge]]: Apply 1 [[Wound]] per [[Overcharge]] spent.
 |cost = 1
 |character = Rook
 |rarity = Common

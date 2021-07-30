@@ -1,11 +1,11 @@
 {{CardPage
 |quote = This is some quality furniture! My compliments to the Barkeep.
-|description = Apply 2 Defense and gain 1 Counter per empty cell.
+|description = Apply 2 [[Defense]] and gain 1 [[Counter]] per empty cell.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Counter]], [[Defend]]
+|keywords = [[Defense]], [[Counter]]
 |parent = Take Cover
 }}

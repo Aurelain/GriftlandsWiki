@@ -1,6 +1,6 @@
 {{CardPage
 |quote = There's a reason you can't use these, they are unstable as all Hesh.
-|description = If the target has Burn, gain 2 Charge.
+|description = If the target has [[Burn]], gain 2 [[Charge]].
 |cost = 1
 |character = Rook
 |rarity = Common

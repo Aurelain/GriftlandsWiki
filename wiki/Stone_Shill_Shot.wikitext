@@ -1,11 +1,11 @@
 {{CardPage
 |quote = You can never be too prepared, I bought all the best gear before I arrived.
-|description = Spend all Charge: Draw a card and gain 2 Defense for each Charge spent.
+|description = Spend all [[Charge]]: Draw a card and gain 2 [[Defense]] for each [[Charge]] spent.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Charge]], [[Defend]]
+|keywords = [[Charge]], [[Defense]]
 |parent = Shill Shot
 }}

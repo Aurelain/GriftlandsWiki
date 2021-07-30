@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Cools down the guns while consuming the excess gas build up. I don't know, it's science or something.
-|description = Spend up to 3 Overcharge: Attack once extra per Overcharge.
+|description = Spend up to 3 [[Overcharge]]: Attack once extra per [[Overcharge]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon
@@ -8,9 +8,9 @@
 |cardtype = Attack
 |keywords = [[Overcharge]]
 |expreq = 6
-|upgrade1 = Boosted Barrage
+|upgrade1 = Rooted Barrage
 |upgrade1summary = 
-|upgrade2 = Rooted Barrage
+|upgrade2 = Boosted Barrage
 |upgrade2summary = 
 |mindamage = 2
 |maxdamage = 3

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = As ugly as they are effective.
-|description = Remove all debuffs on a target and Heal 2 per debuff.
+|description = Remove all debuffs on a target and [[Heal]] 2 per debuff.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
@@ -8,8 +8,8 @@
 |cardtype = Maneuver
 |keywords = [[Heal]]
 |expreq = 9
-|upgrade1 = Boosted Brain Tick
+|upgrade1 = Enhanced Brain Tick
 |upgrade1summary = 
-|upgrade2 = Enhanced Brain Tick
+|upgrade2 = Boosted Brain Tick
 |upgrade2summary = 
 }}

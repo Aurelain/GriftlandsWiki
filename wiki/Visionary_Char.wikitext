@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Everyone has a plan until they are set on fire.
-|description = If the target has Burn, gain 2 actions.
+|description = If the target has [[Burn]], gain 2 actions.
 |cost = 1
 |character = Rook
 |rarity = Common

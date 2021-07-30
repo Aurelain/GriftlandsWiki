@@ -1,15 +1,15 @@
 {{CardPage
 |quote = We can be shooting until next week with this many rounds.
-|description = Apply 4 Defense.<br/>Fully Charged: Gain 4 Counter.
+|description = Apply 4 [[Defense]].<br/>[[Fully Charged]]: Gain 4 [[Counter]].
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Counter]], [[Defend]], [[Primed]]
+|keywords = [[Defense]], [[Fully Charged]], [[Counter]]
 |expreq = 9
-|upgrade1 = Spined Fully Loaded
+|upgrade1 = Stone Fully Loaded
 |upgrade1summary = 
-|upgrade2 = Stone Fully Loaded
+|upgrade2 = Spined Fully Loaded
 |upgrade2summary = 
 }}

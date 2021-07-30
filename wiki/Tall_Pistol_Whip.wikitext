@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I thought he was reloading...
-|description = Empty: this costs 0.
+|description = [[Empty]]: this costs 0.
 |cost = 1
 |character = Rook
 |rarity = Common

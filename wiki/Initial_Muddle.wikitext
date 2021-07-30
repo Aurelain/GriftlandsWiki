@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I just can't seem to do anything right today...
-|description = Ability: Whenever you apply a debuff to an enemy, gain 2 Defense.<br/>Expend, Ambush
+|description = [[Ability]]: Whenever you apply a debuff to an enemy, gain 2 [[Defense]].<br/>[[Expend]], [[Ambush]]
 |cost = 2
 |character = Rook
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Ambush]], [[Defend]], [[Expend]]
+|keywords = [[Ability]], [[Defense]], [[Expend]], [[Ambush]]
 |parent = Muddle
 }}

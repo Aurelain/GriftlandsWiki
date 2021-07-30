@@ -1,6 +1,6 @@
 {{CardPage
 |quote = As ugly as they are effective.
-|description = Remove all debuffs on a target and Heal 3 per debuff.
+|description = Remove all debuffs on a target and [[Heal]] 3 per debuff.
 |cost = 1
 |character = Rook
 |rarity = Uncommon

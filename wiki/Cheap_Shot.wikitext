@@ -7,9 +7,9 @@
 |decktype = Battle
 |cardtype = Attack
 |expreq = 3
-|upgrade1 = Boosted Cheap Shot
+|upgrade1 = Very Cheap Shot
 |upgrade1summary = 
-|upgrade2 = Very Cheap Shot
+|upgrade2 = Boosted Cheap Shot
 |upgrade2summary = 
 |mindamage = 4
 |maxdamage = 7

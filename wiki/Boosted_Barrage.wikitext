@@ -1,10 +1,13 @@
 {{CardPage
-|quote = I think that he’s forgotten his point all together.
-|description = Blind.<br/>Attack with this card 2 times.
+|quote = Cools down the guns while consuming the excess gas build up. I don't know, it's science or something.
+|description = Spend up to 4 [[Overcharge]]: Attack once extra per [[Overcharge]].
 |cost = 1
-|character = Smith
+|character = Rook
 |rarity = Uncommon
-|decktype = Negotiation
-|cardtype = Hostility
-|parent = Barrage
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Overcharge]]
+|parent = Charged Barrage
+|mindamage = 2
+|maxdamage = 3
 }}

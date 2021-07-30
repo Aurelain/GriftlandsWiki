@@ -7,9 +7,9 @@
 |decktype = Battle
 |cardtype = Attack
 |expreq = 9
-|upgrade1 = Boosted Clear Shot
+|upgrade1 = Tall Clear Shot
 |upgrade1summary = 
-|upgrade2 = Tall Clear Shot
+|upgrade2 = Boosted Clear Shot
 |upgrade2summary = 
 |mindamage = 1
 |maxdamage = 6

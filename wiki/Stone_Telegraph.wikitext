@@ -1,11 +1,11 @@
 {{CardPage
 |quote = How did he see that coming? Is he psychic or something?!.
-|description = Gain 3 Concentration.<br/>Apply 2 Defense per Concentration.
+|description = Gain 3 [[Concentration]].<br/>Apply 2 [[Defense]] per [[Concentration]].
 |cost = 2
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Concentration]], [[Defend]]
+|keywords = [[Concentration]], [[Defense]]
 |parent = Telegraph
 }}

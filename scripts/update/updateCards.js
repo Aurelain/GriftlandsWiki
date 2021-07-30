@@ -41,7 +41,7 @@ const updateCards = (cardsBag) => {
         if (futureWikitext !== existingWikitext) {
             fs.writeFileSync(filePath, futureWikitext);
             count++;
-            if (count >= 20) {
+            if (count >= 100) {
                 break;
             }
         }
@@ -80,6 +80,9 @@ const parseCardFromWikitext = (wikitext) => {
 
         if (fieldName.match(/^special(\d+)/)) {
             specials.push(value);
+        }
+        if (fieldName === 'generator') {
+            card.generator = value;
         }
     }
     if (tally(summaries)) {

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Take them apart one piece at a time.
-|description = Apply 1 Wound per empty cell.
+|description = Apply 1 [[Wound]] per empty cell.
 |cost = 2
 |character = Rook
 |rarity = Uncommon

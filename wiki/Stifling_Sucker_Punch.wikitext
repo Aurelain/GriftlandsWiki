@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Name's Rook, nice to meet you.
-|description = Empty: Deal 2 bonus damage and apply 2 Impair.
+|description = [[Empty]]: Deal 2 bonus damage and apply 2 [[Impair]].
 |cost = 1
 |character = Rook
 |rarity = Common

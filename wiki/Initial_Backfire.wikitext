@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Now you are just showing off.
-|description = Ability: At the end of your turn, gain 1 Counter per Charge.<br/>Expend, Ambush
+|description = [[Ability]]: At the end of your turn, gain 1 [[Counter]] per [[Charge]].<br/>[[Expend]], [[Ambush]]
 |cost = 2
 |character = Rook
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Ambush]], [[Charge]], [[Counter]], [[Expend]]
+|keywords = [[Ability]], [[Counter]], [[Charge]], [[Expend]], [[Ambush]]
 |parent = Backfire
 }}

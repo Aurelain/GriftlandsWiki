@@ -1,12 +1,12 @@
 {{CardPage
 |quote = This is some quality furniture! My compliments to the Barkeep.
-|description = Apply 2 Defense per empty cell.
+|description = Apply 2 [[Defense]] per empty cell.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |expreq = 8
 |upgrade1 = Induction Cover
 |upgrade1summary = 

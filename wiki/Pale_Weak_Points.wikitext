@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Yeah, I'm familiar with that vest. It's why I'm not wearing one myself actually.
-|description = All attacks are Piercing until the end of your turn.<br/>Expend
+|description = All attacks are [[Piercing]] until the end of your turn.<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Expend]], [[Piercing]]
+|keywords = [[Piercing]], [[Expend]]
 |parent = Weak Points
 }}

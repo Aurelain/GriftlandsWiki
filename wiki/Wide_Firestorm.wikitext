@@ -1,12 +1,12 @@
 {{CardPage
 |quote = There's no way we are insured for this.
-|description = Spend all Charge, apply 2 Burn per Charge spent.<br/>Hits all enemies.<br/>Expend
+|description = Spend all [[Charge]], apply 2 [[Burn]] per [[Charge]] spent.<br/>Hits all enemies.<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Burn]], [[Charge]], [[Expend]]
+|keywords = [[Charge]], [[Burn]], [[Expend]]
 |parent = Firestorm
 |mindamage = 3
 |maxdamage = 4

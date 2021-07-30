@@ -2,15 +2,14 @@
 
 {{CardPage
 |quote = What's that smell?
-|description = Apply 2 [[Scorched]] and 2 [[Burn]] to an enemy. <br/> [[Expend]]
+|description = Apply 2 [[Scorched]] and 2 [[Burn]] to an enemy.<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Scorched]], [[Burn]], [[Expend]]
-|upgradeable = Yes
-|expreq = 8
+|expreq = 7
 |upgrade1 = Boosted Accelerant
 |upgrade1summary = Apply 3 [[Scorched]] and 3 [[Burn]]
 |upgrade2 = Wide Accelerant

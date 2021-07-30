@@ -1,11 +1,11 @@
 {{CardPage
 |quote = What's that smell?
-|description = Apply 3 Scorched and 3 Burn  to an enemy.<br/>Expend
+|description = Apply 3 [[Scorched]] and 3 [[Burn]]  to an enemy.<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Burn]], [[Scorched]]
+|keywords = [[Scorched]], [[Burn]], [[Expend]]
 |parent = Accelerant
 }}

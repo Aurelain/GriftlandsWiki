@@ -1,11 +1,11 @@
 {{CardPage
 |quote = They are going to wish they never took a swing at me.
-|description = Ability: Whenever you gain Charge, gain 2 Counter.<br/>Expend, Ambush
+|description = [[Ability]]: Whenever you gain [[Charge]], gain 2 [[Counter]].<br/>[[Expend]], [[Ambush]]
 |cost = 2
 |character = Rook
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Ambush]], [[Charge]], [[Counter]], [[Expend]]
+|keywords = [[Ability]], [[Charge]], [[Counter]], [[Expend]], [[Ambush]]
 |parent = Tank
 }}

@@ -1,12 +1,12 @@
 {{CardPage
 |quote = There's no way we are insured for this.
-|description = Spend all Charge, apply 3 Burn per Charge spent.
+|description = Spend all [[Charge]], apply 3 [[Burn]] per [[Charge]] spent.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Burn]], [[Charge]]
+|keywords = [[Charge]], [[Burn]]
 |parent = Firestorm
 |mindamage = 3
 |maxdamage = 4
