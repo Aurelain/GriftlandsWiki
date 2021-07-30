@@ -23,12 +23,16 @@ const updateCards = (cardsBag) => {
         if (!fs.existsSync(filePath)) continue;
 
         const existingWikitext = (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8')) || '';
-        if (!existingWikitext.match(/{{Card\b/)) {
+        if (existingWikitext.match(/{{Card\b/)) {
             continue;
         }
-        if (existingWikitext.includes('{|')) {
+        if (!existingWikitext.match(/{{CardPage\b/)) {
             continue;
         }
+        // if (id !== 'ammo_pouch') {
+        //     continue;
+        // }
+
         const existingCard = parseCardFromWikitext(existingWikitext);
         const futureCard = {...card, ...existingCard};
         const futureCardWikitext = generateCardWikitext(futureCard);
@@ -74,16 +78,15 @@ const parseCardFromWikitext = (wikitext) => {
             }
         }
 
-        const specialNumber = (fieldName.match(/^special(\d+)$/) || [])[1];
-        if (specialNumber) {
-            specials[specialNumber] = value;
+        if (fieldName.match(/^special(\d+)/)) {
+            specials.push(value);
         }
     }
     if (tally(summaries)) {
         card.summaries = summaries;
     }
-    if (tally(specials)) {
-        card.specials = specials; // TODO: remove when we have specials
+    if (specials.length) {
+        card.specials = specials.join(','); // TODO: remove when we have specials
     }
     return card;
 };
@@ -161,7 +164,7 @@ const generateCardWikitext = (card) => {
     if (specials) {
         const list = specials.split(',');
         for (let i = 0; i < list.length; i++) {
-            draft += `|special${i + 1} = ${specials[i]}\n`;
+            draft += `|special${i + 1} = ${list[i]}\n`;
         }
     }
     if (generator) {
