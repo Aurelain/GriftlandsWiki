@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Fill them full of holes! We've got plenty of ammo!
-|description = Spend all Charge: Attack once and gain 1 Overcharge for each Charge.
+|description = Spend all [[Charge]]: Attack once and gain 1 [[Overcharge]] for each [[Charge]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon

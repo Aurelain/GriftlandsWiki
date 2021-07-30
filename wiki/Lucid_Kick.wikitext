@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Keep it low and use your hips, they'll never see it coming.
-|description = Destroy
+|description = [[Destroy]]
 |cost = 2
 |character = Rook
 |rarity = Basic

@@ -1,12 +1,12 @@
 {{CardPage
 |quote = A simple snap kick with a cybernetic suprise.
-|description = Spend up to 2 Overcharge: Apply 2 Impair per Overcharge spent.
+|description = Spend up to 2 [[Overcharge]]: Apply 2 [[Impair]] per [[Overcharge]] spent.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Impair]], [[Overcharge]]
+|keywords = [[Overcharge]], [[Impair]]
 |expreq = 9
 |upgrade1 = Boosted Robo-Kick
 |upgrade1summary = 

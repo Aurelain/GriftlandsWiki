@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Hit the dirt!
-|description = Apply 5 Defense.
+|description = Apply 5 [[Defense]].
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |parent = Hunker Down
 }}

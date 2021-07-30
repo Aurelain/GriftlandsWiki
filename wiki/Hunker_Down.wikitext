@@ -1,21 +1,21 @@
 {{CardPage
 |quote = Hit the dirt!
-|description = Apply 3 Defense.
+|description = Apply 3 [[Defense]].
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |expreq = 9
 |upgrade1 = Boosted Hunker Down
 |upgrade1summary = 
-|upgrade2 = Induction Hunker Down
+|upgrade2 = Visionary Hunker Down
 |upgrade2summary = 
-|upgrade3 = Lucid Hunker Down
+|upgrade3 = Induction Hunker Down
 |upgrade3summary = 
 |upgrade4 = Surging Hunker Down
 |upgrade4summary = 
-|upgrade5 = Visionary Hunker Down
+|upgrade5 = Lucid Hunker Down
 |upgrade5summary = 
 }}

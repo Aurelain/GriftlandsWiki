@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Hit the dirt!
-|description = Apply 8 Defense.<br/>Destroy
+|description = Apply 8 [[Defense]].<br/>[[Destroy]]
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]], [[Destroy]]
+|keywords = [[Defense]], [[Destroy]]
 |parent = Hunker Down
 }}
