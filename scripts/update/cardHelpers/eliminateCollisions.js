@@ -52,7 +52,7 @@ const eliminateCollisions = (cardsBag, keywords) => {
     const charged_barrage_plus2 = cardsBag['charged_barrage_plus2'];
     assert(barrage_plus2 && charged_barrage_plus2, 'A barrage is missing!');
     assert(barrage_plus2.name === charged_barrage_plus2.name, 'Expected barrage collision!');
-    barrage_plus2.name += ' (card)';
+    barrage_plus2.name += ' (negotiation card)';
 
     checkDuplicateNames(cardsBag, keywords);
 };
