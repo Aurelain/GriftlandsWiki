@@ -1,12 +1,19 @@
-{{Card
+{{CardPage
+|quote = Give me time to think it over.
+|description = Every time you [[Gamble]], reduce the cost of this card by 1 until played.
+|cost = 4
+|character = Rook
+|rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = Gamble
-|upgradeable = Yes
+|keywords = [[Gamble]]
 |expreq = 3
-|upgrade1 = 'Pale': 3 Cost
-|upgrade2 = 'Boosted': +2 maximum base damage}}
-
-'''Dilemma''' is an '''Diplomacy''' card for [[Rook]]. It deals 1-6 base damage for four actions, and costs 1 less action every time you '''Gamble''' until the end of your turn. '''Dilemma''' is part of the Gambler and Fixated card set.
-
-After accruing 3 experience '''Dilemma''' upgrades to be "Pale" costing 3 actions, or to be "Boosted" dealing 1-8 base damage.
+|upgrade1 = Boosted Dilemma
+|upgrade1summary = Max damage +2
+|upgrade2 = Pale Dilemma
+|upgrade2summary = Cost -1
+|mindamage = 2
+|maxdamage = 6
+}}
+==Misc==
+'''Dilemma''' is part of the Gambler and Fixated card set.

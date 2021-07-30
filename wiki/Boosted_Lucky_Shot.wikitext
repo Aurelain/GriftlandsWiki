@@ -1,12 +1,13 @@
-{{Card
+{{CardPage
+|quote = Right between the eyes! And they were on the move! I tell you, one in a million!
+|description = Spend 1 [[Charge]]: deal 2 bonus damage per empty cell.
+|cost = 1
+|character = Rook
 |rarity = Uncommon
 |decktype = Battle
-|cardtype = 
-|character = Rook
-|keywords = 
-|upgradeable = No
+|cardtype = Attack
+|keywords = [[Charge]]
+|parent = Lucky Shot
+|mindamage = 2
+|maxdamage = 5
 }}
-{{Quote|'It's that cool head of his that's the real danger.'}}
-
-==Description==
-Spend 1 Charge: deal 2 bonus damage per empty cell.

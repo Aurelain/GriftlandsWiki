@@ -1,10 +1,12 @@
-{{Card
+{{CardPage
+|quote = Never have I been this tired. It feels as if I could sleep for a hundred years.
+|description = When this card is drawn, lose 1 action and [[Expend]] this card.<br/>[[Unplayable]], [[Hatch]], [[Parasite]]
+|character = Rook
 |rarity = Common
+|decktype = Negotiation
 |cardtype = Parasite
-|decktype = Negotiation}}
-{{Quote|Never have I been this tired. It feels as if I could sleep for a hundred years.}}
-
-Drowsiness is a common negotiation [[Bog Parasites|Bog-Parasite]] for [[Rook]], it has the effect: "When this card is drawn, lose 1 action and Expend this card. Unplayable, Parasite, Hatch"
-
+|keywords = [[Expend]], [[Unplayable]], [[Hatch]], [[Parasite]]
+|expreq = 5
+}}
 ==Hatch==
 When Drowsiness Hatches, it's transformed into a random uncommon negotiation Bog Parasite, so [[Memory Lapse]], [[Scrub]] or [[Voices]].

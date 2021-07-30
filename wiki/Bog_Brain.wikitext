@@ -1,11 +1,16 @@
-{{Card
+{{CardPage
+|quote = The headaches worsened, gouging out old memories. But in their stead, were visions of greater importance.
+|description = When this card is drawn, gain 2 [[Impair]] and draw 2 cards.<br/>[[Expend]], [[Parasite]], [[Hatch]]
+|cost = 1
+|character = Rook
 |rarity = Common
-|cardtype = Parasite
 |decktype = Battle
-|expreq = 4}}
-{{Quote|The headaches worsened, gouging out old memories. but in their stead, were visions of greater importance.}}
-
-Bog Brain is a common battle [[Bog Parasites|Bog-Parasite]] for [[Rook]], it costs 1 action and has the effect: "When this card is drawn, gain 2 Impair and draw 2 cards. Expend, Parasite, Hatch"
+|cardtype = Parasite
+|keywords = [[Impair]], [[Expend]], [[Parasite]], [[Hatch]]
+|expreq = 4
+}}
+==About==
+Bog Brain is a common battle [[Bog Parasites|Bog-Parasite]].
 
 Playing Bog Brain has no effect, except expending it and gaining experience with it.
 
