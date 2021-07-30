@@ -12,9 +12,16 @@ The [[Spree]] faction card will be a battle card while the [[Admiralty]] card wi
 == Faction quests ==
 
 === [[Admiralty]] quests ===
-* [[Making Molehills]]
+[[Tunnel Rats]]<br>
+[[Leave No-one Behind]]<br>
+[[Making Molehills]]<br>
+[[Collection Day]]
 
 === [[Spree]] quests ===
+[[Wounded Animals]]<br>
+[[An Inconvenience]]<br>
+[[Prisoner Exchange]]<br>
+[[Shake Down]]
 
 == Auction rewards ==
 These rewards are guranteed to be granted,

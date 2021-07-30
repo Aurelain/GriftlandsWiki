@@ -2,6 +2,12 @@
 
 === [[Admiralty]] quests ===
 [[Tunnel Rats]]<br>
-[[Leave No-one Behind]]
+[[Leave No-one Behind]]<br>
+[[Making Molehills]]<br>
+[[Collection Day]]
 
 === [[Spree]] quests ===
+[[Wounded Animals]]<br>
+[[An Inconvenience]]<br>
+[[Prisoner Exchange]]<br>
+[[Shake Down]]

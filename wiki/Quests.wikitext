@@ -15,7 +15,7 @@ Some quests in Sal's campaign may give an initial bonus of a card choice. Additi
 {{stub}}
 
 === Main Quests ===
-'''[[Sal's Campaign]]'''
+'''[[Sal's Campaign]]: Huntin Kashio'''
 
 #[[Welcome to Havaria]]
 #[[Picking Sides]]
@@ -24,7 +24,7 @@ Some quests in Sal's campaign may give an initial bonus of a card choice. Additi
 #[[Final Pieces]]
 #[[Auction Day]]
 
-'''Rook's Campaign'''
+'''[[Rook's Campaign]]: The bog job'''
 #[[Stepping in it]]
 
 <br />
