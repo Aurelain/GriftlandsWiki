@@ -86,7 +86,10 @@ const FILES_NAMESPACE = 6;
  */
 const pull = async (focus = '', ethereal = false, isForced = false) => {
     try {
-        const timestamp = await getTimestamp();
+        let timestamp;
+        if (!isForced) {
+            timestamp = await getTimestamp();
+        }
         if (ethereal && !isForced) {
             checkSafetyTimestamp(timestamp);
         }

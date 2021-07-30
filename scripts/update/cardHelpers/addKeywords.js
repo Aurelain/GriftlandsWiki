@@ -98,10 +98,15 @@ const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRa
     const flags = cleanFlags(card, ranks);
     sortFlags(flags, ranks);
     const internalKeywords = [];
+    let hasHatch = false;
     for (const flag of flags) {
         const globalKeyword = globalKeywordLowIds[flag];
         assert(globalKeyword, `${card.name}: Cannot resolve flag "${flag}"!`);
         const {name} = globalKeyword;
+        if (name === 'Hatch') {
+            hasHatch = true;
+            continue;
+        }
         internalKeywords.push(name);
         if (!(name in usedBag)) {
             allKeywords.push(name);
@@ -115,6 +120,12 @@ const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRa
         card.desc = prefix + wikiKeywords;
     }
 
+    if (hasHatch && card.max_xp) {
+        const prefix = card.desc ? card.desc + '<br/>' : '';
+        card.desc = prefix + '[[Hatch]] ' + card.max_xp;
+        delete card.max_xp;
+    }
+
     if (max_charges) {
         const consumeName = globalKeywordLowIds['consume'].name;
         const link = '[[' + consumeName + ']]';
@@ -124,6 +135,10 @@ const addKeywordsToCard = (card, globalKeywordNames, globalKeywordLowIds, flagRa
         if (!allKeywords.includes(consumeName)) {
             allKeywords.push(consumeName);
         }
+    }
+
+    if (hasHatch) {
+        allKeywords.push('Hatch');
     }
 
     if (allKeywords.length) {
