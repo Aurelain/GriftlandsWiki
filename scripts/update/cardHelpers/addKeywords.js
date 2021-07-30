@@ -1,5 +1,6 @@
 const assert = require('assert');
 const removeLuaComments = require('../../utils/removeLuaComments');
+const debugCard = require('../../utils/debugCard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -18,6 +19,22 @@ const SKIPPED_FLAGS = {
 };
 const BATTLE_FLAGS_FILE = 'scripts/battle/battle_defs.lua';
 const NEGOTIATION_FLAGS_FILE = 'scripts/negotiation/negotiation_defs.lua';
+
+const FEATURE_TO_VERB = {
+    DOMINANCE: 'Gain ',
+    STUN: 'Apply ',
+    BLEED: 'Apply ',
+    EXPOSED: 'Apply ',
+    WOUND: 'Apply ',
+    IMPAIR: 'Apply ',
+    DEFEND: 'Gain ',
+    COMPOSURE: 'Gain ',
+    EXERT: '', // Just "Exert."
+    COMBO: 'Gain ',
+    POWER: 'Gain ',
+    INFLUENCE: 'Gain ',
+    FREE_ACTION: 'Gain ',
+};
 
 // =====================================================================================================================
 //  P U B L I C
@@ -39,6 +56,7 @@ const addKeywords = (cardsBag, globalKeywords, zip) => {
     }
 
     for (const id in cardsBag) {
+        addFeaturesToCard(cardsBag[id], globalKeywords);
         addKeywordsToCard(cardsBag[id], globalKeywordNames, globalKeywordLowIds, flagRanks);
     }
 };
@@ -148,6 +166,25 @@ const cleanFlags = (card, ranks) => {
  */
 const sortFlags = (flags, ranks) => {
     flags.sort((a, b) => (ranks[a] > ranks[b] ? 1 : -1));
+};
+
+/**
+ *
+ */
+const addFeaturesToCard = (card, globalKeywords) => {
+    const {features} = card;
+    if (features && !Array.isArray(features)) {
+        for (const key in features) {
+            const value = features[key];
+            const verb = FEATURE_TO_VERB[key];
+            debugCard(value > 0, card, 'Feature value should be a positive number!');
+            debugCard(key in globalKeywords, card, `Unrecognized feature! ${key}`);
+            debugCard(verb !== undefined, card, `Missing verb! ${key}`);
+            const prefix = card.desc ? card.desc + '<br/>' : '';
+            const usedValue = value === 1 ? '' : `${value} `;
+            card.desc = prefix + `${verb}${usedValue}[[${globalKeywords[key].name}]].`;
+        }
+    }
 };
 
 // =====================================================================================================================
