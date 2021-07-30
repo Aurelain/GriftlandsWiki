@@ -35,3 +35,6 @@ If you fail that task, those rewards are not given.
 === [[Spree]] ===
 * You can take a free auction reward from behind the scenes.<br>
 * You gain an [[Nadan]] card.
+
+== Boss Fight ==
+When Sal returns to the bar and goes to sleep, [[Fssh]] will warn her about a suspicious character that asked about Sal. When Sal actually enters her room, she notices the assassin, who reveals himself. The assassin is either [[Hanbi]] or [[Zyn]]. The player is then presented with the option to either fight the assassin with advantage or engage in a Negotiation to demoralize the assassin.

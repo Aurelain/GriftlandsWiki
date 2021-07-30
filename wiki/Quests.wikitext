@@ -26,6 +26,16 @@ Some quests in Sal's campaign may give an initial bonus of a card choice. Additi
 
 '''[[Rook's Campaign]]: The bog job'''
 #[[Stepping in it]]
+#[[Working Both Sides]]
+#[[Bogged Down]]
+#[[The Expedition]]
+
+'''[[Smith's Campaign]]: The Inheritance'''
+
+#[[Sweet Relief]], [[Meet Tei]], [[The Bar Hits Back]]
+#[[Pick a Suitor]], [[Tei's request]], [[The Marriage Contract]]
+#[[Pick a Side]], [[The Ambush]], [[Cult Machinations]]
+#[[Sampling Error]], [[The Big Beach Party at the End of the World]]
 
 <br />
 
