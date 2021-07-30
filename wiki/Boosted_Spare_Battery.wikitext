@@ -6,7 +6,7 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Charge]], [[Defend]], [[Expend]]
+|keywords = [[Charge]], [[Defense]], [[Expend]]
 |parent = Spare Battery
 |generator = Promoted Ammo Pouch
 }}

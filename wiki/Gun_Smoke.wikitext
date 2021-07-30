@@ -2,14 +2,13 @@
 
 {{CardPage
 |quote = You just get more options with these cartridges, it's almost not fair.
-|description = Spend 1 [[Charge]]: Gain 2 actions. [[Expend]]
+|description = Spend 1 [[Charge]]: Gain 2 actions.<br/>[[Expend]]
 |cost = 1
+|character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Rook
 |keywords = [[Charge]], [[Expend]]
-|upgradeable = Yes
 |expreq = 8
 |upgrade1 = Overcharged Gun Smoke
 |upgrade1summary = Gain 2 actions and gain 2 [[Overcharge]]

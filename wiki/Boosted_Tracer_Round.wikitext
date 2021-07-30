@@ -6,9 +6,9 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Burn]], [[Charge]], [[Expend]]
+|keywords = [[Charge]], [[Burn]], [[Expend]]
 |parent = Tracer Round
+|generator = Promoted Ammo Pouch
 |mindamage = 1
 |maxdamage = 2
-|generator = Promoted Ammo Pouch
 }}

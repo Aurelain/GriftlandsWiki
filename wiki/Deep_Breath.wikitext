@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Concentration]], [[Expend]]
-|expreq = 0
 |upgrade1 = Deeper Breath
 |upgrade1summary = Gain 4 [[Concentration]].
 |generator = Ammo Pouch, Boosted Ammo Pouch

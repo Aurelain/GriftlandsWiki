@@ -8,7 +8,7 @@
 |cardtype = Attack
 |keywords = [[Charge]], [[Expend]]
 |parent = Blowout
+|generator = Promoted Ammo Pouch
 |mindamage = 4
 |maxdamage = 8
-|generator = Promoted Ammo Pouch
 }}

@@ -6,9 +6,9 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Charge]], [[Expend]], [[Wound]]
+|keywords = [[Charge]], [[Wound]], [[Expend]]
 |parent = Yote Shot
+|generator = Promoted Ammo Pouch
 |mindamage = 2
 |maxdamage = 2
-|generator = Promoted Ammo Pouch
 }}

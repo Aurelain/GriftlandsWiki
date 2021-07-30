@@ -6,10 +6,10 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Charge]], [[Expend]], [[Impair]]
+|keywords = [[Charge]], [[Impair]], [[Expend]]
 |upgrade1 = Boosted Rat Shot
 |upgrade1summary = Apply 2 [[Impair]]
+|generator = Ammo Pouch, Boosted Ammo Pouch
 |mindamage = 2
 |maxdamage = 2
-|generator = Ammo Pouch, Boosted Ammo Pouch
 }}

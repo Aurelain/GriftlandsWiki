@@ -6,8 +6,7 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Expend]], [[Mark]]
-|expreq = 0
+|keywords = [[Mark]], [[Expend]]
 |upgrade1 = Focused Laser Sight
 |upgrade1summary = Apply 3 [[Mark]]
 |generator = Ammo Pouch, Boosted Ammo Pouch

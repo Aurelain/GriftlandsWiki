@@ -7,10 +7,9 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Charge]], [[Expend]]
-|expreq = 0
 |upgrade1 = Boosted Blowout
 |upgrade1summary = Deal 4-8 base damage <br/> Deal 2 bonus damage per [[Charge]] spent.
+|generator = Ammo Pouch, Boosted Ammo Pouch
 |mindamage = 3
 |maxdamage = 4
-|generator = Ammo Pouch, Boosted Ammo Pouch
 }}

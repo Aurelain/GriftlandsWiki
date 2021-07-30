@@ -6,9 +6,9 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]], [[Overcharge]]
+|keywords = [[Overcharge]], [[Expend]]
 |parent = Flow
+|generator = Promoted Ammo Pouch
 |mindamage = 2
 |maxdamage = 3
-|generator = Promoted Ammo Pouch
 }}

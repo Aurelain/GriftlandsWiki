@@ -1,12 +1,12 @@
 {{CardPage
 |quote = It's like shooting tallowfish in a barrel!
-|description = Fully Charged: deals 4 bonus damage and hits all enemies.
+|description = [[Fully Charged]]: deals 4 bonus damage and hits all enemies.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Primed]]
+|keywords = [[Fully Charged]]
 |parent = Gallery
 |mindamage = 3
 |maxdamage = 3

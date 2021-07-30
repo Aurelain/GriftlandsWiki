@@ -6,7 +6,7 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Expend]], [[Mark]]
+|keywords = [[Mark]], [[Expend]]
 |parent = Laser Sight
 |generator = Promoted Ammo Pouch
 }}

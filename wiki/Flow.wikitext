@@ -6,11 +6,10 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]], [[Overcharge]]
-|expreq = 0
+|keywords = [[Overcharge]], [[Expend]]
 |upgrade1 = Boosted Flow
 |upgrade1summary = Gain 2 [[Overcharge]].
+|generator = Ammo Pouch, Boosted Ammo Pouch
 |mindamage = 1
 |maxdamage = 2
-|generator = Ammo Pouch, Boosted Ammo Pouch
 }}

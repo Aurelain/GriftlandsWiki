@@ -6,11 +6,10 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Burn]], [[Charge]], [[Expend]]
-|expreq = 0
+|keywords = [[Charge]], [[Burn]], [[Expend]]
 |upgrade1 = Boosted Tracer Round
 |upgrade1summary = Apply 3 [[Burn]].
+|generator = Ammo Pouch, Boosted Ammo Pouch
 |mindamage = 1
 |maxdamage = 2
-|generator = Ammo Pouch, Boosted Ammo Pouch
 }}

@@ -6,11 +6,10 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Charge]], [[Expend]], [[Wound]]
-|expreq = 0
+|keywords = [[Charge]], [[Wound]], [[Expend]]
 |upgrade1 = Boosted Yote Shot
 |upgrade1summary = Apply 2 [[Wound]]
+|generator = Ammo Pouch, Boosted Ammo Pouch
 |mindamage = 2
 |maxdamage = 2
-|generator = Ammo Pouch, Boosted Ammo Pouch
 }}

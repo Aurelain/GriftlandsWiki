@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Expend]]
-|expreq = 0
 |upgrade1 = Visionary Scour
 |upgrade1summary = Draw 3 cards.
 |generator = Ammo Pouch, Boosted Ammo Pouch
