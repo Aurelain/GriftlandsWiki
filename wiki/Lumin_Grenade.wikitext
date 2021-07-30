@@ -1,12 +1,12 @@
 {{CardPage
 |quote = The blue stuff is supposed to be helpful. It's always a shame to see it used like this here.
-|description = Deal 9-14 base damage. </br> Hits all enemies. </br> [[Destroy]] after 1 use.
+|description = Hits all enemies.<br/>[[Destroy]] after 1 use.
 |cost = 1
+|character = Other
 |rarity = Rare
 |decktype = Battle
 |cardtype = Item
-|character = Other
 |keywords = [[Destroy]]
-|upgradeable = No
-|expreq = 
+|mindamage = 9
+|maxdamage = 14
 }}

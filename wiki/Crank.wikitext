@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You are doing it wrong, really give it a good pull.
-|description = Gain 2 [[Charge]] and gain 2 [[Defense]]
+|description = Gain 2 [[Charge]] and gain 2 [[Defense]].
 |cost = 1
 |character = Rook
 |rarity = Basic
@@ -11,5 +11,5 @@
 |upgrade1 = Induction Crank
 |upgrade1summary = Gain 3 [[Charge]]
 |upgrade2 = Stone Crank
-|upgrade2summary =  Gain 4 [[Defense]]
+|upgrade2summary = Gain 4 [[Defense]]
 }}

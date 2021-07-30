@@ -1,7 +1,13 @@
-{{stub}}
-{{Card
+{{CardPage
+|quote = Not too practical but it really does some impressive amounts of damage.
+|description = Hits all enemies.<br/>[[Expend]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
 |decktype = Battle
 |cardtype = Item
 |keywords = [[Expend]], [[Destroy]]
-|upgradeable = No}}
+|mindamage = 8
+|maxdamage = 10
+}}
 '''RPG''' is a card that can be found from, merchant, Rise radical death loot, and War machine boon.

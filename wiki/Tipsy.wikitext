@@ -1,7 +1,10 @@
-{{Stub}}
-{{Card
-|decktype = 
-|cardtype = Status
+{{CardPage
+|quote = What do you mean I've had enough? I just got here!
+|description = [[Destroy]], [[Sleep It Off]]
+|cost = 1
 |character = Other
+|rarity = Basic
+|decktype = Battle
+|cardtype = Status
 |keywords = [[Destroy]], [[Sleep It Off]]
-|upgradeable = No}}
+}}

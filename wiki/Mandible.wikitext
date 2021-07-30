@@ -1,1 +1,14 @@
-Mandible is a battle card obtained by killing [[Flead|Fleads]], it costs 1 energy, deals 2-4 damage and then applies Impair equal to damage dealt. It is destroyed after 3 uses.
+{{CardPage
+|quote = Tough enough for a few swings, and the splinters they leave in the target are just perfection.
+|description = Apply [[Impair]] equal to damage dealt by this card.<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Impair]], [[Destroy]]
+|mindamage = 2
+|maxdamage = 4
+}}
+==How to Acquire==
+Mandible is a battle card obtained by killing [[Flead|Fleads]].

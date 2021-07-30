@@ -1,11 +1,11 @@
 {{CardPage
 |quote = You are doing it wrong, really give it a good pull.
-|description = Gain 3 Charge and gain 2 Defense.
+|description = Gain 3 [[Charge]] and gain 2 [[Defense]].
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Charge]], [[Defend]]
+|keywords = [[Charge]], [[Defense]]
 |parent = Crank
 }}
