@@ -91,7 +91,7 @@ const generateCardWikitext = (card) => {
         desc,
         name,
         cost,
-        character,
+        series,
         rarity,
         deckType,
         cardType,
@@ -107,6 +107,12 @@ const generateCardWikitext = (card) => {
     } = card;
 
     let draft = '{{CardPage\n';
+    if (name.includes('(')) {
+        const cleanName = name.replace(/ \(.*/, '');
+        draft += `|name = ${cleanName}\n`;
+        draft += `|image = ${name}.png\n`;
+    }
+
     if (flavour) {
         draft += `|quote = ${flavour}\n`;
     }
@@ -116,8 +122,8 @@ const generateCardWikitext = (card) => {
     if (cost !== undefined) {
         draft += `|cost = ${cost}\n`;
     }
-    if (character) {
-        draft += `|character = ${character}\n`;
+    if (series) {
+        draft += `|character = ${series}\n`;
     }
     if (rarity) {
         draft += `|rarity = ${rarity}\n`;
