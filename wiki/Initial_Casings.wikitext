@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Hey these polished shells aren’t just here for looks you know!
-|description = Ability: Whenever you spend Charge, gain 2 Defense per Charge spent.<br/>Expend, Ambush
+|description = [[Ability]]: Whenever you spend [[Charge]], gain 2 [[Defense]] per [[Charge]] spent.<br/>[[Expend]], [[Ambush]]
 |cost = 3
 |character = Rook
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Ambush]], [[Charge]], [[Defend]], [[Expend]]
+|keywords = [[Ability]], [[Charge]], [[Defense]], [[Expend]], [[Ambush]]
 |parent = Casings
 }}

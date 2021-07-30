@@ -1,9 +1,9 @@
 {{CardPage
 |quote = You are going to get a lot more value out of your shots after they are primed with this.
-|description = When drawn, apply 3 Ricochet to a random enemy.<br/>Unplayable, Replenish
+|description = When drawn, apply 3 [[Ricochet]] to a random enemy.<br/>[[Unplayable]], [[Replenish]]
 |character = Rook
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Replenish]], [[Ricochet]], [[Unplayable]]
+|keywords = [[Ricochet]], [[Unplayable]], [[Replenish]]
 }}

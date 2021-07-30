@@ -1,9 +1,9 @@
 {{CardPage
 |quote = The rhythm is a little tricky to get down, but if the offset is right you'll automatically reload.
-|description = When drawn, apply 2 Scanned to a random enemy.<br/>Unplayable, Replenish
+|description = When drawn, apply 2 [[Scanned]] to a random enemy.<br/>[[Unplayable]], [[Replenish]]
 |character = Rook
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Replenish]], [[Scanned]], [[Unplayable]]
+|keywords = [[Scanned]], [[Unplayable]], [[Replenish]]
 }}

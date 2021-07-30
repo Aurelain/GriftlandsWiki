@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Just don't forget to take them out before you wash your clothes.
-|description = Spend 2 Overcharge: this card costs 0.
+|description = Spend 2 [[Overcharge]]: this card costs 0.
 |cost = 2
 |character = Rook
 |rarity = Common

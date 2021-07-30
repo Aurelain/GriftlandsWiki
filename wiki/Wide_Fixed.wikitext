@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I’ve got your number, punk.
-|description = Apply 2 Fixed to all enemies.<br/>Expend
+|description = Apply 2 [[Fixed]] to all enemies.<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Expend]], [[Fixed]]
+|keywords = [[Fixed]], [[Expend]]
 |parent = Fixed
 }}

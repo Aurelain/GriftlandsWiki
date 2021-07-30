@@ -1,9 +1,9 @@
 {{CardPage
 |quote = Staggered and confused, plenty of time to reload.
-|description = When drawn, apply 3 Mark to a random enemy.<br/>Unplayable, Replenish
+|description = When drawn, apply 3 [[Mark]] to a random enemy.<br/>[[Unplayable]], [[Replenish]]
 |character = Rook
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Mark]], [[Replenish]], [[Unplayable]]
+|keywords = [[Mark]], [[Unplayable]], [[Replenish]]
 }}

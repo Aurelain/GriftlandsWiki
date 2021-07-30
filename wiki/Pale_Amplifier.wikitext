@@ -1,11 +1,11 @@
 {{CardPage
 |quote = The box is a little clunky but when you see the ignition bonuses hit your targets it makes the awkwardness well worth it.
-|description = Ability: Apply 2 Burn whenever you apply Scorched.<br/>Expend
+|description = [[Ability]]: Apply 2 [[Burn]] whenever you apply [[Scorched]].<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Burn]], [[Expend]], [[Scorched]]
+|keywords = [[Ability]], [[Burn]], [[Scorched]], [[Expend]]
 |parent = Amplifier
 }}

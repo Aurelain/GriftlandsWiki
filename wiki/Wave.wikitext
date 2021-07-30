@@ -1,9 +1,9 @@
 {{CardPage
 |quote = There's some mental resistance added, and it makes them a very easy target.
-|description = When drawn, apply 2 Wound to a random enemy.<br/>Unplayable, Replenish
+|description = When drawn, apply 2 [[Wound]] to a random enemy.<br/>[[Unplayable]], [[Replenish]]
 |character = Rook
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Replenish]], [[Unplayable]], [[Wound]]
+|keywords = [[Wound]], [[Unplayable]], [[Replenish]]
 }}

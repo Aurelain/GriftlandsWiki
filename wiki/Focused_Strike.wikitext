@@ -1,16 +1,16 @@
 {{CardPage
 |quote = Best to take advantage of the cooling pistols.
-|description = Empty: Gain 3 Concentration.
+|description = [[Empty]]: Gain 3 [[Concentration]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Concentration]], [[Empty]]
+|keywords = [[Empty]], [[Concentration]]
 |expreq = 9
-|upgrade1 = Boosted Focused Strike
+|upgrade1 = Tall Focused Strike
 |upgrade1summary = 
-|upgrade2 = Tall Focused Strike
+|upgrade2 = Boosted Focused Strike
 |upgrade2summary = 
 |mindamage = 2
 |maxdamage = 5

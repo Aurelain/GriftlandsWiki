@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Look, if they get a little too charged up, just hit this switch and remember to hold your breath, the backblast is heavy and thick as stew.
-|description = Spend all Charge: Gain 2 Defense and 1 Temporary Power per Charge spent.
+|description = Spend all [[Charge]]: Gain 2 [[Defense]] and 1 [[Temporary Power]] per [[Charge]] spent.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Charge]], [[Defend]], [[Power]]
+|keywords = [[Charge]], [[Defense]], [[Temporary Power]]
 |parent = Release Valve
 }}

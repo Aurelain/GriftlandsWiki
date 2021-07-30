@@ -1,6 +1,6 @@
 {{CardPage
 |quote = What's wrong with me? I can't see myself think.
-|description = Insert 3 Affliction cards into your draw pile.<br/>Expend
+|description = Insert 3 [[Affliction]] cards into your draw pile.<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Rare

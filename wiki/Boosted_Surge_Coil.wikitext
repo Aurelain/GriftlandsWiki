@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Yeah I could get in a lot of trouble for installing this, but you are just so damned persuasive.
-|description = If you have any Overcharge: Attack twice.
+|description = If you have any [[Overcharge]]: Attack twice.
 |cost = 1
 |character = Rook
 |rarity = Common

@@ -1,10 +1,11 @@
 {{CardPage
 |quote = What's wrong with me? I can't see myself think.
-|description = Insert 5 Affliction cards into your draw pile.<br/>Expend
+|description = Insert 5 [[Affliction]] cards into your draw pile.<br/>[[Expend]]
 |cost = 2
 |character = Rook
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
+|keywords = [[Expend]]
 |parent = Psionic Storm
 }}

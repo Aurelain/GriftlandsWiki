@@ -5,8 +5,7 @@
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Replenish]], [[Unplayable]]
-|generator = Psionic Storm, Boosted Psionic Storm, Pale Psionic Storm
+|keywords = [[Unplayable]], [[Replenish]]
 |special1 = Current
 |special2 = Melt
 |special3 = Riptide
@@ -14,6 +13,7 @@
 |special5 = Twist
 |special6 = Wave
 |special7 = Whirl
+|generator = Psionic Storm, Boosted Psionic Storm, Pale Psionic Storm
 }}
 ==Notes==
 The card '''Affliction''' will automatically change into one of the other cards.

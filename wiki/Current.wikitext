@@ -1,9 +1,9 @@
 {{CardPage
 |quote = Never thought that you could weaponize a headache.
-|description = When drawn, apply 2 Impair to a random enemy.<br/>Unplayable, Replenish
+|description = When drawn, apply 2 [[Impair]] to a random enemy.<br/>[[Unplayable]], [[Replenish]]
 |character = Rook
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Impair]], [[Replenish]], [[Unplayable]]
+|keywords = [[Impair]], [[Unplayable]], [[Replenish]]
 }}
