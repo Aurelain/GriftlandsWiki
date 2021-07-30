@@ -1,0 +1,22 @@
+{{stub}}
+
+== Roaloch and Load ==
+This [[Quests|quest]] is on day 3 at night. <br/>
+[[Fssh]] needs contraband materials to finish her security. [[Sal]] needs to go to the docks to get them. <br/>
+Optionally, you can convince the bouncer or pay them 200 {{shills}}, to help you with this quest.
+
+== Docks ==
+At the docks is a quarantine in place and Sal is stopped by an Admiralty Patrol Leader. <br/>
+You can talk your way though, bribe (100 {{shills}}) or fight them. 
+
+== Deck of the Ship ==
+A Jakes Smuggler and Admiralty Clerk are discussing the quarantine. <br/>
+You can:
+* negotiate a side deal just for you. The Smuggler will leave.
+* offer to attack the Admiralty. Probably a fight?
+* negotiate to end the quarantine (+30 resolve). The Clerk will leave.
+* grab the package and run. Probably a fight?
+
+== Boss ==
+Then the reason for the quarantine reveals itself. The boss is either [[Shroog]] or [[Crimson Drusk]]. <br/>
+The Jakes Smuggler or Admiralty Clerk who is left will help you.

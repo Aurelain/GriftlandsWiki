@@ -30,8 +30,10 @@
 -->{{#ifeq:{{{character}}}|Enemy|enemy card.|}}<!--
 -->{{#ifeq:{{{character}}}|Other|general card.|}}
 <!-- ====================== D E S C R I P T I O N ====================== -->
+{{#if:{{{description|}}}|
 ==Description==
 {{{description}}}
+}}
 <!-- ====================== U P G R A D E S ====================== -->
 {{#if:{{{upgrade1|}}}|
 ==Upgrades==

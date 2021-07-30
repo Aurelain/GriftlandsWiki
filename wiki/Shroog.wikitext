@@ -9,7 +9,26 @@
 
 == Physiology ==
 
+== Boss Fight ==
+The Slobbering Aberration Shroog has the buff '''Maternal Instinct'''. It has the effect: "Gains 1 [[Power]] when an ally dies." This will not trigger if the Shroog is stunned. <br/>
+Their actions are: 
+* Claw (3 damage)
+* Swipe (5 damage to all)
+* Summon Shrooglets (The Shroog will summon up to 3 Shrooglets. It will choose to do this if there are no Shrooglets.)
+*
+
 == Shrooglets ==
+The Shrooglets have the buffs '''Quitter''' ("will run away if the Shroog is killed") and '''Hungry''' ("its Feed attack heals it for '''X''' health").
+Their actions are: 
+* Head Butt (2-3 damage)
+* Rev up (Gain 5 [[Defense]]. Gain 2 [[Power]])
+*
 
 == Adult Shroogs ==
 An adult Shroog can appear as a possible Boss in Sal's story, on Day 3, the other being the [[Drusks|Drusks]].
+
+== Death Loot ==
+The Shroog will drop a [[Shroog Fang]].
+[[File:Shroog Fang.png|thumb|alt=|none]]
+
+The Shrooglets have no death loot.
