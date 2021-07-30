@@ -1,13 +1,14 @@
-{{Card
+{{CardPage
+|quote = Stop picking at it, it's only going to get worse.
+|description = When this card is drawn, take 1 damage.<br/>[[Unplayable]], [[Parasite]]<br/>[[Hatch]] 10
+|character = Rook
+|rarity = Basic
 |decktype = Battle
 |cardtype = Parasite
-|expreq = 10
-|character = Rook}}
-{{Quote|Stop picking at it, it's only going to get worse.}}
-
-Twig is a basic battle [[Bog Parasites|Bog-Parasite]] card for [[Rook]], it has the effect: "When this card is drawn, take 1 damage. Unplayable, Parasite, Hatch"
-
-Twig is obtained, together with [[Stem]], at the start of day 2, as [[Rook]].
+|keywords = [[Unplayable]], [[Parasite]], [[Hatch]]
+}}
+==About==
+'''Twig''' is obtained, together with [[Stem]], at the start of day 2, as [[Rook]].
 
 == Hatch ==
-When Twig hatches it transforms into a random common battle Bog Parasite, so into [[Bog Brain]], [[Neurotic Haze]] or [[Tendrils]].
+When '''Twig''' hatches it transforms into a random common battle Bog Parasite, so into [[Bog Brain]], [[Neurotic Haze]] or [[Tendrils]].

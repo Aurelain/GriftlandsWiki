@@ -1,7 +1,10 @@
-{{Stub}}
-{{Card
-|rarity = 
+{{CardPage
+|quote = Hesh, you look like garbage.
+|description = Lose 2 resolve.<br/>[[Expend]], [[Sleep It Off]]
+|cost = 1
+|character = Other
+|rarity = Unique
 |decktype = Negotiation
 |cardtype = Status
-|character = Other}}
-1 Mana, Negotiation card, Unique Status, Removed upon sleep, Lose 2 resolve, Expend.
+|keywords = [[Expend]], [[Sleep It Off]]
+}}

@@ -1,13 +1,15 @@
-{{Card
-|decktype = Battle
+{{CardPage
+|quote = What do you mean? I feel fine!
+|description = While this is in your hand, all cards deal 2 bonus damage. Lose 1 resolve whenever you play a card.<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 5
+|cost = 0
+|character = Rook
+|rarity = Rare
+|decktype = Negotiation
 |cardtype = Parasite
-|expreq = 5
-|character = Rook}}
-{{Quote|What do you mean? I feel fine!}}
-
-Hyperactive is a basic negotiation [[Bog Parasites|Bog-Parasite]] card for [[Rook]]. It costs 1 action and has the effect: "While this is in your hand, all cards deal 2 bonus damage. Lose 1 resolve whenever you play a card. Unplayable, Parasite, Hatch"
-
-Hyperactive is obtained by Hatching an Uncommon Negotiation Parasite card.
+|keywords = [[Expend]], [[Parasite]], [[Hatch]]
+}}
+==About==
+'''Hyperactive''' is obtained by Hatching an Uncommon Negotiation Parasite card.
 
 == Hatch ==
-When Stutter hatches, it transforms into the only Unique Negotiation Parasite, [[Bog Enlightenment]].
+When '''Hyperactive''' hatches, it transforms into the only Unique Negotiation Parasite, [[Bog Enlightenment]].

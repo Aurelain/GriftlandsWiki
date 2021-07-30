@@ -1,12 +1,14 @@
-{{Card
+{{CardPage
+|quote = Something is wrong with my tongue, I'm not sure if it's mine anymore.
+|description = Play your next card twice. Gain 2 [[Vulnerability]] and lose 4 resolve.<br/>[[Parasite]]<br/>[[Hatch]] 5
+|cost = 1
+|character = Rook
+|rarity = Rare
 |decktype = Negotiation
 |cardtype = Parasite
 |keywords = [[Vulnerability]], [[Parasite]], [[Hatch]]
-|character = Rook}}
-{{Quote|Something is wrong with my tongue, I'm not sure if it's mine anymore..}}
-Stutter is a basic negotiation [[Bog Parasites|Bog-Parasite]] card for [[Rook]]. It costs 1 action and has the effect: "Play your next card twice. Gain 2 Vulnerability and lose 4 resolve. Unplayable, Parasite, Hatch"
-
-Stutter is obtained by hatching an uncommon negotiation parasite card.
+}}
+'''Stutter''' is obtained by hatching an uncommon negotiation parasite card.
 
 ==Hatch==
-When Stutter hatches, it transforms into the only unique negotiation parasite, [[Bog Enlightenment]].
+When '''Stutter''' hatches, it transforms into the only unique negotiation parasite, [[Bog Enlightenment]].

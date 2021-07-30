@@ -1,8 +1,12 @@
-{{Stub}}
-{{Card
+{{CardPage
+|quote = Yeah, I won't be doing too much digging...
+|description = Deal 2 bonus damage per empty cell. Gain 2 [[Defense]] per [[Charge]].<br/>[[Expend]]
+|cost = 0
+|character = Rook
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Defense]], [[Charge]], [[Expend]]
-|upgradeable = No
-|character = Rook}}
+|mindamage = 2
+|maxdamage = 2
+}}

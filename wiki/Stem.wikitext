@@ -1,15 +1,13 @@
-{{Card
-|name = Stem
+{{CardPage
+|quote = You can barely notice it, just wear a scarf or something.
+|description = When this card is drawn, increase the cost of a random card in your hand until the end of this turn.<br/>[[Unplayable]], [[Parasite]]<br/>[[Hatch]] 6
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Parasite
-|keywords = Unplayable, Parasite, Hatch
-|upgradeable = Yes
-|expreq = 6}}
-{{Quote|You can barely notice it, just wear a scarf or something.}}
-Stem is a basic negotiation [[Bog Parasites|Bog-Parasite]] card for [[Rook]]. It has the effect: "When this card is drawn, increase the cost of a random card in your hand until the end of this turn. Unplayable. Parasite. Hatch."
-
+|keywords = [[Unplayable]], [[Parasite]], [[Hatch]]
+}}
+==About==
 Stem is obtained, together with [[Twig]], at the start of day 2, as Rook.
 
 == Hatch ==

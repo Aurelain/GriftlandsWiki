@@ -1,5 +1,10 @@
-{{stub}}
-{{Card
+{{CardPage
+|quote = I forgot my pills, this is going to be awful.
+|description = [[Destroy]], [[Sleep It Off]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
 |cardtype = Status
-|keywords = [[Destroy]]
-|upgradeable = No}}
+|keywords = [[Destroy]], [[Sleep It Off]]
+}}

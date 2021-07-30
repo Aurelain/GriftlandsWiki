@@ -1,12 +1,12 @@
-{{Card
-|rarity = Rare
-|decktype = Battle
-|cardtype = Attack
+{{CardPage
+|quote = Just below the shoulder, above the abdomen, and then finish it with anywhere on the neck.
+|description = Apply 1 [[Wound]] whenever you attack for the rest of the turn.<br/>[[Expend]]
+|cost = 0
 |character = Sal
-|keywords = 
-|upgradeable = No
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Wound]], [[Expend]]
 }}
-{{Quote|Just below the shoulder, above the abdomen, and then finish it with anywhere on the neck.}}
-
 ==Notes==
-Vital Strikes is a unique maneuver card that can be selected by Sal as a reward from Nadan for joining The Spree. (maybe, needs verification)
+'''Vital Strikes''' is a unique maneuver card that can be selected by [[Sal]] as a reward from [[Nadan]] for joining The Spree. (maybe, needs verification)

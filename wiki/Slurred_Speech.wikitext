@@ -1,6 +1,10 @@
-{{stub}}
-{{Card
+{{CardPage
+|quote = I’m fiiiii-iiiine.
+|description = [[Destroy]], [[Sleep It Off]]
+|cost = 2
+|character = Other
+|rarity = Basic
 |decktype = Negotiation
 |cardtype = Status
-|keywords = [[Destroy]]
-|upgradeable = No}}
+|keywords = [[Destroy]], [[Sleep It Off]]
+}}
