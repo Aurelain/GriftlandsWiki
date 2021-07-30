@@ -1,6 +1,6 @@
 {{CardPage
 |quote = The cuts were so clean they didn't even realize anything was wrong until it was too late.
-|description = Apply Bleed for each card played this turn  + 1.
+|description = Apply [[Bleed]] for each card played this turn  + 1.
 |cost = 1
 |character = Sal
 |rarity = Uncommon

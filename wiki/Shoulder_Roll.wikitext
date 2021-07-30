@@ -2,14 +2,13 @@
 
 {{CardPage
 |quote = Hey you can't bring a Shroke in here to fight, I'll break my hand!
-|description = Spend all your [[Combo]]: Gain 3 [[Defense]] per [[Combo]]. Regain your spent [[Combo]] next turn. <br/> [[Finisher]]
+|description = Spend all your [[Combo]]: Gain 2 [[Defense]] per [[Combo]]. Regain your spent [[Combo]] next turn.<br/>[[Finisher]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Combo]], [[Defense]], [[Finisher]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Stone Roll
 |upgrade1summary = Gain 3 [[Defense]] per [[Combo]]

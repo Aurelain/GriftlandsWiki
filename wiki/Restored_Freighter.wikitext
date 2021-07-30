@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Sometimes it just takes determination.
-|description = Deal bonus damage equal to twice the cost of your hand.<br/>Replenish
+|description = Deal bonus damage equal to twice the cost of your hand.<br/>[[Replenish]]
 |cost = 2
 |character = Sal
 |rarity = Common

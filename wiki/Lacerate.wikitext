@@ -7,10 +7,11 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Bleed]]
-|upgradeable = Yes
-|expreq = 7
+|expreq = 9
 |upgrade1 = Boosted Lacerate
 |upgrade1summary = Apply 5 [[Bleed]].
 |upgrade2 = Savage Lacerate
 |upgrade2summary = If the target has [[Bleed]], apply 6 [[Bleed]].
+|mindamage = 2
+|maxdamage = 4
 }}

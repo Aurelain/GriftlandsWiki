@@ -7,10 +7,11 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Combo]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Rival's Hilt Bash
 |upgrade1summary = Gain 2 additional [[Combo]]
 |upgrade2 = Boosted Hilt Bash
 |upgrade2summary = Deals 4-6 base damage
+|mindamage = 2
+|maxdamage = 3
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You shouldn't be playing with knives.
-|description = Apply 5 Bleed.
+|description = Apply 5 [[Bleed]].
 |cost = 1
 |character = Sal
 |rarity = Common

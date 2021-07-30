@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You shouldn't be playing with knives.
-|description = If the target has Bleed, apply 6 Bleed.
+|description = If the target has [[Bleed]], apply 6 [[Bleed]].
 |cost = 1
 |character = Sal
 |rarity = Common

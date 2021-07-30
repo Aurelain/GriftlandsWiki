@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Why do I have two daggers? Well, I have two hands, don't I?
-|description = Piercing
+|description = [[Piercing]]
 |cost = 1
 |character = Sal
 |rarity = Basic

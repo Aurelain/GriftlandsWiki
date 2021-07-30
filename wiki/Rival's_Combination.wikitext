@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I couldn't even follow the movements of the knife, it's like she was holding five of them or something.
-|description = Deal 3 bonus damage if you have any Combo.<br/>Gain 3 Combo.
+|description = Deal 3 bonus damage if you have any [[Combo]].<br/>Gain 3 [[Combo]].
 |cost = 1
 |character = Sal
 |rarity = Common

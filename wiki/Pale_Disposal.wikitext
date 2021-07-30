@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Lumin cells and other batteries can be recycled in the gray bins, or you can just hurl them at someone.
-|description = Ability: Whenever you discard a card, deal 2 damage to a random enemy.<br/>Expend
+|description = [[Ability]]: Whenever you discard a card, deal 2 damage to a random enemy.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Rare

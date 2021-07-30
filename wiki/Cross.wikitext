@@ -7,10 +7,11 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Combo]]
-|upgradeable = Yes
-|expreq = 5
+|expreq = 7
 |upgrade1 = Rooted Cross
 |upgrade1summary = Deal 6 base damage
 |upgrade2 = Tall Cross
 |upgrade2summary = Deal 3-8 base damage
+|mindamage = 3
+|maxdamage = 6
 }}

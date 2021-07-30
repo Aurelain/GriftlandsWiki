@@ -1,6 +1,6 @@
 {{CardPage
 |quote = The cuts were so clean they didn't even realize anything was wrong until it was too late.
-|description = Apply Bleed for each card played this turn.<br/>If the target has 5 Bleed or more: Apply 2 Impair.
+|description = Apply [[Bleed]] for each card played this turn.<br/>If the target has 5 [[Bleed]] or more: Apply 2 [[Impair]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon

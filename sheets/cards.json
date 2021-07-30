@@ -91,7 +91,7 @@
     ],
     [
         "Active Defense",
-        "Apply 4 [[Defense]].<br/>Increase by 2 for each card discarded this turn.<br/>",
+        "Apply 4 [[Defense]].<br/>Increase by 2 for each card discarded this turn.",
         "active_defense",
         "B/active_defense",
         "Sal",
@@ -3781,7 +3781,7 @@
     ],
     [
         "Boosted Discharge",
-        "Target a random enemy for each card in your hand.<br/>",
+        "Target a random enemy for each card in your hand.",
         "discharge_plus2",
         "B/discharge",
         "Sal",
@@ -4123,7 +4123,7 @@
     ],
     [
         "Boosted Erupt",
-        "Attack a random opponent argument.<br/>[[Evoke]]: Play 4 Hostility cards in a single turn.<br/><br/>[[Unplayable]]",
+        "Attack a random opponent argument.<br/>[[Evoke]]: Play 4 Hostility cards in a single turn.<br/>[[Unplayable]]",
         "erupt_plus",
         "N/erupt",
         "Sal",
@@ -4213,7 +4213,7 @@
     ],
     [
         "Boosted Facts",
-        "Apply 2 [[Composure]] to a random argument. Increase by 2 for each card played this turn.<br/>",
+        "Apply 2 [[Composure]] to a random argument. Increase by 2 for each card played this turn.",
         "hard_facts_plus",
         "N/hard_facts",
         "Sal",
@@ -4987,7 +4987,7 @@
     ],
     [
         "Boosted Hilt Bash",
-        "Gain 1 [[Combo]] for every card in your hand.<br/>",
+        "Gain 1 [[Combo]] for every card in your hand.",
         "jab_plus2",
         "B/jab",
         "Sal",
@@ -5167,7 +5167,7 @@
     ],
     [
         "Boosted Invective",
-        "Gain 2 [[Heated]]<br/>[[Evoke]]: Play 3 Hostility cards in a single turn. <br/>[[Unplayable]], [[Expend]]",
+        "Gain 2 [[Heated]]<br/>[[Evoke]]: Play 3 Hostility cards in a single turn.<br/>[[Unplayable]], [[Expend]]",
         "invective_plus",
         "N/invective",
         "Sal",
@@ -6949,7 +6949,7 @@
     ],
     [
         "Boosted Slice",
-        "Apply [[Bleed]] for each card played this turn  + 1.<br/>",
+        "Apply [[Bleed]] for each card played this turn  + 1.",
         "slice_plus",
         "B/slice",
         "Sal",
@@ -7381,7 +7381,7 @@
     ],
     [
         "Boosted Surge",
-        "Gain 5 [[Defense]]. Increase by 2 for each card played this turn.<br/>",
+        "Gain 5 [[Defense]]. Increase by 2 for each card played this turn.",
         "bouldering_charge_plus",
         "B/bouldering_charge",
         "Sal",
@@ -10891,7 +10891,7 @@
     ],
     [
         "Defensive Surge",
-        "Gain 2 [[Defense]]. Increase by 2 for each card played this turn.<br/>",
+        "Gain 2 [[Defense]]. Increase by 2 for each card played this turn.",
         "bouldering_charge",
         "B/bouldering_charge",
         "Sal",
@@ -11179,7 +11179,7 @@
     ],
     [
         "Discharge",
-        "Target a random enemy for each card in your hand.<br/>",
+        "Target a random enemy for each card in your hand.",
         "discharge",
         "B/discharge",
         "Sal",
@@ -12367,7 +12367,7 @@
     ],
     [
         "Enduring Invective",
-        "Gain 1 [[Heated]]<br/>[[Evoke]]: Play 3 Hostility cards in a single turn. <br/>[[Unplayable]]",
+        "Gain 1 [[Heated]]<br/>[[Evoke]]: Play 3 Hostility cards in a single turn.<br/>[[Unplayable]]",
         "invective_plus2",
         "N/invective",
         "Sal",
@@ -13447,7 +13447,7 @@
     ],
     [
         "Erupt",
-        "Attack a random opponent argument.<br/>[[Evoke]]: Play 4 Hostility cards in a single turn.<br/><br/>[[Unplayable]]",
+        "Attack a random opponent argument.<br/>[[Evoke]]: Play 4 Hostility cards in a single turn.<br/>[[Unplayable]]",
         "erupt",
         "N/erupt",
         "Sal",
@@ -14599,7 +14599,7 @@
     ],
     [
         "Focused Facts",
-        "Apply 2 [[Composure]]. Increase by 1 for each card played this turn.<br/>",
+        "Apply 2 [[Composure]]. Increase by 1 for each card played this turn.",
         "hard_facts_plus2",
         "N/hard_facts",
         "Sal",
@@ -16021,7 +16021,7 @@
     ],
     [
         "Hard Facts",
-        "Apply 2 [[Composure]] to a random argument. Increase by 1 for each card played this turn.<br/>",
+        "Apply 2 [[Composure]] to a random argument. Increase by 1 for each card played this turn.",
         "hard_facts",
         "N/hard_facts",
         "Sal",
@@ -16669,7 +16669,7 @@
     ],
     [
         "Hilt Bash",
-        "Gain 1 [[Combo]] for every card in your hand.<br/>",
+        "Gain 1 [[Combo]] for every card in your hand.",
         "jab",
         "B/jab",
         "Sal",
@@ -18127,7 +18127,7 @@
     ],
     [
         "Invective",
-        "Gain 1 [[Heated]]<br/>[[Evoke]]: Play 3 Hostility cards in a single turn. <br/>[[Unplayable]], [[Expend]]",
+        "Gain 1 [[Heated]]<br/>[[Evoke]]: Play 3 Hostility cards in a single turn.<br/>[[Unplayable]], [[Expend]]",
         "invective",
         "N/invective",
         "Sal",
@@ -19639,7 +19639,7 @@
     ],
     [
         "Lumin Kunai",
-        "At the end of your turn, take 2 damage per attack card played this turn.<br/><br/>[[Unplayable]], [[Burnout]]",
+        "At the end of your turn, take 2 damage per attack card played this turn.<br/>[[Unplayable]], [[Burnout]]",
         "lumin_kunai",
         "B/lumin_kunai",
         "Other",
@@ -20197,7 +20197,7 @@
     ],
     [
         "Mirrored Discharge",
-        "Target a random enemy for each card in your hand + 1.<br/>",
+        "Target a random enemy for each card in your hand + 1.",
         "discharge_plus",
         "B/discharge",
         "Sal",
@@ -22195,7 +22195,7 @@
     ],
     [
         "Pale Erupt",
-        "Attack a random opponent argument.<br/>[[Evoke]]: Play 3 Hostility cards in a single turn.<br/><br/>[[Unplayable]]",
+        "Attack a random opponent argument.<br/>[[Evoke]]: Play 3 Hostility cards in a single turn.<br/>[[Unplayable]]",
         "erupt_plus2",
         "N/erupt",
         "Sal",
@@ -24877,7 +24877,7 @@
     ],
     [
         "Promoted Slice",
-        "Apply [[Bleed]] for each card played this turn.<br/>If the target has 5 [[Bleed]] or more: Apply 2 [[Impair]].<br/>",
+        "Apply [[Bleed]] for each card played this turn.<br/>If the target has 5 [[Bleed]] or more: Apply 2 [[Impair]].",
         "slice_plus2",
         "B/slice",
         "Sal",
@@ -25759,7 +25759,7 @@
     ],
     [
         "Rebound",
-        "Gain 2 [[Counter]] for each card played this turn.<br/>",
+        "Gain 2 [[Counter]] for each card played this turn.",
         "rebound",
         "B/rebound",
         "Sal",
@@ -26677,7 +26677,7 @@
     ],
     [
         "Rival's Hilt Bash",
-        "Gain 1 [[Combo]] for every card in your hand + 2.<br/>",
+        "Gain 1 [[Combo]] for every card in your hand + 2.",
         "jab_plus",
         "B/jab",
         "Sal",
@@ -26857,7 +26857,7 @@
     ],
     [
         "Rolling Toughen Up",
-        "Apply 2 [[Defense]]. Increase by 1 for each card played this turn.<br/>",
+        "Apply 2 [[Defense]]. Increase by 1 for each card played this turn.",
         "toughen_up_plus2d",
         "B/toughen_up",
         "Smith",
@@ -29341,7 +29341,7 @@
     ],
     [
         "Slice",
-        "Apply [[Bleed]] for each card played this turn.<br/>",
+        "Apply [[Bleed]] for each card played this turn.",
         "slice",
         "B/slice",
         "Sal",
@@ -30259,7 +30259,7 @@
     ],
     [
         "Spined Rebound",
-        "Gain 3 [[Counter]] for each card played this turn.<br/>",
+        "Gain 3 [[Counter]] for each card played this turn.",
         "rebound_plus2",
         "B/rebound",
         "Sal",
@@ -31501,7 +31501,7 @@
     ],
     [
         "Stone Rebound",
-        "Gain 2 [[Counter]] and 1 [[Defense]] for each card played this turn.<br/>",
+        "Gain 2 [[Counter]] and 1 [[Defense]] for each card played this turn.",
         "rebound_plus",
         "B/rebound",
         "Sal",
@@ -31753,7 +31753,7 @@
     ],
     [
         "Stone Surge",
-        "Gain 2 [[Defense]]. Increase by 3 for each card played this turn.<br/>",
+        "Gain 2 [[Defense]]. Increase by 3 for each card played this turn.",
         "bouldering_charge_plus2",
         "B/bouldering_charge",
         "Sal",

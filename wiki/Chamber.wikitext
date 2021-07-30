@@ -3,11 +3,11 @@
 |description = Gain 4 [[Defense]]. At the start of your next turn gain 2 [[Combo]].
 |cost = 1
 |character = Sal
+|rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Combo]], [[Defense]]
-|expreq = 7
-|rarity = Common
+|keywords = [[Defense]], [[Combo]]
+|expreq = 9
 |upgrade1 = Stone Chamber
 |upgrade1summary = Gain 6 [[Defense]]
 |upgrade2 = Rival's Chamber

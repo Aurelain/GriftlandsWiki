@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Murder Bay Boxing has come a long way. You could almost say the fighters actually know what they are doing.
-|description = Gain 6 Defense, at the start of your next turn gain 2 Combo.
+|description = Gain 6 [[Defense]], at the start of your next turn gain 2 [[Combo]].
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Combo]], [[Defend]]
+|keywords = [[Defense]], [[Combo]]
 |parent = Chamber
 }}

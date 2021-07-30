@@ -1,16 +1,17 @@
 {{CardPage
 |quote = I couldn't even follow the movements of the knife, it's like she was holding five of them or something.
-|description = Deal 3 bonus damage if you have any [[Combo]]. Gain 2 [[Combo]].
+|description = Deal 3 bonus damage if you have any [[Combo]].<br/>Gain 2 [[Combo]].
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Combo]]
-|expreq = 7
-|upgradeable = Yes
+|expreq = 9
 |upgrade1 = Rival's Combination
 |upgrade1summary = Gain 3 [[Combo]]
 |upgrade2 = Boosted Combination
 |upgrade2summary = Deal 4-6 base damage
+|mindamage = 2
+|maxdamage = 4
 }}

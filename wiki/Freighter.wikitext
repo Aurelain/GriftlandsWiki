@@ -2,16 +2,17 @@
 
 {{CardPage
 |quote = Sometimes it just takes determination.
-|description = Deal bonus damage equal to the cost of your hand.
+|description = Deal bonus damage equal to twice the cost of your hand.
 |cost = 2
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|upgradeable = Yes
-|expreq = 5
+|expreq = 7
 |upgrade1 = Restored Freighter
 |upgrade1summary = [[Replenish]]
 |upgrade2 = Rooted Freighter
 |upgrade2summary = Deal 6 base damage
+|mindamage = 2
+|maxdamage = 2
 }}

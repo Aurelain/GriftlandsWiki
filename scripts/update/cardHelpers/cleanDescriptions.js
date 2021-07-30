@@ -88,7 +88,7 @@ const cleanDescription = (card, keywords, bag) => {
         draft = draft.split('{' + keyword + '}').join('[[' + keywords[keyword].name + ']]');
     }
 
-    draft = draft.split('\\n').join('\n');
+    draft = draft.split('\\n').join('\n').trim();
 
     if (draft.match(/[{#\\<]/)) {
         // console.log('================', name);

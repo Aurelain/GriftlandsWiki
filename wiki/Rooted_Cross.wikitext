@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Sure it's slow, but the follow up is amazing.
-|description = Gain Combo equal to damage dealt by this card.
+|description = Gain [[Combo]] equal to damage dealt by this card.
 |cost = 2
 |character = Sal
 |rarity = Common

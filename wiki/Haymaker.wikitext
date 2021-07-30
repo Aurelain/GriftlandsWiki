@@ -2,17 +2,18 @@
 
 {{CardPage
 |quote = Sound the damn bell! It's over!
-|description = Spend all your [[Combo]]: Deal 3 bonus damage per [[Combo]]. </br> [[Finisher]]
+|description = Spend all your [[Combo]]: Deal 3 bonus damage per [[Combo]].<br/>[[Finisher]]
 |cost = 2
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Combo]], [[Finisher]]
-|upgradeable = Yes
 |expreq = 5
 |upgrade1 = Boosted Haymaker
 |upgrade1summary = Deal 4 bonus damage per [[Combo]]
 |upgrade2 = Rival's Haymaker
 |upgrade2summary = Gain 2 Combo
+|mindamage = 3
+|maxdamage = 5
 }}

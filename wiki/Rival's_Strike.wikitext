@@ -1,6 +1,6 @@
 {{CardPage
 |quote = See, people always expect the daggers. That's why I hit them with the elbow sometimes.
-|description = Gain 1 Combo.
+|description = Gain 1 [[Combo]].
 |cost = 1
 |character = Sal
 |rarity = Basic
