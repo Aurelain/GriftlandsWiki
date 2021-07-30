@@ -177,14 +177,45 @@ const addFeaturesToCard = (card, globalKeywords) => {
         for (const key in features) {
             const value = features[key];
             const verb = FEATURE_TO_VERB[key];
+            const keywordInfo = globalKeywords[key];
             debugCard(value > 0, card, 'Feature value should be a positive number!');
-            debugCard(key in globalKeywords, card, `Unrecognized feature! ${key}`);
-            debugCard(verb !== undefined, card, `Missing verb! ${key}`);
+            debugCard(keywordInfo, card, `Unrecognized feature! ${key}`);
+            const featureDescription = compileFeatureDescription(card, keywordInfo, value);
             const prefix = card.desc ? card.desc + '<br/>' : '';
-            const usedValue = value === 1 ? '' : `${value} `;
-            card.desc = prefix + `${verb}${usedValue}[[${globalKeywords[key].name}]].`;
+            card.desc = prefix + `${featureDescription}`;
         }
     }
+};
+
+/**
+ *
+ */
+const compileFeatureDescription = (card, {feature_desc, id, name}, value) => {
+    debugCard(feature_desc, card, `Missing feature description! ${name}`);
+
+    let draft = feature_desc;
+
+    // Resolve all "foo {1} bar" instances:
+    draft = draft.split('{1}').join(value);
+
+    // Also replace the number in "foo {1*card|cards} bar"
+    const noun = value === 1 ? '$1' : '$2';
+    draft = draft.replace(/{1\*(.*?)\|(.*?)}/g, noun);
+
+    // Change the syntax for numbers inside conditions:
+    //      Old: foo {VULNERABILITY 5} bar
+    //      New: foo 5 {VULNERABILITY} bar
+    draft = draft.replace(/{(\w+) (\d+)}/g, '$2 {$1}');
+
+    // Replace name:
+    draft = draft.split('{' + id + '}').join('[[' + name + ']]'); // Note: does nothing for "improvise_carry_over"
+
+    // Fix exert:
+    draft = draft.split('1 [[Exert]]').join('[[Exert]]'); // Needed for "Spark Cannon", "Blood Flow" etc.
+
+    debugCard(!draft.includes('{'), card, `There are still some braces! ${draft}`);
+
+    return draft;
 };
 
 // =====================================================================================================================

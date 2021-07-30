@@ -2,2346 +2,2815 @@
     [
         "Name",
         "Id",
-        "Description"
+        "Description",
+        "Feature Description"
     ],
     [
         "<p img='icons/ic_hatch.tex' scale=1.0> Hatch",
         "HATCH_X",
-        "When this card's effect is triggered the specified number of times, it is destroyed and a special event occurs. The hatch counter is not changed while fatigued."
+        "When this card's effect is triggered the specified number of times, it is destroyed and a special event occurs. The hatch counter is not changed while fatigued.",
+        null
     ],
     [
         "Ability",
         "ABILITY",
-        "Gain a condition for the rest of this battle"
+        "Gain a condition for the rest of this battle",
+        null
     ],
     [
         "Abuse of power",
         "POWER_ABUSE",
-        "At the start of {1}'s turn, {INCEPT} a {PLANTED_EVIDENCE} argument if one does not already exist."
+        "At the start of {1}'s turn, {INCEPT} a {PLANTED_EVIDENCE} argument if one does not already exist.",
+        null
     ],
     [
         "Acidic Slime",
         "acidic_slime",
-        "Every turn, <#HILITE>{1}</> random {1*card|cards} in your hand {1*costs|cost} 1 more until played. At the end of your turn, remove 1 <b>Acidic Slime</>."
+        "Every turn, <#HILITE>{1}</> random {1*card|cards} in your hand {1*costs|cost} 1 more until played. At the end of your turn, remove 1 <b>Acidic Slime</>.",
+        null
     ],
     [
         "Adrenaline",
         "ADRENALINE",
-        "Attack damage is increased by <#HILITE>{1}</>. At the end of your turn, remove all <b>Adrenaline</>."
+        "Attack damage is increased by <#HILITE>{1}</>. At the end of your turn, remove all <b>Adrenaline</>.",
+        null
     ],
     [
         "Afterburner Gloves",
         "kashio_afterburner_gloves",
-        "All {1}'s attacks apply {2} {BURN} if not mitigated."
+        "All {1}'s attacks apply {2} {BURN} if not mitigated.",
+        null
     ],
     [
         "All Business",
         "ALL_BUSINESS",
-        "{1} gains {COMPOSURE {2}} for each Hostility card you draw."
+        "{1} gains {COMPOSURE {2}} for each Hostility card you draw.",
+        null
     ],
     [
         "Alleviate",
         "ALLEVIATE",
-        "Recover health up to the amount you have lost this turn."
+        "Recover health up to the amount you have lost this turn.",
+        null
     ],
     [
         "Allurement",
         "ALLUREMENT",
-        "At the start of {1}'s turn, insert {2} {3#card} {2*card|cards} into your draw pile.\\nWhen this is destroyed, {CONSUME} all {3#card} cards in your deck."
+        "At the start of {1}'s turn, insert {2} {3#card} {2*card|cards} into your draw pile.\\nWhen this is destroyed, {CONSUME} all {3#card} cards in your deck.",
+        null
     ],
     [
         "Ally",
         "FIGHT_ALLY_WON",
-        "<b>{1.fullname}</> will fight on your side if you win this negotiation."
+        "<b>{1.fullname}</> will fight on your side if you win this negotiation.",
+        null
     ],
     [
         "Ambush",
         "AMBUSH",
-        "Automatically placed in your hand at the start of negotiation."
+        "Automatically placed in your hand at the start of negotiation.",
+        null
     ],
     [
         "Ammo",
         "ammo",
-        "{1}'s attacks require ammo."
+        "{1}'s attacks require ammo.",
+        null
     ],
     [
         "Anger",
         "scratching_post",
-        "Gain <#HILITE>{1}</> {POWER} whenever attacked.\\nPeriodically purges all status effects."
+        "Gain <#HILITE>{1}</> {POWER} whenever attacked.\\nPeriodically purges all status effects.",
+        null
     ],
     [
         "Animosity",
         "ANIMOSITY",
-        "If you end the negotiation with Animosity, the opponent's opinion of you will decrease. Remove 1 stack at the start of your turn."
+        "If you end the negotiation with Animosity, the opponent's opinion of you will decrease. Remove 1 stack at the start of your turn.",
+        null
     ],
     [
         "Annihilation",
         "annihilation",
-        "The next <#HILITE>{1*card| {1} cards}</> played will {EXPEND}."
+        "The next <#HILITE>{1*card| {1} cards}</> played will {EXPEND}.",
+        null
     ],
     [
         "Anonymous Bid",
         "BIDDER",
-        "A bid from another patron. When destroyed, another Anonymous Bid is created to replace it.\\n\\n<#PENALTY>If this argument kills an auction item, it is removed from play!</>"
+        "A bid from another patron. When destroyed, another Anonymous Bid is created to replace it.\\n\\n<#PENALTY>If this argument kills an auction item, it is removed from play!</>",
+        null
     ],
     [
         "Apprehensive",
         "apprehensive",
-        "Apply <#HILITE>{1}</> {COMPOSURE} to a random argument at the end of turn."
+        "Apply <#HILITE>{1}</> {COMPOSURE} to a random argument at the end of turn.",
+        null
     ],
     [
         "Appropriated",
         "APPROPRIATED",
-        "When this argument is destroyed, all cards are returned to {2}'s hand. {2} gains 2 {VULNERABILITY}."
+        "When this argument is destroyed, all cards are returned to {2}'s hand. {2} gains 2 {VULNERABILITY}.",
+        null
     ],
     [
         "Appropriator",
         "APPROPRIATOR",
-        "At the start of {1}'s turn, steal {2} {2*card|cards} from {3} and hold {2*it|them} hostage."
+        "At the start of {1}'s turn, steal {2} {2*card|cards} from {3} and hold {2*it|them} hostage.",
+        null
     ],
     [
         "Arint's Weaknesses",
         "ARINT_WEAKNESS",
-        "Whenever a Weakness argument is destroyed, you gain a powerful card for the ensuing battle. After gaining 4 cards, the negotiation ends. {1} {1*card|cards} remaining."
+        "Whenever a Weakness argument is destroyed, you gain a powerful card for the ensuing battle. After gaining 4 cards, the negotiation ends. {1} {1*card|cards} remaining.",
+        null
     ],
     [
         "Armored",
         "ARMOURED",
-        "Gain <#HILITE>{1}</> {DEFEND} at the end of every turn.\\n"
+        "Gain <#HILITE>{1}</> {DEFEND} at the end of every turn.\\n",
+        null
     ],
     [
         "Auction Item",
         "auction_item",
-        "When you dismiss this argument, gain {{2}.{1}} and end the auction.\\n\\n<#PENALTY>If another bidder dismisses this argument, it is removed from play.</>"
+        "When you dismiss this argument, gain {{2}.{1}} and end the auction.\\n\\n<#PENALTY>If another bidder dismisses this argument, it is removed from play.</>",
+        null
     ],
     [
         "Auctioneer",
         "AUCTIONEER",
-        "Introduces items for bidding. There {1*is|are} {1} {1*item|items} left.\\n\\nYou will get to keep the first item that you dismiss and the negotiation ends.\\n\\n<#PENALTY>If another bidder dimisses an item, it is removed from play.</>"
+        "Introduces items for bidding. There {1*is|are} {1} {1*item|items} left.\\n\\nYou will get to keep the first item that you dismiss and the negotiation ends.\\n\\n<#PENALTY>If another bidder dimisses an item, it is removed from play.</>",
+        null
     ],
     [
         "Automech Code",
         "get_automech_code",
-        "When destroyed, grants you one access code for an automech."
+        "When destroyed, grants you one access code for an automech.",
+        null
     ],
     [
         "Automech Flame Cannon",
         "automech_flame_cannon",
-        "{1}'s multi-attack applies {BURN} unless mitigated."
+        "{1}'s multi-attack applies {BURN} unless mitigated.",
+        null
     ],
     [
         "Bait",
         "BAIT",
-        "Must be targeted before anything else. Gains 2 resolve for each stack of <b>Bait</b>."
+        "Must be targeted before anything else. Gains 2 resolve for each stack of <b>Bait</b>.",
+        null
     ],
     [
         "Bandit Schmuck",
         "BANDIT_SCHMUCK",
-        "While this is alive, {1}'s core argument is shielded and {1} will not attack. At the end of {1}'s turn, <b>Bandit Schmuck</> gains 1 damage."
+        "While this is alive, {1}'s core argument is shielded and {1} will not attack. At the end of {1}'s turn, <b>Bandit Schmuck</> gains 1 damage.",
+        null
     ],
     [
         "Bark Box",
         "BARK_BOX",
+        null,
         null
     ],
     [
         "Battered",
         "BATTERED",
-        "{1} draws 1 fewer cards at the start of {1}'s turn. At the end of {1}'s turn, remove 1 <b>Battered</>."
+        "{1} draws 1 fewer cards at the start of {1}'s turn. At the end of {1}'s turn, remove 1 <b>Battered</>.",
+        null
     ],
     [
         "Battle Instincts",
         "oolo_instincts",
-        "{1} gains {POWER 1} every {2} cards you play. ({3} remaining)"
+        "{1} gains {POWER 1} every {2} cards you play. ({3} remaining)",
+        null
     ],
     [
         "Beam Charge",
         "arint_beam_charge",
-        "{1}'s chest piece is powered up and ready to fire."
+        "{1}'s chest piece is powered up and ready to fire.",
+        null
     ],
     [
         "Blast Chamber",
         "kashio_blast_chamber",
-        "{1} attacks one additional time per turn."
+        "{1} attacks one additional time per turn.",
+        null
     ],
     [
         "Bleed",
         "BLEED",
-        "At the beginning of their turn, take damage equal to the count of <b>Bleed</b>, then halve <b>Bleed</b> count."
+        "At the beginning of their turn, take damage equal to the count of <b>Bleed</b>, then halve <b>Bleed</b> count.",
+        "Apply {1} {BLEED}."
     ],
     [
         "Blind",
         "BLIND",
-        "This card selects a target randomly."
+        "This card selects a target randomly.",
+        null
     ],
     [
         "Blinders",
         "blinders",
-        "Whenever you spend {CHARGE}, apply <#HILITE>{1} {MARK}</> to a random enemy."
+        "Whenever you spend {CHARGE}, apply <#HILITE>{1} {MARK}</> to a random enemy.",
+        null
     ],
     [
         "Blister",
         "BLISTER",
-        "At the start of {1}’s turn, restore {2} resolve to its core argument and remove 1 <b>Blister</>."
+        "At the start of {1}’s turn, restore {2} resolve to its core argument and remove 1 <b>Blister</>.",
+        null
     ],
     [
         "Bog Boil",
         "BOG_BOSS_BOIL",
-        "If destroyed, deal {1} damage to {2}'s core argument. At the end of {2}'s turn, remove 1 <b>Bog Boil</>."
+        "If destroyed, deal {1} damage to {2}'s core argument. At the end of {2}'s turn, remove 1 <b>Bog Boil</>.",
+        null
     ],
     [
         "Bog Boil",
         "bog_boil",
-        "Restore resolve to a random friendly argument equal to the resolve lost from <b>Bog Boil's</> attack."
+        "Restore resolve to a random friendly argument equal to the resolve lost from <b>Bog Boil's</> attack.",
+        null
     ],
     [
         "Bog Eyes",
         "burr_boss_eye",
-        "{1}'s eye is closed, reducing damage taken by 40%."
+        "{1}'s eye is closed, reducing damage taken by 40%.",
+        null
     ],
     [
         "Bog Rage",
         "burr_boss_enrage",
-        "{1} deals {2} bonus damage. Reduce the bonus damage by {3} every time {1} is hit."
+        "{1} deals {2} bonus damage. Reduce the bonus damage by {3} every time {1} is hit.",
+        null
     ],
     [
         "Bog Rash",
         "BOG_RASH",
-        "At the end of your turn remove 1 <b>Bog Rash</>."
+        "At the end of your turn remove 1 <b>Bog Rash</>.",
+        null
     ],
     [
         "Bog Thought",
         "article_of_faith_brain_spawned",
-        "When destroyed, apply {1} damage to own core argument.\\n\\nRemove {2} {2*stack|stacks} at the start of every turn."
+        "When destroyed, apply {1} damage to own core argument.\\n\\nRemove {2} {2*stack|stacks} at the start of every turn.",
+        null
     ],
     [
         "Bog Vision",
         "burr_eye_stalk_vision",
-        "{1} is using this unit to see. Whenever {2} is hit, it closes its eye and is stunned until the start of its turn."
+        "{1} is using this unit to see. Whenever {2} is hit, it closes its eye and is stunned until the start of its turn.",
+        null
     ],
     [
         "Bombard",
         "bombard",
-        "{1}'s attacks insert a random potion into your draw pile."
+        "{1}'s attacks insert a random potion into your draw pile.",
+        null
     ],
     [
         "Bonus",
         "bonus_payment",
-        "When destroyed, add {1#money} to your bonus\\nReduce by {2#percent} at end of your turn.\\nWhen destroyed, {4} gains {IMPATIENCE 1}.\\n\\n<#PENALTY>If you lose the negotiation, you lose all bonuses!</>"
+        "When destroyed, add {1#money} to your bonus\\nReduce by {2#percent} at end of your turn.\\nWhen destroyed, {4} gains {IMPATIENCE 1}.\\n\\n<#PENALTY>If you lose the negotiation, you lose all bonuses!</>",
+        null
     ],
     [
         "Bonus Action",
         "BONUS_ACTION",
-        "This turn, gain <#HILITE>{1}</> additional {1*action|actions}."
+        "This turn, gain <#HILITE>{1}</> additional {1*action|actions}.",
+        null
     ],
     [
         "Bonus Mettle",
         "METTLE_BANK",
-        "You will gain {1} Mettle if you win this negotiation."
+        "You will gain {1} Mettle if you win this negotiation.",
+        null
     ],
     [
         "Bottle",
         "BOTTLE",
-        "This is a Bottle type card."
+        "This is a Bottle type card.",
+        null
     ],
     [
         "Bottled Rage",
         "vix_resentment_3",
-        "Gains a stack whenever {2}'s core argument takes damage from a card.\\n\\nHalves stacks at the start of each turn."
+        "Gains a stack whenever {2}'s core argument takes damage from a card.\\n\\nHalves stacks at the start of each turn.",
+        null
     ],
     [
         "Brainwash",
         "BRAINWASH",
-        "Insert {1} {card.propaganda} card into {2}'s draw pile at the beginning of {3}'s turn."
+        "Insert {1} {card.propaganda} card into {2}'s draw pile at the beginning of {3}'s turn.",
+        null
     ],
     [
         "Bravado",
         "BRAVADO",
-        "This card deals bonus damage equal to the number of Hostility cards played in a row this turn."
+        "This card deals bonus damage equal to the number of Hostility cards played in a row this turn.",
+        null
     ],
     [
         "Brawler",
         "npc_sal_combo_pattern",
-        "{1}'s attacks generate {COMBO}. When at or above 5 {COMBO}, {1} will use a strong finisher attack."
+        "{1}'s attacks generate {COMBO}. When at or above 5 {COMBO}, {1} will use a strong finisher attack.",
+        null
     ],
     [
         "Burn",
         "BURN",
-        "At the start of your turn, take damage equal to the stack of <b>Burn</b> and deal half as much to all allies. Remove half of the stacks of <b>Burn</b>."
+        "At the start of your turn, take damage equal to the stack of <b>Burn</b> and deal half as much to all allies. Remove half of the stacks of <b>Burn</b>.",
+        null
     ],
     [
         "Burnout",
         "BURNOUT",
-        "If this card is in your hand at the end of your turn, {EXPEND} it."
+        "If this card is in your hand at the end of your turn, {EXPEND} it.",
+        null
     ],
     [
         "Call to Rise",
         "CALL_TO_RISE",
-        "At the start of each turn, a random card in hand costs 1 extra Action this negotiation."
+        "At the start of each turn, a random card in hand costs 1 extra Action this negotiation.",
+        null
     ],
     [
         "Card Draw",
         "COMBAT_DRAW",
-        "Draw <#HILITE>{1}</> extra {1*card|cards} per turn."
+        "Draw <#HILITE>{1}</> extra {1*card|cards} per turn.",
+        null
     ],
     [
         "Card Draw",
         "CARD_DRAW",
-        "Draw <#HILITE>{1}</> extra {1*card|cards} at the start of your turn."
+        "Draw <#HILITE>{1}</> extra {1*card|cards} at the start of your turn.",
+        null
     ],
     [
         "Casings",
         "casings",
-        "Whenever you spend {CHARGE}, gain <#HILITE>{1} {DEFEND}</> per {CHARGE} spent."
+        "Whenever you spend {CHARGE}, gain <#HILITE>{1} {DEFEND}</> per {CHARGE} spent.",
+        null
     ],
     [
         "Catchpenny",
         "CATCHPENNY",
-        "At the start of your turn, double <b>Catchpenny</>. When destroyed, lose {1#money} per stack ({2#money} total)."
+        "At the start of your turn, double <b>Catchpenny</>. When destroyed, lose {1#money} per stack ({2#money} total).",
+        null
     ],
     [
         "Caustic Spit",
         "caustic_spit",
-        "{1}'s attacks apply {SLIMY} to {2} cards in your deck."
+        "{1}'s attacks apply {SLIMY} to {2} cards in your deck.",
+        null
     ],
     [
         "Cautious",
         "cautious",
-        "Gains {1} {DEFEND} and {2} {POWER} at the end of every turn. Loses {2} {POWER} whenever all of his {DEFEND} is broken."
+        "Gains {1} {DEFEND} and {2} {POWER} at the end of every turn. Loses {2} {POWER} whenever all of his {DEFEND} is broken.",
+        null
     ],
     [
         "Cha-ching!",
         "cha_ching",
-        "Whenever you attack {1}, gain {2#money}. At the start of {1}'s turn, remove this."
+        "Whenever you attack {1}, gain {2#money}. At the start of {1}'s turn, remove this.",
+        null
     ],
     [
         "Chain",
         "CHAIN",
-        "Transform this card and add it to your draw pile. If this goes into your discard pile, this card reverts to its basic form."
+        "Transform this card and add it to your draw pile. If this goes into your discard pile, this card reverts to its basic form.",
+        null
     ],
     [
         "Chaos Theory",
         "chaos_theory",
-        "At the start of your turn, play <#HILITE>{1}</> random {1*card|cards} in your hand for free."
+        "At the start of your turn, play <#HILITE>{1}</> random {1*card|cards} in your hand for free.",
+        null
     ],
     [
         "Charge",
         "CHARGE",
-        "Rook can store <b>Charge</b> in his empty cells. <b>Charge</b> can be used by certain cards for additional effects."
+        "Rook can store <b>Charge</b> in his empty cells. <b>Charge</b> can be used by certain cards for additional effects.",
+        null
     ],
     [
         "Charged Attacks",
         "charged_attacks",
-        "When {1} causes you to lose health, gain {2} {CHARGE}."
+        "When {1} causes you to lose health, gain {2} {CHARGE}.",
+        null
     ],
     [
         "Charged Disc",
         "oolo_charged_disc",
-        "{1}'s disc is charged and her next attack deals bonus damage and inflicts {WOUND {2}}."
+        "{1}'s disc is charged and her next attack deals bonus damage and inflicts {WOUND {2}}.",
+        null
     ],
     [
         "Charged Pistols",
         "npc_rook_charges",
-        "Increase attack damage by <#HILITE>{1}</>."
+        "Increase attack damage by <#HILITE>{1}</>.",
+        null
     ],
     [
         "Charged Strikes",
         "CHARGED_STRIKES",
-        "{1}'s melee attacks deal 3 bonus damage and apply 3 {WOUND} if they cause health loss."
+        "{1}'s melee attacks deal 3 bonus damage and apply 3 {WOUND} if they cause health loss.",
+        null
     ],
     [
         "Chaser",
         "CHASER",
-        "Restore 10 resolve to {1}'s core argument. Add 2 {drunk_player} cards to your draw pile."
+        "Restore 10 resolve to {1}'s core argument. Add 2 {drunk_player} cards to your draw pile.",
+        null
     ],
     [
         "Chitinous",
         "chitinous",
-        "Gain <#HILITE>{DEFEND {1}}</> at the end of their turn. Whenever all {DEFEND} is broken, remove 1 <b>Chitinous</b>."
+        "Gain <#HILITE>{DEFEND {1}}</> at the end of their turn. Whenever all {DEFEND} is broken, remove 1 <b>Chitinous</b>.",
+        null
     ],
     [
         "Cleaved",
         "cleaved_player",
-        "{BLEED} cards no longer {EXPEND}."
+        "{BLEED} cards no longer {EXPEND}.",
+        null
     ],
     [
         "Cleaved",
         "cleaved",
-        "{BLEED} no longer decays."
+        "{BLEED} no longer decays.",
+        null
     ],
     [
         "Coagulant Rounds",
         "COAGULANT_ROUNDS",
-        "Whenever {1}'s attacks cause health loss, the target permanently loses {2} maximum health."
+        "Whenever {1}'s attacks cause health loss, the target permanently loses {2} maximum health.",
+        null
     ],
     [
         "Cold Shoulder",
         "COLD_SHOULDER",
-        "At the start of your turn, increase the cost of a random card in your hand by 1 until the end of your turn."
+        "At the start of your turn, increase the cost of a random card in your hand by 1 until the end of your turn.",
+        null
     ],
     [
         "Colossal",
         "COLOSSAL",
-        "{1} takes <#HILITE>{2}</> bonus damage from all attacks. Increase by 1 whenever {1} is hit. Reset to 1 at the start of {1}’s turn."
+        "{1} takes <#HILITE>{2}</> bonus damage from all attacks. Increase by 1 whenever {1} is hit. Reset to 1 at the start of {1}’s turn.",
+        null
     ],
     [
         "Combat Analysis",
         "COMBAT_ANALYSIS",
-        "Whenever you attack {1}, the base damage of their next attack becomes the damage dealt by your attack.{2}"
+        "Whenever you attack {1}, the base damage of their next attack becomes the damage dealt by your attack.{2}",
+        null
     ],
     [
         "Combo",
         "COMBO",
-        "Combo points are accumulated until they are spent by a <b>Finisher</b>. Lose half of your <b>Combo</b> whenever you take damage."
+        "Combo points are accumulated until they are spent by a <b>Finisher</b>. Lose half of your <b>Combo</b> whenever you take damage.",
+        "Gain {1} {COMBO}."
     ],
     [
         "Combo Carry",
         "COMBO_CARRY",
-        "Gain <#HILITE>{1}</> {COMBO} next turn."
+        "Gain <#HILITE>{1}</> {COMBO} next turn.",
+        null
     ],
     [
         "Composure",
         "COMPOSURE",
-        "Reduce resolve loss for one turn."
+        "Reduce resolve loss for one turn.",
+        "Gain {1} {COMPOSURE}."
     ],
     [
         "Concentrated",
         "CONCENTRATED",
-        "This card has an additional effect if you have {CONCENTRATION}."
+        "This card has an additional effect if you have {CONCENTRATION}.",
+        null
     ],
     [
         "Concentration",
         "CONCENTRATION",
-        "Increases minimum damage of all attacks by <#HILITE>{1}</>. Halve your <b>Concentration</b> when you take enemy damage."
+        "Increases minimum damage of all attacks by <#HILITE>{1}</>. Halve your <b>Concentration</b> when you take enemy damage.",
+        null
     ],
     [
         "Confidence",
         "CONFIDENCE",
+        null,
         null
     ],
     [
         "Confrontational",
         "confrontational",
-        "Whenever any argument is created, deal 1 damage to a random target."
+        "Whenever any argument is created, deal 1 damage to a random target.",
+        null
     ],
     [
         "Confusion",
         "CONFUSION",
-        "Insert a {confused} card into your discard pile."
+        "Insert a {confused} card into your discard pile.",
+        null
     ],
     [
         "Cool Head",
         "COOL_HEAD",
-        "Apply {COMPOSURE 3} to your {INFLUENCE} at the beginning of your turn."
+        "Apply {COMPOSURE 3} to your {INFLUENCE} at the beginning of your turn.",
+        null
     ],
     [
         "Core Argument",
         "HEART",
+        null,
         null
     ],
     [
         "Corrosive Bile",
         "CORROSIVE_BILE",
-        "Your {smith_regeneration} no longer heals, but is still halved at the end of your turn. Remove 1 <b>Corrosive Bile</> at the end of your turn."
+        "Your {smith_regeneration} no longer heals, but is still halved at the end of your turn. Remove 1 <b>Corrosive Bile</> at the end of your turn.",
+        null
     ],
     [
         "Counter",
         "RIPOSTE",
-        "Deal <#HILITE>{1}</> damage back to the enemy when hit. Remove all <b>Counter</b> at the beginning of your turn."
+        "Deal <#HILITE>{1}</> damage back to the enemy when hit. Remove all <b>Counter</b> at the beginning of your turn.",
+        "Gain {1} {RIPOSTE}."
     ],
     [
         "Counter Point",
         "COUNTER_POINT",
+        null,
         null
     ],
     [
         "Covert Knowledge",
         "discover_caves",
-        "When destroyed, discover the whereabouts of the bandit hideout."
+        "When destroyed, discover the whereabouts of the bandit hideout.",
+        null
     ],
     [
         "Crafty",
         "CRAFTY",
-        "Intents and target previews are hidden."
+        "Intents and target previews are hidden.",
+        null
     ],
     [
         "Cruelty",
         "cruelty",
-        "{1}'s attacks apply <#HILITE>{2} {WOUND}</> if not defended."
+        "{1}'s attacks apply <#HILITE>{2} {WOUND}</> if not defended.",
+        null
     ],
     [
         "Curiosity",
         "CURIOSITY",
-        "When destroyed, draw up to your maximum hand size. ({1})"
+        "When destroyed, draw up to your maximum hand size. ({1})",
+        null
     ],
     [
         "Cybernetic Hearing",
         "CYBERNETIC_HEARING",
-        "Whenever you play a Diplomacy card, this argument deals {1} damage to a random argument."
+        "Whenever you play a Diplomacy card, this argument deals {1} damage to a random argument.",
+        null
     ],
     [
         "Damned",
         "damnation",
-        "At the end of {1}'s turn, reduce <b>Damned</> by 1. When <b>Damned</> reaches 0, {1} takes {2} damage."
+        "At the end of {1}'s turn, reduce <b>Damned</> by 1. When <b>Damned</> reaches 0, {1} takes {2} damage.",
+        null
     ],
     [
         "Dark Intellect",
         "DARK_INTELLECT",
-        "{1}"
+        "{1}",
+        null
     ],
     [
         "Dauntless",
         "DAUNTLESS",
-        "Will not {SURRENDER} while they have allies that have not panicked."
+        "Will not {SURRENDER} while they have allies that have not panicked.",
+        null
     ],
     [
         "Deadline",
         "DEADLINE",
-        "When destroyed, {1}'s core argument gains {2} {COMPOSURE}."
+        "When destroyed, {1}'s core argument gains {2} {COMPOSURE}.",
+        null
     ],
     [
         "Deception",
         "DECEPTION",
-        "Your next {1} {1*card|cards} {1*has|have} random targets. Remove 1 <b>Deception</> whenever you play a card."
+        "Your next {1} {1*card|cards} {1*has|have} random targets. Remove 1 <b>Deception</> whenever you play a card.",
+        null
     ],
     [
         "Defect",
         "DEFECT",
-        "The next attack on this fighter does double damage and removes 1 <b>Defect</b>."
+        "The next attack on this fighter does double damage and removes 1 <b>Defect</b>.",
+        null
     ],
     [
         "Defense",
         "DEFEND",
-        "Prevents attack damage for this turn."
+        "Prevents attack damage for this turn.",
+        "Gain {1} {DEFEND}."
     ],
     [
         "Defenseless",
         "DEFENSELESS",
-        "You can not apply {COMPOSURE} while this is active. At the start of your turn, reduce <b>Defenseless</> by 1."
+        "You can not apply {COMPOSURE} while this is active. At the start of your turn, reduce <b>Defenseless</> by 1.",
+        null
     ],
     [
         "Defensive",
         "DEFENSIVE",
-        "Gains {1} {COMPOSURE} whenever {2} creates a new argument."
+        "Gains {1} {COMPOSURE} whenever {2} creates a new argument.",
+        null
     ],
     [
         "Delegator",
         "DELEGATOR",
-        "When your damage spills over against {1}'s arguments, it targets your core argument instead."
+        "When your damage spills over against {1}'s arguments, it targets your core argument instead.",
+        null
     ],
     [
         "Dermal Cast",
         "kashio_dermal_cast",
-        "Whenever {1} gains a debuff, {1} heals {2} health."
+        "Whenever {1} gains a debuff, {1} heals {2} health.",
+        null
     ],
     [
         "Destroy",
         "CONSUME",
-        "Remove this card permanently."
+        "Remove this card permanently.",
+        null
     ],
     [
         "Devoted",
         "DEVOTED",
-        "Whenever a {FAITH_IN_HESH} argument is destroyed, this argument restores {1} resolve."
+        "Whenever a {FAITH_IN_HESH} argument is destroyed, this argument restores {1} resolve.",
+        null
     ],
     [
         "Disease Ridden",
         "DISEASE_RIDDEN",
-        "When {2} causes you to lose health, gain <#HILITE>{1} {DISEASED}</>."
+        "When {2} causes you to lose health, gain <#HILITE>{1} {DISEASED}</>.",
+        null
     ],
     [
         "Diseased",
         "DISEASED",
-        "Reduces maximum health by <#HILITE>{1}</> at the end of {2}'s turn until the end of the fight."
+        "Reduces maximum health by <#HILITE>{1}</> at the end of {2}'s turn until the end of the fight.",
+        null
     ],
     [
         "Dismiss",
         "DISMISS",
-        "Prevent an opponent's intent from occuring."
+        "Prevent an opponent's intent from occuring.",
+        "{DISMISS} one opponent Intent."
     ],
     [
         "Disruptor Field",
         "disruptor_field",
-        "{1} is immune to damage and debuffs while any allies with {disruptor_pylon} are alive."
+        "{1} is immune to damage and debuffs while any allies with {disruptor_pylon} are alive.",
+        null
     ],
     [
         "Disruptor Pylon",
         "disruptor_pylon",
-        "{1} is syphoning power from this unit, protecting {1} from all damage."
+        "{1} is syphoning power from this unit, protecting {1} from all damage.",
+        null
     ],
     [
         "Distortion Generator",
         "distortion_generator",
-        "At the start of {1}'s turn, apply {3} {COMPOSURE} to a random argument. When this is destroyed, {1}'s core argument takes {2} damage."
+        "At the start of {1}'s turn, apply {3} {COMPOSURE} to a random argument. When this is destroyed, {1}'s core argument takes {2} damage.",
+        null
     ],
     [
         "Distracted",
         "DISTRACTED",
-        "Whenever you play a card, your core argument takes {1} resolve damage. \\nReduce <b>Distracted</b> by 1 whenever you play a card and at the end of your turn."
+        "Whenever you play a card, your core argument takes {1} resolve damage. \\nReduce <b>Distracted</b> by 1 whenever you play a card and at the end of your turn.",
+        null
     ],
     [
         "Diversion",
         "DIVERSION",
-        "This argument gains <#HILITE>{1}</> resolve every time you {GAMBLE}, up to 12. This argument must be targeted before any other arguments."
+        "This argument gains <#HILITE>{1}</> resolve every time you {GAMBLE}, up to 12. This argument must be targeted before any other arguments.",
+        null
     ],
     [
         "Dominance",
         "DOMINANCE",
-        "Hostility cards deal an additional <#HILITE>{1%+d}</> damage. Remove 1 stack at the start of your turn."
+        "Hostility cards deal an additional <#HILITE>{1%+d}</> damage. Remove 1 stack at the start of your turn.",
+        "Gain {DOMINANCE {1}}."
     ],
     [
         "Dominant",
         "NPC_DOMINANT",
-        "Attacks deal an additional {1%+d} damage. Remove 1 stack at the start of {2}'s turn."
+        "Attacks deal an additional {1%+d} damage. Remove 1 stack at the start of {2}'s turn.",
+        null
     ],
     [
         "Double Edge",
         "DOUBLE_EDGE",
-        "Whenever {1} deals damage, they gain {COMPOSURE} equal to resolve lost.\\nIf no resolve is lost, {1} takes {2} damage."
+        "Whenever {1} deals damage, they gain {COMPOSURE} equal to resolve lost.\\nIf no resolve is lost, {1} takes {2} damage.",
+        null
     ],
     [
         "Doubt",
         "DOUBT",
-        "Targets a friendly argument each turn for 1 damage per stack of <b>Doubt</b>."
+        "Targets a friendly argument each turn for 1 damage per stack of <b>Doubt</b>.",
+        "{INCEPT} {DOUBT {1}}."
     ],
     [
         "Doubt in the Bog Brain",
         "brain_of_the_bog_doubt",
-        "The player draws 1 additional card per turn."
+        "The player draws 1 additional card per turn.",
+        null
     ],
     [
         "Doubt in the Bog Eyes",
         "eyes_of_the_bog_doubt",
-        "Eyestalks gain {1} {IMPAIR} when they emerge."
+        "Eyestalks gain {1} {IMPAIR} when they emerge.",
+        null
     ],
     [
         "Doubt in the Bog Heart",
         "heart_of_the_bog_doubt",
-        "{1} has {2} less Health."
+        "{1} has {2} less Health.",
+        null
     ],
     [
         "Dread",
         "dread",
-        "Deal 20% less damage and receive 20% more damage. Remove 1 stack at the end of {1}'s turn."
+        "Deal 20% less damage and receive 20% more damage. Remove 1 stack at the end of {1}'s turn.",
+        null
     ],
     [
         "Drink",
         "DRINK",
-        "Add an {empty_bottle} card to your discard pile."
+        "Add an {empty_bottle} card to your discard pile.",
+        null
     ],
     [
         "Drive",
         "DRIVE",
-        "Whenever {1}'s attacks cause health loss, {1} gains <#HILITE>{2}</> {FUROR}."
+        "Whenever {1}'s attacks cause health loss, {1} gains <#HILITE>{2}</> {FUROR}.",
+        null
     ],
     [
         "Drunk",
         "DRUNK",
-        "When destroyed, remove a random intent from {1}."
+        "When destroyed, remove a random intent from {1}.",
+        null
     ],
     [
         "Dud",
         "DUD",
-        "Created when trying to improvise a card type you do not have."
+        "Created when trying to improvise a card type you do not have.",
+        null
     ],
     [
         "Eccentricity",
         "ECCENTRICITY",
-        "All cards have a random cost between 0 and {1}."
+        "All cards have a random cost between 0 and {1}.",
+        null
     ],
     [
         "Empowered Brain of the Bog",
         "brain_of_the_bog",
-        "Whenever a Grout Loot Cluster returns to the Bog, this unit gains 2 {POWER} and heals 20 health."
+        "Whenever a Grout Loot Cluster returns to the Bog, this unit gains 2 {POWER} and heals 20 health.",
+        null
     ],
     [
         "Empowered Eyes of the Bog",
         "eyes_of_the_bog",
-        "The Eyestalks have 3 bonus {POWER} and only target you."
+        "The Eyestalks have 3 bonus {POWER} and only target you.",
+        null
     ],
     [
         "Empowered Heart of the Bog",
         "heart_of_the_bog",
-        "Spark mines and Grout Knuckles have {1} additional health."
+        "Spark mines and Grout Knuckles have {1} additional health.",
+        null
     ],
     [
         "Empty",
         "EMPTY",
-        "This card has an additional effect if you have no Charge."
+        "This card has an additional effect if you have no Charge.",
+        null
     ],
     [
         "Encasing",
         "ENCASING",
-        "An object is encased inside! If left safely until the end of battle, it could be retrieved."
+        "An object is encased inside! If left safely until the end of battle, it could be retrieved.",
+        null
     ],
     [
         "Encumbered",
         "ENCUMBERED",
-        "{1} takes bonus damage from consecutive attacks and after firing their cannons. Resets at the start of {1}'s turn.\\nCurrent Bonus: {2}."
+        "{1} takes bonus damage from consecutive attacks and after firing their cannons. Resets at the start of {1}'s turn.\\nCurrent Bonus: {2}.",
+        null
     ],
     [
         "Energized",
         "energized",
-        "{1}'s next attack applies {2} {lumin_burnt} if it causes health loss."
+        "{1}'s next attack applies {2} {lumin_burnt} if it causes health loss.",
+        null
     ],
     [
         "Energizing Vapors",
         "ENERGIZING_VAPORS",
-        "When destroyed, the attacker gains <#HILITE>{MENDING {1}}</>."
+        "When destroyed, the attacker gains <#HILITE>{MENDING {1}}</>.",
+        null
     ],
     [
         "Escalation",
         "ESCALATION",
-        "When a Hostility card is played, increase stacks by 1.\\nAdds {1%+d} damage to all intents."
+        "When a Hostility card is played, increase stacks by 1.\\nAdds {1%+d} damage to all intents.",
+        null
     ],
     [
         "Evasion",
         "EVASION",
-        "Dodge next hit. Remove 1 <b>Evasion</b> when you dodge a hit and at the start of your turn."
+        "Dodge next hit. Remove 1 <b>Evasion</b> when you dodge a hit and at the start of your turn.",
+        "Gain {1} {EVASION}."
     ],
     [
         "Evoke",
         "EVOKE",
-        "Once per turn, play this card for free from wherever it is when the specified requirements are met."
+        "Once per turn, play this card for free from wherever it is when the specified requirements are met.",
+        null
     ],
     [
         "Exert",
         "EXERT",
-        "Next turn, gain <#HILITE>{1}</> fewer {1*action|actions}."
+        "Next turn, gain <#HILITE>{1}</> fewer {1*action|actions}.",
+        "{1} {EXERT}"
     ],
     [
         "Existential Crisis",
         "EXISTENTIAL_CRISIS",
-        "At the end of each turn, increase this fighter's {SURRENDER} meter by <#HILITE>{1}</>."
+        "At the end of each turn, increase this fighter's {SURRENDER} meter by <#HILITE>{1}</>.",
+        null
     ],
     [
         "Expend",
         "EXPEND",
-        "Remove this card for the rest of this negotiation."
+        "Remove this card for the rest of this negotiation.",
+        null
     ],
     [
         "Explosive",
         "EXPLOSIVE",
-        "When destroyed, deal <#HILITE>{1} damage</> to ALL fighters on same team.\\nGains stacks every turn."
+        "When destroyed, deal <#HILITE>{1} damage</> to ALL fighters on same team.\\nGains stacks every turn.",
+        null
     ],
     [
         "Exposed",
         "EXPOSED",
-        "When receiving {DEFEND}, reduce the amount by 50%.\\nAt the end of your turn, reduce <b>Exposed</b> by 1."
+        "When receiving {DEFEND}, reduce the amount by 50%.\\nAt the end of your turn, reduce <b>Exposed</b> by 1.",
+        "Apply {1} {EXPOSED}."
     ],
     [
         "Exposed Belly",
         "EXPOSED_BELLY",
-        "All attacks do double damage."
+        "All attacks do double damage.",
+        null
     ],
     [
         "Faith in Hesh",
         "FAITH_IN_HESH",
+        null,
         null
     ],
     [
         "Faith in the Bog",
         "HIGH_PRIEST_BOGGER",
-        "Undermine {1.name}'s faith to drop the shield around {1.hisher} core argument, and give yourself specific advantages in the coming fight.\\n\\nArticles destroyed: {2#listing}"
+        "Undermine {1.name}'s faith to drop the shield around {1.hisher} core argument, and give yourself specific advantages in the coming fight.\\n\\nArticles destroyed: {2#listing}",
+        null
     ],
     [
         "Faith in the Bog Brain",
         "brain_of_the_bog_faith",
-        "The player draws 1 less card per turn."
+        "The player draws 1 less card per turn.",
+        null
     ],
     [
         "Faith in the Bog Eyes",
         "eyes_of_the_bog_faith",
-        "{1} has {2} bonus {POWER} while there are Eyestalks alive."
+        "{1} has {2} bonus {POWER} while there are Eyestalks alive.",
+        null
     ],
     [
         "Faith in the Bog Heart",
         "heart_of_the_bog_faith",
-        "{1} has {2} bonus Health."
+        "{1} has {2} bonus Health.",
+        null
     ],
     [
         "Fatigued",
         "FATIGUED",
-        "Cards no longer gain XP for this negotiation."
+        "Cards no longer gain XP for this negotiation.",
+        null
     ],
     [
         "Favored by Hesh",
         "favorite_of_hesh",
-        "All {SURRENDER} meters increase by <#HILITE>{1}</> upon this fighter's death.\\nThis amount increases by {2} every turn."
+        "All {SURRENDER} meters increase by <#HILITE>{1}</> upon this fighter's death.\\nThis amount increases by {2} every turn.",
+        null
     ],
     [
         "Fear",
         "FEAR",
-        "When destroyed, gives {1} {IMPATIENCE 1}. {1} will obtain {battle.DEFECT} when you enter battle."
+        "When destroyed, gives {1} {IMPATIENCE 1}. {1} will obtain {battle.DEFECT} when you enter battle.",
+        null
     ],
     [
         "Fetor",
         "FETOR",
-        "At the end of {1}'s turn, take <#HILITE>{2} damage</> and remove all <b>Fetor</>."
+        "At the end of {1}'s turn, take <#HILITE>{2} damage</> and remove all <b>Fetor</>.",
+        null
     ],
     [
         "Finisher",
         "COMBO_FINISHER",
-        "Finishers spend some or all of your <b>Combo</b> points to enact powerful effects"
+        "Finishers spend some or all of your <b>Combo</b> points to enact powerful effects",
+        null
     ],
     [
         "Fixed",
         "fixed",
-        "Whenever this target is hit, you gain <#HILITE>{1} {DEFEND}</>. At the start of {2}'s turn, remove all <b>Fixed</>."
+        "Whenever this target is hit, you gain <#HILITE>{1} {DEFEND}</>. At the start of {2}'s turn, remove all <b>Fixed</>.",
+        null
     ],
     [
         "Flekfis' Weaknesses",
         "FLEKFIS_WEAKNESS",
-        "Whenever a Weakness argument is destroyed, you gain a powerful card for the ensuing battle. After gaining 4 cards, the negotiation ends. {1} {1*card|cards} remaining."
+        "Whenever a Weakness argument is destroyed, you gain a powerful card for the ensuing battle. After gaining 4 cards, the negotiation ends. {1} {1*card|cards} remaining.",
+        null
     ],
     [
         "Flourish",
         "FLOURISH",
-        "This is a special attack that will {EXPEND} and {BURNOUT}."
+        "This is a special attack that will {EXPEND} and {BURNOUT}.",
+        null
     ],
     [
         "Flustered",
         "FLUSTERED",
-        "Reduces damage by {1#percent}. Remove 1 stack at the end of {2}'s turn."
+        "Reduces damage by {1#percent}. Remove 1 stack at the end of {2}'s turn.",
+        "{INCEPT} {FLUSTERED {1}}."
     ],
     [
         "Focused",
         "FOCUSED",
-        "This card has an additional effect if it is the only card in your hand."
+        "This card has an additional effect if it is the only card in your hand.",
+        null
     ],
     [
         "Formation",
         "formation_tracker",
+        null,
         null
     ],
     [
         "Formation",
         "formation",
-        "At the end of {1}'s turn, apply <#HILITE>{DEFEND {2}}</> to all allies.\\n\\n<b>Formation</b> is removed when health is lost and regained at the end of {1}'s turn."
+        "At the end of {1}'s turn, apply <#HILITE>{DEFEND {2}}</> to all allies.\\n\\n<b>Formation</b> is removed when health is lost and regained at the end of {1}'s turn.",
+        null
     ],
     [
         "Free Action",
         "FREE_ACTION",
-        "Gain an extra action next turn."
+        "Gain an extra action next turn.",
+        "Gain {1} bonus {1*action|actions} next turn."
     ],
     [
         "Free Draw",
         "FREE_DRAW",
-        "Next turn, draw {1} additional {1*card|cards}."
+        "Next turn, draw {1} additional {1*card|cards}.",
+        "Draw {1} extra {1*card|cards} next turn."
     ],
     [
         "Free Hand",
         "FREE_HAND",
-        "Cards in your hand cost 0 this turn."
+        "Cards in your hand cost 0 this turn.",
+        null
     ],
     [
         "Frisk",
         "frisk",
-        "Steal {1#money}"
+        "Steal {1#money}",
+        null
     ],
     [
         "Fully Charged",
         "PRIMED",
-        "This card has an additional effect if all cells are charged."
+        "This card has an additional effect if all cells are charged.",
+        null
     ],
     [
         "Fume Bubble",
         "FUME_BUBBLE",
-        "If destroyed, deals 4 damage to {1}'s core argument. At the end of {1}'s turn, remove 1 <b>Fume Bubble</>."
+        "If destroyed, deals 4 damage to {1}'s core argument. At the end of {1}'s turn, remove 1 <b>Fume Bubble</>.",
+        null
     ],
     [
         "Furor",
         "FUROR",
-        "If {1} reaches {2} <b>Furor</>, he unleashes a special attack that removes all <b>Furor</>."
+        "If {1} reaches {2} <b>Furor</>, he unleashes a special attack that removes all <b>Furor</>.",
+        null
     ],
     [
         "Gadgeteer",
         "GADGETEER",
-        "At the end of {1}'s turn, {1} creates 2 random <b>Gadget</> arguments. {1} can at most have 8 <b>Gadget</> arguments at a time."
+        "At the end of {1}'s turn, {1} creates 2 random <b>Gadget</> arguments. {1} can at most have 8 <b>Gadget</> arguments at a time.",
+        null
     ],
     [
         "Galvanized",
         "GALVANIZED",
-        "Playing this card triggers {voltaic}. <b>Galvanized</> is removed when this card goes into your discard pile."
+        "Playing this card triggers {voltaic}. <b>Galvanized</> is removed when this card goes into your discard pile.",
+        null
     ],
     [
         "Gamble",
         "GAMBLE",
-        "Flip your {1}."
+        "Flip your {1}.",
+        null
     ],
     [
         "Gas",
         "GAS",
-        "When destroyed, deal {1} damage to all friendly arguments."
+        "When destroyed, deal {1} damage to all friendly arguments.",
+        null
     ],
     [
         "Gaseous Herd",
         "GASEOUS_HERD",
-        "At the end of {1}'s turn, it gains 1 {INFLATED} per friendly Heshbladder alive."
+        "At the end of {1}'s turn, it gains 1 {INFLATED} per friendly Heshbladder alive.",
+        null
     ],
     [
         "Gestating",
         "GESTATING",
-        "{1#percent} chance to spawn a creature at the end of the turn. Increase this chance and the strength of the creature at the end of each turn."
+        "{1#percent} chance to spawn a creature at the end of the turn. Increase this chance and the strength of the creature at the end of each turn.",
+        null
     ],
     [
         "Glued",
         "gluey_antennae",
-        "When <b>Glued</b> reaches {1} stacks, remove <b>Glued</b> and apply {STUN}."
+        "When <b>Glued</b> reaches {1} stacks, remove <b>Glued</b> and apply {STUN}.",
+        null
     ],
     [
         "Greedy",
         "GREEDY",
-        "When destroyed, lose {1#money} and you double your actions. Can only be targeted by cards."
+        "When destroyed, lose {1#money} and you double your actions. Can only be targeted by cards.",
+        null
     ],
     [
         "Grindstone",
         "GRINDSTONE",
+        null,
         null
     ],
     [
         "Grout Bog Burr",
         "grout_burr",
-        "Action on the surface has disturbed the Bog, and caused a burr to emerge. This burr will return to the bog in {1} turns."
+        "Action on the surface has disturbed the Bog, and caused a burr to emerge. This burr will return to the bog in {1} turns.",
+        null
     ],
     [
         "Guilt Trip",
         "GUILT_TRIP",
-        "Whenever you play a card that deals damage, this deals {1} damage to your core argument."
+        "Whenever you play a card that deals damage, this deals {1} damage to your core argument.",
+        null
     ],
     [
         "Hammerthyst Ring",
         "kashio_hammerthyst_ring",
-        "At the start of your turn, {1} gains {2} {DEFEND}."
+        "At the start of your turn, {1} gains {2} {DEFEND}.",
+        null
     ],
     [
         "Hard Knocks",
         "HARDKNOCKS",
-        "Your next attack deals 8 bonus damage."
+        "Your next attack deals 8 bonus damage.",
+        null
     ],
     [
         "Hatch",
         "HATCH_X",
-        "When this card's effect is triggered the specified number of times, it is destroyed and a special event occurs. The hatch counter is not changed while fatigued."
+        "When this card's effect is triggered the specified number of times, it is destroyed and a special event occurs. The hatch counter is not changed while fatigued.",
+        null
     ],
     [
         "Heads",
         "HEADS",
+        null,
         null
     ],
     [
         "Heads and Snails",
         "HEADS_AND_SNAILS",
-        "Heads and Snails are the two sides of your lucky coin."
+        "Heads and Snails are the two sides of your lucky coin.",
+        null
     ],
     [
         "Heal",
         "HEAL",
-        "Restores health up to max."
+        "Restores health up to max.",
+        null
     ],
     [
         "Heated",
         "HEATED",
-        "At the end of {1}'s turn, add 1 stack of <b>Heated</>."
+        "At the end of {1}'s turn, add 1 stack of <b>Heated</>.",
+        null
     ],
     [
         "Hemophage",
         "HEMOPHAGE",
-        "Whenever you apply {BLEED}, <#HILITE>{HEAL} {1}</>."
+        "Whenever you apply {BLEED}, <#HILITE>{HEAL} {1}</>.",
+        null
     ],
     [
         "High Value Target",
         "HIGH_VALUE_TARGET",
-        "Grants  {card.{1}} and {2#money} after the fight if killed."
+        "Grants  {card.{1}} and {2#money} after the fight if killed.",
+        null
     ],
     [
         "Hilt Slam",
         "hilt_slam_condition",
-        "If {1}'s next attack deals damage, it will insert {2} additional Assassin's Marks into your deck."
+        "If {1}'s next attack deals damage, it will insert {2} additional Assassin's Marks into your deck.",
+        null
     ],
     [
         "Hologram Belt",
         "HOLOGRAM_BELT_ARGUMENT",
-        "At the end of every other turn, {1} creates duplicates of her core argument that disappear when attacked or at the end of {1}'s next turn."
+        "At the end of every other turn, {1} creates duplicates of her core argument that disappear when attacked or at the end of {1}'s next turn.",
+        null
     ],
     [
         "Hologram Projection Belt",
         "kashio_hologram_belt",
-        "At the end of {1}'s turn, summons {2} holograms of {1}."
+        "At the end of {1}'s turn, summons {2} holograms of {1}.",
+        null
     ],
     [
         "Hostility",
         "HOSTILITY",
-        "Can be used in various ways to bully your opponent into submission."
+        "Can be used in various ways to bully your opponent into submission.",
+        "Gain {1} {HOSTILITY}."
     ],
     [
         "Hover Pack",
         "HOVER_PACK",
-        "When {1} is hit, reduce its number of attacks this turn by 1. If no attacks remain, {1} becomes {STUN|Stunned}."
+        "When {1} is hit, reduce its number of attacks this turn by 1. If no attacks remain, {1} becomes {STUN|Stunned}.",
+        null
     ],
     [
         "Hubris",
         "HUBRIS",
-        "{1}'s next attack deals <#HILITE>{2}</> bonus damage. Whenever you hit {1}, <b>Hubris</> is reduced by 2."
+        "{1}'s next attack deals <#HILITE>{2}</> bonus damage. Whenever you hit {1}, <b>Hubris</> is reduced by 2.",
+        null
     ],
     [
         "Hungry",
         "hungry_shrooglet",
-        "{1}'s Feed attack heals it for {2} health."
+        "{1}'s Feed attack heals it for {2} health.",
+        null
     ],
     [
         "Impair",
         "IMPAIR",
-        "Attack damage by this target is reduced by {1}%.\\nAt the beginning of their turn, reduce <b>Impair</b> by 1."
+        "Attack damage by this target is reduced by {1}%.\\nAt the beginning of their turn, reduce <b>Impair</b> by 1.",
+        "Apply {1} {IMPAIR}."
     ],
     [
         "Impartial",
         "IMPARTIAL",
-        "At the start of {1}'s turn, remove all {RENOWN} from both negotiators."
+        "At the start of {1}'s turn, remove all {RENOWN} from both negotiators.",
+        null
     ],
     [
         "Impassive",
         "UNCERTAINTY",
-        "Whenever {1}'s arguments are destroyed, splash damage is converted to {COMPOSURE} instead."
+        "Whenever {1}'s arguments are destroyed, splash damage is converted to {COMPOSURE} instead.",
+        null
     ],
     [
         "Impatience",
         "IMPATIENCE",
-        "{1}'s Intents and Arguments deploy with +{2} damage.\\n{1}'s Arguments deploy with +{3} resolve."
+        "{1}'s Intents and Arguments deploy with +{2} damage.\\n{1}'s Arguments deploy with +{3} resolve.",
+        null
     ],
     [
         "Impending Doom",
         "IMPENDING_DOOM",
-        "When destroyed, gives {1} {IMPATIENCE 1}. {1} will start the next battle with <#HILITE>{2}</> additional {battle.EXISTENTIAL_CRISIS}.\\n\\n<#PENALTY>If you lose the negotiation, all bonuses are lost!</>"
+        "When destroyed, gives {1} {IMPATIENCE 1}. {1} will start the next battle with <#HILITE>{2}</> additional {battle.EXISTENTIAL_CRISIS}.\\n\\n<#PENALTY>If you lose the negotiation, all bonuses are lost!</>",
+        null
     ],
     [
         "Improvise",
         "IMPROVISE",
-        "Choose 1 of 3 cards to put into your hand."
+        "Choose 1 of 3 cards to put into your hand.",
+        null
     ],
     [
         "Improvise+",
         "IMPROVISE_PLUS",
-        "Choose 1 of 5 cards to put into your hand."
+        "Choose 1 of 5 cards to put into your hand.",
+        null
     ],
     [
         "Incept",
         "INCEPT",
-        "This effect is added to the opponent's arguments."
+        "This effect is added to the opponent's arguments.",
+        null
     ],
     [
         "Indoctrination",
         "INDOCTRINATION",
-        "When destroyed, gain 1 {DOMINANCE} per stack. At the end of each turn, gain 1 {INFLUENCE} and reduce this argument by 1."
+        "When destroyed, gain 1 {DOMINANCE} per stack. At the end of each turn, gain 1 {INFLUENCE} and reduce this argument by 1.",
+        null
     ],
     [
         "Inflated",
         "INFLATED",
-        "{1} is storing fumes in order to apply {FETOR} to an enemy."
+        "{1} is storing fumes in order to apply {FETOR} to an enemy.",
+        null
     ],
     [
         "Influence",
         "INFLUENCE",
-        "All Diplomacy cards deal maximum damage."
+        "All Diplomacy cards deal maximum damage.",
+        "Gain {INFLUENCE {1}}."
     ],
     [
         "Influential",
         "NPC_INFLUENTIAL",
-        "If stacks reach {1}: Attacks deal {2%+d} damage. Add 1 stack at the start of {3}'s turn."
+        "If stacks reach {1}: Attacks deal {2%+d} damage. Add 1 stack at the start of {3}'s turn.",
+        null
     ],
     [
         "Interrogate",
         "INTERROGATE",
+        null,
         null
     ],
     [
         "Intimidated",
         "intimidated",
-        "Hostility cards deal an additional {3%+d} damage. Remove 1 stack when you play a non-Hostility card."
+        "Hostility cards deal an additional {3%+d} damage. Remove 1 stack when you play a non-Hostility card.",
+        null
     ],
     [
         "Investigator",
         "INVESTIGATOR",
-        "At the end of {1}'s turn, {INCEPT} {PLANTED_EVIDENCE} arguments until {2} has 2."
+        "At the end of {1}'s turn, {INCEPT} {PLANTED_EVIDENCE} arguments until {2} has 2.",
+        null
     ],
     [
         "Irritable",
         "IRRITABLE",
-        "Gain 1 stack whenever a card is played.\\n\\nAt {1} stacks, {3} is dealt {2} resolve damage and this argument is removed."
+        "Gain 1 stack whenever a card is played.\\n\\nAt {1} stacks, {3} is dealt {2} resolve damage and this argument is removed.",
+        null
     ],
     [
         "Jarackle's Instinct",
         "JARACKLE_BOON",
-        "Gain <#HILITE>{POWER {1}}</> at the start of battle.\\nThis is a species boon."
+        "Gain <#HILITE>{POWER {1}}</> at the start of battle.\\nThis is a species boon.",
+        null
     ],
     [
         "Keepsake",
         "KEEPSAKE",
-        "Gain additional points if this is still in your deck at the end of the daily challenge."
+        "Gain additional points if this is still in your deck at the end of the daily challenge.",
+        null
     ],
     [
         "Kindling",
         "KINDLING",
-        "When {1} receives damage, reduce <b>Kindling</b> by 1 and apply <b>Kindling</b> to the attacker.\\nAt the end of {1}'s turn, convert all <b>Kindling</b> to {TEMP_POWER}."
+        "When {1} receives damage, reduce <b>Kindling</b> by 1 and apply <b>Kindling</b> to the attacker.\\nAt the end of {1}'s turn, convert all <b>Kindling</b> to {TEMP_POWER}.",
+        null
     ],
     [
         "Kingpin",
         "KINGPIN",
-        "Intents gain 1 bonus damage for each stack of {INFLUENCE} owned by the opponent."
+        "Intents gain 1 bonus damage for each stack of {INFLUENCE} owned by the opponent.",
+        null
     ],
     [
         "Kra'deshi Regeneration",
         "KRADESHI_BOON",
-        "At the end of {1}'s turn, apply <#HILITE>{HEAL {2}}</>.\\nThis is a species boon."
+        "At the end of {1}'s turn, apply <#HILITE>{HEAL {2}}</>.\\nThis is a species boon.",
+        null
     ],
     [
         "Krilled Up",
         "KRILLED_UP",
-        "Lose {1} {POWER} every turn. Lose {2} health when {POWER} reaches zero."
+        "Lose {1} {POWER} every turn. Lose {2} health when {POWER} reaches zero.",
+        null
     ],
     [
         "Last Stand",
         "last_stand",
-        "Gains <#HILITE>{POWER {1}}</> when below {2} health."
+        "Gains <#HILITE>{POWER {1}}</> when below {2} health.",
+        null
     ],
     [
         "Leeching Blade",
         "leeching_blade",
-        "{1}'s attacks with their blade siphon lifeforce equal to {2}x the damage they deal, storing it as {siphoned_lifeforce}."
+        "{1}'s attacks with their blade siphon lifeforce equal to {2}x the damage they deal, storing it as {siphoned_lifeforce}.",
+        null
     ],
     [
         "Leeching Fangs",
         "LEECHING_FANGS",
-        "{1} heals health equal to half of any health loss it causes."
+        "{1} heals health equal to half of any health loss it causes.",
+        null
     ],
     [
         "Levy",
         "LEVY",
-        "If this is destroyed, {1} loses {4} shills and {2}'s core argument takes {3} damage. Can only be targeted by cards."
+        "If this is destroyed, {1} loses {4} shills and {2}'s core argument takes {3} damage. Can only be targeted by cards.",
+        null
     ],
     [
         "Life Pact",
         "DRUSK_LIFE_PACT",
-        "Brings their partner back to life if they have died."
+        "Brings their partner back to life if they have died.",
+        null
     ],
     [
         "Light",
         "LIGHT",
-        "This argument can only target <b>Gas</>."
+        "This argument can only target <b>Gas</>.",
+        null
     ],
     [
         "Lucky Coin",
         "LUCKY_COIN",
-        "Whenever this coin is flipped:\\n{1}"
+        "Whenever this coin is flipped:\\n{1}",
+        null
     ],
     [
         "Lumin Burnt",
         "lumin_burnt",
-        "Whenever an attack removes all {1}'s {DEFEND}, take <#HILITE>{2} damage</>. Reduce <b>Lumin Burnt</> by 1 at the end of your turn."
+        "Whenever an attack removes all {1}'s {DEFEND}, take <#HILITE>{2} damage</>. Reduce <b>Lumin Burnt</> by 1 at the end of your turn.",
+        null
     ],
     [
         "Lumin Charged",
         "lumin_charged",
-        "{1}'s next attack applies {WOUND {2}} if it causes health loss."
+        "{1}'s next attack applies {WOUND {2}} if it causes health loss.",
+        null
     ],
     [
         "Lumin Daze",
         "LUMIN_DAZE",
-        "Reduce the minimum damage of all your cards by <#HILITE>{1}</>. Reduce <b>Lumin Daze</> by 1 whenever you play a Maneuver card and at the end of your turn."
+        "Reduce the minimum damage of all your cards by <#HILITE>{1}</>. Reduce <b>Lumin Daze</> by 1 whenever you play a Maneuver card and at the end of your turn.",
+        null
     ],
     [
         "Macro Rasp",
         "kashio_macro_rasp",
-        "All {1}'s attacks apply {2} {BLEED} if not mitigated."
+        "All {1}'s attacks apply {2} {BLEED} if not mitigated.",
+        null
     ],
     [
         "Magnetic Pulse",
         "MAGNETIC_PULSE",
-        "Whenever you {GAMBLE}, this argument deals {1} damage to a random argument."
+        "Whenever you {GAMBLE}, this argument deals {1} damage to a random argument.",
+        null
     ],
     [
         "Malfunctioning Charge Cells",
         "malfunctioning_charge_cells",
-        "At the end of your turn, take {1} damage per {CHARGE}. At the end of your turn, remove one <b>Malfunctioning Charge Cells</>."
+        "At the end of your turn, take {1} damage per {CHARGE}. At the end of your turn, remove one <b>Malfunctioning Charge Cells</>.",
+        null
     ],
     [
         "Manipulator",
         "MANIPULATOR",
-        "At the start of {1}'s turn, insert {2} {3#card} {2*card|cards} into your draw pile."
+        "At the start of {1}'s turn, insert {2} {3#card} {2*card|cards} into your draw pile.",
+        null
     ],
     [
         "Mark",
         "MARK",
-        "When you attack this target, gain 1 {CHARGE} and reduce <b>Mark</b> by 1."
+        "When you attack this target, gain 1 {CHARGE} and reduce <b>Mark</b> by 1.",
+        null
     ],
     [
         "Maternal Instinct",
         "vengeful",
-        "Gains {POWER {1}} whenever an ally dies."
+        "Gains {POWER {1}} whenever an ally dies.",
+        null
     ],
     [
         "Maternal Instincts",
         "MATERNAL_INSTINCTS_ARGUMENT",
-        "At the end of {1}'s turn, restore {2} resolve to all <b>Shrooglet</> arguments."
+        "At the end of {1}'s turn, restore {2} resolve to all <b>Shrooglet</> arguments.",
+        null
     ],
     [
         "Mech Conductor",
         "MECH_CONDUCTOR",
-        "While {1} has any {BARK_BOX} arguments, his core argument is shielded."
+        "While {1} has any {BARK_BOX} arguments, his core argument is shielded.",
+        null
     ],
     [
         "Medic",
         "triage_condition",
-        "Whenever {1} heals a target, also remove all negative conditions on that target."
+        "Whenever {1} heals a target, also remove all negative conditions on that target.",
+        null
     ],
     [
         "Mending",
         "MENDING",
-        "At the end of their turn, <#HILITE>{HEAL} {1}</> then reduce <b>Mending</b> by 1."
+        "At the end of their turn, <#HILITE>{HEAL} {1}</> then reduce <b>Mending</b> by 1.",
+        "Apply {1} {MENDING}."
     ],
     [
         "Metallic",
         "METALLIC",
-        "Immune to <b>Bleed</b> and <b>Wound</b>.\\n{PIERCING} attacks do double damage."
+        "Immune to <b>Bleed</b> and <b>Wound</b>.\\n{PIERCING} attacks do double damage.",
+        null
     ],
     [
         "Mettle",
         "METTLE",
-        "Accumulate Mettle to purchase bonuses that permanently upgrade your character."
+        "Accumulate Mettle to purchase bonuses that permanently upgrade your character.",
+        null
     ],
     [
         "Mettlesome",
         "METTLESOME",
-        "Killing {1} grants {2} extra {METTLE} at the end of the fight."
+        "Killing {1} grants {2} extra {METTLE} at the end of the fight.",
+        null
     ],
     [
         "Mettlesome",
         "METTLE_BOUNTY",
-        "If destroyed, gain <#HILITE>{1}</> {METTLE}. At the end of {2}'s turn, remove 1 <b>Mettlesome</>."
+        "If destroyed, gain <#HILITE>{1}</> {METTLE}. At the end of {2}'s turn, remove 1 <b>Mettlesome</>.",
+        null
     ],
     [
         "Misanthropic",
         "MISANTHROPIC",
-        "Whenever this argument is attacked, its damage is increased by {1}."
+        "Whenever this argument is attacked, its damage is increased by {1}.",
+        null
     ],
     [
         "Momentum",
         "flekfis_momentum",
-        "{1} is strong but slow. His damage is reduced by 1 for every card you play. At the end of {1}'s turn, reset this to 1."
+        "{1} is strong but slow. His damage is reduced by 1 for every card you play. At the end of {1}'s turn, reset this to 1.",
+        null
     ],
     [
         "Momentum",
         "MOMENTUM",
-        "Whenever you discard a card, draw a card.\\nGains 2 resolve per stack."
+        "Whenever you discard a card, draw a card.\\nGains 2 resolve per stack.",
+        null
     ],
     [
         "Money Talks",
         "MONEY_TALKS",
-        "At the start of each turn, a random card in hand costs an additional {1#money} this turn."
+        "At the start of each turn, a random card in hand costs an additional {1#money} this turn.",
+        null
     ],
     [
         "Moxie",
         "smith_regeneration",
-        "Whenever you take damage on your turn, increase your <b>Moxie</> by a random amount between 1 and {4}. At the end of your turn, {HEAL} health equal to your <b>Moxie</> and then halve your <b>Moxie</> down to a minimum of {3}."
+        "Whenever you take damage on your turn, increase your <b>Moxie</> by a random amount between 1 and {4}. At the end of your turn, {HEAL} health equal to your <b>Moxie</> and then halve your <b>Moxie</> down to a minimum of {3}.",
+        null
     ],
     [
         "Muddled",
         "MUDDLED",
-        "Whenever you play an attack, there's a 50% chance that it will miss. Reduce <b>Muddled</> by 1 whenever you play a card."
+        "Whenever you play an attack, there's a 50% chance that it will miss. Reduce <b>Muddled</> by 1 whenever you play a card.",
+        null
     ],
     [
         "Muffler",
         "muffler",
-        "At the start of {1}'s turn, restore {3} resolve to {1}'s core argument. When this is destroyed, {1}'s core argument takes {2} damage."
+        "At the start of {1}'s turn, restore {3} resolve to {1}'s core argument. When this is destroyed, {1}'s core argument takes {2} damage.",
+        null
     ],
     [
         "Multishot",
         "MULTISHOT",
-        "This card can be played multiple times per turn."
+        "This card can be played multiple times per turn.",
+        null
     ],
     [
         "Multitudes",
         "MULTITUDES",
-        "If this creature flees, a new Erchin will take its place."
+        "If this creature flees, a new Erchin will take its place.",
+        null
     ],
     [
         "Muscular Glands",
         "oolo_oshnu_devour",
-        "Gains {1} {POWER} at the end of its turn."
+        "Gains {1} {POWER} at the end of its turn.",
+        null
     ],
     [
         "Nailed Glove",
         "npc_sal_nailed_glove",
-        "Lose only 1 {COMBO} when receiving damage."
+        "Lose only 1 {COMBO} when receiving damage.",
+        null
     ],
     [
         "Nervous",
         "NERVOUS",
-        "Whenever this argument loses resolve, deal {1} damage to all targets."
+        "Whenever this argument loses resolve, deal {1} damage to all targets.",
+        null
     ],
     [
         "Next-Turn Action",
         "NEXT_TURN_ACTION",
-        "Next turn, gain <#HILITE>{1}</> additional {1*action|actions}."
+        "Next turn, gain <#HILITE>{1}</> additional {1*action|actions}.",
+        null
     ],
     [
         "Next-Turn Defense",
         "NEXT_TURN_DEFENSE",
-        "Next turn, gain <#HILITE>{1}</> {DEFEND}."
+        "Next turn, gain <#HILITE>{1}</> {DEFEND}.",
+        null
     ],
     [
         "Next-Turn Draw",
         "NEXT_TURN_DRAW",
-        "Next turn, draw <#HILITE>{1}</> additional {1*card|cards}."
+        "Next turn, draw <#HILITE>{1}</> additional {1*card|cards}.",
+        "Draw {1} extra {1*card|cards} next turn."
     ],
     [
         "Nimble",
         "nimble",
-        "At the start of each enemy turn, gain 1 {EVASION} and reduce <b>Nimble</b> by 1."
+        "At the start of each enemy turn, gain 1 {EVASION} and reduce <b>Nimble</b> by 1.",
+        null
     ],
     [
         "No Filter",
         "NO_FILTER",
-        "{1}’s intents deal {2} bonus damage. At the end of {1}’s turn, remove 1 <b>No Filter</>."
+        "{1}’s intents deal {2} bonus damage. At the end of {1}’s turn, remove 1 <b>No Filter</>.",
+        null
     ],
     [
         "Noxious Bile",
         "NOXIOUS_BILE",
-        "Whenever you drink, discard a random card in your hand. Remove 1 <b>Noxious Bile</> at the end of your turn."
+        "Whenever you drink, discard a random card in your hand. Remove 1 <b>Noxious Bile</> at the end of your turn.",
+        null
     ],
     [
         "Obscurity",
         "obscurity",
-        "At the end of {1}'s turn, {1} will lose <#HILITE>{2}</> {RENOWN}."
+        "At the end of {1}'s turn, {1} will lose <#HILITE>{2}</> {RENOWN}.",
+        null
     ],
     [
         "On The House",
         "ON_THE_HOUSE",
-        "Gain 2 {COMPOSURE} whenever you play a Manipulate card."
+        "Gain 2 {COMPOSURE} whenever you play a Manipulate card.",
+        null
     ],
     [
         "Opener",
         "OPENER",
-        "This card has an additional effect if it's the first card played this turn."
+        "This card has an additional effect if it's the first card played this turn.",
+        null
     ],
     [
         "Opportunistic",
         "OPPORTUNISTIC",
-        "Gain <#HILITE>{POWER {1}}</> after an attack damages a target."
+        "Gain <#HILITE>{POWER {1}}</> after an attack damages a target.",
+        null
     ],
     [
         "Oshnu Shell",
         "oolo_oshnu_defenses",
-        "The oshnu cannot be killed but will hide in its shell and lose all {POWER} when brought to 1 health."
+        "The oshnu cannot be killed but will hide in its shell and lose all {POWER} when brought to 1 health.",
+        null
     ],
     [
         "Out of Ammo",
         "foreman_empty",
-        "{1} is out of ammo and can't fire their gun until they reload."
+        "{1} is out of ammo and can't fire their gun until they reload.",
+        null
     ],
     [
         "Outnumbered",
         "OUTNUMBERED",
-        "This card has an added effect when you are outnumbered."
+        "This card has an added effect when you are outnumbered.",
+        null
     ],
     [
         "Overcharge",
         "SURGE",
-        "Increases max damage of all cards by 1 for each stack of <b>Overcharge</b>.\\nGaining {CHARGE} while Fully Charged generates Overcharge instead. Reduce Overcharge by half at the end of your turn."
+        "Increases max damage of all cards by 1 for each stack of <b>Overcharge</b>.\\nGaining {CHARGE} while Fully Charged generates Overcharge instead. Reduce Overcharge by half at the end of your turn.",
+        null
     ],
     [
         "Overzealous",
         "overzealous",
-        "When {1}'s attacks cause you to lose health, gain {WOUND}. {1} also takes 20% more damage."
+        "When {1}'s attacks cause you to lose health, gain {WOUND}. {1} also takes 20% more damage.",
+        null
     ],
     [
         "Panic",
         "SURRENDER",
-        "You can choose to win battle if all enemies <b>Panic</b>. {1} is unable to act for {2} {2*turn|turns}."
+        "You can choose to win battle if all enemies <b>Panic</b>. {1} is unable to act for {2} {2*turn|turns}.",
+        null
     ],
     [
         "Parasite",
         "PARASITE",
-        "Removing this card from your deck lowers your maximum health by 10."
+        "Removing this card from your deck lowers your maximum health by 10.",
+        null
     ],
     [
         "Peeper",
         "article_of_faith_eyes_spawned",
-        "Each turn, attack an opponent argument for {1}-{2} damage."
+        "Each turn, attack an opponent argument for {1}-{2} damage.",
+        null
     ],
     [
         "Pelted",
         "PELTED",
-        "{1}'s attacks apply <#HILITE>{2}</> {IMPAIR} if they cause health loss."
+        "{1}'s attacks apply <#HILITE>{2}</> {IMPAIR} if they cause health loss.",
+        null
     ],
     [
         "Penny Pincher",
         "PENNY_PINCHER",
-        "At the end of {1}'s turn, {INCEPT} {CATCHPENNY}."
+        "At the end of {1}'s turn, {INCEPT} {CATCHPENNY}.",
+        null
     ],
     [
         "Permit",
         "PERMIT",
-        "Whenever this argument takes damage, deal that much damage to a random opponent argument. Gains 2 resolve for each additional stack."
+        "Whenever this argument takes damage, deal that much damage to a random opponent argument. Gains 2 resolve for each additional stack.",
+        null
     ],
     [
         "Pickpocket",
         "pickpocket",
-        "{1} steals {2} shills if their attacks are not defended.\\nAll money is recovered if {1} is killed."
+        "{1} steals {2} shills if their attacks are not defended.\\nAll money is recovered if {1} is killed.",
+        null
     ],
     [
         "Piercing",
         "PIERCING",
-        "Ignores damage blocked by {DEFEND}."
+        "Ignores damage blocked by {DEFEND}.",
+        null
     ],
     [
         "Planted Evidence",
         "PLANTED_EVIDENCE",
-        "When this argument is destroyed, deal {1} damage to {2}'s core argument."
+        "When this argument is destroyed, deal {1} damage to {2}'s core argument.",
+        null
     ],
     [
         "Potential Ally",
         "FIGHT_ALLY",
-        "<b>{1.fullname}</> will fight on your side if you win the negotiation with this argument on your side."
+        "<b>{1.fullname}</> will fight on your side if you win the negotiation with this argument on your side.",
+        null
     ],
     [
         "Potential Enemy",
         "FIGHT_ALLY_SCARE",
-        "<b>{1.fullname}</> will fight against you in the coming battle if you don't scare {1.himher} off first.\\n\\n{2.name} gains 1 {IMPATIENCE} when destroyed."
+        "<b>{1.fullname}</> will fight against you in the coming battle if you don't scare {1.himher} off first.\\n\\n{2.name} gains 1 {IMPATIENCE} when destroyed.",
+        null
     ],
     [
         "Power",
         "POWER",
-        "Attack damage is increased by <#HILITE>{1}</>."
+        "Attack damage is increased by <#HILITE>{1}</>.",
+        "Gain {1} {POWER}."
     ],
     [
         "Power Barrier",
         "power_barrier",
-        "Deal <#HILITE>{1}</> bonus damage next turn. Increase by {2} when receiving attack damage. Effect is broken at {3} bonus damage"
+        "Deal <#HILITE>{1}</> bonus damage next turn. Increase by {2} when receiving attack damage. Effect is broken at {3} bonus damage",
+        null
     ],
     [
         "Power Glaive",
         "kashio_glaive",
-        "{1}'s Power Glaive deals additional damage."
+        "{1}'s Power Glaive deals additional damage.",
+        null
     ],
     [
         "Power Pollen",
         "POWER_POLLEN",
-        "When destroyed, all fighters gain <#HILITE>{1} {TEMP_POWER}</>."
+        "When destroyed, all fighters gain <#HILITE>{1} {TEMP_POWER}</>.",
+        null
     ],
     [
         "Power Surge",
         "arint_power_surge",
-        "{1} is on the brink of death and will overcharge her chest piece every turn, dealing damage to all enemies."
+        "{1} is on the brink of death and will overcharge her chest piece every turn, dealing damage to all enemies.",
+        null
     ],
     [
         "Power of the Bog",
         "bogger_boss_invincible",
-        "The power of the Bog is keeping this fighter alive. Cannot be killed."
+        "The power of the Bog is keeping this fighter alive. Cannot be killed.",
+        null
     ],
     [
         "Powered Weapons",
         "powered_weapons",
-        "{1}'s attacks apply {GALVANIZED} to random cards in your deck."
+        "{1}'s attacks apply {GALVANIZED} to random cards in your deck.",
+        null
     ],
     [
         "Prayer of Hesh",
         "prayer_of_hesh",
-        "Add {1} resolve and {COMPOSURE {2}} to a friendly argument at the start of {3}'s turn."
+        "Add {1} resolve and {COMPOSURE {2}} to a friendly argument at the start of {3}'s turn.",
+        null
     ],
     [
         "Preoccupied",
         "PREOCCUPIED",
-        "Whenever you destroy one of {1}'s arguments, they incept {2} {TOLERANCE}."
+        "Whenever you destroy one of {1}'s arguments, they incept {2} {TOLERANCE}.",
+        null
     ],
     [
         "Prepare",
         "PREPARE",
-        "Choose a card in your hand and move it to the prepared (left-most) position."
+        "Choose a card in your hand and move it to the prepared (left-most) position.",
+        null
     ],
     [
         "Prepared",
         "PREPARED",
-        "A card is <b>Prepared</> if it is the left-most card in your hand."
+        "A card is <b>Prepared</> if it is the left-most card in your hand.",
+        null
     ],
     [
         "Prickly",
         "vix_resentment_4",
-        "Gains {1} {1*stack|stacks} whenever one of {2}'s arguments is destroyed.\\n\\nGives a random friendly argument {3} {COMPOSURE} at the start of every turn."
+        "Gains {1} {1*stack|stacks} whenever one of {2}'s arguments is destroyed.\\n\\nGives a random friendly argument {3} {COMPOSURE} at the start of every turn.",
+        null
     ],
     [
         "Proper Channel",
         "PROPER_CHANNEL",
-        "Increase by 1 whenever your core argument takes damage."
+        "Increase by 1 whenever your core argument takes damage.",
+        null
     ],
     [
         "Proposition",
         "PROPOSITION",
-        "Add a <b>Kickback</b> card to your draw pile at the end of {1}'s turn."
+        "Add a <b>Kickback</b> card to your draw pile at the end of {1}'s turn.",
+        null
     ],
     [
         "Protect",
         "PROTECT",
-        "Opponents must target enemies that have <b>Protect</>. Remove one stack when damage is received."
+        "Opponents must target enemies that have <b>Protect</>. Remove one stack when damage is received.",
+        "Gain {1} {PROTECT}."
     ],
     [
         "Pruned",
         "pruned",
-        "Whenever you play a card, take 1 damage. Reduce this by 1 at the end of your turn."
+        "Whenever you play a card, take 1 damage. Reduce this by 1 at the end of your turn.",
+        null
     ],
     [
         "Psychic Siren",
         "psychic_siren",
-        "When this is destroyed, {1}'s core argument takes {2} damage."
+        "When this is destroyed, {1}'s core argument takes {2} damage.",
+        null
     ],
     [
         "Puppy Snail Eyes",
         "PUPPY_SNAIL_EYES",
-        "All Hostility cards deal {1} less damage. Whenever you play a Hostility card, this deals {2} damage to a random argument."
+        "All Hostility cards deal {1} less damage. Whenever you play a Hostility card, this deals {2} damage to a random argument.",
+        null
     ],
     [
         "Purple Haze",
         "PURPLE_HAZE",
-        "Whenever you play a card, draw a card and then discard a random card in your hand."
+        "Whenever you play a card, draw a card and then discard a random card in your hand.",
+        null
     ],
     [
         "Quitter",
         "no_alone_drone",
-        "Will stop fighting if only drones are left on this team."
+        "Will stop fighting if only drones are left on this team.",
+        null
     ],
     [
         "Quitter",
         "run_away_flead_larva",
-        "Will run away if the Flead Queen is killed."
+        "Will run away if the Flead Queen is killed.",
+        null
     ],
     [
         "Quitter",
         "run_away_shrooglet",
-        "Will run away if the Shroog is killed."
+        "Will run away if the Shroog is killed.",
+        null
     ],
     [
         "Rallied",
         "RALLIED",
-        "Rallied. Deals 25% more damage."
+        "Rallied. Deals 25% more damage.",
+        null
     ],
     [
         "Rally Worker",
         "convince_worker_to_fight_erchins",
-        "When destroyed, another worker is rallied to the fight."
+        "When destroyed, another worker is rallied to the fight.",
+        null
     ],
     [
         "Rallying Howl",
         "vroc_howl",
-        "At the start of your turn, gain 1 action and draw 1 card. At the end of your turn, remove this."
+        "At the start of your turn, gain 1 action and draw 1 card. At the end of your turn, remove this.",
+        null
     ],
     [
         "Recoverable Health",
         "RECOVERABLE_HEALTH",
-        "{1} can {ALLEVIATE} this much health. This is increased by the amount of damage taken on your turn."
+        "{1} can {ALLEVIATE} this much health. This is increased by the amount of damage taken on your turn.",
+        null
     ],
     [
         "Reflex Barb",
         "REFLEX_BARB",
-        "Gain {RIPOSTE 5} at the end of each turn."
+        "Gain {RIPOSTE 5} at the end of each turn.",
+        null
     ],
     [
         "Regeneration Barrier",
         "regeneration_barrier",
-        "Fully defending attacks will {HEAL} {1} for {2} health."
+        "Fully defending attacks will {HEAL} {1} for {2} health.",
+        null
     ],
     [
         "Renown",
         "RENOWN",
-        "When destroyed, deal 1 damage to your core argument per stack of <b>Renown</>.\\nAt the end of your turn, this deals 1 damage for every two stacks to a random opponent argument. At the start of your turn, <b>Renown</> is reduced by 1."
+        "When destroyed, deal 1 damage to your core argument per stack of <b>Renown</>.\\nAt the end of your turn, this deals 1 damage for every two stacks to a random opponent argument. At the start of your turn, <b>Renown</> is reduced by 1.",
+        null
     ],
     [
         "Renowned",
         "RENOWNED",
-        "This card has an additional effect if you have enough {RENOWN}."
+        "This card has an additional effect if you have enough {RENOWN}.",
+        null
     ],
     [
         "Replenish",
         "REPLENISH",
-        "When this card is drawn, draw another card."
+        "When this card is drawn, draw another card.",
+        null
     ],
     [
         "Resonance",
         "RESONATED",
-        "Whenever a card is {IMPROVISE|Improvised}, lose <#HILITE>{1} health</>."
+        "Whenever a card is {IMPROVISE|Improvised}, lose <#HILITE>{1} health</>.",
+        null
     ],
     [
         "Restrained",
         "RESTRAINED",
-        "The damage of this card cannot be increased."
+        "The damage of this card cannot be increased.",
+        null
     ],
     [
         "Retain Defend",
         "RETAIN_DEFEND",
-        "Retain 5 {DEFEND} at the end of your turn."
+        "Retain 5 {DEFEND} at the end of your turn.",
+        null
     ],
     [
         "Reticle",
         "RETICLE",
-        "{1} will attack exclusively this fighter.\\n\\n1 <b>Reticle</b> is removed when this fighter is the target of any Maneuver card."
+        "{1} will attack exclusively this fighter.\\n\\n1 <b>Reticle</b> is removed when this fighter is the target of any Maneuver card.",
+        null
     ],
     [
         "Retribution",
         "RETRIBUTION",
-        "If {1}'s brother is killed or panics, {1} gains {2} {POWER}."
+        "If {1}'s brother is killed or panics, {1} gains {2} {POWER}.",
+        null
     ],
     [
         "Ricochet",
         "RICOCHET",
-        "Whenever this target takes damage from an attack, deal that much damage to one of their allies and reduce <b>Ricochet</b> by 1."
+        "Whenever this target takes damage from an attack, deal that much damage to one of their allies and reduce <b>Ricochet</b> by 1.",
+        null
     ],
     [
         "Rig",
         "RIG",
-        "Guarantees the result of your next gamble. Only one outcome can be rigged at a time."
+        "Guarantees the result of your next gamble. Only one outcome can be rigged at a time.",
+        null
     ],
     [
         "Rigged: Heads",
         "RIG_HEADS",
-        "Guarantees that your next <#HILITE>{1}</> {1*gamble|gambles} {1*is|are} Heads."
+        "Guarantees that your next <#HILITE>{1}</> {1*gamble|gambles} {1*is|are} Heads.",
+        null
     ],
     [
         "Rigged: Snails",
         "RIG_SNAILS",
-        "Guarantees that your next <#HILITE>{1}</> {1*gamble|gambles} {1*is|are} Snails."
+        "Guarantees that your next <#HILITE>{1}</> {1*gamble|gambles} {1*is|are} Snails.",
+        null
     ],
     [
         "Ring Leader",
         "RING_LEADER",
-        "Increase the damage of {1}'s intents and argument by {2} for every {3} cards you play per turn."
+        "Increase the damage of {1}'s intents and argument by {2} for every {3} cards you play per turn.",
+        null
     ],
     [
         "Rise Handout",
         "RISE_HANDOUT",
-        "At the start of {1}'s turn, <#HILITE>{2} {2*card|cards}</> in {1}'s hand {2*costs|cost} 1 additional action."
+        "At the start of {1}'s turn, <#HILITE>{2} {2*card|cards}</> in {1}'s hand {2*costs|cost} 1 additional action.",
+        null
     ],
     [
         "Robot Backup",
         "kashio_robot_backup",
+        null,
         null
     ],
     [
         "Rowdy Patron",
         "ROWDY_PATRON",
-        "Whenever one of {1}'s arguments is destroyed, {1} deals {2} damage to your core argument."
+        "Whenever one of {1}'s arguments is destroyed, {1} deals {2} damage to your core argument.",
+        null
     ],
     [
         "Rumormonger",
         "RUMOR_MONGER",
-        "When this argument is destroyed, permanently acquire {rumour}."
+        "When this argument is destroyed, permanently acquire {rumour}.",
+        null
     ],
     [
         "Running Away",
         "RUNNING",
-        "Next turn, this fighter will flee from battle."
+        "Next turn, this fighter will flee from battle.",
+        null
     ],
     [
         "Sage Conversion",
         "kashio_sage_conversion",
-        "At the start of battle, gain 80 health."
+        "At the start of battle, gain 80 health.",
+        null
     ],
     [
         "Sal's Savvy",
         "GRIFTER",
-        "Gain 1 {COMPOSURE} at the start of your turn."
+        "Gain 1 {COMPOSURE} at the start of your turn.",
+        null
     ],
     [
         "Sapping Bile",
         "SAPPING_BILE",
-        "Temporarily remove all {POWER} and {ADRENALINE}. You cannot gain {POWER} or {ADRENALINE}. Remove 1 <b>Sapping Bile</> at the end of your turn."
+        "Temporarily remove all {POWER} and {ADRENALINE}. You cannot gain {POWER} or {ADRENALINE}. Remove 1 <b>Sapping Bile</> at the end of your turn.",
+        null
     ],
     [
         "Scanned",
         "SCANNED",
-        "Whenever you attack this target, draw a card. At the start of {1}'s turn, remove 1 <b>Scanned</>."
+        "Whenever you attack this target, draw a card. At the start of {1}'s turn, remove 1 <b>Scanned</>.",
+        null
     ],
     [
         "Scorched",
         "SCORCHED",
-        "{BURN} can not decay by more than 2 stacks per turn. Whenever <b>Burn</> is triggered, remove 1 <b>Scorched</>."
+        "{BURN} can not decay by more than 2 stacks per turn. Whenever <b>Burn</> is triggered, remove 1 <b>Scorched</>.",
+        null
     ],
     [
         "Score",
         "SCORE",
+        null,
         null
     ],
     [
         "Scruple",
         "SCRUPLE",
-        "When destroyed, {1} loses half their resolve.\\nThis bounty lasts for {2} more {2*turn|turns}."
+        "When destroyed, {1} loses half their resolve.\\nThis bounty lasts for {2} more {2*turn|turns}.",
+        null
     ],
     [
         "Secret Intel",
         "secret_intel",
-        "When destroyed, gain this argument and a bonus quest reward upon winning the negotiation. If <b>Secret Intel</> is destroyed under your ownership, you lose the negotiation!"
+        "When destroyed, gain this argument and a bonus quest reward upon winning the negotiation. If <b>Secret Intel</> is destroyed under your ownership, you lose the negotiation!",
+        null
     ],
     [
         "Self-Doubt",
         "vix_self_doubt",
-        "Must be targeted before anything else.\\n\\nApply {1} damage to core argument when destroyed.\\n\\nRemove {2} {2*stack|stacks} at the start of every turn."
+        "Must be targeted before anything else.\\n\\nApply {1} damage to core argument when destroyed.\\n\\nRemove {2} {2*stack|stacks} at the start of every turn.",
+        null
     ],
     [
         "Self-Reinforcing Grievance",
         "vix_resentment_2",
-        "Gains {1} {1*stack|stacks} whenever {2}'s core argument takes damage.\\n\\nIf this argument reaches {3} stacks: Double all of {4}'s other Resentments and destroy this argument."
+        "Gains {1} {1*stack|stacks} whenever {2}'s core argument takes damage.\\n\\nIf this argument reaches {3} stacks: Double all of {4}'s other Resentments and destroy this argument.",
+        null
     ],
     [
         "Sentenced",
         "SENTENCED",
-        "Any attacks that cause health loss against {1} also apply <#HILITE>{2} {BLEED}</>. Reduce by 1 at the end of {1}’s turn."
+        "Any attacks that cause health loss against {1} also apply <#HILITE>{2} {BLEED}</>. Reduce by 1 at the end of {1}’s turn.",
+        null
     ],
     [
         "Sentry",
         "sentry",
-        "Whenever {1} is attacked, {2} deals <#HILITE>{3}</> damage to the attacker."
+        "Whenever {1} is attacked, {2} deals <#HILITE>{3}</> damage to the attacker.",
+        null
     ],
     [
         "Set the coin",
         "SET",
-        "Choose a side of the coin and flip it to that side."
+        "Choose a side of the coin and flip it to that side.",
+        null
     ],
     [
         "Shadow Blades",
         "shadow_blades",
-        "{1} gains {2} {EVASION} whenever {3.hisher} attacks cause health loss."
+        "{1} gains {2} {EVASION} whenever {3.hisher} attacks cause health loss.",
+        null
     ],
     [
         "Sharpened Blade",
         "SHARPENED_BLADE",
-        "Insert a <b>Bleed</> card into your draw pile whenever {1} deals damage to you."
+        "Insert a <b>Bleed</> card into your draw pile whenever {1} deals damage to you.",
+        null
     ],
     [
         "Shatter",
         "SHATTER",
-        "Deal 2x damage to enemies with {DEFEND}."
+        "Deal 2x damage to enemies with {DEFEND}.",
+        null
     ],
     [
         "Shell Defense",
         "SHELL_DEFENSE",
-        "Every 3rd turn, {1} retracts into its shell, shielding its core argument."
+        "Every 3rd turn, {1} retracts into its shell, shielding its core argument.",
+        null
     ],
     [
         "Shield Bash",
         "shield_bash",
-        "Remove 1 stack whenever you play a card. At 0 stacks, {1} attacks a random enemy. Set stacks to {2} whenever {1} gets hit by an attack or takes damage."
+        "Remove 1 stack whenever you play a card. At 0 stacks, {1} attacks a random enemy. Set stacks to {2} whenever {1} gets hit by an attack or takes damage.",
+        null
     ],
     [
         "Shielded",
         "SHIELDED",
-        "This argument cannot be attacked."
+        "This argument cannot be attacked.",
+        null
     ],
     [
         "Shock Shield",
         "shock_shield",
-        "While {1} has any {DEFEND}, attacking them deals <#HILITE>{2} damage</> to the attacker."
+        "While {1} has any {DEFEND}, attacking them deals <#HILITE>{2} damage</> to the attacker.",
+        null
     ],
     [
         "Short Fuse",
         "SHORT_FUSE",
-        "Whenever you shuffle your deck, {1} gains {IMPATIENCE}."
+        "Whenever you shuffle your deck, {1} gains {IMPATIENCE}.",
+        null
     ],
     [
         "Shroke Skin",
         "SHROKE_BOON",
-        "The first time {1} takes damage each turn, they gain <#HILITE>{DEFEND {2}}</>.\\nThis is a species boon."
+        "The first time {1} takes damage each turn, they gain <#HILITE>{DEFEND {2}}</>.\\nThis is a species boon.",
+        null
     ],
     [
         "Shroog Flock",
         "SHROOG_FLOCK",
-        "At the end of {1}'s turn, if they have less than 6 {SHROOGLET_ARGUMENT} arguments, create 2 new ones."
+        "At the end of {1}'s turn, if they have less than 6 {SHROOGLET_ARGUMENT} arguments, create 2 new ones.",
+        null
     ],
     [
         "Shrooglet",
         "SHROOGLET_ARGUMENT",
-        "When destroyed, restore {1} resolve to {SHROOG_FLOCK}."
+        "When destroyed, restore {1} resolve to {SHROOG_FLOCK}.",
+        null
     ],
     [
         "Shrooglet Frenzy",
         "shrooglet_frenzy",
-        "Gains <#HILITE>{POWER {1}}</> whenever {3} attacks. Lose {POWER {2}} whenever {3} takes damage."
+        "Gains <#HILITE>{POWER {1}}</> whenever {3} attacks. Lose {POWER {2}} whenever {3} takes damage.",
+        null
     ],
     [
         "Shutdown Sequence",
         "drone_shutdown",
-        "Will not act while their allies are surrendering."
+        "Will not act while their allies are surrendering.",
+        null
     ],
     [
         "Singled Out",
         "SINGLED_OUT",
-        "{1}'s next attack against you will deal <#HILITE>{2}</> bonus damage. Remove {3} <b>Singled Out</> whenever you play a Maneuver card."
+        "{1}'s next attack against you will deal <#HILITE>{2}</> bonus damage. Remove {3} <b>Singled Out</> whenever you play a Maneuver card.",
+        null
     ],
     [
         "Siphoned Lifeforce",
         "siphoned_lifeforce",
-        "Can be spent to heal allies. Whenever {1} takes damage, this is reduced by the amount of damage taken."
+        "Can be spent to heal allies. Whenever {1} takes damage, this is reduced by the amount of damage taken.",
+        null
     ],
     [
         "Skittish",
         "skittish",
-        "Will {SURRENDER} whenever an ally {SURRENDER|Panics} or dies."
+        "Will {SURRENDER} whenever an ally {SURRENDER|Panics} or dies.",
+        null
     ],
     [
         "Slated Carapace",
         "SLATED_CARAPACE",
-        "Ignores any non-{PIERCING} damage less than or equal to <#HILITE>{1}</>. Remove 1 stack when attacked."
+        "Ignores any non-{PIERCING} damage less than or equal to <#HILITE>{1}</>. Remove 1 stack when attacked.",
+        null
     ],
     [
         "Sleep It Off",
         "SLEEP_IT_OFF",
-        "This card is removed upon sleep."
+        "This card is removed upon sleep.",
+        null
     ],
     [
         "Slimy",
         "SLIMY",
-        "This card is not discarded at the end of your turn. If this card is played <b>Slimy</> is removed and the owner takes 3 damage."
+        "This card is not discarded at the end of your turn. If this card is played <b>Slimy</> is removed and the owner takes 3 damage.",
+        null
     ],
     [
         "Sluggish",
         "SLUGGISH",
-        "Whenever you play a card, reduce the damage of {1}'s intents by 1. Whenever {1}'s attacks are fully mitigated, his core argument takes {2} damage."
+        "Whenever you play a card, reduce the damage of {1}'s intents by 1. Whenever {1}'s attacks are fully mitigated, his core argument takes {2} damage.",
+        null
     ],
     [
         "Sly",
         "SLY",
-        "Whenever {1}'s attacks cause resolve loss, {1} gains 1 {RISE_HANDOUT}."
+        "Whenever {1}'s attacks cause resolve loss, {1} gains 1 {RISE_HANDOUT}.",
+        null
     ],
     [
         "Smarts",
         "SMARTS",
-        "Gain an extra action at the start of your turn, then reduce <b>Smarts</b> by 1."
+        "Gain an extra action at the start of your turn, then reduce <b>Smarts</b> by 1.",
+        null
     ],
     [
         "Snackrifice",
         "snackrifice",
-        "{1} has devoured the Bogger Priest, gaining {2} health."
+        "{1} has devoured the Bogger Priest, gaining {2} health.",
+        null
     ],
     [
         "Snails",
         "SNAILS",
+        null,
         null
     ],
     [
         "Snare",
         "SNARE",
-        "Must be targeted before anything else. This argument is removed next turn."
+        "Must be targeted before anything else. This argument is removed next turn.",
+        null
     ],
     [
         "Sniper's Poise",
         "snipers_poise",
-        "{1}'s attacks with his rifle deal {2} bonus damage. Reduce by {3} whenever {1} is hit by an attack."
+        "{1}'s attacks with his rifle deal {2} bonus damage. Reduce by {3} whenever {1} is hit by an attack.",
+        null
     ],
     [
         "Sonic Decoy",
         "sonic_decoy",
-        "Must be targeted before anything else. When this is destroyed, {1}'s core argument takes {2} damage."
+        "Must be targeted before anything else. When this is destroyed, {1}'s core argument takes {2} damage.",
+        null
     ],
     [
         "Sonic Pistol",
         "kashio_pistol",
-        "At the start of every second of {1}'s turns, {1} gains {2} {RIPOSTE}."
+        "At the start of every second of {1}'s turns, {1} gains {2} {RIPOSTE}.",
+        null
     ],
     [
         "Spark Aura",
         "spark_aura",
-        "Allied mechs deal bonus damage"
+        "Allied mechs deal bonus damage",
+        null
     ],
     [
         "Spark Visor",
         "SPARK_VISOR_MARK",
-        "Attacking this target grants 8 {DEFEND} and reduces this by 1."
+        "Attacking this target grants 8 {DEFEND} and reduces this by 1.",
+        null
     ],
     [
         "Sparkled",
         "sparkled",
-        "At the start of your turn, lose 1 action. Reduce <b>Sparkled</> by 1 at the end of your turn."
+        "At the start of your turn, lose 1 action. Reduce <b>Sparkled</> by 1 at the end of your turn.",
+        null
     ],
     [
         "Spines",
         "spines",
-        "Gain <#HILITE>{1} {RIPOSTE}</> whenever you gain {DEFEND}."
+        "Gain <#HILITE>{1} {RIPOSTE}</> whenever you gain {DEFEND}.",
+        null
     ],
     [
         "Spore Cloud",
         "SPORE_CLOUD",
-        "The first attack card {1} plays each turn has a random target. At the end of {1}’s turn, remove 1 <b>Spore Cloud</>."
+        "The first attack card {1} plays each turn has a random target. At the end of {1}’s turn, remove 1 <b>Spore Cloud</>.",
+        null
     ],
     [
         "Stacking",
         "STACKING",
-        "Whenever a copy of this card is added to your deck, the two cards are merged into one card that gains a bonus."
+        "Whenever a copy of this card is added to your deck, the two cards are merged into one card that gains a bonus.",
+        null
     ],
     [
         "Stagger",
         "STAGGER",
-        "When <b>Stagger</b> reaches {1}, clear it and apply {STUN 1}.\\nDecrease by 1 at the end of your turn."
+        "When <b>Stagger</b> reaches {1}, clear it and apply {STUN 1}.\\nDecrease by 1 at the end of your turn.",
+        null
     ],
     [
         "Static Buildup",
         "static_buildup",
-        "Generated by Voltaic. At the end of your turn, take <#HILITE>{1}</> damage and remove this condition."
+        "Generated by Voltaic. At the end of your turn, take <#HILITE>{1}</> damage and remove this condition.",
+        null
     ],
     [
         "Static Shock",
         "static_shock",
-        "Whenever you play a card, discard a random card and reduce <b>Static Shock</b> by 1."
+        "Whenever you play a card, discard a random card and reduce <b>Static Shock</b> by 1.",
+        null
     ],
     [
         "Steady Hands",
         "steady_hands_debuff",
-        "Draw {1} extra cards at the start of your turn. Remove at the end of your turn."
+        "Draw {1} extra cards at the start of your turn. Remove at the end of your turn.",
+        null
     ],
     [
         "Sticky",
         "STICKY",
-        "This card is not discarded at the end of your turn."
+        "This card is not discarded at the end of your turn.",
+        null
     ],
     [
         "Stolen Treasure",
         "STOLEN_CARD_CLUSTER",
-        "Grants when killed:"
+        "Grants when killed:",
+        null
     ],
     [
         "Stored Defense",
         "STORED_DEFENSE",
-        "At the end of your turn, gain {DEFEND} equal to <b>Stored Defense</> and remove all <b>Stored Defense</>."
+        "At the end of your turn, gain {DEFEND} equal to <b>Stored Defense</> and remove all <b>Stored Defense</>.",
+        null
     ],
     [
         "Stubborn",
         "STUBBORN",
-        "At the start of {1}’s turn, remove this argument and apply {2} composure to all friendly arguments."
+        "At the start of {1}’s turn, remove this argument and apply {2} composure to all friendly arguments.",
+        null
     ],
     [
         "Stun",
         "STUN",
-        "Can't act this turn. Remove Stun at the end of the turn. This condition does not stack."
+        "Can't act this turn. Remove Stun at the end of the turn. This condition does not stack.",
+        "Apply {STUN}."
     ],
     [
         "Subtle Setup",
         "subtle_setup",
-        "Whenever this argument takes damage, deal that much damage to a random opponent argument."
+        "Whenever this argument takes damage, deal that much damage to a random opponent argument.",
+        null
     ],
     [
         "Suitcase Grenades",
         "kashio_suitcase_grenades",
-        "At the end of {1}'s turn, {1} throws a grenade."
+        "At the end of {1}'s turn, {1} throws a grenade.",
+        null
     ],
     [
         "Summons",
         "planted_summons",
-        "Remove {1} {1*stack|stacks} at the end of your turn.\\nWhen destroyed, returns to your draw pile.\\n\\n<#PENALTY>This must be attached to your opponent at the end of the negotiation to succeed!</>"
+        "Remove {1} {1*stack|stacks} at the end of your turn.\\nWhen destroyed, returns to your draw pile.\\n\\n<#PENALTY>This must be attached to your opponent at the end of the negotiation to succeed!</>",
+        null
     ],
     [
         "Supporter",
         "FIGHT_SUPPORTER",
-        "<b>{1.fullname}</> will support {2.name} in battle - destroy this argument to undermine that. \\n\\n{2.name} gains 1 {IMPATIENCE} when destroyed."
+        "<b>{1.fullname}</> will support {2.name} in battle - destroy this argument to undermine that. \\n\\n{2.name} gains 1 {IMPATIENCE} when destroyed.",
+        null
     ],
     [
         "Suspicion",
         "SUSPICION",
-        "Diplomacy cards deal {1%+d} damage, with a minimum of 1 damage.\\n\\nReduce <b>Suspicion</b> by 1 at the beginning of {2}'s turn."
+        "Diplomacy cards deal {1%+d} damage, with a minimum of 1 damage.\\n\\nReduce <b>Suspicion</b> by 1 at the beginning of {2}'s turn.",
+        null
     ],
     [
         "Sympathizer",
         "SYMPATHIZER",
-        "Gain <#HILITE>{1}</> actions.\\nDraw a card for each friend you have in the Rise. ({2} friends)."
+        "Gain <#HILITE>{1}</> actions.\\nDraw a card for each friend you have in the Rise. ({2} friends).",
+        null
     ],
     [
         "Take Names",
         "TAKE_NAMES",
-        "Playing this card against a new unique character adds their name to the list."
+        "Playing this card against a new unique character adds their name to the list.",
+        null
     ],
     [
         "Targeted",
         "TARGETED",
-        "All non-player characters will prioritize this target."
+        "All non-player characters will prioritize this target.",
+        "Gain {1} {TARGETED}."
     ],
     [
         "Temper",
         "TEMPER",
-        "Remove 1 stack whenever you play an attack card targeting the grawkit. When removed, the grawkit will prepare a dangerous attack."
+        "Remove 1 stack whenever you play an attack card targeting the grawkit. When removed, the grawkit will prepare a dangerous attack.",
+        null
     ],
     [
         "Tempered",
         "tempered",
-        "Whenever you attack an enemy that has {BURN}, gain <#HILITE>{1} {DEFEND}</>."
+        "Whenever you attack an enemy that has {BURN}, gain <#HILITE>{1} {DEFEND}</>.",
+        null
     ],
     [
         "Temporary Power",
         "POWER_LOSS",
-        "Remove <#HILITE>{1} {POWER}</> at the end of {2}'s turn."
+        "Remove <#HILITE>{1} {POWER}</> at the end of {2}'s turn.",
+        null
     ],
     [
         "Temporary Power",
         "TEMP_POWER",
-        "{POWER} that is removed at the end of your turn."
+        "{POWER} that is removed at the end of your turn.",
+        null
     ],
     [
         "The Bog Knows All",
         "article_of_faith_brain",
-        "When one of {1.name}'s arguments is destroyed, {INCEPT} {2} {article_of_faith_brain_spawned}.\\n\\nDestroying this argument will increase your card draw when fighting {1.name}."
+        "When one of {1.name}'s arguments is destroyed, {INCEPT} {2} {article_of_faith_brain_spawned}.\\n\\nDestroying this argument will increase your card draw when fighting {1.name}.",
+        null
     ],
     [
         "The Bog Protects All",
         "article_of_faith_heart",
-        "At the start of each turn, apply {2} {COMPOSURE} to a friendly argument.\\n\\nDestroying this argument will cause {1.name} to have lower health in battle."
+        "At the start of each turn, apply {2} {COMPOSURE} to a friendly argument.\\n\\nDestroying this argument will cause {1.name} to have lower health in battle.",
+        null
     ],
     [
         "The Bog Sees All",
         "article_of_faith_eyes",
-        "Spawn a {article_of_faith_eyes_spawned} at the start of {1.name}'s turn if this argument did not lose resolve.\\n\\nDestroying this argument will reduce {1.name}'s attack strength in battle."
+        "Spawn a {article_of_faith_eyes_spawned} at the start of {1.name}'s turn if this argument did not lose resolve.\\n\\nDestroying this argument will reduce {1.name}'s attack strength in battle.",
+        null
     ],
     [
         "Thick Fur",
         "flekfis_thick_fur",
-        "At the end of {1}'s turn, {1} gains {2} {DEFEND}."
+        "At the end of {1}'s turn, {1} gains {2} {DEFEND}.",
+        null
     ],
     [
         "Thick Shell",
         "thick_shell",
-        "Gain <#HILITE>{DEFEND {1}}</> at the end of their turn."
+        "Gain <#HILITE>{DEFEND {1}}</> at the end of their turn.",
+        null
     ],
     [
         "Thorny Carapace",
         "THORNY_CARAPACE",
-        "Adds 6 {RIPOSTE} at the end of each turn."
+        "Adds 6 {RIPOSTE} at the end of each turn.",
+        null
     ],
     [
         "Thorough Search",
         "THOROUGH_SEARCH",
+        null,
         null
     ],
     [
         "Threshold",
         "THRESHOLD",
-        "Activates an added effect if damage is at or above the Threshold number."
+        "Activates an added effect if damage is at or above the Threshold number.",
+        null
     ],
     [
         "Tiny Stinger",
         "tiny_stinger",
-        "When this larva dies, insert {flead_larvae_card} into your hand."
+        "When this larva dies, insert {flead_larvae_card} into your hand.",
+        null
     ],
     [
         "Tithe",
         "TITHE",
-        "When destroyed, restore {1} resolve for every opponent argument."
+        "When destroyed, restore {1} resolve for every opponent argument.",
+        null
     ],
     [
         "Tolerance",
         "TOLERANCE",
-        "Your maximum hand size is reduced by {1}. At the start of your turn, remove one <b>Tolerance</>. <b>Tolerance</> can have up to 8 stacks."
+        "Your maximum hand size is reduced by {1}. At the start of your turn, remove one <b>Tolerance</>. <b>Tolerance</> can have up to 8 stacks.",
+        null
     ],
     [
         "Toolbox",
         "TOOLBOX",
-        "This card contains other cards that can be improvised. This card stays in your hand at the end of your turn, is placed in your hand at the start of every turn, and is <b>Destroyed</> once empty."
+        "This card contains other cards that can be improvised. This card stays in your hand at the end of your turn, is placed in your hand at the start of every turn, and is <b>Destroyed</> once empty.",
+        null
     ],
     [
         "Toxic Buildup",
         "TOXIC_BUILDUP",
-        "{1}’s next attack applies a Bile debuff. Whenever {1} is attacked, the Bile debuff is randomized.{2}"
+        "{1}’s next attack applies a Bile debuff. Whenever {1} is attacked, the Bile debuff is randomized.{2}",
+        null
     ],
     [
         "Tracer",
         "tracer",
-        "Whenever {2} is hit by an attack, you gain {1} {DEFEND}. At the start of {2}'s turn, remove 1 stack of <b>Tracer</>."
+        "Whenever {2} is hit by an attack, you gain {1} {DEFEND}. At the start of {2}'s turn, remove 1 stack of <b>Tracer</>.",
+        null
     ],
     [
         "Trained Fighter",
         "trained_fighter",
-        "Lose only 1 {COMBO} when receiving damage."
+        "Lose only 1 {COMBO} when receiving damage.",
+        null
     ],
     [
         "Trample",
         "trample",
-        "{1}'s attacks deal bonus damage equal to their {DEFEND}. Remove 1 <b>Trample</b> at the end of their turn."
+        "{1}'s attacks deal bonus damage equal to their {DEFEND}. Remove 1 <b>Trample</b> at the end of their turn.",
+        null
     ],
     [
         "Trauma",
         "TRAUMA",
-        "Whenever {1} is attacked, increase <b>Trauma</> by 1. At 10 stacks, {1} gains {TRAUMATIZED} and loses <b>Trauma</>."
+        "Whenever {1} is attacked, increase <b>Trauma</> by 1. At 10 stacks, {1} gains {TRAUMATIZED} and loses <b>Trauma</>.",
+        null
     ],
     [
         "Traumatized",
         "TRAUMATIZED",
-        "The next attack against {1} deals double damage and reduces this by 1."
+        "The next attack against {1} deals double damage and reduces this by 1.",
+        null
     ],
     [
         "Tribute",
         "TRIBUTE",
-        "When destroyed, {2} gains: draw {1} extra {1*card|cards} at the start of your turn."
+        "When destroyed, {2} gains: draw {1} extra {1*card|cards} at the start of your turn.",
+        null
     ],
     [
         "True Believer",
         "true_believer",
-        "Whenever {1} deals unmitigated damage, they gain <#HILITE>{2}</> {POWER}. Whenever their attacks are fully defended or evaded, {1} loses all {POWER} gained from <b>True Believer</>."
+        "Whenever {1} deals unmitigated damage, they gain <#HILITE>{2}</> {POWER}. Whenever their attacks are fully defended or evaded, {1} loses all {POWER} gained from <b>True Believer</>.",
+        null
     ],
     [
         "Under Your Skin",
         "vix_resentment_1",
-        "Gain {1} {1*stack|stacks} whenever you play a Manipulate card.\\n\\nIf this argument reaches {2} stacks: Incept {3} {vix_self_doubt} and destroy this argument."
+        "Gain {1} {1*stack|stacks} whenever you play a Manipulate card.\\n\\nIf this argument reaches {2} stacks: Incept {3} {vix_self_doubt} and destroy this argument.",
+        null
     ],
     [
         "Unknown",
         "unknown",
-        "At the end of {1}'s turn, {1} loses all {RENOWN}."
+        "At the end of {1}'s turn, {1} loses all {RENOWN}.",
+        null
     ],
     [
         "Unplayable",
         "UNPLAYABLE",
-        "This card cannot be played."
+        "This card cannot be played.",
+        null
     ],
     [
         "Unshakable",
         "UNSHAKABLE",
-        "At the end of every turn, lose {INFLUENCE 1} and {DOMINANCE 1}."
+        "At the end of every turn, lose {INFLUENCE 1} and {DOMINANCE 1}.",
+        null
     ],
     [
         "Unstable Drone",
         "unstable_drone",
-        "Receiving damage reduces this by 1. Drone is destroyed at 0 stacks, dealing 5 damage to {1}."
+        "Receiving damage reduces this by 1. Drone is destroyed at 0 stacks, dealing 5 damage to {1}.",
+        null
     ],
     [
         "Unstoppable",
         "UNSTOPPABLE",
-        "{1} cannot be stunned. At the start of {1}'s turn, remove 1 <b>Unstoppable</>."
+        "{1} cannot be stunned. At the start of {1}'s turn, remove 1 <b>Unstoppable</>.",
+        null
     ],
     [
         "Vanish",
         "VANISH",
-        "Every time you play a card, {GAMBLE} and reduce this by 1."
+        "Every time you play a card, {GAMBLE} and reduce this by 1.",
+        null
     ],
     [
         "Vendetta",
         "VENDETTA",
-        "{1} hates {2}, and will always attack them."
+        "{1} hates {2}, and will always attack them.",
+        null
     ],
     [
         "Vengeful",
         "VENGEFUL",
-        "Whenever you create a new argument, {1} creates 1 {COUNTER_POINT}."
+        "Whenever you create a new argument, {1} creates 1 {COUNTER_POINT}.",
+        null
     ],
     [
         "Vicious",
         "vicious",
-        "Gain <#HILITE>{1} {RIPOSTE}</> when attacked."
+        "Gain <#HILITE>{1} {RIPOSTE}</> when attacked.",
+        null
     ],
     [
         "Viciousness",
         "viciousness",
+        null,
         null
     ],
     [
         "Vixmalli's Bag of Resentments",
         "VIXMALLI_CORE",
-        "At the beginning of every turn, Vix pulls out another old axe to grind.\\n\\nOne resentment gains {SHIELDED} at the start of each turn.\\n\\nIf below 33% resolve, gains {IMPATIENCE} at the start of each turn."
+        "At the beginning of every turn, Vix pulls out another old axe to grind.\\n\\nOne resentment gains {SHIELDED} at the start of each turn.\\n\\nIf below 33% resolve, gains {IMPATIENCE} at the start of each turn.",
+        null
     ],
     [
         "Voltaic",
         "voltaic",
-        "At the end of your turn, take <#HILITE>{1} damage</> for every {GALVANIZED} card you have played this turn."
+        "At the end of your turn, take <#HILITE>{1} damage</> for every {GALVANIZED} card you have played this turn.",
+        null
     ],
     [
         "Vulnerability",
         "VULNERABILITY",
-        "All resolve loss is increased by {1}. Remove 1 stack at the start of your turn."
+        "All resolve loss is increased by {1}. Remove 1 stack at the start of your turn.",
+        null
     ],
     [
         "Wanted Alive",
         "WANTED_ALIVE",
-        "You've been told to keep this target alive."
+        "You've been told to keep this target alive.",
+        null
     ],
     [
         "Wanted Dead",
         "WANTED_DEAD",
-        "You've been told to kill this target."
+        "You've been told to kill this target.",
+        null
     ],
     [
         "Wanted!",
         "BOUNTY_REWARD",
-        "When destroyed, {1}'s core argument takes {2} resolve damage and gains {IMPATIENCE 1}."
+        "When destroyed, {1}'s core argument takes {2} resolve damage and gains {IMPATIENCE 1}.",
+        null
     ],
     [
         "Warping",
         "WARPING",
-        "At the start of your turn, this card changes its effect."
+        "At the start of your turn, this card changes its effect.",
+        null
     ],
     [
         "Wary",
         "WARY",
-        "Manipulate cards have 1 additional cost."
+        "Manipulate cards have 1 additional cost.",
+        null
     ],
     [
         "Weakened Brain of the Bog",
         "brain_of_the_bog_debuff",
-        "Whenever a Grout Loot Cluster is killed, this unit gains 2 {WOUND}."
+        "Whenever a Grout Loot Cluster is killed, this unit gains 2 {WOUND}.",
+        null
     ],
     [
         "Weakened Eyes of the Bog",
         "eyes_of_the_bog_debuff",
-        "Whenever an Eyestalk dies, gain 1 {IMPAIR}."
+        "Whenever an Eyestalk dies, gain 1 {IMPAIR}.",
+        null
     ],
     [
         "Weakened Heart of the Bog",
         "heart_of_the_bog_debuff",
-        "Spark mines and Grout Knuckles lose {1} health when they emerge."
+        "Spark mines and Grout Knuckles lose {1} health when they emerge.",
+        null
     ],
     [
         "Weakness",
         "weakness_argument",
-        "When you dismiss this argument, gain a {{1}} card in battle."
+        "When you dismiss this argument, gain a {{1}} card in battle.",
+        null
     ],
     [
         "Wide Influence",
         "WIDE_INFLUENCE",
-        "At the end of {1}'s turn, incept either a {straw_man} or {PLANTED_EVIDENCE}, chosen randomly, if neither exists."
+        "At the end of {1}'s turn, incept either a {straw_man} or {PLANTED_EVIDENCE}, chosen randomly, if neither exists.",
+        null
     ],
     [
         "Wide Open",
         "WIDE_OPEN",
-        "Cannot gain {DEFEND}. At the end of {1}'s turn, reduce <b>Wide Open</> by 1."
+        "Cannot gain {DEFEND}. At the end of {1}'s turn, reduce <b>Wide Open</> by 1.",
+        null
     ],
     [
         "Worn Out",
         "worn_out",
-        "Remove 1 stack when attacked. If <b>Worn Out</> reaches 0, apply 1 {STUN}."
+        "Remove 1 stack when attacked. If <b>Worn Out</> reaches 0, apply 1 {STUN}.",
+        null
     ],
     [
         "Wound",
         "WOUND",
-        "Attacks inflict <#HILITE>{1}</> bonus damage on this target.\\nAt the beginning of their turn, reduce <b>Wound</b> by 1."
+        "Attacks inflict <#HILITE>{1}</> bonus damage on this target.\\nAt the beginning of their turn, reduce <b>Wound</b> by 1.",
+        "Apply {1} {WOUND}."
     ],
     [
         "Wound Up",
         "WOUND_UP",
-        "{1}'s attacks deal <#HILITE>{2}</> additional damage. Remove 2 <b>Wound Up</> at the end of {1}'s turn."
+        "{1}'s attacks deal <#HILITE>{2}</> additional damage. Remove 2 <b>Wound Up</> at the end of {1}'s turn.",
+        null
     ],
     [
         "Wrath of Hesh",
         "wrath_of_hesh",
+        null,
         null
     ],
     [
         "Wrenched",
         "flekfis_wrenched",
-        "At the start of your turn, increase the cost of a card in your hand by 1. At the end of your turn, remove 1 <b>Wrenched</>."
+        "At the start of your turn, increase the cost of a card in your hand by 1. At the end of your turn, remove 1 <b>Wrenched</>.",
+        null
     ],
     [
         "Writhing Appendages",
         "WRITHING_APPENDAGES",
-        "At the end of {1}'s turn, remove 1 <b>Writhing Appendages</>."
+        "At the end of {1}'s turn, remove 1 <b>Writhing Appendages</>.",
+        null
     ],
     [
         "Zeal",
         "ZEAL",
-        "When an argument of {1}'s is removed or destroyed, all other arguments gain {2} resolve."
+        "When an argument of {1}'s is removed or destroyed, all other arguments gain {2} resolve.",
+        null
     ],
     [
         "autoplay",
         "AUTOPLAY",
+        null,
         null
     ],
     [
         "bribe",
         "BRIBE",
+        null,
         null
     ],
     [
         "buff",
         "BUFF",
+        null,
         null
     ],
     [
         "bystander",
         "BYSTANDER",
+        null,
         null
     ],
     [
         "debuff",
         "DEBUFF",
+        null,
         null
     ],
     [
         "diplomacy",
         "DIPLOMACY",
+        null,
         null
     ],
     [
         "freebie",
         "FREEBIE",
+        null,
         null
     ],
     [
         "hostile",
         "HOSTILE",
+        null,
         null
     ],
     [
         "incepted",
         "INCEPTED",
+        null,
         null
     ],
     [
         "item",
         "ITEM",
+        null,
         null
     ],
     [
         "manipulate",
         "MANIPULATE",
+        null,
         null
     ],
     [
         "melee",
         "MELEE",
+        null,
         null
     ],
     [
         "npc",
         "NPC",
+        null,
         null
     ],
     [
         "one_of_a_kind",
         "ONE_OF_A_KIND",
-        "Your deck can only contain 1 copy of this card."
+        "Your deck can only contain 1 copy of this card.",
+        null
     ],
     [
         "opponent",
         "OPPONENT",
+        null,
         null
     ],
     [
         "ranged",
         "RANGED",
+        null,
         null
     ],
     [
         "skill",
         "SKILL",
+        null,
         null
     ],
     [
         "special",
         "SPECIAL",
+        null,
         null
     ],
     [
         "status",
         "STATUS",
+        null,
         null
     ],
     [
         "upgraded",
         "UPGRADED",
+        null,
         null
     ],
     [
         "variable_cost",
         "VARIABLE_COST",
+        null,
         null
     ]
 ]

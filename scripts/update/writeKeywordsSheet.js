@@ -18,11 +18,12 @@ const writeKeywordsSheet = async (bag) => {
         row.push(character.name);
         row.push(character.id);
         row.push(character.desc);
+        row.push(character.feature_desc);
         matrix.push(row);
     }
     matrix.sort((a, b) => (a[0] < b[0] ? -1 : 1));
 
-    matrix.unshift(['Name', 'Id', 'Description']);
+    matrix.unshift(['Name', 'Id', 'Description', 'Feature Description']);
     await writeSheet(__dirname + '/../../sheets/keywords.xlsx', matrix, sheetMutation);
 };
 

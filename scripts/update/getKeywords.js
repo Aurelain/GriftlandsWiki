@@ -123,6 +123,10 @@ const parseBlocks = (luaContent, regexp, keywords) => {
         if (desc) {
             keywords[id].desc = desc;
         }
+        const feature_desc = (enclosure.match(/\bfeature_desc\s*=\s*"([^"]*)/) || [])[1];
+        if (feature_desc) {
+            keywords[id].feature_desc = feature_desc;
+        }
     }
 };
 

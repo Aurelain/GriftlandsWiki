@@ -811,7 +811,7 @@
     ],
     [
         "Attitude",
-        "Gain [[Dominance]].<br/>[[Expend]]",
+        "Gain 1 [[Dominance]].<br/>[[Expend]]",
         "attitude",
         "N/instincts_hostile",
         "Sal",
@@ -1945,7 +1945,7 @@
     ],
     [
         "Blood Flow",
-        "Double your [[Moxie]].<br/>[[Exert]].",
+        "Double your [[Moxie]].<br/>[[Exert]]",
         "bloodflow",
         "B/bloodflow",
         "Smith",
@@ -2827,7 +2827,7 @@
     ],
     [
         "Boosted Blood Flow",
-        "Gain 3 [[Moxie]], then double your [[Moxie]].<br/>[[Exert]].",
+        "Gain 3 [[Moxie]], then double your [[Moxie]].<br/>[[Exert]]",
         "bloodflow_plus",
         "B/bloodflow",
         "Smith",
@@ -3133,13 +3133,13 @@
     ],
     [
         "Boosted Carry Over",
-        "Gain 2 [[Free Action]].<br/>[[Expend]]",
+        "Gain 2 bonus actions next turn.<br/>[[Expend]]",
         "improvise_carry_over_upgraded",
         "N/improvise_carry_over",
         "Sal",
         "Negotiation",
         "Manipulate",
-        "Free Action,Expend",
+        "Expend",
         "Let me get this straight.",
         "Unique",
         "Carry Over",
@@ -9145,13 +9145,13 @@
     ],
     [
         "Carry Over",
-        "Gain [[Free Action]].<br/>[[Expend]]",
+        "Gain 1 bonus action next turn.<br/>[[Expend]]",
         "improvise_carry_over",
         "N/improvise_carry_over",
         "Sal",
         "Negotiation",
         "Manipulate",
-        "Free Action,Expend",
+        "Expend",
         "Let me get this straight.",
         "Unique",
         " ",
@@ -13357,7 +13357,7 @@
     ],
     [
         "Enrage",
-        "Gain [[Power]].<br/>[[Expend]]",
+        "Gain 1 [[Power]].<br/>[[Expend]]",
         "improvise_power",
         "B/improvised_power",
         "Sal",
@@ -16687,7 +16687,7 @@
     ],
     [
         "Hip Flask",
-        "Gain [[Influence]].<br/>[[Expend]]<br/>[[Destroy]] after 3 uses.",
+        "Gain 1 [[Influence]].<br/>[[Expend]]<br/>[[Destroy]] after 3 uses.",
         "hip_flask",
         "N/hip_flask",
         "Other",
@@ -22141,7 +22141,7 @@
     ],
     [
         "Pale Enrage",
-        "Gain [[Power]].<br/>[[Expend]]",
+        "Gain 1 [[Power]].<br/>[[Expend]]",
         "improvise_power_upgraded",
         "B/improvised_power",
         "Sal",
@@ -30007,7 +30007,7 @@
     ],
     [
         "Spark Cannon",
-        "Adds bonus damage equal to 25% of target's health.<br/>[[Exert]].<br/>[[Destroy]] after 1 use.",
+        "Adds bonus damage equal to 25% of target's health.<br/>[[Exert]]<br/>[[Destroy]] after 1 use.",
         "spark_cannon",
         "B/spark_cannon",
         "Other",
@@ -34255,7 +34255,7 @@
     ],
     [
         "Throw Dust",
-        "Apply [[Impair]].<br/>[[Expend]]",
+        "Apply 1 [[Impair]].<br/>[[Expend]]",
         "improvise_dust",
         "B/throw_dust",
         "Sal",
@@ -34345,7 +34345,7 @@
     ],
     [
         "Tiny Stinger (card)",
-        "Remove all [[Defense]] on target.<br/>Apply [[Impair]].<br/>[[Expend]], [[Sticky]]",
+        "Remove all [[Defense]] on target.<br/>Apply 1 [[Impair]].<br/>[[Expend]], [[Sticky]]",
         "flead_larvae_card",
         "B/flead_larvae_card",
         "Enemy",
