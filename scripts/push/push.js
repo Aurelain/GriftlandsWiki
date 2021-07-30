@@ -9,6 +9,7 @@ const pull = require('../pull/pull');
 const guard = require('../utils/guard');
 const writeSafetyTimestamp = require('../utils/writeSafetyTimestamp');
 const sleep = require('../utils/sleep');
+const tally = require('../utils/tally');
 const {ENDPOINT, CREDENTIALS, RAW_WEB, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -24,8 +25,9 @@ const cookieJar = new CookieJar();
  */
 const push = async (focus = '', forced = '') => {
     try {
-        const status = await pull(focus, true);
-        if (forced !== 'forced' && !(await guard(status))) {
+        const isForced = forced === 'forced';
+        const status = await pull(focus, true, isForced);
+        if (!isForced && !(await guard(status))) {
             return;
         }
 
@@ -54,6 +56,7 @@ const push = async (focus = '', forced = '') => {
  */
 const writePagesToCloud = async (status, token) => {
     const pending = {...status.localOnly, ...status.different};
+    const withSleep = tally(pending) > 1;
     for (const filePath in pending) {
         const {title, content, localContent} = pending[filePath];
         if (title.startsWith('File:')) {
@@ -61,7 +64,7 @@ const writePagesToCloud = async (status, token) => {
         } else {
             await writeText(title, localContent || content, token);
         }
-        await sleep(1000);
+        withSleep && (await sleep(1000));
     }
 };
 

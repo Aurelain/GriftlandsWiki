@@ -81,12 +81,13 @@ const FILES_NAMESPACE = 6;
  *
  * @param focus         A title to target instead of freely scanning the cloud.
  * @param ethereal      If `true`, the results will not be persisted (the disk will not be touched).
+ * @param isForced      If `true`, the timestamp is not enforced.
  * @returns {Promise<{}>}
  */
-const pull = async (focus = '', ethereal = false) => {
+const pull = async (focus = '', ethereal = false, isForced = false) => {
     try {
         const timestamp = await getTimestamp();
-        if (ethereal) {
+        if (ethereal && !isForced) {
             checkSafetyTimestamp(timestamp);
         }
 
