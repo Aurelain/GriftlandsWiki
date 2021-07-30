@@ -11,5 +11,5 @@
 |expreq = 
 |upgrade1 = Boosted Spare Battery
 |upgrade1summary = 2 Defense
-|generator = Ammo Pouch
+|generator = Ammo Pouch, Boosted Ammo Pouch
 }}

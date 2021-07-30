@@ -1,9 +1,19 @@
 {{CardPage
 |quote = Hey it's a strange world, there could be any number of things wrong with them.
-|description = When drawn, apply a random debuff to a random enemy.<br/>Unplayable, Replenish
+|description = When drawn, apply a random debuff to a random enemy.<br/>[[Unplayable]], [[Replenish]]
 |character = Rook
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Replenish]], [[Unplayable]]
+|generator = Psionic Storm, Boosted Psionic Storm, Pale Psionic Storm
+|special1 = Current
+|special2 = Melt
+|special3 = Riptide
+|special4 = Shear
+|special5 = Twist
+|special6 = Wave
+|special7 = Whirl
 }}
+==Notes==
+The card '''Affliction''' will automatically change into one of the other cards.

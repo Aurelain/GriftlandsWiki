@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Cleaned them just this morning, this swamp ruins the guts of these things.
-|description = Draw 3 cards.<br/>Expend
+|description = Draw 3 cards.<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
@@ -8,4 +8,5 @@
 |cardtype = Maneuver
 |keywords = [[Expend]]
 |parent = Scour
+|generator = Promoted Ammo Pouch
 }}

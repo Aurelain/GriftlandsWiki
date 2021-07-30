@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Make sure no one catches the color of the muzzle flare. It's a dead giveaway.
-|description = Gain 2 Overcharge.<br/>Expend
+|description = Gain 2 [[Overcharge]].<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
@@ -10,4 +10,5 @@
 |parent = Flow
 |mindamage = 2
 |maxdamage = 3
+|generator = Promoted Ammo Pouch
 }}

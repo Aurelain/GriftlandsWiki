@@ -1,4 +1,9 @@
-{{Card
+{{Reupload|Boosted Accelerant has "3 [[Scorched]] and 3 [[Burn]]". <br/> Wide Accelerant has "2 [[Scorched]] and 2 [[Burn]]".}}
+
+{{CardPage
+|quote = What's that smell?
+|description = Apply 2 [[Scorched]] and 2 [[Burn]] to an enemy. <br/> [[Expend]]
+|cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
@@ -7,18 +12,7 @@
 |upgradeable = Yes
 |expreq = 8
 |upgrade1 = Boosted Accelerant
-|upgrade2 = Wide Accelerant}}
-{{Quote|What's that smell?}}
-
-'''Accelerant''' is a 1-cost Common '''Maneuver''' card for [[Rook]]. It has the effect "Apply 2 [[Scorched]] and 2 [[Burn]] to an enemy. [[Expend]]".
-
-==Upgrades==
-After accruing 8 experience '''Accelerant''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Accelerant.png|150px]]
-|[[File:Wide Accelerant.png|150px]]
-|-
-!Apply 3 [[Scorched]] and 3 [[Burn]]
-!To all enemies
-|}
+|upgrade1summary = Apply 3 [[Scorched]] and 3 [[Burn]]
+|upgrade2 = Wide Accelerant
+|upgrade2summary = To all enemies
+}}

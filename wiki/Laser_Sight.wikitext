@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Be sure to get the adjustments right, the dealers are always calibrating these things poorly.
-|description = Apply 2 Mark.<br/>Expend
+|description = Apply 2 [[Mark]].<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
@@ -9,5 +9,6 @@
 |keywords = [[Expend]], [[Mark]]
 |expreq = 0
 |upgrade1 = Focused Laser Sight
-|upgrade1summary = 
+|upgrade1summary = Apply 3 [[Mark]]
+|generator = Ammo Pouch, Boosted Ammo Pouch
 }}

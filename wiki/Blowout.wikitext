@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Sure you can customize it to do that, just don't let the Admiralty find out.
-|description = Spend all Charge: deal 1 bonus damage per Charge spent.<br/>Expend
+|description = Spend all [[Charge]]: deal 1 bonus damage per [[Charge]] spent.<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
@@ -9,7 +9,8 @@
 |keywords = [[Charge]], [[Expend]]
 |expreq = 0
 |upgrade1 = Boosted Blowout
-|upgrade1summary = 
+|upgrade1summary = Deal 4-8 base damage <br/> Deal 2 bonus damage per [[Charge]] spent.
 |mindamage = 3
 |maxdamage = 4
+|generator = Ammo Pouch, Boosted Ammo Pouch
 }}

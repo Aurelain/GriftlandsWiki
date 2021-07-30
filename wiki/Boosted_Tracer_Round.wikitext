@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It's just a four degree twist on the casing there, yeah you can't get these shells anywhere else.
-|description = Spend 1 Charge: Apply 3 Burn.<br/>Expend
+|description = Spend 1 [[Charge]]: Apply 3 [[Burn]].<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
@@ -10,4 +10,5 @@
 |parent = Tracer Round
 |mindamage = 1
 |maxdamage = 2
+|generator = Promoted Ammo Pouch
 }}
