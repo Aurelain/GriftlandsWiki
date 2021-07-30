@@ -77,8 +77,9 @@ const FILES_NAMESPACE = 6;
 const DENIED_PAGES = {
     "Sal's_campaign.wikitext": true, // because "Sal's_Campaign" (with uppercase "C") is proper title-case
     'Wind_Up.wikitext': true, // because "Wind_up.wikitext" (with lowercase "u") is proper, according the game
-    'File:Twisted_Wind_Up.png': true, // same as above
-    'File:Boosted_Wind_Up.png': true, // same as above
+    'File/Twisted_Wind_Up.png.json': true, // same as above
+    'File/Boosted_Wind_Up.png.json': true, // same as above
+    "File/Thieves'_instinct.png.json": true, // because "Instinct" (with uppercase "I") is proper title-case
 };
 
 // =====================================================================================================================
