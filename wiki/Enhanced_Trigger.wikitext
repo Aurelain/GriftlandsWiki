@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You have to be careful, I've seen these go off holstered.
-|description = Spend up to 2 Charge: deal 3 bonus damage per charge spent.
+|description = Spend up to 2 [[Charge]]: deal 3 bonus damage per charge spent.
 |cost = 1
 |character = Rook
 |rarity = Basic

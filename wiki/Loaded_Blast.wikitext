@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Center mass!
-|description = Fully Charged: this costs 0.
+|description = [[Fully Charged]]: this costs 0.
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Primed]]
+|keywords = [[Fully Charged]]
 |parent = Blast
 |mindamage = 2
 |maxdamage = 4

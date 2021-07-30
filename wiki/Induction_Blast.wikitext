@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Center mass!
-|description = Gain 1 Charge.
+|description = Gain 1 [[Charge]].
 |cost = 1
 |character = Rook
 |rarity = Basic

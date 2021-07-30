@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Center mass!
-|description = Destroy
+|description = [[Destroy]]
 |cost = 1
 |character = Rook
 |rarity = Basic
