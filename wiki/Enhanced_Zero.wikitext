@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I don't think I've ever felt anything quite like that. Are you sure that you didn't see anything?
-|description = Concentrated: Apply 3 Wound.
+|description = [[Concentrated]]: Apply 3 [[Wound]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon

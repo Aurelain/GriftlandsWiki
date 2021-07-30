@@ -2,12 +2,11 @@
 |quote = I can never find anything in these damned things.
 |description = [[Improvise]] a card from a pool of upgraded special cards.
 |cost = 1
+|character = Rook
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
-|character = Rook
 |keywords = [[Improvise]]
-|upgradeable = No
 |parent = Ammo Pouch
 |special1 = Boosted Spare Battery
 |special2 = Focused Laser Sight

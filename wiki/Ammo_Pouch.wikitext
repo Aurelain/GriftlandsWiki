@@ -1,13 +1,12 @@
 {{CardPage
 |quote = I can never find anything in these damned things.
-|description = Improvise a card from a pool of special cards.
+|description = [[Improvise]] a card from a pool of special cards.
 |cost = 1
+|character = Rook
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
-|character = Rook
 |keywords = [[Improvise]]
-|upgradeable = Yes
 |expreq = 8
 |upgrade1 = Promoted Ammo Pouch
 |upgrade1summary = Upgraded special cards

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Hold your breath and keep it steady.
-|description = Apply 2 Mark.<br/>Draw 2 cards.
+|description = Apply 2 [[Mark]].<br/>Draw 2 cards.
 |cost = 1
 |character = Rook
 |rarity = Common

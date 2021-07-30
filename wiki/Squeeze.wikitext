@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It's a hidden switch, not regulation by any standard.
-|description = Draw 2 cards, gain Overcharge equal to their combined cost.
+|description = Draw 2 cards, gain [[Overcharge]] equal to their combined cost.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
@@ -8,8 +8,8 @@
 |cardtype = Maneuver
 |keywords = [[Overcharge]]
 |expreq = 9
-|upgrade1 = Boosted Squeeze
+|upgrade1 = Visionary Squeeze
 |upgrade1summary = 
-|upgrade2 = Visionary Squeeze
+|upgrade2 = Boosted Squeeze
 |upgrade2summary = 
 }}
