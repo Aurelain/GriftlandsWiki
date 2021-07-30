@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I can smell it, it's almost over.
-|description = Apply 3 Bleed, then deal Piercing damage equal to target's Bleed.
+|description = Apply 3 [[Bleed]], then deal [[Piercing]] damage equal to target's [[Bleed]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon

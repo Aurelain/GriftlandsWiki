@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Nobody ever said it was fair, they just said that it works.
-|description = If this card was Improvised, triple its damage until the end of the turn.<br/>Expend
+|description = If this card was [[Improvise|Improvised]], triple its damage until the end of the turn.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]], [[Improvise]]
+|keywords = [[Improvise]], [[Expend]]
 |parent = Backstab
 |mindamage = 3
 |maxdamage = 5

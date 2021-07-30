@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Nobody ever said it was fair, they just said that it works.
-|description = If this card was Improvised, double its damage until the end of the turn.
+|description = If this card was [[Improvise|Improvised]], double its damage until the end of the turn.
 |cost = 1
 |character = Sal
 |rarity = Common

@@ -7,10 +7,11 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Bleed]]
-|upgradeable = Yes
-|expreq = 5
+|expreq = 7
 |upgrade1 = Rooted Burst
 |upgrade1summary = Deal 5 base damage
 |upgrade2 = Tall Burst
 |upgrade2summary = Deal 3-9 base damage
+|mindamage = 3
+|maxdamage = 6
 }}

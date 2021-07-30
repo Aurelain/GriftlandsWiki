@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Why do I have two daggers? Well, I have two hands, don't I?
-|description = Gain 2 Defense.
+|description = Gain 2 [[Defense]].
 |cost = 1
 |character = Sal
 |rarity = Basic
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |parent = Stab
 |mindamage = 2
 |maxdamage = 5

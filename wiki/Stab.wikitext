@@ -1,12 +1,10 @@
 {{CardPage
 |quote = Why do I have two daggers? Well, I have two hands, don't I?
-|description = 
 |cost = 1
 |character = Sal
 |rarity = Basic
-|cardtype = Attack
 |decktype = Battle
-|upgradeable = Yes
+|cardtype = Attack
 |expreq = 6
 |upgrade1 = Stab of Clarity
 |upgrade1summary = Deal 10 base damage. <br/> [[Destroy]]

@@ -2,14 +2,13 @@
 
 {{CardPage
 |quote = It just keeps coming.
-|description = Add a copy of this card to your discard. <br/> Spend 2 [[Combo]]: Draw a card. <br/> [[Finisher]] 
+|description = Add a copy of this card to your discard.<br/>Spend 2 [[Combo]]: Draw a card.<br/>[[Finisher]]
 |cost = 0
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Combo]], [[Finisher]] 
-|upgradeable = Yes
+|keywords = [[Combo]], [[Finisher]]
 |expreq = 8
 |upgrade1 = Barbed Switch Blade
 |upgrade1summary = 50% chance of applying 1 [[Wound]]

@@ -1,5 +1,5 @@
 {{CardPage
-|quote = This one's called Dag. The other one's Gurr. <br> Yeah? Well I don't like '''your''' name, either, pal.
+|quote = This one's called Dag. The other one's Gurr.<br/>Yeah? Well I don't like '''your''' name, either, pal.
 |description = Insert [[Rain of Blades]] or [[Gut Shot]] into your hand.
 |cost = 1
 |character = Sal

@@ -3,11 +3,10 @@
 |description = [[Improvise]] a card from a pool of special cards.
 |cost = 1
 |character = Sal
-|cardtype = Maneuver
-|decktype = Battle
 |rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
 |keywords = [[Improvise]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Promoted Fight Dirty
 |upgrade1summary = [[Improvise]] a card from a pool of upgraded special cards.

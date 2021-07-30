@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Bleed]], [[Defense]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Savage Barnacle
 |upgrade1summary = 5 [[Bleed]]

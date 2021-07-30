@@ -7,7 +7,7 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Bleed]], [[Expend]]
+|generator = Sal's Bloody Daggers
 |mindamage = 3
 |maxdamage = 3
-|generator = Sal's Bloody Daggers
 }}

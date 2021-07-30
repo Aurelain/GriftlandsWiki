@@ -1,13 +1,13 @@
 {{CardPage
 |quote = It seems that we aren't too different internally, the wind can always be knocked out of us.
-|description = Attack twice.<br/>Gain 2 [[Combo]]. <br/> [[Expend]]
+|description = Attack twice.<br/>Gain 2 [[Combo]].
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Combo]], [[Expend]]
+|keywords = [[Combo]]
+|generator = Sal's Combo Daggers
 |mindamage = 2
 |maxdamage = 2
-|generator = Sal's Combo Daggers
 }}

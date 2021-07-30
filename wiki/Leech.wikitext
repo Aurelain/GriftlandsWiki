@@ -1,14 +1,13 @@
 {{CardPage
 |quote = It's a little gruesome, but the worms can put all that mess to work for you.
-|description = [[Heal]] 1 health per [[Bleed]] on the target. </br> [[Expend]]
+|description = [[Heal]] 1 health per [[Bleed]] on the target.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Heal]], [[Bleed]], [[Expend]]
-|upgradeable = Yes
-|expreq = 5
+|expreq = 7
 |upgrade1 = Boosted Leech
 |upgrade1summary = [[Heal]] 2 health per [[Bleed]] on the target.
 |upgrade2 = Pale Leech

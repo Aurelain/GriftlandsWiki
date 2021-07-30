@@ -1,12 +1,12 @@
 {{CardPage
-|quote = This one's called Dag. The other one's Gurr.<br>Yeah? Well I don't like '''your''' name, either, pal.
+|quote = This one's called Dag. The other one's Gurr.<br/>Yeah? Well I don't like '''your''' name, either, pal.
 |description = Insert [[Hammer Grip]] or [[Saber Grip]] into your hand.
 |cost = 1
 |character = Sal
-|cardtype = Maneuver
-|decktype = Battle
-|expreq = 9
 |rarity = Basic
+|decktype = Battle
+|cardtype = Maneuver
+|expreq = 9
 |upgrade1 = Sal's Bloody Daggers
 |upgrade1summary = Insert [[Gouge]] or [[Vertical Slash]] into your hand.
 |upgrade2 = Sal's Combo Daggers

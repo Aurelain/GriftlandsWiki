@@ -8,8 +8,8 @@
 |cardtype = Attack
 |keywords = [[Bleed]]
 |expreq = 9
-|upgrade1 = Piercing Hemorrhage
-|upgrade1summary = Bleed +2
-|upgrade2 = Savage Hemorrhage
-|upgrade2summary = [[Piercing]] damage
+|upgrade1 = Savage Hemorrhage
+|upgrade1summary = [[Piercing]] damage
+|upgrade2 = Piercing Hemorrhage
+|upgrade2summary = Bleed +2
 }}

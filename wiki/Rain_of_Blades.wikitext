@@ -9,7 +9,7 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Combo]], [[Expend]], [[Finisher]]
+|generator = Sal's Combo Daggers
 |mindamage = 3
 |maxdamage = 3
-|generator = Sal's Combo Daggers
 }}
