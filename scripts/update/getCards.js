@@ -11,6 +11,7 @@ const removeLuaComments = require('../utils/removeLuaComments');
 const convertLuaToJs = require('../utils/convertLuaToJs');
 const extractRawCards = require('./cardHelpers/extractRawCards');
 const inferCardType = require('./cardHelpers/inferCardType');
+const debugCard = require('../utils/debugCard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -344,7 +345,12 @@ const fixSomeValues = (bag) => {
         if (flavour) {
             let cleanFlavour = flavour.replace(/^['’\s]+/m, '');
             cleanFlavour = cleanFlavour.replace(/['’\s]+$/m, '');
-            card.flavour = cleanFlavour;
+            if (cleanFlavour.includes('{')) {
+                debugCard(card, `Special flavour will be deleted: ${cleanFlavour}`);
+                delete card.flavour; // "Blacklist"
+            } else {
+                card.flavour = cleanFlavour;
+            }
         }
 
         assert(series, `"${id} (${name}) has no series!`);

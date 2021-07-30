@@ -23,6 +23,12 @@ const updateCards = (cardsBag) => {
         if (!fs.existsSync(filePath)) continue;
 
         const existingWikitext = (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8')) || '';
+        if (!existingWikitext.match(/{{Card\b/)) {
+            continue;
+        }
+        if (existingWikitext.includes('{|')) {
+            continue;
+        }
         const existingCard = parseCardFromWikitext(existingWikitext);
         const futureCard = {...card, ...existingCard};
         const futureCardWikitext = generateCardWikitext(futureCard);
@@ -31,9 +37,9 @@ const updateCards = (cardsBag) => {
         if (futureWikitext !== existingWikitext) {
             fs.writeFileSync(filePath, futureWikitext);
             count++;
-            if (count >= 10) {
-                break;
-            }
+            // if (count >= 10) {
+            //     break;
+            // }
         }
     }
 };
