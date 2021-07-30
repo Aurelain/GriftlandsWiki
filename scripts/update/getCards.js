@@ -385,10 +385,14 @@ const computeXp = (card) => {
             card.computedXp = Math.max(3, default_xp);
         }
     } else {
-        if (card.max_xp === 0) {
+        if (card.parent) {
             delete card.max_xp;
         } else {
-            card.computedXp = card.max_xp;
+            if (card.max_xp === 0) {
+                delete card.max_xp;
+            } else {
+                card.computedXp = card.max_xp;
+            }
         }
     }
 };
