@@ -1,5 +1,6 @@
 {{CardPage
 |quote = He didn’t even have to say anything. The whole place could feel it.
+|description = 
 |cost = 0
 |character = Sal
 |rarity = Uncommon
@@ -7,7 +8,9 @@
 |cardtype = Hostility
 |expreq = 10
 |upgrade1 = Mirrored Anger
-|upgrade1summary = 
+|upgrade1summary = Spend 1 [[Dominance]]: Attack with this card twice.
 |upgrade2 = Tall Anger
-|upgrade2summary = 
+|upgrade2summary = Deal 1-5 base damage
+|mindamage = 0
+|maxdamage = 3
 }}

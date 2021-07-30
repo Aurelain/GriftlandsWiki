@@ -1,22 +1,16 @@
-{{Card
+{{CardPage
+|quote = Lumin-laced banderclaws seem to bring out the worst in fighters.
+|description = For the rest of the turn, gain [[Counter]] equal to half of any attack damage you deal. <br/> [[Expend]]
+|cost = 1
+|character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
-|keywords = 
+|keywords = [[Counter]], [[Expend]]
 |upgradeable = Yes
 |expreq = 7
 |upgrade1 = Pale Viciousness
-|upgrade2 = Enduring Viciousness}}
-{{Quote|Lumin-laced banderclaws seem to bring out the worst in fighters.}}
-
-==Upgrades==
-At 7 experience, '''Viciousness''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Pale Viciousness.png|150px]]
-|[[File:Enduring Viciousness.png|150px]]
-|-
-!Costs 0
-!Loses [[Expend]]
-|}
+|upgrade1summary = Costs 0 actions
+|upgrade2 = Enduring Viciousness
+|upgrade2summary = Loses [[Expend]]
+}}

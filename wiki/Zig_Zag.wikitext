@@ -1,22 +1,16 @@
-{{Card
+{{CardPage
+|quote = Hold still!
+|description = [[Improvise]] a card from your draw pile. <br/> Gain 3 [[Defense]] if it’s a maneuver, apply 1 [[Wound]] to a random enemy if it’s an attack.
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
-|keywords = 
+|keywords = [[Defense]], [[Improvise]], [[Wound]]
 |upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Zig Zag
-|upgrade2 = Pale Zig Zag}}
-{{Quote|Hold still!}}
-
-==Upgrades==
-At 9 experience, '''Zig Zag''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Zig Zag.png|150px]]
-|[[File:Pale Zig Zag.png|150px]]
-|-
-!Gain 5 [[Defense]] or 2 [[Wound]] instead
-!Costs 0 actions
-|}
+|upgrade1summary = Gain 5 [[Defense]] or 2 [[Wound]] instead.
+|upgrade2 = Pale Zig Zag
+|upgrade2summary = Costs 0 actions.
+}}

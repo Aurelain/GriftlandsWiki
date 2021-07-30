@@ -1,22 +1,20 @@
-{{Card
+{{Reupload|The upgraded cards should be: "Twisted Wind up.png" and "Boosted Wind up.png". The "up" has no capital letter.}}
+
+{{CardPage
+|quote = If it was so obvious then did you get hit by it?
+|description = Discard this card: Increase the damage of this card by 4 until played and return it to your hand.
+|cost = 1
+|character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Sal
 |keywords = 
 |upgradeable = Yes
 |expreq = 9
-|upgrade1 = Twisted Wind Up
-|upgrade2 = Boosted Wind Up}}
-{{Quote|If it was so obvious then did you get hit by it?}}
-
-==Upgrades==
-At 9 experience, '''Wind Up''' can be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Twisted Wind Up.png|150px]]
-|[[File:Boosted Wind Up.png|150px]]
-|-
-!Increases damage by 2 instead, and until the end of the battle
-!Deals 6 damage at base
-|}
+|upgrade1 = Twisted Wind up
+|upgrade1summary = Increases damage by 2, and until the end of the battle.
+|upgrade2 = Boosted Wind up
+|upgrade2summary = Deals 6 base damage.
+|mindamage = 4
+|maxdamage = 4
+}}

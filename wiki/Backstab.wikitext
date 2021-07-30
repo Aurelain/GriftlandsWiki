@@ -1,16 +1,17 @@
 {{CardPage
 |quote = Nobody ever said it was fair, they just said that it works.
-|description = If this card was '''Improvised''', double its damage until the end of the turn.
+|description = If this card was [[Improvise|Improvised]], double its damage until the end of the turn.
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Improvise]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Backstab
 |upgrade1summary = Deals 5-7 base damage
 |upgrade2 = Enhanced Backstab
 |upgrade2summary = Triple its damage. <br> [[Expend]]
+|mindamage = 3
+|maxdamage = 5
 }}
