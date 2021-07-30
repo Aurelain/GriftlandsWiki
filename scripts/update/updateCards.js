@@ -144,9 +144,9 @@ const generateCardWikitext = (card) => {
         const list = upgrades.split(',');
         for (let i = 0; i < list.length; i++) {
             const upgradeName = list[i];
-            assert(!summaries || summaries[upgradeName], `${name}: Expecting a summary value for "${upgradeName}"!`);
             draft += `|upgrade${i + 1} = ${upgradeName}\n`;
-            draft += `|upgrade${i + 1}summary = ${summaries[upgradeName]}\n`;
+            const summary = (summaries && summaries[upgradeName]) || '';
+            draft += `|upgrade${i + 1}summary = ${summary}\n`;
         }
     }
     if (parent) {

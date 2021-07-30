@@ -291,7 +291,7 @@ const fillUpgrades = (bag) => {
     for (const id in bag) {
         const {upgrades} = bag[id];
         if (upgrades) {
-            bag[id].upgrades = upgrades.sort().join(',');
+            bag[id].upgrades = upgrades.join(',');
         }
     }
 };

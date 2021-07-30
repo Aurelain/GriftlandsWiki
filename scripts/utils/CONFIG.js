@@ -52,7 +52,7 @@ const RAW_GAME = __dirname + '/../../raw/game';
 /**
  * A flag for verbosity.
  */
-const DEBUG = false;
+const DEBUG = true;
 
 /**
  * The location of a file containing the latest pulled or pushed timestamp of the online wiki.
