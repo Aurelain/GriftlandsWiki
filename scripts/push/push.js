@@ -56,7 +56,7 @@ const push = async (focus = '', forced = '') => {
  */
 const writePagesToCloud = async (status, token) => {
     const pending = {...status.localOnly, ...status.different};
-    const withSleep = tally(pending) > 1;
+    const withSleep = false; //tally(pending) > 1;
     for (const filePath in pending) {
         const {title, content, localContent} = pending[filePath];
         if (title.startsWith('File:')) {

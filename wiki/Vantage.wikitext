@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You have the high ground? Oh wow, that guy is toast.
-|description = Draw 2 cards, gain Concentration equal to their combined cost.
+|description = Draw 2 cards, gain [[Concentration]] equal to their combined cost.
 |cost = 1
 |character = Rook
 |rarity = Common
@@ -8,8 +8,8 @@
 |cardtype = Maneuver
 |keywords = [[Concentration]]
 |expreq = 9
-|upgrade1 = Boosted Vantage
+|upgrade1 = Visionary Vantage
 |upgrade1summary = 
-|upgrade2 = Visionary Vantage
+|upgrade2 = Boosted Vantage
 |upgrade2summary = 
 }}

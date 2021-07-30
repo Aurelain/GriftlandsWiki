@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It's about momentum, you can feel the weapons hum when they are cycling properly.
-|description = Deal 1 bonus damage per Overcharge. Gain 3 Overcharge.
+|description = Deal 1 bonus damage per [[Overcharge]]. Gain 3 [[Overcharge]].
 |cost = 1
 |character = Rook
 |rarity = Rare

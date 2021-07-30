@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I picked this one up after Operation Reed Walker. Haven't used it since.
-|description = Apply 1 Burn per Concentration +1.
+|description = Apply 1 [[Burn]] per [[Concentration]] +1.
 |cost = 1
 |character = Rook
 |rarity = Uncommon

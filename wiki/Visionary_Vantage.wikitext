@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You have the high ground? Oh wow, that guy is toast.
-|description = Draw 3 cards, gain Concentration equal to their combined cost.
+|description = Draw 3 cards, gain [[Concentration]] equal to their combined cost.
 |cost = 1
 |character = Rook
 |rarity = Common

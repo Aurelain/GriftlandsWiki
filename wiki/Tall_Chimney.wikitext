@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Okay, be sure you hit them in the right spot, otherwise you aren't going to be too impressed.
-|description = Apply 2 Burn.<br/>Threshold 4: Apply 2 Scorched.
+|description = Apply 2 [[Burn]].<br/>[[Threshold]] 4: Apply 2 [[Scorched]].
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Burn]], [[Scorched]], [[Threshold]]
+|keywords = [[Burn]], [[Threshold]], [[Scorched]]
 |parent = Chimney
 |mindamage = 1
 |maxdamage = 8

@@ -1,12 +1,12 @@
 {{CardPage
 |quote = I told you to hold still!
-|description = Threshold 8: Gain 12 Counter.
+|description = [[Threshold]] 8: Gain 12 [[Counter]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Counter]], [[Threshold]]
+|keywords = [[Threshold]], [[Counter]]
 |parent = Trick Shot
 |mindamage = 1
 |maxdamage = 8

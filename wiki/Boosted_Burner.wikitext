@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It just ends up smelling so bad.
-|description = Apply 2 Burn.
+|description = Apply 2 [[Burn]].
 |cost = 1
 |character = Rook
 |rarity = Common

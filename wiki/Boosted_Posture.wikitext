@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Good to keep that back straight, you've been doing this for long enough.
-|description = Apply 3 Defense. Gain 5 Concentration.
+|description = Apply 3 [[Defense]]. Gain 5 [[Concentration]].
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Concentration]], [[Defend]]
+|keywords = [[Defense]], [[Concentration]]
 |parent = Posture
 }}

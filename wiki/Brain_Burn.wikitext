@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I picked this one up after Operation Reed Walker. Haven't used it since.
-|description = Apply 1 Burn per Concentration.
+|description = Apply 1 [[Burn]] per [[Concentration]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon
@@ -8,9 +8,9 @@
 |cardtype = Attack
 |keywords = [[Burn]], [[Concentration]]
 |expreq = 9
-|upgrade1 = Boosted Brain Burn
+|upgrade1 = Tall Brain Burn
 |upgrade1summary = 
-|upgrade2 = Tall Brain Burn
+|upgrade2 = Boosted Brain Burn
 |upgrade2summary = 
 |mindamage = 1
 |maxdamage = 4
