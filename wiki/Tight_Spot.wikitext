@@ -1,15 +1,15 @@
 {{CardPage
 |quote = Get behind that pillar before it disintegrates!
-|description = Apply 8 Defense.<br/>Burnout
+|description = Apply 8 [[Defense]].<br/>[[Burnout]]
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Burnout]], [[Defend]]
+|keywords = [[Defense]], [[Burnout]]
 |expreq = 9
-|upgrade1 = Stable Tight Spot
+|upgrade1 = Stone Tight Spot
 |upgrade1summary = 
-|upgrade2 = Stone Tight Spot
+|upgrade2 = Stable Tight Spot
 |upgrade2summary = 
 }}

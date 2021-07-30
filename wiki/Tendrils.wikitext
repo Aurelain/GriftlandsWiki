@@ -1,14 +1,12 @@
 {{CardPage
-|quote = I looked on in horror as new appendages sloughed out from my body, far too many and far to easily. It was as if they'd always been.
-|description = While this is in your hand, gain 2 [[Power]]. Take 2 damage whenever you play a card. </br> [[Expend]], [[Parasite]]  </br> [[Hatch]] 4
+|quote = I looked on in horror as new appendages sloughed out from my body, far too many and far too easily. It was as if they'd always been.
+|description = While this is in your hand, gain 2 [[Power]]. Take 2 damage whenever you play a card.<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 4
 |cost = 0
+|character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Parasite
 |keywords = [[Power]], [[Expend]], [[Parasite]], [[Hatch]]
-|character = Rook
-|upgradeable = No
-|expreq = 
 |special1 = Branch
 |special2 = Delirium
 |special3 = Fever

@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Practice makes perfect. Or at least good enough.
-|description = Improvise a card from your discard pile. Duplicate it.<br/>Expend
+|description = [[Improvise]] a card from your discard pile. Duplicate it.<br/>[[Expend]]
 |cost = 2
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Improvise]]
+|keywords = [[Improvise]], [[Expend]]
 |parent = Muscle Memory
 }}

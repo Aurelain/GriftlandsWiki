@@ -1,19 +1,19 @@
 {{CardPage
 |quote = Ahh yes, I'm familiar with this locking mechanism, just stand over there for a second.
-|description = Deal 2-4 base damage. </br> [[Hatch]] 4
+|description = [[Hatch]] 4
 |cost = 1
+|character = Other
 |rarity = Unique
 |decktype = Battle
 |cardtype = Item
-|character = Rook
 |keywords = [[Hatch]]
-|upgradeable = No
-|expreq = 
 |special1 = Open Lockbox
 |special2 = Bog Brew
 |special3 = Lumin Grenade
 |special4 = Shock-Box
 |special5 = Shock Grenade
+|mindamage = 2
+|maxdamage = 4
 }}
 
 ==Notes==

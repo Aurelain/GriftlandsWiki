@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Getting rid of the wrong thing is almost as good as getting the right thing.
-|description = Draw 2 cards, discard 2 cards.<br/>Expend
+|description = Draw 2 cards, discard 2 cards.<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique

@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Which pocket did I put that in, again?
-|description = Draw 2 cards.<br/>Expend
+|description = Draw 2 cards.<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Expend]]
-|expreq = 0
 |upgrade1 = Boosted Scrounge
 |upgrade1summary = 
 |generator = Fight Dirty, Boosted Fight Dirty

@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Now you've gone and made this personal!
-|description = Gain 1 Power.<br/>Expend
+|description = Gain 1 [[Power]].<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Expend]]
-|expreq = 0
+|keywords = [[Power]], [[Expend]]
 |upgrade1 = Pale Enrage
 |upgrade1summary = 
 |generator = Fight Dirty, Boosted Fight Dirty

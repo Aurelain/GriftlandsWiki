@@ -1,15 +1,15 @@
 {{CardPage
 |quote = He’s over here!
-|description = Apply 10 Defense.<br/>Gain 1 Wide Open at the beginning of your next turn.
+|description = Apply 10 [[Defense]].<br/>Gain 1 [[Wide Open]] at the beginning of your next turn.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]], [[Wide Open]]
+|keywords = [[Defense]], [[Wide Open]]
 |expreq = 9
-|upgrade1 = Purified Dugout
+|upgrade1 = Stone Dugout
 |upgrade1summary = 
-|upgrade2 = Stone Dugout
+|upgrade2 = Purified Dugout
 |upgrade2summary = 
 }}

@@ -1,11 +1,11 @@
 {{CardPage
 |quote = The juice can be redirected into your own cybernetics. It’s not really comfortable but you’re probably already used to that.
-|description = Spend all Charge and Heal 3 for every Charge spent.<br/>Expend, Burnout
+|description = Spend all [[Charge]] and [[Heal]] 3 for every [[Charge]] spent.<br/>[[Expend]], [[Burnout]]
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Charge]], [[Heal]]
+|keywords = [[Charge]], [[Heal]], [[Expend]], [[Burnout]]
 |parent = Energy Loop
 }}

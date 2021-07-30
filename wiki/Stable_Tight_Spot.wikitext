@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Get behind that pillar before it disintegrates!
-|description = Apply 8 Defense.
+|description = Apply 8 [[Defense]].
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
+|keywords = [[Defense]]
 |parent = Tight Spot
 }}

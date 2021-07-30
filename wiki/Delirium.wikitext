@@ -1,14 +1,12 @@
 {{CardPage
 |quote = I thought that I had woken up that day, free from the bog and the eyes that followed incessantly.
-|description = Draw 2 cards. Play a random one for free and [[Expend]] any others </br> [[Expend]], [[Parasite]] </br> [[Hatch]] 4
+|description = Draw 2 cards. Play a random one for free and [[Expend]] any others.<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 4
 |cost = 1
+|character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Parasite
-|character = Rook
 |keywords = [[Expend]], [[Parasite]], [[Hatch]]
-|upgradeable = No
-|expreq = 
 |special1 = Beast of the Bog
 |special2 = Bough
 |special3 = Butcher of the Bog

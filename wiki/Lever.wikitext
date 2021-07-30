@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Let them charge up for a second after you hit the switch.
-|description = Apply 5 Defense and gain 2 Overcharge.
+|description = Apply 5 [[Defense]] and gain 2 [[Overcharge]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]], [[Overcharge]]
+|keywords = [[Defense]], [[Overcharge]]
 |expreq = 9
 |upgrade1 = Stone Lever
 |upgrade1summary = 

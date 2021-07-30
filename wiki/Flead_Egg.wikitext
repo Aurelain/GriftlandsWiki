@@ -1,14 +1,12 @@
 {{CardPage
 |quote = You can tell it's a girl by holding it up to the light.
-|description = Draw a card. </br> [[Hatch]] 4
+|description = Draw a card.<br/>[[Hatch]] 4
 |cost = 1
+|character = Other
 |rarity = Unique
 |decktype = Battle
 |cardtype = Item
-|character = Rook
 |keywords = [[Hatch]]
-|upgradeable = No
-|expreq = 
 |special1 = Hatched Egg
 }}
 

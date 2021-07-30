@@ -1,13 +1,12 @@
 {{CardPage
-|quote = Where the Hesh did they go?
-|description = Gain 3 Defense.<br/>Expend
+|quote = You can't fight what you can't find.
+|description = Gain 3 [[Defense]].<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Expend]]
-|expreq = 0
+|keywords = [[Defense]], [[Expend]]
 |upgrade1 = Boosted Hide
 |upgrade1summary = 
 |generator = Fight Dirty, Boosted Fight Dirty

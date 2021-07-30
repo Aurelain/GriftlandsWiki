@@ -1,14 +1,14 @@
 {{CardPage
 |quote = If it bleeds, I can kill it.
-|description = Apply 3 Bleed.<br/>Expend
+|description = Apply 3 [[Bleed]].<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]]
+|keywords = [[Bleed]], [[Expend]]
 |parent = Slash
+|generator = Promoted Fight Dirty
 |mindamage = 1
 |maxdamage = 2
-|generator = Promoted Fight Dirty
 }}

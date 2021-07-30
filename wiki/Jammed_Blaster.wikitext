@@ -1,14 +1,14 @@
 {{CardPage
-|quote = Caked in mud and slime, a few solid whacks should get this thing working again.
-|description = Deal 3-5 damage. [[Hatch]] 4
+|quote = Caked in muck and slime, a few solid whacks should get this thing working again.
+|description = [[Hatch]] 4
 |cost = 1
+|character = Other
 |rarity = Unique
 |decktype = Battle
 |cardtype = Item
-|character = Rook
 |keywords = [[Hatch]]
-|upgradeable = No
-|expreq = 
 |special1 = Bog Blaster
+|mindamage = 3
+|maxdamage = 5
 }}
 {{Quote|Good as new! I haven't seen one of these in a while.}}

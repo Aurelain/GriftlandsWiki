@@ -1,14 +1,12 @@
 {{CardPage
-|quote = ENGAGING OPTICS
-|description = Apply 2 [[Scanned]] to target enemy. </br> [[Hatch]] 4
+|quote = ENGAGING OPTICS.
+|description = Apply 2 [[Scanned]] to target enemy.<br/>[[Hatch]] 4
 |cost = 1
+|character = Other
 |rarity = Unique
 |decktype = Battle
 |cardtype = Item
-|character = Rook
 |keywords = [[Scanned]], [[Hatch]]
-|upgradeable = No
-|expreq = 
 |special1 = Learned Drone
 }}
 {{Quote|SUFFICIENT INFORMATION GATHERED. RELAYING ALL DATA TO THE CLOUD.}}

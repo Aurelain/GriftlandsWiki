@@ -1,12 +1,12 @@
 {{CardPage
 |quote = I always keep a little sand in my pocket for emergencies.
-|description = Apply 2 Impair.<br/>Expend
+|description = Apply 2 [[Impair]].<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]]
+|keywords = [[Impair]], [[Expend]]
 |parent = Throw Dust
 |generator = Promoted Fight Dirty
 }}

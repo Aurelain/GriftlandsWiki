@@ -1,16 +1,15 @@
 {{CardPage
 |quote = Is that mud in your eye? Or my fists?
-|description = Gain 2 Combo.<br/>Expend
+|description = Gain 2 [[Combo]].<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]]
-|expreq = 0
+|keywords = [[Combo]], [[Expend]]
 |upgrade1 = Boosted Mud Tosser
 |upgrade1summary = 
+|generator = Fight Dirty, Boosted Fight Dirty
 |mindamage = 1
 |maxdamage = 2
-|generator = Fight Dirty, Boosted Fight Dirty
 }}
