@@ -215,7 +215,7 @@ const getSomeTextsFromNamespace = async (ns, continuation) => {
             action: 'query',
             format: 'json',
             prop: 'revisions',
-            rvprop: 'content',
+            rvprop: 'content|timestamp',
             rvslots: 'main',
             generator: 'allpages',
             gapnamespace: ns,
@@ -242,8 +242,10 @@ const parseTextPages = (body) => {
         const {title, revisions} = pages[key];
         const content = revisions?.[0].slots?.main?.['*'];
         assert(content, `Invalid revisions for "${JSON.stringify(pages[key])}"`);
+        const timestamp = revisions?.[0].timestamp;
+        assert(timestamp && timestamp.endsWith('Z'), `Invalid timestamp for "${JSON.stringify(pages[key])}"`);
         const filePath = getFilePath(title, content);
-        bag[filePath] = {title, content};
+        bag[filePath] = {title, content, timestamp};
     }
     return bag;
 };
@@ -308,7 +310,7 @@ const getSomeFiles = async (continuation, focus) => {
             action: 'query',
             format: 'json',
             prop: 'imageinfo',
-            iiprop: 'url|sha1',
+            iiprop: 'url|sha1|timestamp',
             generator: 'allpages',
             gapnamespace: FILES_NAMESPACE,
             gaplimit: 'max', // max is accepted here, as opposed to texts
@@ -334,11 +336,12 @@ const parseFilePages = (body) => {
     const bag = {};
     for (const key in pages) {
         const {title, imageinfo} = pages[key];
-        const {url, sha1} = imageinfo?.[0] || {};
+        const {url, sha1, timestamp} = imageinfo?.[0] || {};
         assert(url && sha1, 'Invalid image info!');
+        assert(timestamp && timestamp.endsWith('Z'), `Invalid image timestamp "${JSON.stringify(pages[key])}"`);
         const content = {url, sha1};
         const filePath = getFilePath(title, content);
-        bag[filePath] = {title, content};
+        bag[filePath] = {title, content, timestamp};
     }
     return bag;
 };
