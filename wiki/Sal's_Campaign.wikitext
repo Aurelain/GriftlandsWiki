@@ -38,7 +38,7 @@ Strategy note: You can't eat or drink after visiting the night market, because e
 
 == Day 5 [[Auction Day]] ==
 * Go to the auction.<br>
-* Finish the last Negotiation or fight before the auction to get [[Picking_Sides#Auction_rewards|special rewards]], that might help in the final boss fight.
+* Finish the last 1-2 Negotiation and/or 1 fight before the auction to get [[Picking_Sides#Auction_rewards|special rewards]], that might help in the final boss fight.
 * Either: 
 ** partake at the auction to get some extra items or grafts,<br>
 ** go directly for the boss fight.

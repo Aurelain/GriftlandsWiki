@@ -1,36 +1,26 @@
-{{Card
+{{Reupload}}
+
+{{CardPage
+|quote = Let's think about this here for a second.
+|description = Apply 3 [[Composure]].
+|cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
-|cardtype = Manipulation
+|cardtype = Manipulate
+|keywords = [[Composure]]
 |upgradeable = Yes
 |expreq = 8
-|upgrade1 = Headstrong Rationale
-|upgrade2 = Foot Rationale
-|upgrade3 = Boosted Rationale
-|upgrade4 = Crown Rationale
-|upgrade5 = Visionary Rationale
-|upgrade6 = Sluggish Rationale}}
-{{Quote|Let's think about this here for a second.}}
-'''Rationale''' is a 1-cost Basic '''Manipulation''' card for [[Rook]]. It applies 3 '''Composure'''
-
-==Upgrades==
-Like every basic card, '''Rationale''' has more than two upgrades, from which it randomly picks 2 you can decide from.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Headstrong Rationale.png|150px]]
-|[[File:Foot Rationale.png|150px]]
-|[[File:Boosted Rationale.png|150px]]
-|[[File:Crown Rationale.png|150px]]
-|-
-![[Rig]] 1 [[Heads]]
-![[Gamble]]; [[Snails]]:Apply 2 [[Composure]] to all you arguments
-!Apply more [[Composure]]
-![[Gamble]]; [[Heads]]:Apply more [[Composure]]
-|-
-|[[File:Visionary Rationale.png|150px]]
-|[[File:Sluggish Rationale.png|150px]]
-|-
-!Draw a card
-![[Rig]] 1 [[Snails]]
-|}
+|upgrade1 = Boosted Rationale
+|upgrade1summary = Apply 4 [[Composure]].
+|upgrade2 = Crown Rationale
+|upgrade2summary = [[Gamble]] <br/> [[Heads]]: Apply 5 [[Composure]].
+|upgrade3 = Foot Rationale
+|upgrade3summary = [[Gamble]] <br/> [[Snails]]: Apply 2 [[Composure]] to all friendly arguments.
+|upgrade4 = Headstrong Rationale
+|upgrade4summary = [[Rig]] 1 [[Heads]].
+|upgrade5 = Sluggish Rationale
+|upgrade5summary = [[Rig]] 1 [[Snails]].
+|upgrade6 = Visionary Rationale
+|upgrade6summary = Draw a card.
+}}

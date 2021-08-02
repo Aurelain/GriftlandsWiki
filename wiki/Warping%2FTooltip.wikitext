@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Warping
+  |body=<center>At the start of your turn, this card changes its effect.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

@@ -19,6 +19,15 @@
 *If spoken with at the end of the night, the player can choose to sleep in their room which advances the story.
 *Fshh will '''like''' Sal by default, reducing the cost of her items, food and alcohol compared to other merchants. However, it's currently impossible to reach '''loved''' status with her so other merchants can potentially offer items at a better discount.
 
+==Boon/Bane==
+{{Boon/Bane
+|boon = Cozy
+|boonimage = cozy
+|boondesc = Gain 2 maximum resolve and 2 maximum health.
+|bane = Tainted Supply
+|baneimage = tainted supply
+|banedesc = Drinking adds an additional drunk card.}}
+
 [[Category:Characters]]
 [[Category:Merchants]]
 [[Category:Kra'deshi]]

@@ -209,6 +209,11 @@ Can be a [[Hatch]] card(likely will get fixed).
 |[[Spree]] Captain
 |
 |-
+|'''Cozy'''
+|Gain 2 maximum resolve and 2 maximum health.
+|[[Fssh]]
+|
+|-
 |'''Hard Knocks'''
 |After playing 10 cards, your next attack deals 8 bonus damage.
 |[[Brut]]

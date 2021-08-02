@@ -26,3 +26,29 @@ Finally, you will be asked to declare an item. You will choose one of three opti
 *[[File:Ic nav give.png|17px]] Receive [[Amnesiator]]
 
 [[Category:Rook Story Quests]]
+
+== Faction Quests ==
+
+=== [[Spark Barons]] quests ===
+[[All Play And No Work]]<br>
+[[Crime Scene]]<br>
+[[Food Fight]]<br>
+[[Caught in the Chaos]]<br>
+[[Message Control]]<br>
+[[Culling the Herd]]<br>
+[[Supervised Learning]]<br>
+[[The Best Defense]]<br>
+[[Wild Pack of Baron Dogs]]<br>
+[[Bandit Babysitter]]<br>
+[[Special Delivery]]<br>
+=== [[Rise]] quests ===
+[[Ambush Predator]]<br>
+[[Asset Liberation]]<br>
+[[Bulk Discount]]<br>
+[[Business is Booming]]<br>
+[[Core Collector]]<br>
+[[Let Sleeping Bogs Die]]<br>
+[[Speak Power to Power]]<br>
+[[Mole Fixer]]<br>
+[[Trade Secrets]]<br>
+[[Grist for the Mill]]

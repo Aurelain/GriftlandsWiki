@@ -23,7 +23,7 @@ Rook's battle decks revolve around 4 primary mechanics: '''Charge''', '''Overcha
 Rook's '''Twin Military-Grade EH1076 Discharge Pistols, Modified''' are his weapons of choice. Their modular ammunition chambers are what allows Rook to attack his enemies with a variety of effects. During a limited-time event, the Admiralty Weaponsmith [[Frizz]] can also tweak Rook's pistols, adding or removing charge chambers. For free, Frizz will add/remove one charge chamber, and add/remove one more for 300 [[Shills]].
 
 His starting deck consists of the following cards:
-* 3x [[Hunker down]]
+* 3x [[Hunker Down]]
 * 1x [[Crank]]
 * 3x [[Blast]]
 * 2x [[Kick]]

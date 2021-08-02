@@ -1,0 +1,20 @@
+{{CardPage
+|quote = There's a lot of things going on in there...
+|description = [[Warping]] <br/> [[Expend]], [[Sticky]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Warping]], [[Expend]], [[Sticky]]
+}}
+
+==Notes==
+This card can be obtained in the event: [[A Mysterious Figure Approaches You]].
+
+The possible [[Warping]] effects include:
+*Gain 4 [[Combo]].
+*Deals 3 base damage. Hit all enemy targets.
+*Deals 2 base damage. Apply 3 [[Wound]].
+*[[Heal]] 8 Health.
+*Gain 1 [[Power]].

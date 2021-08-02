@@ -1,0 +1,10 @@
+'''Warping''' is a Battle [[Key Words|key word]] for [[Sal]].
+
+==Effect==
+In game description: "At the start of your turn, this card changes its effect."
+
+== Cards ==
+The cards with [[Warping]]:
+* [[Warp Vial]]
+
+[[Category:Keywords]]
