@@ -10,6 +10,7 @@ const inspect = require('./inspect');
 const getFilePath = require('../utils/getFilePath');
 const checkSafetyTimestamp = require('../utils/checkSafetyTimestamp');
 const writeSafetyTimestamp = require('../utils/writeSafetyTimestamp');
+const writeWikiMetadata = require('./writeWikiMetadata');
 const {ENDPOINT, STORAGE, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -76,7 +77,7 @@ const FILES_NAMESPACE = 6;
 
 const DENIED_PAGES = {
     "Sal's_campaign.wikitext": true, // because "Sal's_Campaign" (with uppercase "C") is proper title-case
-    'Wind_Up.wikitext': true, // because "Wind_up.wikitext" (with lowercase "u") is proper, according the game
+    'Wind_Up.wikitext': true, // because "Wind_up.wikitext" (with lowercase "u") is proper, according to the game
     'File/Twisted_Wind_Up.png.json': true, // same as above
     'File/Boosted_Wind_Up.png.json': true, // same as above
     "File/Thieves'_instinct.png.json": true, // because "Instinct" (with uppercase "I") is proper title-case
@@ -103,6 +104,8 @@ const pull = async (focus = '', ethereal = false, isForced = false) => {
         }
 
         const pages = focus ? await getFocusedPages(focus) : await getAllInterestingPages();
+
+        writeWikiMetadata(timestamp, pages);
 
         const status = inspect(pages, focus);
 

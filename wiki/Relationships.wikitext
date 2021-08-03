@@ -52,6 +52,11 @@ Being '''Hated''' or '''Loved''' provides a Bane or Boon to the player that prov
 |[[Admiralty]] Patrol Leader,
 [[Admiralty]] Guard
 |Brawl mode: Cost 150 to gift (change from Liked to Loved)
+|- id="Informant"
+|style="text-align:center"|[[File:Graft Informant.png|64px]]<br>'''Informant'''
+|At the start of every negotiation, incept 5 '''Planted Evidence''' for your opponent
+|[[Admiralty]] Investigator
+|
 |- id="Doze Bug"
 |style="text-align:center"|[[File:Graft doze bug.png|64px]]<br>'''Doze Bug'''
 |Gain +5 max HP each night after sleeping.
