@@ -1,13 +1,11 @@
 {{CardPage
 |quote = Cybernetics and neuron enhancements give people an extra edge in battle. The rich ones anyways.
-|description = Discard a card. </br> Double the damage on a random card in your hand this turn.
+|description = Discard a card.<br/>Double the damage on a random card in your hand this turn.
 |cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = 
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Visionary Cynotrainer
 |upgrade1summary = Draw a card

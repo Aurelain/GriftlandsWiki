@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Not bad, but try staying a little lower to the ground.
-|description = Gain 2 [[Defense]]. <br/> Discard this card: gain 2 [[Defense]] and 2 [[Counter]]
+|description = Gain 2 [[Defense]]. <br/>Discard this card: Gain 2 [[Defense]] and 2 [[Counter]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defense]], [[Counter]] 
-|upgradeable = Yes
+|keywords = [[Defense]], [[Counter]]
 |expreq = 9
 |upgrade1 = Boosted Stringer
 |upgrade1summary = Gain 4 [[Defense]]. <br/> When discarded, gain 4 [[Defense]] and 4 [[Counter]]

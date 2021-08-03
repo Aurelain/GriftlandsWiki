@@ -1,16 +1,16 @@
 {{CardPage
 |quote = It's great to be outnumbered when there's a good chance you don't know who you'll be hitting.
-|description = Discard a card. </br> Attack a random enemy.
+|description = Discard a card.<br/>Attack a random enemy.
 |cost = 1
 |character = Sal
 |rarity = Common
-|cardtype = Attack
 |decktype = Battle
-|keywords = None
-|upgradeable = Yes
+|cardtype = Attack
 |expreq = 9
 |upgrade1 = Boosted Bedlam
 |upgrade1summary = Deal 12 base damage
 |upgrade2 = Focused Bedlam
 |upgrade2summary = Draw a card
+|mindamage = 8
+|maxdamage = 8
 }}

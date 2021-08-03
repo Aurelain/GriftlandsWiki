@@ -1,16 +1,16 @@
 {{CardPage
 |quote = Some individuals have been shown to exhibit strange abilities, I wouldn't exactly call them lucky or anything.
 |description = If you have discarded a card this turn, this card costs 0.
-|cost = 1
+|cost = 2
 |character = Sal
-|rarity = Rare
+|rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = 
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Feedback
 |upgrade1summary = Deals 5-7 base damage
 |upgrade2 = Pale Feedback
 |upgrade2summary = Costs 1 action less
+|mindamage = 3
+|maxdamage = 5
 }}
