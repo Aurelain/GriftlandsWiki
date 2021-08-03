@@ -3,21 +3,19 @@ const assert = require('assert').strict;
 const got = require('got');
 const FormData = require('form-data');
 const {CookieJar} = require('tough-cookie');
-const inquirer = require('inquirer');
 
 const attemptSelfRun = require('../utils/attemptSelfRun');
+const pull = require('../pull/pull');
+const guard = require('../utils/guard');
 const writeSafetyTimestamp = require('../utils/writeSafetyTimestamp');
 const sleep = require('../utils/sleep');
 const tally = require('../utils/tally');
-const getLocalContent = require('../utils/getLocalContent');
-const computeSha1 = require('../utils/computeSha1');
 const {ENDPOINT, CREDENTIALS, RAW_WEB, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
 // =====================================================================================================================
 const cookieJar = new CookieJar();
-const ENUMERATE_SOME = 20;
 
 // =====================================================================================================================
 //  P U B L I C
@@ -25,15 +23,11 @@ const ENUMERATE_SOME = 20;
 /**
  *
  */
-const push = async (filter = '') => {
-    console.log('filter:', filter);
+const push = async (focus = '', forced = '') => {
     try {
-        const candidatePages = getCandidates(filter);
-        if (!tally(candidatePages)) {
-            console.log('Nothing to push.');
-            return;
-        }
-        if (!(await askPermission(candidatePages))) {
+        const isForced = forced === 'forced';
+        const status = await pull(focus, true, isForced);
+        if (!isForced && !(await guard(status))) {
             return;
         }
 
@@ -44,9 +38,10 @@ const push = async (filter = '') => {
         const botPasswords = ENDPOINT.replace(/[^/]*$/, 'wiki/Special:BotPasswords');
         assert(token?.length > 2, `Could not log in!\nVisit "${botPasswords}".`);
 
-        await writePagesToCloud(candidatePages, token);
+        await writePagesToCloud(status, token);
+        //await deletePagesFromCloud(token, status); // TODO: uncomment this when we have enough guards in place
 
-        console.log('PUSH finished.');
+        console.log('Finished push.');
     } catch (e) {
         console.log('Error:', e.message);
         DEBUG && console.log(e.stack);
@@ -59,93 +54,27 @@ const push = async (filter = '') => {
 /**
  *
  */
-const getCandidates = (filter) => {
-    const candidates = {};
-    const localContent = getLocalContent(filter);
-    const {pageMetadata} = JSON.parse(fs.readFileSync('wikiMetadata.json', 'utf8'));
-    for (const filePath in localContent) {
-        const content = localContent[filePath];
-        if (!pageMetadata[filePath]) {
-            // This is a new file that doesn't exist online.
-            candidates[filePath] = {
-                content,
-            };
-        } else {
-            const currentSha1 = computeSha1(content);
-            const {sha1, timestamp} = pageMetadata[filePath];
-            if (currentSha1 !== sha1) {
-                candidates[filePath] = {
-                    content,
-                    timestamp,
-                };
-            }
-        }
-    }
-    return candidates;
-};
-
-/**
- *
- */
-const walkWiki = (dir, results = {}) => {
-    const list = fs.readdirSync(dir);
-    for (const file of list) {
-        const joinedPath = join(dir, file);
-        const stat = fs.statSync(joinedPath);
-        if (stat && stat.isDirectory()) {
-            walkWiki(joinedPath, results);
-        } else {
-            results.push(joinedPath);
-        }
-    }
-    return results;
-};
-
-/**
- *
- */
-const askPermission = async (changedPages) => {
-    console.log(`You are about to write the following pages to the cloud (${tally(changedPages)}):`);
-    enumerateSome(changedPages);
-    const response = await inquirer.prompt({
-        type: 'confirm',
-        name: 'continue',
-        message: 'Do you want to continue?',
-        default: true,
-    });
-    return response.continue;
-};
-
-/**
- *
- */
-const enumerateSome = (target) => {
-    let i = 0;
-    for (const key in target) {
-        i++;
-        if (i > ENUMERATE_SOME) {
-            break;
-        }
-        console.log('    ' + key);
-    }
-    if (tally(target) > ENUMERATE_SOME) {
-        console.log('    ...');
-    }
-};
-
-/**
- *
- */
-const writePagesToCloud = async (candidatePages, token) => {
-    const withSleep = tally(candidatePages) > 1;
-    for (const filePath in candidatePages) {
-        const {title, content, timestamp} = candidatePages[filePath];
+const writePagesToCloud = async (status, token) => {
+    const pending = {...status.localOnly, ...status.different};
+    const withSleep = false; //tally(pending) > 1;
+    for (const filePath in pending) {
+        const {title, content, localContent} = pending[filePath];
         if (title.startsWith('File:')) {
             await uploadImage(title, filePath, token);
         } else {
-            await writeText(title, content, token);
+            await writeText(title, localContent || content, token);
         }
         withSleep && (await sleep(1000));
+    }
+};
+
+/**
+ *
+ */
+const deletePagesFromCloud = async (token, {cloudOnly}) => {
+    for (const filePath in cloudOnly) {
+        const {title} = cloudOnly[filePath];
+        await deletePage(title, token);
     }
 };
 
@@ -235,6 +164,28 @@ const writeText = async (title, text, token) => {
     assert(body?.edit?.result === 'Success', 'Could not write text!\n' + JSON.stringify(body, null, 4));
     const newtimestamp = body.edit.newtimestamp;
     writeSafetyTimestamp(newtimestamp);
+};
+
+/**
+ *
+ */
+const deletePage = async (title, token) => {
+    console.log(`DELETING page "${title}"...`);
+    const {body} = await got(ENDPOINT, {
+        method: 'post',
+        searchParams: {
+            action: 'delete',
+            format: 'json',
+        },
+        body: formalize({
+            title,
+            reason: 'Wikitext was missing from local storage.',
+            token,
+        }),
+        responseType: 'json',
+        cookieJar,
+    });
+    assert(body, JSON.stringify(body, null, 4));
 };
 
 /**

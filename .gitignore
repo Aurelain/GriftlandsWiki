@@ -2,6 +2,7 @@ node_modules
 .idea
 raw/
 credentials*.json
+wikiMetadata.json
 
 # temporary files start with a tilde
 ~*
