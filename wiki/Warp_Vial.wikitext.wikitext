@@ -1,6 +1,7 @@
+{{Delete|A script mistake produced this file}}
 {{CardPage
 |quote = There's a lot of things going on in there...
-|description = [[Warping]] <br/> [[Expend]], [[Sticky]]
+|description = [[Warping]].<br/>[[Expend]], [[Sticky]]
 |cost = 1
 |character = Other
 |rarity = Unique
