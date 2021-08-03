@@ -6,11 +6,11 @@ const {CookieJar} = require('tough-cookie');
 const inquirer = require('inquirer');
 
 const attemptSelfRun = require('../utils/attemptSelfRun');
-const writeSafetyTimestamp = require('../utils/writeSafetyTimestamp');
 const sleep = require('../utils/sleep');
 const tally = require('../utils/tally');
 const getLocalContent = require('../utils/getLocalContent');
 const computeSha1 = require('../utils/computeSha1');
+const prettyName = require('../utils/prettyName');
 const {ENDPOINT, CREDENTIALS, RAW_WEB, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -26,9 +26,12 @@ const ENUMERATE_SOME = 20;
  *
  */
 const push = async (filter = '') => {
-    console.log('filter:', filter);
     try {
-        const candidatePages = getCandidates(filter);
+        assert(fs.existsSync('wikiMetadata.json'), 'Use `npm run pull` first!');
+        const wikiMetadata = JSON.parse(fs.readFileSync('wikiMetadata.json', 'utf8'));
+
+        const regExpFilter = filter && new RegExp(filter);
+        const candidatePages = getCandidates(new RegExp(regExpFilter), wikiMetadata);
         if (!tally(candidatePages)) {
             console.log('Nothing to push.');
             return;
@@ -44,7 +47,7 @@ const push = async (filter = '') => {
         const botPasswords = ENDPOINT.replace(/[^/]*$/, 'wiki/Special:BotPasswords');
         assert(token?.length > 2, `Could not log in!\nVisit "${botPasswords}".`);
 
-        await writePagesToCloud(candidatePages, token);
+        await writePagesToCloud(candidatePages, token, wikiMetadata);
 
         console.log('PUSH finished.');
     } catch (e) {
@@ -59,10 +62,10 @@ const push = async (filter = '') => {
 /**
  *
  */
-const getCandidates = (filter) => {
+const getCandidates = (regExpFilter, wikiMetadata) => {
     const candidates = {};
-    const localContent = getLocalContent(filter);
-    const {pageMetadata} = JSON.parse(fs.readFileSync('wikiMetadata.json', 'utf8'));
+    const localContent = getLocalContent(regExpFilter);
+    const {pageMetadata} = wikiMetadata;
     for (const filePath in localContent) {
         const content = localContent[filePath];
         if (!pageMetadata[filePath]) {
@@ -82,23 +85,6 @@ const getCandidates = (filter) => {
         }
     }
     return candidates;
-};
-
-/**
- *
- */
-const walkWiki = (dir, results = {}) => {
-    const list = fs.readdirSync(dir);
-    for (const file of list) {
-        const joinedPath = join(dir, file);
-        const stat = fs.statSync(joinedPath);
-        if (stat && stat.isDirectory()) {
-            walkWiki(joinedPath, results);
-        } else {
-            results.push(joinedPath);
-        }
-    }
-    return results;
 };
 
 /**
@@ -136,15 +122,18 @@ const enumerateSome = (target) => {
 /**
  *
  */
-const writePagesToCloud = async (candidatePages, token) => {
+const writePagesToCloud = async (candidatePages, token, wikiMetadata) => {
     const withSleep = tally(candidatePages) > 1;
     for (const filePath in candidatePages) {
-        const {title, content, timestamp} = candidatePages[filePath];
+        const {content, timestamp} = candidatePages[filePath];
+        const title = prettyName(filePath).replace(/\.[^.]*$/, '');
+        let freshMetaEntry;
         if (title.startsWith('File:')) {
-            await uploadImage(title, filePath, token);
+            freshMetaEntry = await uploadImage(title, filePath, token);
         } else {
-            await writeText(title, content, token);
+            freshMetaEntry = await writeText(title, content, token, timestamp);
         }
+        injectIntoMetadata(filePath, freshMetaEntry, wikiMetadata);
         withSleep && (await sleep(1000));
     }
 };
@@ -216,7 +205,7 @@ const getCsrfToken = async ({username, password}) => {
 /**
  *
  */
-const writeText = async (title, text, token) => {
+const writeText = async (title, text, token, previousTimestamp) => {
     console.log(`Writing text page "${title}"...`);
     const {body} = await got(ENDPOINT, {
         method: 'post',
@@ -228,13 +217,17 @@ const writeText = async (title, text, token) => {
             title,
             text,
             token,
+            basetimestamp: previousTimestamp,
         }),
         responseType: 'json',
         cookieJar,
     });
     assert(body?.edit?.result === 'Success', 'Could not write text!\n' + JSON.stringify(body, null, 4));
-    const newtimestamp = body.edit.newtimestamp;
-    writeSafetyTimestamp(newtimestamp);
+    const newTimestamp = body.edit.newtimestamp;
+    return {
+        content: text,
+        timestamp: newTimestamp,
+    };
 };
 
 /**
@@ -261,7 +254,10 @@ const uploadImage = async (title, filePath, token) => {
     });
     assert(body?.upload?.result === 'Success', 'Could not upload file!\n' + JSON.stringify(body, null, 4));
     const newtimestamp = body.upload.imageinfo.timestamp;
-    writeSafetyTimestamp(newtimestamp);
+    console.log('TODO: write the timestamp and the new file content!', newtimestamp);
+    return {
+        // TODO
+    };
 };
 
 /**
@@ -273,6 +269,17 @@ const formalize = (bag) => {
         form.append(key, bag[key]);
     }
     return form;
+};
+
+/**
+ *
+ */
+const injectIntoMetadata = (filePath, entry, wikiMetadata) => {
+    wikiMetadata.pageMetadata[filePath] = {
+        sha1: computeSha1(entry.content),
+        timestamp: entry.timestamp,
+    };
+    fs.writeFileSync('wikiMetadata.json', JSON.stringify(wikiMetadata, null, 4));
 };
 
 // =====================================================================================================================

@@ -4,9 +4,9 @@ const {STORAGE} = require('./CONFIG');
 /**
  *
  */
-const getLocalContent = (filter) => {
+const getLocalContent = (regExpFilter) => {
     const bag = {};
-    const localFiles = walk(STORAGE, '', filter);
+    const localFiles = walk(STORAGE, '', regExpFilter);
     for (const localFile of localFiles) {
         bag[localFile] = fs.readFileSync(STORAGE + '/' + localFile, 'utf8');
     }
@@ -16,15 +16,15 @@ const getLocalContent = (filter) => {
 /**
  *
  */
-const walk = (dir, prefix, filter, results = []) => {
+const walk = (dir, prefix, regExpFilter, results = []) => {
     const list = fs.readdirSync(dir);
     for (const item of list) {
         const joinedPath = dir + '/' + item;
         const stat = fs.statSync(joinedPath);
         if (stat && stat.isDirectory()) {
-            walk(joinedPath, item + '/', filter, results);
+            walk(joinedPath, item + '/', regExpFilter, results);
         } else {
-            if (!filter || joinedPath.match(filter)) {
+            if (!regExpFilter || joinedPath.match(regExpFilter)) {
                 results.push(prefix + item);
             }
         }
