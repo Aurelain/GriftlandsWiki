@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Hurry it up partner, I haven’t got all day.
-|description = Threshold 3: Gain 2 Adrenaline.
+|description = [[Threshold]] 3: Gain 2 [[Adrenaline]].
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
-|cardtype = Maneuver
-|keywords = [[Expend]]
+|cardtype = Attack
+|keywords = [[Threshold]], [[Adrenaline]]
 |parent = Deal
 |mindamage = 2
 |maxdamage = 6

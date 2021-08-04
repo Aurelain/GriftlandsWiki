@@ -1,12 +1,12 @@
 {{CardPage
 |quote = This better work.
-|description = Threshold 4: Gain 3 actions and draw a card.<br/>Restrained
+|description = [[Threshold]] 4: Gain 3 actions and draw a card.<br/>[[Restrained]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Threshold]]
+|keywords = [[Threshold]], [[Restrained]]
 |parent = The Gamble
 |mindamage = 1
 |maxdamage = 4

@@ -1,12 +1,10 @@
 {{CardPage
-|quote = Just a quick sip and I'll be good to go.
-|description = Gain 1 [[Influence]]. </br> [[Expend]] </br> [[Destroy]] after 3 uses.
+|quote = Just a quick sip and I’ll be good to go.
+|description = Gain 1 [[Influence]].<br/>[[Expend]]<br/>[[Destroy]] after 3 uses.
 |cost = 0
+|character = Other
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Item
-|character = Other
 |keywords = [[Influence]], [[Expend]], [[Destroy]]
-|upgradeable = No
-|expreq = 
 }}

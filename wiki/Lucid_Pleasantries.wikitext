@@ -1,11 +1,13 @@
 {{CardPage
 |quote = Oh, I’ve been well thank you.
-|description = : Deal max damage.<br/>Destroy
+|description = [[Heads]]: Deal max damage.<br/>[[Destroy]]
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Destroy]]
+|keywords = [[Heads]], [[Destroy]]
 |parent = Pleasantries
+|mindamage = 5
+|maxdamage = 7
 }}

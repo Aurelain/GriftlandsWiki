@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I can’t help but think something fishy is going on here.
-|description = Improvise+ a card from a pool of special cards.
+|description = [[Improvise+]] a card from a pool of special cards.
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Improvise]]
+|keywords = [[Improvise+]]
 |parent = Trickery
 }}

@@ -1,14 +1,14 @@
 {{Reupload}}
 
 {{CardPage
-|quote = So that's where that was.
-|description = Gain 2 [[Influence]]. </br> [[Destroy]] after 2 uses.
+|quote = So that’s where that was.
+|description = Gain 2 [[Influence]].<br/>[[Destroy]] after 2 uses.
 |cost = 0
+|character = Other
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Item
-|character = Other
 |keywords = [[Influence]], [[Destroy]]
-|upgradeable = No
-|expreq = 
+|upgrade1 = Important Admiralty Intel
+|upgrade1summary = 
 }}

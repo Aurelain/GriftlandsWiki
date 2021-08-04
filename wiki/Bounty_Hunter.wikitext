@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Have you seen this ridiculous idiot?
-|description = [[Incept]] 1 '''Wanted!'''
+|description = [[Incept]] 1 [[Wanted!]]
 |cost = 1
-|character = Sal
+|character = Other
 |rarity = Unique
-|cardtype = Diplomacy
 |decktype = Negotiation
+|cardtype = Manipulate
 |keywords = [[Incept]], [[Wanted!]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Pale Bounty Hunter
 |upgrade1summary = Cost 1 action less

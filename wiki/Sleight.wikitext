@@ -1,13 +1,12 @@
 {{CardPage
 |quote = We triple the winning bid but only if we match the opening ante twice.
-|description = Draw a card, discard a card.<br/>Expend
+|description = Draw a card, discard a card.<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Manipulate
 |keywords = [[Expend]]
-|expreq = 0
 |upgrade1 = Boosted Sleight
 |upgrade1summary = 
 }}

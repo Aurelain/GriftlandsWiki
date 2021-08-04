@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Let’s think about this here for a second.
-|description = Apply 3 Composure.<br/>Rig 1 .
+|description = Apply 3 [[Composure]].<br/>[[Rig]] 1 [[Heads]].
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Composure]], [[Rig]]
+|keywords = [[Composure]], [[Rig]], [[Heads]]
 |parent = Rationale
 }}

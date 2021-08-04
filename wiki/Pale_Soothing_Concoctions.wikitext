@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Let me show you how to drink.
-|description = Ability: Whenever you Drink, Heal 1 health.<br/>Expend
+|description = [[Ability]]: Whenever you [[Drink]], [[Heal]] 1 health.<br/>[[Expend]]
 |cost = 2
 |character = Smith
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Drink]], [[Expend]], [[Heal]]
+|keywords = [[Ability]], [[Drink]], [[Heal]], [[Expend]]
 |parent = Soothing Concoctions
 }}

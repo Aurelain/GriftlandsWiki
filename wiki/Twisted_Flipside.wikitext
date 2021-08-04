@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Wait. I thought it was the other side.
-|description = Set the coin.<br/>Expend
+|description = [[Set the coin]].<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Expend]]
+|keywords = [[Set the coin]], [[Expend]]
 |parent = Flipside
 }}

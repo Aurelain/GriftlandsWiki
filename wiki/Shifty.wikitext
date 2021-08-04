@@ -1,13 +1,12 @@
 {{CardPage
 |quote = I don’t trust him but he’s the only game in town.
-|description = Prepare a card.<br/>Expend
+|description = [[Prepare]] a card.<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Expend]], [[Prepare]]
-|expreq = 0
+|keywords = [[Prepare]], [[Expend]]
 |upgrade1 = Visionary Shifty
 |upgrade1summary = 
 }}

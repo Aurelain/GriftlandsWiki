@@ -1,11 +1,13 @@
 {{CardPage
 |quote = I don’t want to talk to him when he’s like this.
-|description = Gain 1 Dominance.<br/>: Gain 1 bonus damage.
+|description = Gain 1 [[Dominance]].<br/>[[Snails]]: Gain 1 bonus damage.
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Dominance]]
+|keywords = [[Dominance]], [[Snails]]
 |parent = Grumble
+|mindamage = 1
+|maxdamage = 3
 }}

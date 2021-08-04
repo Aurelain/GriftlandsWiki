@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Let’s think about this here for a second.
-|description = Apply 4 Composure.
+|description = Apply 4 [[Composure]].
 |cost = 1
 |character = Rook
 |rarity = Basic

@@ -1,11 +1,13 @@
 {{CardPage
 |quote = I don’t want to talk to him when he’s like this.
-|description = : Gain 1 bonus damage.<br/>Destroy
+|description = [[Snails]]: Gain 1 bonus damage.<br/>[[Destroy]]
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Destroy]]
+|keywords = [[Snails]], [[Destroy]]
 |parent = Grumble
+|mindamage = 6
+|maxdamage = 6
 }}

@@ -1,7 +1,7 @@
 {{Reupload}}
 
 {{CardPage
-|quote = Let's think about this here for a second.
+|quote = Let’s think about this here for a second.
 |description = Apply 3 [[Composure]].
 |cost = 1
 |character = Rook
@@ -9,18 +9,17 @@
 |decktype = Negotiation
 |cardtype = Manipulate
 |keywords = [[Composure]]
-|upgradeable = Yes
 |expreq = 8
 |upgrade1 = Boosted Rationale
 |upgrade1summary = Apply 4 [[Composure]].
-|upgrade2 = Crown Rationale
-|upgrade2summary = [[Gamble]] <br/> [[Heads]]: Apply 5 [[Composure]].
-|upgrade3 = Foot Rationale
-|upgrade3summary = [[Gamble]] <br/> [[Snails]]: Apply 2 [[Composure]] to all friendly arguments.
-|upgrade4 = Headstrong Rationale
-|upgrade4summary = [[Rig]] 1 [[Heads]].
-|upgrade5 = Sluggish Rationale
-|upgrade5summary = [[Rig]] 1 [[Snails]].
-|upgrade6 = Visionary Rationale
-|upgrade6summary = Draw a card.
+|upgrade2 = Visionary Rationale
+|upgrade2summary = Draw a card.
+|upgrade3 = Crown Rationale
+|upgrade3summary = [[Gamble]] <br/> [[Heads]]: Apply 5 [[Composure]].
+|upgrade4 = Sluggish Rationale
+|upgrade4summary = [[Rig]] 1 [[Snails]].
+|upgrade5 = Headstrong Rationale
+|upgrade5summary = [[Rig]] 1 [[Heads]].
+|upgrade6 = Foot Rationale
+|upgrade6summary = [[Gamble]] <br/> [[Snails]]: Apply 2 [[Composure]] to all friendly arguments.
 }}

@@ -1,11 +1,13 @@
 {{CardPage
 |quote = I don’t want to talk to him when he’s like this.
-|description = Set the coin.<br/>: Gain 1 bonus damage.<br/>Expend
+|description = [[Set the coin]].<br/>[[Snails]]: Gain 1 bonus damage.<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Expend]]
+|keywords = [[Set the coin]], [[Snails]], [[Expend]]
 |parent = Grumble
+|mindamage = 1
+|maxdamage = 3
 }}

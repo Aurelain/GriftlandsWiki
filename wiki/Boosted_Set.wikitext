@@ -1,11 +1,11 @@
 {{CardPage
 |quote = All on this one cast here.
-|description = Choose:<br/>Rig 2  or Rig 2 .<br/>Expend
+|description = Choose:<br/>[[Rig]] 2 [[Heads]] or [[Rig]] 2 [[Snails]].<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Expend]], [[Rig]]
+|keywords = [[Rig]], [[Heads]], [[Snails]], [[Expend]]
 |parent = Set
 }}

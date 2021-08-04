@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I’ve got this one in the bag.
-|description = Ability: Whenever you gain Defense, gain 2 Adrenaline.<br/>Expend, Ambush
+|description = [[Ability]]: Whenever you gain [[Defense]], gain 2 [[Adrenaline]].<br/>[[Expend]], [[Ambush]]
 |cost = 2
 |character = Smith
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ambush]], [[Expend]]
+|keywords = [[Ability]], [[Defense]], [[Adrenaline]], [[Expend]], [[Ambush]]
 |parent = Certainty
 }}

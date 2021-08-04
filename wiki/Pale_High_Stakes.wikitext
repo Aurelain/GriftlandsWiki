@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Looks like you’re at the wrong table, friend.
-|description = Ability: Whenever you trigger a card's Threshold, gain 2 Defense.<br/>Expend
+|description = [[Ability]]: Whenever you trigger a card's [[Threshold]], gain 2 [[Defense]].<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Defend]], [[Expend]], [[Threshold]]
+|keywords = [[Ability]], [[Threshold]], [[Defense]], [[Expend]]
 |parent = High Stakes
 }}

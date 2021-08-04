@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Let’s think about this here for a second.
-|description = Gamble.<br/>: Apply 2 Composure to all friendly arguments.
+|description = [[Gamble]].<br/>[[Snails]]: Apply 2 [[Composure]] to all friendly arguments.
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Composure]], [[Gamble]]
+|keywords = [[Gamble]], [[Snails]], [[Composure]]
 |parent = Rationale
 }}

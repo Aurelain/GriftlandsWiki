@@ -1,11 +1,11 @@
 {{CardPage
-|quote = Why yes, I’ll gladly show you what’s inside the briefcase.
-|description = Draw 2 cards, discard up to 2 cards, gain 3 Defense per card discarded.
+|quote = That loser shows up with three briefcases and I have NO idea what he’s going to do next.
+|description = Draw 2 cards, discard up to 2 cards, gain 3 [[Defense]] per card discarded.
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |parent = Rubble
 }}

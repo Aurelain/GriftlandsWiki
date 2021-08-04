@@ -1,15 +1,15 @@
 {{CardPage
 |quote = Wow I look better than ever! I can’t even see the scars!
-|description = Ability: At the end of your turn, gain 3 Defense.<br/>Expend
+|description = [[Ability]]: At the end of your turn, gain 3 [[Defense]].<br/>[[Expend]]
 |cost = 2
 |character = Smith
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Defend]], [[Expend]]
+|keywords = [[Ability]], [[Defense]], [[Expend]]
 |expreq = 5
-|upgrade1 = Initial Protective Procedure
+|upgrade1 = Pale Protective Procedure
 |upgrade1summary = 
-|upgrade2 = Pale Protective Procedure
+|upgrade2 = Initial Protective Procedure
 |upgrade2summary = 
 }}

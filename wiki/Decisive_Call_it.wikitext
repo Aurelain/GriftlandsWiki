@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Heads or snails?
-|description = Set the coin.<br/>Sticky
+|description = [[Set the coin]].<br/>[[Sticky]]
 |cost = 0
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Manipulate
+|keywords = [[Set the coin]], [[Sticky]]
 |parent = Call it
 }}

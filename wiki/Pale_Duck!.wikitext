@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Where?
-|description = Gain 1 Evasion.<br/>Expend, Burnout
+|description = Gain 1 [[Evasion]].<br/>[[Expend]], [[Burnout]]
 |cost = 0
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Burnout]], [[Evasion]], [[Expend]]
+|keywords = [[Evasion]], [[Expend]], [[Burnout]]
 |parent = Duck!
 }}

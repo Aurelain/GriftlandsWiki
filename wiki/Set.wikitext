@@ -1,13 +1,12 @@
 {{CardPage
 |quote = All on this one cast here.
-|description = Choose:<br/>Rig 1  or Rig 1 .<br/>Expend
+|description = Choose:<br/>[[Rig]] 1 [[Heads]] or [[Rig]] 1 [[Snails]].<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Expend]], [[Rig]]
-|expreq = 0
+|keywords = [[Rig]], [[Heads]], [[Snails]], [[Expend]]
 |upgrade1 = Boosted Set
 |upgrade1summary = 
 }}

@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Kra’deshi biology can be very surprising when combined with drastic and illegal experimentation.
-|description = For the rest of your turn, gain Stored Defense equal to the damage dealt to yourself.
+|description = For the rest of your turn, gain [[Stored Defense]] equal to the damage dealt to yourself.
 |cost = 0
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
+|keywords = [[Stored Defense]]
 |parent = Callus
 }}

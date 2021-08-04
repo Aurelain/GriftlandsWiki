@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Look, I’m not going in there. The guy looked crazy.
-|description = Apply 2 Defense. Increase by 2 for each Power and Adrenaline.
+|description = Apply 2 [[Defense]]. Increase by 2 for each [[Power]] and [[Adrenaline]].
 |cost = 1
 |character = Smith
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Adrenaline]], [[Defend]], [[Power]]
+|keywords = [[Defense]], [[Power]], [[Adrenaline]]
 |parent = Tough and Angry
 }}

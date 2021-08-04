@@ -1,11 +1,13 @@
 {{CardPage
 |quote = Oh, I’ve been well thank you.
-|description = Gain 1 Influence.<br/>: Deal max damage.
+|description = Gain 1 [[Influence]].<br/>[[Heads]]: Deal max damage.
 |cost = 1
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Influence]]
+|keywords = [[Influence]], [[Heads]]
 |parent = Pleasantries
+|mindamage = 1
+|maxdamage = 3
 }}

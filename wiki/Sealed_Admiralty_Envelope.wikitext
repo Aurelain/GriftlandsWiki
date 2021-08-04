@@ -1,10 +1,8 @@
-{{Stub}}
-
 {{CardPage
-|quote = ???
-|description = Gain 2 [[Influence]]. <br/> [[Hatch]] 6.
+|quote = A series of seals are in place to keep things confidential, but who cares?
+|description = Gain 2 [[Influence]].<br/>[[Hatch]] 4
 |cost = 1
-|character = Sal
+|character = Other
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Item

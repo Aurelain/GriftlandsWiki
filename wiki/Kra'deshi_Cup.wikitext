@@ -9,6 +9,8 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Drink]], [[Chain]]
+|mindamage = 4
+|maxdamage = 4
 }}
 ==Chain==
 '''{{PAGENAME}}''' is the start of a [[Chain]]:

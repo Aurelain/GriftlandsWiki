@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I’ll raise you this Heshing table!
-|description = Threshold 5: Reduce the cost of two random cards in your hand by 1 until played.
+|description = [[Threshold]] 5: Reduce the cost of two random cards in your hand by 1 until played.
 |cost = 1
 |character = Smith
 |rarity = Uncommon

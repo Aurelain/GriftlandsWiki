@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I’ve got your number now pal.
-|description = Apply 4 Tracer.
+|description = Apply 4 [[Tracer]].
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Tracer]], [[Tracer]]
+|keywords = [[Tracer]]
 |parent = Tracer
 }}

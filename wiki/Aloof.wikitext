@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I’m not too worried about it.
-|description = Apply 3 Composure.<br/>Expend
+|description = Apply 3 [[Composure]].<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Unique

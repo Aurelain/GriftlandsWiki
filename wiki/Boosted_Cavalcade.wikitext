@@ -1,11 +1,11 @@
 {{CardPage
 |quote = You just hit them so hard that they all leave you alone, it’s science.
-|description = Gain 6 Defense. Gain Defense equal to the damage dealt by your next attack.
+|description = Gain 6 [[Defense]]. Gain [[Defense]] equal to the damage dealt by your next attack.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |parent = Cavalcade
 }}

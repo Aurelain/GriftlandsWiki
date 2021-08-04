@@ -9,7 +9,6 @@
 |decktype = Negotiation
 |cardtype = Manipulate
 |keywords = [[Set the coin]]
-|upgradeable = Yes
 |expreq = 6
 |upgrade1 = Pale Ante
 |upgrade1summary = Costs 0 actions

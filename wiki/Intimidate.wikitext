@@ -1,14 +1,11 @@
 {{CardPage
-|quote = Oh this isn't me angry, you'll know when I get angry.
-|description = At the end of your turn, [[Incept]] 2 [[Intimidated]] <br/> [[Unplayable]]
-|cost = 
+|quote = Oh this isn’t me angry, you’ll know when I get angry.
+|description = At the end of your turn, [[Incept]] 2 [[Intimidated]].<br/>[[Unplayable]]
 |character = Other
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Hostility
 |keywords = [[Incept]], [[Intimidated]], [[Unplayable]]
-|upgradeable = No
-|expreq = 
 }}
 
 ==Notes==
