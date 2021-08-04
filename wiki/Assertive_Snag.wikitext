@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Not your lucky day.
-|description = Draw a card, discard a card.<br/>Sticky
+|description = Draw a card, discard a card.<br/>[[Sticky]]
 |cost = 0
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Sticky]]
 |parent = Snag
 }}

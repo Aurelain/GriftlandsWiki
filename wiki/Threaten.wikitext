@@ -1,24 +1,21 @@
 {{CardPage
 |quote = I don't want to have to hurt you, but I will if I have to.
-|description = 
 |cost = 1
 |character = Sal
 |rarity = Basic
-|cardtype = Hostility
 |decktype = Negotiation
-|keywords = 
-|upgradeable = Yes
+|cardtype = Hostility
 |expreq = 6
-|upgrade1 = Boosted Threaten
-|upgrade1summary = Deal 3-4 base damage
-|upgrade2 = Visionary Threaten
-|upgrade2summary = Draw a card.
-|upgrade3 = Lucid Threaten
-|upgrade3summary = Gain 1 [[Dominance]].
-|upgrade4 = Mirrored Threaten
-|upgrade4summary = Deal 1-2 base damage <br/> Attack with this card twice.
-|upgrade5 = Threaten of Clarity
-|upgrade5summary = Deal 8 base damage <br/> [[Destroy]]
+|upgrade1 = Threaten of Clarity
+|upgrade1summary = Deal 8 base damage <br/> [[Destroy]]
+|upgrade2 = Mirrored Threaten
+|upgrade2summary = Deal 1-2 base damage <br/> Attack with this card twice.
+|upgrade3 = Visionary Threaten
+|upgrade3summary = Draw a card.
+|upgrade4 = Boosted Threaten
+|upgrade4summary = Deal 3-4 base damage
+|upgrade5 = Lucid Threaten
+|upgrade5summary = Gain 1 [[Dominance]].
 |mindamage = 1
 |maxdamage = 4
 }}

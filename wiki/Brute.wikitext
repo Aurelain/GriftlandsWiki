@@ -1,6 +1,6 @@
 {{CardPage
 |quote = The job over on the docks? That was this guy?
-|description = Hits all opponent arguments. Lose all Dominance.
+|description = Hits all opponent arguments. Lose all [[Dominance]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon
@@ -12,4 +12,6 @@
 |upgrade1summary = 
 |upgrade2 = Maintained Brute
 |upgrade2summary = 
+|mindamage = 2
+|maxdamage = 3
 }}

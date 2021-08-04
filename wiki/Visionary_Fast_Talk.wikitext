@@ -7,4 +7,6 @@
 |decktype = Negotiation
 |cardtype = Diplomacy
 |parent = Fast Talk
+|mindamage = 1
+|maxdamage = 3
 }}

@@ -1,14 +1,12 @@
 {{CardPage
 |quote = The pressure inside my head had left in a beautiful rush, my mind had finally unfurled.
-|description = Play the top three cards from your draw pile for free. Lose resolve equal to twice their combined cost. </br> [[Expend]], [[Parasite]] </br> [[Hatch]] 5
+|description = Play the top three cards of your draw pile for free. Lose resolve equal to twice their combined cost.<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 5
 |cost = 1
+|character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Parasite
 |keywords = [[Expend]], [[Parasite]], [[Hatch]]
-|character = Rook
-|upgradeable = No
-|expreq = 
 |special1 = Bog Enlightenment
 }}
 

@@ -1,5 +1,5 @@
 {{CardPage
-|quote = I'm not one to gossip, but I did see him yesterday with a suspiciously noisy bag.
+|quote = I’m not one to gossip, but I did see him yesterday with a suspiciously noisy bag.
 |description = [[Gamble]] twice.<br/>[[Evoke]]: [[Prepare]] a card.<br/>[[Unplayable]], [[Expend]]
 |character = Rook
 |rarity = Uncommon

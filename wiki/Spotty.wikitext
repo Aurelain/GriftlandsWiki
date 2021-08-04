@@ -1,14 +1,12 @@
 {{CardPage
 |quote = You start again when the flips are that pattern, everyone knows that.
-|description = When this card is drawn, gain 1 action and [[Expend]]. </br> [[Unplayable]]
-|cost = 
+|description = When this card is drawn, gain 1 action and [[Expend]].<br/>[[Unplayable]]
+|character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
 |keywords = [[Expend]], [[Unplayable]]
-|character = Rook
-|upgradeable = Yes
-|expreq = 10
+|expreq = 8
 |upgrade1 = Boosted Spotty
 |upgrade1summary = Gain 2 actions
 |upgrade2 = Visionary Spotty

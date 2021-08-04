@@ -1,11 +1,13 @@
 {{CardPage
 |quote = I think he just talks fast to make it look like he knows what he’s doing.
-|description = : Gain 2 Influence.
+|description = [[Heads]]: Gain 2 [[Influence]].
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Influence]]
+|keywords = [[Heads]], [[Influence]]
 |parent = Jabber
+|mindamage = 3
+|maxdamage = 4
 }}

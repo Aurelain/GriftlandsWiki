@@ -1,11 +1,11 @@
 {{CardPage
 |quote = See the markings on the shell? This one's a fighter, that’s for sure.
-|description = Rig 3 . Draw 2 cards.
+|description = [[Rig]] 3 [[Snails]]. Draw 2 cards.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Rig]]
+|keywords = [[Rig]], [[Snails]]
 |parent = Radula
 }}

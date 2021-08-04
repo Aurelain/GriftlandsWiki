@@ -1,15 +1,15 @@
 {{CardPage
 |quote = He just walked in here like he owned the place. Put everyone on edge.
-|description = Gamble.<br/>: Remove Composure.<br/>: Steal Composure.
+|description = [[Gamble]].<br/>[[Heads]]: Remove [[Composure]].<br/>[[Snails]]: Steal [[Composure]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Composure]], [[Gamble]]
+|keywords = [[Gamble]], [[Heads]], [[Composure]], [[Snails]]
 |expreq = 9
-|upgrade1 = Boosted Roughneck
+|upgrade1 = Twisted Roughneck
 |upgrade1summary = 
-|upgrade2 = Twisted Roughneck
+|upgrade2 = Boosted Roughneck
 |upgrade2summary = 
 }}

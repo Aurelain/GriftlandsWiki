@@ -1,22 +1,21 @@
 {{CardPage
 |quote = You're just looking at it wrong. Here, let me step you through it...
-|description = 
 |cost = 1
 |character = Sal
 |rarity = Basic
-|cardtype = Diplomacy
 |decktype = Negotiation
-|keywords = 
-|upgradeable = Yes
+|cardtype = Diplomacy
 |expreq = 6
 |upgrade1 = Clarity Fast Talk
 |upgrade1summary = Deal 6 base damage. </br> [[Destroy]]
-|upgrade2 = Inspirational Talk
-|upgrade2summary = Gain 1 [[Influence]]
-|upgrade3 = Pale Fast Talk
-|upgrade3summary = Deal 2-3 base damage. </br> Spend 1 [[Influence]]: This card costs 0 to play
-|upgrade4 = Stone Fast Talk
-|upgrade4summary = Gain 3 [[Composure]]
-|upgrade5 = Visionary Fast Talk
-|upgrade5summary = Draw a card
+|upgrade2 = Pale Fast Talk
+|upgrade2summary = Deal 2-3 base damage. </br> Spend 1 [[Influence]]: This card costs 0 to play
+|upgrade3 = Visionary Fast Talk
+|upgrade3summary = Draw a card
+|upgrade4 = Inspirational Talk
+|upgrade4summary = Gain 1 [[Influence]]
+|upgrade5 = Stone Fast Talk
+|upgrade5summary = Gain 3 [[Composure]]
+|mindamage = 1
+|maxdamage = 3
 }}

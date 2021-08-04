@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I don't want to have to hurt you, but I will if I have to.
-|description = Destroy
+|description = [[Destroy]]
 |cost = 1
 |character = Sal
 |rarity = Basic
@@ -8,4 +8,6 @@
 |cardtype = Hostility
 |keywords = [[Destroy]]
 |parent = Threaten
+|mindamage = 8
+|maxdamage = 8
 }}

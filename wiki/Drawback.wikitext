@@ -7,8 +7,8 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |expreq = 10
-|upgrade1 = Pale Drawback
+|upgrade1 = Visionary Drawback
 |upgrade1summary = 
-|upgrade2 = Visionary Drawback
+|upgrade2 = Pale Drawback
 |upgrade2summary = 
 }}

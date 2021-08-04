@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Alright, you asked for it.
-|description = Gain 2 Momentum.<br/>Expend
+|description = Gain 2 [[Momentum]].<br/>[[Expend]]
 |cost = 2
 |character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Momentum]], [[Expend]]
 |parent = Square Up
 }}

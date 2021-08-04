@@ -1,11 +1,11 @@
 {{CardPage
 |quote = When I finally get my hands on him he’s in a whole heap of trouble.
-|description = Create 2 Heated.<br/>Discard this card: Add a copy of this card to your draw pile.<br/>Expend
+|description = Create 2 [[Heated]].<br/>Discard this card: Add a copy of this card to your draw pile.<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Heated]]
+|keywords = [[Heated]], [[Expend]]
 |parent = Seethe
 }}

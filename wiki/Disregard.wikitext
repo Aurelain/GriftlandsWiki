@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I’ve stopped listening.
-|description = Discard your hand. Draw 5 cards.<br/>Expend
+|description = Discard your hand. Draw 5 cards.<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Uncommon

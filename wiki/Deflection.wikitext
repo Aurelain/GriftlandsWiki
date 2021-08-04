@@ -2,22 +2,22 @@
 
 {{CardPage
 |quote = I'm not even going to address that.
-|description = Apply 3 [[Composure]]
+|description = Apply 3 [[Composure]].
 |cost = 1
 |character = Sal
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Manipulate
-|upgradeable = Yes
+|keywords = [[Composure]]
 |expreq = 6
 |upgrade1 = Boosted Deflection
 |upgrade1summary = Apply 4 [[Composure]]
-|upgrade2 = Deflection of Clarity
-|upgrade2summary = Restore 5 resolve and apply 5 [[Composure]]. </br> [[Destroy]]
-|upgrade3 = Lucid Deflection
-|upgrade3summary = Apply 6 [[Composure]]. </br> [[Expend]]
-|upgrade4 = Visionary Deflection
-|upgrade4summary = Draw a card
-|upgrade5 = Wide Deflection
-|upgrade5summary = Apply 4 [[Composure]] to all your arguments. </br> [[Expend]]
+|upgrade2 = Visionary Deflection
+|upgrade2summary = Draw a card
+|upgrade3 = Wide Deflection
+|upgrade3summary = Apply 4 [[Composure]] to all your arguments. </br> [[Expend]]
+|upgrade4 = Deflection of Clarity
+|upgrade4summary = Restore 5 resolve and apply 5 [[Composure]]. </br> [[Destroy]]
+|upgrade5 = Lucid Deflection
+|upgrade5summary = Apply 6 [[Composure]]. </br> [[Expend]]
 }}

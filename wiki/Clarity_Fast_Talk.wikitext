@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You're just looking at it wrong. Here, let me step you through it...
-|description = Destroy
+|description = [[Destroy]]
 |cost = 1
 |character = Sal
 |rarity = Basic
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Destroy]]
 |parent = Fast Talk
+|mindamage = 6
+|maxdamage = 6
 }}

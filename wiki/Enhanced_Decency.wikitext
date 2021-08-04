@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I'm sure that we can work this out like adults.
-|description = Gain 2 Influence. Draw 1 card.
+|description = Gain 2 [[Influence]]. Draw 1 card.
 |cost = 1
 |character = Rook
 |rarity = Common

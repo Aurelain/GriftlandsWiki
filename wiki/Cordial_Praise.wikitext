@@ -1,11 +1,13 @@
 {{CardPage
 |quote = A for effort.
-|description = Prepared: Gain 3 Influence.
+|description = [[Prepared]]: Gain 3 [[Influence]].
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Influence]], [[Prepare]], [[Prepared]]
+|keywords = [[Prepared]], [[Influence]]
 |parent = Praise
+|mindamage = 1
+|maxdamage = 6
 }}

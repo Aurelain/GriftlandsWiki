@@ -1,6 +1,6 @@
 {{CardPage
 |quote = And another thing!
-|description = Draw a card, then discard a card. Gain 1 Dominance.
+|description = Draw a card, then discard a card. Gain 1 [[Dominance]].
 |cost = 1
 |character = Rook
 |rarity = Common

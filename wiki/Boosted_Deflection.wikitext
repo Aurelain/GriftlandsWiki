@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I'm not even going to address that.
-|description = Apply 4 Composure.
+|description = Apply 4 [[Composure]].
 |cost = 1
 |character = Sal
 |rarity = Basic

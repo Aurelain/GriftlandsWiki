@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I don't want to have to hurt you, but I will if I have to.
-|description = Gain 1 Dominance.
+|description = Gain 1 [[Dominance]].
 |cost = 1
 |character = Sal
 |rarity = Basic
@@ -8,4 +8,6 @@
 |cardtype = Hostility
 |keywords = [[Dominance]]
 |parent = Threaten
+|mindamage = 1
+|maxdamage = 4
 }}

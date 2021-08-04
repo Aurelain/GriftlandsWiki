@@ -11,4 +11,6 @@
 |upgrade1summary = 
 |upgrade2 = Visionary Foul Mouth
 |upgrade2summary = 
+|mindamage = 2
+|maxdamage = 4
 }}

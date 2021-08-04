@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You're just looking at it wrong. Here, let me step you through it...
-|description = Gain 1 Influence.
+|description = Gain 1 [[Influence]].
 |cost = 1
 |character = Sal
 |rarity = Basic
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Influence]]
 |parent = Fast Talk
+|mindamage = 1
+|maxdamage = 3
 }}

@@ -1,13 +1,11 @@
 {{CardPage
 |quote = Watch the birdie.
-|description = When this card is drawn, [[Gamble]]. [[Unplayable]]
-|cost = 
+|description = When this card is drawn, [[Gamble]].<br/>[[Unplayable]]
+|character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
-|character = Rook
 |keywords = [[Gamble]], [[Unplayable]]
-|upgradeable = Yes
 |expreq = 11
 |upgrade1 = Boosted Raw
 |upgrade1summary = Draw a card

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Wow, those were some harsh words. Are you going to be alright?
-|description = Spend all Dominance. Gamble and deal 2 damage to a random opponent argument for every Dominance spent.
+|description = Spend all [[Dominance]]. [[Gamble]] and deal 2 damage to a random opponent argument for every [[Dominance]] spent.
 |cost = 1
 |character = Rook
 |rarity = Uncommon

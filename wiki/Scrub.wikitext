@@ -1,14 +1,12 @@
 {{CardPage
-|quote = A dark twisting in the guts with no relief in sight. 
-|description = [[Destroy]] all Status cards in your deck, lose 1 resolve per card [[Destroy|Destroyed]]. </br> [[Expend]], [[Parasite]] </br> [[Hatch]] 5
+|quote = A dark twisting in the guts with no relief in sight.
+|description = [[Destroy]] all Status cards in your deck, lose 1 resolve per card [[Destroy|Destroyed]].<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 5
 |cost = 0
+|character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Parasite
 |keywords = [[Destroy]], [[Expend]], [[Parasite]], [[Hatch]]
-|character = Rook
-|upgradeable = No
-|expreq = 
 |special1 = Flower
 |special2 = Grandiosity
 |special3 = Hyperactive

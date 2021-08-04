@@ -1,14 +1,12 @@
 {{CardPage
 |quote = Can you hear it? A wonderful cacophony, nothing like it!
-|description = Upgrade all cards in your hand for the rest of this negotiation. Lose 2 resolve per card upgraded. </br> [[Expend]], [[Parasite]] </br> [[Hatch]] 5
+|description = Upgrade all cards in your hand for the rest of this negotiation. Lose 2 resolve per card upgraded.<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 5
 |cost = 0
+|character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Parasite
 |keywords = [[Expend]], [[Parasite]], [[Hatch]]
-|character = Rook
-|upgradeable = No
-|expreq = 
 |special1 = Bog Enlightenment
 }}
 

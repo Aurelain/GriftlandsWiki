@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It’s all in how you carry yourself.
-|description = If you have Influence, Prepare a card.
+|description = If you have [[Influence]], [[Prepare]] a card.
 |cost = 1
 |character = Rook
 |rarity = Common
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Influence]], [[Prepare]]
 |parent = Upright
+|mindamage = 2
+|maxdamage = 7
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Don’t sit at the table if you don’t know the rules you idiot.
-|description = Draw 3 cards. Gamble for each Hostility card drawn.
+|description = Draw 3 cards. [[Gamble]] for each Hostility card drawn.
 |cost = 1
 |character = Rook
 |rarity = Uncommon

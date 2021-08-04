@@ -1,14 +1,12 @@
 {{CardPage
 |quote = And I became the antennae to attend to even more of the swamp, from places impossibly far reaching.
-|description = Create 1 '''Bog Boil'''. </br> [[Expend]], [[Parasite]]
+|description = Create 1 [[Bog Boil]].<br/>[[Expend]], [[Parasite]]
 |cost = 1
+|character = Rook
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Parasite
-|character = Rook
-|keywords = [[Expend]], [[Parasite]]
-|upgradeable = No
-|expreq = 
+|keywords = [[Bog Boil]], [[Expend]], [[Parasite]]
 }}
 
 ==Notes==

@@ -10,8 +10,8 @@
 |cardtype = Diplomacy
 |keywords = [[Expend]]
 |expreq = 7
-|upgrade1 = Enduring Elucidate
-|upgrade1summary = Remove [[Expend]]
-|upgrade2 = Focused Elucidate
-|upgrade2summary = Duplicate a chosen friendly argument
+|upgrade1 = Focused Elucidate
+|upgrade1summary = Duplicate a chosen friendly argument
+|upgrade2 = Enduring Elucidate
+|upgrade2summary = Remove [[Expend]]
 }}

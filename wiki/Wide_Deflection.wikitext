@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I'm not even going to address that.
-|description = Apply 4 Composure to all friendly arguments.<br/>Expend
+|description = Apply 4 [[Composure]] to all friendly arguments.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Basic

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Nothing fazes them, it’s unreal.
-|description = Apply 3 Composure.<br/>Double Composure on all arguments.
+|description = Apply 3 [[Composure]].<br/>Double [[Composure]] on all arguments.
 |cost = 1
 |character = Sal
 |rarity = Common

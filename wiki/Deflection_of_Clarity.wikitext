@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I'm not even going to address that.
-|description = Restore 5 resolve and apply 5 Composure.<br/>Destroy
+|description = Restore 5 resolve and apply 5 [[Composure]].<br/>[[Destroy]]
 |cost = 1
 |character = Sal
 |rarity = Basic

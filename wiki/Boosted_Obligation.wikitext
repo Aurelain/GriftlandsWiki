@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Look they helped me out, my hands are tied.
-|description = Prepare a card, gain Influence equal to its cost +1.
+|description = [[Prepare]] a card, gain [[Influence]] equal to its cost +1.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Influence]], [[Prepare]]
+|keywords = [[Prepare]], [[Influence]]
 |parent = Obligation
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = And another thing!
-|description = Discard a card. Gain 2 Dominance.
+|description = Discard a card. Gain 2 [[Dominance]].
 |cost = 1
 |character = Rook
 |rarity = Common

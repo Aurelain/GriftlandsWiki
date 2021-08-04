@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Wow, those were some harsh words. Are you going to be alright?
-|description = Spend all Dominance. Gamble and deal 2 damage to a random opponent argument for every Dominance spent.
+|description = Spend all [[Dominance]]. [[Gamble]] and deal 2 damage to a random opponent argument for every [[Dominance]] spent.
 |cost = 2
 |character = Rook
 |rarity = Uncommon
@@ -8,8 +8,8 @@
 |cardtype = Hostility
 |keywords = [[Dominance]], [[Gamble]]
 |expreq = 7
-|upgrade1 = Boosted Reckless Insults
+|upgrade1 = Pale Reckless Insults
 |upgrade1summary = 
-|upgrade2 = Pale Reckless Insults
+|upgrade2 = Boosted Reckless Insults
 |upgrade2summary = 
 }}

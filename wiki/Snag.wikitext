@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Not your lucky day.
-|description = Discard a card.<br/>Sticky
+|description = Discard a card.<br/>[[Sticky]]
 |cost = 0
 |character = Rook
 |rarity = Common
@@ -8,8 +8,8 @@
 |cardtype = Hostility
 |keywords = [[Sticky]]
 |expreq = 10
-|upgrade1 = Assertive Snag
+|upgrade1 = Boosted Snag
 |upgrade1summary = 
-|upgrade2 = Boosted Snag
+|upgrade2 = Assertive Snag
 |upgrade2summary = 
 }}

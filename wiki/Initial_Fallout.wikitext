@@ -1,11 +1,11 @@
 {{CardPage
 |quote = This is getting real messy real fast.
-|description = Create: Whenever you Gamble, deal 2 damage to a random opponent argument.<br/>Expend, Ambush
+|description = Create: Whenever you [[Gamble]], deal 2 damage to a random opponent argument.<br/>[[Expend]], [[Ambush]]
 |cost = 2
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Ambush]], [[Expend]], [[Gamble]]
+|keywords = [[Gamble]], [[Expend]], [[Ambush]]
 |parent = Fallout
 }}
