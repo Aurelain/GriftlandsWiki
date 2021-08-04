@@ -11,4 +11,6 @@
 |upgrade1summary = 
 |upgrade2 = Mirrored Degrade
 |upgrade2summary = 
+|mindamage = 1
+|maxdamage = 1
 }}

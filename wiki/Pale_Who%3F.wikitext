@@ -1,6 +1,6 @@
 {{CardPage
 |quote = ...Me?
-|description = Double your Renown. At the end of your turn, lose all Renown.
+|description = Double your [[Renown]]. At the end of your turn, lose all [[Renown]].
 |cost = 0
 |character = Smith
 |rarity = Uncommon

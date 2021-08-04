@@ -1,15 +1,17 @@
 {{CardPage
 |quote = Yeah it’s going to be big, no plus ones though.
-|description = Renowned 2: Draw 2 cards.
+|description = [[Renowned]] 2: Draw 2 cards.
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Renown]], [[Renowned]]
+|keywords = [[Renowned]]
 |expreq = 9
-|upgrade1 = Pale Networker
+|upgrade1 = Visionary Networker
 |upgrade1summary = 
-|upgrade2 = Visionary Networker
+|upgrade2 = Pale Networker
 |upgrade2summary = 
+|mindamage = 4
+|maxdamage = 4
 }}

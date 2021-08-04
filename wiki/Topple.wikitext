@@ -7,8 +7,10 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |expreq = 9
-|upgrade1 = Pale Topple
+|upgrade1 = Softened Topple
 |upgrade1summary = 
-|upgrade2 = Softened Topple
+|upgrade2 = Pale Topple
 |upgrade2summary = 
+|mindamage = 2
+|maxdamage = 2
 }}

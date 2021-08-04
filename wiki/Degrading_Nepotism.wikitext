@@ -1,10 +1,10 @@
 {{CardPage
 |quote = Well that’s just unfair.
-|description = Insert Notion or Overturn into your hand.
+|description = Insert [[Notion]] or [[Overturn]] into your hand.
 |cost = 1
 |character = Smith
 |rarity = Basic
 |decktype = Negotiation
-|cardtype = Manipulate
+|cardtype = Hostility
 |parent = Nepotism
 }}

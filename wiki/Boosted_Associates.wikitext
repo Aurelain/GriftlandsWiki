@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Hold on, I’m pretty sure I have her card here somewhere.
-|description = Gain 2 Renown for every person that loves you + 3 Renown.<br/>Expend
+|description = Gain 2 [[Renown]] for every person that loves you + 3 [[Renown]].<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Renown]]
+|keywords = [[Renown]], [[Expend]]
 |parent = Associates
 }}

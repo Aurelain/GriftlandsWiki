@@ -1,10 +1,13 @@
 {{CardPage
 |quote = I think that he’s forgotten his point all together.
-|description = Blind.<br/>Attack with this card 3 times.
+|description = [[Blind]].<br/>Attack with this card 3 times.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Blind]]
 |parent = Barrage
+|mindamage = 2
+|maxdamage = 2
 }}

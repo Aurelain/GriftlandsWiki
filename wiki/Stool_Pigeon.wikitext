@@ -1,12 +1,12 @@
 {{CardPage
 |quote = We know what you did, you better sing!
-|description = Spend up to 2 Renown: Create a Bait argument with 2 maximum resolve per Renown spent.<br/>Expend
+|description = Spend up to 2 [[Renown]]: Create a [[Bait]] argument with 2 maximum resolve per [[Renown]] spent.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Bait]], [[Expend]], [[Renown]]
+|keywords = [[Renown]], [[Bait]], [[Expend]]
 |expreq = 7
 |upgrade1 = Boosted Stool Pigeon
 |upgrade1summary = 

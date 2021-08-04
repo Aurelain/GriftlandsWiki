@@ -1,11 +1,13 @@
 {{CardPage
 |quote = I don’t mean to come off too cocky but…
-|description = Renowned 1: increase the maximum damage of this card by 2.<br/>Expend
+|description = [[Renowned]] 1: increase the maximum damage of this card by 2.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Expend]], [[Renown]], [[Renowned]]
+|keywords = [[Renowned]], [[Expend]]
 |parent = Brag
+|mindamage = 5
+|maxdamage = 5
 }}

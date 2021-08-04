@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Told you that I was good for it.
-|description = Improvise a card from your discard pile. Gain Renown equal to twice its cost.
+|description = [[Improvise]] a card from your discard pile. Gain [[Renown]] equal to twice its cost.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
@@ -8,8 +8,8 @@
 |cardtype = Manipulate
 |keywords = [[Improvise]], [[Renown]]
 |expreq = 9
-|upgrade1 = Twisted Cachet
+|upgrade1 = Wide Cachet
 |upgrade1summary = 
-|upgrade2 = Wide Cachet
+|upgrade2 = Twisted Cachet
 |upgrade2summary = 
 }}

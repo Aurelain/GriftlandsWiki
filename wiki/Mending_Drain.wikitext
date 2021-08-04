@@ -1,10 +1,11 @@
 {{CardPage
 |quote = The conversation was quite energizing. Thank you.
-|description = Target argument loses 2 resolve. You gain 4 resolve.<br/>Expend
+|description = Target argument loses 2 resolve. You gain 4 resolve.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
+|keywords = [[Expend]]
 |parent = Drain Resolve
 }}

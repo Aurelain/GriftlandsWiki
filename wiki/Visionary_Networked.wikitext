@@ -1,6 +1,6 @@
 {{CardPage
 |quote = People are looking at your profile!
-|description = Draw a card.<br/>Gain 1 Renown for every card in your hand.
+|description = Draw a card.<br/>Gain 1 [[Renown]] for every card in your hand.
 |cost = 1
 |character = Smith
 |rarity = Uncommon

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Some of these are even good people.
-|description = Gain Renown equal to damage dealt by this card.
+|description = Gain [[Renown]] equal to damage dealt by this card.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
@@ -12,4 +12,6 @@
 |upgrade1summary = 
 |upgrade2 = Tall Contacts
 |upgrade2summary = 
+|mindamage = 2
+|maxdamage = 4
 }}

@@ -1,11 +1,13 @@
 {{CardPage
 |quote = Yeah it’s going to be big, no plus ones though.
-|description = Renowned 2: Draw 3 cards.
+|description = [[Renowned]] 2: Draw 3 cards.
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Renown]], [[Renowned]]
+|keywords = [[Renowned]]
 |parent = Networker
+|mindamage = 4
+|maxdamage = 4
 }}

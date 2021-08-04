@@ -1,10 +1,10 @@
 {{CardPage
 |quote = Smith and the Smithereens! You’ve never heard of us?
-|description = Gain 1 Influence. At the end of your turn, lose 1 Influence.<br/>Expend
+|description = Gain 1 [[Influence]]. At the end of your turn, lose 1 [[Influence]].<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Expend]], [[Influence]]
+|keywords = [[Influence]], [[Expend]]
 }}

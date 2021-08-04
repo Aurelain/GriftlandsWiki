@@ -2,14 +2,13 @@
 
 {{CardPage
 |quote = The conversation was quite energizing. Thank you.
-|description = Target argument loses 2 [[Resolve]]. You gain 2 [[Resolve]]. </br> [[Expend]]
+|description = Target argument loses 2 resolve. You gain 2 resolve.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Manipulate
 |decktype = Negotiation
-|keywords = [[Resolve]], [[Expend]]
-|upgradeable = Yes
+|cardtype = Manipulate
+|keywords = [[Expend]]
 |expreq = 7
 |upgrade1 = Boosted Drain
 |upgrade1summary = Target argument loses 4 [[Resolve]]

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = That's just so slick.
-|description = Create: Whenever this argument takes damage, deal that much damage to a random opponent argument.<br/>Expend
+|description = Create: Whenever this argument takes damage, deal that much damage to a random opponent argument.<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Uncommon

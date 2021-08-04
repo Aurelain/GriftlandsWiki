@@ -7,4 +7,6 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |parent = Degrade
+|mindamage = 1
+|maxdamage = 1
 }}

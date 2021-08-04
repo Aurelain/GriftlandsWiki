@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Come here you.
-|description = Bravado.
+|description = [[Bravado]].
 |cost = 1
 |character = Smith
 |rarity = Basic
@@ -8,4 +8,6 @@
 |cardtype = Hostility
 |keywords = [[Bravado]]
 |parent = Bully
+|mindamage = 1
+|maxdamage = 3
 }}

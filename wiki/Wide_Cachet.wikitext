@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Told you that I was good for it.
-|description = Improvise 2 cards from your discard pile. Gain Renown equal to their combined cost.
+|description = [[Improvise]] 2 cards from your discard pile. Gain [[Renown]] equal to their combined cost.
 |cost = 1
 |character = Smith
 |rarity = Uncommon

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Some of these are even good people.
-|description = Gain Renown equal to damage dealt by this card.
+|description = Gain [[Renown]] equal to damage dealt by this card.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Renown]]
 |parent = Contacts
+|mindamage = 4
+|maxdamage = 4
 }}

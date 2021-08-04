@@ -1,15 +1,17 @@
 {{CardPage
 |quote = Look, I know a lot of very important people, the most important people.
-|description = Renowned 10: This card costs 2.<br/>Renowned 15: This card costs 0.
+|description = [[Renowned]] 10: This card costs 2.<br/>[[Renowned]] 15: This card costs 0.
 |cost = 4
 |character = Smith
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Renown]], [[Renowned]]
+|keywords = [[Renowned]]
 |expreq = 3
-|upgrade1 = Boosted High Places
+|upgrade1 = Pale High Places
 |upgrade1summary = 
-|upgrade2 = Pale High Places
+|upgrade2 = Boosted High Places
 |upgrade2summary = 
+|mindamage = 8
+|maxdamage = 10
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Yeah they'll fix you right up. No problem, just mention my name.
-|description = Gain 2 Renown. At the end of your turn remove all your Renown and deal that much damage to the opponent's core argument.
+|description = Gain 2 [[Renown]]. At the end of your turn remove all your [[Renown]] and deal that much damage to the opponent's core argument.
 |cost = 1
 |character = Smith
 |rarity = Uncommon

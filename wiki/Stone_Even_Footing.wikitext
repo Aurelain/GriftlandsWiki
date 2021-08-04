@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Hey, No fair!
-|description = Apply 3 Composure to a random friendly argument. Repeat once per enemy non-core argument.
+|description = Apply 3 [[Composure]] to a random friendly argument. Repeat once per enemy non-core argument.
 |cost = 1
 |character = Smith
 |rarity = Uncommon

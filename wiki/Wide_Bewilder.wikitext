@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Wait, give me a second here.
-|description = Apply 2 Composure to all friendly arguments.
+|description = Apply 2 [[Composure]] to all friendly arguments.
 |cost = 1
 |character = Smith
 |rarity = Basic
