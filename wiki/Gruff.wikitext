@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Itches...
-|description = Incept 1 Flustered.<br/>Expend
+|description = [[Incept]] 1 [[Flustered]].<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Expend]], [[Flustered]], [[Incept]]
-|expreq = 0
+|keywords = [[Incept]], [[Flustered]], [[Expend]]
 |upgrade1 = Boosted Gruff
 |upgrade1summary = 
 |generator = Quick Thinking, Boosted Thinking

@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I just saw a lot of myself back there.
-|description = You and your opponent restore 6 resolve.<br/>Expend, Ambush
+|description = You and your opponent restore 6 resolve.<br/>[[Expend]], [[Ambush]]
 |cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Ambush]], [[Expend]]
+|keywords = [[Expend]], [[Ambush]]
 |parent = Empathy
 }}

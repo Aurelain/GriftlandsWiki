@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Well now I don’t know WHAT to think.
-|description = Incept 2 Doubt.<br/>Draw a Card.
+|description = [[Incept]] 2 [[Doubt]].<br/>Draw a Card.
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Doubt]], [[Incept]]
+|keywords = [[Incept]], [[Doubt]]
 |parent = Seeds of Doubt
 }}

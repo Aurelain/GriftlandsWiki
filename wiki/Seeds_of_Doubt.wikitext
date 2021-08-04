@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Well now I don’t know WHAT to think.
-|description = Incept 2 Doubt.
+|description = [[Incept]] 2 [[Doubt]].
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Doubt]], [[Incept]]
+|keywords = [[Incept]], [[Doubt]]
 |expreq = 9
 |upgrade1 = Boosted Doubt
 |upgrade1summary = 

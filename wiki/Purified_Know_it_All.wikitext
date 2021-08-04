@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Um, Actually...
-|description = Gain 3 Smarts.
+|description = Gain 3 [[Smarts]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon

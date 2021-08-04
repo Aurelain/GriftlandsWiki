@@ -8,4 +8,6 @@
 |cardtype = Hostility
 |keywords = [[Dominance]], [[Expend]]
 |generator = Sal's Instincts, Diplomatic Instincts
+|mindamage = 2
+|maxdamage = 2
 }}

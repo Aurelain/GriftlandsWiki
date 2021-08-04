@@ -1,15 +1,15 @@
 {{CardPage
 |quote = Listen up you little punk!
-|description = Spend 1 Influence: Gain 2 Dominance.
+|description = Spend 1 [[Influence]]: Gain 2 [[Dominance]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Dominance]], [[Influence]]
+|keywords = [[Influence]], [[Dominance]]
 |expreq = 9
-|upgrade1 = Enhanced Tyrannize
+|upgrade1 = Pale Tyrannize
 |upgrade1summary = 
-|upgrade2 = Pale Tyrannize
+|upgrade2 = Enhanced Tyrannize
 |upgrade2summary = 
 }}

@@ -1,13 +1,12 @@
 {{CardPage
-|quote = I could do this all day.
-|description = Gain 1 action for every 3 cards in your discard pile. <br/> [[Expend]]
+|quote = I could do this all day!
+|description = Gain 1 action for every 3 cards in your discard pile.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Manipulate
 |decktype = Negotiation
+|cardtype = Manipulate
 |keywords = [[Expend]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Pale Wind
 |upgrade1summary = Cost 1 action less

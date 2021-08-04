@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I just couldn’t keep up with them!
-|description = Attack a random argument.<br/>Spend all Influence: Attack again per Influence spent.
+|description = Attack a random argument.<br/>Spend all [[Influence]]: Attack again per [[Influence]] spent.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
@@ -8,8 +8,10 @@
 |cardtype = Diplomacy
 |keywords = [[Influence]]
 |expreq = 9
-|upgrade1 = Boosted Fire
+|upgrade1 = Maintained Fire
 |upgrade1summary = 
-|upgrade2 = Maintained Fire
+|upgrade2 = Boosted Fire
 |upgrade2summary = 
+|mindamage = 2
+|maxdamage = 2
 }}

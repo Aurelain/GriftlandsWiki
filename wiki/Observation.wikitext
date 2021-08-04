@@ -1,14 +1,15 @@
 {{CardPage
 |quote = Hmmm...
-|description = Expend
+|description = [[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Diplomacy
 |keywords = [[Expend]]
-|expreq = 0
 |upgrade1 = Tall Observation
 |upgrade1summary = 
 |generator = Quick Thinking, Boosted Thinking
+|mindamage = 0
+|maxdamage = 4
 }}

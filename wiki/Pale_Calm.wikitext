@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Sorry boss, we just couldn’t rattle them.
-|description = Apply 2 Composure to all friendly arguments.
+|description = Apply 2 [[Composure]] to all friendly arguments.
 |cost = 0
 |character = Sal
 |rarity = Uncommon

@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Uhh… er... maybe.
-|description = Incept 3 Vulnerability.<br/>Expend
+|description = [[Incept]] 3 [[Vulnerability]].<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Ability]], [[Expend]], [[Incept]], [[Vulnerability]]
+|keywords = [[Incept]], [[Vulnerability]], [[Expend]]
 |parent = Stammer
 |generator = Promoted Thinking
 }}

@@ -1,14 +1,15 @@
 {{CardPage
 |quote = This was never going to end well.
-|description = Expend all non-Hostility cards in your discard pile.<br/>Deal 2 damage to a random opponent argument for every card expended.
+|description = [[Expend]] all non-Hostility cards in your discard pile.<br/>Deal 2 damage to a random opponent argument for every card expended.
 |cost = 2
 |character = Sal
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Hostility
-|expreq = 7
-|upgrade1 = Boosted Scorched Earth
+|keywords = [[Expend]]
+|expreq = 5
+|upgrade1 = Pale Scorched Earth
 |upgrade1summary = 
-|upgrade2 = Pale Scorched Earth
+|upgrade2 = Boosted Scorched Earth
 |upgrade2summary = 
 }}

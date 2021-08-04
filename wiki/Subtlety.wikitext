@@ -4,10 +4,9 @@
 |cost = 1
 |character = Sal
 |rarity = Common
-|cardtype = Diplomacy
 |decktype = Negotiation
+|cardtype = Diplomacy
 |keywords = [[Influence]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Rooted Subtlety
 |upgrade1summary = Deals 5 base damage

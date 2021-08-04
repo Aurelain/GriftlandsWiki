@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Influence]], [[Expend]]
 |generator = Sal's Instincts, Hostile Instincts
+|mindamage = 2
+|maxdamage = 2
 }}

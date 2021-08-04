@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Look, you’re a smart guy.
-|description = Costs 1 less for each Influence you have.
+|description = Costs 1 less for each [[Influence]] you have.
 |cost = 3
 |character = Sal
 |rarity = Rare
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Influence]]
 |parent = Appeal to Reason
+|mindamage = 4
+|maxdamage = 6
 }}

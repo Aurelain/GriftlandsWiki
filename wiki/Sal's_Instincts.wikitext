@@ -1,17 +1,16 @@
 {{CardPage
-|quote = Consistency is just going to get you dead. If something is not working, it's time to try the opposite
+|quote = Consistency is just going to get you dead. If something's not working, it's time to try the opposite.
 |description = Insert [[Inspiration]] or [[Attitude]] into your hand.
 |cost = 1
 |character = Sal
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Manipulate
-|upgradeable = Yes
 |expreq = 8
-|upgrade1 = Hostile Instincts
-|upgrade1summary = Insert [[Obtuse]], [[Mean]] or [[Inspiration]] into your hand.
-|upgrade2 = Diplomatic Instincts
-|upgrade2summary = Insert [[Flatter]], [[Compliment]] or [[Attitude]] into your hand.
+|upgrade1 = Diplomatic Instincts
+|upgrade1summary = Insert [[Flatter]], [[Compliment]] or [[Attitude]] into your hand.
+|upgrade2 = Hostile Instincts
+|upgrade2summary = Insert [[Obtuse]], [[Mean]] or [[Inspiration]] into your hand.
 |special1 = Inspiration
 |special2 = Attitude
 }}

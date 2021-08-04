@@ -5,12 +5,11 @@
 |description = [[Improvise]] a card from a pool of special cards.
 |cost = 1
 |character = Sal
-|cardtype = Manipulate
-|decktype = Negotiation
-|keywords = [[Improvise]]
-|upgradeable = Yes
-|expreq = 9
 |rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Improvise]]
+|expreq = 9
 |upgrade1 = Promoted Thinking
 |upgrade1summary = [[Improvise]] a card from a pool of upgraded special cards.
 |upgrade2 = Boosted Thinking

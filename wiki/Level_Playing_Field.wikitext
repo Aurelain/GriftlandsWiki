@@ -1,15 +1,14 @@
 {{Reupload}}
 
 {{CardPage
-|quote = Let's start this over.
-|description = Gain 2 [[Vulnerability]]. </br> All cards deal +3 damage this turn.
+|quote = Let’s start this over.
+|description = Gain 2 [[Vulnerability]].<br/>All cards deal +3 damage this turn.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Diplomacy
 |decktype = Negotiation
+|cardtype = Diplomacy
 |keywords = [[Vulnerability]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Purified Playing Field
 |upgrade1summary = Gain 1 [[Vulnerability]].

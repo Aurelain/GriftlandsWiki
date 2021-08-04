@@ -7,4 +7,6 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |parent = Overbear
+|mindamage = 1
+|maxdamage = 5
 }}

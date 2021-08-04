@@ -6,6 +6,8 @@
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Expend]], [[Influence]]
+|keywords = [[Influence]], [[Expend]]
 |generator = Diplomatic Instincts
+|mindamage = 3
+|maxdamage = 3
 }}

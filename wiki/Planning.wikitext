@@ -6,8 +6,6 @@
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = None
-|upgradeable = Yes
 |expreq = 10
 |upgrade1 = Boosted Planning
 |upgrade1summary = Draw 2 cards

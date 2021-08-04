@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Give me some space.
-|description = Apply 3 Composure.<br/>Expend
+|description = Gain 3 [[Composure]].<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Expend]]
-|expreq = 0
+|keywords = [[Composure]], [[Expend]]
 |upgrade1 = Boosted Withdrawn
 |upgrade1summary = 
 |generator = Quick Thinking, Boosted Thinking

@@ -1,14 +1,13 @@
 {{CardPage
 |quote = What does any of that have to do with apples?
-|description = Your next card this turn costs 0 actions. </br> [[Expend]]
+|description = Your next card this turn costs 0 actions.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Manipulate
 |decktype = Negotiation
+|cardtype = Manipulate
 |keywords = [[Expend]]
-|upgradeable = Yes
-|expreq = 9
+|expreq = 7
 |upgrade1 = Enduring Non Sequitur
 |upgrade1summary = Remove [[Expend]]
 |upgrade2 = Pale Non Sequitur

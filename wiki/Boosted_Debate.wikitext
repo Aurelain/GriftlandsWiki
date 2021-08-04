@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I hope you’re ready, I’m a master at this.
-|description = Expend
+|description = [[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
@@ -9,4 +9,6 @@
 |keywords = [[Expend]]
 |parent = Debate
 |generator = Promoted Thinking
+|mindamage = 2
+|maxdamage = 3
 }}

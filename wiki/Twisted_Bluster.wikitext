@@ -1,11 +1,13 @@
 {{CardPage
 |quote = And another thing!.
-|description = Incept 2 Vulnerability.
+|description = [[Incept]] 2 [[Vulnerability]].
 |cost = 2
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Ability]], [[Incept]], [[Vulnerability]]
+|keywords = [[Incept]], [[Vulnerability]]
 |parent = Bluster
+|mindamage = 8
+|maxdamage = 8
 }}

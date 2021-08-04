@@ -1,10 +1,10 @@
 {{CardPage
 |quote = A few more of those and I’m all yours.
-|description = When this card is drawn, deal 3 damage to a random opponent argument and gain 1 Influence.<br/>Unplayable
+|description = When this card is drawn, deal 3 damage to a random opponent argument and gain 1 [[Influence]].<br/>[[Unplayable]]
 |character = Sal
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Influence]]
+|keywords = [[Influence]], [[Unplayable]]
 |parent = Solid Point
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Veep grumbled and slumped back into his chair. Deflated.
-|description = Gain: Whenever you play a Diplomacy card, apply 2 Composure to a random argument.<br/>Expend
+|description = Gain: Whenever you play a Diplomacy card, apply 2 [[Composure]] to a random argument.<br/>[[Expend]]
 |cost = 2
 |character = Sal
 |rarity = Rare

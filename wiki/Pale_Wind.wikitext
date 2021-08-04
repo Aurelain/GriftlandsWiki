@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I could do this all day!
-|description = Gain 1 action for every 3 cards in your discard pile.<br/>Expend
+|description = Gain 1 action for every 3 cards in your discard pile.<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Uncommon

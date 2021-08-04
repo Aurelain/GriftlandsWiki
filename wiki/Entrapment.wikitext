@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I can’t believe I trusted you.
-|description = Add 3 Bait.<br/>Expend
+|description = Add 3 [[Bait]].<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon

@@ -1,13 +1,13 @@
 {{CardPage
 |quote = Just get to the point already.
-|description = Expend any number of cards.<br/>Gain 1 Smarts for each card expended.
+|description = [[Expend]] any number of cards.<br/>Gain 1 [[Smarts]] for each card expended.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Smarts]]
-|expreq = 9
+|keywords = [[Expend]], [[Smarts]]
+|expreq = 7
 |upgrade1 = The Boosted Facts
 |upgrade1summary = 
 |upgrade2 = The Visionary Facts

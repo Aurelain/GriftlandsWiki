@@ -1,13 +1,13 @@
 {{CardPage
 |quote = Consistency is just going to get you dead. If something's not working, it's time to try the opposite.
-|description = Insert Flatter, Compliment or Attitude into your hand.
+|description = Insert [[Flatter]], [[Compliment]] or [[Attitude]] into your hand.
 |cost = 1
 |character = Sal
 |rarity = Basic
 |decktype = Negotiation
-|cardtype = Manipulate
+|cardtype = Diplomacy
 |parent = Sal's Instincts
 |special1 = Flatter
-|special2 = Compliment 
-|special3 = Attitude 
+|special2 = Compliment
+|special3 = Attitude
 }}

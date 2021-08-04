@@ -1,10 +1,11 @@
 {{CardPage
 |quote = I just saw a lot of myself back there.
-|description = You and your opponent restore 10 resolve.<br/>Expend
+|description = You and your opponent restore 10 resolve.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Diplomacy
+|keywords = [[Expend]]
 |parent = Empathy
 }}

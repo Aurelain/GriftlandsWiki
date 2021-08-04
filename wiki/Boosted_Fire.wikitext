@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I just couldn’t keep up with them!
-|description = Attack a random argument.<br/>Spend all Influence: Attack again per Influence spent.
+|description = Attack a random argument.<br/>Spend all [[Influence]]: Attack again per [[Influence]] spent.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Influence]]
 |parent = Rapid Fire
+|mindamage = 3
+|maxdamage = 3
 }}

@@ -1,11 +1,11 @@
 {{CardPage
 |quote = In Havaria, just knowing the right people can be enough.
-|description = Spend 1 Influence: Gain 2 actions.<br/>Expend
-|cost = 1
+|description = Spend 1 [[Influence]]: Gain 2 actions.<br/>[[Expend]]
+|cost = 0
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Influence]]
+|keywords = [[Influence]], [[Expend]]
 |parent = Buying Time
 }}

@@ -1,18 +1,19 @@
 {{Reupload}}
 
 {{CardPage
-|quote = Look, you're a smart guy.
-|description = Costs 1 less for each [[Influence]] you have
+|quote = Look, you’re a smart guy.
+|description = Costs 1 less for each [[Influence]] you have.
 |cost = 4
 |character = Sal
 |rarity = Rare
-|cardtype = Diplomacy
 |decktype = Negotiation
+|cardtype = Diplomacy
 |keywords = [[Influence]]
-|upgradeable = Yes
 |expreq = 5
 |upgrade1 = Boosted Appeal
 |upgrade1summary = Deals 5-8 base damage
 |upgrade2 = Pale Appeal
 |upgrade2summary = Cost 1 action less (3-cost)
+|mindamage = 4
+|maxdamage = 6
 }}

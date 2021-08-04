@@ -1,13 +1,12 @@
 {{CardPage
 |quote = I haven’t thought of it that way before.
-|description = Apply 2 Composure on 2 random friendly arguments.<br/>Expend
+|description = Apply 2 [[Composure]] on 2 random friendly arguments.<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
 |cardtype = Manipulate
 |keywords = [[Composure]], [[Expend]]
-|expreq = 0
 |upgrade1 = Boosted Consideration
 |upgrade1summary = 
 |generator = Quick Thinking, Boosted Thinking
