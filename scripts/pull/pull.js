@@ -90,22 +90,13 @@ const DENIED_PAGES = {
  *
  * @param focus         A title to target instead of freely scanning the cloud.
  * @param ethereal      If `true`, the results will not be persisted (the disk will not be touched).
- * @param isForced      If `true`, the timestamp is not enforced.
  * @returns {Promise<{}>}
  */
-const pull = async (focus = '', ethereal = false, isForced = false) => {
+const pull = async (focus = '', ethereal = false) => {
     try {
-        let timestamp;
-        if (!isForced) {
-            timestamp = await getTimestamp();
-        }
-        if (ethereal && !isForced) {
-            checkSafetyTimestamp(timestamp);
-        }
-
         const pages = focus ? await getFocusedPages(focus) : await getAllInterestingPages();
 
-        writeWikiMetadata(timestamp, pages);
+        writeWikiMetadata(pages);
 
         const status = inspect(pages, focus);
 
@@ -113,10 +104,9 @@ const pull = async (focus = '', ethereal = false, isForced = false) => {
             const pendingWrite = {...status.different, ...status.cloudOnly};
             writePages(pendingWrite);
             removeOrphanPages(status.localOnly);
-            writeSafetyTimestamp(timestamp);
         }
 
-        console.log('Finished pull.');
+        console.log('Pull finished.');
         return status;
     } catch (e) {
         console.log('Error:', e.message);
@@ -218,7 +208,7 @@ const getSomeTextsFromNamespace = async (ns, continuation) => {
             action: 'query',
             format: 'json',
             prop: 'revisions',
-            rvprop: 'content|timestamp',
+            rvprop: 'content|ids',
             rvslots: 'main',
             generator: 'allpages',
             gapnamespace: ns,
@@ -244,11 +234,11 @@ const parseTextPages = (body) => {
     for (const key in pages) {
         const {title, revisions} = pages[key];
         const content = revisions?.[0].slots?.main?.['*'];
-        assert(content, `Invalid revisions for "${JSON.stringify(pages[key])}"`);
-        const timestamp = revisions?.[0].timestamp;
-        assert(timestamp && timestamp.endsWith('Z'), `Invalid timestamp for "${JSON.stringify(pages[key])}"`);
+        assert(content, `Invalid revision content for "${JSON.stringify(pages[key])}"`);
+        const revid = revisions?.[0].revid;
+        assert(revid >= 0, `Invalid revision id for "${JSON.stringify(pages[key])}"`);
         const filePath = getFilePath(title, content);
-        bag[filePath] = {title, content, timestamp};
+        bag[filePath] = {title, content, revid};
     }
     return bag;
 };
@@ -313,7 +303,7 @@ const getSomeFiles = async (continuation, focus) => {
             action: 'query',
             format: 'json',
             prop: 'imageinfo',
-            iiprop: 'url|sha1|timestamp',
+            iiprop: 'url|sha1',
             generator: 'allpages',
             gapnamespace: FILES_NAMESPACE,
             gaplimit: 'max', // max is accepted here, as opposed to texts
@@ -339,12 +329,11 @@ const parseFilePages = (body) => {
     const bag = {};
     for (const key in pages) {
         const {title, imageinfo} = pages[key];
-        const {url, sha1, timestamp} = imageinfo?.[0] || {};
+        const {url, sha1} = imageinfo?.[0] || {};
         assert(url && sha1, 'Invalid image info!');
-        assert(timestamp && timestamp.endsWith('Z'), `Invalid image timestamp "${JSON.stringify(pages[key])}"`);
         const content = {url, sha1};
         const filePath = getFilePath(title, content);
-        bag[filePath] = {title, content, timestamp};
+        bag[filePath] = {title, content};
     }
     return bag;
 };

@@ -7,17 +7,17 @@ const computeSha1 = require('../utils/computeSha1');
 /**
  *
  */
-const writeWikiMetadata = (timestamp, pages) => {
+const writeWikiMetadata = (pages) => {
     const pageMetadata = {};
     for (const filePath in pages) {
-        const {timestamp, content} = pages[filePath];
+        const {revid, content} = pages[filePath];
         pageMetadata[filePath] = {
             sha1: computeSha1(typeof content === 'string' ? content : JSON.stringify(content, null, 4)),
-            timestamp,
+            revid,
         };
     }
     const onlineMeta = {
-        lastPulled: timestamp,
+        lastPulled: new Date().toISOString(),
         pageMetadata,
     };
     fs.writeFileSync('wikiMetadata.json', JSON.stringify(onlineMeta, null, 4));

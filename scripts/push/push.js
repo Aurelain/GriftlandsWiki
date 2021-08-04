@@ -75,11 +75,11 @@ const getCandidates = (regExpFilter, wikiMetadata) => {
             };
         } else {
             const currentSha1 = computeSha1(content);
-            const {sha1, timestamp} = pageMetadata[filePath];
+            const {sha1, revid} = pageMetadata[filePath];
             if (currentSha1 !== sha1) {
                 candidates[filePath] = {
                     content,
-                    timestamp,
+                    revid,
                 };
             }
         }
@@ -125,13 +125,13 @@ const enumerateSome = (target) => {
 const writePagesToCloud = async (candidatePages, token, wikiMetadata) => {
     const withSleep = tally(candidatePages) > 1;
     for (const filePath in candidatePages) {
-        const {content, timestamp} = candidatePages[filePath];
+        const {content, revid} = candidatePages[filePath];
         const title = prettyName(filePath).replace(/\.[^.]*$/, '');
         let freshMetaEntry;
         if (title.startsWith('File:')) {
             freshMetaEntry = await uploadImage(title, filePath, token);
         } else {
-            freshMetaEntry = await writeText(title, content, token, timestamp);
+            freshMetaEntry = await writeText(title, content, token, revid);
         }
         injectIntoMetadata(filePath, freshMetaEntry, wikiMetadata);
         withSleep && (await sleep(1000));
@@ -205,7 +205,7 @@ const getCsrfToken = async ({username, password}) => {
 /**
  *
  */
-const writeText = async (title, text, token, previousTimestamp) => {
+const writeText = async (title, text, token, revid) => {
     console.log(`Writing text page "${title}"...`);
     const {body} = await got(ENDPOINT, {
         method: 'post',
@@ -217,16 +217,16 @@ const writeText = async (title, text, token, previousTimestamp) => {
             title,
             text,
             token,
-            basetimestamp: previousTimestamp,
+            baserevid: revid,
         }),
         responseType: 'json',
         cookieJar,
     });
     assert(body?.edit?.result === 'Success', 'Could not write text!\n' + JSON.stringify(body, null, 4));
-    const newTimestamp = body.edit.newtimestamp;
+    const newrevid = body.edit.newrevid;
     return {
         content: text,
-        timestamp: newTimestamp,
+        revid: newrevid,
     };
 };
 
@@ -254,7 +254,7 @@ const uploadImage = async (title, filePath, token) => {
     });
     assert(body?.upload?.result === 'Success', 'Could not upload file!\n' + JSON.stringify(body, null, 4));
     const newtimestamp = body.upload.imageinfo.timestamp;
-    console.log('TODO: write the timestamp and the new file content!', newtimestamp);
+    console.log('TODO: write the revid and the new file content!', newtimestamp);
     return {
         // TODO
     };
@@ -266,7 +266,9 @@ const uploadImage = async (title, filePath, token) => {
 const formalize = (bag) => {
     const form = new FormData();
     for (const key in bag) {
-        form.append(key, bag[key]);
+        if (bag[key] !== undefined) {
+            form.append(key, bag[key]);
+        }
     }
     return form;
 };
@@ -277,7 +279,7 @@ const formalize = (bag) => {
 const injectIntoMetadata = (filePath, entry, wikiMetadata) => {
     wikiMetadata.pageMetadata[filePath] = {
         sha1: computeSha1(entry.content),
-        timestamp: entry.timestamp,
+        revid: entry.revid,
     };
     fs.writeFileSync('wikiMetadata.json', JSON.stringify(wikiMetadata, null, 4));
 };
