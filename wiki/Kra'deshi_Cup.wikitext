@@ -9,12 +9,10 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Drink]], [[Chain]]
-|upgrade1 = Kra'deshi Cup II
-|upgrade1summary = Cost -1, [[Drink]] +1
-|upgrade2 = Kra'deshi Cup III
-|upgrade2summary = Cost -1, [[Drink]] +2
-|upgrade3 = Kra'deshi Cup IV
-|upgrade3summary = Cost -1, [[Drink]] +3, Draw 2
 }}
-==Notes==
-The upgrades are obtained through [[Chain]], not through XP.
+==Chain==
+'''{{PAGENAME}}''' is the start of a [[Chain]]:
+{{CardUpgrade|Kra'deshi Cup|Base}}
+{{CardUpgrade|Kra'deshi Cup II|Cost -1, [[Drink]] +1}}
+{{CardUpgrade|Kra'deshi Cup III|Cost -1, [[Drink]] +2}}
+{{CardUpgrade|Kra'deshi Cup IV|Cost -1, [[Drink]] +3, Draw 2}}

@@ -9,3 +9,9 @@
 |mindamage = 4
 |maxdamage = 4
 }}
+==Chain==
+'''{{PAGENAME}}''' is the part of a [[Chain]]:
+{{CardUpgrade|Kra'deshi Cup|Base}}
+{{CardUpgrade|Kra'deshi Cup II|Cost -1, [[Drink]] +1}}
+{{CardUpgrade|Kra'deshi Cup III|Cost -1, [[Drink]] +2}}
+{{CardUpgrade|Kra'deshi Cup IV|Cost -1, [[Drink]] +3, Draw 2}}

@@ -9,12 +9,10 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Moxie]], [[Alleviate]], [[Chain]]
-|upgrade1 = Meditation II
-|upgrade1summary = Cost -1, [[Moxie]] +1, [[Alleviate]] +1
-|upgrade2 = Meditation III
-|upgrade2summary = Cost -1, [[Moxie]] +2, [[Alleviate]] +2
-|upgrade3 = Meditation IV
-|upgrade3summary = Cost -1, [[Moxie]] +2, Trigger [[Moxie]]
 }}
-==Notes==
-The upgrades are obtained through [[Chain]], not through XP.
+==Chain==
+'''{{PAGENAME}}''' is the start of a [[Chain]]:
+{{CardUpgrade|Meditation|Base}}
+{{CardUpgrade|Meditation II|Cost -1, [[Moxie]] +1, [[Alleviate]] +1}}
+{{CardUpgrade|Meditation III|Cost -1, [[Moxie]] +2, [[Alleviate]] +2}}
+{{CardUpgrade|Meditation IV|Cost -1, [[Moxie]] +2, Trigger [[Moxie]]}}
