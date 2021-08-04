@@ -1,6 +1,6 @@
 {{CardPage
 |quote = The deal has changed.
-|description = Attack a random argument.<br/>Spend all Renown: Attack again per Renown spent.
+|description = Attack a random argument.<br/>Spend all [[Renown]]: Attack again per [[Renown]] spent.
 |cost = 2
 |character = Smith
 |rarity = Uncommon
@@ -12,4 +12,6 @@
 |upgrade1summary = 
 |upgrade2 = Focused Rescind
 |upgrade2summary = 
+|mindamage = 2
+|maxdamage = 2
 }}

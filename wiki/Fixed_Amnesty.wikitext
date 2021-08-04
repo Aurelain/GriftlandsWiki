@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Ahh yes. Thank you brother, be well.
-|description = Shield all friendly arguments until the start of your next turn.<br/>Expend, Sticky
+|description = [[Shielded|Shield]] all friendly arguments until the start of your next turn.<br/>[[Expend]], [[Sticky]]
 |cost = 2
 |character = Smith
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Expend]], [[Sticky]]
+|keywords = [[Shielded]], [[Expend]], [[Sticky]]
 |parent = Amnesty
 }}

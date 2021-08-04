@@ -1,10 +1,11 @@
 {{CardPage
 |quote = I thought I told you guys to never come back here.
-|description = Create: When destroyed, deal 12 damage to a random opponent argument and create a new Powder Keg.<br/>Expend
+|description = Create: When destroyed, deal 12 damage to a random opponent argument and create a new [[Powder Keg]].<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Expend]]
 |parent = Powder Keg
 }}

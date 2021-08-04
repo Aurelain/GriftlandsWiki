@@ -7,4 +7,6 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |parent = Chase
+|mindamage = 2
+|maxdamage = 6
 }}

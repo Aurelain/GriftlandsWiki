@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I never seen that guy in all my life! I swear!
-|description = Create: At the start of your turn, apply 2 Composure to this argument.<br/>Expend
+|description = Create: At the start of your turn, apply 2 [[Composure]] to this argument.<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Common

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = They're the same picture.
-|description = Choose a card in your hand and create an exact copy of it.<br/>Expend
+|description = Choose a card in your hand and create an exact copy of it.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Rare
@@ -8,8 +8,8 @@
 |cardtype = Manipulate
 |keywords = [[Expend]]
 |expreq = 7
-|upgrade1 = Mirrored Carbon Copy
+|upgrade1 = Pale Carbon Copy
 |upgrade1summary = 
-|upgrade2 = Pale Carbon Copy
+|upgrade2 = Mirrored Carbon Copy
 |upgrade2summary = 
 }}

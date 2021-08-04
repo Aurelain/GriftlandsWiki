@@ -1,6 +1,6 @@
 {{CardPage
 |quote = The deal has changed.
-|description = Attack a random argument.<br/>Spend all Renown: Attack again per Renown spent.
+|description = Attack a random argument.<br/>Spend all [[Renown]]: Attack again per [[Renown]] spent.
 |cost = 2
 |character = Smith
 |rarity = Uncommon
@@ -8,4 +8,6 @@
 |cardtype = Hostility
 |keywords = [[Renown]]
 |parent = Rescind
+|mindamage = 3
+|maxdamage = 3
 }}

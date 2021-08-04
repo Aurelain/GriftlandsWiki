@@ -7,4 +7,6 @@
 |decktype = Negotiation
 |cardtype = Manipulate
 |parent = Scapegoat
+|mindamage = 2
+|maxdamage = 2
 }}

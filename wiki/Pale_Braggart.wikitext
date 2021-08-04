@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Oh yeah, I've heard of you before.
-|description = Fill your hand with Brag. They cost 0 until played.<br/>Expend
+|description = Fill your hand with [[Brag]]. They cost 0 until played.<br/>[[Expend]]
 |cost = 2
 |character = Smith
 |rarity = Rare

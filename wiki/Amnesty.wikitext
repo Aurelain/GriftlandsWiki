@@ -1,15 +1,15 @@
 {{CardPage
 |quote = Ahh yes. Thank you brother, be well.
-|description = Shield all friendly arguments until the start of your next turn.<br/>Expend
+|description = [[Shielded|Shield]] all friendly arguments until the start of your next turn.<br/>[[Expend]]
 |cost = 2
 |character = Smith
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Expend]]
+|keywords = [[Shielded]], [[Expend]]
 |expreq = 5
-|upgrade1 = Fixed Amnesty
+|upgrade1 = Pale Amnesty
 |upgrade1summary = 
-|upgrade2 = Pale Amnesty
+|upgrade2 = Fixed Amnesty
 |upgrade2summary = 
 }}

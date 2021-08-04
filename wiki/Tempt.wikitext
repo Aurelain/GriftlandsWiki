@@ -7,8 +7,10 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |expreq = 3
-|upgrade1 = Boosted Tempt
+|upgrade1 = Pale Tempt
 |upgrade1summary = 
-|upgrade2 = Pale Tempt
+|upgrade2 = Boosted Tempt
 |upgrade2summary = 
+|mindamage = 6
+|maxdamage = 10
 }}

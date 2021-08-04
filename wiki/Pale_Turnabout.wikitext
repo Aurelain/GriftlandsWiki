@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Did someone say my name?
-|description = Destroy a friendly argument, apply Composure equal to its maximum resolve to all friendly arguments.
+|description = Destroy a friendly argument, apply [[Composure]] equal to its maximum resolve to all friendly arguments.
 |cost = 0
 |character = Smith
 |rarity = Common

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = He was here a second ago.
-|description = Draw 2 cards, then discard any number of cards, gain 2 Renown per card discarded.
+|description = Draw 2 cards, then discard any number of cards, gain 2 [[Renown]] per card discarded.
 |cost = 1
 |character = Smith
 |rarity = Uncommon

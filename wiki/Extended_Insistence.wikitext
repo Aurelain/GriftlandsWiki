@@ -1,10 +1,11 @@
 {{CardPage
 |quote = I don't think you heard me the first time.
-|description = Duplicate the next two arguments you create.<br/>Expend
+|description = Duplicate the next two arguments you create.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Manipulate
+|keywords = [[Expend]]
 |parent = Insistence
 }}

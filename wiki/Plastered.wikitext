@@ -1,6 +1,6 @@
 {{CardPage
 |quote = What a walking disaster.
-|description = Destroy a friendly argument, destroy a random opponent argument.<br/>Expend
+|description = Destroy a friendly argument, destroy a random opponent argument.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon
@@ -8,8 +8,8 @@
 |cardtype = Manipulate
 |keywords = [[Expend]]
 |expreq = 7
-|upgrade1 = Enduring Plastered
+|upgrade1 = Pale Plastered
 |upgrade1summary = 
-|upgrade2 = Pale Plastered
+|upgrade2 = Enduring Plastered
 |upgrade2summary = 
 }}

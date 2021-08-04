@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You know what I mean, right?
-|description = Apply Composure to all friendly arguments equal to the damage dealt by this card.
+|description = Apply [[Composure]] to all friendly arguments equal to the damage dealt by this card.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
@@ -12,4 +12,6 @@
 |upgrade1summary = 
 |upgrade2 = Tall Entendre
 |upgrade2summary = 
+|mindamage = 1
+|maxdamage = 3
 }}

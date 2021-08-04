@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Oh yeah, I've heard of you before.
-|description = Fill your hand with Brag. They cost 0 until played.<br/>Expend
+|description = Fill your hand with [[Brag]]. They cost 0 until played.<br/>[[Expend]]
 |cost = 3
 |character = Smith
 |rarity = Rare
@@ -8,8 +8,8 @@
 |cardtype = Diplomacy
 |keywords = [[Expend]]
 |expreq = 3
-|upgrade1 = Boosted Braggart
+|upgrade1 = Pale Braggart
 |upgrade1summary = 
-|upgrade2 = Pale Braggart
+|upgrade2 = Boosted Braggart
 |upgrade2summary = 
 }}

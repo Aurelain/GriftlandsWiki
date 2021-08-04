@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Nothing gets through to that guy.
-|description = Gain 3 Renown.<br/>Can only be played if you have no Renown.
+|description = Gain 3 [[Renown]].<br/>Can only be played if you have no [[Renown]].
 |cost = 0
 |character = Smith
 |rarity = Uncommon

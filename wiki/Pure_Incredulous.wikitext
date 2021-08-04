@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Nothing gets through to that guy.
-|description = Gain 2 Renown.
+|description = Gain 2 [[Renown]].
 |cost = 0
 |character = Smith
 |rarity = Uncommon

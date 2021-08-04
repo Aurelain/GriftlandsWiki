@@ -1,6 +1,6 @@
 {{CardPage
 |quote = What a walking disaster.
-|description = Destroy a friendly argument, destroy a random opponent argument.<br/>Expend
+|description = Destroy a friendly argument, destroy a random opponent argument.<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Uncommon

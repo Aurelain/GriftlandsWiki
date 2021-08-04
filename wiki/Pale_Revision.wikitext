@@ -1,6 +1,6 @@
 {{CardPage
 |quote = A few more rewrites and we'll be a lot closer.
-|description = Destroy all friendly arguments and create new copies of them.<br/>Expend
+|description = Destroy all friendly arguments and create new copies of them.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon
