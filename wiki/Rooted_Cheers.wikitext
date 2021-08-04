@@ -1,6 +1,6 @@
 {{CardPage
 |quote = To absent friends!
-|description = Drink.
+|description = [[Drink]].
 |cost = 1
 |character = Smith
 |rarity = Common

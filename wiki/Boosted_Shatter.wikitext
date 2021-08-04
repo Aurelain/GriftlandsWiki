@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Things are about to go real bad for you pal.
-|description = Expend 2 Empty Bottle cards from your deck: apply 2 Wound.
+|description = [[Expend]] 2 [[Empty Bottle]] cards from your deck: apply 2 [[Wound]].
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Wound]]
+|keywords = [[Expend]], [[Wound]]
 |parent = Shatter
 |mindamage = 5
 |maxdamage = 7

@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Fermented by the more cruel Shrokian brewmasters. You’re going to want a chaser.
-|description = Drink and gain 3 Adrenaline.
+|description = [[Drink]] and gain 3 [[Adrenaline]].
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Adrenaline]], [[Drink]]
+|keywords = [[Drink]], [[Adrenaline]]
 |parent = Fire Breather
 }}

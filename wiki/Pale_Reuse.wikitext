@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Still good!
-|description = Discard Empty Bottle cards from your hand and draw that many cards.
+|description = Discard [[Empty Bottle]] cards from your hand and draw that many cards.
 |cost = 0
 |character = Smith
 |rarity = Uncommon

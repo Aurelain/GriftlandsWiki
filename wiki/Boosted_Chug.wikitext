@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Sir, that’s one per table not customer.
-|description = Play Smith's Boosted Flask again.<br/>Expend
+|description = Play [[Smith's Boosted Flask]] again.<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Unique

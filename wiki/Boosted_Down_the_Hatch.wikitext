@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Chug, chug, chug!
-|description = Drink 4, draw 1 card.
+|description = [[Drink]] 4, draw 1 card.
 |cost = 1
 |character = Smith
 |rarity = Common

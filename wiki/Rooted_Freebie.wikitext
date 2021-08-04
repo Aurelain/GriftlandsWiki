@@ -1,11 +1,12 @@
 {{CardPage
 |quote = Too quick for you huh?
-|description = Expend 2 Empty Bottle cards from your deck: This card costs 0.
+|description = [[Expend]] 2 [[Empty Bottle]] cards from your deck: This card costs 0.
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
+|keywords = [[Expend]]
 |parent = Freebie
 |mindamage = 6
 |maxdamage = 6

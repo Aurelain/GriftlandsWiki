@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Pretty sure they use this to start fires.
-|description = Drink.<br/>Take 2 damage.<br/>Expend
+|description = [[Drink]].<br/>Take 2 damage.<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Drink]], [[Expend]]
-|expreq = 0
 |upgrade1 = Boosted Kra'deshi Collider
 |upgrade1summary = 
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Wow! This is a nice box!
-|description = Ability: At the start of each turn, move 1 Empty Bottle card from your draw pile to your discard.<br/>Expend
+|description = [[Ability]]: At the start of each turn, move 1 [[Empty Bottle]] card from your draw pile to your discard.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon
@@ -8,8 +8,8 @@
 |cardtype = Maneuver
 |keywords = [[Ability]], [[Expend]]
 |expreq = 7
-|upgrade1 = Boosted Packrat
+|upgrade1 = Initial Packrat
 |upgrade1summary = 
-|upgrade2 = Initial Packrat
+|upgrade2 = Boosted Packrat
 |upgrade2summary = 
 }}

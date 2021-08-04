@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You spit it right back in the eyes, pretty effective if you ask me.
-|description = Expend 1 Empty Bottle card from your deck: Apply 2 Impair.<br/>Expend
+|description = [[Expend]] 1 [[Empty Bottle]] card from your deck: Apply 2 [[Impair]].<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Unique

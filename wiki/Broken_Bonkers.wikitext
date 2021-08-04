@@ -1,11 +1,12 @@
 {{CardPage
 |quote = WHAAA-HA-HA-HAAAAA!
-|description = Expend 1 Empty Bottle card from your deck: attack twice.
-|cost = 1
+|description = [[Expend]] 1 [[Empty Bottle]] card from your deck: attack twice.
+|cost = 2
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
+|keywords = [[Expend]]
 |parent = Bonkers
 |mindamage = 7
 |maxdamage = 9

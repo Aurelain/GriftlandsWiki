@@ -1,11 +1,11 @@
 {{CardPage
 |quote = This is great! What do you call it?
-|description = Drink 2. Gain one of the following: 4 Moxie, 4 Adrenaline, 8 Defense or 2 Power.
+|description = [[Drink]] 2. Gain one of the following: 4 [[Moxie]], 4 [[Adrenaline]], 8 [[Defense]] or 2 [[Power]].
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Adrenaline]], [[Defend]], [[Drink]], [[Moxie]], [[Power]]
+|keywords = [[Drink]], [[Moxie]], [[Adrenaline]], [[Defense]], [[Power]]
 |parent = Swig
 }}

@@ -1,12 +1,13 @@
 {{CardPage
 |quote = Wait, what are you doing with tha-
-|description = Expend up to 3 Empty Bottle cards from your deck. Attack a random enemy per card expended.
+|description = [[Expend]] up to 3 [[Empty Bottle]] cards from your deck. Attack a random enemy per card expended.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|expreq = 9
+|keywords = [[Expend]]
+|expreq = 7
 |upgrade1 = Boosted Right in the Face
 |upgrade1summary = 
 |upgrade2 = Wide Right in the Face

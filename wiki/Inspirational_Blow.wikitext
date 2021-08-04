@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Ok I have to give it to him, that was well done.
-|description = Threshold 5: Draw 2 cards.
+|description = [[Threshold]] 5: Draw 2 cards.
 |cost = 1
 |character = Smith
 |rarity = Common

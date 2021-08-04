@@ -1,13 +1,13 @@
 {{CardPage
 |quote = Things are about to get messy.
-|description = Expend up to 3 Empty Bottle cards from your deck. Apply 1 Impair and 2 Bleed to a random enemy per Empty Bottle expended.
+|description = [[Expend]] up to 3 [[Empty Bottle]] cards from your deck. Apply 1 [[Impair]] and 2 [[Bleed]] to a random enemy per [[Empty Bottle]] expended.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Bleed]], [[Impair]]
-|expreq = 9
+|keywords = [[Expend]], [[Impair]], [[Bleed]]
+|expreq = 7
 |upgrade1 = Boosted Batter Up
 |upgrade1summary = 
 |upgrade2 = Stifling Batter Up

@@ -1,13 +1,12 @@
 {{CardPage
 |quote = A burst of creativity, but it’s mainly from the garnish.
-|description = Drink.<br/>Draw 2 cards.<br/>Expend
+|description = [[Drink]].<br/>Draw 2 cards.<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Drink]], [[Expend]]
-|expreq = 0
 |upgrade1 = Visionary Big Brain
 |upgrade1summary = 
 }}

@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Why are those birds so loud?
-|description = Expend 1 Empty Bottle card from your deck: Drink 3.
+|description = [[Expend]] 1 [[Empty Bottle]] card from your deck: [[Drink]] 3.
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Drink]]
+|keywords = [[Expend]], [[Drink]]
 |parent = Long Night
 |mindamage = 4
 |maxdamage = 6

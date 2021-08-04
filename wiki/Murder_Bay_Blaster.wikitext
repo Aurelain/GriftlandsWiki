@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Don’t swallow the battery, unless you want a real rough couple of days.
-|description = Drink.<br/>Gain 1 Power.<br/>Expend
+|description = [[Drink]].<br/>Gain 1 [[Power]].<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Drink]], [[Expend]], [[Power]]
-|expreq = 0
+|keywords = [[Drink]], [[Power]], [[Expend]]
 |upgrade1 = Pale Murder Bay Blaster
 |upgrade1summary = 
 }}

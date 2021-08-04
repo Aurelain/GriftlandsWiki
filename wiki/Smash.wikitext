@@ -7,9 +7,9 @@
 |decktype = Battle
 |cardtype = Attack
 |expreq = 7
-|upgrade1 = Boosted Smash
+|upgrade1 = Softened Smash
 |upgrade1summary = 
-|upgrade2 = Softened Smash
+|upgrade2 = Boosted Smash
 |upgrade2summary = 
 |mindamage = 6
 |maxdamage = 8

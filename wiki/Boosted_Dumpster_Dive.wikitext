@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Now what do we have here?
-|description = Move up to 4 Empty Bottle cards from your draw pile to your discard pile. Draw 2 cards.
+|description = Move up to 4 [[Empty Bottle]] cards from your draw pile to your discard pile. Draw 2 cards.
 |cost = 1
 |character = Smith
 |rarity = Uncommon

@@ -1,15 +1,16 @@
 {{CardPage
 |quote = Too quick for you huh?
-|description = Expend 2 Empty Bottle cards from your deck: This card costs 0.
+|description = [[Expend]] 2 [[Empty Bottle]] cards from your deck: This card costs 0.
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|expreq = 9
-|upgrade1 = Rooted Freebie
+|keywords = [[Expend]]
+|expreq = 7
+|upgrade1 = Tall Freebie
 |upgrade1summary = 
-|upgrade2 = Tall Freebie
+|upgrade2 = Rooted Freebie
 |upgrade2summary = 
 |mindamage = 4
 |maxdamage = 4

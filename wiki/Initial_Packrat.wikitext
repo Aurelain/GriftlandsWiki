@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Wow! This is a nice box!
-|description = Ability: At the start of each turn, move 1 Empty Bottle card from your draw pile to your discard.<br/>Expend, Ambush
+|description = [[Ability]]: At the start of each turn, move 1 [[Empty Bottle]] card from your draw pile to your discard.<br/>[[Expend]], [[Ambush]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Ambush]], [[Expend]]
+|keywords = [[Ability]], [[Expend]], [[Ambush]]
 |parent = Packrat
 }}

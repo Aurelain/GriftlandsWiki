@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Want less, waste less!
-|description = Expend up to 2 Empty Bottle cards from your deck, gain 4 Defense per bottle.
+|description = [[Expend]] up to 2 [[Empty Bottle]] cards from your deck, gain 4 [[Defense]] per bottle.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Expend]], [[Defense]]
 |parent = Reduce
 }}

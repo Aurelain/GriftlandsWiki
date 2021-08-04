@@ -1,13 +1,12 @@
 {{CardPage
 |quote = I feel great!
-|description = Reduce the cost of all cards in your hand to 0 until the end of your turn or until played. Take 3 damage per card. [[Expend]]
+|description = Reduce the cost of all cards in your hand to 0 until the end of your turn or until played. Take 3 damage per card.<br/>[[Expend]]
 |cost = 1
+|character = Smith
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|character = Smith
 |keywords = [[Expend]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Pale Raw Power
 |upgrade1summary = Cost 1 action less
