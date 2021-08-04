@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Now you’re finished!
-|description = Hits all enemies. Expend all Empty Bottle cards in your deck. Deal 2 bonus damage per card expended.<br/>Expend
+|description = Hits all enemies. [[Expend]] all [[Empty Bottle]] cards in your deck. Deal 2 bonus damage per card expended.<br/>[[Expend]]
 |cost = 2
 |character = Smith
 |rarity = Uncommon
@@ -8,9 +8,9 @@
 |cardtype = Attack
 |keywords = [[Expend]]
 |expreq = 5
-|upgrade1 = Boosted Entire Supply
+|upgrade1 = Pale Entire Supply
 |upgrade1summary = 
-|upgrade2 = Pale Entire Supply
+|upgrade2 = Boosted Entire Supply
 |upgrade2summary = 
 |mindamage = 2
 |maxdamage = 2

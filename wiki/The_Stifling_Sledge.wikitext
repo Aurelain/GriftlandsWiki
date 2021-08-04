@@ -1,12 +1,12 @@
 {{CardPage
 |quote = All over this land.
-|description = If your target has Trauma, apply 3 Impair.
+|description = If your target has [[Trauma]], apply 3 [[Impair]].
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Impair]], [[Trauma]]
+|keywords = [[Trauma]], [[Impair]]
 |parent = The Sledge
 |mindamage = 3
 |maxdamage = 5

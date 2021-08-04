@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Nice try.
-|description = Gain Defense equal to the damage of your target's next attack.
+|description = Gain [[Defense]] equal to the damage of your target's next attack.
 |cost = 2
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |expreq = 7
 |upgrade1 = Boosted Shrewd
 |upgrade1summary = 

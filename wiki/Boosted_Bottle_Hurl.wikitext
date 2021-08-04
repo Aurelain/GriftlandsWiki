@@ -1,11 +1,12 @@
 {{CardPage
 |quote = This one is on me.
-|description = Expend 2 Empty Bottle cards from your deck to play this.
+|description = [[Expend]] 2 [[Empty Bottle]] cards from your deck to play this.
 |cost = 0
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
+|keywords = [[Expend]]
 |parent = Bottle Hurl
 |mindamage = 8
 |maxdamage = 8

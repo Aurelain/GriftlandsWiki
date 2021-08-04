@@ -1,16 +1,16 @@
 {{CardPage
 |quote = I’ll take you all on! Bring it!
-|description = Hits all enemies.<br/>Gain 6 Defense.
+|description = Hits all enemies.<br/>Gain 6 [[Defense]].
 |cost = 2
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |expreq = 7
-|upgrade1 = Boosted Rampart
+|upgrade1 = Stone Rampart
 |upgrade1summary = 
-|upgrade2 = Stone Rampart
+|upgrade2 = Boosted Rampart
 |upgrade2summary = 
 |mindamage = 3
 |maxdamage = 5

@@ -1,9 +1,9 @@
 {{CardPage
-|description = Increase your Moxie by 3 this turn.<br/>Trigger your Moxie.<br/>Chain
+|description = Increase your [[Moxie]] by 3 this turn.<br/>Trigger your [[Moxie]].<br/>[[Chain]]
 |cost = 1
 |character = Smith
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Moxie]]
+|keywords = [[Moxie]], [[Chain]]
 }}

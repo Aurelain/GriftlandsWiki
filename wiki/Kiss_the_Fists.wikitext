@@ -7,9 +7,9 @@
 |decktype = Battle
 |cardtype = Attack
 |expreq = 9
-|upgrade1 = Boosted Kiss the Fists
+|upgrade1 = Mirrored Kiss the Fists
 |upgrade1summary = 
-|upgrade2 = Mirrored Kiss the Fists
+|upgrade2 = Boosted Kiss the Fists
 |upgrade2summary = 
 |mindamage = 2
 |maxdamage = 3

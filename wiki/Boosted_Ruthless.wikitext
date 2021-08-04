@@ -1,6 +1,6 @@
 {{CardPage
-|quote = That’s some of the most awful stuff I’ve ever seen done to somebody.
-|description = If your target has Trauma, deal 5 bonus damage.
+|quote = Uhh… Pretty sure I saw that guy give up 6 punches ago.
+|description = If your target has [[Trauma]], deal 5 bonus damage.
 |cost = 1
 |character = Smith
 |rarity = Common

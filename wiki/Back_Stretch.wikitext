@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Limber up!
-|description = Alleviate 5.
+|description = [[Alleviate]] 5.
 |cost = 1
 |character = Smith
 |rarity = Common
@@ -8,8 +8,8 @@
 |cardtype = Maneuver
 |keywords = [[Alleviate]]
 |expreq = 9
-|upgrade1 = Boosted Back Stretch
+|upgrade1 = Stony Back Stretch
 |upgrade1summary = 
-|upgrade2 = Stony Back Stretch
+|upgrade2 = Boosted Back Stretch
 |upgrade2summary = 
 }}

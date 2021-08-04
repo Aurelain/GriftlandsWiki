@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Where is he getting all this strength from?
-|description = This card deals bonus damage equal to your Moxie.
+|description = This card deals bonus damage equal to your [[Moxie]].
 |cost = 1
 |character = Smith
 |rarity = Uncommon

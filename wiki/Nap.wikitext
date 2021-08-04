@@ -1,12 +1,12 @@
 {{CardPage
 |quote = How can you sleep at a time like this?
-|description = Apply 4 Defense.<br/>Draw 2 cards next turn.
+|description = Apply 4 [[Defense]].<br/>Draw 2 cards next turn.
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |expreq = 9
 |upgrade1 = Stone Nap
 |upgrade1summary = 

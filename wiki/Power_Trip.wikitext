@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It ain’t bragging if it’s true.
-|description = Gain 1 Adrenaline. If you had no Adrenaline, gain an additional 2 Adrenaline.
+|description = Gain 1 [[Adrenaline]]. If you had no [[Adrenaline]], gain an additional 2 [[Adrenaline]].
 |cost = 1
 |character = Smith
 |rarity = Uncommon
@@ -8,8 +8,8 @@
 |cardtype = Maneuver
 |keywords = [[Adrenaline]]
 |expreq = 9
-|upgrade1 = Boosted Power Trip
+|upgrade1 = Pale Power Trip
 |upgrade1summary = 
-|upgrade2 = Pale Power Trip
+|upgrade2 = Boosted Power Trip
 |upgrade2summary = 
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Now you’re finished!
-|description = Hits all enemies. Expend all Empty Bottle cards in your deck. Deal 2 bonus damage per card expended.<br/>Expend
+|description = Hits all enemies. [[Expend]] all [[Empty Bottle]] cards in your deck. Deal 2 bonus damage per card expended.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon

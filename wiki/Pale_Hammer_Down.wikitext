@@ -1,12 +1,12 @@
 {{CardPage
 |quote = This is going to be a big one.
-|description = Power and Adrenaline are twice as effective on this card.
+|description = [[Power]] and [[Adrenaline]] are twice as effective on this card.
 |cost = 1
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Adrenaline]], [[Power]]
+|keywords = [[Power]], [[Adrenaline]]
 |parent = Hammer Down
 |mindamage = 7
 |maxdamage = 12

@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Limber up!
-|description = Alleviate 5, gain 3 Defense.
+|description = [[Alleviate]] 5, gain 3 [[Defense]].
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Alleviate]], [[Defend]]
+|keywords = [[Alleviate]], [[Defense]]
 |parent = Back Stretch
 }}

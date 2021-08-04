@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Are you sure that’s legal?
-|description = Alleviate health equal to your Moxie.<br/>Expend
+|description = [[Alleviate]] health equal to your [[Moxie]].<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Alleviate]], [[Expend]], [[Moxie]]
+|keywords = [[Alleviate]], [[Moxie]], [[Expend]]
 |parent = Juicer
 }}

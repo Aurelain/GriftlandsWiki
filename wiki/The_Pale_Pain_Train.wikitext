@@ -1,5 +1,5 @@
 {{CardPage
-|quote = All aboard!
+|quote = All aboard.
 |description = Whenever you take damage, reduce the cost of this card by 2 until played.
 |cost = 10
 |character = Smith

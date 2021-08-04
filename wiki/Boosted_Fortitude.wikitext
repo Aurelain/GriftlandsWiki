@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I’m just getting started.
-|description = Convert up to 3 Adrenaline into Power.
+|description = Convert up to 3 [[Adrenaline]] into [[Power]].
 |cost = 1
 |character = Smith
 |rarity = Rare

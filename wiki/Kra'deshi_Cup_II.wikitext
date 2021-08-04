@@ -1,11 +1,11 @@
 {{CardPage
-|description = Drink 2.<br/>Chain
+|description = [[Drink]] 2.<br/>[[Chain]]
 |cost = 1
 |character = Smith
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Drink]]
+|keywords = [[Drink]], [[Chain]]
 |mindamage = 4
 |maxdamage = 4
 }}

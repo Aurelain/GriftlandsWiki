@@ -1,16 +1,16 @@
 {{CardPage
-|quote = If you can keep up the momentum there's no stopping you.
-|description = Apply 2 [[Trauma]]. [[Chain]]
+|quote = If you can keep up the momentum there’s no stopping you.
+|description = Apply 2 [[Trauma]].<br/>[[Chain]]
 |cost = 2
+|character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|character = Smith
 |keywords = [[Trauma]], [[Chain]]
-|upgradeable = No
-|expreq = 
-|special1= Hammer Swing
-|special2= Hammer Swing II
-|special3= Hammer Swing III
-|special4= Hammer Swing IV
+|special1 = Hammer Swing
+|special2 = Hammer Swing II
+|special3 = Hammer Swing III
+|special4 = Hammer Swing IV
+|mindamage = 2
+|maxdamage = 2
 }}

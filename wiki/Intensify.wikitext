@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Don’t tell anyone where you got those, I’m in enough trouble as it is.
-|description = Choose a card in your hand, it deals double damage until played.<br/>Expend
+|description = Choose a card in your hand, it deals double damage until played.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Uncommon
@@ -8,8 +8,8 @@
 |cardtype = Maneuver
 |keywords = [[Expend]]
 |expreq = 7
-|upgrade1 = Enduring Intensify
+|upgrade1 = Pale Intensify
 |upgrade1summary = 
-|upgrade2 = Pale Intensify
+|upgrade2 = Enduring Intensify
 |upgrade2summary = 
 }}

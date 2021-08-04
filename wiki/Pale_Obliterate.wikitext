@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Bonk!
-|description = Apply 1 Stun.<br/>Expend
+|description = Apply 1 [[Stun]].<br/>[[Expend]]
 |cost = 2
 |character = Smith
 |rarity = Rare
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]], [[Stun]]
+|keywords = [[Stun]], [[Expend]]
 |parent = Obliterate
 |mindamage = 10
 |maxdamage = 12

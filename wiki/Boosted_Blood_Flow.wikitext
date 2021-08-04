@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Feels… funny.
-|description = Gain 3 Moxie, then double your Moxie.<br/>Exert
+|description = Gain 3 [[Moxie]], then double your [[Moxie]].<br/>[[Exert]]
 |cost = 1
 |character = Smith
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Moxie]]
+|keywords = [[Moxie]], [[Exert]]
 |parent = Blood Flow
 }}

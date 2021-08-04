@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I wasn’t using it.
-|description = Take 3 damage. Apply 2 Impair.
+|description = Take 3 damage. Apply 2 [[Impair]].
 |cost = 1
 |character = Smith
 |rarity = Common

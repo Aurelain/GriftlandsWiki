@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Gah! Almost got it in my eyes!
-|description = Attack a random enemy.<br/>Expend 1 Empty Bottle card from your deck: Apply 2 Impair.
+|description = Attack a random enemy.<br/>[[Expend]] 1 [[Empty Bottle]] card from your deck: Apply 2 [[Impair]].
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Impair]]
+|keywords = [[Expend]], [[Impair]]
 |parent = Splinter
 |mindamage = 8
 |maxdamage = 8

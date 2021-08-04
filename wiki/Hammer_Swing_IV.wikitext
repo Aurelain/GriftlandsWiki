@@ -1,10 +1,11 @@
 {{CardPage
-|description = Attack twice.<br/>Chain
+|description = Attack twice.<br/>[[Chain]]
 |cost = 1
 |character = Smith
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
+|keywords = [[Chain]]
 |mindamage = 8
 |maxdamage = 8
 }}

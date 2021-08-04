@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Oh yeah, I’m getting excited for this one.
-|description = Gain 5 Adrenaline at the start of your next turn, you can only play 1 attack that turn.
+|description = Gain 5 [[Adrenaline]] at the start of your next turn, you can only play 1 attack that turn.
 |cost = 1
 |character = Smith
 |rarity = Uncommon

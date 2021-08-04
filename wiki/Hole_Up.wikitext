@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Back in the hole you mutts!
-|description = Gain 6 Defense at the start of your next turn.
+|description = Gain 6 [[Defense]] at the start of your next turn.
 |cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |expreq = 9
 |upgrade1 = Stone Hole Up
 |upgrade1summary = 
