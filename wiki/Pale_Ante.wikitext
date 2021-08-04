@@ -1,10 +1,11 @@
 {{CardPage
 |quote = I’m in.
-|description = Discard 2 cards, Set the coin.
+|description = Discard 2 cards, [[Set the coin]].
 |cost = 0
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
+|keywords = [[Set the coin]]
 |parent = Ante
 }}

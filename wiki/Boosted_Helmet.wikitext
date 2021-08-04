@@ -1,10 +1,10 @@
 {{CardPage
 |quote = Wow, great hat! Mind if I try it on?
-|description = While this is in your hand, apply 4 Composure to a random argument whenever you Prepare a card.<br/>Unplayable
+|description = While this is in your hand, apply 4 [[Composure]] to a random argument whenever you [[Prepare]] a card.<br/>[[Unplayable]]
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Composure]], [[Prepare]]
+|keywords = [[Composure]], [[Prepare]], [[Unplayable]]
 |parent = Helmet
 }}

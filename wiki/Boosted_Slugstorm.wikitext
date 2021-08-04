@@ -1,11 +1,11 @@
 {{CardPage
 |quote = See? You lose the matriarch in the swarm. It’s what they want.
-|description = Gamble.<br/>: Deal 4 damage to all opponent arguments.
+|description = [[Gamble]].<br/>[[Snails]]: Deal 4 damage to all opponent arguments.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Gamble]]
+|keywords = [[Gamble]], [[Snails]]
 |parent = Slugstorm
 }}

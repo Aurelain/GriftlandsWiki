@@ -1,6 +1,6 @@
 {{CardPage
 |quote = That was just a warmup.
-|description = Destroy a card in hand.<br/>Choose one of 3 cards to add to your deck permanently.<br/>Destroy
+|description = [[Destroy]] a card in hand.<br/>Choose one of 3 cards to add to your deck permanently.<br/>[[Destroy]]
 |cost = 2
 |character = Rook
 |rarity = Rare

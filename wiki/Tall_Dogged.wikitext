@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It’s been a rough week for me, give me a second here.
-|description = Prepare a card.<br/>Prepared: This card costs 1 less.
+|description = [[Prepare]] a card.<br/>[[Prepared]]: This card costs 1 less.
 |cost = 2
 |character = Rook
 |rarity = Common
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Prepare]], [[Prepared]]
 |parent = Dogged
+|mindamage = 2
+|maxdamage = 8
 }}

@@ -1,15 +1,15 @@
 {{CardPage
 |quote = I hope I don’t regret this.
-|description = Spend 2 Influence: Gain 3 Dominance.
+|description = Spend 2 [[Influence]]: Gain 3 [[Dominance]].
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Dominance]], [[Influence]]
+|keywords = [[Influence]], [[Dominance]]
 |expreq = 9
-|upgrade1 = Boosted Trade
+|upgrade1 = Pale Trade
 |upgrade1summary = 
-|upgrade2 = Pale Trade
+|upgrade2 = Boosted Trade
 |upgrade2summary = 
 }}

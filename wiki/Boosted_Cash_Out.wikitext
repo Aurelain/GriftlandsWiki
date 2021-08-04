@@ -1,11 +1,13 @@
 {{CardPage
 |quote = No thanks, it’s getting late and I best be going.
-|description = This card gains 1 damage every time you Gamble.<br/>Expend
+|description = This card gains 1 damage every time you [[Gamble]].<br/>[[Expend]]
 |cost = 1
 |character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Expend]], [[Gamble]]
+|keywords = [[Gamble]], [[Expend]]
 |parent = Cash Out
+|mindamage = 4
+|maxdamage = 4
 }}

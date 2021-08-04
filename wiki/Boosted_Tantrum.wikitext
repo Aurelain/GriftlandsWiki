@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It was a stupid game anyway!
-|description = Discard up to 2 cards, gain Dominance equal to their combined cost  + 2.
+|description = Discard up to 2 cards, gain [[Dominance]] equal to their combined cost  + 2.
 |cost = 1
 |character = Rook
 |rarity = Rare

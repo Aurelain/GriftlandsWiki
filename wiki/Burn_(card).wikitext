@@ -1,10 +1,9 @@
 {{CardPage
 |name = Burn
-|image = Burn.png
+|image = Burn (card).png
 |quote = Alright already! I said no guns!
-|description = [[Snails]]: Hits all opponent arguments
+|description = [[Snails]]: Hits all opponent arguments.
 |cost = 1
-|damage = 2
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
@@ -15,4 +14,6 @@
 |upgrade1summary = Max damage +2
 |upgrade2 = Boosted Burn
 |upgrade2summary = Damage +1
+|mindamage = 2
+|maxdamage = 2
 }}

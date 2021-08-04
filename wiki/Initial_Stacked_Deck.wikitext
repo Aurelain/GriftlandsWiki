@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I brought my own from home.
-|description = Gain: At the start of your turn, choose a card in your hand and Prepare it.<br/>Expend, Ambush
+|description = Gain: At the start of your turn, choose a card in your hand and [[Prepare]] it.<br/>[[Expend]], [[Ambush]]
 |cost = 1
 |character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Ambush]], [[Expend]]
+|keywords = [[Prepare]], [[Expend]], [[Ambush]]
 |parent = Stacked Deck
 }}

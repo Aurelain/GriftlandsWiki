@@ -1,15 +1,17 @@
 {{CardPage
 |quote = Hey pay attention, this here is important.
-|description = Gamble.<br/>: Gain 3 bonus damage.
+|description = [[Gamble]].<br/>[[Heads]]: Gain 3 bonus damage.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Gamble]]
+|keywords = [[Gamble]], [[Heads]]
 |expreq = 9
-|upgrade1 = Boosted Blank
+|upgrade1 = Enhanced Blank
 |upgrade1summary = 
-|upgrade2 = Enhanced Blank
+|upgrade2 = Boosted Blank
 |upgrade2summary = 
+|mindamage = 1
+|maxdamage = 3
 }}

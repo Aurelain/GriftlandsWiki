@@ -1,13 +1,12 @@
 {{CardPage
-|quote = Just lucky I guess
-|description = Gain: At the end of your turn, [[Rig]] 2 '''Heads''' or 2 '''Snails''' </br> [[Expend]]
+|quote = Just lucky I guess.
+|description = Gain: At the end of your turn, [[Rig]] 2 [[Heads]] or 2 [[Snails]].<br/>[[Expend]]
 |cost = 1
+|character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Manipulate
-|character = Rook
-|keywords = [[Rig]], [[Expend]]
-|upgradeable = Yes
+|keywords = [[Rig]], [[Heads]], [[Snails]], [[Expend]]
 |expreq = 7
 |upgrade1 = Initial Foresight
 |upgrade1summary = [[Ambush]]

@@ -1,9 +1,11 @@
 {{CardPage
 |quote = This boosts the bet but only if it lands in my favor, understand?
-|description = Discard or play this card: Deal 3 damage to a random target<br/>: Draw a card.
+|description = Discard or play this card: Deal 3 damage to a random target<br/>[[Snails]]: Draw a card.
+|cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Snails]]
 |parent = Kicker
 }}

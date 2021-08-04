@@ -1,6 +1,6 @@
 {{CardPage
 |quote = No thanks, it’s getting late and I best be going.
-|description = This card gains 1 damage every time you Gamble. Damage is reset when played.
+|description = This card gains 1 damage every time you [[Gamble]]. Damage is reset when played.
 |cost = 1
 |character = Rook
 |rarity = Rare
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Gamble]]
 |parent = Cash Out
+|mindamage = 2
+|maxdamage = 2
 }}

@@ -1,11 +1,13 @@
 {{CardPage
 |quote = Slipped, sorry.
-|description = Targets a random opponent argument.<br/>Evoke: Gamble .
+|description = Targets a random opponent argument.<br/>[[Evoke]]: [[Gamble]] [[Heads]].
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Evoke]], [[Gamble]]
+|keywords = [[Evoke]], [[Gamble]], [[Heads]]
 |parent = Head Shot
+|mindamage = 3
+|maxdamage = 3
 }}

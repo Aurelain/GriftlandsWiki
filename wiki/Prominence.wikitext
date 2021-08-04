@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Pay day!
-|description = Spend all Influence. Gamble that many times.
+|description = Spend all [[Influence]]. [[Gamble]] that many times.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Gamble]], [[Influence]]
+|keywords = [[Influence]], [[Gamble]]
 |expreq = 9
 |upgrade1 = Boosted Prominence
 |upgrade1summary = 

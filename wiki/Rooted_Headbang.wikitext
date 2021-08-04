@@ -1,11 +1,13 @@
 {{CardPage
 |quote = One second, I love this track.
-|description = : Double this card's damage and Gamble.
+|description = [[Heads]]: Double this card's damage and [[Gamble]].
 |cost = 2
 |character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Gamble]]
+|keywords = [[Heads]], [[Gamble]]
 |parent = Headbang
+|mindamage = 6
+|maxdamage = 6
 }}

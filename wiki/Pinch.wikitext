@@ -1,11 +1,12 @@
 {{CardPage
 |quote = Nothing up my sleeves.
-|description = Gain 4 Vanish.
+|description = Gain 4 [[Vanish]].
 |cost = 1
 |character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Manipulate
+|keywords = [[Vanish]]
 |expreq = 9
 |upgrade1 = Boosted Pinch
 |upgrade1summary = 

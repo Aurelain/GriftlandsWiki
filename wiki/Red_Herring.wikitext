@@ -2,14 +2,13 @@
 
 {{CardPage
 |quote = Is that him? I thought he was dead!
-|description = Gain 2 '''Diversion'''. </br> [[Expend]]
+|description = Gain 2 [[Diversion]].<br/>[[Expend]]
 |cost = 2
+|character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Expend]]
-|character = Rook
-|upgradeable = Yes
+|keywords = [[Diversion]], [[Expend]]
 |expreq = 5
 |upgrade1 = Boosted Red Herring
 |upgrade1summary = Gain 3 '''Diversion'''

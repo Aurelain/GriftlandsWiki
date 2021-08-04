@@ -1,15 +1,17 @@
 {{CardPage
 |quote = Double or nothing, come on you know I’m good for it.
-|description = Gamble.<br/>: Attack with this card twice.
+|description = [[Gamble]].<br/>[[Snails]]: Attack with this card twice.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Gamble]]
+|keywords = [[Gamble]], [[Snails]]
 |expreq = 9
-|upgrade1 = Boosted Muck
+|upgrade1 = Focused Muck
 |upgrade1summary = 
-|upgrade2 = Focused Muck
+|upgrade2 = Boosted Muck
 |upgrade2summary = 
+|mindamage = 2
+|maxdamage = 2
 }}

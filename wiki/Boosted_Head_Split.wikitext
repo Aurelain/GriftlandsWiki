@@ -1,11 +1,11 @@
 {{CardPage
 |quote = You can split the bet after that landing, haven’t you played before?
-|description = Gamble.<br/>: Deal 5 damage to all opponent arguments.
+|description = [[Gamble]].<br/>[[Heads]]: Deal 5 damage to all opponent arguments.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Gamble]]
+|keywords = [[Gamble]], [[Heads]]
 |parent = Head Split
 }}

@@ -1,15 +1,17 @@
 {{CardPage
 |quote = You should definitely get that looked at.
-|description = This card gains 1 damage every time you Gamble and get .
+|description = This card gains 1 damage every time you [[Gamble]] and get [[Snails]].
 |cost = 2
 |character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Gamble]]
+|keywords = [[Gamble]], [[Snails]]
 |expreq = 7
 |upgrade1 = Rooted Snail Bite
 |upgrade1summary = 
 |upgrade2 = Tall Snail Bite
 |upgrade2summary = 
+|mindamage = 1
+|maxdamage = 4
 }}

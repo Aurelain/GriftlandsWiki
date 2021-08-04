@@ -1,11 +1,13 @@
 {{CardPage
 |quote = Wait what was that?
-|description = : Deal max damage.<br/>Prepared: Gain 1 action and draw a card.
+|description = [[Heads]]: Deal max damage.<br/>[[Prepared]]: Gain 1 action and draw a card.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Prepare]], [[Prepared]]
+|keywords = [[Heads]], [[Prepared]]
 |parent = Head Turner
+|mindamage = 1
+|maxdamage = 4
 }}

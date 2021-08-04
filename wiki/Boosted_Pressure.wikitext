@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I can’t handle this, It’s just too much.
-|description = Spend 1 Influence: This card gains 5 damage until the end of this negotiation.
+|description = Spend 1 [[Influence]]: This card gains 5 damage until the end of this negotiation.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Influence]]
 |parent = Pressure
+|mindamage = 1
+|maxdamage = 3
 }}

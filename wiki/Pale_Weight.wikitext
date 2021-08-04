@@ -1,11 +1,13 @@
 {{CardPage
 |quote = This one is for all the marbles.
-|description = Costs 1 less per Influence. Gamble.
+|description = Costs 1 less per [[Influence]]. [[Gamble]].
 |cost = 3
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Gamble]], [[Influence]]
+|keywords = [[Influence]], [[Gamble]]
 |parent = Weight
+|mindamage = 3
+|maxdamage = 5
 }}

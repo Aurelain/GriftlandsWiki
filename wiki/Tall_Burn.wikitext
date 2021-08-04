@@ -1,10 +1,13 @@
 {{CardPage
 |quote = Alright already! I said no guns!
-|description = : Hits all opponent arguments.
+|description = [[Snails]]: Hits all opponent arguments.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Snails]]
 |parent = Burn
+|mindamage = 2
+|maxdamage = 4
 }}

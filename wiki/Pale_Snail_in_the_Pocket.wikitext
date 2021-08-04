@@ -1,10 +1,11 @@
 {{CardPage
 |quote = For emergencies of course.
-|description = Set the coin to  and discard a card.
+|description = Set the coin to [[Snails]] and discard a card.
 |cost = 0
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Snails]]
 |parent = Snail in the Pocket
 }}

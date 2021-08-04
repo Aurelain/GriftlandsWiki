@@ -7,9 +7,9 @@
 |decktype = Negotiation
 |cardtype = Diplomacy
 |expreq = 9
-|upgrade1 = Rooted Agency
+|upgrade1 = Tall Agency
 |upgrade1summary = 
-|upgrade2 = Tall Agency
+|upgrade2 = Rooted Agency
 |upgrade2summary = 
 |mindamage = 1
 |maxdamage = 3

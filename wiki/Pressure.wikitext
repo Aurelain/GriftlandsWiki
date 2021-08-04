@@ -1,18 +1,19 @@
 {{Reupload}}
 
 {{CardPage
-|quote = I can't handle this, It's just to much.
+|quote = I can’t handle this, It’s just too much.
 |description = Spend 1 [[Influence]]: This card gains 3 damage until the end of this negotiation.
 |cost = 1
+|character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|character = Rook
 |keywords = [[Influence]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Tall Pressure
 |upgrade1summary = Deal 1-6 base damage
 |upgrade2 = Boosted Pressure
 |upgrade2summary = This card gains 5 damage until the end of this negotiation.
+|mindamage = 1
+|maxdamage = 3
 }}

@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Looks like you are all out of options friend.
-|description = Draw 2 cards then Gamble.<br/>: Those cards cost 1 less until played.
+|description = Draw 2 cards then [[Gamble]].<br/>[[Heads]]: Those cards cost 1 less until played.
 |cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Gamble]]
+|keywords = [[Gamble]], [[Heads]]
 |parent = Dead Draw
 }}

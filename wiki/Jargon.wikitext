@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I’ve never heard that term before but I think I catch your drift.
-|description = Prepared: apply 1 Composure to a random friendly argument every time you play a card.<br/>Unplayable
+|description = [[Prepared]]: apply 1 [[Composure]] to a random friendly argument every time you play a card.<br/>[[Unplayable]]
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Composure]], [[Prepare]], [[Prepared]], [[Unplayable]]
+|keywords = [[Prepared]], [[Composure]], [[Unplayable]]
 |expreq = 10
 |upgrade1 = Boosted Jargon
 |upgrade1summary = 

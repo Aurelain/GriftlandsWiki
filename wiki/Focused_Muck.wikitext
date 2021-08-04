@@ -1,11 +1,13 @@
 {{CardPage
 |quote = Double or nothing, come on you know I’m good for it.
-|description = Gamble.<br/>: Attack with this card three times.
+|description = [[Gamble]].<br/>[[Snails]]: Attack with this card three times.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Gamble]]
+|keywords = [[Gamble]], [[Snails]]
 |parent = Muck
+|mindamage = 2
+|maxdamage = 2
 }}

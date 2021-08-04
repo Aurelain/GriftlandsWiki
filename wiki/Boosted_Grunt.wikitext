@@ -1,11 +1,13 @@
 {{CardPage
 |quote = Those aren’t even words.
-|description = Prepared: +3 damage and draw a card.
+|description = [[Prepared]]: +3 damage and draw a card.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Prepare]], [[Prepared]]
+|keywords = [[Prepared]]
 |parent = Grunt
+|mindamage = 3
+|maxdamage = 5
 }}

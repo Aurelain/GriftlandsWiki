@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Just lucky I guess.
-|description = Gain: At the end of your turn, Rig 2  or 2 .<br/>Expend
+|description = Gain: At the end of your turn, [[Rig]] 2 [[Heads]] or 2 [[Snails]].<br/>[[Expend]]
 |cost = 0
 |character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Expend]], [[Rig]]
+|keywords = [[Rig]], [[Heads]], [[Snails]], [[Expend]]
 |parent = Foresight
 }}

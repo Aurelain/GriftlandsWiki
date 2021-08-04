@@ -1,10 +1,10 @@
 {{CardPage
 |quote = The one on the bottom tends to hunt more ferociously.
-|description = Discard this card: Draw 1 card and gain 2 Dominance.<br/>Unplayable
+|description = Discard this card: Draw 1 card and gain 2 [[Dominance]].<br/>[[Unplayable]]
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Dominance]]
+|keywords = [[Dominance]], [[Unplayable]]
 |parent = Bottom Snail
 }}

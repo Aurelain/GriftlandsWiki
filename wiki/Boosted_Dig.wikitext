@@ -1,10 +1,13 @@
 {{CardPage
 |quote = The sweetest prey are always buried deep.
-|description = : This card costs 0.
+|description = [[Snails]]: This card costs 0.
 |cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Snails]]
 |parent = Dig
+|mindamage = 5
+|maxdamage = 5
 }}
