@@ -7,8 +7,8 @@
 |decktype = Negotiation
 |cardtype = Manipulate
 |expreq = 10
-|upgrade1 = Boosted Indecision
+|upgrade1 = Visionary Indecision
 |upgrade1summary = 
-|upgrade2 = Visionary Indecision
+|upgrade2 = Boosted Indecision
 |upgrade2summary = 
 }}

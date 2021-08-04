@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Wouldn’t miss it for the world.
-|description = Add 2 resolve to all friendly arguments.<br/>Expend
+|description = Add 2 resolve to all friendly arguments.<br/>[[Expend]]
 |cost = 2
 |character = Smith
 |rarity = Rare
@@ -8,8 +8,8 @@
 |cardtype = Diplomacy
 |keywords = [[Expend]]
 |expreq = 5
-|upgrade1 = Boosted Center of Attention
+|upgrade1 = Pale Center of Attention
 |upgrade1summary = 
-|upgrade2 = Pale Center of Attention
+|upgrade2 = Boosted Center of Attention
 |upgrade2summary = 
 }}

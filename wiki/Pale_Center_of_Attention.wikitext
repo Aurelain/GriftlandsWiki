@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Wouldn’t miss it for the world.
-|description = Add 2 resolve to all friendly arguments.<br/>Expend
+|description = Add 2 resolve to all friendly arguments.<br/>[[Expend]]
 |cost = 1
 |character = Smith
 |rarity = Rare

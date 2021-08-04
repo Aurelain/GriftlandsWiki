@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Just try and think yourself out of this one!
-|description = Expend any number of cards in your hand, gain 1 Dominance per card expended.<br/>Expend
+|description = [[Expend]] any number of cards in your hand, gain 1 [[Dominance]] per card expended.<br/>[[Expend]]
 |cost = 2
 |character = Smith
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Dominance]], [[Expend]]
+|keywords = [[Expend]], [[Dominance]]
 |expreq = 5
 |upgrade1 = Boosted Thoughtless
 |upgrade1summary = 

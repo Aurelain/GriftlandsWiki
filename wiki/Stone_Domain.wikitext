@@ -1,6 +1,6 @@
 {{CardPage
 |quote = This is my house!
-|description = Apply 2 Composure to all friendly arguments. Increase by 2 for each Hostile card played this turn.
+|description = Apply 2 [[Composure]] to all friendly arguments. Increase by 2 for each Hostile card played this turn.
 |cost = 1
 |character = Smith
 |rarity = Rare
