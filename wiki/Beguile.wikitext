@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Well if it isn’t everybody’s favorite bounty hunter.
-|description = Gains 3 damage each time this is drawn while you have Influence.
+|description = Gains 3 damage each time this is drawn while you have [[Influence]].
 |cost = 2
 |character = Sal
 |rarity = Uncommon
@@ -12,4 +12,6 @@
 |upgrade1summary = 
 |upgrade2 = Tall Beguile
 |upgrade2summary = 
+|mindamage = 4
+|maxdamage = 4
 }}

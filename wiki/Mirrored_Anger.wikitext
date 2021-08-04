@@ -1,6 +1,6 @@
 {{CardPage
 |quote = He didn’t even have to say anything. The whole place could feel it.
-|description = Spend 1 Dominance: Attack with this card twice.
+|description = Spend 1 [[Dominance]]: Attack with this card twice.
 |cost = 0
 |character = Sal
 |rarity = Uncommon
@@ -8,4 +8,6 @@
 |cardtype = Hostility
 |keywords = [[Dominance]]
 |parent = Veiled Anger
+|mindamage = 0
+|maxdamage = 3
 }}

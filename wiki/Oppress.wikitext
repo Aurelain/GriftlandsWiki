@@ -1,15 +1,17 @@
 {{CardPage
-|quote = You haven't made a decent point in hours! Just give up already.
-|description = If this card destroys an argument, gain 1 [[Dominance]]
+|quote = You haven’t made a decent point in hours! Just give up already.
+|description = If this card destroys an argument, gain 1 [[Dominance]].
 |cost = 1
 |character = Sal
 |rarity = Common
-|cardtype = Hostility
 |decktype = Negotiation
-|upgradeable = Yes
+|cardtype = Hostility
+|keywords = [[Dominance]]
 |expreq = 9
 |upgrade1 = Twisted Oppress
 |upgrade1summary = Deal 0-3 base damage </br> Gain 2 [[Dominance]]
 |upgrade2 = Tall Oppress
 |upgrade2summary = Deal 1-8 base damage
+|mindamage = 1
+|maxdamage = 4
 }}

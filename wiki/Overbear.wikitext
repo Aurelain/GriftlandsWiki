@@ -6,12 +6,13 @@
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Hostility
 |decktype = Negotiation
-|upgradeable = Yes
+|cardtype = Hostility
 |expreq = 9
-|upgrade1 = Enhanced Overbear
-|upgrade1summary = Draw a card for each enemy argument
-|upgrade2 = Tall Overbear
-|upgrade2summary = Deal 1-5 base damage
+|upgrade1 = Tall Overbear
+|upgrade1summary = Deal 1-5 base damage
+|upgrade2 = Enhanced Overbear
+|upgrade2summary = Draw a card for each enemy argument
+|mindamage = 1
+|maxdamage = 3
 }}

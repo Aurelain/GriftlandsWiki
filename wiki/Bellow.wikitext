@@ -7,8 +7,10 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |expreq = 9
-|upgrade1 = Rooted Bellow
+|upgrade1 = Tall Bellow
 |upgrade1summary = 
-|upgrade2 = Tall Bellow
+|upgrade2 = Rooted Bellow
 |upgrade2summary = 
+|mindamage = 1
+|maxdamage = 2
 }}

@@ -1,16 +1,17 @@
 {{CardPage
-|quote = That's gotta hurt.
+|quote = That’s gotta hurt.
 |description = Remove target argument's [[Composure]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Hostility
 |decktype = Negotiation
+|cardtype = Hostility
 |keywords = [[Composure]]
-|upgradeable = Yes
 |expreq = 9
-|upgrade1 = Boosted Low Blow
-|upgrade1summary = Deal 4-7 base damage
-|upgrade2 = Thief's Low Blow
-|upgrade2summary = Steal target argument's [[Composure]]
+|upgrade1 = Thief's Low Blow
+|upgrade1summary = Steal target argument's [[Composure]]
+|upgrade2 = Boosted Low Blow
+|upgrade2summary = Deal 4-7 base damage
+|mindamage = 3
+|maxdamage = 4
 }}

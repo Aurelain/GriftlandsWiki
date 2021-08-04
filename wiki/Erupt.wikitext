@@ -1,16 +1,16 @@
 {{CardPage
 |quote = Do you have any idea who I am!?
-|description = Attack a random enemy argument. </br> [[Evoke]]: Play 4 Hostility cards in a single turn. </br> [[Unplayable]]
-|cost = 
+|description = Attack a random opponent argument.<br/>[[Evoke]]: Play 4 Hostility cards in a single turn.<br/>[[Unplayable]]
 |character = Sal
 |rarity = Common
-|cardtype = Hostility
 |decktype = Negotiation
-|keywords = [[Ability]], [[Combo]], [[Expend]]
-|upgradeable = Yes
+|cardtype = Hostility
+|keywords = [[Evoke]], [[Unplayable]]
 |expreq = 10
 |upgrade1 = Boosted Erupt
 |upgrade1summary = Deals 3 base damage
 |upgrade2 = Pale Erupt
 |upgrade2summary = [[Evoke]]: Play 3 Hostility cards
+|mindamage = 2
+|maxdamage = 2
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It’s all over!
-|description = Spend all Dominance: Gain 1 action and draw a card for each Dominance.<br/>Expend
+|description = Spend all [[Dominance]]: Gain 1 action and draw a card for each [[Dominance]].<br/>[[Expend]]
 |cost = 2
 |character = Sal
 |rarity = Rare
@@ -8,8 +8,8 @@
 |cardtype = Hostility
 |keywords = [[Dominance]], [[Expend]]
 |expreq = 5
-|upgrade1 = Enduring This Ends Now
+|upgrade1 = Pale This Ends Now
 |upgrade1summary = 
-|upgrade2 = Pale This Ends Now
+|upgrade2 = Enduring This Ends Now
 |upgrade2summary = 
 }}

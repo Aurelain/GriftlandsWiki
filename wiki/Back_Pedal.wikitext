@@ -1,13 +1,13 @@
 {{CardPage
 |quote = Look, you guys got me all wrong!
-|description = Expend 1 chosen card in your hand.<br/>Apply 5 Composure.
+|description = [[Expend]] 1 chosen card in your hand.<br/>Apply 5 [[Composure]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Composure]]
-|expreq = 9
+|keywords = [[Expend]], [[Composure]]
+|expreq = 7
 |upgrade1 = Boosted Pedal
 |upgrade1summary = 
 |upgrade2 = Lucid Pedal

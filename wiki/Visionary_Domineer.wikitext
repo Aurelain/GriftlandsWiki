@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You’re going to be picking up your teeth after I’m through with you!
-|description = Spend 3 Dominance: Gain 2 actions and draw 2 cards.
+|description = Spend 3 [[Dominance]]: Gain 2 actions and draw 2 cards.
 |cost = 1
 |character = Sal
 |rarity = Rare
@@ -8,4 +8,6 @@
 |cardtype = Hostility
 |keywords = [[Dominance]]
 |parent = Domineer
+|mindamage = 3
+|maxdamage = 3
 }}

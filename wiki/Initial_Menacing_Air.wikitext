@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I don’t know what it is. But I don’t like it.
-|description = Gain: At the beginning of your turn, gain 1 Dominance.<br/>Expend, Ambush
+|description = Gain: At the beginning of your turn, gain 1 [[Dominance]].<br/>[[Expend]], [[Ambush]]
 |cost = 3
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Ambush]], [[Dominance]], [[Expend]]
+|keywords = [[Dominance]], [[Expend]], [[Ambush]]
 |parent = Menacing Air
 }}

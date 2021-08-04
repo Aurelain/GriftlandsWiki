@@ -7,4 +7,6 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |parent = Bellow
+|mindamage = 1
+|maxdamage = 6
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You’re going to be picking up your teeth after I’m through with you!
-|description = Spend 3 Dominance: Gain 2 actions.
+|description = Spend 3 [[Dominance]]: Gain 2 actions.
 |cost = 1
 |character = Sal
 |rarity = Rare
@@ -12,4 +12,6 @@
 |upgrade1summary = 
 |upgrade2 = Visionary Domineer
 |upgrade2summary = 
+|mindamage = 3
+|maxdamage = 3
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = You haven’t made a decent point in hours! Just give up already.
-|description = If this card destroys an argument, gain 2 Dominance.
+|description = If this card destroys an argument, gain 2 [[Dominance]].
 |cost = 1
 |character = Sal
 |rarity = Common
@@ -8,4 +8,6 @@
 |cardtype = Hostility
 |keywords = [[Dominance]]
 |parent = Oppress
+|mindamage = 0
+|maxdamage = 3
 }}

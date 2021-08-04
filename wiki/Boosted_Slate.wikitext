@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Okay, we got off on the wrong foot here.
-|description = Remove all arguments in play.<br/>Dismiss all opponent intents.<br/>Expend
+|description = Remove all arguments in play.<br/>Dismiss all opponent intents.<br/>[[Expend]]
 |cost = 2
 |character = Sal
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Manipulate
+|keywords = [[Expend]]
 |parent = Clean Slate
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = What is this? Some kind of Bandit deal?!
-|description = Spend 1 Dominance: Destroy an opponent argument.
+|description = Spend 1 [[Dominance]]: Destroy an opponent argument.
 |cost = 0
 |character = Sal
 |rarity = Uncommon

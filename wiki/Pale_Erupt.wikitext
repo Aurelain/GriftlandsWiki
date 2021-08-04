@@ -1,10 +1,12 @@
 {{CardPage
 |quote = Do you have any idea who I am!?
-|description = Attack a random opponent argument.<br/>Evoke: Play 3 Hostility cards in a single turn.<br/>Unplayable
+|description = Attack a random opponent argument.<br/>[[Evoke]]: Play 3 Hostility cards in a single turn.<br/>[[Unplayable]]
 |character = Sal
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Evoke]]
+|keywords = [[Evoke]], [[Unplayable]]
 |parent = Erupt
+|mindamage = 2
+|maxdamage = 2
 }}

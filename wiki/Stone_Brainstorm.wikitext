@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Alright, I have a few ideas.
-|description = Draw 3 cards.<br/>Gain 2 Composure.
+|description = Draw 3 cards.<br/>Gain 2 [[Composure]].
 |cost = 1
 |character = Sal
 |rarity = Common

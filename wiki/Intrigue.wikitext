@@ -1,18 +1,19 @@
 {{Reupload}}
 
 {{CardPage
-|quote =Very interesting.
-|description = Spend 1 [[Influence]]: Deal an additional 3 damage
+|quote = Very interesting.
+|description = Spend 1 [[Influence]]: Deal an additional 3 damage.
 |cost = 1
 |character = Sal
 |rarity = Common
-|cardtype = Diplomacy
 |decktype = Negotiation
+|cardtype = Diplomacy
 |keywords = [[Influence]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Enhanced Intrigue
 |upgrade1summary = Deal an additional 5 damage
 |upgrade2 = Sparing Intrigue
 |upgrade2summary = If you have any [[Influence]]
+|mindamage = 2
+|maxdamage = 3
 }}

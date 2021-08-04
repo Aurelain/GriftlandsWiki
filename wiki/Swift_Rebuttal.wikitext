@@ -1,6 +1,6 @@
 {{CardPage
 |quote = A'ha! Got you!
-|description = Improvise a card that costs 0 from your discard pile.
+|description = [[Improvise]] a card that costs 0 from your discard pile.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
@@ -12,4 +12,6 @@
 |upgrade1summary = 
 |upgrade2 = Visionary Rebuttal
 |upgrade2summary = 
+|mindamage = 1
+|maxdamage = 3
 }}

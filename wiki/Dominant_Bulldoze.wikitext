@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Outta my way!
-|description = Gain 1 Dominance.<br/>Gain: Whenever you destroy an argument, gain an action.<br/>Expend
+|description = Gain 1 [[Dominance]].<br/>Gain: Whenever you destroy an argument, gain an action.<br/>[[Expend]]
 |cost = 2
 |character = Sal
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Dominance]]
+|keywords = [[Dominance]], [[Expend]]
 |parent = Bulldoze
 }}

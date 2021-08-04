@@ -1,10 +1,11 @@
 {{CardPage
 |quote = I wouldn’t exactly call that F’ssh’s good eye.
-|description = Draw a card.<br/>The damage of the next card played this turn is doubled.<br/>Expend
+|description = Draw a card.<br/>The damage of the next card played this turn is doubled.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
+|keywords = [[Expend]]
 |parent = Evil Eye
 }}

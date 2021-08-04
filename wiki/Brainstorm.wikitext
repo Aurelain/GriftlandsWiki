@@ -4,9 +4,8 @@
 |cost = 1
 |character = Sal
 |rarity = Common
-|cardtype = Manipulate
 |decktype = Negotiation
-|upgradeable = Yes
+|cardtype = Manipulate
 |expreq = 9
 |upgrade1 = Boosted Brainstorm
 |upgrade1summary = Draw 4 cards

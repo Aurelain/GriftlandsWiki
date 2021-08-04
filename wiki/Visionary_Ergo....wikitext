@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Therefore...
-|description = Improvise two cards from your discard pile.
+|description = [[Improvise]] two cards from your discard pile.
 |cost = 1
 |character = Sal
 |rarity = Uncommon

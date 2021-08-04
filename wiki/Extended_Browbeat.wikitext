@@ -7,4 +7,6 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |parent = Browbeat
+|mindamage = 1
+|maxdamage = 2
 }}

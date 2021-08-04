@@ -7,4 +7,6 @@
 |decktype = Negotiation
 |cardtype = Diplomacy
 |parent = Good Impression
+|mindamage = 7
+|maxdamage = 9
 }}

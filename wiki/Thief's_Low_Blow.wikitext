@@ -1,6 +1,6 @@
 {{CardPage
 |quote = That’s gotta hurt.
-|description = Steal target argument's Composure.
+|description = Steal target argument's [[Composure]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon
@@ -8,4 +8,6 @@
 |cardtype = Hostility
 |keywords = [[Composure]]
 |parent = Low Blow
+|mindamage = 3
+|maxdamage = 4
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = A'ha! Got you!
-|description = Improvise two cards that cost 0 from your discard pile.
+|description = [[Improvise]] two cards that cost 0 from your discard pile.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Improvise]]
 |parent = Swift Rebuttal
+|mindamage = 1
+|maxdamage = 3
 }}

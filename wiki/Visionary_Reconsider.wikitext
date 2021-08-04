@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Well, when you put it that way...
-|description = Remove one of your arguments, inceptions, or bounties.<br/>Gain 2 actions.<br/>Draw a Card.<br/>Expend
+|description = Remove one of your arguments, inceptions, or bounties.<br/>Gain 2 actions.<br/>Draw a Card.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
+|keywords = [[Expend]]
 |parent = Reconsider
 }}

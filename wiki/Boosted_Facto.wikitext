@@ -1,10 +1,10 @@
 {{CardPage
 |quote = I think it’s Latin? Sure makes it hard to figure out.
-|description = Gain 2 Influence.<br/>Evoke: An opponent's argument is removed or destroyed.<br/>Unplayable
+|description = Gain 2 [[Influence]].<br/>[[Evoke]]: An opponent's argument is removed or destroyed.<br/>[[Unplayable]]
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Evoke]], [[Influence]], [[Unplayable]]
+|keywords = [[Influence]], [[Evoke]], [[Unplayable]]
 |parent = Ipso Facto
 }}

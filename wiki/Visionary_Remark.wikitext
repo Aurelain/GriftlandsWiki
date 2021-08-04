@@ -1,10 +1,10 @@
 {{CardPage
 |quote = Wrong!
-|description = Draw 2 cards.<br/>Evoke: An opponent argument is removed or destroyed.<br/>Unplayable
+|description = Draw 2 cards.<br/>[[Evoke]]: An opponent argument is removed or destroyed.<br/>[[Unplayable]]
 |character = Sal
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
-|keywords = [[Evoke]]
+|keywords = [[Evoke]], [[Unplayable]]
 |parent = Abrupt Remark
 }}

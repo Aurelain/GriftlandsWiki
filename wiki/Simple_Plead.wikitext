@@ -6,4 +6,6 @@
 |decktype = Negotiation
 |cardtype = Diplomacy
 |parent = Plead
+|mindamage = 0
+|maxdamage = 3
 }}

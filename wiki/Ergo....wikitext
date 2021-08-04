@@ -4,10 +4,9 @@
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Manipulate
 |decktype = Negotiation
+|cardtype = Manipulate
 |keywords = [[Improvise]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Visionary Ergo...
 |upgrade1summary = [[Improvise]] 2 cards

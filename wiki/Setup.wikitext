@@ -1,13 +1,12 @@
 {{CardPage
-|quote = Okay, stop me if you've heard this one...
-|description = Gain 2 [[Influence]]. <br/> At the end of your turn, lose 2 [[Influence]]
+|quote = Okay, stop me if you’ve heard this one....
+|description = Gain 2 [[Influence]]. At the end of your turn, lose 2 [[Influence]].
 |cost = 0
 |character = Sal
 |rarity = Common
-|cardtype = Diplomacy
 |decktype = Negotiation
+|cardtype = Diplomacy
 |keywords = [[Influence]]
-|upgradeable = Yes
 |expreq = 10
 |upgrade1 = Boosted Setup
 |upgrade1summary = Gain 3 [[Influence]]. Lose 3 [[Influence]]

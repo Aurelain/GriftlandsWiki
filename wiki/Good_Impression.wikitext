@@ -1,16 +1,16 @@
 {{CardPage
 |quote = What do you mean? They show up on time and get their work done.
-|description = Deal 5-7 base damage. </br> This card loses 1 damage each time you end your turn.
+|description = This card loses 1 damage each time you end your turn.
 |cost = 1
+|character = Sal
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|character = Sal
-|keywords = 
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Impression
 |upgrade1summary = Deal 7-9 base damage
 |upgrade2 = Pale Impression
 |upgrade2summary = Cost 1 action less
+|mindamage = 5
+|maxdamage = 7
 }}

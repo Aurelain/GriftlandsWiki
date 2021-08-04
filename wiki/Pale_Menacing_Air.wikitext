@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I don’t know what it is. But I don’t like it.
-|description = Gain: At the beginning of your turn, gain 1 Dominance.<br/>Expend
+|description = Gain: At the beginning of your turn, gain 1 [[Dominance]].<br/>[[Expend]]
 |cost = 2
 |character = Sal
 |rarity = Uncommon

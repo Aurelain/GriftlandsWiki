@@ -6,4 +6,6 @@
 |decktype = Negotiation
 |cardtype = Hostility
 |parent = Veiled Anger
+|mindamage = 1
+|maxdamage = 5
 }}

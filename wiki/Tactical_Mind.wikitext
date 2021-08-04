@@ -1,14 +1,13 @@
 {{CardPage
-|quote = Smith squinted and thought long and hard. His diner order was finally falling into place.
-|description = Gain: Draw 1 extra card at the start of your turn. <br/> [[Expend]]
+|quote = Smith squinted and thought long and hard. His dinner order was finally falling into place.
+|description = Gain: Draw 1 extra card at the start of your turn.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Manipulate
 |decktype = Negotiation
+|cardtype = Manipulate
 |keywords = [[Expend]]
-|upgradeable = Yes
-|expreq = 9
+|expreq = 7
 |upgrade1 = Pale Mind
 |upgrade1summary = Costs 0 actions
 |upgrade2 = Boosted Mind

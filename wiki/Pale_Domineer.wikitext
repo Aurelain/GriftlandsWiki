@@ -1,11 +1,13 @@
 {{CardPage
 |quote = You’re going to be picking up your teeth after I’m through with you!
-|description = Spend 2 Dominance: Gain 2 actions.
-|cost = 2
+|description = Spend 2 [[Dominance]]: Gain 2 actions.
+|cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Hostility
 |keywords = [[Dominance]]
 |parent = Domineer
+|mindamage = 3
+|maxdamage = 3
 }}

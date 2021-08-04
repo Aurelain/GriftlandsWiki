@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Look, you guys got me all wrong!
-|description = Expend 1 chosen card in your hand.<br/>Apply 8 Composure.
+|description = [[Expend]] 1 chosen card in your hand.<br/>Apply 8 [[Composure]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Composure]]
+|keywords = [[Expend]], [[Composure]]
 |parent = Back Pedal
 }}

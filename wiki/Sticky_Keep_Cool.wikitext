@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Nothing fazes them, it’s unreal.
-|description = Double Composure on all arguments.<br/>Sticky
+|description = Double [[Composure]] on all arguments.<br/>[[Sticky]]
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Sticky]]
+|keywords = [[Composure]], [[Sticky]]
 |parent = Keep Cool
 }}

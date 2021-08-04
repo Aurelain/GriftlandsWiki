@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Well, when you put it that way...
-|description = Remove one of your arguments, inceptions, or bounties.<br/>Gain 2 actions.<br/>Expend
+|description = Remove one of your arguments, inceptions, or bounties.<br/>Gain 2 actions.<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Uncommon

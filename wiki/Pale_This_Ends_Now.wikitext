@@ -1,6 +1,6 @@
 {{CardPage
 |quote = It’s all over!
-|description = Spend all Dominance: Gain 1 action and draw a card for each Dominance.<br/>Expend
+|description = Spend all [[Dominance]]: Gain 1 action and draw a card for each [[Dominance]].<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Rare

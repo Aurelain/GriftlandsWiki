@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I wouldn’t exactly call that F’ssh’s good eye.
-|description = The damage of the next card played this turn is doubled.<br/>Expend
+|description = The damage of the next card played this turn is doubled.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon

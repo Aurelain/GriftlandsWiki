@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Smith squinted and thought long and hard. His dinner order was finally falling into place.
-|description = Gain: Draw 1 extra card at the start of your turn.<br/>Expend
+|description = Gain: Draw 1 extra card at the start of your turn.<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Uncommon

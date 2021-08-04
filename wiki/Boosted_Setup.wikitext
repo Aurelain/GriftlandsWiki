@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Okay, stop me if you’ve heard this one....
-|description = Gain 3 Influence. At the end of your turn, lose 3 Influence.
+|description = Gain 3 [[Influence]]. At the end of your turn, lose 3 [[Influence]].
 |cost = 0
 |character = Sal
 |rarity = Common

@@ -1,16 +1,17 @@
 {{CardPage
-|quote = I'm begging here.
+|quote = I’m begging here.
 |description = Lose 1 [[Influence]].
 |cost = 0
 |character = Sal
 |rarity = Common
-|cardtype = Diplomacy
 |decktype = Negotiation
+|cardtype = Diplomacy
 |keywords = [[Influence]]
-|upgradeable = Yes
 |expreq = 10
 |upgrade1 = Simple Plead
 |upgrade1summary = Remove: Lose 1 [[Influence]]
 |upgrade2 = Tall Plead
 |upgrade2summary = Deals 0-5 base damage
+|mindamage = 0
+|maxdamage = 3
 }}

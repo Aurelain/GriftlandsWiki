@@ -1,11 +1,11 @@
 {{CardPage
 |quote = You know the Ollowano family? The same, they’ll be interested to hear about this.
-|description = Double your Influence.<br/>Gain 2 Vulnerability.<br/>Expend
+|description = Double your [[Influence]].<br/>Gain 2 [[Vulnerability]].<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Diplomacy
-|keywords = [[Ability]], [[Influence]], [[Vulnerability]]
+|keywords = [[Influence]], [[Vulnerability]], [[Expend]]
 |parent = Calling in all Favors
 }}

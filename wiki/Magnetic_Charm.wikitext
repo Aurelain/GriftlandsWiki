@@ -1,6 +1,6 @@
 {{CardPage
 |quote = The room just lights right up.
-|description = Draw 2 cards. Gain 1 Influence for each Diplomacy card drawn.
+|description = Draw 2 cards. Gain 1 [[Influence]] for each Diplomacy card drawn.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
@@ -8,8 +8,8 @@
 |cardtype = Diplomacy
 |keywords = [[Influence]]
 |expreq = 9
-|upgrade1 = Boosted Charm
+|upgrade1 = Enhanced Charm
 |upgrade1summary = 
-|upgrade2 = Enhanced Charm
+|upgrade2 = Boosted Charm
 |upgrade2summary = 
 }}

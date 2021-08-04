@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Therefore...
-|description = Improvise+ a card from your discard pile.
+|description = [[Improvise+]] a card from your discard pile.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
-|keywords = [[Improvise]]
+|keywords = [[Improvise+]]
 |parent = Ergo...
 }}

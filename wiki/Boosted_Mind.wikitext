@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Smith squinted and thought long and hard. His dinner order was finally falling into place.
-|description = Gain: Draw 2 extra cards at the start of your turn.<br/>Expend
+|description = Gain: Draw 2 extra cards at the start of your turn.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Manipulate
+|keywords = [[Expend]]
 |parent = Tactical Mind
 }}

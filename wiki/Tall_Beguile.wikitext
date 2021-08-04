@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Well if it isn’t everybody’s favorite bounty hunter.
-|description = Gains 3 damage each time this is drawn while you have Influence.
+|description = Gains 3 damage each time this is drawn while you have [[Influence]].
 |cost = 2
 |character = Sal
 |rarity = Uncommon
@@ -8,4 +8,6 @@
 |cardtype = Diplomacy
 |keywords = [[Influence]]
 |parent = Beguile
+|mindamage = 6
+|maxdamage = 6
 }}
