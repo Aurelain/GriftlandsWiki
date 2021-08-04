@@ -1,13 +1,12 @@
 {{CardPage
-|quote = Footwork that's popular in Jarackle wresting, you can get a lot more heft in your attacks apparently.
-|description = [[Ability]]: Your [[Counter]] attacks apply 1 [[Wound]]. </br> [[Expend]]
+|quote = Footwork that's popular in Jarackle wrestling, you can get a lot more heft in your attacks apparently.
+|description = [[Ability]]: Your [[Counter]] attacks apply 1 [[Wound]].<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Counter]], [[Wound]], [[Ability]]
-|upgradeable = Yes
+|keywords = [[Ability]], [[Counter]], [[Wound]], [[Expend]]
 |expreq = 7
 |upgrade1 = Initial Deepstance
 |upgrade1summary = [[Ambush]]. Remove [[Expend]]

@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Take a second, organize your thoughts, and plan your next move.
-|description = Spend 2 Combo: Gain 1 action.<br/>Finisher
-|cost = 2
+|description = Spend 2 [[Combo]]: Gain 1 action.<br/>[[Finisher]]
+|cost = 0
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Combo]]
+|keywords = [[Combo]], [[Finisher]]
 |parent = Breather
 }}

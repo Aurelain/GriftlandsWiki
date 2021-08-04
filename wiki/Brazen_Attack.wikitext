@@ -1,16 +1,17 @@
 {{CardPage
-|quote = Big and loud attack are riskier but leave your opponents reeling.
-|description = Apply 2 [[Impair]]. </br> [[Piercing]]
+|quote = Big and loud attacks are riskier but leave your opponents reeling.
+|description = Apply 2 [[Impair]].<br/>[[Piercing]]
 |cost = 2
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Impair]], [[Piercing]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Heavy Brazen Attack
 |upgrade1summary = 3 [[Impair]]
 |upgrade2 = Boosted Brazen Attack
 |upgrade2summary = Deal 6-12 base damage
+|mindamage = 4
+|maxdamage = 8
 }}

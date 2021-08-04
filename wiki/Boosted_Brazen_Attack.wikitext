@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Big and loud attacks are riskier but leave your opponents reeling.
-|description = Apply 2 Impair.<br/>Piercing
+|description = Apply 2 [[Impair]].<br/>[[Piercing]]
 |cost = 2
 |character = Sal
 |rarity = Common

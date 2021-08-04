@@ -6,11 +6,11 @@
 |rarity = Rare
 |decktype = Battle
 |cardtype = Attack
-|keywords = 
-|upgradeable = Yes
 |expreq = 6
 |upgrade1 = Mirrored Discharge
 |upgrade1summary = Targets one additional time.
 |upgrade2 = Boosted Discharge
 |upgrade2summary = Deals 3 damage to each target.
+|mindamage = 2
+|maxdamage = 2
 }}

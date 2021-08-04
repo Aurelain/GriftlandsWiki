@@ -1,12 +1,12 @@
 {{CardPage
 |quote = You sure that guy even has kidneys?
-|description = Apply Stun.<br/>Expend
+|description = Apply [[Stun]].<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]]
+|keywords = [[Stun]], [[Expend]]
 |parent = Kidney Shot
 |mindamage = 2
 |maxdamage = 6

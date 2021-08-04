@@ -1,16 +1,17 @@
 {{CardPage
 |quote = They'll be seeing stars after I get through with them!
-|description = Apply [[Stun]]. </br> [[Expend]]
+|description = Apply [[Stun]].<br/>[[Expend]]
 |cost = 3
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Stun]], [[Expend]]
-|upgradeable = Yes
 |expreq = 3
 |upgrade1 = Boosted Crushing Blow
 |upgrade1summary = Deal 12-16 base damage
 |upgrade2 = Nailed Crushing Blow
 |upgrade2summary = [[Piercing]]
+|mindamage = 8
+|maxdamage = 12
 }}

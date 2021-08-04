@@ -1,6 +1,6 @@
 {{CardPage
 |quote = She was just waiting for the right moment.
-|description = Spend all your Combo: Gain 1 Counter per Combo.<br/>Finisher
+|description = Spend all your [[Combo]]: Gain 1 [[Counter]] per [[Combo]].<br/>[[Finisher]]
 |cost = 1
 |character = Sal
 |rarity = Common

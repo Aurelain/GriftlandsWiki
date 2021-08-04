@@ -1,18 +1,19 @@
 {{CardPage
 |quote = You sure that guy even has kidneys?
-|description = Apply [[Stun]]. </br> [[Expend]]
+|description = Apply [[Stun]].<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Stun]], [[Expend]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Kidney Shot
 |upgrade1summary = Deals 2-6 base damage
 |upgrade2 = Pale Kidney Shot
 |upgrade2summary = Cost 1 action less
+|mindamage = 1
+|maxdamage = 3
 }}
 ==Notes==
 This card is good.

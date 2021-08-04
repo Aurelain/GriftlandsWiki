@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I don't think that target is regulation size.
-|description = Your attacks deal max damage for the next 2 turns.<br/>Expend
+|description = Your attacks deal max damage for the next 2 turns.<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Common

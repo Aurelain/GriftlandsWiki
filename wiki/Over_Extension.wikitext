@@ -1,16 +1,16 @@
 {{CardPage
-|quote = I think we are BOTH going to feel that in the morning
-|description = Add an [[Injury]] card to your discard pile. </br> Cannot be played with an [[Injury]] in your hand.
+|quote = I think we are BOTH going to feel that in the morning.
+|description = Add an [[Injury]] card to your discard pile. <br/>Cannot be played with an [[Injury]] in your hand.
 |cost = 1
 |character = Sal
-|rarity = Rare
+|rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = 
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Rooted Over Extension
 |upgrade1summary = Deals 11 base damage
 |upgrade2 = Tall Over Extension
 |upgrade2summary = Deals 8-13 base damage
+|mindamage = 8
+|maxdamage = 10
 }}

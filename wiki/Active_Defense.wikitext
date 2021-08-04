@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Being aware of all options can keep you safe and in fighting shape.
-|description = Apply 4 [[Defense]]. </br> Increase by 2 for each card discarded this turn.
+|description = Apply 4 [[Defense]].<br/>Increase by 2 for each card discarded this turn.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Maneuver
 |decktype = Battle
+|cardtype = Maneuver
 |keywords = [[Defense]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Defense
 |upgrade1summary = Apply 6 [[Defense]]

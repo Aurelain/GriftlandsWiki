@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Hold still!
-|description = Improvise a card from your draw pile.<br/>Gain 5 Defense if it’s a maneuver, apply 2 Wound to a random enemy if it’s an attack.
+|description = [[Improvise]] a card from your draw pile.<br/>Gain 5 [[Defense]] if it’s a maneuver, apply 2 [[Wound]] to a random enemy if it’s an attack.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]], [[Improvise]], [[Wound]]
+|keywords = [[Improvise]], [[Defense]], [[Wound]]
 |parent = Zig Zag
 }}

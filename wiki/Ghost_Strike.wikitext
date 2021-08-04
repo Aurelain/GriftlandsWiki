@@ -1,15 +1,16 @@
 {{CardPage
 |quote = Kra'deshi pugilists tend to feint a lot of their strikes, waiting for the perfect opening.
-|description = Draw a card. </br> Discard this card: Your attacks deal max damage this turn. 
+|description = Draw a card.<br/>Discard this card: Your attacks deal 2 bonus damage this turn.
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|upgradeable = Yes
-|expreq = 7
+|expreq = 9
 |upgrade1 = Boosted Ghost Strike
 |upgrade1summary = Deal 3-4 base damage
 |upgrade2 = Visionary Ghost Strike
 |upgrade2summary = Draw '''two''' cards.
+|mindamage = 1
+|maxdamage = 2
 }}

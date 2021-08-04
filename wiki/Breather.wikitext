@@ -1,14 +1,13 @@
 {{CardPage
 |quote = Take a second, organize your thoughts, and plan your next move.
-|description = Spend 3 [[Combo]]: Gain 1 Action. </br> [[Finisher]]
+|description = Spend 3 [[Combo]]: Gain 1 Action.<br/>[[Finisher]]
 |cost = 0
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Combo]], [[Finisher]]
-|upgradeable = Yes
-|expreq = 6
+|expreq = 8
 |upgrade1 = Pale Breather
 |upgrade1summary = Spend 2 Combo
 |upgrade2 = Delayed Breather

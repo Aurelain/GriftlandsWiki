@@ -1,12 +1,12 @@
 {{CardPage
 |quote = They'll be seeing stars after I get through with them!
-|description = Apply Stun.<br/>Expend
+|description = Apply [[Stun]].<br/>[[Expend]]
 |cost = 3
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]]
+|keywords = [[Stun]], [[Expend]]
 |parent = Crushing Blow
 |mindamage = 12
 |maxdamage = 16

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = One thousand times a day, every day of the week
-|description = Whenever this card is Improvised it gains 2 damage until the end of combat.<br/>Piercing
+|description = Whenever this card is [[Improvise|Improvised]] it gains 2 damage until the end of combat.<br/>[[Piercing]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon

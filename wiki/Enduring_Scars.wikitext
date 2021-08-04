@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Shroke combat scarring has become its own fashion statement in Havaria.
-|description = Discard your hand. Gain 2 Defense and 2 Counter for each card discarded.
+|description = Discard your hand. Gain 2 [[Defense]] and 2 [[Counter]] for each card discarded.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
+|keywords = [[Defense]], [[Counter]]
 |parent = Battle Scars
 }}

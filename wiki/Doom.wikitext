@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Panic]]
-|upgradeable = Yes
 |expreq = 5
 |upgrade1 = Pale Doom
 |upgrade1summary = Cost 1 action less
