@@ -8149,7 +8149,7 @@
         " ",
         "Visionary Bottom Snail,Boosted Bottom Snail",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -9859,7 +9859,7 @@
         " ",
         "Flexible Collected,Boosted Collected",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -13459,7 +13459,7 @@
         " ",
         "Boosted Erupt,Pale Erupt",
         " ",
-        null,
+        10,
         2,
         2
     ],
@@ -15151,7 +15151,7 @@
         " ",
         "Boosted Gab,Flexible Gab",
         " ",
-        null,
+        8,
         null,
         null
     ],
@@ -16483,7 +16483,7 @@
         " ",
         "Boosted Helmet,Enhanced Helmet",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -18139,7 +18139,7 @@
         " ",
         "Boosted Invective,Enduring Invective",
         " ",
-        null,
+        8,
         null,
         null
     ],
@@ -18157,7 +18157,7 @@
         " ",
         "Boosted Facto,Flexible Facto",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -18247,7 +18247,7 @@
         " ",
         "Boosted Jargon,Wide Jargon",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -18409,7 +18409,7 @@
         " ",
         "Boosted Kicker,Twisted Kicker",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -25681,7 +25681,7 @@
         " ",
         "Boosted Raw,Strained Raw",
         " ",
-        null,
+        11,
         null,
         null
     ],
@@ -29155,7 +29155,7 @@
         " ",
         "Visionary Simmer,Boosted Simmer",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -29875,7 +29875,7 @@
         " ",
         "Strong Point,Visionary Point",
         " ",
-        null,
+        10,
         null,
         null
     ],
@@ -29965,7 +29965,7 @@
         " ",
         "Boosted Blades,Stone Blades",
         " ",
-        null,
+        8,
         null,
         null
     ],
@@ -30379,7 +30379,7 @@
         " ",
         "Boosted Spotty,Visionary Spotty",
         " ",
-        null,
+        8,
         null,
         null
     ],

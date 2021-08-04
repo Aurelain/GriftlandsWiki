@@ -235,11 +235,12 @@ const computeXp = (card) => {
     const {max_xp, mod_xp, keywords, upgrades, cost, parent} = card;
     if (max_xp === undefined) {
         if (upgrades) {
-            let default_xp = DEFAULT_CARD_XP - Math.max(0, 2 * cost - 1);
+            let default_xp = DEFAULT_CARD_XP - Math.max(0, 2 * (cost || 0) - 1);
             if (keywords && keywords.match(/Expend|Finisher/)) {
                 default_xp = default_xp - 2;
             } else {
-                if (mod_xp) {
+                if (mod_xp !== undefined) {
+                    debugCard(typeof mod_xp === 'number', card, `Invalid mod_xp ${mod_xp}!`);
                     default_xp = default_xp + mod_xp;
                 }
             }
