@@ -1,6 +1,6 @@
 {{CardPage
 |quote = One of the more ferocious dagger combinations seen on the mainland.
-|description = Spend up to 3 Combo: Attack once extra per Combo.<br/>Finisher
+|description = Spend up to 3 [[Combo]]: Attack once extra per [[Combo]].<br/>[[Finisher]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon

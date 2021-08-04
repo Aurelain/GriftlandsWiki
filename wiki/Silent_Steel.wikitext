@@ -1,13 +1,12 @@
 {{CardPage
 |quote = The noisy ones are scarier, but a lot easier to avoid.
-|description = [[Expend]], [[Ambush]] 
+|description = [[Expend]], [[Ambush]]
 |cost = 0
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]], [[Ambush]] 
-|upgradeable = Yes
+|keywords = [[Expend]], [[Ambush]]
 |expreq = 8
 |upgrade1 = Rooted Steel
 |upgrade1summary = Deal 8 base damage

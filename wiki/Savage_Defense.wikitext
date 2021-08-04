@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Nobody knows who designed the original razor-dust emitters but there have been many copycats.
-|description = Ability: Your Counter attacks apply 3 Bleed.<br/>Expend
+|description = [[Ability]]: Your [[Counter]] attacks apply 3 [[Bleed]].<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Bleed]], [[Counter]]
+|keywords = [[Ability]], [[Counter]], [[Bleed]], [[Expend]]
 |parent = Barbed Defense
 }}

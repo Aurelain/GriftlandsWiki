@@ -7,10 +7,11 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Bleed]], [[Impair]], [[Wound]]
-|upgradeable = Yes
-|expreq = 5
+|expreq = 7
 |upgrade1 = Enhanced Gash
 |upgrade1summary = If the target has [[Bleed]], apply 2 [[Impair]] and 2 [[Wound]].
 |upgrade2 = Boosted Gash
 |upgrade2summary = Deal 4-6 base damage
+|mindamage = 2
+|maxdamage = 3
 }}

@@ -7,10 +7,11 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Piercing]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Tall Dagger Throw
 |upgrade1summary = Deal 4-8 base damage
 |upgrade2 = Rooted Throw
 |upgrade2summary = Deal 6 base damage
+|mindamage = 4
+|maxdamage = 6
 }}

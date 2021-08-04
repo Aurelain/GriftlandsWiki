@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Loop back around, I'll keep them distracted.
-|description = Discard up to 3 cards.<br/>Gain 1 Temporary Power for each card discarded.
+|description = Discard up to 3 cards.<br/>Gain 1 [[Temporary Power]] for each card discarded.
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Power]]
+|keywords = [[Temporary Power]]
 |parent = Scatter
 }}

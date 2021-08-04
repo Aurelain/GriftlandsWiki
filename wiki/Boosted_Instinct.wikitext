@@ -1,11 +1,11 @@
 {{CardPage
 |quote = It was right there a second ago...
-|description = Improvise a random uncommon or rare maneuver card. It costs 0 until played.<br/>Expend
+|description = [[Improvise]] a random uncommon or rare maneuver card. It costs 0 until played.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Improvise]]
+|keywords = [[Improvise]], [[Expend]]
 |parent = Thieves' Instinct
 }}

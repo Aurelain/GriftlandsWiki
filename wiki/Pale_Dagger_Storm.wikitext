@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Where do they keep coming from!?
-|description = Insert 2 Blade Flash cards into your draw pile.
+|description = Insert 2 [[Blade Flash]] cards into your draw pile.
 |cost = 1
 |character = Sal
 |rarity = Uncommon

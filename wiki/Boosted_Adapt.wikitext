@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Sometimes a change of approach is necessary.
-|description = Discard your hand.<br/>Draw 7 cards.<br/>Expend
+|description = Discard your hand.<br/>Draw 7 cards.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
+|keywords = [[Expend]]
 |parent = Adapt
 }}

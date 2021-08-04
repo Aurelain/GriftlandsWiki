@@ -1,6 +1,6 @@
 {{CardPage
 |quote = A bleeding target can get a whole lot worse in a matter of seconds.
-|description = If the target has Bleed, apply 1 Impair and 1 Wound.
+|description = If the target has [[Bleed]], apply 1 [[Impair]] and 1 [[Wound]].
 |cost = 1
 |character = Sal
 |rarity = Common

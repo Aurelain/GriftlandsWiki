@@ -1,13 +1,11 @@
 {{CardPage
-|quote = I know it in here somewhere, who drew all these pockets?
-|description = Draw a card. <br/> Discard a card.
+|quote = I know it's in here somewhere, who drew all these pockets?
+|description = Draw a card.<br/>Discard a card.
 |cost = 0
 |character = Sal
 |rarity = Uncommon
-|cardtype = Maneuver
 |decktype = Battle
-|keywords = 
-|upgradeable = Yes
+|cardtype = Maneuver
 |expreq = 10
 |upgrade1 = Boosted Rummage
 |upgrade1summary = Draw 2 cards. <br/> Discard 2 cards.

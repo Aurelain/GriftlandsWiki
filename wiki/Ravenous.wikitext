@@ -2,14 +2,13 @@
 
 {{CardPage
 |quote = Hey, buddy, you gonna eat that?
-|description = [[Ability]]: Whenever an enemy dies, [[Heal]] 8. <br/> [[Expend]]
+|description = [[Ability]]: Whenever an enemy dies, [[Heal]] 8.<br/>[[Expend]]
 |cost = 2
 |character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]],[[Heal]],[[Expend]]
-|upgradeable = Yes
+|keywords = [[Ability]], [[Heal]], [[Expend]]
 |expreq = 5
 |upgrade1 = Initial Ravenous
 |upgrade1summary = [[Ambush]]

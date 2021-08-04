@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Nobody knows who designed the original razor-dust emitters but there have been many copycats.
-|description = [[Ability]]: Your [[Counter]] attacks apply 2 [[Bleed]]. </br> [[Expend]]
+|description = [[Ability]]: Your [[Counter]] attacks apply 2 [[Bleed]].<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Ability]], [[Counter]], [[Bleed]], [[Expend]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Barbed Dawn
 |upgrade1summary = [[Ambush]]

@@ -1,13 +1,12 @@
 {{CardPage
 |quote = You can barely see the implant through the gloves, and it works like a charm.
-|description = Gain 6 [[Defense]] <br/> Discard this card: [[Heal]] 3.
-|cost = 
+|description = Gain 6 [[Defense]]. <br/>Discard this card: [[Heal]] 3.
+|cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Defense]], [[Heal]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Seeker
 |upgrade1summary = Gain 8 [[Defense]]

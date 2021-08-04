@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Sometimes a change of approach is necessary.
-|description = Discard your hand. </br> Draw 5 cards. </br> [[Expend]]
+|description = Discard your hand.<br/>Draw 5 cards.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
-|cardtype = Maneuver
 |decktype = Battle
+|cardtype = Maneuver
 |keywords = [[Expend]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Adapt
 |upgrade1summary = Draw 7 cards

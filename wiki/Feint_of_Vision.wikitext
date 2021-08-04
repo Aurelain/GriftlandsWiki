@@ -1,11 +1,11 @@
 {{CardPage
 |quote = The best way to take a hit is to be in another place when it comes.
-|description = Apply 4 Defense.<br/>Draw a card.
+|description = Apply 4 [[Defense]].<br/>Draw a card.
 |cost = 1
 |character = Sal
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |parent = Feint
 }}

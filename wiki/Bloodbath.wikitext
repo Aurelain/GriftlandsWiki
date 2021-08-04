@@ -1,14 +1,12 @@
 {{CardPage
 |quote = Just extend your range a little more and those blades will be biting into everyone!
-|description = [[Ability]]: Whenever you apply [[Bleed]], apply 1 [[Bleed]] to all other enemies. </br> [[Expend]]
+|description = [[Ability]]: Whenever you apply [[Bleed]], apply 1 [[Bleed]] to all other enemies.<br/>[[Expend]]
 |cost = 2
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Ability]], [[Bleed]], [[Expend]]
-|upgradeable = Yes
 |expreq = 5
 |upgrade1 = Pale Bloodbath
 |upgrade1summary = Cost 1 action less

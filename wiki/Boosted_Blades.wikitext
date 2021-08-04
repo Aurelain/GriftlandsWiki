@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Feels like I'm carrying nothing at all!
-|description = If this is discarded, insert 2 Blade Flash into your hand.<br/>Unplayable
+|description = If this is discarded, insert 2 [[Blade Flash]] into your hand.<br/>[[Unplayable]]
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
+|keywords = [[Unplayable]]
 |parent = Spare Blades
 |special1 = Blade Flash
 }}

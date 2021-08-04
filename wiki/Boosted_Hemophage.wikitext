@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Some of it got in my mouth and I'm not gonna lie; I could get used to it.
-|description = Ability: Whenever you apply Bleed, Heal 2.<br/>Expend
+|description = [[Ability]]: Whenever you apply [[Bleed]], [[Heal]] 2.<br/>[[Expend]]
 |cost = 2
 |character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Ability]], [[Bleed]], [[Heal]]
+|keywords = [[Ability]], [[Bleed]], [[Heal]], [[Expend]]
 |parent = Hemophage
 }}

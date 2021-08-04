@@ -2,17 +2,18 @@
 
 {{CardPage
 |quote = Look, I'm not a doctor, but there's no way they're going to make it.
-|description = Spend up to 2 [[Combo]]: Apply 1 [[Wound]] per [[Combo]] spent. </br> [[Finisher]]
+|description = Spend up to 2 [[Combo]]: Apply 1 [[Wound]] per [[Combo]] spent.<br/>[[Finisher]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Combo]], [[Finisher]], [[Wound]]
-|upgradeable = Yes
+|keywords = [[Combo]], [[Wound]], [[Finisher]]
 |expreq = 7
 |upgrade1 = Tall Carve
 |upgrade1summary = Spend up to 3 [[Combo]]
 |upgrade2 = Boosted Carve
 |upgrade2summary = Deal 4-6 base damage
+|mindamage = 3
+|maxdamage = 4
 }}

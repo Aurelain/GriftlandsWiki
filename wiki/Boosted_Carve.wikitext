@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Look, I'm not a doctor, but there's no way they're going to make it.
-|description = Spend up to 2 Combo: Apply 1 Wound per Combo spent.<br/>Finisher
+|description = Spend up to 2 [[Combo]]: Apply 1 [[Wound]] per [[Combo]] spent.<br/>[[Finisher]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Combo]], [[Finisher]], [[Wound]]
+|keywords = [[Combo]], [[Wound]], [[Finisher]]
 |parent = Carve
 |mindamage = 4
 |maxdamage = 6

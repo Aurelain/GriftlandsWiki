@@ -6,8 +6,6 @@
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = 
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Dagger Storm
 |upgrade1summary = Adds 3 [[Blade Flash]] cards

@@ -1,10 +1,11 @@
 {{CardPage
 |quote = People idle at about sixty percent, you can push it further.
-|description = Gain 3 actions.<br/>Lose 1 action next turn.<br/>Expend
+|description = Gain 3 actions.<br/>Lose 1 action next turn.<br/>[[Expend]]
 |cost = 0
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
+|keywords = [[Expend]]
 |parent = Exertion
 }}

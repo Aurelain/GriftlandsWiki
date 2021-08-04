@@ -1,13 +1,12 @@
 {{CardPage
-|quote = I don't know what to tell you, I hit them, like, six times...
-|description = Gain 2 [[Defense]]. </br> Increase by 2 for each card played this turn.
+|quote = I don't know what to tell you, I hit them like, six times...
+|description = Gain 2 [[Defense]]. Increase by 2 for each card played this turn.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Defense]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Surge
 |upgrade1summary = Gain 5 [[Defense]]

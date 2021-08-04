@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Glass jaw. Knew it.
-|description = Gain 1 Power.
+|description = Gain 1 [[Power]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon

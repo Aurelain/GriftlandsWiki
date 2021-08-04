@@ -7,8 +7,9 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Piercing]]
-|upgradeable = No
 |generator = Spare Blades, Dagger Storm, Waylay
+|mindamage = 3
+|maxdamage = 4
 }}
 ==Notes==
 This card can't be added to your deck, like other cards. Instead you can add it into your deck using other cards. It is removed at the end of the battle.
