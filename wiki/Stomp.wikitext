@@ -9,9 +9,11 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Combo]], [[Finisher]]
-|expreq = 5
+|expreq = 7
 |upgrade1 = Rooted Stomp
 |upgrade1summary = Min Damage +3
 |upgrade2 = Boosted Stomp
-|upgrade2summary =  Min Damage +1, Max Damage +3
+|upgrade2summary = Min Damage +1, Max Damage +3
+|mindamage = 3
+|maxdamage = 6
 }}

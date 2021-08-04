@@ -1,14 +1,12 @@
 {{CardPage
 |quote = The Spree have a history of viciousness that permeates all of Murder Bay, it's time to get in line.
-|description = If this attack kills an enemy or makes them [[Panic]], gain 3 [[Power]] and [[Heal]] 5. <br/> [[Expend]]
+|description = If this attack kills an enemy or makes them [[Panic]], gain 3 [[Power]] and [[Heal]] 5.<br/>[[Expend]]
 |cost = 1
 |character = Sal
-|rarity = Rare
+|rarity = Unique
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Panic]], [[Power]], [[Heal]], [[Expend]]
-|upgradeable = No
-|expreq = 
 |mindamage = 8
 |maxdamage = 8
 }}

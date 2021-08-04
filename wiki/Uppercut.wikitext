@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Power]]
-|upgradeable = Yes
 |expreq = 6
 |upgrade1 = Pale Uppercut
 |upgrade1summary = Costs 1 action.

@@ -1,10 +1,11 @@
 {{CardPage
 |quote = Usually a little difficult to do, the more focused the combatant the better the results.
-|description = Draw 2 cards. They cost 0 until played.<br/>Expend
+|description = Draw 2 cards. They cost 0 until played.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
+|keywords = [[Expend]]
 |parent = Concentrate
 }}

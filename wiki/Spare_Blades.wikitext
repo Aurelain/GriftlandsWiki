@@ -2,18 +2,16 @@
 
 {{CardPage
 |quote = Feels like I'm carrying nothing at all!
-|description = If this is discarded, insert a [[Blade Flash]] into your hand. <br/> [[Unplayable]]
-|cost = 
+|description = If this is discarded, insert a [[Blade Flash]] into your hand.<br/>[[Unplayable]]
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Unplayable]]
-|upgradeable = Yes
 |expreq = 8
 |upgrade1 = Boosted Blades
 |upgrade1summary = Insert 2 [[Blade Flash]] into your hand.
 |upgrade2 = Stone Blades
-|upgrade2summary = Gain 3 [[Defense]] when discarded. 
+|upgrade2summary = Gain 3 [[Defense]] when discarded.
 |special1 = Blade Flash
 }}

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Heads up!
-|description = Draw a card.<br/>Expend
+|description = Draw a card.<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Unique

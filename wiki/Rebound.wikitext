@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Counter]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Stone Rebound
 |upgrade1summary = Gain 1 [[Defense]] <br> per card played.

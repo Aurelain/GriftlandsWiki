@@ -1,5 +1,5 @@
 {{CardPage
-|quote = I don't know how many she has!
+|quote = I don’t know how many she has!
 |description = Gain 8 [[Defense]] and insert 1 [[Blade Flash]] card into your hand.
 |cost = 1
 |character = Sal
@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Defense]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Stone Waylay
 |upgrade1summary = Gain 12 [[Defense]]

@@ -1,6 +1,6 @@
 {{CardPage
 |quote = I call it my speciality.
-|description = Apply 2 Trauma.
+|description = Apply 2 [[Trauma]].
 |cost = 1
 |character = Smith
 |rarity = Basic

@@ -1,11 +1,11 @@
 {{CardPage
 |quote = She’s too quick! I can’t get a bead on her!
-|description = Apply 4 Defense. If this card was Improvised this turn, also gain 2 Evasion.
+|description = Apply 4 [[Defense]]. If this card was [[Improvise|Improvised]] this turn, also gain 2 [[Evasion]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]], [[Evasion]], [[Improvise]]
+|keywords = [[Defense]], [[Improvise]], [[Evasion]]
 |parent = The Slip
 }}

@@ -1,13 +1,11 @@
 {{CardPage
 |quote = Okay, the NEXT one will just barely miss you...
 |description = Attack 2 random enemies.
-|cost = 
+|cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|keywords = 
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Target Practice
 |upgrade1summary = Attacks 3 enemies.

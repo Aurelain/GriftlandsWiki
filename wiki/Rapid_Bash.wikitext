@@ -1,11 +1,12 @@
 {{CardPage
 |quote = I call it my speciality.
-|description = Attack twice.<br/>Restrained
+|description = Attack twice.<br/>[[Restrained]]
 |cost = 1
 |character = Smith
 |rarity = Basic
 |decktype = Battle
 |cardtype = Attack
+|keywords = [[Restrained]]
 |parent = Bash
 |mindamage = 3
 |maxdamage = 4

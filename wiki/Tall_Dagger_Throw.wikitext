@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Don't worry, I have a spare.
-|description = Piercing
+|description = [[Piercing]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon

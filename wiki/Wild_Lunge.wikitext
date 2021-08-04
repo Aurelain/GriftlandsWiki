@@ -9,7 +9,6 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Wound]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Tall Wild Lunge
 |upgrade1summary = Deal 2-14 base damage.

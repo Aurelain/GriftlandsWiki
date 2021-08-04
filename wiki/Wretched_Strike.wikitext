@@ -6,8 +6,6 @@
 |rarity = Rare
 |decktype = Battle
 |cardtype = Attack
-|keywords = 
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Rooted Wretched Strike
 |upgrade1summary = Deals 3 base damage

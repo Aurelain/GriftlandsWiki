@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I don’t know how many she has!
-|description = Gain 12 Defense and insert 1 Blade Flash card into your hand.
+|description = Gain 12 [[Defense]] and insert 1 [[Blade Flash]] card into your hand.
 |cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]]
 |parent = Waylay
 }}

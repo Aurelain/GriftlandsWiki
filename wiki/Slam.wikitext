@@ -1,10 +1,10 @@
 {{CardPage
 |quote = Take it all down in one go!
-|description = Drink 2 and gain 2 Adrenaline.<br/>Expend
+|description = [[Drink]] 2 and gain 2 [[Adrenaline]].<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Adrenaline]], [[Drink]], [[Expend]]
+|keywords = [[Drink]], [[Adrenaline]], [[Expend]]
 }}

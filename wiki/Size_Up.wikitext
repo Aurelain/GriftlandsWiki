@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Combo]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Visionary Size Up
 |upgrade1summary = Draw 3 cards

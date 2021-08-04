@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Right back at you!
-|description = Gain 3 Counter for each card played this turn.
+|description = Gain 3 [[Counter]] for each card played this turn.
 |cost = 1
 |character = Sal
 |rarity = Common

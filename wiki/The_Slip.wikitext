@@ -1,13 +1,12 @@
 {{CardPage
-|quote = She's too quick! I can't get a read on her!
-|description = Apply 8 [[Defense]]. If this card was [[Improvise|Improvised]] this turn, also gain 1 [[Evasion]].
+|quote = She’s too quick! I can’t get a bead on her!
+|description = Apply 4 [[Defense]]. If this card was [[Improvise|Improvised]] this turn, also gain 1 [[Evasion]].
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defense]], [[Evasion]], [[Improvise]]
-|upgradeable = Yes
+|keywords = [[Defense]], [[Improvise]], [[Evasion]]
 |expreq = 9
 |upgrade1 = The Stone Slip
 |upgrade1summary = Apply 8 [[Defense]]

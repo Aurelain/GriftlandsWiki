@@ -9,8 +9,7 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Improvise]], [[Finisher]], [[Combo]]
-|upgradeable = Yes
-|expreq = 9
+|expreq = 7
 |upgrade1 = Rival's Specialty
 |upgrade1summary = Gain 4 [[Combo]].
 |upgrade2 = Wide Specialty

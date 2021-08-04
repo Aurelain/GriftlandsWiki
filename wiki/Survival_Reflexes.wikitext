@@ -1,13 +1,12 @@
 {{CardPage
 |quote = You either got them or you're done.
-|description = Discard a card. <br/> Gain 5 [[Defense]].
+|description = Discard a card.<br/>Gain 5 [[Defense]].
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Defense]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Visionary Reflexes
 |upgrade1summary = Draw a card.

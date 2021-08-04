@@ -1,13 +1,13 @@
 {{CardPage
 |name = Resonance
-|image = Resonance.png
+|image = Resonance (card).png
 |quote = There was a high pitched noise, and then my chest plate started malfunctioning.
 |description = [[Ability]]: Whenever you [[Improvise]] a card, a random enemy gains 1 [[Resonance]].<br/>[[Expend]]
 |cost = 2
+|character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
-|character = Sal
 |keywords = [[Ability]], [[Improvise]], [[Resonance]], [[Expend]]
 |expreq = 5
 |upgrade1 = Boosted Resonance

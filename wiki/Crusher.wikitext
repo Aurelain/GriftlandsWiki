@@ -1,5 +1,5 @@
 {{CardPage
-|quote = Yeah it was Kleeta's move back on the derrick, I just make it look better.
+|quote = Yeah it was Kleeta’s move back on the derrick, I just make it look better.
 |description = Whenever you [[Improvise]] while this card is in your hand, reduce its cost by 1 for the rest of this battle.
 |cost = 4
 |character = Sal
@@ -7,10 +7,11 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Improvise]]
-|upgradeable = Yes
 |expreq = 3
 |upgrade1 = Rooted Crusher
 |upgrade1summary = Deal 10 base damage
 |upgrade2 = Pale Crusher
 |upgrade2summary = Cost 1 action less
+|mindamage = 6
+|maxdamage = 10
 }}

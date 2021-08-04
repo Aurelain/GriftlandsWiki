@@ -1,13 +1,12 @@
 {{CardPage
 |quote = Blood Striking is ruthless, cruel, and very effective.
-|description = [[Improvise]] a random upgraded [[Bleed]] card. <br/> [[Expend]]
+|description = [[Improvise]] a random upgraded [[Bleed]] card, it costs 1 less until played.<br/>[[Expend]]
 |cost = 1
 |character = Sal
-|rarity = Rare
+|rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Bleed]], [[Expend]], [[Improvise]]
-|upgradeable = No
+|keywords = [[Improvise]], [[Bleed]], [[Expend]]
 }}
 ==Notes==
 Thirst is a unique attack card that can be selected by Sal as a reward from Nadan for joining The Spree.

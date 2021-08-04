@@ -59,7 +59,8 @@ const parseCardFromWikitext = (wikitext) => {
     const upgrades = [];
     const specials = [];
     const summaries = {};
-    const fieldsFound = wikitext.matchAll(/\|\s*(\w+)\s*=\s*([^}|]*)/g);
+    wikitext = wikitext.replace(/^\s*\|/gm, '#'); // so we can better protect cases like [[Improvise|Improvised]]
+    const fieldsFound = wikitext.matchAll(/#\s*(\w+)\s*=\s*([^}#]*)/g);
     for (const [, fieldName, fieldValue] of fieldsFound) {
         const value = fieldValue.trim();
 

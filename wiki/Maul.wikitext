@@ -1,12 +1,12 @@
 {{CardPage
 |quote = That’s surely going to put someone in the hospital.
-|description = If the target has no Trauma, apply 2 Trauma.<br/>Expend
+|description = If the target has no [[Trauma]], apply 2 [[Trauma]].<br/>[[Expend]]
 |cost = 0
 |character = Smith
 |rarity = Unique
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Expend]], [[Trauma]]
+|keywords = [[Trauma]], [[Expend]]
 |mindamage = 3
 |maxdamage = 3
 }}

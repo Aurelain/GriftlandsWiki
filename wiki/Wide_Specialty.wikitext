@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I call this one the Murder Bay Mauler!
-|description = Improvise+ a Finisher from your deck. Gain 2 Combo.
+|description = [[Improvise+]] a [[Finisher]] from your deck. Gain 2 [[Combo]].
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Combo]], [[Improvise]]
+|keywords = [[Improvise+]], [[Finisher]], [[Combo]]
 |parent = Specialty
 }}

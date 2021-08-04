@@ -1,15 +1,14 @@
 {{Reupload}}
 
 {{CardPage
-|quote = Well, I wasn't expecting that.
-|description = Apply 3 [[Defense]]. </br> Increase by 2 for the rest of this battle whenever this card is [[Improvise|Improvised]].
+|quote = Well, I wasn’t expecting that.
+|description = Apply 3 [[Defense]]. Increase by 2 for the rest of this battle whenever this card is [[Improvise|Improvised]].
 |cost = 1
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Defense]], [[Improvise]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Patient Prediction
 |upgrade1summary = [[Defense]] increases by '''3'''<br>when [[Improvise|Improvised]].

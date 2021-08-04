@@ -14,4 +14,6 @@
 |upgrade1summary = 2 extra Defense
 |upgrade2 = Thorny Tackle
 |upgrade2summary = 2 extra Damage
+|mindamage = 3
+|maxdamage = 5
 }}

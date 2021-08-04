@@ -1,13 +1,12 @@
 {{CardPage
 |quote = It was right there a second ago...
-|description = [[Improvise]] a random common or uncommon maneuver card. It costs 0 until played. <br/> [[Expend]]
+|description = [[Improvise]] a random common or uncommon maneuver card. It costs 0 until played.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Expend]], [[Improvise]]
-|upgradeable = Yes
+|keywords = [[Improvise]], [[Expend]]
 |expreq = 7
 |upgrade1 = Boosted Instinct
 |upgrade1summary = [[Improvise]] a uncommon or rare card

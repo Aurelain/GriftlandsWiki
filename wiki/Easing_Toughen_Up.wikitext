@@ -1,11 +1,11 @@
 {{CardPage
 |quote = I didn’t feel a thing!
-|description = Alleviate 2, apply 3 Defense.
+|description = [[Alleviate]] 2, apply 3 [[Defense]].
 |cost = 1
 |character = Smith
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Alleviate]], [[Defend]]
+|keywords = [[Alleviate]], [[Defense]]
 |parent = Toughen Up
 }}

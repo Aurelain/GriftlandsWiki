@@ -1,12 +1,12 @@
 {{CardPage
 |quote = Blades forged on the Derricks had considerably more heft to them on the mainland.
-|description = If this card was Improvised this turn, attack three times. Apply 3 Bleed per attack.
+|description = If this card was [[Improvise|Improvised]] this turn, attack three times. Apply 3 [[Bleed]] per attack.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = [[Bleed]], [[Improvise]]
+|keywords = [[Improvise]], [[Bleed]]
 |parent = Blademouth Beating
 |mindamage = 1
 |maxdamage = 2

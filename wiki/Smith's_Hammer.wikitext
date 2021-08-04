@@ -1,6 +1,6 @@
 {{CardPage
 |quote = Never go anywhere without a basher and a brew.
-|description = Insert Maul or One One One into your hand.
+|description = Insert [[Maul]] or [[One One One]] into your hand.
 |cost = 1
 |character = Smith
 |rarity = Basic

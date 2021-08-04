@@ -6,8 +6,6 @@
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
-|keywords = 
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Pale Slaughter
 |upgrade1summary = Costs 1 action less

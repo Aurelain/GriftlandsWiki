@@ -1,11 +1,11 @@
 {{CardPage
 |quote = Feels like I'm carrying nothing at all!
-|description = If this is discarded, insert a Blade Flash into your hand and gain 3 Defense.<br/>Unplayable
+|description = If this is discarded, insert a [[Blade Flash]] into your hand and gain 3 [[Defense]].<br/>[[Unplayable]]
 |character = Sal
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
-|keywords = [[Defend]]
+|keywords = [[Defense]], [[Unplayable]]
 |parent = Spare Blades
 |special1 = Blade Flash
 }}

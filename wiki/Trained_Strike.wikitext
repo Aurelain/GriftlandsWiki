@@ -1,5 +1,5 @@
 {{CardPage
-|quote = One thousand times a day, every day of the week.
+|quote = One thousand times a day, every day of the week
 |description = Whenever this card is [[Improvise|Improvised]] it gains 2 damage until the end of combat.
 |cost = 1
 |character = Sal
@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Improvise]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Trained Strike
 |upgrade1summary = Gains 3 damage instead.

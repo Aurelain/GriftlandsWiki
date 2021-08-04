@@ -1,14 +1,10 @@
 {{CardPage
 |quote = Hesh's Bells! Don't you ever get tired!
-|description = Replay every card played this turn with random targets. <br> [[Expend]]
+|description = Replay every card played this turn with random targets.<br/>[[Expend]]
 |cost = 2
 |character = Sal
-|rarity = Rare
+|rarity = Unique
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Expend]]
-|upgradeable = No
-|expreq = 
-|upgrade1 = 
-|upgrade2 = 
 }}

@@ -1,13 +1,12 @@
 {{CardPage
 |quote = The violence she brought on made it difficult for anyone to approach her.
-|description = For the rest of your turn, gain [[Defense]] equal to the amount of [[Bleed]] you apply. </br> [[Expend]]
+|description = For the rest of your turn, gain [[Defense]] equal to the amount of [[Bleed]] you apply.<br/>[[Expend]]
 |cost = 1
 |character = Sal
 |rarity = Rare
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Defense]], [[Bleed]], [[Expend]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Pale Blood Guard
 |upgrade1summary = Cost 1 action less

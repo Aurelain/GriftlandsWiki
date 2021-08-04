@@ -1,13 +1,13 @@
 {{CardPage
 |quote = Bar brawling has become something of a profession for Smith.
-|description = Add a Tipsy card to your discards.<br/>Deals max damage if you have a Tipsy card in your hand.
+|description = Add a [[Tipsy]] card to your discards.<br/>Deals max damage if you have a [[Tipsy]] card in your hand.
 |cost = 1
 |character = Sal
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
 |parent = Drunken Master
+|special1 = Tipsy
 |mindamage = 2
 |maxdamage = 14
-|special1 = Tipsy
 }}
