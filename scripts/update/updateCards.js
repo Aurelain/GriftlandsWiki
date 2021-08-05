@@ -153,7 +153,7 @@ const generateCardWikitext = (card) => {
     if (name.includes('(')) {
         const cleanName = name.replace(/ \(.*/, '');
         draft += `|name = ${cleanName}\n`;
-        draft += `|image = ${name}.png\n`;
+        draft += `|image = ${cleanName}.png\n`;
     }
 
     if (flavour) {
