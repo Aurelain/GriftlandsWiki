@@ -1,0 +1,12 @@
+{{CardPage
+|quote = You can see everything through the stalks.
+|description = Hits all enemies.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]]
+|mindamage = 5
+|maxdamage = 5
+}}

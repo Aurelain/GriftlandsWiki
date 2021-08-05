@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Feels great! And I just have to keep it charged?
+|description = When this card is drawn, gain 1 [[Evasion]].<br/>[[Unplayable]], [[Burnout]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Evasion]], [[Unplayable]], [[Burnout]]
+}}

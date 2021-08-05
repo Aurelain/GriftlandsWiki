@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I love this stuff! I can just keep on drinking!
+|description = Gain an action.<br/>[[Replenish]]<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Replenish]], [[Destroy]]
+}}

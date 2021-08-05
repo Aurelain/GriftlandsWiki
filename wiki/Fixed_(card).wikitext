@@ -1,0 +1,17 @@
+{{CardPage
+|name = Fixed
+|image = Fixed (card).png
+|quote = I’ve got your number, punk.
+|description = Apply 2 [[Fixed]].
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Fixed]]
+|expreq = 9
+|upgrade1 = Boosted Fixed
+|upgrade1summary = 
+|upgrade2 = Wide Fixed
+|upgrade2summary = 
+}}

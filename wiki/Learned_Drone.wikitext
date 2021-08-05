@@ -1,0 +1,10 @@
+{{CardPage
+|quote = SUFFICIENT INFORMATION GATHERED. RELAYING ALL DATA TO THE CLOUD.
+|description = Summon a Combat Drone to fight for you.<br/>[[Expend]], [[Ambush]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Ambush]]
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Springs up in an instant! I can't believe the waste on these things to be honest.
+|description = You and all allies gain 30 [[Defense]].<br/>[[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 2
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Defense]], [[Replenish]], [[Destroy]]
+}}

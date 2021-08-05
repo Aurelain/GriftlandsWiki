@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Yeah it hits you right in the equilibrium, seems to have varying degrees of effectiveness though.
+|description = Has a 50% chance to [[Stun]] the target.<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Stun]], [[Destroy]]
+|mindamage = 2
+|maxdamage = 4
+}}

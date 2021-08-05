@@ -1,0 +1,9 @@
+{{CardPage
+|description = Gain 50 shill.<br/>[[Replenish]]<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Replenish]], [[Destroy]]
+}}

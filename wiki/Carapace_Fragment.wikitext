@@ -1,0 +1,10 @@
+{{CardPage
+|quote = These things are usually so scarred up from fighting they shatter after one solid blow.
+|description = Gain 8 [[Slated Carapace]].<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Slated Carapace]], [[Destroy]]
+}}

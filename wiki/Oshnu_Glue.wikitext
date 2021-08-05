@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It's harder to find something that isn't sticky on these beasts.
+|description = Choose a card in your hand and give it [[Sticky]] for the rest of this fight.<br/>[[Expend]], [[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Sticky]], [[Expend]], [[Replenish]], [[Destroy]]
+}}

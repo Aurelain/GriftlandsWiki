@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Effects are temporary, and it isn't advisable to use it more than once daily.
+|description = Gain 2 [[Power]].<br/>[[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Power]], [[Replenish]], [[Destroy]]
+}}

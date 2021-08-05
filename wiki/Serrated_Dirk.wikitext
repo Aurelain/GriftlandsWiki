@@ -1,0 +1,12 @@
+{{CardPage
+|quote = That's going to leave a mark.
+|description = Apply 3 [[Wound]] and insert [[Roaloch Karambit]] into your hand.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Expend]]
+|mindamage = 3
+|maxdamage = 3
+}}

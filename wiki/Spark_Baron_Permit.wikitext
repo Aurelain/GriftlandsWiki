@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It’s an older permit Sir, but it checks out.
+|description = Gain 5 [[Composure]].<br/>[[Expend]], [[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Composure]], [[Expend]], [[Replenish]], [[Destroy]]
+}}

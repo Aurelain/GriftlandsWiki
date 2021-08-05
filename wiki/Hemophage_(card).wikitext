@@ -1,0 +1,17 @@
+{{CardPage
+|name = Hemophage
+|image = Hemophage (card).png
+|quote = Some of it got in my mouth and I'm not gonna lie; I could get used to it.
+|description = [[Ability]]: Whenever you apply [[Bleed]], [[Heal]] 1.<br/>[[Expend]]
+|cost = 2
+|character = Sal
+|rarity = Rare
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Bleed]], [[Heal]], [[Expend]]
+|expreq = 5
+|upgrade1 = Initial Hemophage
+|upgrade1summary = 
+|upgrade2 = Boosted Hemophage
+|upgrade2summary = 
+}}

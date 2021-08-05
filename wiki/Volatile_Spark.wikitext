@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Get out of the way! It's going to blow!
+|description = At the end of your turn, ignite all [[Toxic Fumes]] in your hand and [[Expend]] this card.<br/>[[Unplayable]]
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Expend]], [[Unplayable]]
+}}

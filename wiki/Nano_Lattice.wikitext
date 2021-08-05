@@ -1,0 +1,10 @@
+{{CardPage
+|quote = The netting manages to disrupt projectiles as well as closer attacks. Enough battery for a couple uses anyways.
+|description = Draw a card.<br/>Gain 9 [[Defense]].<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Common
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Defense]], [[Destroy]]
+}}

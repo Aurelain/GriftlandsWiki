@@ -1,0 +1,10 @@
+{{CardPage
+|quote = THANK YOU FOR PURCHASING THE EXTRA WARRANTY CONSUMER NUMBER 0048.
+|description = Summons a combat drone to fight for you.<br/>[[Replenish]]<br/>[[Destroy]] after 1 use.
+|cost = 0
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Replenish]], [[Destroy]]
+}}

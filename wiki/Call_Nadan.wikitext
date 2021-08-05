@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Nadan! There's an opening!
+|description = Call in Nadan to attack your target.<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

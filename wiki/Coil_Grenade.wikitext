@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Just a few adjustments and these make quite the little explosion.
+|description = Hits all enemies. Apply 2 [[Impair]].<br/>[[Expend]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Impair]], [[Expend]], [[Destroy]]
+|mindamage = 4
+|maxdamage = 6
+}}

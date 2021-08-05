@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Saved me more than once, although I did pick it up off of a dead body.
+|description = If you take lethal damage while this is in your deck, block all damage until the start of your turn and destroy this card.<br/>[[Unplayable]]
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Unplayable]]
+}}

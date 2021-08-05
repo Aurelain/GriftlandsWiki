@@ -1,0 +1,14 @@
+{{CardPage
+|name = Tiny Stinger
+|image = Tiny Stinger (card).png
+|quote = Small, but deadly.
+|description = Remove all [[Defense]] on target.<br/>Apply 1 [[Impair]].<br/>[[Expend]], [[Sticky]]
+|cost = 0
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Defense]], [[Impair]], [[Expend]], [[Sticky]]
+|mindamage = 4
+|maxdamage = 6
+}}

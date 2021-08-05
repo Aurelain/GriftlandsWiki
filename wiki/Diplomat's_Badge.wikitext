@@ -1,0 +1,9 @@
+{{CardPage
+|description = Dismiss a random enemy intent.<br/>[[Expend]], [[Replenish]]<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Expend]], [[Replenish]], [[Destroy]]
+}}

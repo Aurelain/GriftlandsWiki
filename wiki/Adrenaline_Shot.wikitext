@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That's the stuff.
+|description = Add 2 copies of [[Hasten]] into your draw pile.<br/>[[Replenish]]<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Common
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Replenish]], [[Destroy]]
+}}

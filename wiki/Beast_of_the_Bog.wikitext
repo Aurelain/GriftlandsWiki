@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Such a howl! A scream that shimmered through fangs and bone!
+|description = Gain 4 [[Temporary Power]]. You can only play 2 more cards this turn.<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 4
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Parasite
+|keywords = [[Temporary Power]], [[Expend]], [[Parasite]], [[Hatch]]
+}}

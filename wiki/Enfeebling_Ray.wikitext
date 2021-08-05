@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That injury is so old I forgot I had it. Why is it acting up now?
+|description = Apply 2 [[Impair]].<br/>[[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Common
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Impair]], [[Replenish]], [[Destroy]]
+}}

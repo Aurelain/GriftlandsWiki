@@ -1,0 +1,12 @@
+{{CardPage
+|quote = An older model but extremely reliable. The later recruits replaced this with a faster body that self-loaded.
+|description = Gains +2 bonus damage for every card played this turn.<br/>[[Expend]], [[Replenish]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Replenish]]
+|mindamage = 3
+|maxdamage = 3
+}}

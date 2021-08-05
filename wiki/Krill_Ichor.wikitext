@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Just hold your nose and down the whole thing, also I hope you didn't have big plans tomorrow.
+|description = Gain 6 [[Power]] and [[Krilled Up]].<br/>[[Replenish]]<br/>[[Destroy]] after 1 use.
+|cost = 0
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Power]], [[Krilled Up]], [[Replenish]], [[Destroy]]
+}}

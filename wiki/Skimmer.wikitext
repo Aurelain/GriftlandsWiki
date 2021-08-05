@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Taken right from the targeting matrix of old shock-cannons. Those things were too slow to use anyways.
+|description = Apply 3 [[Mark]] to a random target.<br/>[[Expend]]<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Mark]], [[Expend]], [[Destroy]]
+}}

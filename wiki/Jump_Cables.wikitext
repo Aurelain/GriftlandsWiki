@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It's an older trick but it gets the job done.
+|description = Gain 4 [[Charge]].<br/>[[Expend]], [[Ambush]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Rook
+|rarity = Common
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Charge]], [[Expend]], [[Ambush]], [[Destroy]]
+}}

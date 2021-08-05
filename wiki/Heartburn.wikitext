@@ -1,0 +1,10 @@
+{{CardPage
+|quote = The heat erupts from within and never stops burning.
+|description = Apply 4 [[Burn]] to all enemies.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Burn]], [[Expend]]
+}}

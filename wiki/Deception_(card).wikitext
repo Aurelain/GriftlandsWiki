@@ -1,0 +1,17 @@
+{{CardPage
+|name = Deception
+|image = Deception (card).png
+|quote = That's why I don't take prisoners, you just can't trust anyone.
+|description = [[Improvise]] an attack card from your draw pile. That card deals +4 damage until played.
+|cost = 1
+|character = Sal
+|rarity = Common
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Improvise]]
+|expreq = 9
+|upgrade1 = Tall Deception
+|upgrade1summary = 
+|upgrade2 = Boosted Deception
+|upgrade2summary = 
+}}

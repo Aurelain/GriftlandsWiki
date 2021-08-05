@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I've seen them cut through Shrokian combat armor, mostly just the big ones though.
+|description = Draw a card.<br/>Apply 2 [[Bleed]].<br/>[[Destroy]] after 1 use.
+|cost = 0
+|character = Other
+|rarity = Common
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Bleed]], [[Destroy]]
+}}

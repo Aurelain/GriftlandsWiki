@@ -1,0 +1,12 @@
+{{CardPage
+|quote = This is dangerous technology! We still don't really understand what it's capable of!.
+|description = Draw a card.<br/>[[Hatch]] 4
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Hatch]]
+|mindamage = 4
+|maxdamage = 8
+}}

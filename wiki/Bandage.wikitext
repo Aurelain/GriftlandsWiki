@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Basic triage is a necessity for someone who gets in as much trouble as I do.
+|description = Heal 10 health.<br/>[[Expend]]<br/>[[Destroy]] after 3 uses.
+|cost = 2
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Destroy]]
+}}

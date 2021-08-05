@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Large and deadly.
+|description = Apply 2 [[Wound]].<br/>[[Expend]], [[Piercing]], [[Sticky]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Expend]], [[Piercing]], [[Sticky]]
+|mindamage = 9
+|maxdamage = 14
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Flekfis' wrench is mostly used for opening stuck doors and intimidating people.
+|description = On your next turn, gain [[Temporary Power]] equal to damage dealt by this card.<br/>[[Expend]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Temporary Power]], [[Expend]]
+|mindamage = 4
+|maxdamage = 8
+}}

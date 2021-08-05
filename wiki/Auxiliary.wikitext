@@ -1,0 +1,9 @@
+{{CardPage
+|quote = What's the point of carrying them if they aren't always at the ready?
+|description = While in hand, item cards cost 0.<br/>[[Unplayable]]
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Unplayable]]
+}}

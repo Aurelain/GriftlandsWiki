@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Something's gonna go boom.
+|description = Adds bonus damage equal to 25% of target's health.<br/>[[Exert]]<br/>[[Destroy]] after 1 use.
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Exert]], [[Destroy]]
+|mindamage = 4
+|maxdamage = 10
+}}

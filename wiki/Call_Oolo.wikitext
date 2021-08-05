@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Step aside Sal, I got this.
+|description = Call in Oolo to attack all enemies.<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

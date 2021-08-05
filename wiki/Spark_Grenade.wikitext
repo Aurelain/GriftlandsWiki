@@ -1,0 +1,12 @@
+{{CardPage
+|quote = You know you could power a house for a week on this charge right?
+|description = Targets 2 random enemies.<br/>[[Piercing]]<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Common
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Piercing]], [[Destroy]]
+|mindamage = 6
+|maxdamage = 9
+}}

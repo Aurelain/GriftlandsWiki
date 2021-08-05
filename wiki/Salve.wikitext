@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It numbs really fast, all those microbes get right to work.
+|description = 10 [[Heal]].<br/>[[Replenish]]<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Heal]], [[Replenish]], [[Destroy]]
+}}

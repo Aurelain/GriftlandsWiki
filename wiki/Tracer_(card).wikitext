@@ -1,0 +1,17 @@
+{{CardPage
+|name = Tracer
+|image = Tracer (card).png
+|quote = I’ve got your number now pal.
+|description = Apply 2 [[Tracer]].
+|cost = 1
+|character = Smith
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Tracer]]
+|expreq = 9
+|upgrade1 = Boosted Tracer
+|upgrade1summary = 
+|upgrade2 = Stone Tracer
+|upgrade2summary = 
+}}

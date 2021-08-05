@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Ahh! Get this thing outta me!
+|description = At the end of your turn, take 2 damage per attack card played this turn.<br/>[[Unplayable]], [[Burnout]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Unplayable]], [[Burnout]]
+}}

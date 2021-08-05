@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Ahh Hesh! It's heating up in my hand again!
+|description = At the end of your turn, take 2 damage and increase the damage of this card by 3.<br/>Hits all enemies.<br/>[[Expend]], [[Sticky]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Sticky]]
+|mindamage = 6
+|maxdamage = 6
+}}

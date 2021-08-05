@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Just what I needed.
+|description = The lock finally breaks and equipment spills out of the lockbox.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Unplayable]]
+}}

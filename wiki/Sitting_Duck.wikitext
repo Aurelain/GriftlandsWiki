@@ -1,0 +1,10 @@
+{{CardPage
+|quote = ...Quack?
+|description = While this is in your hand, opponent's intents deal 1 bonus damage.<br/>[[Expend]], [[Replenish]], [[Burnout]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Expend]], [[Replenish]], [[Burnout]]
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I'm not here to tell you the safety tips on using this stuff, just know that there probably are a bunch and they are probably very important.
+|description = Maximum damage is increased by 2 per available use.<br/>[[Replenish]]<br/>[[Destroy]] after 4 uses.
+|cost = 1
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Replenish]], [[Destroy]]
+|mindamage = 4
+|maxdamage = 5
+}}

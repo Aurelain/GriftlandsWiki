@@ -1,0 +1,12 @@
+{{CardPage
+|quote = There's always time for a Barbeque.
+|description = Apply 5 [[Burn]]. Hits all enemies.<br/>[[Replenish]]<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Burn]], [[Replenish]], [[Destroy]]
+|mindamage = 2
+|maxdamage = 4
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = A squeeze on that cluster there, I can feel it erupt through the whole swamp.
+|description = Attack with this card three times.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]]
+|mindamage = 3
+|maxdamage = 3
+}}

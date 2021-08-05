@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Good as new! I haven't seen one of these in a while.
+|description = [[Replenish]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Replenish]]
+|mindamage = 4
+|maxdamage = 10
+}}

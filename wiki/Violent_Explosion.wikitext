@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Why doesn't anyone listen to me?!
+|description = Deal 6 damage to all characters.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Unplayable]]
+}}

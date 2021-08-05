@@ -1,0 +1,12 @@
+{{CardPage
+|quote = A quick wrist movement and the handle becomes just as dangerous.
+|description = Apply 3 [[Bleed]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Bleed]], [[Expend]]
+|mindamage = 3
+|maxdamage = 3
+}}

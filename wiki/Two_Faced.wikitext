@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Fellemo had dirt on everyone, always ready to be displayed in his visor.
+|description = Gain 2 [[Influence]] and 2 [[Dominance]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Influence]], [[Dominance]], [[Expend]]
+}}

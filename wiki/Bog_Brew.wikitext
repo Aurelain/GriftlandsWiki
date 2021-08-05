@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That really is quite refreshing.
+|description = 8 [[Heal]].<br/>[[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Common
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Heal]], [[Replenish]], [[Destroy]]
+}}

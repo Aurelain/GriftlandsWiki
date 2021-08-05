@@ -1,0 +1,12 @@
+{{CardPage
+|quote = The extraction process doesn't hurt them at all. They are pretty much all bile.
+|description = Apply 3 [[Wound]].<br/>[[Expend]], [[Sticky]]<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Expend]], [[Sticky]], [[Destroy]]
+|mindamage = 2
+|maxdamage = 4
+}}

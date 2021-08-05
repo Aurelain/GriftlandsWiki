@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I can't hear anything, can you?
+|description = Summons a vroc to fight for you until the end of this fight.<br/>[[Replenish]]<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Replenish]], [[Destroy]]
+}}

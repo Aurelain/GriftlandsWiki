@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Don't worry, it thinks you're its mother.
+|description = The egg cracks and a Flead emerges from within.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Unplayable]]
+}}

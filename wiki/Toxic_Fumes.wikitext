@@ -1,0 +1,10 @@
+{{CardPage
+|quote = These things are made from corrupted technology and mutated wildlife, I'm not sure how to deal with this.
+|description = Take 2 damage.<br/>If ignited by [[Volatile Spark]], take 10 damage.<br/>[[Expend]], [[Replenish]]
+|cost = 0
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Expend]], [[Replenish]]
+}}

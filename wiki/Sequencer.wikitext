@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Universal energy my friend, that's what the blue is all about.
+|description = Restore all uses to an item card in your deck.<br/>[[Expend]], [[Replenish]]<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Replenish]], [[Destroy]]
+}}

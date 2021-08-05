@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Feed a fever and starve a cold? I can never remember which it is...
+|description = Remove all debuffs on yourself, take 3 damage per debuff removed.<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 4
+|cost = 0
+|character = Rook
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Parasite
+|keywords = [[Expend]], [[Parasite]], [[Hatch]]
+}}

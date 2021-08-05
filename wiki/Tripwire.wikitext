@@ -1,0 +1,10 @@
+{{CardPage
+|quote = All of that and it fits right in your pocket!
+|description = Apply [[Stun]].<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Stun]], [[Destroy]]
+}}

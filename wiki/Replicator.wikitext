@@ -1,0 +1,10 @@
+{{CardPage
+|quote = People use these on the strangest things.
+|description = Duplicate a card in your hand.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]]
+}}

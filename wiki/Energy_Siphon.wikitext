@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You do all this work, then some fancy whip just takes it all away?
+|description = Steal all of the target's [[Power]].<br/>[[Expend]], [[Sticky]]<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Power]], [[Expend]], [[Sticky]], [[Destroy]]
+}}

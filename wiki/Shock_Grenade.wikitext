@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Rattles up those buckets really nice, even folks wearing too much metal have a problem with these guys.
+|description = Hits all enemies. [[Stun]] enemies with [[Metallic]].<br/>[[Piercing]]<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Stun]], [[Metallic]], [[Piercing]], [[Destroy]]
+|mindamage = 5
+|maxdamage = 8
+}}

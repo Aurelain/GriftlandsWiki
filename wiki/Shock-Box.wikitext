@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Slapped together by the Rise, Shock-Boxes are effective against automechs because of the reboot algorithms added to the signal dump.
+|description = If the target has [[Metallic]], apply [[Stun]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Metallic]], [[Stun]], [[Expend]]
+|mindamage = 2
+|maxdamage = 4
+}}

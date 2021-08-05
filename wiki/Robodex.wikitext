@@ -1,0 +1,9 @@
+{{CardPage
+|quote = ALL INTERACTIONS HAVE BEEN LOGGED. INSURANCE IS NOW VOID
+|description = While this is in your hand, gain 1 [[Temporary Power]] whenever you draw a card.<br/>[[Unplayable]]
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Temporary Power]], [[Unplayable]]
+}}
