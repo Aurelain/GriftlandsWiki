@@ -75,6 +75,7 @@ const getCards = (zip, keywords, artIds) => {
 
     fixSomeValues(cards);
 
+    // console.log('cards:', cards);
     return cards;
 };
 
@@ -98,6 +99,7 @@ const getRawCards = (zip) => {
                 const luaCards = extractRawCards(hybridLua, entryName);
                 for (const id in luaCards) {
                     if (!DENIED[id]) {
+                        // if (!id.startsWith('coin_juggler')) continue;
                         // if (id !== 'abrupt_remark') continue;
                         assert(!cards[id], `Duplicate card "${id}"!`);
                         cards[id] = luaCards[id];
@@ -115,7 +117,7 @@ const getRawCards = (zip) => {
  */
 const fillUpgrades = (bag) => {
     for (const id in bag) {
-        const baseId = getParentId(id);
+        const baseId = getParentId(bag[id]);
         if (baseId) {
             assert(bag[baseId], `${id}: Base card "${baseId}" is missing!`);
             bag[id] = {
@@ -166,7 +168,12 @@ const resolveArtId = (cards, artIds) => {
 /**
  *
  */
-const getParentId = (id) => {
+const getParentId = (card) => {
+    const {base_id, id} = card;
+    if (base_id) {
+        debugCard(Array.isArray(base_id), card, 'base_id should be array!');
+        return base_id[1];
+    }
     // Somewhat unsafe, since a card name may legitimately contain "_upgraded":
     const cleanId = id.replace(/_plus.*|_upgraded.*/, '');
     return cleanId !== id ? cleanId : '';

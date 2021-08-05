@@ -18,8 +18,8 @@ const updateCards = (cardsBag) => {
     let count = 0;
     for (const id in cardsBag) {
         const card = cardsBag[id];
-        // console.log('card:', card);
-        const filePath = STORAGE + '/' + getFilePath(card.name, '');
+        const name = card.name.split(':').join('%3A'); // "Weakness: Blind Spot"
+        const filePath = STORAGE + '/' + getFilePath(name, '');
         if (fs.existsSync(filePath)) continue;
 
         const existingWikitext = (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8')) || '';
