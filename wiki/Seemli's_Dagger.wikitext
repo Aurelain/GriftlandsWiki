@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I could only get the one before the other self-destructed.
+|description = Apply 2 [[Wound]].<br/>Gain 1 [[Evasion]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Evasion]], [[Expend]]
+|mindamage = 3
+|maxdamage = 6
+}}

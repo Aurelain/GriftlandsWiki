@@ -20,15 +20,15 @@ const updateCards = (cardsBag) => {
         const card = cardsBag[id];
         // console.log('card:', card);
         const filePath = STORAGE + '/' + getFilePath(card.name, '');
-        if (!fs.existsSync(filePath)) continue;
+        if (fs.existsSync(filePath)) continue;
 
         const existingWikitext = (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8')) || '';
-        if (existingWikitext.match(/{{Card\b/)) {
-            continue;
-        }
-        if (!existingWikitext.match(/{{CardPage\b/)) {
-            continue;
-        }
+        // if (existingWikitext.match(/{{Card\b/)) {
+        //     continue;
+        // }
+        // if (!existingWikitext.match(/{{CardPage\b/)) {
+        //     continue;
+        // }
         // if (id !== 'ammo_pouch') {
         //     continue;
         // }

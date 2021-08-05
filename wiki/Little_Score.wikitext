@@ -1,0 +1,10 @@
+{{CardPage
+|quote = If you're going to win, at least win with style!
+|description = Gain 30 PTS.<br/>[[Replenish]], [[Score]]<br/>[[Destroy]] after 5 uses.
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Score
+|keywords = [[Replenish]], [[Score]], [[Destroy]]
+}}

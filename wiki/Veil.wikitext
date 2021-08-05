@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Protective and keeps your germs to yourself, it’s just common courtesy.
+|description = Dismiss a random enemy intent.<br/>[[Expend]], [[Replenish]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Expend]], [[Replenish]]
+}}

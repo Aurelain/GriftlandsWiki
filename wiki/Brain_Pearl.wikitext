@@ -1,0 +1,9 @@
+{{CardPage
+|quote = This is some top tier implantation, I'm kind of jealous.
+|description = While this is in your hand, all cards gain 2 minimum damage.<br/>[[Unplayable]], [[Replenish]]
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Unplayable]], [[Replenish]]
+}}

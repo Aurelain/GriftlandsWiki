@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Gifted to those who have taken an unacceptable loss and carried with shame.
+|description = At the end of your turn, [[Expend]] all cards in your hand and this card.<br/>[[Keepsake]] 100 PTS<br/>[[Destroy]], [[Score]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Score
+|keywords = [[Expend]], [[Keepsake]], [[Destroy]], [[Score]]
+}}

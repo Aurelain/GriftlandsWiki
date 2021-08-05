@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Two more stacks and I’ll get to sleep inside the halls!
+|description = [[Stacking]]: Double this card's damage.<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Stacking]], [[Destroy]]
+|mindamage = 2
+|maxdamage = 2
+}}

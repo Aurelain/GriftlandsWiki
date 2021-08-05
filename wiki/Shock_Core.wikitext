@@ -1,0 +1,14 @@
+{{CardPage
+|quote = You are going to want to throw it before the sizzle, but you get more out of it if you wait.
+|description = Deal 5 damage to yourself.<br/>Apply [[Stun]].<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Stun]], [[Destroy]]
+|upgrade1 = Stable Shock Core
+|upgrade1summary = 
+|mindamage = 5
+|maxdamage = 5
+}}

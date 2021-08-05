@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That definitely hit the spot, I could go all night!
+|description = [[Heal]] 10 health.<br/>[[Destroy]]
+|cost = 3
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Heal]], [[Destroy]]
+}}

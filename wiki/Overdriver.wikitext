@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Charges up through kinetic motion, just make sure that you vent it properly or you’ll be in a world of hurt.
+|description = This card gains 3 bonus damage for every card played this turn.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]]
+|mindamage = 2
+|maxdamage = 4
+}}

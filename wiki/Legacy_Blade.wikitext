@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Names are etched across a blade that flickers and hums with an ancient energy.
+|description = Whenever you kill an enemy with this card, gain 100 PTS.<br/>[[Score]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Score
+|keywords = [[Score]]
+|mindamage = 3
+|maxdamage = 5
+}}

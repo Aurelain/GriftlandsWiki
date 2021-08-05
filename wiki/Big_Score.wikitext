@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Now you are just showing off!
+|description = Gain 300 PTS if hatched.<br/>[[Replenish]], [[Score]]<br/>[[Hatch]] 4
+|cost = 2
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Score
+|keywords = [[Replenish]], [[Score]], [[Hatch]]
+}}

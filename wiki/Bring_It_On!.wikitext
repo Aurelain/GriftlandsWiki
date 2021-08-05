@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Take your shot loser!
+|description = Remove all your [[Defense]], gain 5 PTS per [[Defense]] removed.<br/>[[Score]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Score
+|keywords = [[Defense]], [[Score]]
+}}

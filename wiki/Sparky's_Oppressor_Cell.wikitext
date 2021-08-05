@@ -1,0 +1,10 @@
+{{CardPage
+|quote = To actually incorporate spark into your cybernetics is crazy as far as I'm concerned, who wants to walk around with a bomb in their chest?
+|description = Gain 3 [[Temporary Power]].<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Temporary Power]], [[Expend]]
+}}

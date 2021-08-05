@@ -1,0 +1,12 @@
+{{CardPage
+|quote = A brutal relic from an outlawed sport.
+|description = Apply 1 [[Traumatized]].<br/>[[Expend]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Traumatized]], [[Expend]]
+|mindamage = 6
+|maxdamage = 8
+}}

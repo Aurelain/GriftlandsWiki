@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Those Vrocs are a tricky bunch, something in the feathers and the musk that confuses the attackers.
+|description = Gain 1 [[Evasion]].<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Evasion]], [[Destroy]]
+}}

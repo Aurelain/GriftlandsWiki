@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Hesh! What is this stuff? Auto-mech cleaner?
+|description = Gain 2 [[Power]], [[Heal]] 5 Health and add 1 [[Tipsy]] card to your discard pile.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Power]], [[Heal]], [[Expend]]
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = TARGET ACQUIRED.
+|description = Apply 2 [[Wound]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Expend]]
+|mindamage = 3
+|maxdamage = 6
+}}

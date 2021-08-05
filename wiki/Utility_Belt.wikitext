@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Always have your favorite toys on deck.
+|description = [[Improvise+]] 2 item cards from your deck.<br/>[[Expend]]<br/>[[Destroy]] after 4 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Improvise+]], [[Expend]], [[Destroy]]
+}}

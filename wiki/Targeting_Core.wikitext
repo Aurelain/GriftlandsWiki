@@ -1,0 +1,10 @@
+{{CardPage
+|quote = These make those robots seem a little bit more than half witted, I guess three-quarters witted?
+|description = Apply [[Targeted]].<br/>[[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Uncommon
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Targeted]], [[Replenish]], [[Destroy]]
+}}

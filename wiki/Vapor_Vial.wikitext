@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I never told you to drink the Heshing thing, now I'm going to have to make a whole new batch.
+|description = For the rest of your turn, all of your cards have a random cost between 0 and 2 until they are played.<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

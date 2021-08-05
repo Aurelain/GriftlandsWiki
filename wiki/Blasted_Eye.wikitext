@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Pulled from a disgraced Kra’deshi. Some say if the eye doesn’t grow back that justice was served and the stigma is lifted.
+|description = At the end of your turn, gain 3 [[Impair]].<br/>[[Keepsake]] 80 PTS<br/>[[Destroy]], [[Score]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Score
+|keywords = [[Impair]], [[Keepsake]], [[Destroy]], [[Score]]
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = The Blue solution! May it burn the brightest throughout the dark!
+|description = Take 1 damage.<br/>[[Expend]]
+|cost = 1
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Expend]]
+}}

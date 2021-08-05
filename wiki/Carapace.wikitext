@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I keep a plate right over my hearts, for luck you know.
+|description = Apply 8 [[Defense]].<br/>[[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Defense]], [[Replenish]], [[Destroy]]
+}}

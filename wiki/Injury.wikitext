@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Ouch.
+|description = [[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Expend]]
+}}

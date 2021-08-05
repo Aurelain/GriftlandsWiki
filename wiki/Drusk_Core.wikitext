@@ -1,0 +1,12 @@
+{{CardPage
+|quote = After I cleaned it off, added some new wiring, changed the projection angle, and replaced the resonator core, It was good as new!
+|description = Hits all enemies.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]]
+|mindamage = 7
+|maxdamage = 12
+}}

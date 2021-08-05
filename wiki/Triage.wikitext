@@ -1,0 +1,10 @@
+{{CardPage
+|quote = The Jakes always seem to have some of the best medics, probably because they are always scrapping with everybody.
+|description = Remove all debuffs and [[Expend]] all Status cards in your hand and draw pile.<br/>[[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Replenish]], [[Destroy]]
+}}

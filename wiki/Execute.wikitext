@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Finish them!
+|description = Kills target surrendered enemy.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+}}

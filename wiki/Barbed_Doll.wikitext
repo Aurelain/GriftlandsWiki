@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Carried by Jarackle combat trainees that skip curfew. Usually carried inside the boots.
+|description = While this is in your hand, all your attacks deal half damage.<br/>[[Keepsake]] 120 PTS<br/>[[Destroy]], [[Score]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Score
+|keywords = [[Keepsake]], [[Destroy]], [[Score]]
+}}

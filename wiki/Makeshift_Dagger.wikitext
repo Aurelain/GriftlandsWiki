@@ -1,0 +1,14 @@
+{{CardPage
+|quote = This one is my lucky shiv!
+|description = Apply 1 [[Wound]].<br/>50% chance to [[Destroy]] this card.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Destroy]]
+|upgrade1 = Sharpened Makeshift Dagger
+|upgrade1summary = 
+|mindamage = 2
+|maxdamage = 3
+}}

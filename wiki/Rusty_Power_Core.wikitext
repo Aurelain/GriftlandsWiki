@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I don't think you can save this one, just throw it back.
+|description = [[Replenish]], [[Piercing]]<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Replenish]], [[Piercing]], [[Destroy]]
+|mindamage = 5
+|maxdamage = 5
+}}

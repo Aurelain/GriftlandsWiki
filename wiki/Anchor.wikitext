@@ -1,0 +1,14 @@
+{{CardPage
+|quote = If you keep that momentum going, your next strike is going to be spectacular.
+|description = At the start of your next turn, gain 3 [[Temporary Power]].<br/>[[Destroy]] after 3 uses.
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Temporary Power]], [[Destroy]]
+|upgrade1 = Polished Anchor
+|upgrade1summary = 
+|mindamage = 8
+|maxdamage = 10
+}}

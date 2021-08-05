@@ -1,0 +1,11 @@
+{{CardPage
+|name = Bleed
+|image = Bleed (card).png
+|quote = I'm getting a little light headed...
+|description = At the end of your turn, take 2 damage and [[Expend]] this card.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Expend]], [[Unplayable]]
+}}

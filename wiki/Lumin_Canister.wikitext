@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Hit the deck!
+|description = Hits all enemies.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]]
+|mindamage = 10
+|maxdamage = 12
+}}

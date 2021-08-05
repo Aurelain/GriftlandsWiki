@@ -1,0 +1,12 @@
+{{CardPage
+|quote = If it survives the fight be sure to put it on your mantle, they are quite decorative.
+|description = Apply 2 [[Wound]] and 2 [[Impair]].<br/>[[Expend]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Impair]], [[Expend]], [[Destroy]]
+|mindamage = 6
+|maxdamage = 8
+}}

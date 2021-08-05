@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I'm not carrying that.
+|description = Apply 3 [[Bleed]].<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Bleed]], [[Destroy]]
+|mindamage = 4
+|maxdamage = 6
+}}

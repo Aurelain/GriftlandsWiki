@@ -1,0 +1,9 @@
+{{CardPage
+|quote = There's something engraved on the blade but you can't seem to make it out.
+|description = All of your attacks apply 1 [[Bleed]] while this is in your hand.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Bleed]], [[Unplayable]]
+}}

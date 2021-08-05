@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Whoa there, I didn’t think the installation would be this invasive.
+|description = Apply 5 [[Lumin Burnt]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Lumin Burnt]], [[Expend]]
+|mindamage = 4
+|maxdamage = 5
+}}

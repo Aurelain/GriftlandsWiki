@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Forget trying to punch through that, we need to try something else.
+|description = Gain 1 [[Defense]] per card in your hand.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Defense]]
+}}

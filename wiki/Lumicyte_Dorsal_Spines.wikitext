@@ -1,0 +1,12 @@
+{{CardPage
+|quote = The smaller ones are used in jewelry, when they get this big and dangerous they’re only good for combat.
+|description = Apply 3 [[Exposed]].<br/>[[Piercing]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Exposed]], [[Piercing]], [[Destroy]]
+|mindamage = 3
+|maxdamage = 4
+}}

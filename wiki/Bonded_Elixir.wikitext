@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Strong stuff!
+|description = While in hand, apply 1 [[Wound]] to yourself for every card played.<br/>[[Destroy]]
+|cost = 2
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Wound]], [[Destroy]]
+}}

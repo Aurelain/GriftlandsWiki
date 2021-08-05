@@ -1,0 +1,12 @@
+{{CardPage
+|quote = They won’t be needing this anymore.
+|description = Gain 15 shill.<br/>[[Destroy]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Destroy]]
+|mindamage = 3
+|maxdamage = 4
+}}

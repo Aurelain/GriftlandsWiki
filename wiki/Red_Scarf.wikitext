@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Not sure how this ended up here...
+|description = When this is drawn, gain 1 [[Power]].<br/>[[Unplayable]], [[Replenish]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Power]], [[Unplayable]], [[Replenish]]
+}}

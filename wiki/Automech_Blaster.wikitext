@@ -1,0 +1,12 @@
+{{CardPage
+|quote = REMOVAL OF BLASTER TECHNOLOGY VOIDS ALL WARRANTY. YOU HAVE BEEN WARNED.
+|description = Targets a random enemy. Fires four times.<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+|mindamage = 2
+|maxdamage = 3
+}}

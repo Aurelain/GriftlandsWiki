@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I must have been here before, this tree looks familiar.
+|description = When drawn, lose 1 action.<br/>[[Destroy]], [[Sleep It Off]]
+|cost = 1
+|character = Other
+|rarity = Basic
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Destroy]], [[Sleep It Off]]
+}}

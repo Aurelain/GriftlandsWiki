@@ -1,0 +1,12 @@
+{{CardPage
+|quote = A very impressive trophy, best I can do is fifteen.
+|description = Apply 2 [[Wound]]. Gain 2 [[Power]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Power]], [[Expend]]
+|mindamage = 4
+|maxdamage = 5
+}}

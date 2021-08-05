@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Why are there lobsters on the Dock? We weren’t expecting a shipment today.
+|description = [[Improvise]] an item card from your draw pile and play it with a random target.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Improvise]], [[Expend]]
+|mindamage = 3
+|maxdamage = 4
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = All teeth and tumors, a heavy swing that's straight from the heart of the bog.
+|description = If the target is stunned, deal 15 bonus damage.<br/>[[Expend]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Destroy]]
+|mindamage = 5
+|maxdamage = 5
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|description = While this is in your hand, bleed cards deal 2 bonus damage.<br/>[[Expend]], [[Sticky]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Expend]], [[Sticky]]
+}}

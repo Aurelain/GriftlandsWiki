@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Pay attention.
+|description = The first attack played on your next turn is played twice.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]]
+}}

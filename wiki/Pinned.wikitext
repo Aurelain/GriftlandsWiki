@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Bandit crossbows have such a high rate of fire, their targets rarely get a chance to organize a counterattack.
+|description = Play this card to return a stolen card to your hand.<br/>[[Expend]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Expend]]
+}}

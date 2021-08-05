@@ -1,0 +1,7 @@
+{{CardPage
+|description = Cancel.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|keywords = [[Unplayable]]
+}}

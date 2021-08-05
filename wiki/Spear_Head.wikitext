@@ -1,0 +1,10 @@
+{{CardPage
+|quote = The wide blade of the Admiralty spears are both impressive and helpful when dealing with the masses.
+|description = For the rest of your turn, your attacks hit all enemies.<br/>[[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Replenish]], [[Destroy]]
+}}

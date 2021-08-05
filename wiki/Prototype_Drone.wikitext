@@ -1,0 +1,10 @@
+{{CardPage
+|quote = THANK YOU FOR YOUR QUICK ACTIVATION. I SEE THAT YOU HAVE NOT PURCHASED THE EXTENDED WARRANTY.
+|description = Summons a prototype drone to fight for you.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]]
+}}

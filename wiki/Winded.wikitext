@@ -1,0 +1,9 @@
+{{CardPage
+|quote = I'm going to need a second...
+|description = At the end of your turn, [[Expend]] this card.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Expend]], [[Unplayable]]
+}}

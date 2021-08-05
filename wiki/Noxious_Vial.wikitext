@@ -1,0 +1,12 @@
+{{CardPage
+|quote = This one isn’t for drinking.
+|description = When drawn, take 5 damage.<br/>[[Destroy]]
+|cost = 2
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Destroy]]
+|mindamage = 5
+|maxdamage = 10
+}}

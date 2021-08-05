@@ -1,0 +1,9 @@
+{{CardPage
+|quote = You haven't seen this make before, but it's easy enough to figure out.
+|description = Gain 2 [[Power]] while this is in your hand.<br/>[[Unplayable]], [[Replenish]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Power]], [[Unplayable]], [[Replenish]]
+}}

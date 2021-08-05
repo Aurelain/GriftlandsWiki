@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You’ll be a lot tougher than you look.
+|description = Apply 3 [[Defense]]. Applies 2 bonus [[Defense]] for every card played this turn.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Defense]], [[Expend]]
+}}

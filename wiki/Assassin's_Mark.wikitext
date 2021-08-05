@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hanbi has his eyes on you.
+|description = Owner's attacks deal 3 extra damage while this is in your hand.<br/>[[Unplayable]]
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Unplayable]]
+|upgrade1 = Assassin's Mark
+|upgrade1summary = 
+}}

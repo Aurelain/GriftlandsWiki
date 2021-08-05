@@ -1,0 +1,12 @@
+{{CardPage
+|quote = It really shakes up those buckets! Makes me laugh to see them fall apart haha!
+|description = Hits all enemies. [[Stun]] enemies with [[Metallic]].<br/>[[Piercing]]<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Stun]], [[Metallic]], [[Piercing]], [[Destroy]]
+|mindamage = 6
+|maxdamage = 10
+}}

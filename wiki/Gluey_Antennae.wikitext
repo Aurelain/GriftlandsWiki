@@ -1,0 +1,10 @@
+{{CardPage
+|quote = A kind of conduit is formed between the user and the target, it's also super gross.
+|description = Apply [[Glued]].
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Glued]]
+}}

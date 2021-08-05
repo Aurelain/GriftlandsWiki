@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Hedge witches craft these to inflict malady on their targets. If you come into one meant for you it’s best to not lose it before you can dispose of it properly.
+|description = At the end of your turn, take 2 damage for each attack card played this turn.<br/>[[Keepsake]] 150 PTS<br/>[[Destroy]], [[Score]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Score
+|keywords = [[Keepsake]], [[Destroy]], [[Score]]
+}}

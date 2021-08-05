@@ -1,0 +1,13 @@
+{{CardPage
+|quote = You are going to want to throw it before the sizzle, but you get more out of it if you wait.
+|description = Apply [[Stun]].<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Stun]], [[Destroy]]
+|parent = Shock Core
+|mindamage = 5
+|maxdamage = 5
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Pretty standard model, but there’s been a lot of work done on it and it’s still warm.
+|description = Apply 3 [[Fixed]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Fixed]], [[Expend]]
+}}

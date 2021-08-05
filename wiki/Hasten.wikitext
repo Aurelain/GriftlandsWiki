@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Fast as lightning.
+|description = Gain 1 Action.<br/>[[Expend]], [[Replenish]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Expend]], [[Replenish]]
+}}

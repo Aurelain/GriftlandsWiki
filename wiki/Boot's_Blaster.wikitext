@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Tough as Hesh but hard to work with.
+|description = Gain 10 PTS per damage dealt by this card.<br/>[[Expend]], [[Score]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Score
+|keywords = [[Expend]], [[Score]]
+|mindamage = 2
+|maxdamage = 2
+}}

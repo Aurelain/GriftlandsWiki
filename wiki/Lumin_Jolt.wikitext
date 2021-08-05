@@ -1,0 +1,10 @@
+{{CardPage
+|quote = The Blue goes so seamlessly with your own bio-metrics because it’s just as alive as you are.
+|description = Gain 5 [[Overcharge]].<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Overcharge]], [[Expend]]
+}}

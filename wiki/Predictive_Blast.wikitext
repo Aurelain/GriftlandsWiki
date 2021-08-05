@@ -1,0 +1,12 @@
+{{CardPage
+|quote = SCANNING POTENTIAL THREATS. IMPLEMENTING COUNTERMEASURES.
+|description = This card deals bonus damage equal to the targets current intent.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]]
+|mindamage = 3
+|maxdamage = 4
+}}

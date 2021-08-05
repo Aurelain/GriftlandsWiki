@@ -1,0 +1,13 @@
+{{CardPage
+|quote = Those filthy Rise! Nobody should be allowed to fight like that!
+|description = Apply [[Stun]].<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Stun]], [[Destroy]]
+|parent = Guerrilla Tactic
+|mindamage = 4
+|maxdamage = 4
+}}

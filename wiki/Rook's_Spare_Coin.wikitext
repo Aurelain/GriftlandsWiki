@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Call it.
+|description = Draw a card.<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]]
+|mindamage = 4
+|maxdamage = 6
+}}

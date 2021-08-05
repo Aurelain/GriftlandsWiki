@@ -1,0 +1,13 @@
+{{CardPage
+|quote = This one is my lucky shiv!
+|description = Apply 2 [[Wound]].<br/>50% chance to [[Destroy]] this card.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Destroy]]
+|parent = Makeshift Dagger
+|mindamage = 3
+|maxdamage = 3
+}}

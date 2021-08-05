@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Such impressive craftsmanship! Where did you say you found it again?
+|description = This applies a random debuff if no other cards have been played this turn.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|mindamage = 2
+|maxdamage = 6
+}}

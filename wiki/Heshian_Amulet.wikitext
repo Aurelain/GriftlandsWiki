@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Once the mind is clear, the void can enter and all will be revealed.
+|description = Discard any number of cards. [[Heal]] 3 per card.<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Heal]], [[Destroy]]
+|upgrade1 = Blessed Heshian Amulet
+|upgrade1summary = 
+}}

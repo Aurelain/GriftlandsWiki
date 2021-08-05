@@ -1,0 +1,12 @@
+{{CardPage
+|quote = The blade crackles with a strange energy, you feel linked to it while it writhes in your hand.
+|description = [[Heal]] an amount equal to the health lost by the target.<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Heal]], [[Destroy]]
+|mindamage = 3
+|maxdamage = 6
+}}

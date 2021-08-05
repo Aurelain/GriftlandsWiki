@@ -1,0 +1,9 @@
+{{CardPage
+|quote = There’s actually some technology in there that stabilizes it during flight, just watch.
+|description = While this is in your hand, deal 2 damage to a random enemy whenever you draw a card.<br/>[[Unplayable]], [[Burnout]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Unplayable]], [[Burnout]]
+}}

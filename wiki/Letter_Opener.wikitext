@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It's just a nickname, I never opened any letters with it.
+|description = Apply 2 [[Impair]].<br/>[[Replenish]]<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Impair]], [[Replenish]], [[Destroy]]
+}}

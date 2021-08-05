@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Snellick’s Fastest is sick today so those odds are way off, swear to Hesh!.
+|description = Gain 30 shill.<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

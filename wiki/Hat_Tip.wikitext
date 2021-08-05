@@ -1,0 +1,9 @@
+{{CardPage
+|description = Gain 3 [[Renown]] and 1 [[Influence]].<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Renown]], [[Influence]], [[Expend]]
+}}

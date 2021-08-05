@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Delicious, can I see the dessert menu?
+|description = [[Destroy]], [[Sleep It Off]]
+|cost = 2
+|character = Other
+|rarity = Basic
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Destroy]], [[Sleep It Off]]
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Wow. That's really potent.
+|description = Take 3 damage, gain 4 [[Adrenaline]].<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Adrenaline]], [[Destroy]]
+}}

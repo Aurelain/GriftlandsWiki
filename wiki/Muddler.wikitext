@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You’ll definitely be feeling that in the morning.
+|description = While in hand, all enemy targets are random.<br/>[[Destroy]]
+|cost = 2
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Destroy]]
+}}

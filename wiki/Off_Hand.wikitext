@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Hey, at least he’s trying.
+|description = [[Expend]], [[Dud]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Expend]], [[Dud]]
+|mindamage = 2
+|maxdamage = 2
+}}

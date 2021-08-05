@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Tearing them out of the glands is some really horrible dreck, but they are a joy to throw.
+|description = Draw a card.<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+|mindamage = 6
+|maxdamage = 6
+}}

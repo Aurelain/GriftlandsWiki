@@ -1,0 +1,10 @@
+{{CardPage
+|quote = If it’s shady, the Admiralty probably already knows about it and has it filed somewhere.
+|description = Destroy an opponent argument.<br/>[[Expend]], [[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Expend]], [[Replenish]], [[Destroy]]
+}}

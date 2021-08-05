@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Throw it really hard so if it doesn’t explode it at least hurts the guy.
+|description = Targets all enemies.<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+|mindamage = 0
+|maxdamage = 6
+}}

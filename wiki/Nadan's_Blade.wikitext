@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Spark tech and bandit savagery together at last.
+|description = Apply 4 stacks of a random debuff chosen from [[Wound]], [[Bleed]] or [[Impair]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Bleed]], [[Impair]], [[Expend]]
+|mindamage = 6
+|maxdamage = 8
+}}

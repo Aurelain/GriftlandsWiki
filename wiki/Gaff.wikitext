@@ -1,0 +1,14 @@
+{{CardPage
+|quote = Yikes, that looks nasty.
+|description = Gain [[Defense]] equal to the damage dealt by this card.<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Defense]], [[Destroy]]
+|upgrade1 = Boosted Gaff
+|upgrade1summary = 
+|mindamage = 2
+|maxdamage = 6
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Just add water!
+|description = Summon 1 Spark Mine Burr on the enemy's side.<br/>[[Expend]]<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Destroy]]
+}}

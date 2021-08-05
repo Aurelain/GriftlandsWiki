@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Try not to jostle around too much.
+|description = Apply 2 [[Impair]].<br/>Hits all enemies.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Impair]], [[Expend]]
+|mindamage = 4
+|maxdamage = 6
+}}

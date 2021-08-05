@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That much lumin that close to your eyes can't be good. Those zealots can't seem to get enough of it though, says it helps them see the truth.
+|description = Gain 3 [[Temporary Power]].<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Temporary Power]], [[Destroy]]
+}}

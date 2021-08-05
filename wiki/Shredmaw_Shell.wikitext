@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Fits like a disgustingly warm glove.
+|description = Gain 5 [[Counter]].<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Counter]], [[Expend]]
+}}

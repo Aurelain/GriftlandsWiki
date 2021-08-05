@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Kra’deshi family pendants range drastically in influence as families make trades and lose or gain followers.
+|description = While this is in your hand, all your cards deal 2 bonus damage.<br/>[[Unplayable]], [[Replenish]]
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Unplayable]], [[Replenish]]
+}}

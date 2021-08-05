@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Anything that can manipulate that much weight can also just wreck soft targets.
+|description = Your next attack this turn deals double damage.<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+}}
