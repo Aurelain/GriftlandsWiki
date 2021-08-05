@@ -44,8 +44,8 @@ const summarizeCardUpgrade = (baseCard, upgradeCard) => {
     if (simplifyDescription(baseCard.desc) !== simplifyDescription(upgradeCard.desc)) {
         summary.push(upgradeCard.desc);
     }
-    const baseKeywords = objectify(baseCard.keywords.split(','));
-    const upgradedKeywords = objectify(upgradeCard.keywords.split(','));
+    const baseKeywords = baseCard.keywords ? objectify(baseCard.keywords.split(',')) : {};
+    const upgradedKeywords = upgradeCard.keywords ? objectify(upgradeCard.keywords.split(',')) : {};
     for (const keyword in baseKeywords) {
         if (!(keyword in upgradedKeywords)) {
             summary.push('Removed [[' + keyword + ']]');
