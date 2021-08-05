@@ -1,27 +1,17 @@
-{{Card
+{{CardPage
+|quote = Ahh! Right on the funny bone!
+|description = [[Threshold]] 6: Apply 2 [[Impair]].
+|cost = 1
 |character = Smith
 |rarity = Common
-|cardtype = Attack
 |decktype = Battle
+|cardtype = Attack
 |keywords = [[Threshold]], [[Impair]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Nerve Strike
-|upgrade2 = Focused Nerve Strike}}
-
-{{Quote|Ahh! Right on the funny bone!}}
-
-'''Nerve Strike''' is a 1-cost Common '''Attack''' card for [[Smith]]. It deals 2-6 base damage. It has the effect: "[[Threshold]] 6: Apply 2 [[Impair]]".
-
-==Upgrades==
-After accruing 9 experience '''Nerve Strike''' is able to be upgraded.
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Boosted Nerve Strike.png|150px]]
-|[[File: Focused Nerve Strike.png|150px]]
-|-
-!Deal 3-7 base damage
-!Apply 4 [[Impair]]
-|-
-|}
+|upgrade1summary = Damage +1
+|upgrade2 = Focused Nerve Strike
+|upgrade2summary = Apply +2 [[Impair]]
+|mindamage = 2
+|maxdamage = 6
+}}

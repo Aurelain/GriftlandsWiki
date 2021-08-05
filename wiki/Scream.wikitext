@@ -1,26 +1,15 @@
-{{Card
+{{CardPage
+|quote = Hesh! That’s Heshing loud!
+|description = Gain 3 [[Adrenaline]]. Take 3 damage every time you play a card until the end of this turn.<br/>[[Expend]]
+|cost = 0
 |character = Smith
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Adrenaline]], [[Expend]]
-|upgradeable = Yes
 |expreq = 8
 |upgrade1 = Softened Scream
-|upgrade2 = Boosted Scream}}
-
-{{Quote|Hesh! That's Heshing loud!}}
-
-'''Scream''' is a 0-cost Uncommon '''Maneuver''' card for [[Smith]]. It has the effect: "Gain 3 [[Adrenaline]]. Take 3 damage every time you play a card until the end of this turn. [[Expend]]".
-
-==Upgrades==
-After accruing 8 experience '''Scream''' is able to be upgraded.
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Softened Scream.png|150px]]
-|[[File: Boosted Scream.png|150px]]
-|-
-!Take 2 damage every time you play a card
-!Gain 4 [[Adrenaline]]
-|}
+|upgrade1summary = Take 2 damage instead of 3<br/>for each card played
+|upgrade2 = Boosted Scream
+|upgrade2summary = Gain +1 [[Adrenaline]]
+}}

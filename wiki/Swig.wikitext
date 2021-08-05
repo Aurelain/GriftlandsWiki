@@ -1,30 +1,17 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = This is great! What do you call it?
+|description = [[Drink]] 2. Gain one of the following: 2 [[Moxie]], 2 [[Adrenaline]], 4 [[Defense]] or 1 [[Power]].
+|cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Drink]], [[Moxie]], [[Adrenaline]], [[Defense]], [[Power]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Mirrored Swig
-|upgrade2 = Boosted Swig}}
-
-{{Quote|This is great! What do you call it?}}
-
-'''Swig''' is a 1-cost Common '''Maneuver''' card for [[Smith]]. It has the effect: "[[Drink]] 2. Gain 1 of the following: 2 [[Moxie]], 2 [[Adrenaline]], 4 [[Defense]] or 1 [[Power]]".
-
-The gained effect is chosen at random.
-
-==Upgrades==
-After accruing 9 experience '''Swig''' is able to be upgraded.
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Mirrored Swig.png|150px]]
-|[[File: Boosted Swig.png|150px]]
-|-
-!Gain 1 of the following, twice
-!Gain 4 [[Moxie]], 4 [[Adrenaline]], 8 [[Defense]] or 2 [[Power]]
-|}
+|upgrade1summary = Gain twice
+|upgrade2 = Boosted Swig
+|upgrade2summary = Gain double
+}}

@@ -1,30 +1,18 @@
-{{Card
+{{CardPage
+|quote = I stole this from a guy, so now it’s mine.
+|description = [[Drink]].<br/>[[Improvise]] a card from a pool of special cards.
+|cost = 1
 |character = Smith
 |rarity = Basic
-|cardtype = Maneuver
 |decktype = Battle
+|cardtype = Maneuver
 |keywords = [[Drink]], [[Improvise]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Smith's Boosted Flask
-|upgrade2 = Smith's Wide Flask}}
-
-{{Quote|I stole this from a guy, so now it's mine.}}
-
-'''Smith's Flask''' is a 1-cost Basic '''Maneuver''' card for [[Smith]]. It has the effect: "[[Drink]]. [[Improvise]] a card from a special pool of cards".
-As a base card '''Smith's Flask''' is always part of the available card pool for [[Smith]].
-
-==Upgrades==
-After accruing 9 experience '''Smith's Flask''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Smith's Boosted Flask.png|150px]]
-|[[File: Smith's Wide Flask.png|150px]]
-|-
-![[Improvise]] a card from a pool of upgraded special cards
-![[Improvise+]] a card from a pool of special cards
-|-
-|}
+|upgrade1summary = Pool contains upgraded special cards
+|upgrade2 = Smith's Wide Flask
+|upgrade2summary = [[Improvise+]] instead of [[Improvise]]
+}}
 
 ==Special Cards==
 '''Smith's Flask''' has several special cards in its pool, those being:

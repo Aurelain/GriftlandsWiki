@@ -1,47 +1,27 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = I didn’t feel a thing!
+|description = Apply 3 [[Defense]].
+|cost = 1
 |character = Smith
 |rarity = Basic
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Defense]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Easing Toughen Up
+|upgrade1summary = [[Alleviate]] 2
 |upgrade2 = Boosted Toughen Up
-|upgrade3 = Lucid Toughen Up
-|upgrade4 = Toughen Up of Clarity
-|upgrade5 = Rolling Toughen Up
-|upgrade6 = Excited Toughen Up
-|upgrade7 = Quenched Toughen Up
+|upgrade2summary = [[Defense]] +2
+|upgrade3 = Quenched Toughen Up
+|upgrade3summary = [[Defense]] +3<br/>if you drank this turn
+|upgrade4 = Rolling Toughen Up
+|upgrade4summary = [[Defense]] -1<br/>[[Defense]] +1 for each card<br/>played this turn
+|upgrade5 = Excited Toughen Up
+|upgrade5summary = [[Adrenaline]] 2
+|upgrade6 = Toughen Up of Clarity
+|upgrade6summary = [[Defense]] +7<br/>[[Destroy]] added
+|upgrade7 = Lucid Toughen Up
+|upgrade7summary = [[Defense]] +4<br/>[[Expend]] added
 }}
-
-{{Quote|I didn't feel a thing!}}
-
-'''Toughen Up''' is a 1-cost Basic '''Maneuver''' card for [[Smith]].  It has the effect: "Apply 3 [[Defense]]".  As a base card '''Toughen Up''' is always part of the available card pool for Smith.
-
-==Upgrades==
-Like most basic cards, '''Toughen Up''' has more than two upgrades, from which it randomly picks 2 you can decide from.
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Easing Toughen Up.png|150px]]
-|[[File: Boosted Toughen Up.png|150px]]
-|[[File: Lucid Toughen Up.png|150px]]
-|[[File: Toughen Up of Clarity.png|150px]]
-|-
-![[Alleviate]] 2
-!Apply 5 [[Defense]]
-!Apply 7 [[Defense]]. [[Expend]]
-!Apply 10 [[Defense]]. [[Destroy]]
-|-
-|[[File: Rolling Toughen Up.png|150px]]
-|[[File: Excited Toughen Up.png|150px]]
-|[[File: Quenched Toughen Up.png|150px]]
-|-
-!Apply 2 [[Defense]]. 
-Increase by 1 for each card played this turn
-!Gain 2 [[Adrenaline]]
-!Apply 3 additional [[Defense]] if you drank this turn
-|}
