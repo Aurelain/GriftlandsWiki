@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Consider all options, no matter how distasteful.
+|description = Discard your hand, draw 4 cards.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|parent = Open Mind
+}}

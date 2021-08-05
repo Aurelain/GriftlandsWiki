@@ -1,0 +1,10 @@
+{{CardPage
+|quote = A thick gurgling that is punctuated by a husky laugh, I can never tell what they are trying to say.
+|description = Draw a card and duplicate it, both cards cost 0 and [[Expend]].<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 5
+|cost = 1
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Parasite
+|keywords = [[Expend]], [[Parasite]], [[Hatch]]
+}}

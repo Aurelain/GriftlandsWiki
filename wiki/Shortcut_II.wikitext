@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hey that’s a cheap shot!
+|description = Apply [[Traumatized]] to all enemies.<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Traumatized]], [[Flourish]]
+|parent = Shortcut
+}}

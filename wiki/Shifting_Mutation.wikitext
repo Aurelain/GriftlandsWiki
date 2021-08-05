@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Why is everyone looking at me like that?
+|description = At the end of your turn, deal 2 damage to your core argument and incept 2 [[Intimidated]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Intimidated]], [[Expend]]
+}}

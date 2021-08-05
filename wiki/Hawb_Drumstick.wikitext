@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Hawbs were doomed from the start, being extremely large, slow moving, and delicious.
+|description = 8 [[Heal]].<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Heal]], [[Destroy]]
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I’ve read it a few times and things are starting to make a lot more sense.
+|description = [[Incept]] 5 [[Indoctrination]].<br/>[[Replenish]]<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Incept]], [[Indoctrination]], [[Replenish]], [[Destroy]]
+}}

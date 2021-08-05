@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Things are getting crazy!
+|description = Gain 6 [[Adrenaline]].<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Adrenaline]], [[Flourish]]
+|upgrade1 = Innate Instinct II
+|upgrade1summary = 
+}}

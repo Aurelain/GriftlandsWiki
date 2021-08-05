@@ -1,0 +1,9 @@
+{{CardPage
+|quote = It telescopes right out into place! You can't even feel it under your armor!
+|description = While this is in your hand, gain 1 [[Defense]] whenever you draw a card.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Defense]], [[Unplayable]]
+}}

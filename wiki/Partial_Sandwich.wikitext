@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It's not half bad!
+|description = [[Heal]] 4 health.<br/>[[Destroy]] after 3 uses.
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Heal]], [[Destroy]]
+}}

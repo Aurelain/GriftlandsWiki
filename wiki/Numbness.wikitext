@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I can't even hold onto my blaster, what's happening to me?
+|description = While this is in your hand, you deal 25% less damage.<br/>[[Destroy]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Destroy]]
+}}

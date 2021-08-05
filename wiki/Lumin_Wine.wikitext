@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I don’t know where it came from, but this was a very good year.
+|description = [[Drink]] and [[Heal]] 6 health.<br/>[[Destroy]]
+|cost = 1
+|character = Smith
+|rarity = Rare
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Drink]], [[Heal]], [[Destroy]]
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Uh, might I suggest a scarf?
+|description = When this card is drawn, gain 1 [[Flustered]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Flustered]], [[Expend]]
+}}

@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It takes a lot of training and I could never get over the smells.
+|description = Call in Horned Yotes to attack all enemies.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Flourish]]
+|parent = Beast Master
+}}

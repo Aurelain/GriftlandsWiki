@@ -1,0 +1,9 @@
+{{CardPage
+|description = Call in a Rise Pamphleteer to make an attack against your target that applies [[Defect]].<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defect]], [[Destroy]]
+}}

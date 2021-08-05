@@ -1,0 +1,12 @@
+{{CardPage
+|quote = It’s an older model with some changes I’ve made. Should do the trick.
+|description = Gain [[Charge]] until you are [[Fully Charged]], then spend all your [[Charge]].<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]], [[Fully Charged]], [[Flourish]]
+|upgrade1 = Power Cycle II
+|upgrade1summary = 
+}}

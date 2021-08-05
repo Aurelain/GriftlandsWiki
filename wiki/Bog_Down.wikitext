@@ -1,0 +1,10 @@
+{{CardPage
+|quote = The vessel squirmed and blinked at me maliciously. There was nothing left to do but raise it to my lips.
+|description = Apply [[Stun]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Stun]], [[Expend]]
+}}

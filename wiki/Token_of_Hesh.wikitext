@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You see, I’ve had this the whole time. A gift from the temple for the most intune with the void.
+|description = Gain: At the start of your turn, add [[Shielded]] to a friendly argument.<br/>[[Expend]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Shielded]], [[Expend]], [[Destroy]]
+}}

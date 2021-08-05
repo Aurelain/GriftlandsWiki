@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Is that a hint of tallowfish that I’m tasting? Really strengthens the overall bouquet.
+|description = [[Drink]].<br/>Gain 1 action.<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Drink]], [[Destroy]]
+}}

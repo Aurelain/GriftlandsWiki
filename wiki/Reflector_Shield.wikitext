@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It’s reliable enough. My face is proof that there’s going to be some collateral damage.
+|description = Apply 10 [[Defense]] and 3 [[Ricochet]] to an ally.<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defense]], [[Ricochet]], [[Expend]]
+}}

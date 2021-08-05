@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I’ll have what he’s having.
+|description = Gain 6 [[Composure]].<br/>[[Expend]]<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Common
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Composure]], [[Expend]], [[Destroy]]
+}}

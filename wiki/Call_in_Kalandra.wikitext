@@ -1,0 +1,9 @@
+{{CardPage
+|description = Call in Kalandra to attack your enemies.<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Destroy]]
+}}

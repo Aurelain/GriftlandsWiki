@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Say your piece quietly— Hesh might hear you!
+|description = [[Incept]] 1 [[Blasphemer]].
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Incept]]
+}}

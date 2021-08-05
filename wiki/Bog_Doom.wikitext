@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Please don't, I can't...
+|description = Doubles the target's [[Panic]] meter.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Panic]], [[Expend]]
+|mindamage = 1
+|maxdamage = 6
+}}

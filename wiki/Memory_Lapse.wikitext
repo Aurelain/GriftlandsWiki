@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I have to take good care of the clusters, when I took the first few off I forgot my mother's name.
+|description = Play a random card in your hand for free then [[Expend]] it.<br/>[[Expend]], [[Parasite]]<br/>[[Hatch]] 5
+|cost = 0
+|character = Rook
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Parasite
+|keywords = [[Expend]], [[Parasite]], [[Hatch]]
+}}

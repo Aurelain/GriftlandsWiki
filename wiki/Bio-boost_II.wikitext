@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Have you been working out?
+|description = Gain 14 [[Moxie]].<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Moxie]], [[Flourish]]
+|parent = Bio-boost
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|description = [[Destroy]]
+|cost = 0
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Destroy]]
+}}

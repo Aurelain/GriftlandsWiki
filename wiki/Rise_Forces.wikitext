@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Geared up and good to go.
+|description = Call on your Rise followers for help.<br/>[[Toolbox]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Toolbox]]
+}}

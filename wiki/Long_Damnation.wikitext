@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I'm not worried about ''eternity''! I've got problems ''right now''!
+|description = Apply 6 [[Damned]] and 6 [[Power]] to a friendly target.<br/>[[Expend]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Damned]], [[Power]], [[Expend]]
+|parent = Damnation
+}}

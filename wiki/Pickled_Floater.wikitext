@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Try not to think about it, and bite the brain so it moves less on the way down.
+|description = Gain 5 [[Concentration]].<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Concentration]], [[Destroy]]
+}}

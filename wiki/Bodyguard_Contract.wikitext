@@ -1,0 +1,10 @@
+{{CardPage
+|quote = *Sigh* They’re with me.
+|description = Use special tools to protect your ally.<br/>[[Toolbox]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Toolbox]]
+}}

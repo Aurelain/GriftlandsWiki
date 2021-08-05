@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’ve never seen someone so collected during a firefight.
+|description = Gain 10 [[Concentration]] and 20 [[Defense]].<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Concentration]], [[Defense]], [[Flourish]]
+|parent = Total Focus
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Oh they’re really mad now.
+|description = Force all enemies to target you this turn.<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+}}

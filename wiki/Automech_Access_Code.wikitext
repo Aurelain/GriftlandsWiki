@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It's all encrypted so you need to make sure you have something like this if you want them to listen to you.
+|description = Activate one of the damaged Spark Baron Enforcers to fight by your side.<br/>[[Expend]], [[Replenish]]
+|cost = 3
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]], [[Replenish]]
+}}

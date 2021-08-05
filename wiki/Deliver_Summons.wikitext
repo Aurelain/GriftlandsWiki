@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You’ve been served.
+|description = [[Incept]] 2 [[Summons]]. Target gains 1 [[Impatience]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Incept]], [[Summons]], [[Impatience]], [[Expend]]
+}}

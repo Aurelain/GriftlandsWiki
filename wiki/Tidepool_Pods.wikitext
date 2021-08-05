@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Ok, we definitely shouldn’t be eating these.
+|description = Hits all enemies.<br/>[[Destroy]] after 5 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+|mindamage = 3
+|maxdamage = 6
+}}

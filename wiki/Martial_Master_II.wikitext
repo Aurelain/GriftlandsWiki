@@ -1,0 +1,11 @@
+{{CardPage
+|quote = You’re out of your league.
+|description = Gain 12 [[Combo]] and [[Improvise+]] a [[Finisher]] from your deck.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Combo]], [[Improvise+]], [[Finisher]], [[Flourish]]
+|parent = Martial Master
+}}

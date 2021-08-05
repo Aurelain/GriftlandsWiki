@@ -1,0 +1,10 @@
+{{CardPage
+|quote = The head of some highwayman.
+|description = Gain: At the end of 3 turns, deal 8 damage to all opponent arguments.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Expend]]
+}}

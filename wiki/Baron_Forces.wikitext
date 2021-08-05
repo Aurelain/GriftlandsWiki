@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Suit up and head out!
+|description = Call on your Baron followers for help.<br/>[[Toolbox]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Toolbox]]
+}}

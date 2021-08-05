@@ -1,0 +1,10 @@
+{{CardPage
+|quote = A lot of things went missing in the bog, it's like the landscape changes every night.
+|description = Gain 1 [[Influence]].<br/>[[Hatch]] 6
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Influence]], [[Hatch]]
+}}

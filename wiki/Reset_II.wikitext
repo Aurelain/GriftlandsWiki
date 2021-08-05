@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Venting the chamber from here allows a cleaner and faster recharge.
+|description = Spend all [[Charge]], then gain [[Charge]] until you are [[Fully Charged]].<br/>Gain 5 [[Overcharge]].<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]], [[Fully Charged]], [[Overcharge]], [[Flourish]]
+|parent = Reset
+}}

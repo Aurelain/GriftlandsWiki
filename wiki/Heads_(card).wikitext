@@ -1,0 +1,10 @@
+{{CardPage
+|name = Heads
+|image = Heads (card).png
+|description = [[Heads]].<br/>[[Unplayable]]
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Heads]], [[Unplayable]]
+}}

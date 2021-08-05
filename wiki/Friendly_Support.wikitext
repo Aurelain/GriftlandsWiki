@@ -1,0 +1,9 @@
+{{CardPage
+|description = [[bystander]]
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|keywords = [[bystander]]
+|mindamage = 3
+|maxdamage = 6
+}}

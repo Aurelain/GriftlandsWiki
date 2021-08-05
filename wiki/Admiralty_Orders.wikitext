@@ -1,0 +1,10 @@
+{{CardPage
+|quote = New orders, listen up.
+|description = Gain 2 [[Dominance]].<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Dominance]], [[Destroy]]
+}}

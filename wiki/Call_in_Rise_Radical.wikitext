@@ -1,0 +1,9 @@
+{{CardPage
+|description = Call in a Rise Radical to make an attack against all enemies.<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Destroy]]
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = It looks like a whole battalion came through here. What do you mean it was just one guy?
+|description = Hits all enemies.<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Flourish]]
+|mindamage = 8
+|maxdamage = 8
+}}

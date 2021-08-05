@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Urp'.
+|description = 5 [[Heal]]<br/>[[Destroy]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Heal]], [[Destroy]]
+}}

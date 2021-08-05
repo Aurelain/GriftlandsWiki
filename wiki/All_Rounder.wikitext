@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Let’s get this party started!
+|description = [[Drink]] 2.<br/>Take 1 damage. Gain 3 [[Moxie]]. Apply 3 [[Trauma]].<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Drink]], [[Moxie]], [[Trauma]], [[Flourish]]
+|mindamage = 6
+|maxdamage = 6
+}}

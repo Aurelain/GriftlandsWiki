@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Learn the most popular Kra’deshi poems in two days!
+|description = The next card played this turn gains 3 additional XP.<br/>[[Expend]], [[Replenish]]
+|cost = 0
+|character = Other
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Expend]], [[Replenish]]
+}}

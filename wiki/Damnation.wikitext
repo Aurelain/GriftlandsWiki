@@ -1,0 +1,15 @@
+{{CardPage
+|quote = I'm not worried about ''eternity''! I've got problems ''right now''!
+|description = Apply 4 [[Damned]] and 4 [[Power]] to a friendly target.<br/>[[Expend]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Damned]], [[Power]], [[Expend]]
+|expreq = 5
+|upgrade1 = Long Damnation
+|upgrade1summary = 
+|upgrade2 = Enduring Damnation
+|upgrade2summary = 
+}}

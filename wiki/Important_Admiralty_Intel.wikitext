@@ -1,0 +1,11 @@
+{{CardPage
+|quote = So that’s where that was.
+|description = Gain 2 [[Influence]].<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Uncommon
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Influence]], [[Destroy]]
+|parent = Admiralty Intel
+}}

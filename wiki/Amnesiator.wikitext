@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Out of your head with a bang!
+|description = The next card played is played twice.<br/>Then, [[Destroy]] it.<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Rare
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

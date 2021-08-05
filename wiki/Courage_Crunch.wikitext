@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Keeping your crayotes confident and your vrocs valiant!
+|description = Heal your pet 8 and give them 2 [[Power]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Power]], [[Expend]]
+}}

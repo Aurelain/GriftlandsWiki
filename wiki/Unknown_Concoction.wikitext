@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Drink me.
+|description = [[Drink]].<br/>This concoction has an unknown effect.<br/>[[Expend]]<br/>[[Destroy]] after 5 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Drink]], [[Expend]], [[Destroy]]
+}}

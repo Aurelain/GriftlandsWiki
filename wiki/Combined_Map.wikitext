@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Collecting enough of the mapped areas can pay off in a big way.
+|description = A large chip of dirt falls off the schematic, revealing the location of a weapons cache.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Unplayable]]
+}}

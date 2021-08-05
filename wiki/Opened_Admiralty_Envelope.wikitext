@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Seal’s broken.
+|description = The envelope opens to reveal secret admiralty documents. The Admiralty would probably like these back, but the Spree might also be interested.<br/>[[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Unplayable]]
+}}

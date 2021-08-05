@@ -1,0 +1,10 @@
+{{CardPage
+|name = Snails
+|image = Snails (card).png
+|description = [[Snails]].<br/>[[Unplayable]]
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Snails]], [[Unplayable]]
+}}

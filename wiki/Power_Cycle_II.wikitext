@@ -1,0 +1,11 @@
+{{CardPage
+|quote = It’s an older model with some changes I’ve made. Should do the trick.
+|description = Gain [[Charge]] until you are [[Fully Charged]], then spend all your [[Charge]].<br/>Gain 6 [[Counter]].<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Charge]], [[Fully Charged]], [[Counter]], [[Flourish]]
+|parent = Power Cycle
+}}

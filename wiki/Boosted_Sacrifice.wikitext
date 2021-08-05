@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Hesh is thirsty!
+|description = Gain 1 [[Power]].<br/>Take 5 damage and gain 1 [[Power]] per action available.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Power]]
+|parent = Sacrifice
+}}

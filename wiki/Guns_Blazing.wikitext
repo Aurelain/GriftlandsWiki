@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Alright you can have them, but just don’t fire them indoors alright?.
+|description = Apply 8 [[Burn]], split evenly between all enemies.<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]], [[Flourish]]
+|upgrade1 = Guns Blazing II
+|upgrade1summary = 
+}}

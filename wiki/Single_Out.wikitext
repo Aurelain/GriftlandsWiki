@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Hey! Nobody makes fun of Moreef but ME!
+|description = Force an enemy to target you this turn.<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+}}

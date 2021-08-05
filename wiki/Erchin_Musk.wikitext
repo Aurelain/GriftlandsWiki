@@ -1,0 +1,10 @@
+{{CardPage
+|quote = You come in here smelling like that, it’s really distracting to say the least.
+|description = Remove [[Composure]] from opponent argument. Gain [[Dominance]] equal to [[Composure]] removed.<br/>[[Destroy]] after 1 use.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Composure]], [[Dominance]], [[Destroy]]
+}}

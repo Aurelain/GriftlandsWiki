@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Try clicking your tongue twice.
+|description = Order your pet to take their action and prepare a new one.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Expend]]
+}}

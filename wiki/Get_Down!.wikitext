@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I’ll be fine, just stay here.
+|description = Remove all of your [[Defense]] and apply that much [[Defense]] to an ally.<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Defense]], [[Expend]]
+}}

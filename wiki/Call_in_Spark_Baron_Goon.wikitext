@@ -1,0 +1,9 @@
+{{CardPage
+|description = Call in a Spark Baron Goon to make a impairing attack against your target.<br/>[[Destroy]] after 3 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Destroy]]
+}}
