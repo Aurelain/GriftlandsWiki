@@ -1,26 +1,19 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = It just ends up smelling so bad.
+|description = Apply 2 [[Burn]].
+|cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Burn]]
-|upgradeable = Yes
-|expreq = 10
+|expreq = 9
 |upgrade1 = Boosted Burner
-|upgrade2 = Enhanced Burner}}
-{{Quote|It just ends up smelling so bad.}}
-
-'''Burner''' is a 1-cost Common '''Attack''' card for [[Rook]]. It deals 2-3 base damage. It has the effect "Apply 2 [[Burn]]".
-
-==Upgrades==
-After accruing 10 experience '''Burner''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Burner.png|150px]]
-|[[File:Enhanced Burner.png|150px]]
-|-
-!Deals 3-6 base damage
-!Apply 4 [[Burn]]
-|}
+|upgrade1summary = Min damage +1<br/>Max damage +3
+|upgrade2 = Enhanced Burner
+|upgrade2summary = [[Burn]] +2
+|mindamage = 2
+|maxdamage = 3
+}}

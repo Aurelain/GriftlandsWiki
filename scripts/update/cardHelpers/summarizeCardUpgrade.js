@@ -56,7 +56,7 @@ const summarizeCardUpgrade = (baseCard, upgradeCard) => {
             summary.push('[[' + keyword + ']] added');
         }
     }
-    return summary.join(', ');
+    return summary.join('<br/>');
 };
 
 // =====================================================================================================================

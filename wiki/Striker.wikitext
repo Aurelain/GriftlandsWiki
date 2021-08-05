@@ -1,32 +1,17 @@
-{{Card
+{{CardPage
+|quote = So the timing is a little tricky, but yeah, just smash the bottom priming cap and you should be able to get some extra juice.
+|description = [[Threshold]] 4: Gain 2 [[Overcharge]].
+|cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Threshold]], [[Overcharge]]
-|upgradeable = Yes
-|expreq = 7
+|expreq = 9
 |upgrade1 = Tall Striker
-|upgrade2 = Boosted Striker}}
-{{Quote|So the timing is a little tricky, but yeah, just smash the bottom priming cap and you should be able to get some extra juice.}}
-
-'''Striker''' is a 1-cost '''Attack''' card for [[Rook]]. It has 2-5 bade damage. It has the effect "Threshold 4: gain 2 overcharge."
-
-==Upgrades==
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Damage
-!Effects
-|-
-|Tall Striker
-|1
-|2-7
-|Threshold 4: gain 2 overcharge
-|-
-|Boosted Striker
-|1
-|2-5
-|Threshold 4: gain 4 overcharge
-|}
+|upgrade1summary = Max damage +2
+|upgrade2 = Boosted Striker
+|upgrade2summary = Gain +2 [[Overcharge]]
+|mindamage = 2
+|maxdamage = 5
+}}

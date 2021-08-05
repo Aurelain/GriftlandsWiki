@@ -1,32 +1,17 @@
-{{Stub}}
-{{Card
+{{CardPage
+|quote = I tell you, surging your pistols lights up every little machine in your whole Heshing body!
+|description = This card costs 1 less per [[Overcharge]].
+|cost = 4
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
-|upgradeable = Yes
+|keywords = [[Overcharge]]
 |expreq = 3
 |upgrade1 = Boosted Jolt
-|upgrade2 = Pale Jolt}}
-{{Quote|I tell you, surging your pistols lights up every little machine in your whole Heshing body!}}
-
-'''Jolt''' is a 4-cost '''Attack''' card for [[Rook]]. It deals 4-6 base damage. It has the effect, "this card costs 1 less per overcharge."
-
-==Upgrades==
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Damage
-!Effect
-|-
-|Boosted Jolt
-|4
-|5-8
-|This card costs 1 less per overcharge.
-|-
-|Pale Jolt
-|3
-|4-6
-|This card costs 1 less per overcharge. 
-|}
+|upgrade1summary = Min damage +1<br/>Max damage +2
+|upgrade2 = Pale Jolt
+|upgrade2summary = Cost -1
+|mindamage = 4
+|maxdamage = 6
+}}

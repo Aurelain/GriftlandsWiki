@@ -1,13 +1,20 @@
-{{Card
+{{CardPage
+|quote = I told you to hold still!
+|description = [[Threshold]] 8: Gain 8 [[Counter]].
+|cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Threshold]], [[Counter]]
-|upgradeable = Yes
-|expreq = 7
+|expreq = 9
 |upgrade1 = Boosted Trick Shot
-|upgrade2 = Enhanced Trick Shot}}
+|upgrade1summary = Gain +4 [[Counter]]
+|upgrade2 = Enhanced Trick Shot
+|upgrade2summary = Trigger at -2 [[Threshold]]
+|mindamage = 1
+|maxdamage = 8
+}}
 {{Quote|I told you to hold still!}}
 
 '''Trick Shot''' is a 1-cost '''Attack''' card for [[Rook]]. It deals 1-8 base damage. It has the effect "Threshold 8: Gain 8 Counter."
