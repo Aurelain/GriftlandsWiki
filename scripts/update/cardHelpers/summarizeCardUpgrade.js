@@ -48,12 +48,12 @@ const summarizeCardUpgrade = (baseCard, upgradeCard) => {
     const upgradedKeywords = upgradeCard.keywords ? objectify(upgradeCard.keywords.split(',')) : {};
     for (const keyword in baseKeywords) {
         if (!(keyword in upgradedKeywords)) {
-            summary.push('Removed [[' + keyword + ']]');
+            summary.push('[[' + keyword + ']] removed');
         }
     }
     for (const keyword in upgradedKeywords) {
         if (!(keyword in baseKeywords)) {
-            summary.push('Added [[' + keyword + ']]');
+            summary.push('[[' + keyword + ']] added');
         }
     }
     return summary.join(', ');

@@ -1,22 +1,17 @@
-{{Card
+{{CardPage
+|quote = Right between the eyes! And they were on the move! I tell you, one in a million!
+|description = Spend 1 [[Charge]]: deal 2 bonus damage per empty cell.
+|cost = 1
+|character = Rook
 |rarity = Uncommon
 |decktype = Battle
-|cardtype = 
-|character = Rook
+|cardtype = Attack
 |keywords = [[Charge]]
-|upgradeable = Yes
-|expreq = 
+|expreq = 6
 |upgrade1 = Twisted Lucky Shot
+|upgrade1summary = Bonus damage per [[Charge]], not per empty cell.
 |upgrade2 = Boosted Lucky Shot
+|upgrade2summary = Min damage +1, Max damage +2
+|mindamage = 1
+|maxdamage = 3
 }}
-{{Quote|'Right between the eyes! And they were on the move! I tell you, one in a million!'}}
-
-==Description==
-Spend 1 Charge: deal 2 bonus damage per empty cell.
-
-==Upgrades==
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Twisted Lucky Shot.png|150px]]
-|[[File:Boosted Lucky Shot.png|150px]]
-|}

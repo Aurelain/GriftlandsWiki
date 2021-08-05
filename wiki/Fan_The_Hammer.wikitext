@@ -1,13 +1,19 @@
-{{Card
+{{CardPage
+|quote = Fill them full of holes! We've got plenty of ammo!
+|description = Spend all [[Charge]]: Attack once for each [[Charge]].
+|cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Charge]]
-|upgradeable = Yes
 |expreq = 6
 |upgrade1 = Visionary Hammer
+|upgrade1summary = Also draw a card for each [[Charge]]
 |upgrade2 = Overcharging Hammer
+|upgrade2summary = Also gain 1 [[Overcharge]] for each [[Charge]]
+|mindamage = 2
+|maxdamage = 4
 }}
 
 {{Quote|Fill them full of holes! We've got plenty of ammo!}}

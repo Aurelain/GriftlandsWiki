@@ -1,26 +1,19 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = Everyone has a plan until they are set on fire.
+|description = If the target has [[Burn]], gain 1 action.
+|cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Burn]]
-|upgradeable = Yes
-|expreq = 10
+|expreq = 9
 |upgrade1 = Visionary Char
-|upgrade2 = Boosted Char}}
-{{Quote|Everyone has a plan until they are set on fire.}}
-
-'''Char''' is a 1-cost Common '''Attack''' card for [[Rook]]. It deals 2-3 base damage. It has the effect "If the target has [[Burn]], gain 1 action".
-
-==Upgrades==
-After accruing 10 experience '''Char''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Visionary Char.png|150px]]
-|[[File:Boosted Char.png|150px]]
-|-
-!Gain 2 actions
-!Deal 4-5 base damage
-|}
+|upgrade1summary = Gain +1 action
+|upgrade2 = Boosted Char
+|upgrade2summary = Min damage +2, Max damage +2
+|mindamage = 2
+|maxdamage = 3
+}}

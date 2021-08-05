@@ -1,24 +1,17 @@
-{{Card
+{{CardPage
+|quote = Makes them a lot easier to hit in the dark, I'll tell you that much.
+|description = Apply [[Burn]] equal to damage dealt by this card.
+|cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Burn]]
-|upgradeable = Yes
-|expreq = 10
+|expreq = 9
 |upgrade1 = Tall Sear
-|upgrade2 = Rooted Sear}}
-{{Quote|Makes them a lot easier to hit in the dark, I'll tell you that much.}}
-
-'''Sear''' is a 1-cost Common '''Attack''' card for [[Rook]]. It deals 1-4 base damage. It has the effect "Apply [[Burn]] equal to damage dealt by this card".
-
-==Upgrades==
-After accruing 10 experience '''Sear''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Tall Sear.png|150px]]
-|[[File:Rooted Sear.png|150px]]
-|-
-!Deal 1-7 base damage
-!Deal 4-4 base damage
-|}
+|upgrade1summary = Max damage +3
+|upgrade2 = Rooted Sear
+|upgrade2summary = Min damage +3
+|mindamage = 1
+|maxdamage = 4
+}}

@@ -1,24 +1,17 @@
-{{Card
+{{CardPage
+|quote = They didn't stand a chance moving that slow.
+|description = Spend 1 [[Charge]]: Deal 3 bonus damage.
+|cost = 1
 |character = Rook
 |rarity = Common
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Charge]]
-|upgradeable = Yes
 |expreq = 8
 |upgrade1 = Rooted Quick Fire
-|upgrade2 = Boosted Quick Fire}}
-{{Quote|They didn't stand a chance moving that slow.}}
-
-'''Quick Fire''' is a 1-cost Common '''Attack''' card for [[Rook]]. It deals 3-5 base damage. It has the effect "Spend 1 [[Charge]]: Deal 3 bonus damage".
-
-==Upgrades==
-After accruing 8 experience '''Quick Fire''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Rooted Quick Fire.png|150px]]
-|[[File:Boosted Quick Fire.png|150px]]
-|-
-!Deals 6-6 base damage
-!Deal 3 bonus damage
-|}
+|upgrade1summary = Min damage +3, Max damage +1
+|upgrade2 = Boosted Quick Fire
+|upgrade2summary = Bonus damage +2
+|mindamage = 3
+|maxdamage = 5
+}}

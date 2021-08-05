@@ -54,7 +54,7 @@ const updateCards = (cardsBag) => {
             // console.log('futureWikitext:', futureWikitext);
             fs.writeFileSync(filePath, futureWikitext);
             count++;
-            if (count >= 100) {
+            if (count >= 10) {
                 break;
             }
         }

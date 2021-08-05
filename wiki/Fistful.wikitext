@@ -1,24 +1,15 @@
-{{Card
+{{CardPage
+|quote = I don't care what you grab! Just get me some ammunition!
+|description = Draw 2 cards, gain 2 [[Charge]] for each attack card drawn.
+|cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Charge]]
-|upgradeable = Yes
-|expreq = 10
+|expreq = 9
 |upgrade1 = Visionary Fistful
-|upgrade2 = Boosted Fistful}}
-{{Quote|I don't care what you grab! Just get me some ammunition!}}
-
-'''Fistful''' is a 1-cost Uncommon '''Maneuver''' card for [[Rook]]. It has the effect "Draw 2 cards, gain 2 [[Charge]] for each attack card drawn".
-
-==Upgrades==
-After accruing 10 experience '''Fistful''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Visionary Fistful.png|150px]]
-|[[File:Boosted Fistful.png|150px]]
-|-
-!Draw 3 cards
-!Gain 2 [[Charge]] for each attack card drawn + 1
-|}
+|upgrade1summary = Draw +1 card
+|upgrade2 = Boosted Fistful
+|upgrade2summary = Gain 1 extra [[Charge]]
+}}
