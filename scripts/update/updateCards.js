@@ -2,6 +2,8 @@ const assert = require('assert');
 const fs = require('fs');
 const getFilePath = require('../utils/getFilePath');
 const tally = require('../utils/tally');
+const summarizeCardUpgrade = require('./cardHelpers/summarizeCardUpgrade');
+const debugCard = require('../utils/debugCard');
 const {STORAGE} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -15,17 +17,26 @@ const {STORAGE} = require('../utils/CONFIG');
  *
  */
 const updateCards = (cardsBag) => {
+    const nameToCard = {};
+    for (const id in cardsBag) {
+        const card = cardsBag[id];
+        nameToCard[card.name] = card;
+    }
+
     let count = 0;
     for (const id in cardsBag) {
         const card = cardsBag[id];
         const name = card.name.split(':').join('%3A'); // "Weakness: Blind Spot"
         const filePath = STORAGE + '/' + getFilePath(name, '');
-        if (fs.existsSync(filePath)) continue;
+        // if (fs.existsSync(filePath)) continue;
 
         const existingWikitext = (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8')) || '';
-        // if (existingWikitext.match(/{{Card\b/)) {
+        // if (existingWikitext.match(/{{Card/)) {
         //     continue;
         // }
+        if (!existingWikitext.match(/{{Card\b/)) {
+            continue;
+        }
         // if (!existingWikitext.match(/{{CardPage\b/)) {
         //     continue;
         // }
@@ -35,10 +46,12 @@ const updateCards = (cardsBag) => {
 
         const existingCard = parseCardFromWikitext(existingWikitext);
         const futureCard = {...card, ...existingCard};
+        generateUpgradeSummaries(futureCard, nameToCard);
         const futureCardWikitext = generateCardWikitext(futureCard);
         const futureWikitext = generateWikitext(existingWikitext, futureCardWikitext);
         // console.log('futureWikitext:', futureWikitext);
         if (futureWikitext !== existingWikitext) {
+            // console.log('futureWikitext:', futureWikitext);
             fs.writeFileSync(filePath, futureWikitext);
             count++;
             if (count >= 100) {
@@ -95,6 +108,23 @@ const parseCardFromWikitext = (wikitext) => {
     return card;
 };
 
+/**
+ *
+ */
+const generateUpgradeSummaries = (card, nameToCard) => {
+    const {upgrades} = card;
+    if (!upgrades) {
+        return;
+    }
+    const upgradeNames = upgrades.split(',');
+    const summaries = [];
+    for (const upgradeName of upgradeNames) {
+        const upgradeCard = nameToCard[upgradeName];
+        debugCard(upgradeCard, card, 'Cannot find upgrade name!');
+        summaries[upgradeName] = summarizeCardUpgrade(card, upgradeCard);
+    }
+    card.summaries = summaries;
+};
 /**
  *
  */
