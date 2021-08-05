@@ -1,4 +1,10 @@
-Level Orange Clearance
-Cost 2
-Remove all of opponent's intents.
-Expend.
+{{CardPage
+|quote = Usually required a tissue sample, but it just slowed down the whole process too much.
+|description = Remove all of opponent's intents.<br/>[[Expend]]
+|cost = 2
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Expend]]
+}}

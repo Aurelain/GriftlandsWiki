@@ -1,6 +1,12 @@
-'''Hearty''' is a negotiation card, that can be obtained from the [[Wandering Chef]] event.
-
-it costs 0 energy and restores 5 resolve, also it has destroy.
-
-<br />
-[[Category:Negotiation cards]]
+{{CardPage
+|quote = A nice and juicy Vroc roast! Just like Mom used to make!
+|description = Restore 5 resolve.<br/>[[Destroy]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Destroy]]
+}}
+==How to obtain==
+'''Hearty''' can be obtained from the [[Wandering Chef]] event.

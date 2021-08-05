@@ -1,1 +1,10 @@
-Bough is a 1 action parasite card that grants 3 power at the cost of taking 10 damage, it will hatch after being used 4 times.
+{{CardPage
+|quote = And as my wretched arm constricted around my enemies and blinked, I knew that I had become the Bough.
+|description = Gain 3 [[Power]]. Take 10 damage.<br/>[[Parasite]]<br/>[[Hatch]] 4
+|cost = 1
+|character = Rook
+|rarity = Rare
+|decktype = Battle
+|cardtype = Parasite
+|keywords = [[Power]], [[Parasite]], [[Hatch]]
+}}
