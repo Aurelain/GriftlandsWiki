@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Wait, there's MORE rage?
+|description = Gain 3 [[Dominance]].<br/>For the rest of this turn, Hostility cards are played twice.<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]], [[Flourish]]
+|parent = Inner Rage
+}}

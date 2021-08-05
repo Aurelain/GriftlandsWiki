@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Oh you want to twist the scoring now? Not a problem, that’ll just be 3 more shills.
+|description = [[Gamble]] 5 times.<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Gamble]], [[Flourish]]
+}}

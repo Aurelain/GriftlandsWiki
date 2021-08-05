@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It wasn’t me.
+|description = [[Destroy]], [[Sleep It Off]]
+|cost = 1
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Destroy]], [[Sleep It Off]]
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|quote = So tired.
+|description = [[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Unplayable]]
+}}

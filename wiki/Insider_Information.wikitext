@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Well, I might know something about that.
+|description = [[Improvise]] a random uncommon or rare manipulate card. It costs 0 until played.<br/>[[Expend]]
+|cost = 1
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Improvise]], [[Expend]]
+}}

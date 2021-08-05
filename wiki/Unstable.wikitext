@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Anything will set him off, I’m getting out of here.
+|description = Draw a card.<br/>Play it with a random target.<br/>[[Expend]]
+|cost = 0
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Expend]]
+}}

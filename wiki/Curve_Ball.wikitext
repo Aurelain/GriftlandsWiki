@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Well THAT was unexpected.
+|description = Apply 4 [[Composure]] to all friendly arguments, then attack them all for 3 damage.<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]], [[Flourish]]
+|upgrade1 = Curve Ball II
+|upgrade1summary = 
+}}

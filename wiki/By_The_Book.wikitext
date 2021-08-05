@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Clear your schedule.
+|description = Cannot target core arguments.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Expend]]
+|mindamage = 8
+|maxdamage = 8
+}}

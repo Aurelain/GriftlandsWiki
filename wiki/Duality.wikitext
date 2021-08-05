@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I’m good for it, when have I ever steered you wrong?
+|description = Discard your hand. Choose Diplomacy or Hostility, then draw cards of only that type until you have 6 cards.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Flourish]]
+|upgrade1 = Duality II
+|upgrade1summary = 
+}}

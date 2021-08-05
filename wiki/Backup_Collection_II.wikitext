@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I brought another variant if you’d prefer the halfmoon bog rules.
+|description = Change your Coin permanently.<br/>[[Gamble]].<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Gamble]], [[Flourish]]
+|parent = Backup Collection
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Alright already! Forget I even brought it up!
+|description = While this is in your hand, gain 1 less [[Composure]] from Manipulate cards.<br/>[[Destroy]]
+|cost = 1
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Composure]], [[Destroy]]
+}}

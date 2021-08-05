@@ -1,0 +1,10 @@
+{{CardPage
+|quote = WOW! THIS IS A LOT OF MONEY!
+|description = Dismiss a random enemy intent.<br/>[[Expend]]
+|cost = 0
+|character = Enemy
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+}}

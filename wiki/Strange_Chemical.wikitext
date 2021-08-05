@@ -1,0 +1,10 @@
+{{CardPage
+|quote = A strange gel that has explosive properties when reacting to high energy projections.
+|description = Arint's chest cannon deals 3 bonus damage while this is in your hand.<br/>[[Destroy]], [[Sticky]]
+|cost = 1
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Status
+|keywords = [[Destroy]], [[Sticky]]
+}}

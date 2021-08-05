@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Stupendous flavours and toothsome noodles at a great price!
+|description = Gain 2 actions. Draw a card.<br/>[[Ambush]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Ambush]], [[Destroy]]
+}}

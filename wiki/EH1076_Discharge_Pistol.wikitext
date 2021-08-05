@@ -1,0 +1,12 @@
+{{CardPage
+|quote = A heavily modified EH1076 sporting incendiary augments and a steep clipping range. One of a lost pair.
+|description = Apply 2 [[Wound]].<br/>[[Piercing]]<br/>[[Destroy]] after 2 uses.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Wound]], [[Piercing]], [[Destroy]]
+|mindamage = 6
+|maxdamage = 8
+}}

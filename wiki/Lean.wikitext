@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I came prepared but this isn't going to be a cheap endeavour.
+|description = Target argument loses 8 resolve.<br/>[[Destroy]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

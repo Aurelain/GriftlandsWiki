@@ -1,0 +1,10 @@
+{{CardPage
+|quote = ...
+|description = [[Expend]]
+|cost = 1
+|character = Enemy
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Expend]]
+}}

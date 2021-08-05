@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Just keep moving, that chest cannon has to fire to keep her from overheating.
+|description = Gain 1 [[Evasion]].
+|cost = 2
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Evasion]]
+}}

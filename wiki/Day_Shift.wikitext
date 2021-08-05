@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Come on, cover for me.
+|description = If any argument is removed or destroyed, [[Destroy]] this and draw a card.<br/>[[Unplayable]]
+|character = Enemy
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Destroy]], [[Unplayable]]
+}}

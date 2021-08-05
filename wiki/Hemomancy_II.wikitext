@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’ve never seen that much. I get sick just thinking about it.
+|description = Apply 20 [[Bleed]] split evenly among all enemies.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Bleed]], [[Flourish]]
+|parent = Hemomancy
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Here’s a little something extra.
+|cost = 0
+|character = Enemy
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|mindamage = 2
+|maxdamage = 5
+}}

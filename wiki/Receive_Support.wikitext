@@ -1,0 +1,8 @@
+{{CardPage
+|quote = I’ll take them.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+}}

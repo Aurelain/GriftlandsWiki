@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Don’t worry about it, we’ll get them next time.
+|description = Restore 15 resolve and apply 5 [[Composure]] to your core argument.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Composure]], [[Flourish]]
+|parent = Clemency
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|quote = I prefer it, gives me time to work on my novella.
+|description = If you gain [[Influence]], [[Destroy]] this and draw a card.<br/>[[Unplayable]]
+|character = Enemy
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Influence]], [[Destroy]], [[Unplayable]]
+}}

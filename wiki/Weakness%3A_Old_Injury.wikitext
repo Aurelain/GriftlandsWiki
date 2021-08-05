@@ -1,0 +1,12 @@
+{{CardPage
+|quote = He has been favoring his left side this whole time.
+|description = Apply 4 [[Impair]].
+|cost = 1
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Impair]]
+|mindamage = 5
+|maxdamage = 8
+}}

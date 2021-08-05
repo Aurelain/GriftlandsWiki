@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Grab the conversation by the throat!
+|description = Force all enemy intents and arguments to target a specific argument this turn.<br/>[[Expend]], [[Sticky]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Expend]], [[Sticky]]
+|upgrade1 = Super Conductor
+|upgrade1summary = 
+}}

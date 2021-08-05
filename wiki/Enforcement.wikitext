@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Code sixteen, paragraph 4, line 3....
+|description = Gain: At the end of your turn, deal 1 damage to a random opponent argument for every stack of [[Influence]].<br/>[[Expend]]
+|cost = 2
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]], [[Expend]]
+}}

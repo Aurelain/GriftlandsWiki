@@ -1,0 +1,9 @@
+{{CardPage
+|quote = I’ve seen him around. Avoid him if you can.
+|description = Deal 1 resolve damage to a random opponent argument whenever you draw a card.<br/>[[Unplayable]]
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Unplayable]]
+}}

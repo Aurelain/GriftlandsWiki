@@ -1,0 +1,12 @@
+{{CardPage
+|name = Hologram Projection Belt
+|image = Hologram Projection Belt (card).png
+|quote = The technology of yesterday today! Great for entertaining!
+|description = Play your next card twice.<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

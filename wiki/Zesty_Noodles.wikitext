@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Oh these are my favorite! They sell out so fast!
+|description = [[Incept]] 2 [[Flustered]]. Draw a card.<br/>[[Expend]], [[Ambush]]<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Incept]], [[Flustered]], [[Expend]], [[Ambush]], [[Destroy]]
+}}

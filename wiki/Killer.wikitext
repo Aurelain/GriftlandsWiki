@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Dynamite with a laser beam!
+|description = While this is in your hand, gain 1 [[Dominance]].<br/>[[Unplayable]], [[Replenish]]
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Dominance]], [[Unplayable]], [[Replenish]]
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|name = Frisk
+|image = Frisk (card).png
+|quote = Well well well, what do we have here?
+|description = Gain 3 [[Frisk]].<br/>[[Expend]]
+|cost = 1
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Frisk]], [[Expend]]
+}}

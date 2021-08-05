@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Have you seen this ridiculous idiot?
+|description = [[Incept]] 2 [[Wanted!]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Incept]], [[Wanted!]]
+|parent = Bounty Hunter
+}}

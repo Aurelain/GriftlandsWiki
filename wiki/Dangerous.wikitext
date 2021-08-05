@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Hold on tight.
+|description = While this is in your hand, Hostility cards deal 1 bonus damage and Diplomacy cards deal 1 less damage.<br/>[[Destroy]]
+|cost = 2
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Destroy]]
+}}

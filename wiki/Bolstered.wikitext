@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I don’t want any trouble, I can see the badge.
+|description = Each of your non-core arguments gains 1 stack and 3 resolve.<br/>[[Expend]]
+|cost = 1
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]]
+}}

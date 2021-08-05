@@ -1,0 +1,10 @@
+{{CardPage
+|quote = If you look at your catalog on page... wait, something is wrong.
+|description = Remove a random bidder argument.<br/>[[Destroy]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

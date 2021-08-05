@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Uhhhh...
+|description = At the end of your turn, take 2 resolve damage and [[Expend]] this card.<br/>[[Unplayable]]
+|character = Enemy
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Expend]], [[Unplayable]]
+}}

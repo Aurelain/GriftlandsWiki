@@ -1,0 +1,10 @@
+{{CardPage
+|quote = DRONE NUMBER 0056 ACTIVATED. LUXURY PACKAGE ENGAGED.
+|description = Summon a Combat Drone to fight for you.<br/>[[Destroy]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

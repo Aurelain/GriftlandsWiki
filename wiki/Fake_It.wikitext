@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I can take him.
+|description = [[Expend]], [[Dud]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]], [[Dud]]
+|mindamage = 1
+|maxdamage = 3
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = She really needs that staff to go off, I think that I can keep clear with enough foresight.
+|description = [[Expend]] all [[Strange Chemical]] cards in your deck.
+|cost = 2
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Expend]]
+}}

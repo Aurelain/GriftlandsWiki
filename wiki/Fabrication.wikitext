@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I don’t care if you didn’t do it. Everyone is already against you.
+|description = At the end of your turn, this card deals 2 damage to your core argument.<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Expend]]
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = It helps if you are the best dressed in the room.
+|description = Gain 8 [[Renown]].<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Renown]], [[Flourish]]
+}}

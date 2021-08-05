@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Grab the conversation by the throat!
+|description = Force all enemy intents and arguments to target a specific argument this turn. Give that argument 5 [[Composure]].<br/>[[Expend]], [[Sticky]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Composure]], [[Expend]], [[Sticky]]
+|parent = Conductor
+}}

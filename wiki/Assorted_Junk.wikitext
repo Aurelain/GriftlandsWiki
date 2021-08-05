@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That initial explosion sure did hit hard, wonder what I can do with all these...
+|description = [[Destroy]], [[Replenish]]
+|cost = 0
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Destroy]], [[Replenish]]
+}}

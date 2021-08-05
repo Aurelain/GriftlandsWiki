@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Going once, twice, SOLD!
+|description = [[Destroy]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Destroy]]
+|mindamage = 15
+|maxdamage = 15
+}}

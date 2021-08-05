@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Oh, she looks mad.
+|description = Gain 3 [[Dominance]] and [[Improvise]] a Hostility card from your deck.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]], [[Improvise]], [[Flourish]]
+|upgrade1 = Rage II
+|upgrade1summary = 
+}}

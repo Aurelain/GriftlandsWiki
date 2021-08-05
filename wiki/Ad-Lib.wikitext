@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Wait a minute!
+|description = [[Expend]], [[Dud]]
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]], [[Dud]]
+|mindamage = 2
+|maxdamage = 2
+}}

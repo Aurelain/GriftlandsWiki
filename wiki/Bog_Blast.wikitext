@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I have seen the half moon eye! You will all be made by the mud!
+|description = Deals 2 less damage per friendly argument.<br/>[[Expend]]
+|cost = 1
+|character = Enemy
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+|mindamage = 7
+|maxdamage = 9
+}}

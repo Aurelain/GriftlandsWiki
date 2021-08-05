@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Some pep in your step.
+|description = [[Drink]] 1 and gain 1 [[Adrenaline]].<br/>[[Expend]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+|keywords = [[Drink]], [[Adrenaline]], [[Expend]]
+|upgrade1 = Boosted Lean and Green
+|upgrade1summary = 
+}}

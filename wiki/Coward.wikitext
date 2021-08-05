@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Yeah, I’m not buying that tough guy attitude...
+|description = While this is in your hand, Hostility cards deal no damage.<br/>[[Destroy]]
+|cost = 2
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Destroy]]
+}}

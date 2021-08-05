@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Did you hear something?
+|description = When drawn, discard a random card.<br/>[[Destroy]], [[Sleep It Off]]
+|cost = 2
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Destroy]], [[Sleep It Off]]
+}}

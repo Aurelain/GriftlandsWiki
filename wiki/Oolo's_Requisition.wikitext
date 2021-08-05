@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Just hand them this. They’ll know what it means and they won’t be a problem anymore.
+|description = Win this negotiation.<br/>[[Destroy]]
+|cost = 3
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Destroy]]
+}}

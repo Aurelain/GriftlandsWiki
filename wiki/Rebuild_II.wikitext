@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Lets make sure we start from a good foundation.
+|description = Remove a friendly argument and create two new versions of it with twice as much max resolve.<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Flourish]]
+|parent = Rebuild
+}}

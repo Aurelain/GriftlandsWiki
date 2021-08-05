@@ -1,0 +1,10 @@
+{{CardPage
+|quote = That’s a good heat, plenty of flavour in there.
+|description = Gain 2 [[Power]].<br/>[[Ambush]]<br/>[[Destroy]] after 2 uses.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Power]], [[Ambush]], [[Destroy]]
+}}

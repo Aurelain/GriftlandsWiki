@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Go cram yourself up an Oshnu.
+|description = [[Expend]] all non-Hostility cards in hand.<br/>Gain 1 [[Dominance]] per card expended.
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Expend]], [[Dominance]]
+|mindamage = 1
+|maxdamage = 5
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = He came all the way from Supplicant City!
+|description = Steal all composure from a target.<br/>[[Destroy]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

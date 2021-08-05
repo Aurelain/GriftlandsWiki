@@ -1,0 +1,14 @@
+{{CardPage
+|quote = I didn’t even see you there.
+|description = Apply 4 [[Impair]].<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Impair]], [[Flourish]]
+|upgrade1 = Squash II
+|upgrade1summary = 
+|mindamage = 10
+|maxdamage = 10
+}}

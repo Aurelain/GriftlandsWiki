@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Don’t worry about it, we’ll get them next time.
+|description = Restore 10 resolve to your core argument.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Flourish]]
+|upgrade1 = Clemency II
+|upgrade1summary = 
+}}

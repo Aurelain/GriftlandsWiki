@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Sorry pal, you got taken for a ride.
+|description = Pay 15 shill.<br/>If you end your turn with this card, take 8 damage.<br/>[[Expend]]
+|cost = 1
+|character = Enemy
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Expend]]
+}}

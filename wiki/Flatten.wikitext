@@ -1,0 +1,14 @@
+{{CardPage
+|quote = You're going to be looking like this when I'm finished here.
+|description = Deal 6 damage to all opponent arguments.<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Flourish]]
+|upgrade1 = Flatten II
+|upgrade1summary = 
+|mindamage = 6
+|maxdamage = 6
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I’ve heard great things.
+|description = [[Prepare]] a card. Swap its cost with this card's cost.
+|cost = 0
+|character = Enemy
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Prepare]]
+}}

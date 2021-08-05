@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Let’s get this over with.
+|description = End the negotiation and start the fight.
+|cost = 0
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+}}

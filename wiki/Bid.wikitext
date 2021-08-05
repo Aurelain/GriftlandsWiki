@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Yes, the young lady in the back.
+|description = [[Improvise]] a special card to help you in the auction.<br/>[[Destroy]], [[Sticky]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Improvise]], [[Destroy]], [[Sticky]]
+}}

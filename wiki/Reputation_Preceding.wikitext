@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Oh we’ve heard about you.
+|description = At the end of your turn, [[Incept]] 2 [[Apprehensive]] and [[Destroy]] this card.<br/>[[Unplayable]]
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Incept]], [[Apprehensive]], [[Destroy]], [[Unplayable]]
+}}

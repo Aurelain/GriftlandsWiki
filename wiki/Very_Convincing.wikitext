@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Oh I’m sure that they’ll be seeing things my way.
+|description = Draw 2 cards and gain 1 action.<br/>[[Expend]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+}}

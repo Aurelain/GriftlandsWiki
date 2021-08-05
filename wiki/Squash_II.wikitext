@@ -1,0 +1,13 @@
+{{CardPage
+|quote = I didn’t even see you there.
+|description = Apply 4 [[Impair]].<br/>Apply [[Stun]].<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Impair]], [[Stun]], [[Flourish]]
+|parent = Squash
+|mindamage = 10
+|maxdamage = 10
+}}

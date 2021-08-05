@@ -1,0 +1,9 @@
+{{CardPage
+|quote = You’re not getting in here!
+|description = [[Unplayable]]
+|character = Other
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Unplayable]]
+}}

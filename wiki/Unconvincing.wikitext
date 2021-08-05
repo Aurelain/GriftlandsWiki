@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Come on! Please?
+|description = At the end of your turn, all other cards in your hand lose 4 XP.<br/>[[Unplayable]], [[Destroy]], [[Replenish]]
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Unplayable]], [[Destroy]], [[Replenish]]
+}}

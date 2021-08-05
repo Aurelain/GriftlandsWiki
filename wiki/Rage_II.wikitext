@@ -1,0 +1,11 @@
+{{CardPage
+|quote = Oh, she looks mad.
+|description = Gain 5 [[Dominance]] and [[Improvise+]] a Hostility card from your deck.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Dominance]], [[Improvise+]], [[Flourish]]
+|parent = Rage
+}}

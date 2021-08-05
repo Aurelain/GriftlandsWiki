@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Don’t ask me for help when we’re in trouble, I only have enough for myself.
+|description = For the next 2 turns, [[Prepare]] a card after every card you play.<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Prepare]], [[Flourish]]
+|upgrade1 = Always Prepared II
+|upgrade1summary = 
+}}

@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Hey back up, we are doing this the right way or not at all.
+|description = Gain 2 [[Proper Channel]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Proper Channel]], [[Expend]]
+}}

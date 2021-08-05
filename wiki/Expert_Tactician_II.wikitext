@@ -1,0 +1,11 @@
+{{CardPage
+|quote = This opening gambit scores more if you take the game in 4 moves.
+|description = Discard any number of cards, then draw cards until your hand is full.<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Flourish]]
+|parent = Expert Tactician
+}}

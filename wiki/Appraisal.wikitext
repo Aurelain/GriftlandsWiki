@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Yeah he's been doing this for a while, one of the more honest ones.
+|description = Double target bidder's damage this turn.<br/>[[Destroy]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

@@ -1,0 +1,9 @@
+{{CardPage
+|quote = Saw that coming from a mile away.
+|description = Add 2 [[Quick Jab]] cards to your hand.
+|cost = 1
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Maneuver
+}}

@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Wait, there's MORE rage?
+|description = For the rest of this turn, Hostility cards are played twice.<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Hostility
+|keywords = [[Flourish]]
+|upgrade1 = Inner Rage II
+|upgrade1summary = 
+}}

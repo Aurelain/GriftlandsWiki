@@ -1,0 +1,10 @@
+{{CardPage
+|quote = This is going to be a close one.
+|description = Reflect all incoming damage until your next turn.<br/>[[Destroy]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Item
+|keywords = [[Destroy]]
+}}

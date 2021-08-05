@@ -1,0 +1,12 @@
+{{CardPage
+|quote = All that fur and mechanical grease, he was a walking fire hazard to begin with.
+|description = Apply 6 [[Burn]] and 2 [[Scorched]].
+|cost = 1
+|character = Enemy
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Burn]], [[Scorched]]
+|mindamage = 4
+|maxdamage = 6
+}}

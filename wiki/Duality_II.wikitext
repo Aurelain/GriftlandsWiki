@@ -1,0 +1,11 @@
+{{CardPage
+|quote = I’m good for it, when have I ever steered you wrong?
+|description = Discard your hand. Choose Diplomacy or Hostility, then draw cards of only that type until your hand is full.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Flourish]]
+|parent = Duality
+}}

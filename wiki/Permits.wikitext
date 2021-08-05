@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Papers please.
+|description = Gain 2 [[Permit]].<br/>[[Expend]]
+|cost = 1
+|character = Other
+|rarity = Basic
+|decktype = Negotiation
+|cardtype = Status
+|keywords = [[Permit]], [[Expend]]
+}}

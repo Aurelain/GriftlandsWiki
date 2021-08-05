@@ -1,0 +1,10 @@
+{{CardPage
+|quote = I forgot what I was trying to say.
+|description = Dismiss all enemy intents.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Flourish]]
+}}

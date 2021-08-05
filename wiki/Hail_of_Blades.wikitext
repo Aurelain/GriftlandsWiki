@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Just stay down!
+|description = Attack all enemies twice.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Battle
+|cardtype = Attack
+|keywords = [[Flourish]]
+|mindamage = 3
+|maxdamage = 3
+}}

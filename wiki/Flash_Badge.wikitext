@@ -1,0 +1,10 @@
+{{CardPage
+|quote = Move along.
+|description = Destroy target opponent argument. If your opponent is Admiralty, this card costs 0.<br/>[[Expend]]
+|cost = 1
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Expend]]
+}}

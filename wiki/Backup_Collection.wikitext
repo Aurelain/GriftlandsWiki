@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I brought another variant if you’d prefer the halfmoon bog rules.
+|description = Change your Coin until the end of this negotiation.<br/>[[Gamble]].<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Gamble]], [[Flourish]]
+|upgrade1 = Backup Collection II
+|upgrade1summary = 
+}}

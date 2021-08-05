@@ -1,0 +1,12 @@
+{{CardPage
+|quote = Sal wasn't too sure where the release was, or how to hold the Heshing thing at all.
+|description = Apply 8 [[Bleed]].<br/>[[Destroy]]
+|cost = 1
+|character = Other
+|rarity = Unique
+|decktype = Battle
+|cardtype = Item
+|keywords = [[Bleed]], [[Destroy]]
+|mindamage = 8
+|maxdamage = 8
+}}

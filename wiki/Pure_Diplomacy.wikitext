@@ -1,0 +1,12 @@
+{{CardPage
+|quote = I’m sure we can both leave here happy.
+|description = Gain 5 [[Influence]] and apply 5 [[Composure]] to it.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]], [[Composure]], [[Flourish]]
+|upgrade1 = Pure Diplomacy II
+|upgrade1summary = 
+}}

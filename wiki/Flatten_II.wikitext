@@ -1,0 +1,13 @@
+{{CardPage
+|quote = You're going to be looking like this when I'm finished here.
+|description = Apply 3 [[Composure]] to all friendly arguments, then deal 6 damage to all opponent arguments.<br/>[[Flourish]]
+|cost = 0
+|character = Smith
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Composure]], [[Flourish]]
+|parent = Flatten
+|mindamage = 6
+|maxdamage = 6
+}}

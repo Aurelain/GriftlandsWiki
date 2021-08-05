@@ -1,0 +1,12 @@
+{{CardPage
+|quote = It just takes a bit of practice.
+|description = For the next 2 turns, [[Gamble]] once after every card you play.<br/>[[Flourish]]
+|cost = 0
+|character = Rook
+|rarity = Unique
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Gamble]], [[Flourish]]
+|upgrade1 = Coin Juggler II
+|upgrade1summary = 
+}}
