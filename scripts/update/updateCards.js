@@ -3,7 +3,7 @@ const fs = require('fs');
 const getFilePath = require('../utils/getFilePath');
 const tally = require('../utils/tally');
 const summarizeCardUpgrade = require('./cardHelpers/summarizeCardUpgrade');
-const debugCard = require('../utils/debugCard');
+const assertCard = require('../utils/assertCard');
 const {STORAGE} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -120,7 +120,7 @@ const generateUpgradeSummaries = (card, nameToCard) => {
     const summaries = [];
     for (const upgradeName of upgradeNames) {
         const upgradeCard = nameToCard[upgradeName];
-        debugCard(upgradeCard, card, 'Cannot find upgrade name!');
+        assertCard(upgradeCard, card, 'Cannot find upgrade name!');
         summaries[upgradeName] = summarizeCardUpgrade(card, upgradeCard);
     }
     card.summaries = summaries;

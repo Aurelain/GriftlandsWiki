@@ -1,6 +1,6 @@
 const assert = require('assert');
 const objectify = require('../../utils/objectify');
-const debugCard = require('../../utils/debugCard');
+const assertCard = require('../../utils/assertCard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -43,8 +43,8 @@ const RANKS = objectify([
  *
  */
 const inferCardType = (card) => {
-    const {flags, id, name} = card;
-    assert(flags, `${id} is missing its flags!`);
+    const {flags} = card;
+    assertCard(flags, card, 'No flags!');
     const bag = {};
     for (const flag of flags) {
         if (flag in FLAG_TO_TYPE) {
@@ -52,7 +52,7 @@ const inferCardType = (card) => {
         }
     }
     const interestingFlags = Object.keys(bag);
-    debugCard(interestingFlags.length >= 1, card, `Cannot infer type!`);
+    assertCard(interestingFlags.length >= 1, card, `Cannot infer type!`);
     interestingFlags.sort(sorter);
     return FLAG_TO_TYPE[interestingFlags[0]];
 };

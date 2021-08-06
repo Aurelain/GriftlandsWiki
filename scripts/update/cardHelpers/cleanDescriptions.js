@@ -1,5 +1,5 @@
 const applyDescriptionFormat = require('./applyDescriptionFormat');
-const debugCard = require('../../utils/debugCard');
+const assertCard = require('../../utils/assertCard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -80,7 +80,7 @@ const cleanDescription = (card, keywords, bag) => {
     // We're using only the alternative.
     draft = draft.replace(/{([^}]*)\|(\w+[a-z])}/g, (matched, keyword, word) => {
         const keywordInfo = keywords[keyword];
-        debugCard(keywordInfo, card, `Unrecognized worded keyword! ${draft}`);
+        assertCard(keywordInfo, card, `Unrecognized worded keyword! ${draft}`);
         return '[[' + keywordInfo.name + '|' + word + ']]';
     });
 

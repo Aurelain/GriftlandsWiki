@@ -1,6 +1,6 @@
 const assert = require('assert');
 const removeLuaComments = require('../../utils/removeLuaComments');
-const debugCard = require('../../utils/debugCard');
+const assertCard = require('../../utils/assertCard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -193,8 +193,8 @@ const addFeaturesToCard = (card, globalKeywords) => {
             const value = features[key];
             const verb = FEATURE_TO_VERB[key];
             const keywordInfo = globalKeywords[key];
-            debugCard(value > 0, card, 'Feature value should be a positive number!');
-            debugCard(keywordInfo, card, `Unrecognized feature! ${key}`);
+            assertCard(value > 0, card, 'Feature value should be a positive number!');
+            assertCard(keywordInfo, card, `Unrecognized feature! ${key}`);
             const featureDescription = compileFeatureDescription(card, keywordInfo, value);
             const prefix = card.desc ? card.desc + '<br/>' : '';
             card.desc = prefix + `${featureDescription}`;
@@ -206,7 +206,7 @@ const addFeaturesToCard = (card, globalKeywords) => {
  *
  */
 const compileFeatureDescription = (card, {feature_desc, id, name}, value) => {
-    debugCard(feature_desc, card, `Missing feature description! ${name}`);
+    assertCard(feature_desc, card, `Missing feature description! ${name}`);
 
     let draft = feature_desc;
 
@@ -228,7 +228,7 @@ const compileFeatureDescription = (card, {feature_desc, id, name}, value) => {
     // Fix exert:
     draft = draft.split('1 [[Exert]]').join('[[Exert]]'); // Needed for "Spark Cannon", "Blood Flow" etc.
 
-    debugCard(!draft.includes('{'), card, `There are still some braces! ${draft}`);
+    assertCard(!draft.includes('{'), card, `There are still some braces! ${draft}`);
 
     return draft;
 };

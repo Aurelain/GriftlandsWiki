@@ -7,7 +7,7 @@ const removeLuaComments = require('../utils/removeLuaComments');
 const convertLuaToJs = require('../utils/convertLuaToJs');
 const extractRawCards = require('./cardHelpers/extractRawCards');
 const inferCardType = require('./cardHelpers/inferCardType');
-const debugCard = require('../utils/debugCard');
+const assertCard = require('../utils/assertCard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -173,7 +173,7 @@ const resolveArtId = (cards, artIds) => {
 const getParentId = (card) => {
     const {base_id, id} = card;
     if (base_id) {
-        debugCard(Array.isArray(base_id), card, 'base_id should be array!');
+        assertCard(Array.isArray(base_id), card, 'base_id should be array!');
         return base_id[1];
     }
     // Somewhat unsafe, since a card name may legitimately contain "_upgraded":
@@ -233,7 +233,7 @@ const cleanFlavour = (card) => {
     draft = draft.replace(/<b>(.*?)<\/>/g, "'''$1'''");
     draft = draft.replace(/<i>(.*?)<\/>/g, "''$1''");
     draft = draft.split('{1}').join('0'); // "Blacklist"
-    debugCard(!draft.replace(/<br\/>/g, '').match(/[{#\\<]/), card, `Flavour is strange: ${draft}`);
+    assertCard(!draft.replace(/<br\/>/g, '').match(/[{#\\<]/), card, `Flavour is strange: ${draft}`);
     card.flavour = draft;
 };
 
@@ -249,7 +249,7 @@ const computeXp = (card) => {
                 default_xp = default_xp - 2;
             } else {
                 if (mod_xp !== undefined) {
-                    debugCard(typeof mod_xp === 'number', card, `Invalid mod_xp ${mod_xp}!`);
+                    assertCard(typeof mod_xp === 'number', card, `Invalid mod_xp ${mod_xp}!`);
                     default_xp = default_xp + mod_xp;
                 }
             }
