@@ -1,31 +1,19 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = Yeah it’s wired right into your bio-metrics. It’s not something that you are supposed to be doing. There’s legality involved.
+|description = Increase your [[Moxie]] by the amount of damage dealt by this card.
+|cost = 2
 |character = Smith
 |rarity = Rare
-|cardtype = Attack
 |decktype = Battle
+|cardtype = Attack
 |keywords = [[Moxie]]
-|upgradeable = Yes
 |expreq = 7
-|upgrade1 = Rooted Bio-strike
-|upgrade2 = Tall Bio-strike}}
-
-{{Quote|Yeah it's wired right into your bio-metrics. It's not something you are suppose to be doing. There's legality involved.}}
-
-'''Bio-strike''' is a 2-cost Rare '''Attack''' card for [[Smith]]. It deals 4-6 base damage. It has the effect: "Increase your [[Moxie]] by the amount of damage dealt by this card.".
-
-==Upgrades==
-After accruing 7 experience '''Bio-strike''' is able to be upgraded.
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Rooted Bio-Strike.png|150px]]
-|[[File: Tall Bio-Strike.png|150px]]
-|-
-!2-cost. 
-Deal 6 base damage
-!2-cost
-Deal 4-10 base damage
-|-
-|}
+|upgrade1 = Rooted Bio-Strike
+|upgrade1summary = Min damage +2
+|upgrade2 = Tall Bio-Strike
+|upgrade2summary = Max damage +4
+|mindamage = 4
+|maxdamage = 6
+}}

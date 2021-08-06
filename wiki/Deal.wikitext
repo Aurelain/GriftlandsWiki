@@ -1,28 +1,19 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = Hurry it up partner, I haven’t got all day.
+|description = [[Threshold]] 3: Gain 2 [[Adrenaline]].
+|cost = 1
 |character = Smith
 |rarity = Common
-|cardtype = Attack
 |decktype = Battle
+|cardtype = Attack
 |keywords = [[Threshold]], [[Adrenaline]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Tall Deal
-|upgrade2 = Enhanced Deal}}
-
-{{Quote|Hurry it up partner, I haven't got all day.}}
-
-'''Deal''' is a 1-cost Common '''Attack''' card for [[Smith]]. It deals 2-4 base damage. It has the effect: "[[Threshold]] 3: Gain 2 [[Adrenaline]]".
-
-==Upgrades==
-After accruing 9 experience '''Deal''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Tall Deal.png|150px]]
-|[[File: Enhanced Deal.png|150px]]
-|-
-!Deal 2-6 base damage
-!Gain 3 [[Adrenaline]]
-|-
-|}
+|upgrade1summary = Max damage +2
+|upgrade2 = Enhanced Deal
+|upgrade2summary = Gain +1 [[Adrenaline]]
+|mindamage = 2
+|maxdamage = 4
+}}

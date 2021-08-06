@@ -1,28 +1,15 @@
-{{Card
+{{CardPage
+|quote = Pain is just weakness leaving the body, or something.
+|description = For the rest of your turn, any damage you receive is reduced to 1.<br/>[[Expend]]
+|cost = 1
 |character = Smith
 |rarity = Uncommon
-|cardtype = Maneuver
 |decktype = Battle
+|cardtype = Maneuver
 |keywords = [[Expend]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Pale Power Through
+|upgrade1summary = Cost -1
 |upgrade2 = Enduring Power Through
+|upgrade2summary = [[Expend]] removed
 }}
-
-{{Quote|Pain is just weakness leaving the body, or something.}}
-
-'''Power Through''' is a 1-cost Uncommon '''Maneuver''' card for [[Smith]]. It has the effect: "For the rest of your turn, any damage you receive is reduced to 1. [[Expend]]".
-
-==Upgrades==
-After accruing 7 experience '''Power Through''' is able to be upgraded. 
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Pale Power Through.png|150px]]
-|[[File: Enduring Power Through.png|150px]]
-|-
-!Cost 1 action less
-!Remove [[Expend]]
-|-
-|}

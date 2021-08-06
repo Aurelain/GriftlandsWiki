@@ -1,29 +1,19 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = DING DING DING!
+|description = [[Threshold]] 10: Apply 1 [[Stun]].
+|cost = 2
 |character = Smith
 |rarity = Rare
 |decktype = Battle
 |cardtype = Attack
 |keywords = [[Threshold]], [[Stun]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Boosted Jackpot
+|upgrade1summary = Min damage +2<br/>Max damage +1
 |upgrade2 = Pale Jackpot
+|upgrade2summary = Cost -1
+|mindamage = 2
+|maxdamage = 5
 }}
-
-{{Quote|DING DING DING!}}
-
-'''Jackpot''' is a 2-cost Rare '''Attack''' card for [[Smith]]. It deals 2-5 base damage. It has the effect: "[[Threshold]] 10: Apply 1 [[Stun]]".
-
-==Upgrades==
-After accruing 7 experience '''Jackpot''' is able to be upgraded.
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Boosted Jackpot.png|150px]]
-|[[File: Pale Jackpot.png|150px]]
-|-
-!Deal 4-6 base damage
-!Cost 1 action less (1-cost)
-|}
