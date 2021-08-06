@@ -17,13 +17,13 @@
 |upgrade5 = Rapid Bash
 |upgrade5summary = Min damage +1<br/>Attack twice<br/>[[Restrained]] added
 |upgrade6 = Quenched Bash
-|upgrade6summary = Deals 4 bonus damage if you drank this turn
+|upgrade6summary = Bonus damage 4<br/>if you drank this turn
 |upgrade7 = Lucid Bash
 |upgrade7summary = Damage +4<br/>[[Expend]] added
 |upgrade8 = Rolling Bash
-|upgrade8summary = Min damage -1<br/>Max damage -2<br/>Deal 1 bonus damage per card played this turn
+|upgrade8summary = Min damage -1<br/>Max damage -2<br/>Bonus damage 1<br/>per card played this turn
 |upgrade9 = Six Pack Bash
-|upgrade9summary = Deals 6 bonus damage if you have 6 or more [[Empty Bottle]] cards in your deck
+|upgrade9summary = Bonus damage 6<br/>if you have<br/>6+ [[Empty Bottle]]<br/> cards in your deck
 |mindamage = 2
 |maxdamage = 4
 }}

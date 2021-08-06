@@ -8,6 +8,8 @@
 |-
 {{#if: {{{cost|}}} | {{!}} width=90 {{!}}<div>Cost</div>{{!!}} {{{cost}}} }}
 |-
+{{#if: {{{damage|}}} | {{!}} width=90 {{!}}<div>Damage</div>{{!!}} {{{damage}}} }}
+|-
 {{#if: {{{character|}}} | {{!}} width=90 {{!}}<div>Character</div>{{!!}} {{{character}}} }}
 |-
 {{#if: {{{rarity|}}} | {{!}} width=90 {{!}}<div>Rarity</div>{{!!}} {{Rarity|{{{rarity}}}}} }}

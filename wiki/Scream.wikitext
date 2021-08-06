@@ -9,7 +9,7 @@
 |keywords = [[Adrenaline]], [[Expend]]
 |expreq = 8
 |upgrade1 = Softened Scream
-|upgrade1summary = Take 2 damage instead of 3<br/>for each card played
+|upgrade1summary = Take less damage (-1)<br/>for each card played
 |upgrade2 = Boosted Scream
 |upgrade2summary = Gain +1 [[Adrenaline]]
 }}

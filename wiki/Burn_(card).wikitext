@@ -1,6 +1,6 @@
 {{CardPage
 |name = Burn
-|image = Burn (card).png
+|image = Burn.png
 |quote = Alright already! I said no guns!
 |description = [[Snails]]: Hits all opponent arguments.
 |cost = 1

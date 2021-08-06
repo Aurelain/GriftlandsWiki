@@ -10,5 +10,5 @@
 |upgrade1 = Visionary Push It
 |upgrade1summary = Draw +1 cards
 |upgrade2 = Split Push It
-|upgrade2summary = Take 3 damage instead of 5, but twice
+|upgrade2summary = Take less damage (-2),<br/>but twice
 }}

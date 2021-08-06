@@ -5,7 +5,7 @@ const {REPLACEMENTS} = require('./CONFIG');
  */
 const getFilePath = (title, content) => {
     const ext = typeof content === 'string' ? 'wikitext' : 'json';
-    const dir = (title.match(/^([^:]+):/) || [null, ''])[1];
+    const dir = (title.match(/^([^:]+):[a-zA-Z]/) || [null, ''])[1];
     const prefix = dir ? dir + '/' : '';
     let name = dir ? title.substr(dir.length + 1) : title;
     for (const c in REPLACEMENTS) {

@@ -1,6 +1,6 @@
 {{CardPage
 |name = Suitcase Grenades
-|image = Suitcase Grenades (card).png
+|image = Suitcase Grenades.png
 |quote = Easy to bring along to any altercation, these beauties glow like the sun while melting through almost anything!
 |description = Hits all enemy targets.<br/>[[Destroy]] after 3 uses.
 |cost = 1

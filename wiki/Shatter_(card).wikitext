@@ -1,6 +1,6 @@
 {{CardPage
 |name = Shatter
-|image = Shatter (card).png
+|image = Shatter.png
 |quote = Things are about to go real bad for you pal.
 |description = [[Expend]] 2 [[Empty Bottle]] cards from your deck: apply 2 [[Wound]].
 |cost = 1

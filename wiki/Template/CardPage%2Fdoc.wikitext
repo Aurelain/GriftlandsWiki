@@ -35,6 +35,7 @@ Use this Template for all card pages.
 |upgrade9summary = 
 |upgrade10 =
 |upgrade10summary = 
+|parent = the name of the primitive (original, normal) card that was upgraded to obtain the current card
 |special1 = the name of the first special card spawned by the current card
 |special2 = 
 |special3 = 
@@ -45,8 +46,9 @@ Use this Template for all card pages.
 |special8 = 
 |special9 =
 |special10 =
-|parent = the name of the primitive (original, normal) card that was upgraded to obtain the current card
 |generator = the name of the card that spawned the current card
+|mindamage = the lower value of the card's damage or persuasion
+|maxdamage = the upper value of the card's damage or persuasion
 }}
 </pre>
 
@@ -66,6 +68,8 @@ Use this Template for all card pages.
 |upgrade1summary = 
 |upgrade2 = 
 |upgrade2summary = 
+|mindamage =
+|maxdamage =
 }}
 </pre>
 
@@ -96,6 +100,8 @@ Use this Template for all card pages.
 |special7 = Flow
 |special8 = Blowout
 |special9 = Deep Breath
+|mindamage = 2
+|maxdamage = 5
 }}
 </pre>
 {{CardPage
@@ -123,5 +129,7 @@ Use this Template for all card pages.
 |special7 = Flow
 |special8 = Blowout
 |special9 = Deep Breath
+|mindamage = 2
+|maxdamage = 5
 }}
 {{clear}}{{doc/end}}

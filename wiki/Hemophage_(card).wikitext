@@ -1,6 +1,6 @@
 {{CardPage
 |name = Hemophage
-|image = Hemophage (card).png
+|image = Hemophage.png
 |quote = Some of it got in my mouth and I'm not gonna lie; I could get used to it.
 |description = [[Ability]]: Whenever you apply [[Bleed]], [[Heal]] 1.<br/>[[Expend]]
 |cost = 2

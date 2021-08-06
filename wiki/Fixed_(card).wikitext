@@ -1,6 +1,6 @@
 {{CardPage
 |name = Fixed
-|image = Fixed (card).png
+|image = Fixed.png
 |quote = I’ve got your number, punk.
 |description = Apply 2 [[Fixed]].
 |cost = 1

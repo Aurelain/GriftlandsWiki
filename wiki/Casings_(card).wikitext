@@ -1,6 +1,6 @@
 {{CardPage
 |name = Casings
-|image = Casings (card).png
+|image = Casings.png
 |quote = Hey these polished shells aren’t just here for looks you know!
 |description = [[Ability]]: Whenever you spend [[Charge]], gain 2 [[Defense]] per [[Charge]] spent.<br/>[[Expend]]
 |cost = 3

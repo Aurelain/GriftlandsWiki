@@ -9,7 +9,7 @@
 |keywords = [[Fully Charged]]
 |expreq = 7
 |upgrade1 = Twisted Gallery
-|upgrade1summary = Min damage +1, Max damage +1, Bonus damage -2, [[Fully Charged]] removed
+|upgrade1summary = Base damage +1<br/>Bonus damage -2<br/>[[Fully Charged]] removed
 |upgrade2 = Boosted Gallery
 |upgrade2summary = Bonus damage +2
 |mindamage = 3

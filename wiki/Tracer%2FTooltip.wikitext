@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Tracer
+  |body=<center>Whenever owner is hit by an attack, you gain 1 '''Defense'''. At the start of owner's turn, remove 1 stack of '''Tracer'''.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

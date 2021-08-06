@@ -1,4 +1,4 @@
-{| class="wikitable" style="text-align:center; display:inline-block;"
+{| class="wikitable" style="text-align:center; display:inline-block; vertical-align:top"
 |-
 |{{CardLink|{{{1}}}}}
 |-

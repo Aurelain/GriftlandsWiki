@@ -1,6 +1,6 @@
 {{CardPage
 |name = Chaos Theory
-|image = Chaos Theory (card).png
+|image = Chaos Theory.png
 |quote = How familiar are you with the area around the crash site?
 |description = Gain: At the start of your turn, play a random card in your hand for free.<br/>[[Expend]]
 |cost = 1

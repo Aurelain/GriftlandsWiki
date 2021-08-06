@@ -1,6 +1,6 @@
 {{CardPage
 |name = Deception
-|image = Deception (card).png
+|image = Deception.png
 |quote = That's why I don't take prisoners, you just can't trust anyone.
 |description = [[Improvise]] an attack card from your draw pile. That card deals +4 damage until played.
 |cost = 1

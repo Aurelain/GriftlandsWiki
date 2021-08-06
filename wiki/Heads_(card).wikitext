@@ -1,6 +1,6 @@
 {{CardPage
 |name = Heads
-|image = Heads (card).png
+|image = Heads.png
 |description = [[Heads]].<br/>[[Unplayable]]
 |character = Rook
 |rarity = Unique

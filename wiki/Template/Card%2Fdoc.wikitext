@@ -7,6 +7,7 @@ Use this infobox for all card pages.
 |name = 
 |image = 
 |cost = 
+|damage = 
 |character = 
 |rarity = 
 |decktype = 
@@ -30,6 +31,7 @@ Use this infobox for all card pages.
 |name = card's name
 |image = card's image
 |cost = card's cost
+|damage = card's damage or persuasion, both min and max joined by dash
 |character = Sal / Rook / Smith / Other / Enemy
 |rarity = Basic / Common / Uncommon / Rare / Unique
 |decktype = Battle / Negotiation
@@ -64,6 +66,8 @@ Use this infobox for all card pages.
 ! colspan="2" class="infoboxdetails" | Details 
 |-
 | width=90 |<div>Cost</div>|| 1
+|-
+| width=90 |<div>Damage</div>|| 2-5
 |-
 | width=90 |<div>Character</div>|| Sal
 |-
@@ -102,6 +106,7 @@ Use this infobox for all card pages.
 |name = Stab
 |image = Stab.png
 |cost = 1
+|damage = 2-5
 |character = Sal
 |rarity = Basic
 |decktype = Battle

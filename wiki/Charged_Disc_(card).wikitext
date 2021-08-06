@@ -1,6 +1,6 @@
 {{CardPage
 |name = Charged Disc
-|image = Charged Disc (card).png
+|image = Charged Disc.png
 |quote = Lumin disc throwing requires a lot of practice if you want the Heshing thing to come back to you.
 |description = Hits all enemies. Apply 2 [[Wound]].<br/>[[Expend]]
 |cost = 1

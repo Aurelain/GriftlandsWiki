@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Exert
+  |body=<center>Next turn, gain '''X''' fewer actions.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

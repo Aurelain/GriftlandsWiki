@@ -1,14 +1,6 @@
-{{CardPage
-|quote = I’ve got your number now pal.
-|description = Apply 2 Tracer.
-|cost = 1
-|character = Smith
-|rarity = Uncommon
-|decktype = Battle
-|keywords = [[Defend]]
-|expreq = 9
-|upgrade1 = Boosted Tracer
-|upgrade1summary = 
-|upgrade2 = Stone Tracer
-|upgrade2summary = 
-}}
+'''Tracer''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "Whenever owner is hit by an attack, you gain 1 [[Defense]]. At the start of owner's turn, remove 1 stack of [[Tracer]].".
+
+[[Category:Keywords]]

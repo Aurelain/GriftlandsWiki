@@ -1,6 +1,6 @@
 {{CardPage
 |name = Spines
-|image = Spines (card).png
+|image = Spines.png
 |quote = Now where the Hesh did those come from?
 |description = [[Ability]]: Gain 1 [[Counter]] whenever you gain [[Defense]].<br/>[[Expend]]
 |cost = 2

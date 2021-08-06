@@ -1,6 +1,6 @@
 {{CardPage
 |name = Tiny Stinger
-|image = Tiny Stinger (card).png
+|image = Tiny Stinger.png
 |quote = Small, but deadly.
 |description = Remove all [[Defense]] on target.<br/>Apply 1 [[Impair]].<br/>[[Expend]], [[Sticky]]
 |cost = 0

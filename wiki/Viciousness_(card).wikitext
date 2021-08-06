@@ -1,6 +1,6 @@
 {{CardPage
 |name = Viciousness
-|image = Viciousness (card).png
+|image = Viciousness.png
 |quote = Lumin-laced banderclaws seem to bring out the worst in fighters.
 |description = For the rest of the turn, gain [[Counter]] equal to half of any attack damage you deal.<br/>[[Expend]]
 |cost = 1

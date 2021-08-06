@@ -1,0 +1,8 @@
+'''Exert''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "Next turn, gain '''X''' fewer actions.".
+
+Where '''X''' is the amount of stacks of '''Exert'''.
+
+[[Category:Keywords]]

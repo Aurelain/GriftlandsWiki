@@ -1,6 +1,6 @@
 {{CardPage
 |name = Tempered
-|image = Tempered (card).png
+|image = Tempered.png
 |quote = It sounds obvious, but when enemies are on fire they are a lot more distracted.
 |description = [[Ability]]: Whenever you attack an enemy that has [[Burn]], gain 2 [[Defense]].<br/>[[Expend]]
 |cost = 2

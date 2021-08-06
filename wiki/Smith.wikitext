@@ -66,8 +66,28 @@ His starting deck consists of the following cards:
 * 1x [[Nepotism]]
 
 == Outfits ==
+Smith has 5 unlockable '''Outfits'''.
+<gallery>
+SmithsJacket.JPG|Smiths Jacket
+The_Gambler.jpg|The Gambler
+TheOutdoorsmith.JPG|The Outdoorsmith
+TheSneaksmith.JPG|The Sneaksmith
+HeshianDisguise.JPG|Heshian Disguise
+</gallery>
+
 
 == Card Sets ==
+Smiths's unlock-able card sets are as follows:
+*[[The Classic and Onslaught]]
+*[[VIP and Circulation]]
+*[[Duplicity and Weight]]
+*[[Elitist and Salvager]]
+*[[Convergence and Bottoms Up]]
+*[[Self-Destruct and Bounce Back]]
+*[[Self Deprecation and Preparation]]
+*[[Ad Lib and Titan]]
+*[[Destructive and Bulwark]]
+*[[Crescendo and The Pain Train]]
 
 {{stub}}
 [[Category:Heroes]]

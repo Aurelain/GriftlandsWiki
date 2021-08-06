@@ -2,6 +2,7 @@
 |name = {{#if:{{{name|}}}|{{{name}}}}}
 |image = {{#if:{{{image|}}}|{{{image}}}}}
 |cost = {{#if:{{{cost|}}}| {{{cost}}} }}
+|damage = {{#if:{{{mindamage|}}}|{{#ifeq:{{{mindamage}}}|{{{maxdamage}}}|{{{mindamage}}}|{{{mindamage}}}-{{{maxdamage}}}}}}}
 |character = {{#if:{{{character|}}}| {{{character}}} }}
 |rarity = {{#if:{{{rarity|}}}| {{{rarity}}} }}
 |decktype = {{#if:{{{decktype|}}}| {{{decktype}}} }}

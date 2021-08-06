@@ -1,6 +1,8 @@
+{{Reupload}}
+
 {{CardPage
 |name = Tracer
-|image = Tracer (card).png
+|image = Tracer.png
 |quote = I’ve got your number now pal.
 |description = Apply 2 [[Tracer]].
 |cost = 1
@@ -11,7 +13,7 @@
 |keywords = [[Tracer]]
 |expreq = 9
 |upgrade1 = Boosted Tracer
-|upgrade1summary = 
+|upgrade1summary = Apply 4 [[Tracer]].
 |upgrade2 = Stone Tracer
-|upgrade2summary = 
+|upgrade2summary = Gain 5 [[Defense]].
 }}
