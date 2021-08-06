@@ -26,7 +26,7 @@ const updateCards = (cardsBag) => {
     let count = 0;
     for (const id in cardsBag) {
         const card = cardsBag[id];
-        const name = card.name.split(':').join('%3A'); // "Weakness: Blind Spot"
+        const {name} = card;
         const filePath = STORAGE + '/' + getFilePath(name, '');
         // if (fs.existsSync(filePath)) continue;
 

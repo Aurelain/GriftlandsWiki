@@ -48,6 +48,8 @@ const DEFAULT_CARD_XP = 10;
 const DENIED = {
     choose_diplomacy: true, // hidden in Compendium (hide_in_cardex)
     choose_hostile: true, // hidden in Compendium (hide_in_cardex)
+    cancel_toolbox: true, // hidden in Compendium (hide_in_cardex), and uncertain what it is
+    friendly_support: true, // hidden in Compendium (hide_in_cardex), and uncertain what it is
     frisk: true, // this is an internal card (not "admiralty_orders"), with the OPPONENT flag
 };
 

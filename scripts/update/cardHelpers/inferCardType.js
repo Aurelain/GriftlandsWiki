@@ -1,5 +1,6 @@
 const assert = require('assert');
 const objectify = require('../../utils/objectify');
+const debugCard = require('../../utils/debugCard');
 
 // =====================================================================================================================
 //  D E C L A R A T I O N S
@@ -18,9 +19,11 @@ const FLAG_TO_TYPE = {
     score: 'Score',
     item: 'Item',
     parasite: 'Parasite',
+    flourish: 'Flourish',
 };
 
 const RANKS = objectify([
+    'flourish',
     'score',
     'parasite',
     'item',
@@ -49,8 +52,8 @@ const inferCardType = (card) => {
         }
     }
     const interestingFlags = Object.keys(bag);
+    debugCard(interestingFlags.length >= 1, card, `Cannot infer type!`);
     interestingFlags.sort(sorter);
-    // assert(interestingFlags.length === 1, `${id} has an unexpected type! ${interestingFlags}`);
     return FLAG_TO_TYPE[interestingFlags[0]];
 };
 
