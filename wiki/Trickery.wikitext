@@ -1,31 +1,18 @@
-{{Card
+{{CardPage
+|quote = I can’t help but think something fishy is going on here.
+|description = [[Improvise]] a card from a pool of special cards.
+|cost = 1
 |character = Rook
-|cardtype = Manipulate
-|decktype = Negotiation
-|expreq = 9
 |rarity = Basic
-|upgrade1 = Promoted Trickery: Improvise a card from a pool of upgraded special cards.
-|upgrade2 = Wide Trickery: '''Improvise+''' a card from a pool of special cards.}}
-{{Quote|I can't help but think something fishy is going on here.}}
-
-'''Trickery''' is a 1-cost Basic '''Manipulation''' card for [[Rook]]. It improvises a card from a pool of special cards. As a base card '''Trickery''' is always part of the available card pool for [[Rook]].
-
-==Upgrades==
-After accruing 9 experience '''Trickery''' is able to be upgraded.
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Effect
-|-
-|Promoted Trickery
-|1
-|'''Improvise''' a card from a pool of upgraded special cards.
-|-
-|Wide Trickery
-|1
-|'''Improvise+''' a card from a pool of special cards.
-|}
+|decktype = Negotiation
+|cardtype = Manipulate
+|keywords = [[Improvise]]
+|expreq = 9
+|upgrade1 = Promoted Trickery
+|upgrade1summary = Upgraded special cards
+|upgrade2 = Wide Trickery
+|upgrade2summary = [[Improvise+]] instead of [[Improvise]]
+}}
 
 ==Special Cards==
 '''Trickery''' has several special cards in its pool, those being:

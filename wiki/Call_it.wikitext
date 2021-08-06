@@ -1,27 +1,17 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = Heads or snails?
+|description = [[Gamble]].<br/>[[Sticky]]
+|cost = 0
 |character = Rook
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Manipulate
-|upgradeable = Yes
+|keywords = [[Gamble]], [[Sticky]]
 |expreq = 10
 |upgrade1 = Decisive Call it
+|upgrade1summary = [[Set the coin]] instead of [[Gamble]]
 |upgrade2 = Restored Call it
-|upgrade3 = Mirrored Call it
-|upgrade4 = 
-|upgrade5 = }}
-{{Quote|Heads or snails?}}
-'''Call it''' is a 0-cost Basic '''Manipulate''' card for [[Rook]]. It will '''Gamble'''. It has the keyword '''Sticky''', which means that the card will not discard at the end of the turn.
-
-==Upgrades==
-After accruing 10 experience '''Call it''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Decisive Call it.png|150px]] [[File:Desicive Call it.png|150px]]
-|[[File:Restored Call it.png|150px]]
-|-
-!Set the coin
-![[Replenish]]
-|}
+|upgrade2summary = [[Replenish]] added
+}}

@@ -1,24 +1,19 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = It’s been a rough week for me, give me a second here.
+|description = [[Prepare]] a card.<br/>[[Prepared]]: This card costs 1 less.
+|cost = 2
 |character = Rook
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Diplomacy
-|upgradeable = Yes
+|keywords = [[Prepare]], [[Prepared]]
 |expreq = 7
 |upgrade1 = Tall Dogged
-|upgrade2 = Rooted Dogged}}
-{{Quote|It's been a rough week for me, give me a second here.}}
-'''Dogged''' is a 2-cost Common '''Diplomacy''' card for [[Rook]]. It deals 2-6 base damage. Then it '''Prepares''' a card. If this card is '''Prepared''', it cost 0 actions.
-
-==Upgrades==
-After accruing 7 experience '''Dogged''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Tall Dogged.png|150px]]
-|[[File:Rooted Dogged.png|150px]]
-|-
-!Deal 2-8 damage
-!Deal 6-6 damage
-|}
+|upgrade1summary = Max damage +2
+|upgrade2 = Rooted Dogged
+|upgrade2summary = Min damage +4
+|mindamage = 2
+|maxdamage = 6
+}}

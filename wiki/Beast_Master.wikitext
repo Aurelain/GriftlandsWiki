@@ -1,20 +1,12 @@
-{{Stub}}
-{{Card
+{{CardPage
+|quote = It takes a lot of training and I could never get over the smells.
+|description = Call in Crayotes to attack all enemies.<br/>[[Flourish]]
+|cost = 0
+|character = Sal
 |rarity = Unique
 |decktype = Battle
 |cardtype = Flourish
-|character = Sal
 |keywords = [[Flourish]]
-|upgradeable = Yes
-|upgrade1 = Beast Master II}}
-{{Quote|It takes a lot of training and I could never get over the smells.}}
-'''Beast Master''' is a 0-cost Unique '''Flourish''' card for [[Sal]]. It has the effect "Call in Crayotes to attack all enemies. [[Flourish]]."
-
-==Upgrades==
-This card has no XP but can be upgraded with other means.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Beast Master II.png|150px]]
-|-
-!Calls in Horned Yotes.
-|}
+|upgrade1 = Beast Master II
+|upgrade1summary = Call in Horned Yotes to attack all enemies.<br/>[[Flourish]]
+}}

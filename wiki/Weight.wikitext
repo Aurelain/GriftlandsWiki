@@ -1,29 +1,17 @@
-{{Card
-|cardtype = Diplomacy
-|decktype = Negotiation
+{{CardPage
+|quote = This one is for all the marbles.
+|description = Costs 1 less per [[Influence]]. [[Gamble]].
+|cost = 4
+|character = Rook
 |rarity = Uncommon
-|upgradeable = Yes
+|decktype = Negotiation
+|cardtype = Diplomacy
+|keywords = [[Influence]], [[Gamble]]
 |expreq = 3
 |upgrade1 = Tall Weight
-|upgrade2 = Pale Weight}}
-
-'''Weight''' is a 4-cost '''Diplomacy''' card for [[Rook]]. It deals 3-5 base damage. It has the effect "Costs 1 less per influence. Gamble."
-
-==Upgrades==
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Damage
-!Effect
-|-
-|Tall Weight
-|4
-|3-7
-|Costs 1 less per influence. Gamble
-|-
-|Pale Wight
-|3
-|3-5
-|costs 1 less per influence. Gamble
-|}
+|upgrade1summary = Max damage +2
+|upgrade2 = Pale Weight
+|upgrade2summary = Cost -1
+|mindamage = 3
+|maxdamage = 5
+}}

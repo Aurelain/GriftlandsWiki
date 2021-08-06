@@ -1,30 +1,15 @@
-{{Card
+{{CardPage
+|quote = He’s a tough nut to crack, I’ll give you that.
+|description = [[Gamble]].<br/>[[Heads]]: Apply 3 [[Composure]] to all friendly arguments.
+|cost = 1
+|character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|upgradeable = Yes
-|expreq = 7
+|keywords = [[Gamble]], [[Heads]], [[Composure]]
+|expreq = 9
 |upgrade1 = Boosted Blockade
-|upgrade2 = Wide Blockade
-|character = Rook}}
-
-'''Blockade''' is a 1-cost uncommon '''Diplomacy''' card for [[Rook]]. It has the effect "Gamble, if heads: apply 2 composure to all your arguments."
-
-==Upgrades==
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Damage
-!Effect
-|-
-|Boosted Blockade
-|1
-|NA
-|Gamble. if heads, apply 4 composure to all your arguments
-|-
-|Wide blockade
-|1
-|NA
-|Gamble. If heads, apply 2 composure to all your arguments. if snails, Apply 1 composure to all your arguments
-|}
+|upgrade1summary = Apply +1 [[Composure]]
+|upgrade2 = Twisted Blockade
+|upgrade2summary = Apply +1 [[Composure]]<br/>[[Snails]] instead of [[Heads]]
+}}
