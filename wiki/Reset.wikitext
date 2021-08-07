@@ -5,7 +5,7 @@
 |character = Rook
 |rarity = Unique
 |decktype = Battle
-|cardtype = Maneuver
+|cardtype = Flourish
 |keywords = [[Charge]], [[Fully Charged]], [[Flourish]]
 |upgrade1 = Reset II
 |upgrade1summary = 

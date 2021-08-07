@@ -5,7 +5,7 @@
 |character = Smith
 |rarity = Unique
 |decktype = Negotiation
-|cardtype = Diplomacy
+|cardtype = Flourish
 |keywords = [[Flourish]]
 |upgrade1 = Flatten II
 |upgrade1summary = 

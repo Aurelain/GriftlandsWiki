@@ -5,6 +5,6 @@
 |character = Smith
 |rarity = Unique
 |decktype = Negotiation
-|cardtype = Diplomacy
+|cardtype = Flourish
 |keywords = [[Renown]], [[Flourish]]
 }}

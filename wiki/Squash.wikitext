@@ -5,7 +5,7 @@
 |character = Sal
 |rarity = Unique
 |decktype = Battle
-|cardtype = Attack
+|cardtype = Flourish
 |keywords = [[Impair]], [[Flourish]]
 |upgrade1 = Squash II
 |upgrade1summary = 

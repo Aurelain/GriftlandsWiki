@@ -9,7 +9,7 @@
 |keywords = [[Drink]], [[Improvise]]
 |expreq = 9
 |upgrade1 = Smith's Boosted Flask
-|upgrade1summary = Upgraded special cards<br/>in pool 
+|upgrade1summary = Upgraded special cards<br/>in pool
 |upgrade2 = Smith's Wide Flask
 |upgrade2summary = [[Improvise+]]<br/>instead of [[Improvise]]
 }}

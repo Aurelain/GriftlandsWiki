@@ -28,15 +28,16 @@ const updateCards = (cardsBag) => {
         const card = cardsBag[id];
         const {name} = card;
         const filePath = STORAGE + '/' + getFilePath(name, '');
-        // if (fs.existsSync(filePath)) continue;
+        assertCard(fs.existsSync(filePath), card, 'Card does not exist in wiki!');
 
         const existingWikitext = (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8')) || '';
+        assertCard(existingWikitext.match(/{{CardPage\b/), card, `Wiki page is not a CardPage!\n${existingWikitext}`);
         // if (existingWikitext.match(/{{Card/)) {
         //     continue;
         // }
-        if (!existingWikitext.match(/{{Card\b/)) {
-            continue;
-        }
+        // if (!existingWikitext.match(/{{Card\b/)) {
+        //     continue;
+        // }
         // if (!existingWikitext.match(/{{CardPage\b/)) {
         //     continue;
         // }
@@ -46,7 +47,7 @@ const updateCards = (cardsBag) => {
 
         const existingCard = parseCardFromWikitext(existingWikitext);
         const futureCard = {...card, ...existingCard};
-        generateUpgradeSummaries(futureCard, nameToCard);
+        // generateUpgradeSummaries(futureCard, nameToCard);
         const futureCardWikitext = generateCardWikitext(futureCard);
         const futureWikitext = generateWikitext(existingWikitext, futureCardWikitext);
         // console.log('futureWikitext:', futureWikitext);
@@ -54,7 +55,7 @@ const updateCards = (cardsBag) => {
             // console.log('futureWikitext:', futureWikitext);
             fs.writeFileSync(filePath, futureWikitext);
             count++;
-            if (count >= 10) {
+            if (count >= 100) {
                 break;
             }
         }
@@ -112,18 +113,18 @@ const parseCardFromWikitext = (wikitext) => {
  *
  */
 const generateUpgradeSummaries = (card, nameToCard) => {
-    const {upgrades} = card;
-    if (!upgrades) {
+    const {upgrades, summaries} = card;
+    if (!upgrades || summaries) {
         return;
     }
     const upgradeNames = upgrades.split(',');
-    const summaries = [];
+    const generatedSummaries = [];
     for (const upgradeName of upgradeNames) {
         const upgradeCard = nameToCard[upgradeName];
         assertCard(upgradeCard, card, 'Cannot find upgrade name!');
-        summaries[upgradeName] = summarizeCardUpgrade(card, upgradeCard);
+        generatedSummaries[upgradeName] = summarizeCardUpgrade(card, upgradeCard);
     }
-    card.summaries = summaries;
+    card.summaries = generatedSummaries;
 };
 /**
  *
@@ -153,7 +154,10 @@ const generateCardWikitext = (card) => {
     if (name.includes('(')) {
         const cleanName = name.replace(/ \(.*/, '');
         draft += `|name = ${cleanName}\n`;
-        draft += `|image = ${cleanName}.png\n`;
+        if (!name.includes('(negotiation')) {
+            // "Boosted Barrage (negotiation card)"
+            draft += `|image = ${cleanName}.png\n`;
+        }
     }
 
     if (flavour) {

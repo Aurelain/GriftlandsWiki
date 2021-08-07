@@ -5,7 +5,7 @@
 |character = Sal
 |rarity = Unique
 |decktype = Battle
-|cardtype = Attack
+|cardtype = Flourish
 |keywords = [[Impair]], [[Stun]], [[Flourish]]
 |parent = Squash
 |mindamage = 10

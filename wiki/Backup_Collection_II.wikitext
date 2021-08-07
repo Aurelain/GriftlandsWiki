@@ -5,7 +5,7 @@
 |character = Rook
 |rarity = Unique
 |decktype = Negotiation
-|cardtype = Manipulate
+|cardtype = Flourish
 |keywords = [[Gamble]], [[Flourish]]
 |parent = Backup Collection
 }}

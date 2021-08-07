@@ -5,7 +5,7 @@
 |character = Smith
 |rarity = Unique
 |decktype = Negotiation
-|cardtype = Hostility
+|cardtype = Flourish
 |keywords = [[Dominance]], [[Flourish]]
 |parent = Inner Rage
 }}

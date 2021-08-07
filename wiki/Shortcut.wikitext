@@ -5,7 +5,7 @@
 |character = Smith
 |rarity = Unique
 |decktype = Battle
-|cardtype = Attack
+|cardtype = Flourish
 |keywords = [[Traumatized]], [[Flourish]]
 |upgrade1 = Shortcut II
 |upgrade1summary = 

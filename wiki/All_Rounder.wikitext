@@ -5,7 +5,7 @@
 |character = Smith
 |rarity = Unique
 |decktype = Battle
-|cardtype = Attack
+|cardtype = Flourish
 |keywords = [[Drink]], [[Moxie]], [[Trauma]], [[Flourish]]
 |mindamage = 6
 |maxdamage = 6

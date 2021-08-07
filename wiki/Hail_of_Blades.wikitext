@@ -5,7 +5,7 @@
 |character = Sal
 |rarity = Unique
 |decktype = Battle
-|cardtype = Attack
+|cardtype = Flourish
 |keywords = [[Flourish]]
 |mindamage = 3
 |maxdamage = 3

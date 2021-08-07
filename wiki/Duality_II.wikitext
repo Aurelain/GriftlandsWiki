@@ -5,7 +5,7 @@
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
-|cardtype = Manipulate
+|cardtype = Flourish
 |keywords = [[Flourish]]
 |parent = Duality
 }}

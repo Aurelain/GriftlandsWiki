@@ -5,7 +5,7 @@
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
-|cardtype = Diplomacy
+|cardtype = Flourish
 |keywords = [[Influence]], [[Composure]], [[Flourish]]
 |upgrade1 = Pure Diplomacy II
 |upgrade1summary = 

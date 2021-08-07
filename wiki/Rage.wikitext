@@ -5,7 +5,7 @@
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
-|cardtype = Hostility
+|cardtype = Flourish
 |keywords = [[Dominance]], [[Improvise]], [[Flourish]]
 |upgrade1 = Rage II
 |upgrade1summary = 

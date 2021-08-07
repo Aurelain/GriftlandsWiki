@@ -11,5 +11,5 @@
 |upgrade1 = Boosted Seethe
 |upgrade1summary = [[Heated]] +2
 |upgrade2 = Visionary Seethe
-|upgrade2summary =Draw a card
+|upgrade2summary = Draw a card
 }}

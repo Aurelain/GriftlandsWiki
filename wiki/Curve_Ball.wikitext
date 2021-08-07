@@ -5,7 +5,7 @@
 |character = Smith
 |rarity = Unique
 |decktype = Negotiation
-|cardtype = Manipulate
+|cardtype = Flourish
 |keywords = [[Composure]], [[Flourish]]
 |upgrade1 = Curve Ball II
 |upgrade1summary = 

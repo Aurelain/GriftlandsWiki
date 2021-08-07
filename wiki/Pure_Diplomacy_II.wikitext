@@ -5,7 +5,7 @@
 |character = Sal
 |rarity = Unique
 |decktype = Negotiation
-|cardtype = Diplomacy
+|cardtype = Flourish
 |keywords = [[Influence]], [[Composure]], [[Flourish]]
 |parent = Pure Diplomacy
 }}

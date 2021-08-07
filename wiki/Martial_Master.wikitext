@@ -5,7 +5,7 @@
 |character = Sal
 |rarity = Unique
 |decktype = Battle
-|cardtype = Maneuver
+|cardtype = Flourish
 |keywords = [[Combo]], [[Improvise]], [[Finisher]], [[Flourish]]
 |upgrade1 = Martial Master II
 |upgrade1summary = 

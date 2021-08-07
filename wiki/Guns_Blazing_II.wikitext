@@ -5,7 +5,7 @@
 |character = Rook
 |rarity = Unique
 |decktype = Battle
-|cardtype = Attack
+|cardtype = Flourish
 |keywords = [[Burn]], [[Flourish]]
 |parent = Guns Blazing
 }}

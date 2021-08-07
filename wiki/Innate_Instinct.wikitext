@@ -5,7 +5,7 @@
 |character = Smith
 |rarity = Unique
 |decktype = Battle
-|cardtype = Maneuver
+|cardtype = Flourish
 |keywords = [[Adrenaline]], [[Flourish]]
 |upgrade1 = Innate Instinct II
 |upgrade1summary = 

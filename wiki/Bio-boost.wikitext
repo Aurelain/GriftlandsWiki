@@ -5,7 +5,7 @@
 |character = Smith
 |rarity = Unique
 |decktype = Battle
-|cardtype = Maneuver
+|cardtype = Flourish
 |keywords = [[Moxie]], [[Flourish]]
 |upgrade1 = Bio-boost II
 |upgrade1summary = 

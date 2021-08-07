@@ -5,7 +5,7 @@
 |character = Sal
 |rarity = Unique
 |decktype = Battle
-|cardtype = Attack
+|cardtype = Flourish
 |keywords = [[Bleed]], [[Flourish]]
 |upgrade1 = Hemomancy II
 |upgrade1summary = 
