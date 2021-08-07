@@ -5,3 +5,5 @@
 |decktype = Battle
 |keywords = [[Unplayable]]
 }}
+==About==
+This card allows canceling the usage of a [[Toolbox]] card.

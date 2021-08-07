@@ -1,13 +1,2 @@
-{{CardPage
-|quote = I’ve got your number, punk.
-|description = Apply 2 Fixed.
-|cost = 1
-|character = Rook
-|rarity = Uncommon
-|decktype = Battle
-|keywords = [[Defend]]
-|upgrade1 = Boosted Fixed
-|upgrade1summary = 
-|upgrade2 = Wide Fixed
-|upgrade2summary = 
-}}
+{{Stub}}
+This is a keyword.
