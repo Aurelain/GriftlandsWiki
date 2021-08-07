@@ -8,7 +8,7 @@ const computeSha1 = require('../utils/computeSha1');
  *
  */
 const writeWikiMetadata = (pages, existingWikiMetadata) => {
-    const pageMetadata = existingWikiMetadata ? existingWikiMetadata.pageMetadata : {};
+    const pageMetadata = existingWikiMetadata ? {...existingWikiMetadata.pageMetadata} : {};
     for (const filePath in pages) {
         const {revid, content} = pages[filePath];
         pageMetadata[filePath] = {
@@ -20,9 +20,28 @@ const writeWikiMetadata = (pages, existingWikiMetadata) => {
         lastPulled: new Date().toISOString(),
         pageMetadata,
     };
-    fs.writeFileSync('wikiMetadata.json', JSON.stringify(wikiMetadata, null, 4));
+    const existingPageMetadataString = getExistingPageMetadata(existingWikiMetadata);
+    const futurePageMetadataString = JSON.stringify(pageMetadata, null, 4);
+    if (existingPageMetadataString !== futurePageMetadataString) {
+        fs.writeFileSync('wikiMetadata.json', JSON.stringify(wikiMetadata, null, 4));
+    }
 };
 
+// =====================================================================================================================
+//  P R I V A T E
+// =====================================================================================================================
+/**
+ *
+ */
+const getExistingPageMetadata = (existingWikiMetadata) => {
+    if (existingWikiMetadata) {
+        return JSON.stringify(existingWikiMetadata.pageMetadata, null, 4);
+    }
+    try {
+        const pageMetadata = JSON.parse(fs.readFileSync('wikiMetadata.json', 'utf8')).pageMetadata;
+        return JSON.stringify(pageMetadata, null, 4);
+    } catch (e) {}
+};
 // =====================================================================================================================
 //  E X P O R T
 // =====================================================================================================================

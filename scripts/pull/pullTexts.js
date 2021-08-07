@@ -113,7 +113,7 @@ const getSomeTexts = async (namespaces, startTimestamp, continuation) => {
             generator: 'recentchanges',
             grcstart: startTimestamp,
             grcdir: 'newer',
-            grcnamespace: '0', //namespaces, TODO
+            grcnamespace: namespaces,
             grclimit: API_LIMIT,
             grccontinue: continuation ? continuation : undefined,
         });
