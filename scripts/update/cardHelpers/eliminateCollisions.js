@@ -49,6 +49,9 @@ const ALLOWED_COLLISIONS = {
     slick: true,
     tempered: true,
     viciousness: true,
+    flead_larvae_card: true,
+    hologram_projection_belt: true,
+    suitcase_grenades: true,
 };
 
 // =====================================================================================================================

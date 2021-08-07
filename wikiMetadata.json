@@ -4986,8 +4986,8 @@
             "revid": 12930
         },
         "Hologram_Projection_Belt_(card).wikitext": {
-            "sha1": "19cee6b7e33d0f0de438163cc67d4c0837f860d6",
-            "revid": 14679
+            "sha1": "868257085b2a63649781d557fe07e2a6d0745a97",
+            "revid": 14876
         },
         "Hush_Money.wikitext": {
             "sha1": "5a10f497ea8b7e7315913da6fe67356e832d32b8",
@@ -9378,8 +9378,8 @@
             "revid": 14556
         },
         "Suitcase_Grenades_(card).wikitext": {
-            "sha1": "93ce08d898af1bda4836d4f2d0ca3e3fc988fc52",
-            "revid": 14678
+            "sha1": "9cc750dc73b93e3b60e8f0bdc0b8f07f7c35759b",
+            "revid": 14878
         },
         "Super_Conductor.wikitext": {
             "sha1": "f2ee809bcf84cec045f942e8c663887f60859195",
@@ -9978,8 +9978,8 @@
             "revid": 14461
         },
         "Tiny_Stinger_(card).wikitext": {
-            "sha1": "23c2b4707cfe3c82dd75346305e19866d9b8dde0",
-            "revid": 14682
+            "sha1": "6b484645eb76a9db0d55a406672fc8add27e0112",
+            "revid": 14880
         },
         "Tidepool_Pods.wikitext": {
             "sha1": "a4ce70c7b0b0137d949d4c8ba573603cc19f2653",
@@ -22115,6 +22115,18 @@
         },
         "File/Twisted_Wind_up.png.json": {
             "sha1": "e1f7b04444371a47dadfdc14d6b15d5bc2fec231"
+        },
+        "Hologram_Projection_Belt.wikitext": {
+            "sha1": "61f9bcf01e37dc55c046d53486c3c021ad5e9bbe",
+            "revid": 14875
+        },
+        "Suitcase_Grenades.wikitext": {
+            "sha1": "b1b4c78f3dc0b3283b6c05b86bc6091324c67f37",
+            "revid": 14877
+        },
+        "Tiny_Stinger.wikitext": {
+            "sha1": "55c25bbd313a46e82b3f15a3b9f0f01f1142aa6a",
+            "revid": 14879
         }
     }
 }

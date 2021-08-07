@@ -16722,7 +16722,7 @@
         null
     ],
     [
-        "Hologram Projection Belt (card)",
+        "Hologram Projection Belt",
         "Play your next card twice.<br/>[[Destroy]] after 2 uses.",
         "hologram_projection_belt",
         "B/hologram_projection_belt",
@@ -32202,7 +32202,7 @@
         5
     ],
     [
-        "Suitcase Grenades (card)",
+        "Suitcase Grenades",
         "Hits all enemy targets.<br/>[[Destroy]] after 3 uses.",
         "suitcase_grenades",
         "B/suitcase_grenades",
@@ -34326,7 +34326,7 @@
         null
     ],
     [
-        "Tiny Stinger (card)",
+        "Tiny Stinger",
         "Remove all [[Defense]] on target.<br/>Apply 1 [[Impair]].<br/>[[Expend]], [[Sticky]]",
         "flead_larvae_card",
         "B/flead_larvae_card",
