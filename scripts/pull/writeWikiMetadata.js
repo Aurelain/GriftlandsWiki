@@ -7,7 +7,7 @@ const computeSha1 = require('../utils/computeSha1');
 /**
  *
  */
-const writeWikiMetadata = (pages) => {
+const writeWikiMetadata = (pages, existingWikiMetadata) => {
     const pageMetadata = {};
     for (const filePath in pages) {
         const {revid, content} = pages[filePath];

@@ -2,6 +2,7 @@ const assert = require('assert').strict;
 const got = require('got');
 const getFilePath = require('../utils/getFilePath');
 const requestMultiple = require('./requestMultiple');
+const tally = require('../utils/tally');
 const {ENDPOINT} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -51,7 +52,12 @@ const API_LIMIT = 50;
  *      -2: Media
  *      -1: Special
  */
-const TEXT_NAMESPACES = '0|8|10|14';
+const TEXT_NAMESPACES = {
+    0: 'Main',
+    8: 'MediaWiki',
+    10: 'Template',
+    14: 'Category',
+};
 
 // =====================================================================================================================
 //  P U B L I C
@@ -60,7 +66,20 @@ const TEXT_NAMESPACES = '0|8|10|14';
  *
  */
 const pullTexts = async (startTimestamp) => {
-    return requestMultiple(getSomeTexts, TEXT_NAMESPACES, startTimestamp);
+    const textPages = {};
+    if (startTimestamp) {
+        const joinedNamespaces = Object.keys(TEXT_NAMESPACES).join('|');
+        const recentTextPages = await requestMultiple(getSomeTexts, joinedNamespaces, startTimestamp);
+        Object.assign(textPages, recentTextPages);
+    } else {
+        for (const ns in TEXT_NAMESPACES) {
+            const allTextPagesInNamespace = await requestMultiple(getSomeTexts, ns);
+            // console.log(`Namespace "${TEXT_NAMESPACES[ns]}" contains ${tally(allTextPagesInNamespace)} pages.`);
+            Object.assign(textPages, allTextPagesInNamespace);
+        }
+    }
+    console.log(`Text pages: ${tally(textPages)}`);
+    return textPages;
 };
 
 // =====================================================================================================================
@@ -82,19 +101,33 @@ const pullTexts = async (startTimestamp) => {
  */
 const getSomeTexts = async (namespaces, startTimestamp, continuation) => {
     console.log('Getting texts... ' + (continuation ? `(${continuation})` : ''));
-    const gotSomeTexts = await got(ENDPOINT, {
-        method: 'get',
-        searchParams: {
-            action: 'query',
-            format: 'json',
-            prop: 'revisions',
-            rvprop: 'content|ids',
-            rvslots: 'main',
+    const searchParams = {
+        action: 'query',
+        format: 'json',
+        prop: 'revisions',
+        rvprop: 'content|ids',
+        rvslots: 'main',
+    };
+    if (startTimestamp) {
+        Object.assign(searchParams, {
+            generator: 'recentchanges',
+            grcstart: startTimestamp,
+            grcdir: 'newer',
+            grcnamespace: namespaces,
+            grclimit: API_LIMIT,
+            grccontinue: continuation ? continuation : undefined,
+        });
+    } else {
+        Object.assign(searchParams, {
             generator: 'allpages',
             gapnamespace: namespaces,
             gaplimit: API_LIMIT,
             gapcontinue: continuation ? continuation : undefined,
-        },
+        });
+    }
+    const gotSomeTexts = await got(ENDPOINT, {
+        method: 'get',
+        searchParams,
         responseType: 'json',
     });
     const {body} = gotSomeTexts;
