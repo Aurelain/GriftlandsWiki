@@ -4,6 +4,7 @@ const getFilePath = require('../utils/getFilePath');
 const tally = require('../utils/tally');
 const summarizeCardUpgrade = require('./cardHelpers/summarizeCardUpgrade');
 const assertCard = require('../utils/assertCard');
+const ensureUsefulWikiCards = require('./cardHelpers/ensureUsefulWikiCards');
 const {STORAGE} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -17,6 +18,8 @@ const {STORAGE} = require('../utils/CONFIG');
  *
  */
 const updateCards = (cardsBag) => {
+    ensureUsefulWikiCards(cardsBag);
+
     const nameToCard = {};
     for (const id in cardsBag) {
         const card = cardsBag[id];
@@ -154,8 +157,9 @@ const generateCardWikitext = (card) => {
     if (name.includes('(')) {
         const cleanName = name.replace(/ \(.*/, '');
         draft += `|name = ${cleanName}\n`;
-        if (!name.includes('(negotiation')) {
-            // "Boosted Barrage (negotiation card)"
+        if (name.includes('(negotiation')) {
+            draft += `|image = ${name}.png\n`; // "Boosted Barrage (negotiation card)"
+        } else {
             draft += `|image = ${cleanName}.png\n`;
         }
     }
