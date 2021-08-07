@@ -1,3 +1,5 @@
+{{Delete|This card's role is unclear (it may be an internal card)}}
+
 {{CardPage
 |description = [[bystander]]
 |character = Other
