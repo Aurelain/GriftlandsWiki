@@ -1,22 +1,15 @@
-{{Card
+{{CardPage
+|quote = You can split the bet after that landing, haven’t you played before?
+|description = [[Gamble]].<br/>[[Heads]]: Deal 3 damage to all opponent arguments.
+|cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|upgradeable = Yes
+|keywords = [[Gamble]], [[Heads]]
 |expreq = 9
-|upgrade1 = Boosted Head Split
-|upgrade2 = Twisted Head Split}}
-{{Quote|You can split the bet after that landing, haven't you played before?}}
-'''Head Split''' is a 1-cost Uncommon '''Diplomacy''' card for [[Rook]]. It '''Gambles'''. Then when the coin is '''Heads''', it deals 3 damage to all opponent arguments.
-
-==Upgrades==
-After accruing 9 experience '''Head Split''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Boosted Head Split.png|150px]]
-|[[File:Twisted Head Split.png|150px]]
-|-
-!Deal 5 damage
-![[Snails]] instead of [[Heads]]; Deal 5 damage
-|}
+|upgrade1 = Twisted Head Split
+|upgrade1summary = Damage +2<br/>[[Snails]] instead of [[Heads]] removed
+|upgrade2 = Boosted Head Split
+|upgrade2summary = Damage +2
+}}

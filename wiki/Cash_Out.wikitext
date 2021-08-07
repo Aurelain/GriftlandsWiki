@@ -1,12 +1,20 @@
-{{Card
+{{CardPage
+|quote = No thanks, it’s getting late and I best be going.
+|description = This card gains 1 damage every time you [[Gamble]].<br/>[[Expend]]
+|cost = 1
 |character = Rook
 |rarity = Rare
 |decktype = Negotiation
 |cardtype = Diplomacy
-|upgradeable = Yes
+|keywords = [[Gamble]], [[Expend]]
 |expreq = 7
 |upgrade1 = Boosted Cash Out
-|upgrade2 = Enduring Cash Out}}
+|upgrade1summary = Min damage +2<br/>Max damage +2
+|upgrade2 = Enduring Cash Out
+|upgrade2summary = This card gains 1 damage every time you [[Gamble]]. Damage is reset when played.<br/>[[Expend]] removed
+|mindamage = 2
+|maxdamage = 2
+}}
 {{Quote|No thanks, it's getting late and I best be going.}}
 '''Cash Out''' is a 1-cost Rare '''Diplomacy''' card for [[Rook]]. It deals 2 base damage, then '''Expends'''. The card gains 1 damage every time you '''Gamble''' while the card is in your hand.
 

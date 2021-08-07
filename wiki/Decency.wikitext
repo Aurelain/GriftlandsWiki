@@ -1,30 +1,15 @@
-{{Card
+{{CardPage
+|quote = I'm sure that we can work this out like adults.
+|description = Gain 1 [[Influence]]. Draw 1 card.
+|cost = 1
+|character = Rook
 |rarity = Common
-|cardtype = Diplomacy
 |decktype = Negotiation
-|upgradeable = Yes
-|expreq = 7
+|cardtype = Diplomacy
+|keywords = [[Influence]]
+|expreq = 9
 |upgrade1 = Boosted Decency
+|upgrade1summary = Draw +1 cards
 |upgrade2 = Enhanced Decency
-|character = Rook}}
-
-'''Decency''' is a 1-cost '''Diplomacy''' card for [[Rook]]. It has the effect "Gain 1 influence. Draw 1 Card."
-
-==Upgrades==
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Damage
-!Effect
-|-
-|Boosted Decency
-|1
-|NA
-|Gain 1 Influence. Draw 2 cards.
-|-
-|Enhanced Decency
-|1
-|NA
-|Gain 2 Influence. Draw 1 card.
-|}
+|upgrade2summary = Gain +1 [[Influence]]
+}}

@@ -1,28 +1,17 @@
-{{Card
+{{CardPage
+|quote = And this here is your office, right by the window.
+|description = [[Renowned]] 5: This card deals double damage.<br/>[[Renowned]] 10: This card deals triple damage.
+|cost = 1
 |character = Smith
 |rarity = Uncommon
-|cardtype = Diplomacy
 |decktype = Negotiation
-|keywords = [[Renowned]], [[Renown]]
-|upgradeable = Yes
+|cardtype = Diplomacy
+|keywords = [[Renowned]]
 |expreq = 9
 |upgrade1 = Pale Executive
+|upgrade1summary = Double damage at 4 instead of 5<br/>Triple damage at 8 instead of 10
 |upgrade2 = Boosted Executive
+|upgrade2summary = Damage +1
+|mindamage = 3
+|maxdamage = 4
 }}
-
-{{Quote|And this here is your office, right by the window.}}
-
-'''Executive''' is a 1-cost Uncommon '''Diplomacy''' card for [[Smith]]. It deals 3-4 base damage. It has the effect: "[[Renowned]] 5: This card deals double damage. [[Renowned]] 10: This card deals triple damage".
-
-==Upgrades==
-After accruing 9 experience '''Executive''' is able to be upgraded. 
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Pale Executive.png|150px]]
-|[[File: Boosted Executive.png|150px]]
-|-
-![[Renowned]] 4; [[Renowned]] 8
-!Deals 4-5 base damage
-|-
-|}

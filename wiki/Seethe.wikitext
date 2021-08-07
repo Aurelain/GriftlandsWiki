@@ -1,31 +1,15 @@
-{{Stub}}
-{{Card
+{{CardPage
+|quote = When I finally get my hands on him he’s in a whole heap of trouble.
+|description = Create 1 [[Heated]].<br/>Discard this card: Add a copy of this card to your draw pile.<br/>[[Expend]]
+|cost = 1
+|character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Hostility
-|upgradeable = Yes
+|keywords = [[Heated]], [[Expend]]
 |expreq = 7
 |upgrade1 = Boosted Seethe
+|upgrade1summary = [[Heated]] +2
 |upgrade2 = Visionary Seethe
-|character = Rook}}
-
-'''Seethe'''  is a 1-cost uncommon '''Hostility''' card for [[Rook]]. It has the effect "Create 1 heated. Discard this card: Add a copy of this card to your draw pile. expend."
-
-== Upgrades ==
-{| class="wikitable"
-|+
-!Title
-!Cost
-!Damage
-!Effect
-|-
-|Boosted Seethe
-|1
-|NA
-|Create 2 heated. Discard this card. Add a copy of this card to you draw pile. Expend
-|-
-|Visionary Seethe
-|1
-|NA
-|Create 1 heated. Discard this card. Add a copy of this card to your draw pile and draw a card. Expend
-|}
+|upgrade2summary =Draw a card
+}}

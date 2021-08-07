@@ -1,39 +1,23 @@
-{{Card
+{{CardPage
+|quote = Wait, give me a second here.
+|description = Apply 3 [[Composure]].
+|cost = 1
 |character = Smith
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Manipulate
 |keywords = [[Composure]]
-|upgradeable = Yes
 |expreq = 6
-|upgrade1 = Famous Bewilder
-|upgrade2 = Stone Bewilder
+|upgrade1 = Stone Bewilder
+|upgrade1summary = [[Composure]] +2
+|upgrade2 = Visionary Bewilder
+|upgrade2summary = Draw a card.
 |upgrade3 = Lucid Bewilder
+|upgrade3summary = [[Composure]] +4<br/>[[Expend]] added
 |upgrade4 = Bewilder of Clarity
-|upgrade5 = Mirrored Bewilder
-|upgrade6 = Visionary Bewilder}}
-
-{{Quote|Wait, give me a second here.}}
-
-'''Bewilder''' is a 1-cost Basic '''Manipulate''' card for [[Smith]]. It has the effect: "Apply 3 [[Composure]]".
-
-==Upgrades==
-Like every basic card, '''Bewilder''' has more than two upgrades, from which it randomly picks 2 you can decide from.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Famous Bewilder.png|150px]]
-|[[File: Stone Bewilder.png|150px]]
-|[[File: Lucid Bewilder.png|150px]]
-|[[File: Bewilder of Clarity.png|150px]]
-|-
-!Gain 1 [[Renown]]
-!Apply 5 [[Composure]]
-!Apply 7 [[Composure]]; [[Expend]]
-!Apply 10 [[Composure]]; [[Destroy]]
-|-
-|[[File: Wide Bewilder.png|150px]]
-|[[File: Visionary Bewilder.png|150px]]
-|-
-!Apply 2 [[Composure]] to all friendly arguments
-!Draw a card
-|}
+|upgrade4summary = [[Composure]] +7<br/>[[Destroy]] added
+|upgrade5 = Wide Bewilder
+|upgrade5summary = Instead, apply 2 [[Composure]]<br/>to all friendly arguments
+|upgrade6 = Famous Bewilder
+|upgrade6summary = Gain 1 [[Renown]]
+}}

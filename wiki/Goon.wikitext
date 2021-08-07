@@ -1,31 +1,17 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = I never seen that guy in all my life! I swear!
+|description = Create: At the start of your turn, apply 2 [[Composure]] to this argument.<br/>[[Expend]]
+|cost = 1
 |character = Smith
 |rarity = Common
 |decktype = Negotiation
 |cardtype = Hostility
 |keywords = [[Composure]], [[Expend]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Mirrored Goon
-|upgrade2 = Pale Goon}}
-
-{{Quote|I never seen that guy all my life! I swear!}}
-
-'''Goon''' is a 1-cost Common '''Hostility''' card for [[Smith]]. It has the effect: "Create: At the start of your turn apply 2 [[Composure]] to this argument. [[Expend]]".
-
-'''Goon''' is an argument with 4 resolve.
-'''Goon''' targets an opponent argument each turn for 1-1 damage.
-
-==Upgrades==
-After accruing 7 experience '''Goon''' is able to be upgraded.
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Mirrored Goon.png|150px]]
-|[[File: Pale Goon.png|150px]]
-|-
-!Create 2: '''Goon'''
-!Cost 1 action less
-|}
+|upgrade1summary = Create +1
+|upgrade2 = Pale Goon
+|upgrade2summary = Cost -1
+}}

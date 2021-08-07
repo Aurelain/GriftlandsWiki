@@ -1,22 +1,15 @@
-{{Card
+{{CardPage
+|quote = I just needed to get some air.
+|description = [[Rig]] 2 [[Heads]], then [[Prepare]] a card.
+|cost = 1
 |character = Rook
 |rarity = Uncommon
 |decktype = Negotiation
 |cardtype = Diplomacy
-|upgradeable = Yes
+|keywords = [[Rig]], [[Heads]], [[Prepare]]
 |expreq = 9
 |upgrade1 = Rigged Clear Head
-|upgrade2 = Visionary Clear Head}}
-{{Quote|I just needed to get some air.}}
-'''Clear Head''' is a 1-cost Uncommon '''Diplomacy''' card for [[Rook]]. It '''Rigs''' 2 '''Heads''', then '''Prepares''' a card.
-
-==Upgrades==
-After accruing 9 experience '''Clear Head''' is able to be upgraded.
-{| class="wikitable" style="text-align:center"
-|-
-|[[File:Rigged Clear Head.png|150px]]
-|[[File:Visionary Clear Head.png|150px]]
-|-
-![[Rig]] 4 [[Heads]]
-!Draw a card
-|}
+|upgrade1summary = [[Rig]] +2
+|upgrade2 = Visionary Clear Head
+|upgrade2summary = Draw a card before [[Prepare]]
+}}

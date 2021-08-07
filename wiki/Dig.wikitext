@@ -1,28 +1,17 @@
-{{Card
+{{CardPage
+|quote = The sweetest prey are always buried deep.
+|description = [[Snails]]: This card costs 0.
+|cost = 1
 |character = Rook
 |rarity = Common
-|cardtype = Hostility
 |decktype = Negotiation
+|cardtype = Hostility
 |keywords = [[Snails]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Boosted Dig
+|upgrade1summary = Damage +2
 |upgrade2 = Twisted Dig
+|upgrade2summary = Damage +2<br/>[[Heads]] instead of [[Snails]]
+|mindamage = 3
+|maxdamage = 3
 }}
-
-{{Quote|The sweetest prey are always buried deep.}}
-
-'''Dig''' is a 1-cost Common '''Hostility''' card for [[Rook]]. It deals 3 base damage. It has the effect: "[[Snails]]: This card cost 0".
-
-==Upgrades==
-After accruing 9 experience '''Dig''' is able to be upgraded. 
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Boosted Dig.png|150px]]
-|[[File: Twisted Dig.png|150px]]
-|-
-!Deal 5 base damage
-!Deal 5 base damage. [[Heads]]: This card cost 0
-|-
-|}

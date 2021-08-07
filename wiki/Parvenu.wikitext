@@ -1,30 +1,19 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = I don't know where that one came from. He's waiting for you in the back.
+|description = Whenever you gain [[Renown]], reduce the cost of this card by 1.
+|cost = 9
 |character = Smith
 |rarity = Rare
-|cardtype = Diplomacy
 |decktype = Negotiation
+|cardtype = Diplomacy
 |keywords = [[Renown]]
-|upgradeable = Yes
 |expreq = 3
 |upgrade1 = Pale Parvenu
+|upgrade1summary = Cost -2
 |upgrade2 = Boosted Parvenu
+|upgrade2summary = Damage +2
+|mindamage = 6
+|maxdamage = 8
 }}
-
-{{Quote|I don't know where that one came from. He's waiting for you in the back.}}
-
-'''Parvenu''' is a 9-cost Rare '''Diplomacy''' card for [[Smith]]. It deals 6-8 base damage. It has the effect: "Whenever you gain [[Renown]], reduce the cost of this card by 1".
-
-==Upgrades==
-After accruing 3 experience '''Parvenu''' is able to be upgraded. 
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Pale Parvenu.png|150px]]
-|[[File: Boosted Parvenu.png|150px]]
-|-
-!Cost 2 less (7-cost)
-!Deal 8-10 base damage
-|-
-|}

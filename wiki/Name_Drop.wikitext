@@ -1,27 +1,15 @@
-{{Card
+{{CardPage
+|quote = Oh yeah, we go way back.
+|description = Gain 2 [[Renown]], draw a card.
+|cost = 1
 |character = Smith
 |rarity = Basic
 |decktype = Negotiation
 |cardtype = Diplomacy
 |keywords = [[Renown]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Prestigious Name Drop
-|upgrade2 = Stone Name Drop}}
-
-{{Quote|Oh yeah, we go way back.}}
-
-'''Name Drop''' is a 1-cost Basic '''Diplomacy''' card for [[Smith]]. It has the effect: "Gain 2 [[Renown]], draw a card".
-As a base card '''Name Drop''' is always part of the available card pool for Smith.
-
-==Upgrades==
-After accruing 9 experience '''Name Drop''' can be upgraded.
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Prestigious Name Drop.png|150px]]
-|[[File: Stone Name Drop.png|150px]]
-|-
-!Gain 3 [[Renown]]
-!Apply 4 [[Composure]] to it
-|}
+|upgrade1summary = [[Renown]] +1
+|upgrade2 = Stone Name Drop
+|upgrade2summary = Apply 4 [[Composure]] to argument
+}}

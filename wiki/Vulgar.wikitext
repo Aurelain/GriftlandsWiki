@@ -1,28 +1,15 @@
-{{Card
+{{CardPage
+|quote = Don’t sit at the table if you don’t know the rules you idiot.
+|description = Draw 2 cards. [[Gamble]] for each Hostility card drawn.
+|cost = 1
 |character = Rook
 |rarity = Uncommon
-|cardtype = Hostility
 |decktype = Negotiation
+|cardtype = Hostility
 |keywords = [[Gamble]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Visionary Vulgar
+|upgrade1summary = Draw +1
 |upgrade2 = Boosted Vulgar
+|upgrade2summary = [[Gamble]] +1
 }}
-
-{{Quote|Don't sit at the table if you don't know the rules you idiot.}}
-
-'''Vulgar''' is a 1-cost Uncommon '''Hostility''' card for [[Rook]]. It has the effect: "Draw 2 cards. [[Gamble]] for each '''Hostility''' card drawn".
-
-==Upgrades==
-After accruing 9 experience '''Vulgar''' is able to be upgraded. 
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Visionary Vulgar.png|150px]]
-|[[File: Boosted Vulgar.png|150px]]
-|-
-!Draw 3 cards
-![[Gamble]] for each '''Hostility''' card drawn +1
-|-
-|}

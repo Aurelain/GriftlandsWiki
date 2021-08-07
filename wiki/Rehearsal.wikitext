@@ -1,27 +1,15 @@
-{{Card
+{{CardPage
+|quote = Alas, poor Rook. I knew him well.
+|description = Choose a card in your hand and double its damage.<br/>[[Expend]]
+|cost = 2
 |character = Smith
 |rarity = Rare
-|cardtype = Manipulate
 |decktype = Negotiation
+|cardtype = Manipulate
 |keywords = [[Expend]]
-|upgradeable = Yes
 |expreq = 5
 |upgrade1 = Pale Rehearsal
-|upgrade2 = Enduring Rehearsal}}
-
-{{Quote|Alas, poor Rook. I knew him well.}}
-
-'''Rehearsal''' is a 2-cost Rare '''Manipulate''' card for [[Smith]]. It has the effect: "Choose a card in your hand and double its damage. [[Expend]]".
-
-==Upgrades==
-After accruing 5 experience '''Rehearsal''' is able to be upgraded. 
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Pale Rehearsal.png|150px]]
-|[[File: Enduring Rehearsal.png|150px]]
-|-
-!Cost 1 action less
-!Remove [[Expend]]
-|-
-|}
+|upgrade1summary = Cost -1
+|upgrade2 = Enduring Rehearsal
+|upgrade2summary = [[Expend]] removed
+}}
