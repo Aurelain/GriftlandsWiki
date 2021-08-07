@@ -8,7 +8,7 @@ const computeSha1 = require('../utils/computeSha1');
  *
  */
 const writeWikiMetadata = (pages, existingWikiMetadata) => {
-    const pageMetadata = {};
+    const pageMetadata = existingWikiMetadata ? existingWikiMetadata.pageMetadata : {};
     for (const filePath in pages) {
         const {revid, content} = pages[filePath];
         pageMetadata[filePath] = {
@@ -16,11 +16,11 @@ const writeWikiMetadata = (pages, existingWikiMetadata) => {
             revid,
         };
     }
-    const onlineMeta = {
+    const wikiMetadata = {
         lastPulled: new Date().toISOString(),
         pageMetadata,
     };
-    fs.writeFileSync('wikiMetadata.json', JSON.stringify(onlineMeta, null, 4));
+    fs.writeFileSync('wikiMetadata.json', JSON.stringify(wikiMetadata, null, 4));
 };
 
 // =====================================================================================================================

@@ -113,7 +113,7 @@ const getSomeTexts = async (namespaces, startTimestamp, continuation) => {
             generator: 'recentchanges',
             grcstart: startTimestamp,
             grcdir: 'newer',
-            grcnamespace: namespaces,
+            grcnamespace: '0', //namespaces, TODO
             grclimit: API_LIMIT,
             grccontinue: continuation ? continuation : undefined,
         });
@@ -133,7 +133,7 @@ const getSomeTexts = async (namespaces, startTimestamp, continuation) => {
     const {body} = gotSomeTexts;
     return {
         pages: parseTextPages(body),
-        continuation: body.continue?.gapcontinue,
+        continuationObject: body?.continue,
     };
 };
 
@@ -142,14 +142,14 @@ const getSomeTexts = async (namespaces, startTimestamp, continuation) => {
  */
 const parseTextPages = (body) => {
     const pages = body?.query?.pages;
-    assert(pages, 'No pages!');
+    assert(pages || body?.batchcomplete === '', 'Unexpected collection of texts!');
     const bag = {};
     for (const key in pages) {
         const {title, revisions} = pages[key];
         const content = revisions?.[0].slots?.main?.['*'];
-        assert(content, `Invalid revision content for "${JSON.stringify(pages[key])}"`);
+        assert(content, `Invalid revision content for\n${JSON.stringify(pages[key], null, 4)}`);
         const revid = revisions?.[0].revid;
-        assert(revid >= 0, `Invalid revision id for "${JSON.stringify(pages[key])}"`);
+        assert(revid >= 0, `Invalid revision id for\n${JSON.stringify(pages[key], null, 4)}`);
         const filePath = getFilePath(title, content);
         bag[filePath] = {title, content, revid};
     }

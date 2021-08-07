@@ -42,7 +42,7 @@ const requestMultiple = async (requestFunction, namespaces, startTimestamp) => {
         i++;
         const result = await requestFunction(namespaces, startTimestamp, continuation);
         assignWithCare(output, lowercaseBag, result.pages);
-        continuation = result.continuation;
+        continuation = chooseContinuation(result.continuationObject);
         if (i >= LOOP_LIMIT) {
             console.log('Loop limit reached!');
             break;
@@ -66,10 +66,27 @@ const assignWithCare = (destination, lowercaseBag, fresh) => {
         if (id in DENIED_PAGES) {
             continue;
         }
+        if (id in destination) {
+            continue;
+        }
         const lowercaseId = id.toLowerCase();
         assert(!lowercaseBag[lowercaseId], `Case-sensitivity issue: "${lowercaseBag[lowercaseId]}" vs "${id}"`);
         destination[id] = fresh[id];
         lowercaseBag[lowercaseId] = id;
+    }
+};
+
+/**
+ *
+ */
+const chooseContinuation = (continuationObject) => {
+    if (continuationObject) {
+        for (const key in continuationObject) {
+            if (key.startsWith('g')) {
+                // We assume this is a "grccontinue" or a "gapcontinue"
+                return continuationObject[key];
+            }
+        }
     }
 };
 

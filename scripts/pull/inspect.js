@@ -18,7 +18,7 @@ const {STORAGE} = require('../utils/CONFIG');
  *     localOnly: {...},
  * }
  */
-const inspect = (pages, focus) => {
+const inspect = (pages, startTimestamp) => {
     console.log('Inspecting pages...');
     const synchronized = {};
     const different = {};
@@ -38,7 +38,7 @@ const inspect = (pages, focus) => {
             cloudOnly[filePath] = page;
         }
     }
-    const localOnly = getLocalOnly(pages, focus);
+    const localOnly = startTimestamp ? {} : getLocalOnly(pages);
     const statusTally = {
         synchronized: tally(synchronized),
         different: tally(different),
@@ -55,15 +55,9 @@ const inspect = (pages, focus) => {
 /**
  *
  */
-const getLocalOnly = (pages, focus) => {
+const getLocalOnly = (pages) => {
     const localOnly = {};
-    let localFiles;
-    if (focus) {
-        const filePath = getFilePath(focus, focus.startsWith('File:') ? {} : '');
-        localFiles = [filePath];
-    } else {
-        localFiles = walk(STORAGE, '');
-    }
+    const localFiles = walk(STORAGE, '');
     for (const localFile of localFiles) {
         if (!(localFile in pages)) {
             const cleanFileName = localFile.replace(/\.[^.]*$/, '').replace('/', ':');
