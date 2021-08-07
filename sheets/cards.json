@@ -9054,6 +9054,24 @@
         null
     ],
     [
+        "Cancel",
+        "Cancel.<br/>[[Unplayable]]",
+        "cancel_toolbox",
+        "B/cancel_toolbox",
+        "Other",
+        "Battle",
+        "Status",
+        "Unplayable",
+        " ",
+        "Unique",
+        " ",
+        " ",
+        " ",
+        null,
+        null,
+        null
+    ],
+    [
         "Caprice",
         "[[Improvise]] 1 random Hostility card. It costs 1 less until played.<br/>[[Expend]]",
         "caprice",

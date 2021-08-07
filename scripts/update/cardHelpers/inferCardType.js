@@ -36,6 +36,14 @@ const RANKS = objectify([
     'diplomacy',
 ]);
 
+/**
+ * For some reason, our script could not detect the type of these cards, so we hard-code it instead.
+ * @type {{cancel: string}}
+ */
+const MANUAL_CARD_TYPES = {
+    cancel_toolbox: 'Status',
+};
+
 // =====================================================================================================================
 //  P U B L I C
 // =====================================================================================================================
@@ -43,7 +51,10 @@ const RANKS = objectify([
  *
  */
 const inferCardType = (card) => {
-    const {flags} = card;
+    const {flags, id} = card;
+    if (id in MANUAL_CARD_TYPES) {
+        return MANUAL_CARD_TYPES[id];
+    }
     assertCard(flags, card, 'No flags!');
     const bag = {};
     for (const flag of flags) {
