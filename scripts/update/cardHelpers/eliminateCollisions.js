@@ -5,7 +5,7 @@ const assert = require('assert');
 // =====================================================================================================================
 /**
  * The following card ids share the same *name* with a keyword (mostly collisions with a Condition name).
- * Their name will be prefixed with " (card)".
+ * Their name will be prefixed with " (card)" or will be left intact.
  */
 const CARD_KEYWORD_COLLISIONS = {
     status_bleed: 'BLEED',
@@ -33,6 +33,24 @@ const CARD_KEYWORD_COLLISIONS = {
     // choose_hostile: 'HOSTILITY', // Denied
 };
 
+/**
+ * These collisions will NOT have their name suffixed with " (card)".
+ * The reasoning is that the conflict is harmless, as the wiki won't need these pages as keywords.
+ */
+const ALLOWED_COLLISIONS = {
+    blinders: true,
+    casings: true,
+    discord: true,
+    charged_disc: true,
+    deception: true,
+    hemophage: true,
+    shatter: true,
+    spines: true,
+    slick: true,
+    tempered: true,
+    viciousness: true,
+};
+
 // =====================================================================================================================
 //  P U B L I C
 // =====================================================================================================================
@@ -45,7 +63,9 @@ const eliminateCollisions = (cardsBag, keywords) => {
         assert(cardsBag[cardId], `Missing card for collision! "${cardId}"`);
         assert(keywords[keywordId], `Missing keyword for collision! "${keywordId}"`);
         assert(cardsBag[cardId].name === keywords[keywordId].name, `Expected collision did not happen! "${cardId}`);
-        cardsBag[cardId].name += ' (card)';
+        if (!(cardId in ALLOWED_COLLISIONS)) {
+            cardsBag[cardId].name += ' (card)';
+        }
     }
 
     const barrage_plus2 = cardsBag['barrage_plus2'];
@@ -77,7 +97,7 @@ const checkDuplicateNames = (cardsBag, keywords) => {
         } else {
             names[name] = id;
         }
-        if (keywordNames[name]) {
+        if (keywordNames[name] && !ALLOWED_COLLISIONS[id]) {
             console.log(`${id}: Name collision with keyword "${keywordNames[name]}" for "${name}"!`);
         }
     }

@@ -1,3 +1,4 @@
+{{Delete|The page at [[Hemophage]] is better.}}
 {{CardPage
 |name = Hemophage
 |image = Hemophage.png

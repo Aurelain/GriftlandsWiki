@@ -1,31 +1,17 @@
 {{Reupload}}
 
-{{Card
+{{CardPage
+|quote = How familiar are you with the area around the crash site?
+|description = Gain: At the start of your turn, play a random card in your hand for free.<br/>[[Expend]]
+|cost = 1
 |character = Smith
 |rarity = Rare
-|cardtype = Manipulate
 |decktype = Negotiation
+|cardtype = Manipulate
 |keywords = [[Expend]]
-|upgradeable = Yes
 |expreq = 7
 |upgrade1 = Pale Chaos Theory
-|upgrade2 = Enduring Chaos Theory}}
-
-{{Quote|How familiar are you with the area around the crash site?}}
-
-'''Chaos Theory''' is a 1-cost Rare '''Manipulate''' card for [[Smith]]. It has the effect: "Gain: At the start of your turn, play a random card in your hand for free. [[Expend]]".
-
-'''Chaos Theory''' is an argument with 2 resolve.
-
-==Upgrades==
-After accruing 7 experience '''Chaos Theory''' is able to be upgraded. 
-
-{| class="wikitable" style="text-align:center"
-|-
-|[[File: Pale Chaos Theory.png|150px]]
-|[[File: Enduring Chaos Theory.png|150px]]
-|-
-!Cost 1 action less
-!Remove [[Expend]]
-|-
-|}
+|upgrade1summary = Cost -1
+|upgrade2 = Enduring Chaos Theory
+|upgrade2summary = [[Expend]] removed
+}}

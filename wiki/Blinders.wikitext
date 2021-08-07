@@ -1,14 +1,15 @@
 {{CardPage
 |quote = It's an ironic name, I can see a lot better with these things.
-|description = Ability: For each Charge you spend, apply 1 Mark to a random enemy.<br/>Expend
+|description = [[Ability]]: For each [[Charge]] you spend, apply 1 [[Mark]] to a random enemy.<br/>[[Expend]]
 |cost = 2
 |character = Rook
 |rarity = Uncommon
 |decktype = Battle
-|keywords = [[Charge]], [[Mark]]
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Charge]], [[Mark]], [[Expend]]
 |expreq = 6
-|upgrade1 = Initial Blinders
+|upgrade1 = Pale Blinders
 |upgrade1summary = 
-|upgrade2 = Pale Blinders
+|upgrade2 = Initial Blinders
 |upgrade2summary = 
 }}

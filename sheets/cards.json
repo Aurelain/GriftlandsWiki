@@ -1890,7 +1890,7 @@
         null
     ],
     [
-        "Blinders (card)",
+        "Blinders",
         "[[Ability]]: For each [[Charge]] you spend, apply 1 [[Mark]] to a random enemy.<br/>[[Expend]]",
         "blinders",
         "B/blinders",
@@ -9198,7 +9198,7 @@
         2
     ],
     [
-        "Casings (card)",
+        "Casings",
         "[[Ability]]: Whenever you spend [[Charge]], gain 2 [[Defense]] per [[Charge]] spent.<br/>[[Expend]]",
         "casings",
         "B/casings",
@@ -9342,7 +9342,7 @@
         null
     ],
     [
-        "Chaos Theory (card)",
+        "Chaos Theory",
         "Gain: At the start of your turn, play a random card in your hand for free.<br/>[[Expend]]",
         "discord",
         "N/discord",
@@ -9414,7 +9414,7 @@
         4
     ],
     [
-        "Charged Disc (card)",
+        "Charged Disc",
         "Hits all enemies. Apply 2 [[Wound]].<br/>[[Expend]]",
         "charged_disc",
         "B/charged_disc",
@@ -10692,7 +10692,7 @@
         null
     ],
     [
-        "Deception (card)",
+        "Deception",
         "[[Improvise]] an attack card from your draw pile. That card deals +4 damage until played.",
         "deception",
         "B/deception",
@@ -16506,7 +16506,7 @@
         null
     ],
     [
-        "Hemophage (card)",
+        "Hemophage",
         "[[Ability]]: Whenever you apply [[Bleed]], [[Heal]] 1.<br/>[[Expend]]",
         "hemophage",
         "B/hemophage",
@@ -28638,7 +28638,7 @@
         3
     ],
     [
-        "Shatter (card)",
+        "Shatter",
         "[[Expend]] 2 [[Empty Bottle]] cards from your deck: apply 2 [[Wound]].",
         "shatter",
         "B/shatter",
@@ -30276,7 +30276,7 @@
         null
     ],
     [
-        "Spines (card)",
+        "Spines",
         "[[Ability]]: Gain 1 [[Counter]] whenever you gain [[Defense]].<br/>[[Expend]]",
         "spines",
         "B/spines",
@@ -32148,7 +32148,7 @@
         null
     ],
     [
-        "Subtle Setup (card)",
+        "Subtle Setup",
         "Create: Whenever this argument takes damage, deal that much damage to a random opponent argument.<br/>[[Expend]]",
         "slick",
         "N/slick",
@@ -33642,7 +33642,7 @@
         null
     ],
     [
-        "Tempered (card)",
+        "Tempered",
         "[[Ability]]: Whenever you attack an enemy that has [[Burn]], gain 2 [[Defense]].<br/>[[Expend]]",
         "tempered",
         "B/tempered",
@@ -35568,7 +35568,7 @@
         null
     ],
     [
-        "Viciousness (card)",
+        "Viciousness",
         "For the rest of the turn, gain [[Counter]] equal to half of any attack damage you deal.<br/>[[Expend]]",
         "viciousness",
         "B/viciousness",

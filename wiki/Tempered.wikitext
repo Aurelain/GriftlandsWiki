@@ -1,14 +1,15 @@
 {{CardPage
 |quote = It sounds obvious, but when enemies are on fire they are a lot more distracted.
-|description = Ability: Whenever you attack an enemy that has Burn, gain 2 Defense.<br/>Expend
+|description = [[Ability]]: Whenever you attack an enemy that has [[Burn]], gain 2 [[Defense]].<br/>[[Expend]]
 |cost = 2
 |character = Rook
 |rarity = Rare
 |decktype = Battle
-|keywords = [[Burn]], [[Defend]]
+|cardtype = Maneuver
+|keywords = [[Ability]], [[Burn]], [[Defense]], [[Expend]]
 |expreq = 5
-|upgrade1 = Initial Tempered
+|upgrade1 = Pale Tempered
 |upgrade1summary = 
-|upgrade2 = Pale Tempered
+|upgrade2 = Initial Tempered
 |upgrade2summary = 
 }}

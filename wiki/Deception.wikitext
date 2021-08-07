@@ -7,7 +7,6 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Improvise]]
-|upgradeable = Yes
 |expreq = 9
 |upgrade1 = Tall Deception
 |upgrade1summary = The card deals +6 damage.
