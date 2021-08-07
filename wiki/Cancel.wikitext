@@ -3,6 +3,7 @@
 |character = Other
 |rarity = Unique
 |decktype = Battle
+|cardtype = Status
 |keywords = [[Unplayable]]
 }}
 ==About==
