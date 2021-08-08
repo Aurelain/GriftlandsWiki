@@ -252,7 +252,7 @@ const uploadImage = async (title, filePath, token) => {
         responseType: 'json',
         cookieJar,
     });
-    console.log('body: ' + JSON.stringify(body, null, 4));
+    // console.log('body: ' + JSON.stringify(body, null, 4));
     assert(body?.upload?.result === 'Success', 'Could not upload file!\n' + JSON.stringify(body, null, 4));
     return null; // TODO: write the revid and the new file content!
 };

@@ -20,14 +20,25 @@ const {RAW_WEB} = require('../../utils/CONFIG');
  *
  */
 const importCardPics = (cards) => {
+    let count = 0;
     for (const id in cards) {
         const safeName = getFilePath(cards[id].name).replace(/\.\w+$/, '');
+
         const gamePic = RAW_GAME + '/cards/' + id + '.png';
         assert(fs.existsSync(gamePic), `Missing ${gamePic}!`);
+
+        const wikiPic = RAW_WEB + '/' + safeName + '.png';
+        if (fs.statSync(gamePic).size === getSize(wikiPic)) {
+            continue;
+        }
+
         console.log('safeName:', safeName);
+        count++;
         fs.writeFileSync(STORAGE + '/File/' + safeName + '.png.json', '{}');
         fs.copyFileSync(gamePic, RAW_WEB + '/' + safeName + '.png');
-        break;
+        if (count >= 40) {
+            return;
+        }
     }
 };
 
@@ -76,6 +87,16 @@ const writeIndexHtml = (cards) => {
 
     const indexDir = RAW_WEB.replace(/\w+$/, '');
     fs.writeFileSync(indexDir + '/index.html', html);
+};
+
+/**
+ *
+ */
+const getSize = (filePath) => {
+    if (!fs.existsSync(filePath)) {
+        return null;
+    }
+    return fs.statSync(filePath).size;
 };
 
 // =====================================================================================================================

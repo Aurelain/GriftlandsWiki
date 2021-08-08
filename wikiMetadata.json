@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-08T13:45:49.407Z",
+    "lastPulled": "2021-08-08T13:59:54.950Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -13147,7 +13147,7 @@
             "sha1": "ca5140eb165b1664eaf5eaa211860ccbb6c4e113"
         },
         "File/Bloated.png.json": {
-            "sha1": "be287de4f4111895dacf2c97fd7d20c20599c8ba"
+            "sha1": "d7c81646694912cb2b9b913dfabc0131ab317949"
         },
         "File/Blood_Flow.png.json": {
             "sha1": "ba62421cbc5c04fddf7ca7e4aa22dc38626bda2b"
@@ -13195,7 +13195,7 @@
             "sha1": "5fe5226d442039196f0bedf4993ffe4c718e309c"
         },
         "File/Bonded_Elixir.png.json": {
-            "sha1": "f4c1bfcbff873d2f67f1647aac90c55038048641"
+            "sha1": "a37f77a47a6c88c0bb7665568dbe636e7fe8f6b2"
         },
         "File/Bonkers.png.json": {
             "sha1": "31dc417515151d64b9fda9f4099f952f6af2fa02"
@@ -16738,7 +16738,7 @@
             "sha1": "b52e0fbb13656e12624340a60a851148db937ba5"
         },
         "File/Hasten.png.json": {
-            "sha1": "260000b0bdec8c0d801bf6ecab746bfd44976a9b"
+            "sha1": "249c8c0ffb0b86e85fbd1ca280591c9dc8372e15"
         },
         "File/Hatched_Egg.png.json": {
             "sha1": "ca2d389ee4b5ebe182b72e8c7298e3f0c5c804b4"
@@ -18127,7 +18127,7 @@
             "sha1": "9a78e15c08b73d2afc3443d6d738c690438f8dbc"
         },
         "File/Lumin_Burn.png.json": {
-            "sha1": "a3f4245f6ab626fe63c29751cd20a75802a8b022"
+            "sha1": "611b6ab45c73d136cc8cecc94848bfb508cbaa55"
         },
         "File/Lumin_Grenade.png.json": {
             "sha1": "0016b22ea317323bb16b65d9af71b60600edb07b"
@@ -18193,7 +18193,7 @@
             "sha1": "ed679f722379e9c75f38f48692d1ed298e89ae9c"
         },
         "File/Muddler.png.json": {
-            "sha1": "d31622ae517ccae88aaad0946e59c6d9f8050083"
+            "sha1": "6e7d03a2e2b9d0078f6f11de1dfd473f0a5cb0fe"
         },
         "File/Murder_Bay_Blaster.png.json": {
             "sha1": "281419a041fac615b6a58b2cd5f90271a1541818"
@@ -19246,7 +19246,7 @@
             "sha1": "65ba8daddeb8c55a7f140d56d78b1a503b314fd0"
         },
         "File/Noxious_Vial.png.json": {
-            "sha1": "3394482c29c4b2abdbab1ddacddaedb8f114043b"
+            "sha1": "d11686f5b7d23ed18a3eece8462544500f4a7470"
         },
         "File/Numbness.png.json": {
             "sha1": "a0122c716532ff0e6dc08ca966e1a4ec99796ef3"
@@ -20842,7 +20842,7 @@
             "sha1": "27779417097e7b61a8f4c279bf2c9b217d0f4ec5"
         },
         "File/Stimulating_Brew.png.json": {
-            "sha1": "3d576a8731927f58e9aa64f52d2e91f2884ca9ce"
+            "sha1": "4fc5b44bf431653c14a1b02f17bccdbcf71d8e41"
         },
         "File/Stoke.png.json": {
             "sha1": "456d644d46efdeda544ed359a05496db46a54005"
@@ -21763,7 +21763,7 @@
             "sha1": "1c7f9e4e562a7b95620148112c5e6b3a7252af15"
         },
         "File/Tipsy.png.json": {
-            "sha1": "acba0bfd762cbad651d303032650e179e45e5a5b"
+            "sha1": "12d7d4f50695d0466195e66bd89e6ce72a069ee2"
         },
         "File/Tough_and_Angry.png.json": {
             "sha1": "e1a81e685be1924c82c1863cedebb95e368669ca"
@@ -21991,7 +21991,7 @@
             "sha1": "861b7b37367f6561d29e7d89089a1128cfa5dc1c"
         },
         "File/Weary.png.json": {
-            "sha1": "bdc0c5f68b0c542794efcce9e2d115c05649f435"
+            "sha1": "86bfd2013818a4d770742d81ac4bb399e137d84d"
         },
         "File/Well_Fed.png.json": {
             "sha1": "5d8a393e28ac33410cad8b726f281b04fbccb39d"
@@ -22042,7 +22042,7 @@
             "sha1": "e73443502bc4737a856ab61620fc6022f2944647"
         },
         "File/Winded.png.json": {
-            "sha1": "efc853fbf58c6380ec5f4005cfb040c747e851ef"
+            "sha1": "9214df1876e0c33df2162eba3262f819ce636f93"
         },
         "File/Worker's_Gloves.png.json": {
             "sha1": "aa98e6062bc63ff358d4e07b39b931563e240f62"
@@ -22134,6 +22134,9 @@
         "File%2FAssassin's_Mark.png.wikitext": {
             "sha1": "0093cb65597f27c855d415765babe3e9a38097bb",
             "revid": 14908
+        },
+        "File/Assassin's_Mark+.png.json": {
+            "sha1": "ea9df1c84cd5dd4818723a72a15ef3e63c004699"
         }
     }
 }
