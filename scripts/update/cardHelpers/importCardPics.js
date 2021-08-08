@@ -22,10 +22,8 @@ const {RAW_WEB} = require('../../utils/CONFIG');
 const importCardPics = (cards) => {
     let count = 0;
     for (const id in cards) {
-        let safeName = getFilePath(cards[id].name).replace(/\.\w+$/, '');
-        if (safeName.includes('(card)')) {
-            safeName = name.replace(/ \(.*/, '');
-        }
+        const cleanName = cards[id].name.split(' (card)').join('');
+        const safeName = getFilePath(cleanName).replace(/\.\w+$/, '');
 
         const gamePic = RAW_GAME + '/cards/' + id + '.png';
         assert(fs.existsSync(gamePic), `Missing ${gamePic}!`);
