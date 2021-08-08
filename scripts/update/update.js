@@ -16,6 +16,7 @@ const writeKeywordsSheet = require('./writeKeywordsSheet');
 const writeCharactersSheet = require('./writeCharactersSheet');
 const tally = require('../utils/tally');
 const getArtIds = require('./getArtIds');
+const importCardPics = require('./cardHelpers/importCardPics');
 const {STORAGE, GAME_DIR, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -33,12 +34,13 @@ const update = async () => {
         // require('fs').writeFileSync('artIds.json', JSON.stringify(artIds, null, 4));
 
         const keywords = getKeywords(scriptsZip);
-        await writeKeywordsSheet(keywords);
+        // await writeKeywordsSheet(keywords);
 
         const cards = getCards(scriptsZip, keywords, artIds);
-        await writeCardsSheet(cards);
+        // await writeCardsSheet(cards);
 
-        updateCards(cards);
+        importCardPics(cards);
+        // updateCards(cards);
 
         return;
 

@@ -52,18 +52,11 @@ function Screen.MainMenu:PerformNextExport()
 	local card = self.cards[self.currentIndex]
 	if not card then
 	    self.interval:Cancel()
-	    TheGame:FE():PushScreen( Screen.InfoPopup( "GameExporter", "done" ) )
+	    TheGame:FE():PushScreen( Screen.InfoPopup( "CardExporter", "done" ) )
         return
 	end
 	self:SetCard(card)
 	self:StartCoroutine(self.ExportImageCoro, self)
---     if (card.id == "ad_hominem_plus") then
---         self.interval:Cancel()
---         TheGame:FE():PushScreen( Screen.InfoPopup( "GameExporter", "done ad_hominem_plus" ) )
---         self:SetCard(card)
---         self:StartCoroutine(self.ExportImageCoro, self)
---         return
---     end
 end
 
 ------------------------------------------------------------------------------------------------------------------------
