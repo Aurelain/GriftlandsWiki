@@ -22,9 +22,10 @@ const {RAW_WEB} = require('../../utils/CONFIG');
 const importCardPics = (cards) => {
     let count = 0;
     for (const id in cards) {
-        const cleanName = cards[id].name.split(' (card)').join('');
+        // "Bleed (card)" should get its parenthesis removed.
+        // "Weakness: Slow" should get its colon removed.
+        const cleanName = cards[id].name.split(' (card)').join('').split(':').join('');
         const safeName = getFilePath(cleanName).replace(/\.\w+$/, '');
-
         const gamePic = RAW_GAME + '/cards/' + id + '.png';
         assert(fs.existsSync(gamePic), `Missing ${gamePic}!`);
 
