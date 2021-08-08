@@ -1,5 +1,5 @@
 {{CardPage
-|image = Weakness- Blind Spot.png
+|image = Weakness Blind Spot.png
 |quote = Rightmost top horn, chipped, always throws off vision, I can use that.
 |cost = 1
 |character = Enemy

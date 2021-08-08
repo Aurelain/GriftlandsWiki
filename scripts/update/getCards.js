@@ -131,10 +131,10 @@ const fillUpgrades = (bag) => {
             if (!bag[baseId].upgrades) {
                 bag[baseId].upgrades = [];
             }
-            bag[baseId].upgrades.push(bag[id].name);
             if (bag[id].name === bag[baseId].name) {
                 bag[id].name += '+'; // "assassins_mark_plus" needs this
             }
+            bag[baseId].upgrades.push(bag[id].name);
         }
     }
     for (const id in bag) {

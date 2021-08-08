@@ -1,4 +1,5 @@
 {{CardPage
+|image = Weakness Telegraphed.png
 |quote = Just keep moving, that chest cannon has to fire to keep her from overheating.
 |description = Gain 1 [[Evasion]].
 |cost = 2

@@ -1,4 +1,5 @@
 {{CardPage
+|image = Weakness Dependent.png
 |quote = She really needs that staff to go off, I think that I can keep clear with enough foresight.
 |description = [[Expend]] all [[Strange Chemical]] cards in your deck.
 |cost = 2

@@ -1,4 +1,5 @@
 {{CardPage
+|image = Weakness Inflammable.png
 |quote = All that fur and mechanical grease, he was a walking fire hazard to begin with.
 |description = Apply 6 [[Burn]] and 2 [[Scorched]].
 |cost = 1

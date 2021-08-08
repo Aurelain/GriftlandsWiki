@@ -163,6 +163,9 @@ const generateCardWikitext = (card) => {
             draft += `|image = ${cleanName}.png\n`;
         }
     }
+    if (name.includes(':')) {
+        draft += `|image = ${name.split(':').join('')}.png\n`;
+    }
 
     if (flavour) {
         draft += `|quote = ${flavour}\n`;

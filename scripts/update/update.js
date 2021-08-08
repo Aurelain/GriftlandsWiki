@@ -31,16 +31,16 @@ const update = async () => {
         const scriptsZip = new AdmZip(GAME_DIR + '/data_scripts.zip', {});
 
         const artIds = getArtIds(assetsZip);
-        // require('fs').writeFileSync('artIds.json', JSON.stringify(artIds, null, 4));
 
         const keywords = getKeywords(scriptsZip);
-        // await writeKeywordsSheet(keywords);
+        await writeKeywordsSheet(keywords);
 
         const cards = getCards(scriptsZip, keywords, artIds);
-        // await writeCardsSheet(cards);
+        await writeCardsSheet(cards);
 
-        importCardPics(cards);
-        // updateCards(cards);
+        // importCardPics(cards);
+
+        updateCards(cards);
 
         return;
 
