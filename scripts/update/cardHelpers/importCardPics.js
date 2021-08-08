@@ -37,7 +37,7 @@ const importCardPics = (cards) => {
         count++;
         fs.writeFileSync(STORAGE + '/File/' + safeName + '.png.json', '{}');
         fs.copyFileSync(gamePic, RAW_WEB + '/' + safeName + '.png');
-        if (count >= 100) {
+        if (count >= 200) {
             return;
         }
     }
