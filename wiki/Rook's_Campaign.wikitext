@@ -1,19 +1,27 @@
 
 This article contains heavy spoilers for the sal campaign. Consider playing the campaign at least once before reading it.
 
-== Day 1 [[Stepping in it]] ==
-* Choose a [[Stepping_in_it#Entering Grout Bog|starting bonus]] after either paying or negotiating with the guard.
-* Complete 2 Job Quests for either [[Fellemo]] or [[Kalandra]].
-* Unlock The Last Stand and the Black Market Quest.
+== Day 1 [[Stepping in it]] and [[Infiltrate the Barons]] or [[Infiltrate the Rise]]==
+=== Morning [[Stepping in it]] ===
+* Either pay or negotiate with the guard.
+* Hand over your Papers and declare to the guard which faction you want to work for.
+* Choose a [[Stepping_in_it#Declaring_an_item|starting bonus]].
+* Choose [[Fellemo]] and the [[Spark Barons]] or [[Kalandra]] and the [[Rise]], if you declared the other faction at the guard, negotiate.
+* Complete 1 [[Stepping_in_it#Faction_Quests|Faction Quest]] for the person and faction you chose.
+* Unlock The Last Stand.
+* Complete 1 [[Stepping_in_it#Faction_Quests|Faction Quest]] for the person and faction you chose.
 * Get 1 Limited Time Opportunity.
-
-=== Evening ===
+* Meet [[Pengemunt]] at [[The Last Stand]], it doesn't matter whether you compliment him or tell him to mind his own business, he gives you an opportunity to exchange your [[Rook#Lucky_Coins|starting coin for a better one]].
+* Wait for the evening and for the faction leader you chose.
+=== Evening [[Infiltrate the Barons]] or [[Infiltrate the Rise]] ===
+* Meet your chosen faction leader. They tell you to work 1 job for the other side.
 * Get 1 Limited Time Opportunity.
-* Complete 1 Job Quest for the other faction. This is part of "Infiltrate the Rise" or "Infiltrate the Barons".
-* Get 1 Limited Time Opportunity.
+* Complete 1 [[Stepping in it|Faction Quest]] for the other faction. This is part of "Infiltrate the Rise" or "Infiltrate the Barons" quest lines.
+* Get 1 Limited Time Opportunity and unlock The Black Market.
 * Complete 1 Boss Fight. Either: [[Fralx]], [[Threekwa]] or [[Gorgula]].
 
 == Day 2 [[Working Both Sides]] ==
+=== Morning ===
 * Complete 1 Job Quest for either [[Fellemo]] or [[Kalandra]]
 * Complete 1 Job Quest for the other faction.
 
@@ -23,6 +31,7 @@ This article contains heavy spoilers for the sal campaign. Consider playing the 
 * Complete 1 Boss Fight. Either: [[Flead Queen]] or [[Bossbit]]
 
 == Day 3 [[Bogged Down]] ==
+=== Morning ===
 * Complete 1 Job Quest for either [[Fellemo]] or [[Kalandra]]
 * Get 1 Limited Time Opportunity.
 * Complete 1 Job Quest for the other faction.

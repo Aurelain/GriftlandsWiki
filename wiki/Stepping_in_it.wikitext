@@ -1,17 +1,18 @@
 [[File:Rook_story_stepping_in_it.png|frameless|right]]
 [[File:Rook_story_stepping_in_it.png|15px]]'''Stepping in it''' is the story quest for Day 1 of [[Rook]]'s story, [[The Bog Job]].
 == Entering Grout Bog ==
+=== First potential negotiation ===
 Upon reaching the gate to the city, Rook is stopped by a [[Spark Barons Taskmaster]]. To proceed inside, you have two choices:
 * Pay 20 {{shills}}
 * Win a <span style="color:BlueViolet">negotiation</span> (the guard will start with -6 resolve)
 
-
-The guard will then ask who you are going to work for. This choice will include a faction card and makes meeting that faction leader easier. (Note: this choice does not prevent starting the quest with the other faction.)
+=== Handing over your work papers ===
+The guard will then ask who you are going to work for. This choice will include a faction card and you can start that faction leaders quest without having to negotiate.<br>
+You can still go to the other faction leader and start their quest, after having to negotiate with them.
 * [[File:Rook story work for fellemo.png|20px]] Report to [[Fellemo]], the Spark Baron and receive [[Blacklist]]
 * [[File:Rook story work for kalandra.png|20px]] Report to [[Kalandra]], a foreman and receive [[Shovel]]
 
-
-
+=== Declaring an item ===
 Finally, you will be asked to declare an item. You will choose one of three options to begin the campaign with. These options include:
 *[[File:Ic acquire combat.png|17px]] '''War Stories:''' Draft 2 <span style="color:orange">battle</span> cards
 *[[File:Ic acquire negotiation.png|17px]] '''Book of Kra'deshi Poems:''' Draft 2 <span style="color:BlueViolet">negotiation</span> cards
