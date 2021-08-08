@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-08T14:08:49.607Z",
+    "lastPulled": "2021-08-08T14:21:55.072Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -12478,7 +12478,7 @@
             "sha1": "58b8044fb25c5b73c706673ef26fb79dc59bca3c"
         },
         "File/Adrenaline_Shot.png.json": {
-            "sha1": "f12266a4cd84b229d37fe0d9060af9494a62d4e9"
+            "sha1": "e6b38182123ce41dd2397f21682ac1e5c2909176"
         },
         "File/Ashgora_Mugshot.jpg.json": {
             "sha1": "4b39d9aec1c2b3ba99a16f99e6eb6f833b61b7a7"
@@ -13015,13 +13015,13 @@
             "sha1": "a7d06477fffbe588325f2b0f37e96c8bd44d0d1f"
         },
         "File/Admiralty_Requisition.png.json": {
-            "sha1": "5c0fac277ede7d8132036bb4998bc95634c86392"
+            "sha1": "a9e6ddb1677ce613a24eab0ede52638354085f84"
         },
         "File/Advanced_Guerrilla_Tactic.png.json": {
-            "sha1": "e562bca730e739249bac9c9e22ff1acfb8efca40"
+            "sha1": "e952b0ad9db535779604cf3b0cdd38da80ad3f11"
         },
         "File/Aerostat_Coilgun.png.json": {
-            "sha1": "bbb5e6853935481d75f7317a0d884bbedb5a85d7"
+            "sha1": "4b2379047c4bd6fc9f88fc2d1d8c47b3d852c03f"
         },
         "File/Affliction.png.json": {
             "sha1": "c972be23d3e0cc1940f2051623a360018f436caf"
@@ -13048,13 +13048,13 @@
             "sha1": "c1d01fb2b99bf0b7b1dcd97cadb65f059757ddad"
         },
         "File/Automech_Blaster.png.json": {
-            "sha1": "436064358241c95b949a972bcfdbbc53c72ccdfd"
+            "sha1": "0db308df189bebae84fe0ed331d803a54a841d3b"
         },
         "File/Auto-Plating.png.json": {
             "sha1": "ae9d5227bd9ac7350e4d2384443d713f20bd9018"
         },
         "File/Auxiliary.png.json": {
-            "sha1": "dceca94a85e036b53c8ad00eafb4d187636b6042"
+            "sha1": "f2b175de9ea038bff14057342c67a6715545207b"
         },
         "File/Back_Pedal.png.json": {
             "sha1": "0559e77c92619f06a0c8e5933586e63b826ebf10"
@@ -13096,7 +13096,7 @@
             "sha1": "716e0097daf8deb985f474ebc3e443226acf9d78"
         },
         "File/Battle_Plan.png.json": {
-            "sha1": "986bb5838b4dcc182645aa03d26479773407e134"
+            "sha1": "e14f579c12d38e457199a88aff0357583bfe1287"
         },
         "File/Battle_Scars.png.json": {
             "sha1": "fe985de06d1cebb40e602655fb2e3d941925f8d7"
@@ -13138,7 +13138,7 @@
             "sha1": "9145d5ebea7e97b6770a9e0f227f31a2d2902b3e"
         },
         "File/Bleed.png.json": {
-            "sha1": "a9d638c81dd33939ed096a2e5d39574f41d315a5"
+            "sha1": "e8e2f88a4b41343d99f85aa1b47d419d97c5005f"
         },
         "File/Blessed_Heshian_Amulet.png.json": {
             "sha1": "a8a398e4835c023049dbe94bb29e793ea7e80f98"
@@ -13183,7 +13183,7 @@
             "sha1": "726ab3a6bfe49a6b99878e4ec04034baf66538a9"
         },
         "File/Bog_Scimitar.png.json": {
-            "sha1": "aa1d9a2b51b211011868999cdef0c0dd00cf9375"
+            "sha1": "4557f795faac61c2304567706b37e91146d3e11b"
         },
         "File/Bog_Symbiosis.png.json": {
             "sha1": "36bb95cd5867d12bc80c3c019dddbfa8267a389c"
@@ -13192,7 +13192,7 @@
             "sha1": "1b2d9d3834d4888644e241f8e2ce902ebd69735e"
         },
         "File/Bolstered_Plating.png.json": {
-            "sha1": "5fe5226d442039196f0bedf4993ffe4c718e309c"
+            "sha1": "80837ea1f7c4fefc80e49b74f159bedfbaf8ec64"
         },
         "File/Bonded_Elixir.png.json": {
             "sha1": "a37f77a47a6c88c0bb7665568dbe636e7fe8f6b2"
@@ -14707,7 +14707,7 @@
             "sha1": "9c180a0342d6ff07404712077a6bfe93351754e3"
         },
         "File/Enfeebling_Ray.png.json": {
-            "sha1": "d2b95e609ac6b7e87073000945eb3861462fe70e"
+            "sha1": "ee63958c5f825c93790667b91fb196155974f0a4"
         },
         "File/Enhanced_Backstab.png.json": {
             "sha1": "9eab8a2bd236fb2ea0f0d37cf20a3d78378dd87f"
@@ -14920,7 +14920,7 @@
             "sha1": "a3da3315771a142e61b1788b80842834ee5b485a"
         },
         "File/Gluey_Antennae.png.json": {
-            "sha1": "80347e4fb98ee678cf963b91ec0cf0efa2ae67f4"
+            "sha1": "a6dd06044334f0baef08ef724c3412e5d7987777"
         },
         "File/Gnarled_Effigy.png.json": {
             "sha1": "a7a514ea92076a7984485cb907015bae1babb494"
@@ -15010,7 +15010,7 @@
             "sha1": "cdaae5001ca38a26843e1d29a19181a3ab0e54ff"
         },
         "File/Charged_Disc.png.json": {
-            "sha1": "91a9cf91e01fde91230a829dda94a03abd6d9004"
+            "sha1": "fbe7a18dc0085025fe5864fa73be140eb760bb56"
         },
         "File/Cheap_Shot.png.json": {
             "sha1": "0d36703cc1d7ced1dac63da741d581d30f01970f"
@@ -15040,10 +15040,10 @@
             "sha1": "32fcc9835d8b4167ff7896f90bdd1af68e803390"
         },
         "File/Combat_Drone.png.json": {
-            "sha1": "752816e7920cf9701db71d839f2cc0ec7e4fc537"
+            "sha1": "9e146daf23118d342098a40230311ab3b14bc469"
         },
         "File/Combat_Gauze.png.json": {
-            "sha1": "23e6b6493806675fb070160415b499db1737a4c8"
+            "sha1": "9667792319b7a0581096f82ed81bfcf13a6c7fe7"
         },
         "File/Combination.png.json": {
             "sha1": "950fcd0e40d22fd77b284e7ef72a455fdd184dce"
@@ -15061,7 +15061,7 @@
             "sha1": "20f9898195f0f88d1c8b69ff08f7cdd15e2875e9"
         },
         "File/Crayote_Claw.png.json": {
-            "sha1": "b13194ba104aada01ff7ca253990be6cb53e9372"
+            "sha1": "af97584890e4a694ddd54287a3e70641892eb811"
         },
         "File/Crusher.png.json": {
             "sha1": "091341b7f0c7b5a3444d94e60c570c432281c916"
@@ -15148,7 +15148,7 @@
             "sha1": "ba157cd0dad9283d2e3800b5178e48ab3c32d40f"
         },
         "File/Drusk_Core.png.json": {
-            "sha1": "89c02209ec7deb620a09c384d1bd6e985afff159"
+            "sha1": "db1bfa2312df9c4bc5d7c9ad04174facce48c0f9"
         },
         "File/Dugout.png.json": {
             "sha1": "213b048748b6e69e00161b280fdc6fbe4ae48539"
@@ -16618,7 +16618,7 @@
             "sha1": "cb868297dba388e28cd7410db12374cf406caf73"
         },
         "File/Guerrilla_Tactic.png.json": {
-            "sha1": "f4a8a6f846d0e26f4161c41cb6cf8431838f8adb"
+            "sha1": "5ed2b9513097656896853c3bb5def3da840e621f"
         },
         "File/Gwale.jpg.json": {
             "sha1": "453f3e33579d63c63d9ac0d478289ac1127a0d34"
@@ -16735,7 +16735,7 @@
             "sha1": "da6411b6484dc3747175073f3aa8a212685c931b"
         },
         "File/Hanbi's_Power_Supply.png.json": {
-            "sha1": "b52e0fbb13656e12624340a60a851148db937ba5"
+            "sha1": "bec03fb946e6a98345d0ee2502ffca8b088ca407"
         },
         "File/Hasten.png.json": {
             "sha1": "249c8c0ffb0b86e85fbd1ca280591c9dc8372e15"
@@ -16759,7 +16759,7 @@
             "sha1": "0098aa76511cc741012dba9433e73bcbd730d36a"
         },
         "File/Healing_Vapors.png.json": {
-            "sha1": "be8f9b89851114b4e4922e40ae02eb3c1eb9592c"
+            "sha1": "3f9b133df8c7eacf65ce5af6e8bb08110c5d085e"
         },
         "File/Heartburn.png.json": {
             "sha1": "1dc9b75e664bbf110f9b1a69f8aff0bf76495366"
@@ -17626,13 +17626,13 @@
             "sha1": "569b25641551658f7eaf28c0ba1924eae6aeca54"
         },
         "File/Lumin_Darts.png.json": {
-            "sha1": "bd64d214a40b04fdb42d839fe11842668e33e51a"
+            "sha1": "96679032442d171b8867a98a0bfac54278fb82e8"
         },
         "File/Letter_Opener.png.json": {
             "sha1": "ea4bbf4030e7f39177ca7c8b6ab37b6335f57cbc"
         },
         "File/Lifter_Claw.png.json": {
-            "sha1": "76e19870085f12e7effea83209a7cb8994033a9f"
+            "sha1": "818dd983d2b37d5d1c575603354615d40b2faa72"
         },
         "File/Lumin_Bio-Accelerator.png.json": {
             "sha1": "f00db4589492a54996c067b2f8e2080ddc773e3d"
@@ -18046,7 +18046,7 @@
             "sha1": "e2be3ffbaf25a7d1a218a677a4d726bdda9ea152"
         },
         "File/Krill_Ichor.png.json": {
-            "sha1": "2220dc67b8f09bef372aced5ba57aad5a4e67a74"
+            "sha1": "a522475fdd1ac8147815f914c2f45992a598221f"
         },
         "File/Laser_Sight.png.json": {
             "sha1": "525796529c8dde2634235ed68890415c05071f91"
@@ -18130,10 +18130,10 @@
             "sha1": "611b6ab45c73d136cc8cecc94848bfb508cbaa55"
         },
         "File/Lumin_Grenade.png.json": {
-            "sha1": "0016b22ea317323bb16b65d9af71b60600edb07b"
+            "sha1": "990c0fcc8a9e9a4203f874d7538f1725e9f8a5e3"
         },
         "File/Lumin_Jolt.png.json": {
-            "sha1": "265131b1634712ae23534e479c179c3daf5cc6b1"
+            "sha1": "c51f1548e4804626e82696180f9347597c6eef16"
         },
         "File/Lumin_Kunai.png.json": {
             "sha1": "2db458e4baf191885774275af44a9fbaee0a51b2"
@@ -19228,7 +19228,7 @@
             "sha1": "a05d8abeade34afdc833d50d6dc6a45a6ccb1023"
         },
         "File/Nadan's_Blade.png.json": {
-            "sha1": "cba8e9d78728cf89079284bde5ad0f56f267749d"
+            "sha1": "0b0fbf79063533416989d86d4123d95c27c0eee8"
         },
         "File/Nailed_Crushing_Blow.png.json": {
             "sha1": "07c95ed893ccc9500816a7c68c2cc5b2aba6f846"
@@ -19237,7 +19237,7 @@
             "sha1": "77651dbbdfcd0942f996e44c9e67d9acbe861667"
         },
         "File/Nano_Lattice.png.json": {
-            "sha1": "8bf33218f4d3685372a848f464cbbfe01c8dc1bf"
+            "sha1": "6c9d293ce3d98174cf7cfc692387d4be55811b5c"
         },
         "File/Nap.png.json": {
             "sha1": "7e14d63fcd23a4abdcd6b8a828954cd7f84592ad"
@@ -19282,7 +19282,7 @@
             "sha1": "99b9f5d4bbff485061ca15bc128474ad5d9024f7"
         },
         "File/Overloaded_Core.png.json": {
-            "sha1": "ac95333270a10c589360d5ca788427095d49c5ac"
+            "sha1": "fa0221c4ca075304b22c592f87974b9eb8c82a2a"
         },
         "File/Overloaded_Spark_Hammer.png.json": {
             "sha1": "27316705e49c5c599ef8be0c19aba2fb47090d50"
@@ -19510,7 +19510,7 @@
             "sha1": "128a6228a6c5efcbb3742caa82e85431ee4ab26d"
         },
         "File/Portable_Bunker.png.json": {
-            "sha1": "053ea8ff01b44a2167bb45c6bebc13df4ae4b3c5"
+            "sha1": "20d8779653e4952d4e7c7a7e12c1eebd07c0edc0"
         },
         "File/Posture.png.json": {
             "sha1": "0e55ff0b824ff05355db93bdb3c7d8430c3f5575"
@@ -19621,7 +19621,7 @@
             "sha1": "c51a2386b73ce35a4359fd30ba5a5875f9aff8a9"
         },
         "File/Red_Scarf.png.json": {
-            "sha1": "20673706403968cbe015b6916629f1918a3d62e3"
+            "sha1": "6d358c5d4a6f7e7b75bf3a027d30491872c4f0eb"
         },
         "File/Reduce.png.json": {
             "sha1": "b169131fdf5ce335ddd4f2a0cc1c4693aeb968d3"
@@ -19720,10 +19720,10 @@
             "sha1": "01ee2682c21e171147c0d8fb15595cde47bae50e"
         },
         "File/Rook's_Spare_Coin.png.json": {
-            "sha1": "16d83a30379e094e4e81e4d6bdb90f23cb4faf6e"
+            "sha1": "fbb744e1a80a29a0bfead8ae5ea3a2bf13f291d6"
         },
         "File/RPG.png.json": {
-            "sha1": "acb70b0289c2d6d57c10c205954985a4cbe26a8e"
+            "sha1": "4d8285afd1e76d48da75004275beff83b9a0f720"
         },
         "File/Prent.jpg.json": {
             "sha1": "33503169e890dfd9adb216240354171962939048"
@@ -20038,7 +20038,7 @@
             "sha1": "cd89eab8eeaeada251ec30f244c8194632a26020"
         },
         "File/Spark_Grenade.png.json": {
-            "sha1": "e50c0e50e714a9d1809c1a7912b4a887ce4a6c1b"
+            "sha1": "da7668aed61a1dcd77fc5c556a30cd2ad85724e6"
         },
         "File/Spear_Head.png.json": {
             "sha1": "7911fbcfcf05a3380fcfb8dff2be58bf568900ed"
@@ -20440,7 +20440,7 @@
             "sha1": "f4cd3fc734c3322fb7ecb7851236583886dbaf7c"
         },
         "File/Shrapnel_Grenade.png.json": {
-            "sha1": "981143c68475b1afcd112577035d0ea5be02e930"
+            "sha1": "3901e386b81859f6877d247fbce7ed0e6f6d013a"
         },
         "File/Shredded.png.json": {
             "sha1": "65ba8ef921376325bf9b6b5347c82ffae6a55c4f"
@@ -20455,7 +20455,7 @@
             "sha1": "bc04810aefe0408adbcc141cbc47c4c46bc5c58a"
         },
         "File/Shroog_Fang.png.json": {
-            "sha1": "03fff334f632ef687105c115b302dadda5383dac"
+            "sha1": "f1d4caa9fb09d42b8b8aaa08844f81bdffc27d58"
         },
         "File/Silent_Steel.png.json": {
             "sha1": "6f79b1da5033879524b47b06b81ea113db53e017"
@@ -20620,7 +20620,7 @@
             "sha1": "d2091d9fae49ca4095a62383be8e8bf8daa0c5de"
         },
         "File/Rusty_Power_Core.png.json": {
-            "sha1": "04f16b3ec794baf0bc034c8b40305e0ce91ee46f"
+            "sha1": "e7ff95825f56fa857210f171fd404363958f2489"
         },
         "File/Ruthless.png.json": {
             "sha1": "a6d37d4fb58b02a151128b2dc8e24b9fea93ab43"
@@ -20635,7 +20635,7 @@
             "sha1": "afeb6765f910047d58666421f995dd9cb7b4a6e1"
         },
         "File/Salve.png.json": {
-            "sha1": "add14130e7b0c1e9726377560776b4148a0e9429"
+            "sha1": "365ef74bfdf6eb6aad595d1b2dd4b8790bd320b0"
         },
         "File/Savage_Barnacle.png.json": {
             "sha1": "5d40e8401090bdf90ebf3159bd0a1aa2c4e2fb22"
@@ -20674,7 +20674,7 @@
             "sha1": "d0db49d65664dcc228a805ebaaeb2f7e164e1850"
         },
         "File/Screamer.png.json": {
-            "sha1": "438032b025f163ae69ce7d421f24841e4c77b08d"
+            "sha1": "1416df986bd2c95485a91c9eb0e454f2d90fdee4"
         },
         "File/Scrounge.png.json": {
             "sha1": "9fa56b10c6fe20fa45327a421ac9936a7e0e0834"
@@ -20686,7 +20686,7 @@
             "sha1": "154bbcfd9b27e72e9a67c438867d3708cabbd241"
         },
         "File/Seedling.png.json": {
-            "sha1": "f3365b17a0219483fbf4bcd2596d8b97d5d2ad16"
+            "sha1": "2312b40e6698717e50fd47ab5b1cdd310fbc738b"
         },
         "File/Seeker.png.json": {
             "sha1": "95e8810ea6e7bba35a51e41a96f35b9aa0893ec5"
@@ -20698,7 +20698,7 @@
             "sha1": "3f9d5ac483441958e2fb9e63b2ca9bee5de54512"
         },
         "File/Sequencer.png.json": {
-            "sha1": "fc009baff59452939b0baf1780b97ee58668353f"
+            "sha1": "ef0e5774e9c686e8e11d86e5f10956f3aa55c69a"
         },
         "File/Shadow_Mastery.png.json": {
             "sha1": "7dacb21aef097b37a2e573f58cd3082a28818aff"
@@ -20725,7 +20725,7 @@
             "sha1": "a8d71b90761b651f37c8b05b48a94f5c6f28a75a"
         },
         "File/Shock_Core.png.json": {
-            "sha1": "9314d25d79bc95b18a0b141e0d3b4ec076c5a05a"
+            "sha1": "01bbf5a0ce8194872b761490ae11c87d480b62e9"
         },
         "File/Shock_Grenade.png.json": {
             "sha1": "c6ee4bf54fcb09bea52f20147b10bcbdc60c28f6"
@@ -20749,7 +20749,7 @@
             "sha1": "47445e23d937da5114cd536a88f394b062fc7dfa"
         },
         "File/Spark_Shot.png.json": {
-            "sha1": "9dc73a0f7bd858e5e9fafd8a3a247800e7a6caac"
+            "sha1": "a0b3c374c181d893c094dd92d32d775d3f081946"
         },
         "File/Sparky_s_Oppressor_Cell.png.json": {
             "sha1": "c2b018fc13e9fb9f663dd50c344383f18a080d2e"
@@ -20758,7 +20758,7 @@
             "sha1": "217a179f307e8dc0396220d1da9cb68435313871"
         },
         "File/Speed_Tonic.png.json": {
-            "sha1": "8db24355b9fb1e5eb92af2eac09c953ea080f8cd"
+            "sha1": "8a7b9ba4faf4cfdd5c4408c270f2580acb3e2917"
         },
         "File/Spicy_Noodles.png.json": {
             "sha1": "9f15b2dd9b800e65e29c3ecf8e43ed3cb35329cb"
@@ -20821,7 +20821,7 @@
             "sha1": "c3afb1ca95e6b3bc1ae25895b318c0becea2bec7"
         },
         "File/Stable_Shock_Core.png.json": {
-            "sha1": "c9e8dd05ac6cfc24eb83d88292b08f7a28a01a38"
+            "sha1": "1c4fd3f655ff82314e33d13eea48aad800090baa"
         },
         "File/Stable_Tight_Spot.png.json": {
             "sha1": "d7cf0af87b04589f30c77013397e67e04bf6d441"
@@ -20977,7 +20977,7 @@
             "sha1": "1b6385b3ab48dbe241a3a3aac5f111f3b335c2a0"
         },
         "File/Stun_Gun.png.json": {
-            "sha1": "5ac161861bb5fa9abdc391f59faa9b63723a1781"
+            "sha1": "f3e53148111b2ec23fd88dafece01cdc9f4628f5"
         },
         "File/Sucker_Punch.png.json": {
             "sha1": "4d68488f5fe7c3f9c7c5af75e77862c9e510425f"
@@ -21004,7 +21004,7 @@
             "sha1": "b54f455a1408be27372b131daad6dc088836143d"
         },
         "File/Swamp_Smasher.png.json": {
-            "sha1": "1ee24920c37cdad771f5815443ecb638c853f2d7"
+            "sha1": "d710a572e3829f6839df038204d974053ecbacb4"
         },
         "File/Swig.png.json": {
             "sha1": "f9d3a6468b3457d003dff2c4a4c091088f7701b8"
@@ -21187,7 +21187,7 @@
             "sha1": "806af4edf8a688b95c560e397996ab0fecff446f"
         },
         "File/Tincture.png.json": {
-            "sha1": "e71e3a84c1b2c78171ed8ed310518611d1215598"
+            "sha1": "a5edaa77ba49e1c596295ce14b09cc4e47174993"
         },
         "File/Spatz.jpg.json": {
             "sha1": "f873f2f90f865bfa3b1534ef5c63d6335b048c6d"
@@ -21799,7 +21799,7 @@
             "sha1": "8d81a3bb59d06f2c150016d831eb3a4ac71411ba"
         },
         "File/Tripwire.png.json": {
-            "sha1": "1715d79c8c6714302e9e6d82d5010807a1b0f2fb"
+            "sha1": "c987da2a7a26d1bdd629815078c4fa132a7b88b5"
         },
         "File/Twist.png.json": {
             "sha1": "d60bf7bc811775cd0270db73032c95761b883293"
@@ -21823,7 +21823,7 @@
             "sha1": "838de223f06be146938b7fbf65a10e83de40cb8a"
         },
         "File/Utility_Belt.png.json": {
-            "sha1": "d5b41b2aacdc6b79763e91b67dd117664323ae84"
+            "sha1": "3a84be95fce8a1813ea8b39f46ca109ccf8c8ea4"
         },
         "File/Vantage.png.json": {
             "sha1": "53ce7f3750b078572745609c7c012ebfc3f5d6c4"
@@ -21841,7 +21841,7 @@
             "sha1": "c7ef20735672091a96cafdaff0e0ece92c0e48f9"
         },
         "File/Vial_of_Slurry.png.json": {
-            "sha1": "7a7cb9e248e6b353e4b7e046b01db7a0a12d79d8"
+            "sha1": "a6704ee9409012bdd844ecc1f3a12c774c283bfb"
         },
         "File/Viciousness.png.json": {
             "sha1": "46967b00524db7f9f85a4c59c3261ce4d0572704"
@@ -21958,7 +21958,7 @@
             "sha1": "fde971b62812d3542bff6fade8941529a317168c"
         },
         "File/Vroc_Whistle.png.json": {
-            "sha1": "2319125a7e039b0c2963e706279579806c61e5f9"
+            "sha1": "ff207acd7e093d68170c5027e651105f54f8092f"
         },
         "File/Warp_Vial.png.json": {
             "sha1": "df3ef87bcba25ece3a5a04dd7aa8c8c27482bbba"
@@ -22057,7 +22057,7 @@
             "sha1": "6b580538f44f8f66cb640fb8065171a5fc4c7235"
         },
         "File/Yote_Horn.png.json": {
-            "sha1": "2cae69fa586d023ce42d4007695dc10b9f287676"
+            "sha1": "5a74ceffc0e71b15c1e7df615d9320e9107da911"
         },
         "File/Yote_Shot.png.json": {
             "sha1": "8ddb6d3a16e4447c6a6f08640c1c22af3c2f1313"
@@ -22069,7 +22069,7 @@
             "sha1": "b6270724388850aa7aaa8ced405cfcccefeeb958"
         },
         "File/Zyn's_Razor.png.json": {
-            "sha1": "55e7ad59fca1d9900537cf6604c1d668b045d5e0"
+            "sha1": "7968a125f01b86af28a1ff645ca157bdaab94f04"
         },
         "File/Veerox.jpg.json": {
             "sha1": "8f5b04faa5e2a407dbd1554ed1d22c0afbcd6516"
@@ -22146,6 +22146,87 @@
         },
         "File/Sparky's_Oppressor_Cell.png.json": {
             "sha1": "bf5d94d2c5c0cc5d5eaf3f38ffd37d9fb1dcc5d0"
+        },
+        "File/Bladder_Gland.png.json": {
+            "sha1": "9cdaf2bc5ed9582dd8ca9fb8cc8dfd40adfbc09b"
+        },
+        "File/Brut's_Bat.png.json": {
+            "sha1": "34c72d2db7dcf0a4aa051c3fdc4a398082266c89"
+        },
+        "File/Defective_Grenade.png.json": {
+            "sha1": "93252a2b8730cc171a47b188309490f2264f4b71"
+        },
+        "File/Denikus'_Blaster.png.json": {
+            "sha1": "07f0795ac1e4e4088a48259948dc6b7e1fb82b0f"
+        },
+        "File/High_Yield_Lumin_Bomb.png.json": {
+            "sha1": "17d68cb1fe93858c432dc3c6d8ae227abc05e5dc"
+        },
+        "File/Overdriver.png.json": {
+            "sha1": "de71b73d34b685409d1723d22991ef8084a8efd6"
+        },
+        "File/Predictive_Blast.png.json": {
+            "sha1": "e06056485aee9aad3010ffce586f9f3124f1f9c5"
+        },
+        "File/Shredmaw_Shell.png.json": {
+            "sha1": "41ac1ee5ce71d325859f9d6f70a25b18b04d382f"
+        },
+        "File/Smith's_Canteen.png.json": {
+            "sha1": "e11364629c6950c5d48369d3cf8d7ed1ea77e785"
+        },
+        "File/Underdriver.png.json": {
+            "sha1": "9339381fe22ee514915a4087d9cf3c679e18a2e7"
+        },
+        "File/Weezil's_Scope.png.json": {
+            "sha1": "9e092bf7f809c0c8af2de3d2c92f8f906a71e834"
+        },
+        "File/Arachni-blade.png.json": {
+            "sha1": "2d6bda213d8675d225d00164d33012d0dc5fd133"
+        },
+        "File/A_Hot_Tip.png.json": {
+            "sha1": "8d70cb2de2f3c46982c43438127b275a536eedb3"
+        },
+        "File/Banquod_Pendant.png.json": {
+            "sha1": "6c3431717557e1d1120a14e3b32d14acfc7ff271"
+        },
+        "File/Brain_Pearl.png.json": {
+            "sha1": "e716d8ec564a2ea70cb8cee2b9b50f81da45d68e"
+        },
+        "File/Classified_File.png.json": {
+            "sha1": "cba5441efae74c7b75358811c36e2b20622a5c4a"
+        },
+        "File/Crackler.png.json": {
+            "sha1": "5e48e7df54322c9d1ab1db35a1086c0505885dcc"
+        },
+        "File/Diplomat's_Badge.png.json": {
+            "sha1": "b1ad9117e5e241ac1ac94e776adb931e585480f1"
+        },
+        "File/Droad_Tail_Spike.png.json": {
+            "sha1": "6a8d427f582b34d40798421de304debdf8e3c5f3"
+        },
+        "File/Hat_Tip.png.json": {
+            "sha1": "8e0da0025481a485284bd40775171343177cc2d1"
+        },
+        "File/Luminitiate_Coin.png.json": {
+            "sha1": "bff0e2efcf5e954c1cc757e3917d179ffe514f02"
+        },
+        "File/Lumin_Canister.png.json": {
+            "sha1": "417e3c9f8fb151f036c5805b818c33690f05f201"
+        },
+        "File/Pearlie_Wallet.png.json": {
+            "sha1": "9d1e1459ffa6a650892e1e0d46c74fad6ba87575"
+        },
+        "File/Seemli's_Dagger.png.json": {
+            "sha1": "c3f7fb1c16848b430c9ca9c151594a641a36ae0d"
+        },
+        "File/Stolen_Jewelry.png.json": {
+            "sha1": "a5a44d0f7397473280d3904c648e00ddddbca62e"
+        },
+        "File/Tei_Drone_Strike.png.json": {
+            "sha1": "b33d3f7fcabee4239926ada0dd75bf21b9c04865"
+        },
+        "File/Veil.png.json": {
+            "sha1": "fa13320b6ef5d64787703db15db5941eec0c146a"
         }
     }
 }
