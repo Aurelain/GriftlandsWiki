@@ -237,7 +237,7 @@ const uploadImage = async (title, filePath, token) => {
     const rawPath = RAW_WEB + '/' + filePath.replace(/^File./, '').replace(/\.[^.]*$/, '');
     assert(fs.existsSync(rawPath), `Raw file "${rawPath}" not found!`);
     const safeFileName = title.replace(/^File./, '').replace(/:/g, ''); // "Weakness: Slow" gets its colon removed
-    console.log(`Uploading "${title}"...`);
+    console.log(`Uploading "${safeFileName}"...`);
     const {body} = await got(ENDPOINT, {
         method: 'post',
         searchParams: {
