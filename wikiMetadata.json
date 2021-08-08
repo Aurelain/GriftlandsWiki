@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-08T16:22:53.054Z",
+    "lastPulled": "2021-08-08T16:58:13.780Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -12370,10 +12370,10 @@
             "sha1": "c9d19c77cf5386657149a8619cb6c0bf97390a68"
         },
         "File/Blockade.png.json": {
-            "sha1": "3aa018f8a6d45a916adb3bd40093b1e9ad46cc63"
+            "sha1": "4ae92752ed0befa1df6577c7a8f1d086e4ed4295"
         },
         "File/Ante.png.json": {
-            "sha1": "c8b5b09dffbb1accc794d3b3daa5eb373a64ad7d"
+            "sha1": "1592a5aef93d3ec04a0a653f3bc185d1aefccbee"
         },
         "File/Arc_Deflection.png.json": {
             "sha1": "0a47ba1b23a47820757086ea8077bcc9b9412642"
@@ -12475,7 +12475,7 @@
             "sha1": "b24ae8e66132b739e828780af39d52ccb823aa1d"
         },
         "File/Admiralty_Intel.png.json": {
-            "sha1": "58b8044fb25c5b73c706673ef26fb79dc59bca3c"
+            "sha1": "0ca7ab0654ed16b4bc8a02c6d6f059696d54f885"
         },
         "File/Adrenaline_Shot.png.json": {
             "sha1": "e6b38182123ce41dd2397f21682ac1e5c2909176"
@@ -12535,10 +12535,10 @@
             "sha1": "8821f174df728167c68d78b00663231e73d30f4f"
         },
         "File/Agency.png.json": {
-            "sha1": "7f3a8ba5a664073c4758bcd526c7426d3f982039"
+            "sha1": "0ea2c047260d3cb168d862e1d973986a5327cb62"
         },
         "File/Aggressive.png.json": {
-            "sha1": "72fd7d1c30ccbf5faa87adc0792bf769e638324e"
+            "sha1": "3b962babac15664859cac12c71b9813255a1a567"
         },
         "File/Agitation.png.json": {
             "sha1": "822626a25e0933cdccff88f649d626aca8e5412a"
@@ -12550,10 +12550,10 @@
             "sha1": "18efaef8c08201a347bfe9fec5c5e676117c8238"
         },
         "File/Aloof.png.json": {
-            "sha1": "0ccb61dbe67cd24c0c89b042a681f08b49b2be3e"
+            "sha1": "b49e85e7e06d372516b73ccb3a665053ff5cf6a2"
         },
         "File/Amnesiator.png.json": {
-            "sha1": "81f76cd2ac1dfefc919f2c8b67774a53b48d3526"
+            "sha1": "748865992a7fe30cd8ed39b96817576e74e95745"
         },
         "File/Amplify.png.json": {
             "sha1": "0b658123cba6c6490d2160312f4012a503115a40"
@@ -12565,7 +12565,7 @@
             "sha1": "73acb4fd4b5521ed16691fb97b883b0e5e805fb1"
         },
         "File/Appraisal.png.json": {
-            "sha1": "aecf523e9409a147fee5b05aae762057d3049d53"
+            "sha1": "0bf9e61220b03c5fab2f503a00286e3af40e67d5"
         },
         "File/Associates.png.json": {
             "sha1": "8b12e6daa01c6990b1e6ba7633a236c16ec8b4ab"
@@ -12574,16 +12574,16 @@
             "sha1": "59f5b5dcda49262423c29c1903084459107acb8b"
         },
         "File/Bad_Deal.png.json": {
-            "sha1": "dc57c762c51fb61511e107ca83e8d1c3b28f8d60"
+            "sha1": "1bd008ad8abffc5dde6c80e6229cec5a82ab13d3"
         },
         "File/Baffled.png.json": {
-            "sha1": "a591f1306e9b2fed5c2f2b29aae6b85c3361609e"
+            "sha1": "6e3529cb42ccd611c8dba3289906017fdea4a507"
         },
         "File/Bait_and_Switch.png.json": {
-            "sha1": "41120f8edc48ff19c233f6a52cead85157e450ab"
+            "sha1": "eb985ca2b89f4d569b748f6fb53f5e150ea05a63"
         },
         "File/Bank.png.json": {
-            "sha1": "d3b83acd35406eb65a4556c63e82dcdf810aff58"
+            "sha1": "28d254f487377c8823af2575308d741a5c625653"
         },
         "File/Barrage.png.json": {
             "sha1": "25c6523be52e2049679500de9740c3500cbdb00b"
@@ -12598,28 +12598,28 @@
             "sha1": "ab853088f1937a403da074516752c927e3a7f02a"
         },
         "File/Bid.png.json": {
-            "sha1": "b7a2c53f74e30ccbc417cc976ca80cfec9df5e09"
+            "sha1": "ef85225907572e93b7807737ee9087d8bea7e492"
         },
         "File/Biting_Scapegoat.png.json": {
             "sha1": "b57475b6545c845b813d0400ca308fd542df00d8"
         },
         "File/Blank.png.json": {
-            "sha1": "1ea68b8a72808cd70e2708d9e2663d2eba24deaa"
+            "sha1": "e7aa6d54d702132d98f15c5e9fc59b98089f4ed3"
         },
         "File/Bluff.png.json": {
-            "sha1": "9a0f4d6bf4204f0084171569852c048b29238d9b"
+            "sha1": "e008a0c68d705f4cfeaea08890a6f3f4c3dc67f3"
         },
         "File/Bluster.png.json": {
             "sha1": "27790a2574705465abebaa40c539eaffc9b30699"
         },
         "File/Bog_Blast.png.json": {
-            "sha1": "967b08482e776b247c772d58c61458842ac426a4"
+            "sha1": "18c45d997e617482e4bcacf8e8806b5950d7509e"
         },
         "File/Bog_Enlightment.png.json": {
             "sha1": "1528a5eea19f695b0fe6e2e17c267f3e4b207754"
         },
         "File/Bolstered.png.json": {
-            "sha1": "f4723c12885344c3d00c76ec40b818aa5c58cd6d"
+            "sha1": "85c6485bbec6628be7b2e3cf2ecc1d61d59242b4"
         },
         "File/Brag.png.json": {
             "sha1": "9abbeae404b19dd8b634e7e01a57847b45f3c262"
@@ -12628,7 +12628,7 @@
             "sha1": "1d9486a00a00e3148c4eca68d8ac10346ad6b298"
         },
         "File/Brain_Gills.png.json": {
-            "sha1": "a433b6ab8b6057c115ae945d3ed5b8db2f6289cf"
+            "sha1": "08d454b30375931c92c0a6c77b63ccb870e2480c"
         },
         "File/Brainstorm.png.json": {
             "sha1": "e3f5cc2ff00c3aad51e5d8a1eabcd489a20777f2"
@@ -12649,13 +12649,13 @@
             "sha1": "8cbac786fc55231da7e397a99ec60d5d79b8107d"
         },
         "File/Bottom_Snail.png.json": {
-            "sha1": "77a5ad6b2a1e3a8e73139abdfb0b968fd48c5b9f"
+            "sha1": "711468e71a0d3c29862651c27106a969e22e8f25"
         },
         "File/Bounty_Hunter.png.json": {
-            "sha1": "4f7b6de490cc4e6a717c49d4093cfc75a29ef879"
+            "sha1": "286503a0eb662127054c14497510ea5708200626"
         },
         "File/Assertive_Grumble.png.json": {
-            "sha1": "11b9f79661222176f1e2a35be5aab2247c0032d0"
+            "sha1": "a02e75a044a023fd686ad21a3e0f836fdf78e517"
         },
         "File/Assertive_Snag.png.json": {
             "sha1": "bf7aafef1b437b231dbaab3482ef41feb2cccf05"
@@ -12670,7 +12670,7 @@
             "sha1": "62080a07997faf9718ecf01f02002a574fb5095f"
         },
         "File/Boosted_Aloof.png.json": {
-            "sha1": "048e5fa7315685ad32fbcef0cb31e0c8385f3dac"
+            "sha1": "4c0b7ee33532b9bfb5746167523d2d18a8a886a2"
         },
         "File/Boosted_Amplify.png.json": {
             "sha1": "1b06efb68052390a6afdb96c0f89199014099ac7"
@@ -12682,7 +12682,7 @@
             "sha1": "0343375e61ec8854c59265746dcafa8c485f8899"
         },
         "File/Boosted_Bank.png.json": {
-            "sha1": "0c193c019a757f8fb58fa6c1116efb13dbfa5055"
+            "sha1": "10f206fdf8bad4156c727f71e099d20d15892e9b"
         },
         "File/Boosted_Barrage_negotiation.png.json": {
             "sha1": "13e36f1b839b273f74e27f0c9fef2d7c092c9828"
@@ -12691,16 +12691,16 @@
             "sha1": "05da86f3fae3da36806cca167cdeb48fdb13bc3a"
         },
         "File/Boosted_Blank.png.json": {
-            "sha1": "3cbb4e349fac454d6edd54b67ff5b30333107a2f"
+            "sha1": "1c389221c22bb0911595a8d8b21d48ba5418693c"
         },
         "File/Boosted_Blockade.png.json": {
-            "sha1": "ec6231ef33e66c90ac413dd024e0d583f0eafbcc"
+            "sha1": "cf738691f6998003939e38f217e13671c5aaf3d0"
         },
         "File/Boosted_Bluster.png.json": {
             "sha1": "d8e273fc28099be441c7147f3a71e7065ab8cb01"
         },
         "File/Boosted_Bottom_Snail.png.json": {
-            "sha1": "76c41beae7be342e8abf26397eedbf7f7b2d73cd"
+            "sha1": "4215a94b1b6b0998ef638f96c4de1659a179a4a4"
         },
         "File/Boosted_Brainstorm.png.json": {
             "sha1": "71a4f31b0f23a5a53cb298db9fc2d7ec4be84a85"
@@ -12712,7 +12712,7 @@
             "sha1": "fcf487a163ee44937c807542bafbb62185104e77"
         },
         "File/Boosted_Burn.png.json": {
-            "sha1": "dbc2b4e7ff41de548423bd5c55a5914a587f4741"
+            "sha1": "9327430075a02d4b04fa1af167dc886720e28557"
         },
         "File/Boosted_Calm.png.json": {
             "sha1": "530b5e04c766ec9c180e23e5ad7e8583d79e0103"
@@ -12724,7 +12724,7 @@
             "sha1": "1f235e36f5214869705b770a2723d8c35c417bf4"
         },
         "File/Boosted_Cash_Out.png.json": {
-            "sha1": "f60afff225b71687e3be2a64ff812349f52b0550"
+            "sha1": "befcb7c8e59fa8c6626b102eef87fce6fefe8d02"
         },
         "File/Boosted_Charm.png.json": {
             "sha1": "f6d56609d0410cf6f82b6131cb30db1ddc552a0d"
@@ -12748,7 +12748,7 @@
             "sha1": "a7cc13d64d46ba8e6d562de2d02b2f9fff2428f6"
         },
         "File/Boosted_Decency.png.json": {
-            "sha1": "650b7d897932b513bf00f9a8925aa80125b402e6"
+            "sha1": "3a6c4fbf8dc43bf693eafe194278b3f93fb4b60e"
         },
         "File/Boosted_Deflection.png.json": {
             "sha1": "5c99ab6b05eadd2e92fd4254c929cb54f1e7fedd"
@@ -12757,10 +12757,10 @@
             "sha1": "57a7c5c22bd73ec143902fa3242c61853f0dac82"
         },
         "File/Boosted_Dig.png.json": {
-            "sha1": "26a243d628490ff03e853f9656ed7a4de333527e"
+            "sha1": "4ef5a862cce52b405ec55b4933cc5b2e68089e57"
         },
         "File/Boosted_Dilemma.png.json": {
-            "sha1": "1e3df0b7cdb54b6fbccc5255a52c654f28eb1eb5"
+            "sha1": "56d6f6350caff62929e154d819adba81f703bd18"
         },
         "File/Boosted_Doubt.png.json": {
             "sha1": "859a8ac3006b4dbef9ab98c2ba48ab6ed6be4220"
@@ -12790,7 +12790,7 @@
             "sha1": "f59e4d840a4a9cf6b09e3e393385768f1d6a3edb"
         },
         "File/Boosted_Final_Favor.png.json": {
-            "sha1": "aacc696a396b7b377e4e6ae6d273be8c536ecb39"
+            "sha1": "a1bf95ebb2378c7203fbdd17610232e0e030872b"
         },
         "File/Boosted_Fire.png.json": {
             "sha1": "23babd38347b8ea3e959d72a24e2f127a6e14dd2"
@@ -12799,10 +12799,10 @@
             "sha1": "86c8495c1739ff50a983f450733f7ae122c38aa4"
         },
         "File/Boosted_Foul_Mouth.png.json": {
-            "sha1": "2f45a26eed3cff0252de6c5a3af95271613603d5"
+            "sha1": "ba8fed94311a65088213e9e4b3690a8b563e4fe9"
         },
         "File/Boosted_Gab.png.json": {
-            "sha1": "59cace2d6785de93dc6c61630cbe7789b24f71ba"
+            "sha1": "8067859489987f3bc617303980c8bbd3f418e5bb"
         },
         "File/Boosted_Go_Between.png.json": {
             "sha1": "e6b5f02efeabf271e4f4b8feb4c8aa8ff1c5c9eb"
@@ -12814,19 +12814,19 @@
             "sha1": "3a251a474cdfc1bc39d277eef3d5ea99bf141fb5"
         },
         "File/Boosted_Grunt.png.json": {
-            "sha1": "6eae600a8aa10c8ba995c0cd2ba2acfed2690656"
+            "sha1": "126bf181b097dc64b25090334f2aaea8f4f26a92"
         },
         "File/Boosted_Head_Shot.png.json": {
-            "sha1": "637314be23447e307893f1f64e009b6f63f34ff7"
+            "sha1": "20e9ddfd54e0e1445bb856be273a87f00162dee5"
         },
         "File/Boosted_Head_Split.png.json": {
-            "sha1": "c8158a4e2b614cd7d44b19a1ed8c399c927dbe27"
+            "sha1": "9f6aa17414fd4dd93de327fbc5f8473691582606"
         },
         "File/Boosted_Headbang.png.json": {
-            "sha1": "58352a1f56be8d9d6269ac3222d3696e29f7c344"
+            "sha1": "078617381bf10e91e6a766811e6c51594ea93fbd"
         },
         "File/Boosted_Helmet.png.json": {
-            "sha1": "266d883ddd16323a3070937e434f599e37a182f6"
+            "sha1": "0b0adf794d2af2e197030a1c25e499c4ac3dedd3"
         },
         "File/Boosted_High_Places.png.json": {
             "sha1": "aa74d8e585a51ab9d0949306bd779507b4713744"
@@ -12844,10 +12844,10 @@
             "sha1": "6688a3078039b02d635c955a164cc52c41bc2032"
         },
         "File/Boosted_Jargon.png.json": {
-            "sha1": "520e1dfe724ab048b5ffcdda89938a563630bc69"
+            "sha1": "91c64d6478007844fca8c52d41d6496b1fc47dd1"
         },
         "File/Boosted_Kicker.png.json": {
-            "sha1": "dd65cae2a2169b6ab5d49e6f503e05977401bfeb"
+            "sha1": "5ad20113e9c56f0c3a88e36c1f949fcf71b2f841"
         },
         "File/Boosted_Know_a_Guy.png.json": {
             "sha1": "c833791d5967db8bf8653aa6333e4c4cbaaa4c87"
@@ -12865,13 +12865,13 @@
             "sha1": "ad726073681288cb515aceef65cbf5986e82deee"
         },
         "File/Boosted_Muck.png.json": {
-            "sha1": "1c2dd6f3369cdaf6a53e3b2a593246d3fc6ecb77"
+            "sha1": "2af16f4412b7f9ffbde4dac2c94cb4de6889071b"
         },
         "File/Boosted_Networked.png.json": {
             "sha1": "5590abb45a300d3182474a5aa122a3601e4596db"
         },
         "File/Boosted_Obligation.png.json": {
-            "sha1": "55c362d2e5ff6f190d57540bae34bad4b467c160"
+            "sha1": "7c5e9c9dea0362681f4596cf2d07eda7b627b79c"
         },
         "File/Boosted_Options.png.json": {
             "sha1": "557615df7d14b28f26ff28dcafa0f1319a0cf812"
@@ -12883,7 +12883,7 @@
             "sha1": "8fb75b1b4a8f9cfcf03a01d26057a91aa40cfbd0"
         },
         "File/Boosted_Pinch.png.json": {
-            "sha1": "b5d6c85181b65ce77aefb16a75db33e136d150aa"
+            "sha1": "63aa7063394ed7eeeea44117476c38072964c80c"
         },
         "File/Boosted_Planning.png.json": {
             "sha1": "7dbdc6f34116de8a2db017ce3806f7ecff4c4a1e"
@@ -12895,25 +12895,25 @@
             "sha1": "f9af1e606eecb76dbffe13519e26323007a8c6db"
         },
         "File/Boosted_Pressure.png.json": {
-            "sha1": "392d5337822bfd3d9fdef0faef2243b3e4d0d32a"
+            "sha1": "6e44e302561157595c99e440519016852766635e"
         },
         "File/Boosted_Prominence.png.json": {
-            "sha1": "14f805100b069cebc396afeb90b9b8b4c8476290"
+            "sha1": "e6ba26fcc64b8c4a7d603824d3a7fd598838422b"
         },
         "File/Boosted_Pursue.png.json": {
             "sha1": "1d6ce3432b56c2b9260cfae43d56b7ce6a18f595"
         },
         "File/Boosted_Rant.png.json": {
-            "sha1": "b18935796c12920246b33b560a06f7ea4fb619a1"
+            "sha1": "97c59691424a28398c390becf1d19cfb2a4b3ffb"
         },
         "File/Boosted_Rapport.png.json": {
             "sha1": "59aaa0785777331be0f866089237d24185a5d0aa"
         },
         "File/Boosted_Rationale.png.json": {
-            "sha1": "f9cee53bf26906d28f271db6c609a286a38c59ef"
+            "sha1": "61c994be2a50089ae8e01a2ff20b45ae7853ebaa"
         },
         "File/Boosted_Raw.png.json": {
-            "sha1": "6f71b0c3f06f49f2a573a4f7ec9f223c9de23c98"
+            "sha1": "2333db84aad69a405b6d101211adf0506b9982fe"
         },
         "File/Boosted_Rebuttal.png.json": {
             "sha1": "c067b7d25e03981fb5791d3fe7942f16c36c1e75"
@@ -12925,7 +12925,7 @@
             "sha1": "50ceb6c83bff4175e9b421986cf42180e3cd59ff"
         },
         "File/Boosted_Red_Herring.png.json": {
-            "sha1": "f5ef781508e5df198ad0d2dbabcfabb49a735c52"
+            "sha1": "77196acd567d5af546f032ba4284ce211e7a57ad"
         },
         "File/Boosted_Renounce.png.json": {
             "sha1": "cd353f9662f1aaf7927c73f57863e3de355253e0"
@@ -12940,10 +12940,10 @@
             "sha1": "4bf81456170d508b9b8716b5f4777141a9607992"
         },
         "File/Boosted_Seethe.png.json": {
-            "sha1": "997df69820c090495381719b01d16e0d64f6ab31"
+            "sha1": "07d89ec59b606566fb0d604b8d3f3ba385ac1beb"
         },
         "File/Boosted_Set.png.json": {
-            "sha1": "51aea69a8058326cf1fac1e6b7ac5df07c1d0355"
+            "sha1": "b2c62856235e34620c431c9a51c8accb00ddf402"
         },
         "File/Boosted_Setup.png.json": {
             "sha1": "05f2bed4ae0a8efda8bfa3a06dfe92f4c98de607"
@@ -12952,16 +12952,16 @@
             "sha1": "40f7a9f5ae6bb4b4515e500abae87a3bae7e5f67"
         },
         "File/Boosted_Sleight.png.json": {
-            "sha1": "77564a013b4e08859410a69dc2dec3450271e64d"
+            "sha1": "56be8d0f2f312a6b354b79bf4db518cd0d5b66a5"
         },
         "File/Boosted_Slugstorm.png.json": {
-            "sha1": "9a8ab07c83e09956579fd9f09f0acc911a3384ff"
+            "sha1": "394b74acfc609c27c2f66beb41a8e873a540036c"
         },
         "File/Boosted_Snag.png.json": {
             "sha1": "e1b4d7e8bf28d0e295d1d43c7a9e1c8cfd4025c6"
         },
         "File/Boosted_Spotty.png.json": {
-            "sha1": "95184c35cd26e34ba6e7350dde241cb15d2def63"
+            "sha1": "55eaa92f8b954aff0d69c38396a3059310f61144"
         },
         "File/Boosted_Square_Up.png.json": {
             "sha1": "92fcb97ca3d0cab20b10858513241895c171b2da"
@@ -12976,7 +12976,7 @@
             "sha1": "f22a9e1f70f343cd81d5e8a86b406716d8188d06"
         },
         "File/Boosted_Tantrum.png.json": {
-            "sha1": "da737c699e04be4d808594b794e74e7c26582b81"
+            "sha1": "17d543f3d1009f602c202b6156caf32261d55a30"
         },
         "File/Boosted_Thinking.png.json": {
             "sha1": "62fe27ea9b0a13794ed2b53fc3c9774c31dd20f7"
@@ -12988,7 +12988,7 @@
             "sha1": "350d4b46b65f0177f7dec893c30f633322624ca7"
         },
         "File/Boosted_Trade.png.json": {
-            "sha1": "04be9b4d6f413dcf6bbcd91e0e7d8adf208ed0b3"
+            "sha1": "a5cf58979fcde793a585f49f096ad4c457a7c804"
         },
         "File/Boosted_Turnabout.png.json": {
             "sha1": "3dd0b329bbb98edb97e171c134fbecf52d4df9b9"
@@ -12997,7 +12997,7 @@
             "sha1": "1b78549334dff72e9337616e9b322e08123363c1"
         },
         "File/Boosted_Vulgar.png.json": {
-            "sha1": "cb9a206a97832e0b1955a8313860a0de7a54ff10"
+            "sha1": "24722ce8da410479c4f34ca08e1fe52bcdffdaa7"
         },
         "File/Boosted_Who.png.json": {
             "sha1": "97369d38d5f73c8b28679bf5114d0b0399f4a159"
@@ -13042,7 +13042,7 @@
             "sha1": "7e8e8f7d3cd0610346e9002509b228ed0053f8c3"
         },
         "File/Assorted_Junk.png.json": {
-            "sha1": "6c63fd5bf0f875fdc28a00d5c8351c43f5222a1d"
+            "sha1": "f7046b8c965c1642edae41f5be301f78903d65d9"
         },
         "File/Automech_Access_Code.png.json": {
             "sha1": "c1d01fb2b99bf0b7b1dcd97cadb65f059757ddad"
@@ -13462,7 +13462,7 @@
             "sha1": "00f24352843d31ebdc5e433a3e127f2e6c4b1f37"
         },
         "File/Boosted_Lean_and_Green.png.json": {
-            "sha1": "ab116e5f772729fdf57990ee4486ddabe49e0810"
+            "sha1": "93dfd1bf86c2d4c24b51f2bca2fe1cd8cd0a4890"
         },
         "File/Boosted_Leech.png.json": {
             "sha1": "b8db7853d0c9352079fa86640cea2df6fa546967"
@@ -13777,10 +13777,10 @@
             "sha1": "db66d147d4a58aad21b6a9e5b7a638ecf7b62e19"
         },
         "File/Beast_Master_II.png.json": {
-            "sha1": "f3d78e0e900d89a4c441abd0a2cb2e646532aedc"
+            "sha1": "d1628cc6ef154743c522a321ced393061e2491c2"
         },
         "File/Beast_Master.png.json": {
-            "sha1": "b02b36deab7a7c1e482643fdb427744cbc12c39a"
+            "sha1": "bf75bdbd825ed10ef85f2d838aeb437934807e93"
         },
         "File/Boosting_Blademouth_Beating.png.json": {
             "sha1": "863a6711230725f062e36b3d90fcb797558fb3e1"
@@ -13987,7 +13987,7 @@
             "sha1": "a015eed597bb455bc554b27cc6e9a278dd260d0e"
         },
         "File/Decency.png.json": {
-            "sha1": "063c0af940bbb50acd654a230f1dcb7a1340e6db"
+            "sha1": "5e166a8a65cc2ebbd701c9e3409abe2b5ea90c8f"
         },
         "File/Card_entire_supply.png.json": {
             "sha1": "fb84a1ea865024c4957778bf59a655d74c3e2c34"
@@ -14272,22 +14272,22 @@
             "sha1": "acddc7d6493954fda5286e68afb5a091592a0509"
         },
         "File/Gab.png.json": {
-            "sha1": "e48ac422b184b98caedc68466a1576437f4054ba"
+            "sha1": "baa21ddd896ece4fece4e668b550a79ef857120c"
         },
         "File/Dilemma.png.json": {
-            "sha1": "36b13f1d568ac38ef368d9cb566465164f765093"
+            "sha1": "132c64b87b51c4f69de666712c8363cf00c61196"
         },
         "File/Discord_icon.png.json": {
             "sha1": "0044d3f263e38ae05464d1f8a496bd1e900a0892"
         },
         "File/Burn.png.json": {
-            "sha1": "f03c28c96b353488f9a4cf3a923298a72a2717ba"
+            "sha1": "ea909604838a9b8483f241f27c03c5660807eeab"
         },
         "File/Buying_Time.png.json": {
             "sha1": "98f2a26738b7bbfc9038c6feeab52d4be6dfac26"
         },
         "File/By_The_Book.png.json": {
-            "sha1": "71fdc618798f5a7727e82899d5d63d93071ed8d7"
+            "sha1": "33e881a3707a4177c7267b8ffd9a586e19c2918b"
         },
         "File/Calling_in_all_Favors.png.json": {
             "sha1": "68d4c7497b15996e17989f468eecc55d6a603ba5"
@@ -14305,7 +14305,7 @@
             "sha1": "238e751abe40d481ae562a76b663833c1fc07f10"
         },
         "File/Cash_Out.png.json": {
-            "sha1": "4e2a2ff0d96e054ebfb61114fac07e932e22621e"
+            "sha1": "4b16039b959690c0a910f54c89773e523a58d2f3"
         },
         "File/Chaos_Theory.png.json": {
             "sha1": "3b3baffe3906f50582c189b7274b8f462f99b091"
@@ -14329,16 +14329,16 @@
             "sha1": "fa34cbfe05b104ffbf1ca42e0764f4e951e54df6"
         },
         "File/Compete.png.json": {
-            "sha1": "95ffea17a9429100b21b8a869ee5131cdfd81c55"
+            "sha1": "01e47948bb6f84a95ab9dda1ae23f91d694014af"
         },
         "File/Compliment.png.json": {
             "sha1": "33e10f7844e31a453c9a0e802d91f1e44073eee6"
         },
         "File/Compromise.png.json": {
-            "sha1": "ba43913afe8eea9aa5e0f9410f6dba5f2dad2b78"
+            "sha1": "f0844297ae3b12ca3eacfada5ef7ed83495449dd"
         },
         "File/Conductor.png.json": {
-            "sha1": "2c65af1014fc9b0348d273000b668e04faa4d552"
+            "sha1": "a6669213db89f2bba712f570ddb7572a501531b0"
         },
         "File/Confused.png.json": {
             "sha1": "5522418901c11d691df4ce12cd2c90859b667dd8"
@@ -14350,19 +14350,19 @@
             "sha1": "61ff665b2b8bb9a9d6b2d16661d4f6ea16497066"
         },
         "File/Coward.png.json": {
-            "sha1": "11b758c290dc851a78472dbd55d42b83aee004be"
+            "sha1": "2d00680ddd9a36c99d7e11fd2c7bb68c6ef24d4f"
         },
         "File/Crass.png.json": {
             "sha1": "5f480504910741f6df3564e761f7c1de8668887a"
         },
         "File/Dangerous.png.json": {
-            "sha1": "7990b9c1ef890892aa795dc08f5495fec5093742"
+            "sha1": "48f700072ed7ae3482498f761f022fa3caadb12d"
         },
         "File/Day_Shift.png.json": {
-            "sha1": "cb31e0bef632097d916d547e79cc25b81fe6f943"
+            "sha1": "ed55714b486d4c78e17be7ddd1cd1f8d3b22bfa6"
         },
         "File/Dead_Draw.png.json": {
-            "sha1": "7830986a03f608bfc762fe05cb995e1b5e8057cc"
+            "sha1": "c42e854e761472b809b753847e970ca232bfa405"
         },
         "File/Debate.png.json": {
             "sha1": "b666a42ca1f3ff881a351285a650e87d0ee49058"
@@ -14377,7 +14377,7 @@
             "sha1": "1d0a2e1e4c5622d6412e97b5ed8e7cee977c23c3"
         },
         "File/Dig.png.json": {
-            "sha1": "c3684d4e55ffc9a51d81783c2fd858ea64e0a402"
+            "sha1": "24e5cf14f0e5976a6ed40c16a189b0ccbfa84219"
         },
         "File/Disregard.png.json": {
             "sha1": "b14be0d44d372ba1e866508e34a69c474977b66b"
@@ -14386,10 +14386,10 @@
             "sha1": "dc17aa605495c44e8dbd099964cedf1c82f63426"
         },
         "File/Do_Over.png.json": {
-            "sha1": "c9553c2a312f3327ce3178e7472cc18c25a0fd34"
+            "sha1": "3c37c5c4906ed88f807e9bd05f3abce274254a1f"
         },
         "File/Dogged.png.json": {
-            "sha1": "2d1859d36294bee8d2d8c6ed1ae33ba3e179d280"
+            "sha1": "782d3432647ad3e436bd92c1860a332935f8c035"
         },
         "File/Domineer.png.json": {
             "sha1": "c92c4b45fe3b6f70fb1eda9773876be62d30f54f"
@@ -14398,16 +14398,16 @@
             "sha1": "9f45ef6c59b097597c3139a2e4885b592a24766c"
         },
         "File/Foul_Mouth.png.json": {
-            "sha1": "fb07bbdb8589335be756b3a2254bda0d84f9e009"
+            "sha1": "7255765c266b4099238fbf234bf5ca9c125cd8d2"
         },
         "File/Cachet.png.json": {
             "sha1": "79d92b224b7d26b406704aec12480361a97cd849"
         },
         "File/Frisk.png.json": {
-            "sha1": "c666f437a2883dd38fc63f9eee5c022145bbc7a9"
+            "sha1": "781304e4108997a18b36019d35009f6f2688fc80"
         },
         "File/Gassy.png.json": {
-            "sha1": "1594293d7ed91f6aba437e29054956a175a9d646"
+            "sha1": "2b707123e304e7727b7197c95d83aec0e8eac6d4"
         },
         "File/Go_Between.png.json": {
             "sha1": "38f3d2476969bc121665d356ebbca2b445c0139c"
@@ -14422,7 +14422,7 @@
             "sha1": "de5a9508dc73c059cd559d02cf13748f0cbe9344"
         },
         "File/Grade.png.json": {
-            "sha1": "dd4d28df5e6b30071e12975686fb9f06c879de3e"
+            "sha1": "4e0795fdcef995e0e210d5229c735207d6098ac6"
         },
         "File/Cursor_1.png.json": {
             "sha1": "6abb5dd0fc0692df0e5876bd05640a03b9df564d"
@@ -14437,7 +14437,7 @@
             "sha1": "59da7d966f7a66dc411b01f87a26b0bdaa590ec0"
         },
         "File/Diplomatic_Jabber.png.json": {
-            "sha1": "5bf4d5f6a07247cdd5c3e0c39f0aa3b8a7ea3ba7"
+            "sha1": "2bac53da35052676792fde581b176db2ee04017f"
         },
         "File/Dominant_Bulldoze.png.json": {
             "sha1": "e0981287963c9283ab2843de86b7610949b35fe9"
@@ -14452,7 +14452,7 @@
             "sha1": "2111692b2e28c0b7d7a545af266f629c4c91ef51"
         },
         "File/Enhanced_Overwhelm.png.json": {
-            "sha1": "a6ad301369c99f7bd2e7d1e6654db9fb00a215c4"
+            "sha1": "e6d157691b62d8cac0ff95156e2bf25e5010a562"
         },
         "File/Enhanced_Segue.png.json": {
             "sha1": "39213cda14d963ffd74b76911faf0456e11903e9"
@@ -14461,7 +14461,7 @@
             "sha1": "9aff66cc7fce7418ead006a040a7b99894d06749"
         },
         "File/Enhanced_Tantrum.png.json": {
-            "sha1": "89dd7dae5fceebac4f5edc6342620a5585e6bc24"
+            "sha1": "eb1c2e918f0595903131972b4c180238b82daee2"
         },
         "File/Evil_Eye.png.json": {
             "sha1": "f89268f496cbd6a029fe9adec71ede64aae662ec"
@@ -14479,16 +14479,16 @@
             "sha1": "d5b5ee1d7b426d3f3dffbd216d14124688318d5a"
         },
         "File/Final_Favor.png.json": {
-            "sha1": "d2fbbff916d7c5a1e70fdde7ecf0725eb535ff66"
+            "sha1": "8b39945845e19fe7705fb42905689bbdf035965f"
         },
         "File/Flash_Badge.png.json": {
-            "sha1": "746a59ef8e4aecb5c03be24121c6e1cc59e88264"
+            "sha1": "aa289577d963dabbaba0d83d5096e7f9cda94171"
         },
         "File/Flexible_Collected.png.json": {
             "sha1": "a3f8ae054b852aa9c47394c5a5e63d4081c7f280"
         },
         "File/Flexible_Gab.png.json": {
-            "sha1": "fe9d555579d9519337b43b0bce1cf093ab6831af"
+            "sha1": "a38f563e8116f45217ca476a9bc29a1a578f7934"
         },
         "File/Flower.png.json": {
             "sha1": "93006e9a3e088a575f44cd2034798650c7ec3263"
@@ -14497,22 +14497,22 @@
             "sha1": "3ee1924652e1c70feaa6c6a24ea5d1b3f1abfef4"
         },
         "File/Focused_Muck.png.json": {
-            "sha1": "d18744cf5c6350bfdefdeb6fc0c2c664bd2aeaa9"
+            "sha1": "b7ba89eec248e19131d2c8bdf4e02a5b1be409bb"
         },
         "File/Focused_Rescind.png.json": {
             "sha1": "baf972cfc6629c5fc788982401256f59bd15fba3"
         },
         "File/Foot_Rationale.png.json": {
-            "sha1": "5c030abaa87eac25316b30b047e1229439868ced"
+            "sha1": "a59daee77a5e67f55a77c822686faeb2a346fb84"
         },
         "File/Cordial_Praise.png.json": {
-            "sha1": "cd49c2559005b2fff660bfee96ded20d1dde3474"
+            "sha1": "977a2d3817d59532b63948f8eb129ae576f0c7cf"
         },
         "File/Crown_Ante.png.json": {
             "sha1": "1fe16d91ae7a5094e87e17f1fbd95a2763008803"
         },
         "File/Crown_Rationale.png.json": {
-            "sha1": "ea30b395b64b2b555e1fd0b3ed963487dfac6b50"
+            "sha1": "db7085388725d59cce6a45ca20d49f4859e4333b"
         },
         "File/Desicive_Call_it.png.json": {
             "sha1": "d0d3987cfbde697ae65a4499013eb8a092a76e2b"
@@ -14524,16 +14524,16 @@
             "sha1": "87e437f20f85bc9c6717e36f70a709ed7873896d"
         },
         "File/Cordial_Pleasantries.png.json": {
-            "sha1": "97c93cce0802ceea5282fcdc0427d69b1a281728"
+            "sha1": "e18857ce992790d88a5d86f1925c200661adee5f"
         },
         "File/Decisive_Grumble.png.json": {
-            "sha1": "12dc9c043af0d8dd5803b6cb9c057de896283f75"
+            "sha1": "6714d4087a611111946770e4c38102d988001831"
         },
         "File/Decisive_Pleasantries.png.json": {
-            "sha1": "a0ad3eece8a779cfabb4f30ebb7b81928ed42702"
+            "sha1": "624389b93683976e31720c24e3ccbb41a41e11f7"
         },
         "File/Double-Barreled_Bounty_Hunter.png.json": {
-            "sha1": "61b4603009b0c221171a9ec68b3703be383d8b43"
+            "sha1": "a65d7301fd917ff6de5ca0b72217c6d3775aad7e"
         },
         "File/Empathy.png.json": {
             "sha1": "4d27e4aead3c00763cfe27757ba006828e2ea21f"
@@ -14542,7 +14542,7 @@
             "sha1": "a4e3bd8d2ed185b6a9e99ce3ccc4ddfda81c14e1"
         },
         "File/Enduring_Cash_Out.png.json": {
-            "sha1": "5a30262f3d39eeb509f96413204192d32ab4c9b5"
+            "sha1": "bc868646782f6498a4d808ea6dc8e3ca6dc95f43"
         },
         "File/Enduring_Chaos_Theory.png.json": {
             "sha1": "18f1b92858b22a1d3ad6d4ccab4c8b63c2bae46a"
@@ -14596,25 +14596,25 @@
             "sha1": "b0bedf12ddff2309fbfd697efd58fa62afc46c7f"
         },
         "File/Enforcement.png.json": {
-            "sha1": "639b42ed92398f8eef5bfb50e53541481f38bade"
+            "sha1": "c425748a78bf97269c54080b02ec7ad24271891b"
         },
         "File/Enhanced_Blank.png.json": {
-            "sha1": "5e930671e34b457586bc91ea9da388b3babcff4f"
+            "sha1": "23abb1dacbb3f88e213219956efce0124832ef7d"
         },
         "File/Enhanced_Charm.png.json": {
             "sha1": "8beb25bc923fd5b97717500ae0b38fb857da015a"
         },
         "File/Enhanced_Decency.png.json": {
-            "sha1": "279c6272ffe620ecfc71a16f8d652ad9c9816e58"
+            "sha1": "a7ae6ad99fcd675a677fd6ce86d071eafb7b3624"
         },
         "File/Enhanced_Grunt.png.json": {
-            "sha1": "6fc81d9116d6d2a17aec94a04431b6132a9d42b8"
+            "sha1": "0a6edd5d5ea9aa847dad63496de4e811664a45b4"
         },
         "File/Enhanced_Heavy_Handed.png.json": {
             "sha1": "ae017ee39c3024eb3097654f7d6bbdd65d641b31"
         },
         "File/Enhanced_Helmet.png.json": {
-            "sha1": "6a1667a39a91c3e283ec2ed257b8e44a3db9b527"
+            "sha1": "2194fb905a7f796bf29dc001a3127a8f10cc15fd"
         },
         "File/Enhanced_Overbear.png.json": {
             "sha1": "ebfaca21211e6754cf56de40d42b9071b8a3c32f"
@@ -14629,7 +14629,7 @@
             "sha1": "f87273a8069aafece369fd8e2078542451c278ba"
         },
         "File/Erchin_Musk.png.json": {
-            "sha1": "6090c141126f9fce5b441c468ac1159ef061758d"
+            "sha1": "d107dc1c449f45393c2d21dc5d73ced96a90fde3"
         },
         "File/Ergo....png.json": {
             "sha1": "286faf14f6ad0664be0ea3c66af4f7f86bab0716"
@@ -14656,7 +14656,7 @@
             "sha1": "97995e291b3619157ad0aa789a6636b5a68643e6"
         },
         "File/Final_Do_Over.png.json": {
-            "sha1": "b4fee9cfe2a4cec527b06321d5dd357f115ea957"
+            "sha1": "4b46075f618f681140fcb402f8bf44c24ddc354c"
         },
         "File/Fixate.png.json": {
             "sha1": "76632b77a3b7f243b4ddd777dfe542e04e15702d"
@@ -14668,7 +14668,7 @@
             "sha1": "81c636a6f623ee7123c34152ea066427d1b52ecd"
         },
         "File/Flipside.png.json": {
-            "sha1": "c51689452bd069d3688dbac45bd64b810697745c"
+            "sha1": "3e65a3139f4c66ce384a71fb7d3cacb837b7f2d4"
         },
         "File/Focused_Elucidate.png.json": {
             "sha1": "2f9b49991d5f875340a587dee336c7581a87951d"
@@ -14677,7 +14677,7 @@
             "sha1": "8bb3bc6b4643f990d07435f3c86b0e429aa40df4"
         },
         "File/Focused_Prattle.png.json": {
-            "sha1": "8a69563fba5be183306254221401d7bcbcb2a13b"
+            "sha1": "5e5c3d947e21ede3f1bddc432137fbcf54d44613"
         },
         "File/Foot_Ante.png.json": {
             "sha1": "864e6b8b7fbaab81e359544fd60a93f085ba41f3"
@@ -14776,13 +14776,13 @@
             "sha1": "713442e75c3f1748e7b8a4a3d68b3e8bb978ffa7"
         },
         "File/Exhaustion.png.json": {
-            "sha1": "273715e7c7dffa4d1c4d834bb486d46260ae3fe9"
+            "sha1": "21957927f257047a70755c893d76665e5d35ef42"
         },
         "File/Extended_Accuracy.png.json": {
             "sha1": "31a24efc3b2787b0aca0b241732e299b863fbab9"
         },
         "File/Eye_Shot.png.json": {
-            "sha1": "27b9434e0dbf67ba385324a129fadda4c2256572"
+            "sha1": "5771c67256641a91d496633bf0fdcc056cf238ac"
         },
         "File/Fan_The_Hammer.png.json": {
             "sha1": "8771c380ed65484b598baf9b9cbe2c5286b5b1de"
@@ -14971,7 +14971,7 @@
             "sha1": "921a262411ed570edba70e46f7403feab8c483e3"
         },
         "File/Callus.png.json": {
-            "sha1": "274ae04a3ffc4e83a9c476269c70fa345466b023"
+            "sha1": "fc79a83eca37c2a3c39acaacb42472df1dbd792f"
         },
         "File/Cancel.png.json": {
             "sha1": "093fb052d39b20e67b1d8180732615dc6a39782f"
@@ -15178,7 +15178,7 @@
             "sha1": "06e4e4613f87a706f27dc8e260a0bc8d7bfa8de5"
         },
         "File/EH1076_Discharge_Pistol.png.json": {
-            "sha1": "5dd2cb7d39ee09321f2b141e3801e64b7f24ae10"
+            "sha1": "7a4015e5f08388d1e7788f6553842d0a8164edbe"
         },
         "File/Emergency_Shield_Generator.png.json": {
             "sha1": "5e669d3625057acfb01f91c69bc1646f0ba7aea9"
@@ -16636,34 +16636,34 @@
             "sha1": "717116731dbee56e4a0cbffae7a5c0ad05a638c3"
         },
         "File/Grisly_Trophy.png.json": {
-            "sha1": "f2bce41ae564873ac356252d8b0d782893d21a67"
+            "sha1": "331ef7fbccfc3b0af258f0dd8d975888f274b43f"
         },
         "File/Gruff.png.json": {
             "sha1": "1ea6ba33ac76de37f9abfb3c8f44adab7f380e67"
         },
         "File/Grumble.png.json": {
-            "sha1": "da5c1d7852353bab79a305b86305d79b0858d9e7"
+            "sha1": "cf6e1fcd15f8d50cc3d5dc730e2fa68c0b2e8df0"
         },
         "File/Grunt.png.json": {
-            "sha1": "8d174759d72b812470e2d98c4224fd4d0f5c1853"
+            "sha1": "a26aaf22d57ecbb5d78f27a185a9a6ea146e1e01"
         },
         "File/Hammer_Price.png.json": {
-            "sha1": "3c512a7be1a115c9ddf8d997aaacaf7924761ddc"
+            "sha1": "ed1a729b3e25c60130a4980ff2564b02d165782f"
         },
         "File/Hard_Facts.png.json": {
             "sha1": "c7e3901e2d8a1f94ebeee4094a65c27297f9bc78"
         },
         "File/Head_Shot.png.json": {
-            "sha1": "818f578506102b7159846469ce5b98440efb78f1"
+            "sha1": "e1d05547e6591ac6cf6775aa107ec9f4d44e488d"
         },
         "File/Head_Split.png.json": {
-            "sha1": "790009b06285fe3f362c306081b054c385210a42"
+            "sha1": "5f72238c214e1edf4bcffb5a52acaf7e3f1af5e9"
         },
         "File/Head_Turner.png.json": {
-            "sha1": "5283bd6ad62b24636f32e854591b9d686b221376"
+            "sha1": "36c48da595228f1c14a933559965e0ee5131ddb3"
         },
         "File/Headbang.png.json": {
-            "sha1": "e6f2d58c53599b2b43651b39c391c29957164b8b"
+            "sha1": "48f8fe52b41c99fedb281e00b923882a5e536572"
         },
         "File/Heads.png.json": {
             "sha1": "1c9a9f23bb8479c4c06885440055e94f09ba2832"
@@ -16675,13 +16675,13 @@
             "sha1": "9cf1711066a5f6db20d84c45bbb3202b9d810661"
         },
         "File/Helmet.png.json": {
-            "sha1": "c8217272b16e29a91a1789b97cbe99c4adf2a3ce"
+            "sha1": "cd7d5fb2cc3c3e81495aad7436c8c0d26e18d177"
         },
         "File/Green_Juice.png.json": {
             "sha1": "2c20dbce5d4b1d129495c0e43bbafd2232ceb4d4"
         },
         "File/Headstrong_Rationale.png.json": {
-            "sha1": "ffd92c422ad1d15a7e774e0a470296558f723a90"
+            "sha1": "9cc910af992ccbcf5846d20f0e1eb49fc189be1e"
         },
         "File/Graven_Muscle_Memory.png.json": {
             "sha1": "d74cc649f998ceeec15b024ef747cbf8bc2c26c2"
@@ -16762,10 +16762,10 @@
             "sha1": "3f9b133df8c7eacf65ce5af6e8bb08110c5d085e"
         },
         "File/Heartburn.png.json": {
-            "sha1": "1dc9b75e664bbf110f9b1a69f8aff0bf76495366"
+            "sha1": "808a6abff58a1c52e2c2a41dad7223319429c4c2"
         },
         "File/Hearty_Noodles.png.json": {
-            "sha1": "a91d7fcffe82eb1d55138121be97c53e38d49c19"
+            "sha1": "a4112304dfa005d9aed74b84c2367de28cfd70aa"
         },
         "File/Heavy_Anchor.png.json": {
             "sha1": "175fcd671177d0407b9a00b055439027bfa44444"
@@ -16795,7 +16795,7 @@
             "sha1": "994e684a0c351c0e4f89b40ebaaf951964f84bae"
         },
         "File/Gumption.png.json": {
-            "sha1": "0e71caae1892841ef0f9e5802c0353b66ccadf0c"
+            "sha1": "50800b8cf374cc154843f97400a72087d2d63324"
         },
         "File/Grim_portrait.png.json": {
             "sha1": "5d5027e7d3a094c36e20bb90816ae0ffbbb583c0"
@@ -17440,7 +17440,7 @@
             "sha1": "ddc33e56612be59c3e8a8b2126f52a6eb82d682d"
         },
         "File/Matter_of_Fact.png.json": {
-            "sha1": "cced8454a4634d14014b504aac8ebc9c67ff0c41"
+            "sha1": "8ef4b6d3c46a097e501e13b982b4e1a166099803"
         },
         "File/Muddle.png.json": {
             "sha1": "8c8b6a5abbc160589f752b8c6d5d266265453a9f"
@@ -17659,7 +17659,7 @@
             "sha1": "0ac5ff514cf581524e307dadd3b4fe94f1f1656c"
         },
         "File/Liquid_Courage.png.json": {
-            "sha1": "46f41e614d7dd62c866eb13da33b7bd4c7f2cbf9"
+            "sha1": "29b3902b9469a4162559112183634b8d39ec8a8d"
         },
         "File/Long_Winded.png.json": {
             "sha1": "e014fb1c21499dfdc7379cf9f0b40b5eb8e307f0"
@@ -17671,7 +17671,7 @@
             "sha1": "8f33d68e160b0473593d00f098c6c421289e2752"
         },
         "File/Hip_Flask.png.json": {
-            "sha1": "8d3fcd17451825f0bc7b50b8d79ad7dcd32ed6a8"
+            "sha1": "b65cadfaf8d8dff6d3c3c2c2f7ab84e3b8caf6b4"
         },
         "File/Horrible_Rash.png.json": {
             "sha1": "3b6909fe1488c4e9a23c2208fda49cd25efe7aef"
@@ -17680,7 +17680,7 @@
             "sha1": "c242cfcde5ca041c68473daefae1d3b1215b48fa"
         },
         "File/Hush_Money.png.json": {
-            "sha1": "e12d4919f5303ca87526d13ca19864856b7e1644"
+            "sha1": "bf40db1fe7ffaac97dde1c81e936fb5f219fd754"
         },
         "File/Hyperactive.png.json": {
             "sha1": "58d2c42568c2033a82cb2a8e073d2bc61d238770"
@@ -17689,13 +17689,13 @@
             "sha1": "60849c4916713eb74301b734772da95da82ae4ce"
         },
         "File/Important_Admiralty_Intel.png.json": {
-            "sha1": "55049c569b810e43847dc473be0b791c523bb9f0"
+            "sha1": "b379085d10c9fd09e375142f2a6d2b8a992de13d"
         },
         "File/Influencer.png.json": {
             "sha1": "68ab66946e2214fde18ff5935f6244f14658d520"
         },
         "File/Insider_Information.png.json": {
-            "sha1": "6796f9ef5127e3f0bc265aa9361c1c719d4b5ba0"
+            "sha1": "66c53210e77d6dc50d72680aa4d886981823b746"
         },
         "File/Insistence.png.json": {
             "sha1": "a0325a0f72ae698ef966d6763f7a7f625af8d334"
@@ -17707,10 +17707,10 @@
             "sha1": "e92002c01c0a6d57e697b0ec9948eb151a3a943f"
         },
         "File/Insult.png.json": {
-            "sha1": "43e00f92bbe8b7aa8b9814e7970581a5406a76d8"
+            "sha1": "2bc24f405d58ea39fa28fb122e649c729f42ad24"
         },
         "File/Intimidate.png.json": {
-            "sha1": "d88ba57ddeea6e9496e8b563a52199f651f962f2"
+            "sha1": "7211dbc6ce5dbac4d8773bb9136f8fcb802fc5ad"
         },
         "File/Intrigue.png.json": {
             "sha1": "3c8ad3c107e0774424124a9b512c97fc278ed192"
@@ -17722,10 +17722,10 @@
             "sha1": "0f08fc23f5b17ed95d6b33b2153dfd27e94cb217"
         },
         "File/Jabber.png.json": {
-            "sha1": "c0c93332591fc78acc3aa329272a865a8b96705b"
+            "sha1": "3362956f3870e3ef8d78a87ba17bce30e15241ab"
         },
         "File/Jargon.png.json": {
-            "sha1": "880fda24b8487c1bfddace9733c54ede79ec2b3f"
+            "sha1": "043d51fdd177d710112322ec971d679858adba62"
         },
         "File/Just_the_Facts.png.json": {
             "sha1": "5aa01c745a7a79fbdd9a691eb24a4d08e4dfeeca"
@@ -17737,10 +17737,10 @@
             "sha1": "58efdff60ac59f148ecf3af080aec123732ca748"
         },
         "File/Kickback.png.json": {
-            "sha1": "ff98cf6cdb865f0b7791805eadb1495ea7c2fb79"
+            "sha1": "a82e534fd285778a792813a4d94abaedbcc1267b"
         },
         "File/Killer.png.json": {
-            "sha1": "bda20f2c427b32720e67929550fa720b7dbbfe46"
+            "sha1": "8843899f8f3c1a28ed617dd9a9015a829cfc8374"
         },
         "File/Know_It_All.png.json": {
             "sha1": "23095fa35dbc37b8aed7853bd550a54529c8ef56"
@@ -17749,13 +17749,13 @@
             "sha1": "a441b262ad6dc51cbe95b4f05f91cc371f9e8508"
         },
         "File/Known_Thug.png.json": {
-            "sha1": "6fb4985e68f4112811bd5c6a4c4a8a587d7b3d4f"
+            "sha1": "1456e36a89ff74dd07a503e0240f5e9ba5888f45"
         },
         "File/Lean_Time.png.json": {
             "sha1": "9d9edbf85dedef359b121d9d7bbe49d226efe118"
         },
         "File/Lean.png.json": {
-            "sha1": "f0b91d64330f476af884b320759340c376ad42a8"
+            "sha1": "e6923d5f7346e44c00145a11ffb519068c0fbd50"
         },
         "File/Level_Orange_Clearance.png.json": {
             "sha1": "2e3bda5754e4143228e2a54a34250fb0d1fdf827"
@@ -17773,13 +17773,13 @@
             "sha1": "ea9dd8f10c9ff2e9a674c8a327809255603d964a"
         },
         "File/Initial_Foresight.png.json": {
-            "sha1": "dd1f381e4c97d6df6b2b198bcea267b5b49b4918"
+            "sha1": "ccbc3ee6d10a256205b41b11afeb3198bec9ae97"
         },
         "File/Initial_Pinch.png.json": {
-            "sha1": "cda5149b928486ad727db056757edaba24412914"
+            "sha1": "8de0b175cea3778db4a0308981ee7786d0714c2b"
         },
         "File/Initial_Stacked_Deck.png.json": {
-            "sha1": "359d9277d03db73f97096452f1b53e1cd8a6f5d2"
+            "sha1": "8f7c89be26dd6c7265c1666b5623237afbca18f1"
         },
         "File/Inspirational_Talk.png.json": {
             "sha1": "4aa7367af736d22ae23e90ab70c50e6995f5a700"
@@ -17791,10 +17791,10 @@
             "sha1": "edfbce274a2d91a088a725f82c321efe626c50bc"
         },
         "File/Lucid_Grumble.png.json": {
-            "sha1": "8e82935a1a27d14b755d18b8bb389ea4664557e8"
+            "sha1": "33aa4ba87b8f564e0b583b3b960276a86c2e83a7"
         },
         "File/Lucid_Pleasantries.png.json": {
-            "sha1": "0c089f08c7e8d26901cdaf9b4deca9f4b20b06e5"
+            "sha1": "bd2f7dcd8d5d0e04940728e5e1022173c7dee830"
         },
         "File/Lucid_Threaten.png.json": {
             "sha1": "e32ef25659436539fd96c8764f6ddc8b7b6b5dbc"
@@ -17815,7 +17815,7 @@
             "sha1": "832e63414dfc5c4d47b97d9f32db56e997995c29"
         },
         "File/Mental_Block.png.json": {
-            "sha1": "d61c28aebd2fb6744b244195e77535b7976a86f2"
+            "sha1": "067d84741681227bfa574f66972f7a8d45e9bfe1"
         },
         "File/Mirrored_Anger.png.json": {
             "sha1": "dc785b9dae0650d62723dcb9c6f46b986b5489d5"
@@ -17842,7 +17842,7 @@
             "sha1": "acf74eddcc11bad95670030cf073b2643da14595"
         },
         "File/Initial_Strategy.png.json": {
-            "sha1": "15f9527d11a3d6bfbc38bb7b7e08c30913f6217a"
+            "sha1": "55d9fda4028e70f112da77cbcfafd67d0274eb82"
         },
         "File/Lucid_Bewilder.png.json": {
             "sha1": "21296f49c622d619d08aea3be124fe4ee724f8a9"
@@ -17866,7 +17866,7 @@
             "sha1": "9f2779ce63eb5029897c6c6cbf76566f1f782963"
         },
         "File/Mirrored_Grumble.png.json": {
-            "sha1": "9b2ecf55792b6391f96195a1640171e34261f4a5"
+            "sha1": "c32ee18fa4ebf811d533b0d74e5501a01ac6fab5"
         },
         "File/Mirrored_Renounce.png.json": {
             "sha1": "89782c35ebce2158313b8aadc9c3a3aabf473538"
@@ -17875,7 +17875,7 @@
             "sha1": "cd23fcd8d250d1f9fc680a14e9c633e1a6e8d13d"
         },
         "File/Muck.png.json": {
-            "sha1": "9dabd4297b5cffd8f70b3d6474c291f9c6437de7"
+            "sha1": "e6e450b6c749c391aa69c09bc7ccfd81e198da48"
         },
         "File/Hide.png.json": {
             "sha1": "c6fe0ad76bf020cfbb4bd7c39b3d82daeef3fc04"
@@ -17887,7 +17887,7 @@
             "sha1": "f13fab842c44874e4618bd0bec729deadb6782b6"
         },
         "File/Hologram_Projection_Belt.png.json": {
-            "sha1": "64f933f9280c8ed1c8d08ff2dd4d13ffc02a1abe"
+            "sha1": "c030fc76eda7a42b35f2fc272621828c69818b9d"
         },
         "File/Hunker_Down.png.json": {
             "sha1": "55fb4105f3fc27c10a0b1b1d47c33b3183f4f592"
@@ -18058,7 +18058,7 @@
             "sha1": "1d863925ce7e3207e46f090d0be2899967425615"
         },
         "File/Lean_and_Green.png.json": {
-            "sha1": "c28101faf36494041497ec7e466faee7815172d3"
+            "sha1": "7f28b9ce0c66f4e52bbcb3977b5a8e26b3a7f98e"
         },
         "File/Learned_Drone.png.json": {
             "sha1": "bc2ef5a3aa1e3eb6abb02ebe29a40878dd92b4e3"
@@ -18136,7 +18136,7 @@
             "sha1": "c51f1548e4804626e82696180f9347597c6eef16"
         },
         "File/Lumin_Kunai.png.json": {
-            "sha1": "2db458e4baf191885774275af44a9fbaee0a51b2"
+            "sha1": "2a82118d99b2a253daa58bd4a5c3a03913dc513f"
         },
         "File/Lumin_Wine.png.json": {
             "sha1": "a0e7e33b1cc20f1a43318834941cee52bcd5cdb1"
@@ -18457,13 +18457,13 @@
             "sha1": "a7bab20fad0e71105a0c7a8858040655a13e68c2"
         },
         "File/Prattle.png.json": {
-            "sha1": "32f513c28232675cf1abdd242bcadb5d49aced02"
+            "sha1": "e20219c388d6f5fef3c65966cc7743b7121ca7d0"
         },
         "File/Offset.png.json": {
             "sha1": "ac4ad49ae499b5a4d4b6457a09262fce8c88fb76"
         },
         "File/Obligation.png.json": {
-            "sha1": "09f391d16e99ce52f1fe5205d5e5ebfe06d96c7f"
+            "sha1": "e1fcaa35dcbf3f9bde82f173b9852dbb7664acdd"
         },
         "File/Prestige_Update_poster.png.json": {
             "sha1": "4dd11c3200a036227f61ee9d5c855fb69da91cd0"
@@ -18664,7 +18664,7 @@
             "sha1": "55a83f2860bbded4182645a43d802720d7ebae3e"
         },
         "File/Rise_Manifesto.png.json": {
-            "sha1": "e0852a7828b9d860131f9b9341ee3ec426a42f5b"
+            "sha1": "9a399f332bd5c7827fcc9cba9af68205b4e3c6cd"
         },
         "File/Perks_Update_poster.png.json": {
             "sha1": "669b449e433d86feb9b13fde31bcc12ca8638e63"
@@ -18844,10 +18844,10 @@
             "sha1": "abef5b3d9555e75d21167685c46aced0eaa496d4"
         },
         "File/Permits.png.json": {
-            "sha1": "797b28a1b762b0062e915a16b2338fd30c67161a"
+            "sha1": "5aee4ef6403d0cad8d5052a8012bde2afad54cc7"
         },
         "File/Pinch.png.json": {
-            "sha1": "7dddd247152855068dfb36ebc1f1e7438cb4cfbb"
+            "sha1": "8c4c54c4e76bcab519153a9e51c6d51163040e4a"
         },
         "File/Plastered.png.json": {
             "sha1": "343a3834c9cef4bbe656d86aae6e7bb21c85f976"
@@ -18856,22 +18856,22 @@
             "sha1": "e6988fc014a720bd32ffdd666257dea79b466201"
         },
         "File/Pleasantries.png.json": {
-            "sha1": "0309d78770e3ec75c554cf612cd6de5f45f41b27"
+            "sha1": "5ff0ebb47043f29709f7f2e5225e60ff6af0c29c"
         },
         "File/Praise.png.json": {
-            "sha1": "d1077ec74f6a1d9c6a3c968f38fd46e35b6f6175"
+            "sha1": "b92727ffdb9da4caa70fc074d294b76921a4e492"
         },
         "File/Pressure.png.json": {
-            "sha1": "5ed2a9b955fdfc52a2b15770dd059a1e400e3689"
+            "sha1": "35da8107e98cbb82c5050f67c1543ec71e046e2b"
         },
         "File/Prominence.png.json": {
-            "sha1": "8d18d974ddb40998e543f054ffde85348f5546f1"
+            "sha1": "1a51a24479c34fce53c023391b563f622ec8dd0e"
         },
         "File/Propaganda.png.json": {
-            "sha1": "601572126281b905ac59aa239d9bb3dd629145bb"
+            "sha1": "3af64dbc81db714cb9d0f0b14f853a72f6a60bdc"
         },
         "File/Proper_Channels.png.json": {
-            "sha1": "7049db9284c14e5731cbde65bef5ab7acd8791e3"
+            "sha1": "3f858f3b122344127240261d410a5d1618f49d8f"
         },
         "File/Pure_Crass.png.json": {
             "sha1": "0f5a70b6f23f7029ee78504e2c385c755e5d976c"
@@ -18892,19 +18892,19 @@
             "sha1": "3ccac18666ddcb588b6c7edf0bab0e021719a758"
         },
         "File/Rant.png.json": {
-            "sha1": "ea580604996716e63eb89ce1ad9a0fce171f77fe"
+            "sha1": "f7b6b39ad4fd386ed83ab12c120b31b2e0eff3ed"
         },
         "File/Rationale.png.json": {
-            "sha1": "e75d6d15dec27db1391d88411363e9359e6b9a34"
+            "sha1": "956582024eb89a93e75c753339be041a5849e999"
         },
         "File/Raw.png.json": {
-            "sha1": "886b641ea5016e35fd702fd488b6fd401de031c7"
+            "sha1": "1f0b246b09f4345a4e24aa3c5db8550fcb6b38c3"
         },
         "File/Recall.png.json": {
             "sha1": "1eb4952f8d3531ce47ecdcff714c950d9eaacdc3"
         },
         "File/Receive_Support.png.json": {
-            "sha1": "76afb45a53ae240b89a2c1678c16ac3bf4a7bbef"
+            "sha1": "c571e73e1d3672eec53b1177ea4b59a6f2439dc7"
         },
         "File/Reckless_Insults.png.json": {
             "sha1": "bf13123c226e60d8bf5140d15b6a3e7def6610c2"
@@ -18913,7 +18913,7 @@
             "sha1": "63f87378ccf7c691c25511fc5e909336a2d393a8"
         },
         "File/Red_Herring.png.json": {
-            "sha1": "53561837464eedba5230508c3ad62404b8190580"
+            "sha1": "b11fb8c82e6613eeb7610203fd31b8a46f720114"
         },
         "File/Refusal.png.json": {
             "sha1": "c1494cf2d259c8f1f4495f4e1023ba324926521a"
@@ -18925,13 +18925,13 @@
             "sha1": "b62a6b1563e323827762f2151d2154f00394deea"
         },
         "File/Reputation_Preceding.png.json": {
-            "sha1": "b7dd2bc2907f376f218ca906b84621187b60450d"
+            "sha1": "0c602ab07b094b248b11d6f51f9eb8975d58d5cb"
         },
         "File/Rescind.png.json": {
             "sha1": "8f1afe24799f6e127d38993c50f9dfef1b8a5e88"
         },
         "File/Resilience.png.json": {
-            "sha1": "24580eb88045406f77e308266c1420fafcce9c9f"
+            "sha1": "f366589daa28bc006123d997ddea43cd7f69fa12"
         },
         "File/Pale_Evil_Eye.png.json": {
             "sha1": "71d5e66b57c66efd52b56366c9ddbd76148fc131"
@@ -18943,13 +18943,13 @@
             "sha1": "b7304985d15ab706dfe6670a580fd3465c89112b"
         },
         "File/Pale_Final_Favor.png.json": {
-            "sha1": "31bbd534b065ad9cc0166ff59584c3f70502a4c5"
+            "sha1": "157cb59487a9313443ce15e2630bdbea5256e74f"
         },
         "File/Pale_Fixate.png.json": {
             "sha1": "da0bbe7981bdceb3da350f396f9c152ff1a5b733"
         },
         "File/Pale_Foresight.png.json": {
-            "sha1": "e20a03773291f677fc007a3416f8be3f088387cf"
+            "sha1": "82d84f7dd62657de402e19f15397c60a6bfaf23a"
         },
         "File/Pale_Forgo.png.json": {
             "sha1": "b77c8c07d9c8cf11f10ddd293638f91db718b720"
@@ -18961,7 +18961,7 @@
             "sha1": "c99607108bce26d1cc94e6d0367e15865f005ab4"
         },
         "File/Pale_Head_Shot.png.json": {
-            "sha1": "c5e4fda1507e1d146e9bb92ff9242298b26a646c"
+            "sha1": "ce1308b791ec2cd0a8983d52c87b2ea8012e7319"
         },
         "File/Pale_Heavy_Handed.png.json": {
             "sha1": "c2e11c607cb4099cee6f2776a78b017574e664e9"
@@ -18985,7 +18985,7 @@
             "sha1": "feead2399b73aa918d9250ce4410b6579a240ccd"
         },
         "File/Pale_Matter_of_Fact.png.json": {
-            "sha1": "5653cd4579b163a5923aa6d67b21621f1a497325"
+            "sha1": "f822233c1be24ab2ee783fda8c9cb776fd8804d6"
         },
         "File/Pale_Menacing_Air.png.json": {
             "sha1": "a5afb5574169db98b995fb203cb1b97677ae543f"
@@ -19015,7 +19015,7 @@
             "sha1": "b805a60e392c3864bb35b6af403dff67cc597171"
         },
         "File/Pale_Red_Herring.png.json": {
-            "sha1": "98b73864008d2e748fd8ba176abc66b7911fcc23"
+            "sha1": "14d1bd2452d4db847cdb9421d5d2a65c45bdd970"
         },
         "File/Pale_Refusal.png.json": {
             "sha1": "e149c91f44af974ed11a76030514a26216f15601"
@@ -19039,19 +19039,19 @@
             "sha1": "3927d4197007983f77daf05f8218f558dec61bd0"
         },
         "File/Pale_Snail_in_the_Pocket.png.json": {
-            "sha1": "666a7d69772712574b4648958262f05685926e53"
+            "sha1": "044cb663530d85f020e9d5f4d712c1605b220433"
         },
         "File/Pale_Square_Up.png.json": {
             "sha1": "4559ea2b4691bb3062f1f2dfb295724ffb2a6178"
         },
         "File/Pale_Stacked_Deck.png.json": {
-            "sha1": "22bd333b22483667721a7978baf2a212a4268d26"
+            "sha1": "31fb74e03116bba843d8974b6ab6d0187afdd4f4"
         },
         "File/Pale_Standing.png.json": {
             "sha1": "06eec95ea550f4176215b58d8dc30db9471b9deb"
         },
         "File/Pale_Strategy.png.json": {
-            "sha1": "329a203f7b516ca8a8e59b7c721a63cd534adf05"
+            "sha1": "40d4c27b2854d137ac45fbad8a8814a9aa1654d6"
         },
         "File/Pale_Subtle_Setup.png.json": {
             "sha1": "418b8f49585e886110bead0a621a3349c21c4076"
@@ -19063,7 +19063,7 @@
             "sha1": "30f52a2957d5456bd24023990bcffc37ace6f768"
         },
         "File/Pale_Trade.png.json": {
-            "sha1": "803d2ab9bec03157615d07126ab9ab6173ea966e"
+            "sha1": "3bd92e6c14e279b0dddd0d0571b7db5cb435f03e"
         },
         "File/Pale_Turnabout.png.json": {
             "sha1": "6869605ab24d1910c8efe897ad6d29f4dbc010a2"
@@ -19075,7 +19075,7 @@
             "sha1": "86ddf0c1801ffbb296d7f4de7bb225a857b758bb"
         },
         "File/Pale_Weight.png.json": {
-            "sha1": "2bc2ea05df83c5c772c23c522976074216707d8a"
+            "sha1": "6f85efb06cc3551b8dec66b635f8c5fb25dd77cb"
         },
         "File/Pale_Wind.png.json": {
             "sha1": "58f47882b2362688c46a5b9e9b0a0b9697b6573d"
@@ -19084,7 +19084,7 @@
             "sha1": "76fdb9daa29d51d333e50efd32b0cf9870da4af5"
         },
         "File/Rigged_Grumble.png.json": {
-            "sha1": "7650d4822fee7a1fb25ac06a88ef1c321c042868"
+            "sha1": "88a2febb39ef841f66e13db5d33a2ef0e37c36b2"
         },
         "File/Name_Drop.png.json": {
             "sha1": "76a0a50aba07c793f9145eb6431420f2d5d78786"
@@ -19096,7 +19096,7 @@
             "sha1": "9872bcfc6501ee1346b94f74f64ca6d6fd20fe04"
         },
         "File/Night_Shift.png.json": {
-            "sha1": "9136bd23639a2344ab3559396958f475c7f9fd97"
+            "sha1": "72478ba7d36f596d9a483c1e5675f83444e2b4c8"
         },
         "File/Non_Sequitur.png.json": {
             "sha1": "0d85fc84605d2636f38cb9909d81c485e6c3aff0"
@@ -19111,7 +19111,7 @@
             "sha1": "bcc8b346fa0201141d2d070952481b74edf3d7e3"
         },
         "File/Opened_Admiralty_Envelope.png.json": {
-            "sha1": "4cb46015e1d283754ea4e4f87794d318b461bbaf"
+            "sha1": "f810ae8a281add65e55eef1b394078a68c18d307"
         },
         "File/Oppress.png.json": {
             "sha1": "23395ac32ea5285fa7cb8e3b9f06f4e8f53ddc54"
@@ -19123,7 +19123,7 @@
             "sha1": "b4a51d1329f5bd49ed2f2bef2f1b8a044d8f23f8"
         },
         "File/Overwhelm.png.json": {
-            "sha1": "081d91579b5fa612d720195e88621c5af26e9f78"
+            "sha1": "a1fe10c20b14dbbe2487ec5604d376e07c23f76f"
         },
         "File/Pale_Ad_Hominem.png.json": {
             "sha1": "8b80b51ba2105976646af99007505103cc76b122"
@@ -19144,7 +19144,7 @@
             "sha1": "ac296b7b6b8d0f257d7688170542ffe2d1bd726c"
         },
         "File/Pale_Bounty_Hunter.png.json": {
-            "sha1": "6c764ff1c460014b84a4bb5a9ce2e729b9ef80b5"
+            "sha1": "274babc6592802315651d3b1264c86ed2db97955"
         },
         "File/Pale_Calm.png.json": {
             "sha1": "c24af0e87d2d08bdbb072d4fc0722b856d038a9e"
@@ -19159,13 +19159,13 @@
             "sha1": "8775230bb7f48d4b7af272af0db04d5e7f2a808a"
         },
         "File/Pale_Dead_Draw.png.json": {
-            "sha1": "3a0c084970f373081aeda9e27a67fb4f21c41e48"
+            "sha1": "bd56f8b10376f82b692467b4a2dee0125ab295a3"
         },
         "File/Pale_Deceive.png.json": {
             "sha1": "84edb34ca1880b2d53ff6b0a4ea1e8bade420925"
         },
         "File/Pale_Dilemma.png.json": {
-            "sha1": "81c2ab73011ecdca2314ea593325a520ed293ad0"
+            "sha1": "17f12b9ce1e764f8ce8a67910eaee68f7e159ef9"
         },
         "File/Pale_Disregard.png.json": {
             "sha1": "2df346ff8369b81db1333773f718943faffb0f1b"
@@ -19207,7 +19207,7 @@
             "sha1": "46e1662c24555986fe6b84ab5252aa4a98bc3257"
         },
         "File/Promoted_Trickery.png.json": {
-            "sha1": "49aaceaafc46201c534d7d38ccef210784a4a202"
+            "sha1": "271092adce5754c1636c9f73ca772b2c101c0290"
         },
         "File/Purified_Know_it_All.png.json": {
             "sha1": "346ba43d0eeb8465c6a9fd282e52b91e16eb2038"
@@ -19219,13 +19219,13 @@
             "sha1": "599c30425b5f9b93c3bb6b89485d266f371c6f2c"
         },
         "File/Rigged_Pleasantries.png.json": {
-            "sha1": "2e58b8e12ab0a4460d9c0b5ac1d7adefc23be31e"
+            "sha1": "7b8406c81062a85360d3182da884d8da00150cf7"
         },
         "File/Rigged_Radula.png.json": {
             "sha1": "6e484f108704a04fa69fb195d3ea7bf2c66be43f"
         },
         "File/Rigged_Snail_Hunt.png.json": {
-            "sha1": "a05d8abeade34afdc833d50d6dc6a45a6ccb1023"
+            "sha1": "512bc32b02f8b5af32ab58570ea9e347a41593bc"
         },
         "File/Nadan's_Blade.png.json": {
             "sha1": "0b0fbf79063533416989d86d4123d95c27c0eee8"
@@ -19321,7 +19321,7 @@
             "sha1": "ce419e9b42e2f47908f057626f9a1b0a61f302f0"
         },
         "File/Pale_Callus.png.json": {
-            "sha1": "ed701061457647fc480168cba68e5309ca546444"
+            "sha1": "30aae7a637dd9cf4bd6d4bd08f01a7d7d67528c3"
         },
         "File/Pale_Casings.png.json": {
             "sha1": "54a2f7a1888079a2c660202f90dbb154e785758d"
@@ -19582,7 +19582,7 @@
             "sha1": "5cca9e9c7ccc5e15fb827d4dd4a6d6b74c641765"
         },
         "File/Quick_Jab.png.json": {
-            "sha1": "ef8eba873961f2fa8e1c10e75dceb6c04448d295"
+            "sha1": "ff8749e97b093f793488f247d78045388aed0255"
         },
         "File/Rain_of_Blades.png.json": {
             "sha1": "da4c51759fd17b9482ebc68b0d6a365835447bb4"
@@ -19636,7 +19636,7 @@
             "sha1": "ce8a96a0606204f2dd3cf97a2a120bf57eb7e603"
         },
         "File/Rentorian_Force_Glaive.png.json": {
-            "sha1": "c473623e460f84cf35ce8ca704613d8c0ff0afe0"
+            "sha1": "8122111ff60a644e746252ac08bc71ccc0ccf620"
         },
         "File/Replicator.png.json": {
             "sha1": "3957bc3bc7d08957c5aa14d309e3fe6357ed5b06"
@@ -19933,10 +19933,10 @@
             "sha1": "f59676193f534f658b1f703b699aaa116c47974a"
         },
         "File/Seethe.png.json": {
-            "sha1": "693b3d9007ce8f26ed6cd8cbb01d94a314a34b03"
+            "sha1": "1d56ff60dd338debaba9e1227234876595b0a8be"
         },
         "File/Tantrum.png.json": {
-            "sha1": "288ffe08f385b7c9611bab5e70c8343eea0ece15"
+            "sha1": "9ad60094389351fe18494f25481acdff221cf449"
         },
         "File/Shock_Therapy.png.json": {
             "sha1": "23aa10b69b214192f70d5cea12dc8a82851d55ad"
@@ -20053,10 +20053,10 @@
             "sha1": "543bf5b25fbd3503f44912dc2b594b31d0d73c67"
         },
         "File/Sealed_Admiralty_Envelope.png.json": {
-            "sha1": "5d0e3b7c7469ad691d4cd2bbc8705774a0e26cf0"
+            "sha1": "a6788849b641f149769b7a3019ed127ce5a1c682"
         },
         "File/Spotty.png.json": {
-            "sha1": "06cd7b5225e297a770660cae20a0870b51aae027"
+            "sha1": "6a4af91e3fb8a30cedae5d7b90eac1e6763e33d3"
         },
         "File/Tendrils.png.json": {
             "sha1": "4941066d7c5832045fc380ebf68dd674444bbdde"
@@ -20122,43 +20122,43 @@
             "sha1": "c5c7e0cc182fcb1124325d263f9284891bbcf52b"
         },
         "File/Set.png.json": {
-            "sha1": "8fecb938db9c5e36aee48bda0504e602cf2ec51d"
+            "sha1": "9af490e99c1c1b856fff7011101445ed0c7bac3f"
         },
         "File/Shifty.png.json": {
-            "sha1": "048e3b5232655223a76d0c2d145e458e6d0faad0"
+            "sha1": "a7e415b300dae8492a93ed6377e6f1eccc628d49"
         },
         "File/Short_Favors.png.json": {
             "sha1": "61634f7c1053d7d2ed0966397984235f54c595f6"
         },
         "File/Sick.png.json": {
-            "sha1": "169d3c3f4af9e4343ae0630318edc759a87f2017"
+            "sha1": "ae643d50f652f9eae0fbc35638b2d1693e08534f"
         },
         "File/Silence.png.json": {
-            "sha1": "aa5cf43165c7cbfa6f58fa089e07cc8a4551f8cc"
+            "sha1": "a138d6398e578746a4315863e2071e54be97f245"
         },
         "File/Simple_Plead.png.json": {
             "sha1": "4fc5fc3dc0c5ebaf65c6b4ee15553416322198de"
         },
         "File/Sleight.png.json": {
-            "sha1": "d900adc5d9b981bb32846a5472a6acbb1ac6741c"
+            "sha1": "833720baebb38107cca8c56488695c5a40ac4691"
         },
         "File/Slugstorm.png.json": {
-            "sha1": "0a1701e822198638bae16023a97d25ea84442c59"
+            "sha1": "82c0f4b48c52e0b7db3a0b4605c417cdea862af0"
         },
         "File/Slurred_Speech.png.json": {
-            "sha1": "ba9050f10b792bcdab296624eeff8d43d4cb8343"
+            "sha1": "8e96bfd9b470421984d99f86f0b75a3c9b6e1e43"
         },
         "File/Snag.png.json": {
             "sha1": "aef4c720dd149da5b7575d08e8cee6475db05a08"
         },
         "File/Snail_Bite.png.json": {
-            "sha1": "b52f6d75a1eb45cfa79f9f5d0ce8ad0ea6064dc4"
+            "sha1": "2c1d1638fdd9c9bdd5f58b6b147009416f8a072b"
         },
         "File/Snail_Hunt.png.json": {
-            "sha1": "26354b14d7eba836f739f7006d373bd41d5c84f9"
+            "sha1": "886273efd65e6a7a33baca578f860978a66c74c0"
         },
         "File/Snail_in_the_Pocket.png.json": {
-            "sha1": "df5dc2ca842296dd7f50de5b13763620937f6122"
+            "sha1": "d35792b568bca0a73835d247b964aa459ce45acc"
         },
         "File/Snails.png.json": {
             "sha1": "3361d311d0342bebce620d551dbd8d35a39d8876"
@@ -20170,16 +20170,16 @@
             "sha1": "d2dfb263e462c9ff53f0bf618e3144b61b8f7bb7"
         },
         "File/Spin.png.json": {
-            "sha1": "8b90d5f86f8aacc92f1958f2d4066b1086dce731"
+            "sha1": "de7f791e80953be1d67df8b4879862825565ae73"
         },
         "File/Spooked.png.json": {
-            "sha1": "c9e990f4ae602453549abef7d8a49649bb8253ff"
+            "sha1": "804dbfe924b791dcca78587866be25a367eb32c6"
         },
         "File/Square_Up.png.json": {
             "sha1": "af8b5d0102ab6939ac61f53c7bc9862fb0dcdc1b"
         },
         "File/Stacked_Deck.png.json": {
-            "sha1": "49c4f8430153ef166a32c69f811d3ad036f3d578"
+            "sha1": "9778dc83059f6d6c751afc8f55c9277b6ed022aa"
         },
         "File/Stammer.png.json": {
             "sha1": "f3797aa76d6c7038c0ea55c0c57c35c1ca16e7e1"
@@ -20188,13 +20188,13 @@
             "sha1": "a262afea560d711acf7648f4cbf519c4fd8ab79b"
         },
         "File/Start_Fight.png.json": {
-            "sha1": "3fff64cd805196cc99256ad7413ca6e725a2941e"
+            "sha1": "f276d2dd4281862508c37dbb1a0353f795f55dc8"
         },
         "File/Stem.png.json": {
             "sha1": "c1b27df11738f795aeaa44baccdd4b3192179abe"
         },
         "File/Strategy.png.json": {
-            "sha1": "1b0ba9b0c40d354451f4cc0f1d44e3fe3234db54"
+            "sha1": "806ae1176c43a20caadd17757017f0d44a6ddbfb"
         },
         "File/Slutter.png.json": {
             "sha1": "b7800e9a45aee7490ef4f4cbcde55485140ee1ea"
@@ -20203,7 +20203,7 @@
             "sha1": "bbd2b4b52a77ffb6548e9aeecc7888b7c7878ec2"
         },
         "File/Super_Conductor.png.json": {
-            "sha1": "f68683ca434c2c4968fc4ebdb773d62685b1fb64"
+            "sha1": "e2793fe7b30f681355a2c78198af1b4532d3ce93"
         },
         "File/Swamp_Schematics.png.json": {
             "sha1": "9b00ee35849757580a146a461bdde290b08cc96d"
@@ -20215,7 +20215,7 @@
             "sha1": "69d9d25eb6912ee31d4aa9dc826ef3473307035e"
         },
         "File/Tall_Agency.png.json": {
-            "sha1": "1e9ecb30c2bcfa0a8d2565e4dee67f9801082a6d"
+            "sha1": "4498c3240cf516b4c54606dc3b5e7cf5d8827adf"
         },
         "File/Tall_Anger.png.json": {
             "sha1": "ed98c705c966784b607d6f979508bd519e3d73fb"
@@ -20230,7 +20230,7 @@
             "sha1": "3840bb8044455c66fc49d0a5741e60275d3e4ecb"
         },
         "File/Tall_Burn.png.json": {
-            "sha1": "cb07607a0e442dda6dc0144702fcc39ac30216c1"
+            "sha1": "e0bfd669aa6cb053139aba04b26b3c6d6267fb2d"
         },
         "File/Thief's_Low_Blow.png.json": {
             "sha1": "080f98dc50e552df1610f4993273efa0f18c8124"
@@ -20251,13 +20251,13 @@
             "sha1": "045fa6bb897c6723a545e736a51450ccc3f28f2f"
         },
         "File/Rooted_Headbang.png.json": {
-            "sha1": "8f055b36b74ff322c2cbf48f7f025207aaba1fd5"
+            "sha1": "111546ac4624bd2197d0fe85428e9f4e15d0c305"
         },
         "File/Rooted_Snail_Bite.png.json": {
-            "sha1": "80a5af41ea413721348a068927b7f920d1dc1fcb"
+            "sha1": "118a0d28609ca09efc826828f9ccd2f1b27a76ff"
         },
         "File/Rooted_Spin.png.json": {
-            "sha1": "8677426faa70ab031b65d295d106ff309ab3e00f"
+            "sha1": "62755cbe90264e91d24fab24ffe84a01c3942c08"
         },
         "File/Rooted_Subtlety.png.json": {
             "sha1": "1eb72de2b8e9c6852e313e48d57541f1afed7641"
@@ -20266,13 +20266,13 @@
             "sha1": "81caffee134d0624eea53879287061922a6d6a40"
         },
         "File/Rooted_Upright.png.json": {
-            "sha1": "7c1b703f2955dd849b951d7a37b91fad49450893"
+            "sha1": "c734603c146d14987ec77cd253f405db0c96fe64"
         },
         "File/Sifting_Pleasantries.png.json": {
-            "sha1": "586d96a4b0265ccf41b22bc00dd8436280805c8c"
+            "sha1": "57587f6aa3fa13d8c92f861a4236eed786a7b765"
         },
         "File/Sluggish_Rationale.png.json": {
-            "sha1": "d565aeb9b3d64d4e4228ceed3e8e64530a4be216"
+            "sha1": "5d1bb9e9ed8adbae8f8477b177cfa05892921b9b"
         },
         "File/Soft_Double_Down.png.json": {
             "sha1": "f301263fc0c65ba0d86369d5065fcc6e182207c9"
@@ -20287,16 +20287,16 @@
             "sha1": "591f8be2aa51271aa2ba65a3cc28495856de02eb"
         },
         "File/Speculative_Grumble.png.json": {
-            "sha1": "fb02c42fd723e54b2ea88b4877fad26460a38b3d"
+            "sha1": "e0f7dc4d7dde6f5418f59df892bac2a96d22af7b"
         },
         "File/Speculative_Pleasantries.png.json": {
-            "sha1": "19dd3b13c1ad09755399f8b6e2beaf4c2de8f5b7"
+            "sha1": "9f68a8b50c895da6a1448e562df76bbf4fc764fc"
         },
         "File/Sticky_Keep_Cool.png.json": {
             "sha1": "82489a7afae38ebb6d3925fec9f08f857c44484c"
         },
         "File/Sticky_Matter_of_Fact.png.json": {
-            "sha1": "ef300f2fd673b5f013f70deaec93fa4a0501eb5a"
+            "sha1": "b589b5b680112ee9b4edb0c64e3125a193a0849c"
         },
         "File/Sticky_Style.png.json": {
             "sha1": "054fb646430ed059bcdd451f794b7fee02483554"
@@ -20335,13 +20335,13 @@
             "sha1": "57baf7f05c2cc9da28164240c830a2752bd415ee"
         },
         "File/Strained_Grumble.png.json": {
-            "sha1": "d33bba73c299fd50c2ea789d9cb4726e10a1529c"
+            "sha1": "782120e57faa4213f6b3382f646f76ecf25e2d78"
         },
         "File/Strained_Rant.png.json": {
             "sha1": "88e0d345100dd4b24cd1a4c4c3c0af2289bb915b"
         },
         "File/Strained_Raw.png.json": {
-            "sha1": "40dd774100479022297d63d24722f653a1d85c7d"
+            "sha1": "a4e211c0a2b094c056b10a1651326346a62c7b1a"
         },
         "File/Strong_Point.png.json": {
             "sha1": "e81240a46deb2947e34bf6009d7d1cff547a9382"
@@ -20359,16 +20359,16 @@
             "sha1": "24a83fbdb24b32fb0f5bde601e28625bcfab6b3c"
         },
         "File/Tall_Dogged.png.json": {
-            "sha1": "c7d125f2b5404e7f76794c94011a81d22cd548f7"
+            "sha1": "66b8b39a54de2a43f3ed974016e81823c1d80f56"
         },
         "File/Tall_Favors.png.json": {
             "sha1": "456b8f2f3c33d25690c29aa8065e3ec5f44b704e"
         },
         "File/Tall_Head_Turner.png.json": {
-            "sha1": "6ef11864510478492b5337b45d16a845c7992ffa"
+            "sha1": "50b3e5cf62f6c7b637b7258afdfdd46069086424"
         },
         "File/Tall_Jabber.png.json": {
-            "sha1": "9d7b4e73d3c50b6e77f237287be9bfbb320df27d"
+            "sha1": "62e3dfd365edaaea58a23aecb4e7753d3fc5c5dd"
         },
         "File/Tall_Observation.png.json": {
             "sha1": "ed58017ae10ffe121a18861501a32eb31df82031"
@@ -20383,25 +20383,25 @@
             "sha1": "eee020cdad374ef6bda011906755b94c9a2eff3a"
         },
         "File/Tall_Pleasantries.png.json": {
-            "sha1": "cce365b6991ec5678d76ba2c98ac708ad003f3d1"
+            "sha1": "428fa211e67270e3e01b3182bc9c55b84d8a56ce"
         },
         "File/Tall_Pressure.png.json": {
-            "sha1": "a141afb603e3da2608e934d3bbe6bb3be2bf7156"
+            "sha1": "6a116eabc3440b8d864f9c91056a7d9755872a48"
         },
         "File/Tall_Snail_Bite.png.json": {
-            "sha1": "6ef417a8400efbbd71c03220c7e0f000b398e746"
+            "sha1": "ba2f26fe9acc7d60c8334302e4a79ab73378970d"
         },
         "File/Tall_Spin.png.json": {
-            "sha1": "c5f3a8b5892ccdd5e3a856ea3aa6508416b393cd"
+            "sha1": "ff67850b393b80737bd1fd548c7ba9798ac48d7f"
         },
         "File/Tall_Unyielding.png.json": {
             "sha1": "4e73d42e5b1f89ea03548f419151338b45f94861"
         },
         "File/Tall_Upright.png.json": {
-            "sha1": "de25d8a8f94c84e139bfef111ec201e1ee9ac47d"
+            "sha1": "205e4dc0ca105237dbf39676d7986200e95bee89"
         },
         "File/Tall_Weight.png.json": {
-            "sha1": "27c4cb7bffc75f943e81f8aaab252e6498636319"
+            "sha1": "7db6326e7ba89c5e1685bfae49757d60f386edc1"
         },
         "File/The_Boosted_Facts.png.json": {
             "sha1": "e568144be5cfd60454606fee9e0309607734f7f3"
@@ -20410,7 +20410,7 @@
             "sha1": "cfc19bb704f602bdd27cf439c743e8bd0a96968f"
         },
         "File/Rooted_Agency.png.json": {
-            "sha1": "071a15bc116e4e49c752498d206f8ebf1198de72"
+            "sha1": "86e46902ede906603ff6cd5d04efcd37051eca7e"
         },
         "File/Rooted_Bellow.png.json": {
             "sha1": "19ab07a199cc05f8b78ff9e8e9d2e7a8c5a71cfe"
@@ -20431,7 +20431,7 @@
             "sha1": "6d89a62bd02156bdba43a85471971ba04dc6855e"
         },
         "File/Rooted_Grumble.png.json": {
-            "sha1": "afa5ea6de6e9bb2b30f9aecdaaea764d4844c7e6"
+            "sha1": "8e0be582279cdcd0cfb479871b6a79dc6e3a0d6d"
         },
         "File/Shoulder_Roll.png.json": {
             "sha1": "e52a1ea56d70e0a20fabe34fc2ada267f06f5993"
@@ -20611,7 +20611,7 @@
             "sha1": "faf1d8d04d5233e691362b8021b38a9989027283"
         },
         "File/Rubble.png.json": {
-            "sha1": "6c5442628c94a932620ec72843a00f8e6f89ca5a"
+            "sha1": "e9eebb342aed6be7792839ad4a96bdb263b77fd6"
         },
         "File/Rumble.png.json": {
             "sha1": "7fc6947109209422a61359babc6143e741a1322d"
@@ -20761,7 +20761,7 @@
             "sha1": "8a7b9ba4faf4cfdd5c4408c270f2580acb3e2917"
         },
         "File/Spicy_Noodles.png.json": {
-            "sha1": "9f15b2dd9b800e65e29c3ecf8e43ed3cb35329cb"
+            "sha1": "53f7704473e384a87de2006d22e83664776237c4"
         },
         "File/Spined_Cover.png.json": {
             "sha1": "62164f773ab2660479b8d0d8d5b17687de58490a"
@@ -20905,7 +20905,7 @@
             "sha1": "43abe99ab2a7bdde143cd9a8301fa9b8a1f671e4"
         },
         "File/Stone_Rubble.png.json": {
-            "sha1": "1cf2be8ef2698bf2eb021a0847a63090ef3e643f"
+            "sha1": "afe26c16890ac8938e8daefb510af61bea084ab4"
         },
         "File/Stone_Rust_Bucket.png.json": {
             "sha1": "07159250141f345295a8a76a4236f553cfabebb3"
@@ -20965,7 +20965,7 @@
             "sha1": "2fef8076a0dd99198ed6ac6662a0eac756fd6bd5"
         },
         "File/Strange_Chemical.png.json": {
-            "sha1": "c6cdeaf59a722d2e0be80d1d9c68213019a79c95"
+            "sha1": "c84e0fb96d5bfad230fe5a3bfafb92d64a32f610"
         },
         "File/Strike_of_Clarity.png.json": {
             "sha1": "517699c06491a8abb0800d40c8b4c0bfceb2690c"
@@ -20983,10 +20983,10 @@
             "sha1": "b0ce370fdd166ba9ac663e02824fc65a5b1ca967"
         },
         "File/Suitcase_Grenades.png.json": {
-            "sha1": "89af07797840f96b669e99f2022d98e600bfb627"
+            "sha1": "f9824041584739ebe2db2e1b382f689423eb959e"
         },
         "File/Support_Beacon.png.json": {
-            "sha1": "e9677ec18c877337a796e4be3f26f6715b6d9cc0"
+            "sha1": "2d9067fcdf7d87c44fa50bdf14b93e64d5f369a2"
         },
         "File/Suppressing_Fire.png.json": {
             "sha1": "3e37334994c02f0b55b2cf55c4b50479dba2a678"
@@ -21385,7 +21385,7 @@
             "sha1": "b4569f2ce9b2367fe805f6c2a8151d7c5c2a9827"
         },
         "File/Weight.png.json": {
-            "sha1": "29a9651ec3303439b959ea716d298760fe569d97"
+            "sha1": "04b881c6f52ef76c80bebd4c6945156c3216f7f7"
         },
         "File/Triage.png.json": {
             "sha1": "1103aacba0fdac1de93e6d1d101b5fbdb1d91bc9"
@@ -21496,19 +21496,19 @@
             "sha1": "6a2eaea9bd6f2367758ff942c6c0e8763cb5a349"
         },
         "File/War_Story.png.json": {
-            "sha1": "f53248e23099c12335e872a220e8ade7dc508e3f"
+            "sha1": "7ffaf954894c572034e107df6cc5d803cf42662e"
         },
         "File/Unconvicing.png.json": {
             "sha1": "4f8f27441d5088f46db01728932249484bda493d"
         },
         "File/Unstable.png.json": {
-            "sha1": "0d11604df2c87a2426b8b88b94fc055be57947ea"
+            "sha1": "756f57c075f99de7cc7238a925cffc85a182529b"
         },
         "File/Unyielding.png.json": {
             "sha1": "a8d0d823a2084658fae29400bd17fad435129a5c"
         },
         "File/Upright.png.json": {
-            "sha1": "d5fa03654c4c884cd08263f6b57b55c1646ea8c3"
+            "sha1": "69680ace9c3953b61a8f2ad5c9356bcb671dbc71"
         },
         "File/Veiled_Anger.png.json": {
             "sha1": "fb686aad72e0df78979ea5dafa29785d5c32ed82"
@@ -21523,16 +21523,16 @@
             "sha1": "36edc104638b823f83e10b425c7ab4ccf2000bad"
         },
         "File/Token_of_Hesh.png.json": {
-            "sha1": "92177b42ec1c795ce2f9d6718f2a15023a2c0ec1"
+            "sha1": "7514d82c097e31840b2ac1810c6fa25eb4651223"
         },
         "File/Topple.png.json": {
             "sha1": "506dbd31c9b98ab81a1ecef00618ad12c377e617"
         },
         "File/Trade.png.json": {
-            "sha1": "8bcd244bc3e0f67a97fdff40ba658849af42af30"
+            "sha1": "637081ca2a3bf91734eb716a42fc5c3942271ca9"
         },
         "File/Trickery.png.json": {
-            "sha1": "8b29443a863899146c66960c10264d28d7dc4f39"
+            "sha1": "cc8665e8e9068645f4741fef5ced81ddbb5061b0"
         },
         "File/Turnabout.png.json": {
             "sha1": "052893b652bc17bf54dde9c559abcddc57cc4425"
@@ -21544,16 +21544,16 @@
             "sha1": "4d33095c86ab22710db1a44986dda9cfe5d413f7"
         },
         "File/Ulcer.png.json": {
-            "sha1": "1746c7cbec014d00a494af441c09789265d04cc6"
+            "sha1": "b8cc6dd0f2c09482ff3609bffccec1c6ef8b6e7f"
         },
         "File/Withdrawn.png.json": {
             "sha1": "7e033cdd0816250b45737ac38b33462bc4f87751"
         },
         "File/Zesty_Noodles.png.json": {
-            "sha1": "1ef159150c7c5af0d5f6bcf33182470e04badb14"
+            "sha1": "e3f106ae28c62ae8f3dcb4f59420e57de19de585"
         },
         "File/Twisted_Bluff.png.json": {
-            "sha1": "f9663588ea138aec126f561393d63acb3bfcd966"
+            "sha1": "78838b48e3b8674c6da04da9dd0fa127d55d44d5"
         },
         "File/Twisted_Bluster.png.json": {
             "sha1": "29b7aab07e498ee6b30088a8522368def53adefb"
@@ -21568,7 +21568,7 @@
             "sha1": "eaab351f982dd3098ec4542c5dfc3fdb821ad584"
         },
         "File/Twisted_Dead_Draw.png.json": {
-            "sha1": "c85f7c4ca570c7ae00178a4d06151181e295a02a"
+            "sha1": "de51864cda6948b212be06d836828dd648afc78c"
         },
         "File/Visionary_Domineer.png.json": {
             "sha1": "b3605f575c8176f0cd164c6cdf293315e26aa38d"
@@ -21586,13 +21586,13 @@
             "sha1": "f7f977afd4248ace08baf583a852307879d288d9"
         },
         "File/Visionary_Foul_Mouth.png.json": {
-            "sha1": "a425ff731aecb23e71f55f5cbccf6e336790d0d6"
+            "sha1": "28f2b87db2b56767ef9e42b99c45f363ee00260f"
         },
         "File/Visionary_Grumble.png.json": {
-            "sha1": "ce286874cc7237cc9e2456c22b73fc987fb9beea"
+            "sha1": "9b9156c2b008c1b16d5943c831d3d7e100f19ef9"
         },
         "File/Visionary_Head_Turner.png.json": {
-            "sha1": "0f9fff406552c8f451e9d224c55ff0e151f3a250"
+            "sha1": "6f4aba0ef5d9bf9007d8b1de75872c1db2a581de"
         },
         "File/Visionary_Long_Winded.png.json": {
             "sha1": "8b97b8f7000471b8809d3ba17745b996a06d15b9"
@@ -21604,7 +21604,7 @@
             "sha1": "5e9eb85c49b80d0c71d4f338c8562a1ac9462338"
         },
         "File/Visionary_Pleasantries.png.json": {
-            "sha1": "6231a2f35e221a8dcc0ae33342d5007599f9afbd"
+            "sha1": "6f270f4d9f64ab4f904465bd2db7b92ebfe9e935"
         },
         "File/Visionary_Point.png.json": {
             "sha1": "dd441b87b9b3f8852536ff5a8baad3a5c7ff05f8"
@@ -21613,7 +21613,7 @@
             "sha1": "a79d6b22357bb99cbfc69196b3057c527d7ce01e"
         },
         "File/Visionary_Rationale.png.json": {
-            "sha1": "b7ff354f830fc3058d85bf7b7c5c6f47052ec6f6"
+            "sha1": "600ba7d93300ad7006054c27f62c4cc089e20f91"
         },
         "File/Visionary_Rebuttal.png.json": {
             "sha1": "490fa4e8c1d05b36face22c27e0982c60e546c15"
@@ -21628,25 +21628,25 @@
             "sha1": "c2e9fcd454cfd64620b4a15d4d4a7c3f8771fcd9"
         },
         "File/Visionary_Seethe.png.json": {
-            "sha1": "5bc4fe7baf3c622115427473c9c887495cf51afb"
+            "sha1": "656bf5ccb26e0a80e888ba03535c4162fea7b336"
         },
         "File/Visionary_Segue.png.json": {
             "sha1": "42768d5c4923b36b4432f2ea2a14b54790f149aa"
         },
         "File/Visionary_Shifty.png.json": {
-            "sha1": "907b84c0198b506af77ff2f1065575f549f3a4c4"
+            "sha1": "f6f63a364374695e46beaa23e94de84122cbb82a"
         },
         "File/Visionary_Snail_in_the_Pocket.png.json": {
-            "sha1": "92b68eb75706b2bc4ca7397aff57ae895b3593a4"
+            "sha1": "dc25987f0c2e74b0a57feced3907072e419ff767"
         },
         "File/Visionary_Spotty.png.json": {
-            "sha1": "14924b13dc7d584d452d021bec754ea7879f0fc4"
+            "sha1": "3ec0f23ad891ba50c275c956486a3bbe497775f0"
         },
         "File/Visionary_Threaten.png.json": {
             "sha1": "81ad6d03b30e1b56ccbdbfc06f5c9797a3359c39"
         },
         "File/Visionary_Vulgar.png.json": {
-            "sha1": "7c737b626ae4fefd3a034e385e2d13d979bfcedc"
+            "sha1": "fc0846b147f37d3060bafdf6dbc40d3cb8bfd71c"
         },
         "File/Visionary_Who.png.json": {
             "sha1": "346198d7bac35f24dbc02072d735fcd563b4e290"
@@ -21658,7 +21658,7 @@
             "sha1": "22b20c0899bafa1d4494535e5b4e52636b5f8111"
         },
         "File/Vulgar.png.json": {
-            "sha1": "c95a802672e9ae53bb482bfa78081f34445562d5"
+            "sha1": "35a7790cc56b1a1e1828c4867320a3c98ef735ba"
         },
         "File/Wide_Deceive.png.json": {
             "sha1": "1077a8a81ac09656fbdc4ad227f2404ee7409369"
@@ -21667,46 +21667,46 @@
             "sha1": "a29b14db279b7004c1d31bbc67a7acbe191c75ce"
         },
         "File/Wide_Do_Over.png.json": {
-            "sha1": "9f8d06077d0c459f669b4d333aef10b75a6b846f"
+            "sha1": "0aacbdd32f6fe9e1885003fd9296cb8fde55ca0d"
         },
         "File/Wide_Jargon.png.json": {
-            "sha1": "f625dfd5080ca7db75210ac5aae4918fbb200730"
+            "sha1": "fc70212d6a85bc3d6b336e2afb1be2bebefd3fd4"
         },
         "File/Wide_Prattle.png.json": {
-            "sha1": "43328afb4ae2a50acd3cae30a3dfb82fe4d935f8"
+            "sha1": "b442430bde120f98a54033447fed28c22105bcb9"
         },
         "File/Wide_Remark.png.json": {
             "sha1": "ce4111bde86bf99328135fbbd142ee6e9d06274d"
         },
         "File/Wide_Slugstorm.png.json": {
-            "sha1": "638f6c8322dbed75d7285b7c8b66f6a8de5bf6b3"
+            "sha1": "36b2b26c4db23c2a937c8aa8e307fc7f49fa4639"
         },
         "File/Wide_Trickery.png.json": {
-            "sha1": "7d850df206536880a27653c6fb72b8ddda53192b"
+            "sha1": "1a21c03d648b04c7550c6e6c0cf201baa84e1798"
         },
         "File/Twisted_Dig.png.json": {
-            "sha1": "04993cfb81409c8eb850a0ace521cd9f54300db3"
+            "sha1": "2c9ce620ed31420de51b45422750e86021e5b659"
         },
         "File/Twisted_Flipside.png.json": {
-            "sha1": "feb40a503894e49ad14c291ab7bb7ca63f9154c9"
+            "sha1": "03f9d6ae14d110ea6d37767ccb7b0715a2eb2013"
         },
         "File/Twisted_Head_Split.png.json": {
-            "sha1": "8a0b8f38c555b2111ad0be10d9585e2e414bb60a"
+            "sha1": "6602699d66e77447286122e225c69392470a969e"
         },
         "File/Twisted_Kicker.png.json": {
-            "sha1": "6cc84fd38755f7bd5a5a5a05343a3461102970ca"
+            "sha1": "c3dd05f64abc704e44435e1aa0768e0bbe9dc673"
         },
         "File/Twisted_Know_a_Guy.png.json": {
             "sha1": "54a44ed6438928c155bf51ad47671dfd7b2f4f49"
         },
         "File/Twisted_Obligation.png.json": {
-            "sha1": "de5eb56294b5cb93db5b144977a4cef20cf4f974"
+            "sha1": "1692397340f10d38bc31bf215560c802e8db7071"
         },
         "File/Twisted_Oppress.png.json": {
             "sha1": "c161079a754f3901a38e640535d3f166bd75d85d"
         },
         "File/Twisted_Prominence.png.json": {
-            "sha1": "9103770264b8f0ad29c3c325a9fc903102c92285"
+            "sha1": "1b50761cc2579d576c1128eedb6ce88f55bfe310"
         },
         "File/Twisted_Roughneck.png.json": {
             "sha1": "4c62b65f966e350fb4dbf9c758ea56e8f7f0021f"
@@ -21718,10 +21718,10 @@
             "sha1": "14eae8012d76e9245c99695acca9af6803172e6b"
         },
         "File/Visionary_Bluff.png.json": {
-            "sha1": "dc2c70a28cd5b06a72240e8b9185d3ca19c9858a"
+            "sha1": "74337e3005b0031cfdaf56474e3edfd8d877567f"
         },
         "File/Visionary_Bottom_Snail.png.json": {
-            "sha1": "99d178f31610488febe5e2095ede51e0eb4602b9"
+            "sha1": "8e69ee53bd4ccf23a9c8db159a70ff2731e72fac"
         },
         "File/Visionary_Brag.png.json": {
             "sha1": "88954f357dbfd99d6b521af3b4fcc70d19d3c417"
@@ -21760,7 +21760,7 @@
             "sha1": "217bb724f28a5eca967f5e77e7a875809b26a0e5"
         },
         "File/Tiny_Stinger.png.json": {
-            "sha1": "1c7f9e4e562a7b95620148112c5e6b3a7252af15"
+            "sha1": "0fef3bf810afb3d9e3a34ee334b273f3896b27d0"
         },
         "File/Tipsy.png.json": {
             "sha1": "12d7d4f50695d0466195e66bd89e6ce72a069ee2"
@@ -21772,7 +21772,7 @@
             "sha1": "eaae8a1acffa2211b41ed42d5b71ce720dd91aa0"
         },
         "File/Toxic_Fumes.png.json": {
-            "sha1": "473628a6771018189121a4c335353fe17a56d50a"
+            "sha1": "4f511da0f8bf5f49a8cfffd909da6e12d3004fa5"
         },
         "File/Tracer_Round.png.json": {
             "sha1": "433204d6853cffa3c48a9c382e25ad16d2ccb98f"
@@ -21865,7 +21865,7 @@
             "sha1": "13e1baa484514acf9023e9fe70f5e854c65ee999"
         },
         "File/Visionary_Callus.png.json": {
-            "sha1": "0e60046e0fd19d1747a94530b297714229879a98"
+            "sha1": "8daa26d324dcf453bcf8a5fdedfbc74e381b3543"
         },
         "File/Visionary_Chat.png.json": {
             "sha1": "002332dbd43f18984d32519686877fd916cfbe2b"
@@ -21922,7 +21922,7 @@
             "sha1": "cadc6542348faa7ac5f2b6650f16f7ec83c60ab0"
         },
         "File/Visionary_Rubble.png.json": {
-            "sha1": "53c77588f7ca8c8fe8717f00f2798c48c1fe3f8b"
+            "sha1": "071b15a21b0df65838a4896421b20e09692f5067"
         },
         "File/Visionary_Scatter.png.json": {
             "sha1": "1f3c68695ce3c542bd6d83a8d87f1b57356d2cf8"
@@ -21952,7 +21952,7 @@
             "sha1": "266189b3637d37800a2b36ef24414f27b5d23d9c"
         },
         "File/Volatile_Spark.png.json": {
-            "sha1": "90e2084dc7a28c07146578a223940aa0c32f5ed1"
+            "sha1": "4beef28db74271e68f9f826390249dc8495a54b1"
         },
         "File/Vroc_Plume.png.json": {
             "sha1": "fde971b62812d3542bff6fade8941529a317168c"
@@ -22371,6 +22371,366 @@
         },
         "File/Wide_Chug.png.json": {
             "sha1": "c111ee731c21759c419c84c2b8c91a1864e30231"
+        },
+        "File/Ad-Lib.png.json": {
+            "sha1": "490207d39efb2312f4e2bf2133079c9e4a5c02a1"
+        },
+        "File/Admiralty_Orders.png.json": {
+            "sha1": "5bd9b1c94470e09ba74a6187986911f4c0b2e004"
+        },
+        "File/All_Rounder.png.json": {
+            "sha1": "8fe369338a53aebf246fafc2139b570af2facba0"
+        },
+        "File/Always_Prepared.png.json": {
+            "sha1": "b338696480ad7d6153bf613d3b98d0fbdc39c6bf"
+        },
+        "File/Always_Prepared_II.png.json": {
+            "sha1": "6944e0061e824fbb320254de0fb4d126ea8e4ed0"
+        },
+        "File/Backup_Collection.png.json": {
+            "sha1": "c6a6cd3e546f8bde35541a22a183e39670fc27bb"
+        },
+        "File/Backup_Collection_II.png.json": {
+            "sha1": "e1881a47b0334e6e3b42bc81572d411cc205b323"
+        },
+        "File/Bio-boost.png.json": {
+            "sha1": "ca8f150f5b98af8019be135b714732211ff28268"
+        },
+        "File/Bio-boost_II.png.json": {
+            "sha1": "ea5c69aad7fa9d9bdd0a469e698a03753b9689c6"
+        },
+        "File/Boosted_Cavalcade.png.json": {
+            "sha1": "ae07a42e853a420a4fd4479fd627f1de5348cb64"
+        },
+        "File/Boosted_Fold_'em.png.json": {
+            "sha1": "0343a2018637f8a9c29e2bf3fae28ea8ea6bbe2f"
+        },
+        "File/Boosted_Jackpot.png.json": {
+            "sha1": "2a5cd1296ae99c35864a99ada28fc082d5d25c9a"
+        },
+        "File/Boosted_Mean_Streak.png.json": {
+            "sha1": "ea444c74b6fb6728acf65b855b43ef92b63dd6e5"
+        },
+        "File/Boosted_Overwhelm.png.json": {
+            "sha1": "74adb3b5ee6666f3ecb47078a86ff11f95d31c13"
+        },
+        "File/Boosted_Raise.png.json": {
+            "sha1": "ec2e5d2de891bc2df8af58b422aeb3e3d6317130"
+        },
+        "File/Call_it.png.json": {
+            "sha1": "7a8062a2fc5885a1c3615eafbc7df8ec32afed23"
+        },
+        "File/Certainty.png.json": {
+            "sha1": "6b32b79f82120b3f7b4d93f1e60a30d94a06e486"
+        },
+        "File/Claim_to_Fame.png.json": {
+            "sha1": "684e0bb2ef8be13ff44a9d7018cc6f042c01e002"
+        },
+        "File/Clemency.png.json": {
+            "sha1": "f604ce0f1b7e0550c3c9b605b9ef3a6b64a33364"
+        },
+        "File/Clemency_II.png.json": {
+            "sha1": "7fdaa10b8881421064111afb7452d7e24178fda8"
+        },
+        "File/Coin_Juggler.png.json": {
+            "sha1": "f690ccde0bed6dac6d1805ee5ad767cf5ae01403"
+        },
+        "File/Coin_Juggler_II.png.json": {
+            "sha1": "81ef766c5c96d038805074145331881c28fe21b7"
+        },
+        "File/Concussion.png.json": {
+            "sha1": "b0777599da0a95b88ba57fd0bd943cfa756dfacb"
+        },
+        "File/Curve_Ball.png.json": {
+            "sha1": "3e872671fac4156f7651b4386e6c3b94c5f2bb31"
+        },
+        "File/Curve_Ball_II.png.json": {
+            "sha1": "cec29cfd4516ab3fa9bf394ad0442f9b6ae991db"
+        },
+        "File/Deal.png.json": {
+            "sha1": "4f0338bfa99a61bbf68258d151577428c42e9072"
+        },
+        "File/Decisive_Call_it.png.json": {
+            "sha1": "c6b6323358a5e5865f8ec7c6beae59266434df0d"
+        },
+        "File/Duality.png.json": {
+            "sha1": "4d43abd9db01d2d084f878082e9611ff21d30d43"
+        },
+        "File/Duality_II.png.json": {
+            "sha1": "9417c226c793ee289162e46db2ee35defee2557a"
+        },
+        "File/Duck!.png.json": {
+            "sha1": "fc8631266e95503c9bec98872a9884ead2c3df54"
+        },
+        "File/Enduring_Compromise.png.json": {
+            "sha1": "2cea8cb587bdce0f3e6a71ebcbf33ae6eeb30391"
+        },
+        "File/Enduring_Gumption.png.json": {
+            "sha1": "fa2bbb3f781be7e88b8c8b3ce6c788a42efa33e8"
+        },
+        "File/Enhanced_Deal.png.json": {
+            "sha1": "d292053ca603770c84232822a5de63a153ac8a9f"
+        },
+        "File/Enhanced_Fold_'em.png.json": {
+            "sha1": "131c496684dfb143de1450315bb4bf097cd9aa47"
+        },
+        "File/Enhanced_Hold_'em.png.json": {
+            "sha1": "0c94b3145329348182e0fe5e7470328a85206b76"
+        },
+        "File/Expert_Tactician.png.json": {
+            "sha1": "bb31c1efa2d477b63052b7c906c131049681d088"
+        },
+        "File/Expert_Tactician_II.png.json": {
+            "sha1": "7a69e9e22a2edfcc5e0fbdbcf0216459cad21244"
+        },
+        "File/Fabrication.png.json": {
+            "sha1": "df60aae5daa5940020cf0a20e2e7931e181cf1a8"
+        },
+        "File/Fake_It.png.json": {
+            "sha1": "1e24d4df694da0366790688e3434290be5835f10"
+        },
+        "File/Flatten.png.json": {
+            "sha1": "396b344693d1417f96c13ae58d3ca65658097a2d"
+        },
+        "File/Flatten_II.png.json": {
+            "sha1": "6ad909394e581591d4e8158696755b164b082e5b"
+        },
+        "File/Fold_'em.png.json": {
+            "sha1": "30ead20b23d231bdd5084167fde2681b46297e95"
+        },
+        "File/Foresight.png.json": {
+            "sha1": "b71947ed9d266abcb46aa91e99039837ba46e7d0"
+        },
+        "File/Guns_Blazing.png.json": {
+            "sha1": "7c0f85463eea4e1bbbaa64abb8e609c515d6a98d"
+        },
+        "File/Guns_Blazing_II.png.json": {
+            "sha1": "9c7555f727faa76b9d51e133d5908b4addb70a6c"
+        },
+        "File/Hail_of_Blades.png.json": {
+            "sha1": "fa263abd9226b9675aac23fec7cbb5d75827c424"
+        },
+        "File/Hemomancy.png.json": {
+            "sha1": "42834c87cfe52ee75cdfba3fe49ce3c14f7ad8b6"
+        },
+        "File/Hemomancy_II.png.json": {
+            "sha1": "cd97555d5a734fcf6014254acb45d94e9bc74cd9"
+        },
+        "File/High_Stakes.png.json": {
+            "sha1": "29650aaf5b626462e2200ef54d9c9d31fb97fe21"
+        },
+        "File/Hold_'em.png.json": {
+            "sha1": "225db21b8d227966864747f5ff026f755db49d09"
+        },
+        "File/Initial_Certainty.png.json": {
+            "sha1": "1ed462f58a360040c7441f11e4db012702cbd558"
+        },
+        "File/Initial_Compromise.png.json": {
+            "sha1": "bcfda3dd16865fb00b5508a7ea8beb7e6209cf7f"
+        },
+        "File/Initial_Protective_Procedure.png.json": {
+            "sha1": "4170ce0ceabaef2eb041c2c8110a4c58783faa71"
+        },
+        "File/Initial_Soothing_Concoctions.png.json": {
+            "sha1": "09e217ea28b706e1a899164ac772c3c1d09ba273"
+        },
+        "File/Innate_Instinct.png.json": {
+            "sha1": "98d13b0971d84afb23b66c1cb395406418ee4d4e"
+        },
+        "File/Innate_Instinct_II.png.json": {
+            "sha1": "ff273752059280dacd93309bcd2ad96e19f73946"
+        },
+        "File/Inner_Rage.png.json": {
+            "sha1": "d51f031c562793bc7479111a41cb0754e5a0a67b"
+        },
+        "File/Inner_Rage_II.png.json": {
+            "sha1": "3f93c24e261132b60738fa4bf1a3cde87a048bf1"
+        },
+        "File/Jackpot.png.json": {
+            "sha1": "1064d7111505d080167644190a76c96707ed632c"
+        },
+        "File/Kicker.png.json": {
+            "sha1": "3d03995d60e3ce82d53dca1e73791a50877f7a33"
+        },
+        "File/Martial_Master.png.json": {
+            "sha1": "cacdf91c4feca23b17ea1f6dbb47ab6e992ef9b0"
+        },
+        "File/Martial_Master_II.png.json": {
+            "sha1": "2a486c45e9676c4b038e94a53977d3b8e4285ead"
+        },
+        "File/Mean_Streak.png.json": {
+            "sha1": "576192e5d135225e7cea2ce8b0e24fe66864924f"
+        },
+        "File/Oolo's_Requisition.png.json": {
+            "sha1": "1c19c0d5a5f924416640e826a94ff9c7dd70df96"
+        },
+        "File/Pale_Ante.png.json": {
+            "sha1": "892d80cafbc8ad6ef789382c725b3975d52f2c1d"
+        },
+        "File/Pale_Certainty.png.json": {
+            "sha1": "83e4f585f34b6efd8cac2363526ad88795c40d5e"
+        },
+        "File/Pale_Duck!.png.json": {
+            "sha1": "e10ca074e0da9f29457aeb3075b6e27fdda9026e"
+        },
+        "File/Pale_Gumption.png.json": {
+            "sha1": "c37fac1f116ce5ab19fd728068a343a5db60d5c2"
+        },
+        "File/Pale_High_Stakes.png.json": {
+            "sha1": "f27a3d70f805661176f322eec5b5e8881c496e75"
+        },
+        "File/Pale_Jackpot.png.json": {
+            "sha1": "00890bfbe1ad96960e3aaefdda02087bfbb9a152"
+        },
+        "File/Pale_Protective_Procedure.png.json": {
+            "sha1": "e8ea5b2bc93ca87d8dbd2783b1833af497ef92bd"
+        },
+        "File/Pale_Soothing_Concoctions.png.json": {
+            "sha1": "ba63a3bed5580f7c54fc8c9ef889c108fbe5da4b"
+        },
+        "File/Power_Cycle.png.json": {
+            "sha1": "5d6822ce734f00cb7722953570c4499555a3a41f"
+        },
+        "File/Power_Cycle_II.png.json": {
+            "sha1": "48c893338246f69ef1a7783e1d873a9a7838f837"
+        },
+        "File/Protective_Procedure.png.json": {
+            "sha1": "dc7fc0bd8a7e60b95e9007e487dc7610cf91c536"
+        },
+        "File/Pure_Diplomacy.png.json": {
+            "sha1": "e07ce0d54bc012c953f45587b561edd6f858d620"
+        },
+        "File/Pure_Diplomacy_II.png.json": {
+            "sha1": "dd0d363911e8d9a6658935d1ffeda60872d714ec"
+        },
+        "File/Rage.png.json": {
+            "sha1": "a2b6634879fb9959b9aceadcd2e2de826b4b2c14"
+        },
+        "File/Rage_II.png.json": {
+            "sha1": "e259ea90340f9adcebac1ea77c1a3173e939005f"
+        },
+        "File/Raise.png.json": {
+            "sha1": "6535514fee3e9ca632a41bd9a0c0589737f83d8f"
+        },
+        "File/Rebuild.png.json": {
+            "sha1": "fcd8ba690d455e9df4602a972113c0aa3eb93c3b"
+        },
+        "File/Rebuild_II.png.json": {
+            "sha1": "e2c8149717b1f3ee9053c01640da6a9e65449433"
+        },
+        "File/Reset.png.json": {
+            "sha1": "b6b1f28a2e2cf92748a5242e9b9173235bacc7b6"
+        },
+        "File/Reset_II.png.json": {
+            "sha1": "dd7a9bc638ae0bfd4cb7b96dd43c101c2251069a"
+        },
+        "File/Restored_Call_it.png.json": {
+            "sha1": "85fc9dc8160b0559e327ca744daaeade84717f8a"
+        },
+        "File/Rooted_Dogged.png.json": {
+            "sha1": "8eb2f89434f6c7f8b840bf9af3016fbc4bf88e21"
+        },
+        "File/Salvo.png.json": {
+            "sha1": "c0f221b69a1f749b05bc1f5a95e46aa1ae6f4bee"
+        },
+        "File/Secret_Collection.png.json": {
+            "sha1": "ea2d297c16d1eb481937fe0eccf3e08364711a52"
+        },
+        "File/Secret_Collection_II.png.json": {
+            "sha1": "700a9c786562152675bf800bb46cf0bb8405e3c1"
+        },
+        "File/Shortcut.png.json": {
+            "sha1": "69223d02669f9a9f8bd2553a3b64b60d0e07a69b"
+        },
+        "File/Shortcut_II.png.json": {
+            "sha1": "1d305671f64cb5c3bdf42edcf7e2fd412460e986"
+        },
+        "File/Sitting_Duck.png.json": {
+            "sha1": "4f2b1691c04ea5ebed4e523d2c29e515560d1440"
+        },
+        "File/Soothing_Concoctions.png.json": {
+            "sha1": "75024a363932fdcdacd8f38b27f33a858efa0122"
+        },
+        "File/Squash.png.json": {
+            "sha1": "b1cdd8503fa0e46b9cc5778a6467b40384f9523c"
+        },
+        "File/Squash_II.png.json": {
+            "sha1": "a80ebb2dbf99bbb30f6df0154b69e6505c99160f"
+        },
+        "File/Stable_Duck!.png.json": {
+            "sha1": "34e73916848b970b81c8cfde7ed9ececfccfb507"
+        },
+        "File/Sticky_Ante.png.json": {
+            "sha1": "74c7a71a327c4e92b6db6e48f00bac060bbc39d6"
+        },
+        "File/Stone_Stakes.png.json": {
+            "sha1": "8c58bad2293f3e5e9c8372712b1e1105153394f0"
+        },
+        "File/Tall_Deal.png.json": {
+            "sha1": "6e04f03fef9a807a336aca379c8de1404b44a020"
+        },
+        "File/Tall_Gamble.png.json": {
+            "sha1": "cb022493afc73cfc1038b84fe64ec2459ede6a8a"
+        },
+        "File/Tall_Hold_'em.png.json": {
+            "sha1": "fbf3884da0d3a6119d5de982db6a9a8c860e3ed8"
+        },
+        "File/Tall_Mean_Streak.png.json": {
+            "sha1": "7465fb0fc461b0fa6b786cd60a5e70709aba530d"
+        },
+        "File/Tall_Praise.png.json": {
+            "sha1": "6faa9971401b9e1cde2781a5060cdb72ad1bfe67"
+        },
+        "File/The_Gamble.png.json": {
+            "sha1": "8732e4ee5229b36369e2c6238ac047d6be8002c8"
+        },
+        "File/Total_Focus.png.json": {
+            "sha1": "22d2b2f3311e9b11786508aee92566609053907a"
+        },
+        "File/Total_Focus_II.png.json": {
+            "sha1": "074ea5533d45324db6d8cb810416f4ef402a1455"
+        },
+        "File/Trickster.png.json": {
+            "sha1": "400d832f2013938827b01933ff7eb1fa005c4c91"
+        },
+        "File/Trounce.png.json": {
+            "sha1": "cb8649a26db492958060066cd233a72ce1c42137"
+        },
+        "File/Twisted_Blockade.png.json": {
+            "sha1": "315fa6144382c03d1b77d49db4a98a4b402aade0"
+        },
+        "File/Unconvincing.png.json": {
+            "sha1": "2d08634c62a4c204c27fa9ba5a7f3bd534c0e428"
+        },
+        "File/Very_Convincing.png.json": {
+            "sha1": "ab0bfaffec23eafaf8dc8742053d06c31abcc0fd"
+        },
+        "File/Visionary_Gamble.png.json": {
+            "sha1": "e60ee9a1f2b8fc1866f15039ed6f3320c275a4c8"
+        },
+        "File/Visionary_Rant.png.json": {
+            "sha1": "4b9e9104845d67dcdf296758607f4f592cea4a2d"
+        },
+        "File/Weakness-_Blind_Spot.png.json": {
+            "sha1": "21c76624f7af8bdbea11b2bb17874378c01e455f"
+        },
+        "File/Weakness-_Dependent.png.json": {
+            "sha1": "eecd98d1a0535aa419cf633f6a24ca39ebf82fc6"
+        },
+        "File/Weakness-_Inflammable.png.json": {
+            "sha1": "47f67c4ac2fe597aec415471eba08d6ee1e975ef"
+        },
+        "File/Weakness-_Old_Injury.png.json": {
+            "sha1": "00cc39a4dc57ab80e617186660ee9702a22c9084"
+        },
+        "File/Weakness-_Slow.png.json": {
+            "sha1": "d0d104c19e52b3b2419c5f2aa287f45408b17568"
+        },
+        "File/Weakness-_Telegraphed.png.json": {
+            "sha1": "a60f6add99c2bdf00c0dcdf6fff706a0743f7a0d"
+        },
+        "File/Wide_Raise.png.json": {
+            "sha1": "418e70a37c6e446484389247d23dba617db2507a"
         }
     }
 }
