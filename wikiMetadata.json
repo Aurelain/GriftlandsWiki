@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-08T20:33:55.049Z",
+    "lastPulled": "2021-08-08T21:01:08.984Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -10770,8 +10770,8 @@
             "revid": 14471
         },
         "Weakness%3A_Blind_Spot.wikitext": {
-            "sha1": "e31a19a4e388fbbaac88cf045d6dc6cbe64de3e0",
-            "revid": 14565
+            "sha1": "e6cc9fa5d908bb366175ff7f4e9835c0b84a37d2",
+            "revid": 17030
         },
         "Weakness%3A_Dependent.wikitext": {
             "sha1": "0219cc3fad34868f94643ddfa4c2479f278a4197",
@@ -11354,8 +11354,8 @@
             "revid": 5360
         },
         "Template/Card.wikitext": {
-            "sha1": "54df9e73454980257b641a5cb84a7e08f04b16d5",
-            "revid": 14663
+            "sha1": "69b6862b813baca904dfc7fdbc21382630b6695a",
+            "revid": 17032
         },
         "Template/Card%2Fdoc.wikitext": {
             "sha1": "c2f79f2e23cea0c02394fa0a054685139782303e",
@@ -11370,8 +11370,8 @@
             "revid": 14665
         },
         "Template/CardLink.wikitext": {
-            "sha1": "e282e34e9b6b39ddcb84b88bacd0072fd986c3ba",
-            "revid": 10750
+            "sha1": "410624d0996b4dd68c4f3e1748fc9efc0e63d248",
+            "revid": 17031
         },
         "Template/CardUpgrade.wikitext": {
             "sha1": "60e884193988fa7455b6fad975041abc188b3f9a",

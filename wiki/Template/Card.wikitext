@@ -2,7 +2,7 @@
 |-
 ! colspan="2" class="infoboxname" |  {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}
 |-
-{{#if: {{{image|}}} | ! colspan="2" {{!}} [[File:{{{image}}}|250x250px]] | {{#ifexist: File:{{PAGENAME}}.png | ! colspan="2" {{!}} [[File:{{PAGENAME}}.png|250x250px]] | {{#ifeq: {{NAMESPACE}} | Template | | [[Category:Infoboxes lacking images]]}} }} }}
+{{#if: {{{image|}}} | ! colspan="2" {{!}} [[File:{{{image}}}|185x271px]] | {{#ifexist: File:{{PAGENAME}}.png | ! colspan="2" {{!}} [[File:{{PAGENAME}}.png|185x271px]] | {{#ifeq: {{NAMESPACE}} | Template | | [[Category:Infoboxes lacking images]]}} }} }}
 |-
 ! colspan="2" class="infoboxdetails" | Details 
 |-

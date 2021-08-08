@@ -236,6 +236,7 @@ const writeText = async (title, text, token, revid) => {
 const uploadImage = async (title, filePath, token) => {
     const rawPath = RAW_WEB + '/' + filePath.replace(/^File./, '').replace(/\.[^.]*$/, '');
     assert(fs.existsSync(rawPath), `Raw file "${rawPath}" not found!`);
+    const safeFileName = title.replace(/^File./, '').replace(/:/g, ''); // "Weakness: Slow" gets its colon removed
     console.log(`Uploading "${title}"...`);
     const {body} = await got(ENDPOINT, {
         method: 'post',
@@ -245,7 +246,7 @@ const uploadImage = async (title, filePath, token) => {
             ignorewarnings: true, // to allow duplicates
         },
         body: formalize({
-            filename: title.replace(/^File./, ''),
+            filename: safeFileName,
             file: fs.createReadStream(rawPath),
             token,
         }),

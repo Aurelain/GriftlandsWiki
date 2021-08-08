@@ -147,6 +147,10 @@ const parseTextPages = (body) => {
     for (const key in pages) {
         const {title, revisions} = pages[key];
         const content = revisions?.[0].slots?.main?.['*'];
+        if (!content && pages[key].ns === 14) {
+            // Happens sometimes that we receive empty category pages where nothing changed, maybe after a purge.
+            continue;
+        }
         assert(content, `Invalid revision content for\n${JSON.stringify(pages[key], null, 4)}`);
         const revid = revisions?.[0].revid;
         assert(revid >= 0, `Invalid revision id for\n${JSON.stringify(pages[key], null, 4)}`);
