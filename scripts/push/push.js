@@ -128,12 +128,12 @@ const writePagesToCloud = async (candidatePages, token, wikiMetadata) => {
         const {content, revid} = candidatePages[filePath];
         const title = prettyName(filePath).replace(/\.[^.]*$/, '');
         let freshMetaEntry;
-        if (title.startsWith('File:')) {
+        if (title.match(/^File\b/)) {
             freshMetaEntry = await uploadImage(title, filePath, token);
         } else {
             freshMetaEntry = await writeText(title, content, token, revid);
         }
-        injectIntoMetadata(filePath, freshMetaEntry, wikiMetadata);
+        freshMetaEntry && injectIntoMetadata(filePath, freshMetaEntry, wikiMetadata);
         withSleep && (await sleep(1000));
     }
 };
@@ -234,7 +234,7 @@ const writeText = async (title, text, token, revid) => {
  *
  */
 const uploadImage = async (title, filePath, token) => {
-    const rawPath = RAW_WEB + '/' + filePath.replace('File/', '').replace(/\.[^.]*$/, '');
+    const rawPath = RAW_WEB + '/' + filePath.replace(/^File./, '').replace(/\.[^.]*$/, '');
     assert(fs.existsSync(rawPath), `Raw file "${rawPath}" not found!`);
     console.log(`Uploading "${title}"...`);
     const {body} = await got(ENDPOINT, {
@@ -245,19 +245,16 @@ const uploadImage = async (title, filePath, token) => {
             ignorewarnings: true, // to allow duplicates
         },
         body: formalize({
-            filename: title.replace('File:', ''),
+            filename: title.replace(/^File./, ''),
             file: fs.createReadStream(rawPath),
             token,
         }),
         responseType: 'json',
         cookieJar,
     });
+    console.log('body: ' + JSON.stringify(body, null, 4));
     assert(body?.upload?.result === 'Success', 'Could not upload file!\n' + JSON.stringify(body, null, 4));
-    const newtimestamp = body.upload.imageinfo.timestamp;
-    console.log('TODO: write the revid and the new file content!', newtimestamp);
-    return {
-        // TODO
-    };
+    return null; // TODO: write the revid and the new file content!
 };
 
 /**

@@ -6,6 +6,6 @@
 |decktype = Battle
 |cardtype = Status
 |keywords = [[Unplayable]]
-|upgrade1 = Assassin's Mark
+|upgrade1 = Assassin's Mark+
 |upgrade1summary = 
 }}

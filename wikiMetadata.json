@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-08T13:24:58.259Z",
+    "lastPulled": "2021-08-08T13:45:49.407Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -350,8 +350,8 @@
             "revid": 14300
         },
         "Assassin's_Mark.wikitext": {
-            "sha1": "6e167f05b23a0f8708461b5d6139a37aa02edcef",
-            "revid": 14301
+            "sha1": "01af68659873214e7701af2d30d7a313d8655ff8",
+            "revid": 14910
         },
         "Automech_Blaster.wikitext": {
             "sha1": "936f108c7c1a714fa7fa1d42d9f3ab64ced1545a",
@@ -22127,6 +22127,13 @@
         "Tiny_Stinger.wikitext": {
             "sha1": "55c25bbd313a46e82b3f15a3b9f0f01f1142aa6a",
             "revid": 14879
+        },
+        "File/Assassin's_Mark.png.json": {
+            "sha1": "08b4dbe1fa8edb8d418ef829dd5efdcba5195bdd"
+        },
+        "File%2FAssassin's_Mark.png.wikitext": {
+            "sha1": "0093cb65597f27c855d415765babe3e9a38097bb",
+            "revid": 14908
         }
     }
 }
