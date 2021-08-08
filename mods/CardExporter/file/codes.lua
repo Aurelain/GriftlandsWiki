@@ -1,70 +1,95 @@
+local json = require 'dkjson'
+
+------------------------------------------------------------------------------------------------------------------------
+-- Overrides the Daily button click
 function Screen.MainMenu:OnPressDaily()
-	self.cards = self.RefreshCardsSelection()
+	self.cards = self.CollectCards()
+
+    --self:WriteJson()
+
 	self.currentIndex = 0
-	self:DoPeriodicTask( "perform_my_export", 0.5, 0.5, function()
+	self.interval = self:DoPeriodicTask( "perform_next_export", nil, 0.5, function()
 		self:PerformNextExport()
 	end )
+
 end
 
-function Screen.MainMenu:RefreshCardsSelection()
+------------------------------------------------------------------------------------------------------------------------
+function Screen.MainMenu:CollectCards()
+    local cards = {}
+
     local battle_defs = require "battle/battle_defs"
-    local battle_card_options = {}
-    local battle_cards = BattleCardCollection():Filter( function( card_def )
-        return not CheckAnyBits( card_def.flags, battle_defs.CARD_FLAGS.SPECIAL | battle_defs.CARD_FLAGS.NPC )
-    end )
+    local battle_cards = BattleCardCollection()
     for k, card_def in ipairs( battle_cards.items ) do
-        table.insert( battle_card_options, { txt = "" .. LOC( card_def:GetLocNameKey() ) .. " <b>[" .. card_def.id .. "]</>", card_def = card_def })
+        if not CheckAnyBits( card_def.flags, battle_defs.CARD_FLAGS.SPECIAL | battle_defs.CARD_FLAGS.NPC ) then
+            table.insert(cards, card_def)
+        end
     end
-    table.sort( battle_card_options, function( a, b ) return a.txt < b.txt end )
-    --self.battle_card_options = battle_card_options
 
     local negotiation_defs = require "negotiation/negotiation_defs"
-    local negotiation_card_options = {}
     local negotiation_cards = NegotiationCardCollection()
     for k, card_def in ipairs( negotiation_cards.items ) do
 		if not CheckAnyBits( card_def.flags, negotiation_defs.CARD_FLAGS.SPECIAL | negotiation_defs.CARD_FLAGS.OPPONENT ) then
-			table.insert( negotiation_card_options, { txt = LOC( card_def:GetLocNameKey() ) .. " [" .. card_def.id .. "]", card_def = card_def })
+			table.insert(cards, card_def)
 		end
     end
-    table.sort( negotiation_card_options, function( a, b ) return a.txt < b.txt end )
-    --self.negotiation_card_options = negotiation_card_options
-	return negotiation_card_options
+
+	return cards
 end
 
+------------------------------------------------------------------------------------------------------------------------
+function Screen.MainMenu:WriteJson()
+	local allFile = io.open( "CardExporter:output/_all.json", "w" )
+	io.output(allFile)
+    local allJson = json.encode(self.cards, {exception = function() return '"native"' end,indent = true})
+	io.write(allJson)
+	io.close(allFile)
+end
+
+------------------------------------------------------------------------------------------------------------------------
 function Screen.MainMenu:PerformNextExport()
 	self.currentIndex = self.currentIndex + 1
-	if (self.currentIndex == 100) then
-		TheGame:FE():PushScreen( Screen.InfoPopup( "AUR", "done" ) )
-	end
-	if (self.currentIndex >= 100) then
-		return
-	end
 	local card = self.cards[self.currentIndex]
+	if not card then
+	    self.interval:Cancel()
+	    TheGame:FE():PushScreen( Screen.InfoPopup( "GameExporter", "done" ) )
+        return
+	end
 	self:SetCard(card)
 	self:StartCoroutine(self.ExportImageCoro, self)
+--     if (card.id == "ad_hominem_plus") then
+--         self.interval:Cancel()
+--         TheGame:FE():PushScreen( Screen.InfoPopup( "GameExporter", "done ad_hominem_plus" ) )
+--         self:SetCard(card)
+--         self:StartCoroutine(self.ExportImageCoro, self)
+--         return
+--     end
 end
 
-function Screen.MainMenu:SetCard( option )
+------------------------------------------------------------------------------------------------------------------------
+function Screen.MainMenu:SetCard( card )
     -- Remove existing card
     if self.card_widget then
         self.card_widget:Remove()
         self.card_widget = nil
     end
 
-    if option.card_def._classname == "BattleCardDef" then
-        -- Battle Card!
-        self.card = Battle.Card( option.card_def.id )
+    if card._classname == "BattleCardDef" then
+        self.card = Battle.Card( card.id )
         self.card_widget = self:AddChild( Widget.BattleCard() )
-            :RefreshCard( self.card )
-    else
-        -- Negotiation Card!
-        self.card = Negotiation.Card( option.card_def.id )
+    else -- Negotiation Card!
+        self.card = Negotiation.Card( card.id )
         self.card_widget = self:AddChild( Widget.NegotiationCard() )
-            :RefreshCard( self.card )
     end
 
+    if (card.base_id) then
+        self.card_widget:RefreshCard( self.card, nil, Widget.CardWidget.STYLE.UPGRADE )
+    else
+        self.card_widget:RefreshCard( self.card )
+    end
 end
 
+------------------------------------------------------------------------------------------------------------------------
 function Screen.MainMenu:ExportImageCoro()
     local scale = 1 -- was 3
     local CARD_W = 370 * scale
@@ -95,10 +120,8 @@ function Screen.MainMenu:ExportImageCoro()
     end
 
     capture:RenderToScene( anim_container, -render_w, -render_h, render_w, render_h )
-    engine.inst:SaveTextureToPNG( capture:GetTexture(), "../image_exports/" .. self.card_widget.card.id .. ".png" );
+    engine.inst:SaveTextureToPNG( capture:GetTexture(), "CardExporter:output/" .. self.card_widget.card.id .. ".png" );
 
     -- Make sure to call collect garbage a lot so that capture images get their resources freed:
     collectgarbage()
-	
-
 end
