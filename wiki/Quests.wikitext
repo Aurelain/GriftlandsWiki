@@ -11,10 +11,8 @@ While the dialogue and general structure of each individual quest is always the 
 Quest rewards include [[shills]] based on the difficulty, and a randomly selected extra reward which is one of the following: bonus shills, upgrade a card, remove a card, restore either 20 health or 10 resolve, get an [[Items|item card]], or a choice between three [[grafts]] (for harder missions/some story missions). Neither of these rewards are given if you fail the quest.
 
 Some quests in Sal's campaign may give an initial bonus of a card choice. Additionally, many missions can give additional rewards/consequences based on what actions you take, such as changing [[relationships]]. 
-== Known quests ==
+== Campaigns ==
 {{stub}}
-
-=== Main Quests ===
 '''[[Sal's Campaign]]: Huntin Kashio'''
 
 #[[Welcome to Havaria]]
@@ -36,33 +34,5 @@ Some quests in Sal's campaign may give an initial bonus of a card choice. Additi
 #[[Pick a Suitor]], [[Tei's request]], [[The Marriage Contract]]
 #[[Pick a Side]], [[The Ambush]], [[Cult Machinations]]
 #[[Sampling Error]], [[The Big Beach Party at the End of the World]]
-
-<br />
-
-=== Side Quests ===
-'''Sal's Campaign'''
-
-*[[A Matter of Faith]]
-*[[Another Day Older and Deeper in Debt]]
-*[[Attack Rival]]
-*[[Back Channel Negotiations]]
-*[[Competing Bids]]
-*[[Early Retirement]]
-*[[Friend or Fanatic]]
-*[[Hit the Beach]]
-*[[Ice Cold]]
-*[[Internal Affairs]]
-*[[Meet me at the Crossroads]]
-*[[Middle Man]]
-*[[Private Security]]
-*[[Recon in Force]]
-*[[Secret Shopper]]
-*[[The Summoning]]
-*[[Travel Insurance]]
-*[[Travelling Salesgrifter]]
-
-'''Rook's Campaign'''
-
-<br />
 
 [[Category:Quests]]
