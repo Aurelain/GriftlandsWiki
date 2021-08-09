@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Smith? Yeah I would say that guy is a little intense.
 |description = Choose a card in your hand and increase its damage by 2 this negotiation.

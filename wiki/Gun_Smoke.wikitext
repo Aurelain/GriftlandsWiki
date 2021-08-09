@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = You just get more options with these cartridges, it's almost not fair.
 |description = Spend 1 [[Charge]]: Gain 2 actions.<br/>[[Expend]]

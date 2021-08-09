@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = I’ll take on any one of you losers here!
 |description = Take 5 damage, gain 1 [[Power]].

@@ -1,5 +1,3 @@
-{{Reupload|Initial Ravenous still has [[Expend]].}}
-
 {{CardPage
 |quote = Hey, buddy, you gonna eat that?
 |description = [[Ability]]: Whenever an enemy dies, [[Heal]] 8.<br/>[[Expend]]

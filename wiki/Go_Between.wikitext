@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Come on, you’re my guy! It’ll be worth it!
 |description = Gain: Damage spills over to this argument before your core argument.<br/>[[Expend]]

@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = There's a reason you can't use these, they are unstable as all Hesh.
 |description = If the target has [[Burn]], gain 2 [[Charge]].

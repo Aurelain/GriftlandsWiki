@@ -1,5 +1,3 @@
-{{Reupload| Deals 3-8 base damage}}
-
 {{CardPage
 |quote = It was probably the cheapest shot I've ever seen in my life.
 |description = Spend 2 [[Combo]]: This card deals max damage and costs 1 less.<br/>[[Finisher]]

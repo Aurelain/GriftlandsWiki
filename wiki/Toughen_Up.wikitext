@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = I didn’t feel a thing!
 |description = Apply 3 [[Defense]].

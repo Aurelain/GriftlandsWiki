@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = DING DING DING!
 |description = [[Threshold]] 10: Apply 1 [[Stun]].

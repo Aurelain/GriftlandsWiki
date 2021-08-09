@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |name = Tracer
 |image = Tracer.png

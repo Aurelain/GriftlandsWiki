@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Dispense with the formalities.
 |description = [[Expend]] a card in your hand, all other cards in your hand gain 2 damage until played.

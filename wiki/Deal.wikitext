@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Hurry it up partner, I haven’t got all day.
 |description = [[Threshold]] 3: Gain 2 [[Adrenaline]].

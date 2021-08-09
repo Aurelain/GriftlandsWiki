@@ -1,5 +1,3 @@
-{{Reupload|enemy argument has been renamed to opponent argument.}}
-
 {{CardPage
 |quote = Wait. Why is he standing up?
 |description = Attack a random opponent argument once for each opponent argument.

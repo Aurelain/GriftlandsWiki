@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Yeah it’s wired right into your bio-metrics. It’s not something that you are supposed to be doing. There’s legality involved.
 |description = Increase your [[Moxie]] by the amount of damage dealt by this card.

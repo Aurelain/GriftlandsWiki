@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = We should've made our move earlier, we’re doomed.
 |description = Hits all enemies.<br/>This card deals bonus damage equal to half of your [[Defense]].

@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Let’s start this over.
 |description = Gain 2 [[Vulnerability]].<br/>All cards deal +3 damage this turn.

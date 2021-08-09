@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = The conversation was quite energizing. Thank you.
 |description = Target argument loses 2 resolve. You gain 2 resolve.<br/>[[Expend]]

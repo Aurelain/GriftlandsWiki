@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Know when to run.
 |description = [[Threshold]] 6: Apply 2 [[Wound]].

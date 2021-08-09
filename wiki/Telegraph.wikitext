@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = How did he see that coming? Is he psychic or something?!.
 |description = Gain 2 [[Concentration]].<br/>Apply 2 [[Defense]] per [[Concentration]] you have.

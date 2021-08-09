@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Well, I wasn’t expecting that.
 |description = Apply 3 [[Defense]]. Increase by 2 for the rest of this battle whenever this card is [[Improvise|Improvised]].

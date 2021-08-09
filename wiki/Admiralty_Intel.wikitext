@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = So that’s where that was.
 |description = Gain 2 [[Influence]].<br/>[[Destroy]] after 2 uses.

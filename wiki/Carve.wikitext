@@ -1,5 +1,3 @@
-{{reupload}}
-
 {{CardPage
 |quote = Look, I'm not a doctor, but there's no way they're going to make it.
 |description = Spend up to 2 [[Combo]]: Apply 1 [[Wound]] per [[Combo]] spent.<br/>[[Finisher]]

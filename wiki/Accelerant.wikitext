@@ -1,5 +1,3 @@
-{{Reupload|Boosted Accelerant has "3 [[Scorched]] and 3 [[Burn]]". <br/> Wide Accelerant has "2 [[Scorched]] and 2 [[Burn]]".}}
-
 {{CardPage
 |quote = What's that smell?
 |description = Apply 2 [[Scorched]] and 2 [[Burn]] to an enemy.<br/>[[Expend]]

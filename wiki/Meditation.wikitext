@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Clear your mind, no food or drink allowed on the premises sir.
 |description = Increase your [[Moxie]] by 1 this turn.<br/>[[Alleviate]] 2 health.<br/>[[Chain]]

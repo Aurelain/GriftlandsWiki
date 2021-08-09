@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Where did they get all those knives?!
 |description = Spend 2 [[Combo]]: deals 2 bonus damage and hits all enemies instead.<br/>[[Expend]], [[Finisher]]

@@ -1,5 +1,3 @@
-{{Reupload|The upgrades are "Pale Ante" and "Sticky Ante", instead of "Crown Ante" and "Foot Ante".}}
-
 {{CardPage
 |quote = I’m in.
 |description = Discard 2 cards, [[Set the coin]].

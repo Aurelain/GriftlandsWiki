@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = You've been practicing!
 |description = Next turn, draw 2 additional cards.

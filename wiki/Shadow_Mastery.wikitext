@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = One strike is usually all you need when emerging from darkness.
 |description = [[Ability]]: Whenever you discard a card, gain 1 [[Adrenaline]].<br/>[[Expend]]

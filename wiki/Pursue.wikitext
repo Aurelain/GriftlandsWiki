@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = I'm gonna get you.
 |description = [[Improvise]] a card from your discard pile and increase its damage by 2 this negotiation.

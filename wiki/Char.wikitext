@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Everyone has a plan until they are set on fire.
 |description = If the target has [[Burn]], gain 1 action.

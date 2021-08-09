@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Heads or snails?
 |description = [[Gamble]].<br/>[[Sticky]]

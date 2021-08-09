@@ -1,5 +1,3 @@
-{{Reupload|[[Finisher]] from the deck instead of Attack card from draw pile.}}
-
 {{CardPage
 |quote = I call this one the Murder Bay Mauler!
 |description = [[Improvise]] a [[Finisher]] from your deck. Gain 2 [[Combo]].

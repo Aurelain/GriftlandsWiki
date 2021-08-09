@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Looks like you are all out of options friend.
 |description = Draw 2 cards then [[Gamble]].<br/>[[Heads]]: Those cards cost 1 less until played.

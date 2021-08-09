@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = If it was so obvious then why did you get hit by it?
 |description = Discard this card: Increase the damage of this card by 4 until played and return it to your hand.

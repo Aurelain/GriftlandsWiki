@@ -232,6 +232,7 @@ const generateWikitext = (existingWikitext, futureCardWikitext) => {
     let draft = existingWikitext;
 
     draft = draft.replace(/{{stub}}/i, '');
+    draft = draft.replace(/{{Reupload.*?}}/i, '');
 
     if (draft.includes('{{Card')) {
         draft = draft.replace(/{{Card[\s\S]*?}}/, futureCardWikitext);

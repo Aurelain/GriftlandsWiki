@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = It just keeps coming.
 |description = Add a copy of this card to your discard.<br/>Spend 2 [[Combo]]: Draw a card.<br/>[[Finisher]]

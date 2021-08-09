@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = This is great! What do you call it?
 |description = [[Drink]] 2. Gain one of the following: 2 [[Moxie]], 2 [[Adrenaline]], 4 [[Defense]] or 1 [[Power]].

@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = The toughest ones are always right off the Derrick.
 |description = [[Ability]]: At the start of your turn, draw an additional card if you have at least 2 [[Combo]].<br/>[[Expend]]

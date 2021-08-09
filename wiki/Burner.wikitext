@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = It just ends up smelling so bad.
 |description = Apply 2 [[Burn]].

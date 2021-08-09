@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Pull the pin and throw, easy enough. You barely have to aim with a blast radius like that.
 |description = Hits all enemies.<br/>Apply 2 [[Wound]].<br/>Apply 2 [[Exposed]].<br/>[[Destroy]] after 1 use.

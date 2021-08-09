@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = This guy gets it.
 |description = Gain: Whenever your core argument is attacked, deal 3 damage to a random target.<br/>[[Expend]]

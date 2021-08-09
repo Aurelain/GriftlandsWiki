@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Where?
 |description = Gain 1 [[Evasion]].<br/>[[Expend]], [[Burnout]]

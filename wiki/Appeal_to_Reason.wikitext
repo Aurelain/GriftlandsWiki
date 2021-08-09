@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Look, you’re a smart guy.
 |description = Costs 1 less for each [[Influence]] you have.

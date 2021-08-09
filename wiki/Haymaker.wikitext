@@ -1,5 +1,3 @@
-{{Reupload| This card and its upgrades is 2-cost. }}
-
 {{CardPage
 |quote = Sound the damn bell! It's over!
 |description = Spend all your [[Combo]]: Deal 3 bonus damage per [[Combo]].<br/>[[Finisher]]

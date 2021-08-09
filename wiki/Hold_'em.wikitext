@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Know when to walk away.
 |description = [[Threshold]] 4: Increase your [[Moxie]] by 4.

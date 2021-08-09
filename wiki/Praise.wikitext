@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = A for effort.
 |description = [[Prepared]]: Gain 2 [[Influence]].

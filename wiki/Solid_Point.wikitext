@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = A few more of those and I’m all yours.
 |description = When this card is drawn, deal 1 damage to a random opponent argument and gain 1 [[Influence]].<br/>[[Unplayable]]

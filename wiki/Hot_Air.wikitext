@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Nothing you've been saying has meant much of anything.
 |description = Create: If this argument is destroyed by you, recreate it and increase its damage by 3.<br/>[[Expend]]

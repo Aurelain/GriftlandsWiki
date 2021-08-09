@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Is that him? I thought he was dead!
 |description = Gain 2 [[Diversion]].<br/>[[Expend]]

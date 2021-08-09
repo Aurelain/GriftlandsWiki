@@ -1,5 +1,3 @@
-{{Reupload|Also applies 1 [[Wound]].}}
-
 {{CardPage
 |quote = They came at me like some kind of wild animal.
 |description = Attack 1 random enemy, apply 1 [[Wound]].

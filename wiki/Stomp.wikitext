@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = That's gotta hurt.
 |description = Spend 2 [[Combo]]: this card costs 0.<br/>[[Finisher]]

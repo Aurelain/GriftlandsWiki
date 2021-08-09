@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = I don't know where that one came from. He's waiting for you in the back.
 |description = Whenever you gain [[Renown]], reduce the cost of this card by 1.

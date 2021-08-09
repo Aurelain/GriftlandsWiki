@@ -1,5 +1,3 @@
-{{Reupload}}
-
 {{CardPage
 |quote = Let’s think about this here for a second.
 |description = Apply 3 [[Composure]].
