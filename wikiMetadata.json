@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-09T18:48:55.855Z",
+    "lastPulled": "2021-08-09T21:20:48.828Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -5634,8 +5634,8 @@
             "revid": 13930
         },
         "Lili.wikitext": {
-            "sha1": "83fd46bd179e22f9af83d544357dc48f17501eab",
-            "revid": 13123
+            "sha1": "66186d5fc7bc0391715c3fc1b3d81355b2a55673",
+            "revid": 17133
         },
         "Llullably.wikitext": {
             "sha1": "26c8b1c8e617b2bc99ac15a2fcf6c9391a6d0a02",
@@ -11337,10 +11337,6 @@
             "sha1": "f556d0dda6d643271144098e78759c2e0349eae4",
             "revid": 442
         },
-        "Template/Copyright_LGPL.wikitext": {
-            "sha1": "d588f2f055357f84fc35cd0de36c0c7f0c1b4d17",
-            "revid": 2149
-        },
         "Template/Admins.wikitext": {
             "sha1": "00826461c707a4b19a3326d62b5864026283d256",
             "revid": 9891
@@ -11370,12 +11366,12 @@
             "revid": 5360
         },
         "Template/Card.wikitext": {
-            "sha1": "69b6862b813baca904dfc7fdbc21382630b6695a",
-            "revid": 17032
+            "sha1": "c809f2279a9f9bb55536df18a772c05759ac2397",
+            "revid": 17130
         },
         "Template/Card%2Fdoc.wikitext": {
-            "sha1": "c2f79f2e23cea0c02394fa0a054685139782303e",
-            "revid": 14662
+            "sha1": "3f6481e2e73fa4414c7623041822c3bfa3ca25bf",
+            "revid": 17129
         },
         "Template/Character%2Fdoc.wikitext": {
             "sha1": "83debc468b0ca5dc3f450a4aa9a23f542989f052",
@@ -11404,6 +11400,10 @@
         "Template/CardLinks%2Fdoc.wikitext": {
             "sha1": "6cd451aeb2dd3368bb345dcb39502fe6fbf4475d",
             "revid": 10947
+        },
+        "Template/CharacterPage.wikitext": {
+            "sha1": "a50e08af1d243a95c16ecc6665851b033b0f1a50",
+            "revid": 17136
         },
         "Template/Disambig.wikitext": {
             "sha1": "5ee3a4160afd0d9da36e1e2cc63e983343792e8b",
@@ -11464,10 +11464,6 @@
         "Template/Editlink.wikitext": {
             "sha1": "a71c3a5be7819d78770693093744dd07a262ebae",
             "revid": 199
-        },
-        "Template/Move.wikitext": {
-            "sha1": "e96fc4ac70c50546be518d540c522425e32e1dba",
-            "revid": 229
         },
         "Template/Fullurl.wikitext": {
             "sha1": "46367eacd22a6dce7076a2ab94d525b760c66e2b",
@@ -11561,6 +11557,10 @@
             "sha1": "b0bd0dcb4acbb372b9d46a765a2f13a8d0fc1dc2",
             "revid": 2150
         },
+        "Template/Copyright_LGPL.wikitext": {
+            "sha1": "d588f2f055357f84fc35cd0de36c0c7f0c1b4d17",
+            "revid": 2149
+        },
         "Template/Difficulty.wikitext": {
             "sha1": "f53bdc3f9d555ce5b61f0262123ead3c82f3ffa9",
             "revid": 1225
@@ -11640,6 +11640,10 @@
         "Template/Uploadlink.wikitext": {
             "sha1": "2a1bb66f3f8f67482c40c9d9297a5d65e977a895",
             "revid": 223
+        },
+        "Template/Move.wikitext": {
+            "sha1": "e96fc4ac70c50546be518d540c522425e32e1dba",
+            "revid": 229
         },
         "Template/Reupload.wikitext": {
             "sha1": "46f67de758fb182b604e4766d3d86135f6cda321",

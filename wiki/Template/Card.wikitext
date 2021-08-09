@@ -20,9 +20,7 @@
 |-
 {{#if: {{{keywords|}}} | {{!}} width=90 {{!}}<div>Key Words</div>{{!!}} {{{keywords}}} }}
 |-
-! colspan="2" class="infoboxdetails" | Upgrades
-|-
-{{#if: {{{upgradeable|}}} | {{!}} width=90 {{!}}<div>Upgradeable</div>{{!!}} {{{upgradeable}}} }}
+{{#if: {{{upgrade1|}}} | ! colspan="2" class="infoboxdetails" {{!}} Upgrades }}
 |-
 {{#if: {{{expreq|}}} | {{!}} width=90 {{!}}<div>XP required</div>{{!!}} {{{expreq}}} }}
 |-

@@ -1,0 +1,33 @@
+{{Character
+|name = {{#if:{{{name|}}}|{{{name}}}}}
+|image = {{PAGENAME}}_portrait.png
+|race = {{#if:{{{race|}}}| {{{race}}} }}
+|location = {{#if:{{{location|}}}| {{{location}}} }}
+|faction = {{#if:{{{faction|}}}| {{{faction}}} }}
+|title = {{#if:{{{title|}}}| {{{title}}} }}
+}}
+<!-- ====================== Q U O T E  ====================== -->
+{{#if:{{{quote|}}}|{{Quote|{{{quote}}}}}}}
+<!-- ====================== B R I E F ======================= -->
+'''{{{name|{{PAGENAME}}}}}''' is a character in {{Gamename}} and a <!--
+-->{{#if:{{{faction|}}}|[[{{{faction}}}]]|}} <!--
+-->{{#if:{{{title|}}}|{{{title}}}|}}.
+<!-- ====================== B O O N   /   B A N E =========== -->
+{{#if:{{{boon|}}}|
+==Boon/Bane==
+{{Boon/Bane
+|boon = {{{boon}}}
+|boonimage = {{{boonimage}}}
+|boondesc = {{{boondesc}}}
+|bane = {{{bane}}}
+|baneimage = {{{baneimage}}}
+|banedesc = {{{banedesc}}}
+}}
+}}
+<!-- ====================== D E A T H   L O O T ============= -->
+{{#if:{{{deathloot|}}}|
+==Death Loot==
+If killed in combat, '''{{{name|{{PAGENAME}}}}}''' drops a [[{{{deathloot}}}]]:<br/>
+{{CardLink|{{{deathloot}}}}}
+}}
+<noinclude>{{clear}}{{doc}}</noinclude>
