@@ -17,6 +17,8 @@ const writeCharactersSheet = require('./writeCharactersSheet');
 const tally = require('../utils/tally');
 const getArtIds = require('./getArtIds');
 const importCardPics = require('./cardHelpers/importCardPics');
+const getGrafts = require('./getGrafts');
+const updateCharacters = require('./updateCharacters');
 const {STORAGE, GAME_DIR, DEBUG} = require('../utils/CONFIG');
 
 // =====================================================================================================================
@@ -43,12 +45,11 @@ const update = async () => {
 
         // updateCards(cards);
 
+        const grafts = getGrafts();
+
         const characters = await getCharacters(scriptsZip);
         await writeCharactersSheet(characters);
-
-        const factions = getFactions(scriptsZip);
-        const prepared = prepareCharacters(characters, factions);
-        writeCharacters(prepared);
+        updateCharacters(characters, grafts);
     } catch (e) {
         console.log('Error:', e.message);
         DEBUG && console.log(e.stack);
@@ -58,16 +59,6 @@ const update = async () => {
 // =====================================================================================================================
 //  P R I V A T E
 // =====================================================================================================================
-/**
- *
- */
-const writeCharacters = (prepared) => {
-    for (const filePath in prepared) {
-        const {content} = prepared[filePath];
-        const fullPath = STORAGE + '/' + filePath;
-        fs.writeFileSync(fullPath, content);
-    }
-};
 
 // =====================================================================================================================
 //  E X P O R T
