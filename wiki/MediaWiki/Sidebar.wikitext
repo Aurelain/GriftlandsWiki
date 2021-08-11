@@ -1,25 +1,27 @@
-
-* navigation
-** mainpage|mainpage-description
+* Navigation
+** Category:Characters|Characters
+** Battle|Battle
+** Negotiation|Negotiation
+** Category:Cards|Cards
+** Grafts|Grafts
+** Quests|Quests
+** Locations|Locations
+** Prestige|Prestige
+** Mutators|Mutators
+** Perks|Perks
+* Other
+** Developers|Developers
+** How to play guide of Griftlands|How to play
+** Requirements
+* Community
 ** portal-url|portal
 ** recentchanges-url|recentchanges
-** randompage-url|randompage
 ** noticeboard-url|noticeboard
-* Top Pages
-** Locations|Locations
-** Category:Characters|Characters
-** Quests|Quests
-** Enemies|Enemies
-* More by KLEI
-** http://dontstarve.gamepedia.com/Don%27t_Starve_Wiki|Don't Starve
-** http://oxygennotincluded.gamepedia.com/Oxygen_Not_Included_Wiki|Oxygen not included
-** http://hotlava.gamepedia.com/Hot_Lava_Wiki|Hot Lava
-** https://invisibleinc.gamepedia.com/Invisible_Inc_Wiki|Invisible Inc.
-** http://forums.kleientertainment.com/forum/5-dont-starve/|KLEI Forum
-* Gamepedia
-** gamepedia-support-url|gamepedia-support
-** bad-ad-url|bad-ad
-** gamepedia-help-url|gamepedia-help
-** gamepedia-contact-url|gamepedia-contact
+* More by Klei
+** https://dontstarve.fandom.com/wiki/Don%27t_Starve_Wiki|Don't Starve
+** https://oxygennotincluded.fandom.com/wiki/Oxygen_Not_Included_Wiki|Oxygen Not Included
+** https://hotlava.fandom.com/wiki/Hot_Lava_Wiki|Hot Lava
+** https://invisibleinc.fandom.com/wiki/Invisible,_Inc._Wiki|Invisible Inc.
+** http://forums.kleientertainment.com|Klei Forum
 * TOOLBOX
 * LANGUAGES

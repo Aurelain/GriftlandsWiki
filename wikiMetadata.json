@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-09T21:20:48.828Z",
+    "lastPulled": "2021-08-11T20:47:14.045Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -11110,8 +11110,8 @@
             "revid": 14571
         },
         "MediaWiki/Sidebar.wikitext": {
-            "sha1": "2c1b6b9888b15365bbf654c13d4f24bd57cab2e9",
-            "revid": 1290
+            "sha1": "37d82aaf3ac5932f81719a99e0bb174282fae3ae",
+            "revid": 17143
         },
         "MediaWiki/Licenses.wikitext": {
             "sha1": "c9df95fa262d778bca2a8f68dc532b4a6897c256",
@@ -11402,8 +11402,8 @@
             "revid": 10947
         },
         "Template/CharacterPage.wikitext": {
-            "sha1": "a50e08af1d243a95c16ecc6665851b033b0f1a50",
-            "revid": 17136
+            "sha1": "593bbf5bcd0c6b999c43c7cc3ef2df66dc38d984",
+            "revid": 17142
         },
         "Template/Disambig.wikitext": {
             "sha1": "5ee3a4160afd0d9da36e1e2cc63e983343792e8b",
@@ -23053,6 +23053,10 @@
         },
         "File/Wild_Rant.png.json": {
             "sha1": "f40cbb8c46c5702e2cd4fafaa17111196e661be9"
+        },
+        "Template/CharacterPage%2Fdoc.wikitext": {
+            "sha1": "243614c0a0c5e5198d26c81de69059ab55242f9a",
+            "revid": 17137
         }
     }
 }

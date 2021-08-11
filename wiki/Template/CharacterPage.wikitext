@@ -1,6 +1,6 @@
 {{Character
 |name = {{#if:{{{name|}}}|{{{name}}}}}
-|image = {{PAGENAME}}_portrait.png
+|image = {{#if:{{{image|}}}|{{{image}}}|{{PAGENAME}}_portrait.png}}
 |race = {{#if:{{{race|}}}| {{{race}}} }}
 |location = {{#if:{{{location|}}}| {{{location}}} }}
 |faction = {{#if:{{{faction|}}}| {{{faction}}} }}

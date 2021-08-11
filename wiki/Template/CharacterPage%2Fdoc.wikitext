@@ -1,0 +1,54 @@
+{{doc/start}}
+Use this Template for the whole page of every Character.
+
+==General Usage==
+<pre style="overflow: auto;">
+{{CharacterPage
+|name = character's name. Skip it to use the pagename!
+|image = character's image. Skip it to use the pagename!
+|quote = character's bio
+|race = character's species
+|location = places the character may be found
+|faction = admiralty / bilebroker / boggers / civilian / cult of hesh / deltreans / grifters / jakes / rentorians / rise / spark barons / spree
+|title = character's occupation
+|boon = graft awarded when the character loves you
+|boonimage = boon image file name, without extension
+|boondesc = boon description
+|bane = graft given when the character hates you
+|baneimage = bane image file name, without extension
+|banedesc = bane description
+|deathloot = card you receive when killing the character
+</pre>
+
+==Example==
+<pre style="overflow: auto;">
+{{CharacterPage
+|quote = Word is, Lili would sell his own grandmother if he thought he could buy her back at half price next week.
+|race = Human
+|faction = Civilian
+|title = Wealthy Merchant
+|boon = Haggle Badge
+|boonimage = haggle badge
+|boondesc = You can negotiate for greater quest rewards.
+|bane = Bad Credit
+|baneimage = bad credit
+|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
+|deathloot = Spark Grenade
+}}
+</pre>
+{{CharacterPage
+|name = Lili
+|image = Lili portrait.png
+|quote = Word is, Lili would sell his own grandmother if he thought he could buy her back at half price next week.
+|race = Human
+|faction = Civilian
+|title = Wealthy Merchant
+|boon = Haggle Badge
+|boonimage = haggle badge
+|boondesc = You can negotiate for greater quest rewards.
+|bane = Bad Credit
+|baneimage = bad credit
+|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
+|deathloot = Spark Grenade
+}}
+{{clear}}{{doc/end}}
