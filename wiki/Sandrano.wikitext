@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = admiralty
-| title = Clerk
+{{CharacterPage
+|quote = Sandrano chose his career based off the assumption that desk jockeys get the best desk tchochkes.
+|race = Human
+|faction = Admiralty
+|title = Clerk
+|boon = Authorization
+|boonimage = authorization
+|boondesc = Once a day, you can ask a nearby member of the Admiralty to help you in battle or negotiation.
+|bane = Red Tape
+|baneimage = red tape
+|banedesc = Members of the Admiralty will not help you in battle or negotiation.
+|deathloot = Letter Opener
 }}

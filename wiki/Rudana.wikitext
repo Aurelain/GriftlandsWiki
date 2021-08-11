@@ -1,10 +1,15 @@
-{{Character
-| race = Human
-| location = 
-| faction = admiralty
-| title = Clerk
+{{CharacterPage
+|quote = What Rudana has sacrificed in scruples he's made up for in passive aggression.
+|race = Human
+|faction = Admiralty
+|title = Clerk
+|boon = Authorization
+|boonimage = authorization
+|boondesc = Once a day, you can ask a nearby member of the Admiralty to help you in battle or negotiation.
+|bane = Red Tape
+|baneimage = red tape
+|banedesc = Members of the Admiralty will not help you in battle or negotiation.
+|deathloot = Letter Opener
 }}
-
-'''Rudana''' is a character in [[{{Gamename}}]]. Rudana is offering a job in quest [[Attack Rival]], where Rudana wants the player to beat up a character named [[Ekel]].
-{{stub}}
-[[Category:Characters]]
+==Notes==
+Rudana is offering a job in quest [[Attack Rival]], where Rudana wants the player to beat up a character named [[Ekel]].

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = admiralty
-| title = Goon
+{{CharacterPage
+|quote = Some folks believe the Admiralty brings order to the griftlands. Clove knows that if that's true, it's a tall one.
+|race = Jarackle
+|faction = Admiralty
+|title = Goon
+|boon = Piece of the Pie
+|boonimage = piece of the pie
+|boondesc = Gain 75 shills every morning.
+|bane = Hunted
+|baneimage = hunted
+|banedesc = All enemy Admiralty gain 1 Power at the start of battle.
+|deathloot = Admiralty Intel
 }}

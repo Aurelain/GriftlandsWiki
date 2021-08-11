@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = admiralty
-| title = Clerk
+{{CharacterPage
+|quote = If you think Spotz is a little slow on the uptake, you should see Spotz run.
+|race = Jarackle
+|faction = Admiralty
+|title = Clerk
+|boon = Authorization
+|boonimage = authorization
+|boondesc = Once a day, you can ask a nearby member of the Admiralty to help you in battle or negotiation.
+|bane = Red Tape
+|baneimage = red tape
+|banedesc = Members of the Admiralty will not help you in battle or negotiation.
+|deathloot = Letter Opener
 }}

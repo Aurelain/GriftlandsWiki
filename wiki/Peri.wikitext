@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = admiralty
-| title = Goon
+{{CharacterPage
+|quote = Peri is rumored to be engaged in criminal activity on the side. Regardless of if it's true, you'd hate to be the one who started the rumor.
+|race = Human
+|faction = Admiralty
+|title = Goon
+|boon = Piece of the Pie
+|boonimage = piece of the pie
+|boondesc = Gain 75 shills every morning.
+|bane = Hunted
+|baneimage = hunted
+|banedesc = All enemy Admiralty gain 1 Power at the start of battle.
+|deathloot = Admiralty Intel
 }}

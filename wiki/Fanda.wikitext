@@ -1,21 +1,14 @@
-{{Character
-| race = Kra'deshi
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Goon
+{{CharacterPage
+|quote = Fanda can often be heard muttering a prayer under her breath, even while she's making life difficult for others.
+|race = Kra'deshi
+|location = Havaria - Murder Bay
+|faction = Admiralty
+|title = Goon
+|boon = Piece of the Pie
+|boonimage = piece of the pie
+|boondesc = Gain 75 shills every morning.
+|bane = Hunted
+|baneimage = hunted
+|banedesc = All enemy Admiralty gain 1 Power at the start of battle.
+|deathloot = Admiralty Intel
 }}
-
-{{quote|Fanda can often be heard muttering a prayer under her breath, even while she's making life difficult for others.|Fanda's Compendium Description}}'''Fanda''' is a character in {{Gamename}} and an [[Admiralty]] Goon.
-
-== Death Loot ==
-If '''Fanda''' is killed in combat, she will drop a [[Admiralty Intel]].
-[[File:Admiralty Intel.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Fanda''' loves you, you will receive:
-
-=== Piece of the Pie ===
-Gain 75 shills every morning.
-[[File:Graft piece of the pie.png|none|thumb]]
-<br />
-[[Category:Characters]]

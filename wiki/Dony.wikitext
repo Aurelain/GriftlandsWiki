@@ -1,14 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Goon
+{{CharacterPage
+|quote = Dony believes the Admiralty is doing Hesh's work. Maybe someone should tell the Cult that.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Admiralty
+|title = Goon
+|boon = Piece of the Pie
+|boonimage = piece of the pie
+|boondesc = Gain 75 shills every morning.
+|bane = Hunted
+|baneimage = hunted
+|banedesc = All enemy Admiralty gain 1 Power at the start of battle.
+|deathloot = Admiralty Intel
 }}
-
-{{quote|Dony believes the Admiralty is doing Hesh's work. Maybe someone should tell the Cult that.|Dony's Compendium Description.}}'''Dony''' is a character in {{Gamename}} and a [[Admiralty]] Goon.
-
-== Death Loot ==
-If Dony is killed in combat, she will drop an [[Admiralty Intel]].
-[[File:Admiralty Intel.png|none|thumb]]
-<br />
-[[Category:Characters]]

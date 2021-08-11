@@ -1,22 +1,18 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = admiralty
-| title = Clerk
-}}
-
-'''Yunni''' is a character in [[{{Gamename}}]]. She appears in quest [[Another Day Older and Deeper in Debt]]. 
-
-==Relationship==
-{{Boon/Bane
-|boonimage = authorization
+{{CharacterPage
+|quote = When you need the fastest pencil pusher in the West, you need Yunni.
+|race = Human
+|faction = Admiralty
+|title = Clerk
 |boon = Authorization
+|boonimage = authorization
 |boondesc = Once a day, you can ask a nearby member of the [[Admiralty]] to help you in battle or negotiation.
-|baneimage = red tape
 |bane = Red Tape
-|banedesc = Members of the [[Admiralty]] will not help you in battle or negotiation.}}
+|baneimage = red tape
+|banedesc = Members of the [[Admiralty]] will not help you in battle or negotiation.
+|deathloot = Letter Opener
+}}
+==Notes==
+She appears in quest [[Another Day Older and Deeper in Debt]].
 
 ==Gallery==
 <gallery>
