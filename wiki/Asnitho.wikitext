@@ -1,16 +1,14 @@
-{{Character
-| race = Kra'deshi
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Patrol Leader
+{{CharacterPage
+|quote = Asnitho likes to spend her time off walking in nature. And she's got the yote scars to prove it.
+|race = Kra'deshi
+|location = Havaria - Murder Bay
+|faction = admiralty
+|title = Patrol Leader
+|boon = Sparring
+|boonimage = sparring
+|boondesc = Gain 1 bonus Defense on all cards that apply Defense.
+|bane = Bully
+|baneimage = bully
+|banedesc = Lose 1 Defense on all cards that apply Defense.
+|deathloot = Spear Head
 }}
-
-{{quote|Asnitho likes to spend her time off walking in nature. And she's got the yote scars to prove it.|Asnitho's Compendium Description}}
-
-'''Asnitho''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
-
-== Death Loot ==
-If '''Asnitho''' is killed in combat, she will drop a [[Spear Head]].
-[[File:Spear Head.png|none|thumb]]
-<br />
-[[Category:Characters]]

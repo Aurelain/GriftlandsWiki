@@ -1,20 +1,14 @@
-{{Character
-| race = Shroke
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Clerk
+{{CharacterPage
+|quote = Shroke aren't usually drawn to bureaucracy but then, who is?
+|race = Shroke
+|location = Havaria - Murder Bay
+|faction = admiralty
+|title = Clerk
+|boon = Authorization
+|boonimage = authorization
+|boondesc = Once a day, you can ask a nearby member of the Admiralty to help you in battle or negotiation.
+|bane = Red Tape
+|baneimage = red tape
+|banedesc = Members of the Admiralty will not help you in battle or negotiation.
+|deathloot = Letter Opener
 }}
-
-{{quote|Shroke aren't usually drawn to bureaucracy but then, who is?|Fyrdinan's Compendium Description}}'''Fyridnan''' is a character in {{Gamename}} and a [[Admiralty]] Clerk.
-
-== Death Loot ==
-If '''Fyrdinan''' is killed in combat, she will drop a [[Letter Opener]].
-[[File:Letter Opener.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Fyrdinan''' loves you, you will receive:
-
-=== Authorization ===
-Once a day, you can ask a nearby member of the Admiralty to help you in a battle or negotiation.
-[[File:Graft authorization.png|none|thumb]]
-[[Category:Characters]]

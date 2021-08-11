@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = admiralty
-| title = Patrol Leader
+{{CharacterPage
+|quote = There's a curl to Winnie's lip that might suggest a sense of humor buried deep down inside—or maybe just a bad smell.
+|race = Human
+|faction = admiralty
+|title = Patrol Leader
+|boon = Sparring
+|boonimage = sparring
+|boondesc = Gain 1 bonus Defense on all cards that apply Defense.
+|bane = Bully
+|baneimage = bully
+|banedesc = Lose 1 Defense on all cards that apply Defense.
+|deathloot = Spear Head
 }}

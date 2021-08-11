@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = admiralty
-| title = Patrol Leader
+{{CharacterPage
+|quote = Phinoon is often seen killing it on the dance floor, but it's unclear if this means he's a good dancer or a terrible hunter.
+|race = Kra'deshi
+|faction = admiralty
+|title = Patrol Leader
+|boon = Sparring
+|boonimage = sparring
+|boondesc = Gain 1 bonus Defense on all cards that apply Defense.
+|bane = Bully
+|baneimage = bully
+|banedesc = Lose 1 Defense on all cards that apply Defense.
+|deathloot = Spear Head
 }}

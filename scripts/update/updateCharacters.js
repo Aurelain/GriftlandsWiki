@@ -17,18 +17,18 @@ const RACE_WORDS = {
 };
 
 const FACTION_WORDS = {
-    ADMIRALTY: 'admiralty',
-    BANDITS: 'spree',
-    BILEBROKERS: 'bilebroker',
-    BOGGERS: 'boggers',
-    CULT_OF_HESH: 'cult of hesh',
-    DELTREAN: 'deltreans',
-    FEUD_CITIZEN: 'civilian',
-    GRIFTER: 'grifters',
-    JAKES: 'jakes',
-    RENTORIAN: 'rentorians',
-    RISE: 'rise',
-    SPARK_BARONS: 'spark barons',
+    ADMIRALTY: 'Admiralty',
+    BANDITS: 'Spree',
+    BILEBROKERS: 'Bilebroker',
+    BOGGERS: 'Boggers',
+    CULT_OF_HESH: 'Cult of Hesh',
+    DELTREAN: 'Deltreans',
+    FEUD_CITIZEN: 'Civilian',
+    GRIFTER: 'Grifters',
+    JAKES: 'Jakes',
+    RENTORIAN: 'Rentorians',
+    RISE: 'Rise',
+    SPARK_BARONS: 'Spark Barons',
 };
 
 // =====================================================================================================================
@@ -58,7 +58,7 @@ const updateCharacters = (characters, grafts, cards) => {
         // }
         const existingCharacter = parseCharacterFromWikitext(existingWikitext);
         const futureCharacter = {...character, ...existingCharacter};
-        const futureCharacterWikitext = generateCharacterWikitext(futureCharacter);
+        const futureCharacterWikitext = generateCharacterWikitext(futureCharacter, grafts, cards);
         const futureWikitext = generateWikitext(existingWikitext, futureCharacterWikitext);
         if (futureWikitext !== existingWikitext) {
             // console.log('futureWikitext:', futureWikitext);
@@ -90,11 +90,12 @@ const parseCharacterFromWikitext = (wikitext) => {
     }
     return character;
 };
+
 /**
  *
  */
-const generateCharacterWikitext = (character) => {
-    const {bio, species, location, faction_id, title, loved_graft, hated_graft} = character;
+const generateCharacterWikitext = (character, grafts, cards) => {
+    const {bio, species, location, faction_id, title, loved_graft, hated_graft, death_item} = character;
 
     let draft = '{{CharacterPage\n';
     // if (name.includes(':')) {
@@ -119,7 +120,21 @@ const generateCharacterWikitext = (character) => {
         draft += `|title = ${title}\n`;
     }
     if (loved_graft) {
-        assertCard(hated_graft, character, 'Asymmetric graft!');
+        assertCard(loved_graft in grafts, character, 'Unknown loved_graft!');
+        assertCard(hated_graft in grafts, character, 'Unknown hated_graft!');
+        const boon = grafts[loved_graft];
+        const bane = grafts[hated_graft];
+        draft += `|boon = ${boon.name}\n`;
+        draft += `|boonimage = ${boon.name.toLowerCase()}\n`;
+        draft += `|boondesc = ${boon.desc}\n`;
+        draft += `|bane = ${bane.name}\n`;
+        draft += `|baneimage = ${bane.name.toLowerCase()}\n`;
+        draft += `|banedesc = ${bane.desc}\n`;
+    }
+    if (death_item) {
+        assertCard(death_item in cards, character, 'Unknown death_item!');
+        const card = cards[death_item];
+        draft += `|deathloot = ${card.name}\n`;
     }
 
     draft += '}}';

@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-11T20:47:14.045Z",
+    "lastPulled": "2021-08-11T21:18:49.014Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -258,12 +258,12 @@
             "revid": 10470
         },
         "Ashgora.wikitext": {
-            "sha1": "5837a911c927e1a6bc536c0361a8d5af68bc10ab",
-            "revid": 10471
+            "sha1": "9e3136a07d751456d86b6f67c3de0b0189b5e14e",
+            "revid": 17144
         },
         "Asnitho.wikitext": {
-            "sha1": "21b1807d3a1688cd597b456193e892d9ba8e47b9",
-            "revid": 10472
+            "sha1": "2eac208740a90fa5237cc94f695782501fa73226",
+            "revid": 17145
         },
         "Aweir.wikitext": {
             "sha1": "30ae2f0f277ca8ed3e574a42b2bfabb25f667ef0",
@@ -2226,8 +2226,8 @@
             "revid": 10483
         },
         "Cambury.wikitext": {
-            "sha1": "f0118fe36fc5415b1d64a06e84df58380c28392f",
-            "revid": 10484
+            "sha1": "eef72d7d6be2778748cfb083c5fab3a863afb7c7",
+            "revid": 17146
         },
         "Ceni.wikitext": {
             "sha1": "f871b48ca2d4d7480043c6de62b1219d03acec2a",
@@ -3230,8 +3230,8 @@
             "revid": 13175
         },
         "Ebbe.wikitext": {
-            "sha1": "f3a82a300d9a5d11ca5680e96aa0d406e2dd748f",
-            "revid": 10499
+            "sha1": "9e8cd5118c81002b620af4a54618cf80b088a0ae",
+            "revid": 17147
         },
         "Efi.wikitext": {
             "sha1": "ca5c0bc930f60cc3df0b6e4558ec2e3e014d3383",
@@ -3830,8 +3830,8 @@
             "revid": 10506
         },
         "Feldspar.wikitext": {
-            "sha1": "c1cfa31012b3fcaf0cc085740c0bd8661e1ca402",
-            "revid": 10507
+            "sha1": "760348814be26eecdf3c140c9cb82e337609e085",
+            "revid": 17148
         },
         "Feporo.wikitext": {
             "sha1": "b6b0a7e6aed9cf69f6d9e37f46c7ff1b56e1229b",
@@ -4262,8 +4262,8 @@
             "revid": 2966
         },
         "Fyrdinan.wikitext": {
-            "sha1": "c1ab0f5a71b1422c7f4f4b59dd7413713b0ba62c",
-            "revid": 10516
+            "sha1": "14ba24d8b4497f2cd39068ce10870f343b77d4c0",
+            "revid": 17149
         },
         "Gao.wikitext": {
             "sha1": "683c3ae89e50d2f59431d06887521100bfa4df10",
@@ -4298,8 +4298,8 @@
             "revid": 10307
         },
         "Gen.wikitext": {
-            "sha1": "8c000c7be72fd39b8ac080da6acb37968a0d51ec",
-            "revid": 10308
+            "sha1": "9f05aa280ca743fd35500baaad0eddf67ffc602e",
+            "revid": 17150
         },
         "Genner.wikitext": {
             "sha1": "3ff03548976938a3f7e126226bb64237fe7cf809",
@@ -5478,8 +5478,8 @@
             "revid": 10352
         },
         "Lasquo.wikitext": {
-            "sha1": "3d3b4b7c9f49964433f76010191f78c926c13e1f",
-            "revid": 10353
+            "sha1": "d1a09eca73a2064a05c3f64dd1528ac1af6c03ae",
+            "revid": 17151
         },
         "Leeqi.wikitext": {
             "sha1": "14b584c130faaaa7a8877194329a92a1462298cd",
@@ -7086,8 +7086,8 @@
             "revid": 10387
         },
         "Phinoon.wikitext": {
-            "sha1": "fe49d6756733bb1ff363da111fb82a2f693ae071",
-            "revid": 10388
+            "sha1": "9f197a3df3c05bf417ce2439080f0e0d5cb35db0",
+            "revid": 17152
         },
         "Phroluk.wikitext": {
             "sha1": "bb1ad922e88da31999aa532acac34da9db5af593",
@@ -10826,8 +10826,8 @@
             "revid": 10452
         },
         "Winnie.wikitext": {
-            "sha1": "8c000c7be72fd39b8ac080da6acb37968a0d51ec",
-            "revid": 10453
+            "sha1": "8749a32ec3951f6fbfce33de085f6653d21c3738",
+            "revid": 17153
         },
         "Worrik.wikitext": {
             "sha1": "a6c1b514a98798b701bb97dec8281ad050d31354",
@@ -11362,8 +11362,8 @@
             "revid": 10265
         },
         "Template/Boon%2FBane.wikitext": {
-            "sha1": "9507ac88c794fee71f8a7a9a7543ddb0c5b11fa4",
-            "revid": 5360
+            "sha1": "adf246ffdc058fb105e70caa115064dfb1a12534",
+            "revid": 17154
         },
         "Template/Card.wikitext": {
             "sha1": "c809f2279a9f9bb55536df18a772c05759ac2397",

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = admiralty
-| title = Clerk
+{{CharacterPage
+|quote = As with most Admiralty, Lasquo is only hard on crime that doesn't pay.
+|race = Human
+|faction = admiralty
+|title = Clerk
+|boon = Authorization
+|boonimage = authorization
+|boondesc = Once a day, you can ask a nearby member of the Admiralty to help you in battle or negotiation.
+|bane = Red Tape
+|baneimage = red tape
+|banedesc = Members of the Admiralty will not help you in battle or negotiation.
+|deathloot = Letter Opener
 }}

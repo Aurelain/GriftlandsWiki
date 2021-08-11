@@ -1,22 +1,14 @@
-{{Character
-| race = Shroke
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Patrol Leader
+{{CharacterPage
+|quote = Feldspar has a reputation for fixing difficult problems, when he's not making problems <i>more</i> difficult, first.
+|race = Shroke
+|location = Havaria - Murder Bay
+|faction = admiralty
+|title = Patrol Leader
+|boon = Sparring
+|boonimage = sparring
+|boondesc = Gain 1 bonus Defense on all cards that apply Defense.
+|bane = Bully
+|baneimage = bully
+|banedesc = Lose 1 Defense on all cards that apply Defense.
+|deathloot = Spear Head
 }}
-
-{{quote|Feldspar has a reputation for fixing difficult problems, when he's not making problems, more difficult first.|Feldspar's Compendium Description}}'''Feldspar''' is a character in {{Gamename}} and an [[Admiralty]] Patrol Leader.
-
-== Death Loot ==
-If '''Feldspar''' is killed in combat, he will drop a [[Spear Head]].
-[[File:Spear Head.png|none|thumb]]
-<br />
-
-== Boon/Bane ==
-If '''Feldspar''' loves you, you will receive:
-
-=== Sparring ===
-Gain 1 bonus '''Defense''' on all cards that apply '''Defense'''.
-[[File:Graft sparring.png|none|thumb]]
-<br />
-[[Category:Characters]]

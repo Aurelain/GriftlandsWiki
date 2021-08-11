@@ -1,11 +1,11 @@
-{| class="wikitable" style="width:80%"
-!colspan="2"|Social Boon<br>If {{PAGENAME}} loves you, you will receive:
-!colspan="2"|Social Bane<br>If {{PAGENAME}} hates you, you will receive:
+{| class="wikitable"
+!colspan="2"|If {{PAGENAME}} loves you, you will receive:
+!colspan="2"|If {{PAGENAME}} hates you, you will receive:
 |-
 |style="width:15%; text-align:center"|[[File:Graft {{{boonimage}}}.png|48px|link=Relationships#{{{boon}}}]]<br>'''{{{boon}}}'''
-|style="width:35%"|{{{boondesc}}}
+|style="width:35%; padding:8px"|{{{boondesc}}}
 |style="width:15%; text-align:center"|[[File:Graft {{{baneimage}}}.png|48px|link=Relationships#{{{bane}}}]]<br>'''{{{bane}}}'''
-|style="width:35%"|{{{banedesc}}}
+|style="width:35%; padding:8px"|{{{banedesc}}}
 |}
 <noinclude>
 ==Usage==
