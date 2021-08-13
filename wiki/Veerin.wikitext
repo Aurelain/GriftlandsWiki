@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = rise
-| title = Rebel
+{{CharacterPage
+|quote = Veerin believes in the movement, but only as much as he can hold sway in it.
+|race = Human
+|faction = Rise
+|title = Rebel
+|boon = Morale Boost
+|boonimage = morale boost
+|boondesc = At the end of their turn, surrendered allies gain 10% of their maximum health.
+|bane = Civil Unrest
+|baneimage = civil unrest
+|banedesc = All allies start battle with additional Panic.
+|deathloot = Guerrilla Tactic
 }}

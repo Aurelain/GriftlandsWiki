@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = spark barons
-| title = Taskmaster
+{{CharacterPage
+|quote = Vectorini once had a soft spot for the laborers, until he lost an entire salvage to sticky fingers.
+|race = Kra'deshi
+|faction = Spark Barons
+|title = Taskmaster
+|boon = Torpor Fiend
+|boonimage = torpor fiend
+|boondesc = When you sleep, gain full experience on a random card.
+|bane = Crisis
+|baneimage = crisis
+|banedesc = All allies gain a small amount of Panic at the start of your turn.
+|deathloot = Spark Cannon
 }}

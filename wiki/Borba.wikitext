@@ -1,8 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = rise
-| title = Valet
+{{CharacterPage
+|race = Shroke
+|faction = Rise
+|title = Valet
+|boon = Convenience
+|boonimage = convenience
+|boondesc = Fatigued occurs 1 turn later in both battle and negotiation.
+|bane = Inconvenience
+|baneimage = inconvenience
+|banedesc = Fatigued occurs 1 turn earlier in both battle and negotiation.
+|deathloot = Stolen Jewelry
 }}

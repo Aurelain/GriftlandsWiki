@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = spark barons
-| title = Taskmaster
+{{CharacterPage
+|quote = Laborers say Imiko is tough but fair—or was that tough but beware?
+|race = Jarackle
+|faction = Spark Barons
+|title = Taskmaster
+|boon = Torpor Fiend
+|boonimage = torpor fiend
+|boondesc = When you sleep, gain full experience on a random card.
+|bane = Crisis
+|baneimage = crisis
+|banedesc = All allies gain a small amount of Panic at the start of your turn.
+|deathloot = Spark Cannon
 }}

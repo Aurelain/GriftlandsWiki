@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = rise
-| title = Promoted Rebel
+{{CharacterPage
+|quote = Galth's swallowed enough dirt to feel at one with the land, and he moves through it like an eel in swamp sludge.
+|race = Kra'deshi
+|faction = Rise
+|title = Promoted Rebel
+|boon = Morale Boost
+|boonimage = morale boost
+|boondesc = At the end of their turn, surrendered allies gain 10% of their maximum health.
+|bane = Civil Unrest
+|baneimage = civil unrest
+|banedesc = All allies start battle with additional Panic.
+|deathloot = Advanced Guerrilla Tactic
 }}

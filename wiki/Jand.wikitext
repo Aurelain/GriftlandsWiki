@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = rise
-| title = Radical
+{{CharacterPage
+|quote = It takes a mean life to put that mean look in Jand's eye.
+|race = Jarackle
+|faction = Rise
+|title = Radical
+|boon = War Machine
+|boonimage = war machine
+|boondesc = Receive a free RPG once a day from a member of the Rise.
+|bane = Depleted
+|baneimage = depleted
+|banedesc = On your first turn of battle, draw one less card.
+|deathloot = RPG
 }}

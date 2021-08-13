@@ -1,8 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = civilian
-| title = Entrepreneur
+{{CharacterPage
+|race = Kra'deshi
+|faction = Civilian
+|title = Entrepreneur
+|boon = Fan Mail
+|boonimage = fan mail
+|boondesc = At the start of each day receive 100 shills.
+|bane = Celebrity Gossip
+|baneimage = celebrity gossip
+|banedesc = At the start of each day, a random person will hate you.
+|deathloot = Hat Tip
 }}

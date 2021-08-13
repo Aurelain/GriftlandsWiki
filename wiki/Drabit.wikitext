@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = rise
-| title = Pamphleteer
+{{CharacterPage
+|quote = Drabit was born in this life, but he's got no plans to die in it, too.
+|race = Human
+|faction = Rise
+|title = Pamphleteer
+|boon = Propaganda Machine
+|boonimage = propaganda machine
+|boondesc = Start each negotiation with 1 Influence.
+|bane = Slander
+|baneimage = slander
+|banedesc = When you murder a member of the Rise, lose 2 max resolve.
+|deathloot = Rise Manifesto
 }}

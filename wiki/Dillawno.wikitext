@@ -1,14 +1,14 @@
-{{Character
-| race = Kra'deshi
-| location = Havaria - Murder Bay
-| faction = spark barons
-| title = Taskmaster
+{{CharacterPage
+|quote = Dillawno is the Baron you commission when you want a complicated solution to a simple problem.
+|race = Kra'deshi
+|location = Havaria - Murder Bay
+|faction = Spark Barons
+|title = Taskmaster
+|boon = Torpor Fiend
+|boonimage = torpor fiend
+|boondesc = When you sleep, gain full experience on a random card.
+|bane = Crisis
+|baneimage = crisis
+|banedesc = All allies gain a small amount of Panic at the start of your turn.
+|deathloot = Spark Cannon
 }}
-
-{{quote|Dillawno is the Baron you commission when you want a complicated solution to a simple problem.|Dillawno's Compendium Description}}'''Dillawno''' is a character in {{Gamename}} and a [[Spark Barons]] Taskmaster.
-
-== Death Loot ==
-If '''Dillawno''' is killed in combat, she will drop a [[Spark Cannon]].
-[[File:Spark Cannon.png|none|thumb]]
-<br />
-[[Category:Characters]]

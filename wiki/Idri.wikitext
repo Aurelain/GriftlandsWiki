@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = rise
-| title = Radical
+{{CharacterPage
+|quote = Where trouble goes, Idri follows, always on the lookout for opportunity.
+|race = Human
+|faction = Rise
+|title = Radical
+|boon = War Machine
+|boonimage = war machine
+|boondesc = Receive a free RPG once a day from a member of the Rise.
+|bane = Depleted
+|baneimage = depleted
+|banedesc = On your first turn of battle, draw one less card.
+|deathloot = RPG
 }}

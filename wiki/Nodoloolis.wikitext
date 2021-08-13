@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spark barons
-| title = Professional
+{{CharacterPage
+|quote = Nodoloolis is named after an ancient city of the Vagrant Age, now rumored to sit at the bottom of the Deltrean Sea.
+|race = Human
+|faction = Spark Barons
+|title = Professional
+|boon = Spark Visor
+|boonimage = spark visor
+|boondesc = At the start of battle, mark an enemy. Attacking that enemy grants you 8 Defense.
+|bane = Faulty Armor
+|baneimage = faulty armor
+|banedesc = Start each battle with 2 Exposed.
+|deathloot = Utility Belt
 }}

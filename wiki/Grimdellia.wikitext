@@ -1,10 +1,15 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = boggers
-| title = Bogger
+{{CharacterPage
+|quote = Grimdellia was the name of a kra'deshi war queen, but you suspect this Grimdellia doesn't much care for ancient history.
+|race = Human
+|faction = Boggers
+|title = Bogger
+|boon = Talisman
+|boonimage = talisman
+|boondesc = Whenever you draw a Parasite card, draw a card.
+|bane = Bogling
+|baneimage = bogling
+|banedesc = Whenever you draw a Parasite card in negotiation or battle, discard a random card from your hand.
+|deathloot = Seedling
 }}
-
+==Notes==
 '''Grimdellia''' is one of the bogger, the player may encounter her while playing [[Rook]]. She would ask the player to hatch "Deeper into the bog", if the player succeed they will gain her boon, if the player decide to keep the card they will gain her bane, if the player fail to hatch the card, Grimdellia would take the card back.

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = rise
-| title = Pamphleteer
+{{CharacterPage
+|quote = Kilka has the look of someone who was promised a better hand than the one she got. She suspects someone cheated.
+|race = Kra'deshi
+|faction = Rise
+|title = Pamphleteer
+|boon = Propaganda Machine
+|boonimage = propaganda machine
+|boondesc = Start each negotiation with 1 Influence.
+|bane = Slander
+|baneimage = slander
+|banedesc = When you murder a member of the Rise, lose 2 max resolve.
+|deathloot = Rise Manifesto
 }}

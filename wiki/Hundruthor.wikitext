@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = cult of hesh
-| title = Auctioneer
+{{CharacterPage
+|quote = Hundruthor knows the value of his time, and he's not sure you're worth it.
+|race = Kra'deshi
+|faction = Cult of Hesh
+|title = Auctioneer
+|boon = Bio-Feedback
+|boonimage = bio-feedback
+|boondesc = Status Cards cost 1 less action in battle.
+|bane = Bad Faith
+|baneimage = bad faith
+|banedesc = At the start of each fight, add a Gnarled Effigy to your draw pile.
+|deathloot = Heshian Amulet
 }}

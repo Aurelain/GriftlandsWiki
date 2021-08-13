@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = spark barons
-| title = Professional
+{{CharacterPage
+|quote = You're sure you've heard Astal's name spat by Heshians, which means he's undoubtedly quite the heretic.
+|race = Kra'deshi
+|faction = Spark Barons
+|title = Professional
+|boon = Spark Visor
+|boonimage = spark visor
+|boondesc = At the start of battle, mark an enemy. Attacking that enemy grants you 8 Defense.
+|bane = Faulty Armor
+|baneimage = faulty armor
+|banedesc = Start each battle with 2 Exposed.
+|deathloot = Utility Belt
 }}

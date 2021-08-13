@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = rise
-| title = Rebel
+{{CharacterPage
+|quote = Word is, Malo used to be a foreman himself, before fortune and health conspired against him.
+|race = Shroke
+|faction = Rise
+|title = Rebel
+|boon = Morale Boost
+|boonimage = morale boost
+|boondesc = At the end of their turn, surrendered allies gain 10% of their maximum health.
+|bane = Civil Unrest
+|baneimage = civil unrest
+|banedesc = All allies start battle with additional Panic.
+|deathloot = Guerrilla Tactic
 }}

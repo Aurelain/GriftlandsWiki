@@ -1,8 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = jakes
-| title = Dodgy Scavenger
+{{CharacterPage
+|race = Human
+|faction = Jakes
+|title = Dodgy Scavenger
+|boon = Bargaining
+|boonimage = bargaining
+|boondesc = 20 shill discount from shopkeepers.
+|bane = Thin Skin
+|baneimage = thin skin
+|banedesc = The first time you take damage each fight, gain 2 Wound.
+|deathloot = Gaff
 }}

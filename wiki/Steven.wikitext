@@ -1,8 +1,6 @@
-{{stub}}
-
-{{Character
-| race = Mech
-| location = 
-| faction = civilian
-| title = Party Machine
+{{CharacterPage
+|quote = Steven has a bit more personality than the average automech, which likely means it's extremely defective—or that the rest of the automechs are.
+|race = Mech
+|faction = Civilian
+|title = Party Machine
 }}

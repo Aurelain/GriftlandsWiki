@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = rise
-| title = Firebrand
+{{CharacterPage
+|quote = Though she doesn't look like much, Seemli's eye packs a punch that's best not underestimated.
+|race = Jarackle
+|faction = Rise
+|title = Firebrand
+|boon = Covert Supplier
+|boonimage = covert supplier
+|boondesc = The first item card you play in each battle costs 1 less.
+|bane = Disorder
+|baneimage = disorder
+|banedesc = At the start of each battle, gain 4 Disrupt.
+|deathloot = Seemli's Dagger
 }}

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spark barons
-| title = Security Guard
+{{CharacterPage
+|quote = Kheven doesn't seem to look entirely certain about his place in the world, but he's clearly hoping to make the best of it.
+|race = Human
+|faction = Spark Barons
+|title = Security Guard
+|boon = Weapons Supplier
+|boonimage = weapons supplier
+|boondesc = Receive a random item card every morning.
+|bane = Sketchy Equipment
+|baneimage = sketchy equipment
+|banedesc = Take 1 damage whenever you use an item.
+|deathloot = Shock Core
 }}

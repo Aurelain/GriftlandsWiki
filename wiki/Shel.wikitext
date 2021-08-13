@@ -1,15 +1,18 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = civilian
-| title = Downtrodden Merchant
+{{CharacterPage
+|quote = Shel has a glint in her eye so sharp you could shuck an oyster off it.
+|race = Human
+|faction = Civilian
+|title = Downtrodden Merchant
+|boon = Haggle Badge
+|boonimage = haggle badge
+|boondesc = You can negotiate for greater quest rewards.
+|bane = Bad Credit
+|baneimage = bad credit
+|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
+|deathloot = Spark Grenade
 }}
-
-{{Quote|Shel swishes her knife through the air, cutting down some conjured-up ruffian.|Narrator}}
-
-'''Shel''' is a [[Civilian]], and is the sole bearer of the Downtrodden Merchant Title. She appears to be a merchant who is doing poorly, and usually resorts to doing things way out of her league, such as attempting to rob Sal (a well-equipped and trained bounty hunter) as well as attempting to fight a [[Grawkit]].
+==Notes==
+'''Shel''' is the sole bearer of the Downtrodden Merchant Title. She appears to be a merchant who is doing poorly, and usually resorts to doing things way out of her league, such as attempting to rob Sal (a well-equipped and trained bounty hunter) as well as attempting to fight a [[Grawkit]].
 
 == Encounters ==
 
@@ -17,4 +20,4 @@
 In Sal's Story, Shel is a possible random encounter while traveling between points. On the road, Shel attempts to mug Sal.
 
 === Rook ===
-<br />
+{{Stub}}
