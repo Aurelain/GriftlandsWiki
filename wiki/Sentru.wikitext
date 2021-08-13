@@ -1,12 +1,14 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = civilian
-| title = Foreman
+{{CharacterPage
+|quote = Just because Sentru's in charge, doesn't mean the labor's any lighter.
+|race = Shroke
+|location = [[The Slurping Snail]]
+|faction = Civilian
+|title = Foreman
+|boon = Authority
+|boonimage = authority
+|boondesc = At the start of each negotiation, add a random authority card to your draw pile.
+|bane = Blacklisted
+|baneimage = blacklisted
+|banedesc = At the start of each negotiation, discard a random card.
+|deathloot = Adrenaline Shot
 }}
-
-'''Sentru''' is a character in [[{{Gamename}}]] and players can find her in [[The Slurping Snail]]. She is a feud citizenry foreman.
-
-[[Category:Characters]]

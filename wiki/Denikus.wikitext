@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spree
-| title = Heartbreaker
+{{CharacterPage
+|quote = If Denikus's charms are as infectious as they say, you must be immune.
+|race = Human
+|faction = Spree
+|title = Heartbreaker
+|boon = Con Man
+|boonimage = con man
+|boondesc = At the end of every negotiation, recover 3 Resolve.
+|bane = Bad Mouthed
+|baneimage = bad mouthed
+|banedesc = At the start of every negotiation, insert 2 Fabrication cards into your draw pile.
+|deathloot = Denikus' Blaster
 }}

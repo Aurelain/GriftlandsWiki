@@ -1,21 +1,14 @@
-{{Character
-| race = Kra'deshi
-| location = Havaria - Murder Bay
-| faction = civilian
-| title = Foreman
+{{CharacterPage
+|quote = Like most foremen, Gode prefers folks who can get the job done.
+|race = Kra'deshi
+|location = Havaria - Murder Bay
+|faction = Civilian
+|title = Foreman
+|boon = Authority
+|boonimage = authority
+|boondesc = At the start of each negotiation, add a random authority card to your draw pile.
+|bane = Blacklisted
+|baneimage = blacklisted
+|banedesc = At the start of each negotiation, discard a random card.
+|deathloot = Adrenaline Shot
 }}
-
-{{quote|Like most foremen, Gode prefers folks who can get the job done.|Gode's Compendium Description}}'''Gode''' is a character in {{Gamename}} and a [[Civilian]] Foreman.
-
-== Death Loot ==
-If '''Gode''' is killed in combat, he will drop an [[Adrenaline Shot]].
-[[File:Adrenaline Shot.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Gode''' hates you, you will receive:
-
-=== Blacklisted ===
-At the start of each negotiation, discard a random card.
-[[File:Graft blacklisted.png|none|thumb]]
-<br />
-[[Category:Characters]]

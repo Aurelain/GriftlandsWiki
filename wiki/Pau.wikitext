@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = cult of hesh
-| title = Zealot
+{{CharacterPage
+|quote = Hesh doesn't expect much from its followers, but Pau clearly strives to exceed expectations.
+|race = Human
+|faction = Cult of Hesh
+|title = Zealot
+|boon = Grace of Hesh
+|boonimage = grace of hesh
+|boondesc = Heal 3 health whenever you win a negotiation.
+|bane = Heshian Obscenity
+|baneimage = heshian obscenity
+|banedesc = Your maximum hand size in negotiations is reduced by 2.
+|deathloot = Lumin Darts
 }}

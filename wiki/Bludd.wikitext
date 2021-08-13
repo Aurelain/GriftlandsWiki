@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = boggers
-| title = Clobber
+{{CharacterPage
+|quote = Bludd's hands look clean, but something about them still makes you uncomfortable.
+|race = Human
+|faction = Boggers
+|title = Clobber
+|boon = Bogger Pauldrons
+|boonimage = bogger pauldrons
+|boondesc = At the end of your turn, gain 1-3 Defense.
+|bane = Concussed
+|baneimage = concussed
+|banedesc = If you draw more than 4 cards on your turn, your core argument takes 3 damage.
+|deathloot = Swamp Smasher
 }}

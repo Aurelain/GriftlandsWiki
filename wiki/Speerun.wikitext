@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = boggers
-| title = Cultivator
+{{CharacterPage
+|quote = Speerun's foot falls are so silent that you wouldn't know she passed, if not for the impressions of her feet in the mud.
+|race = Jarackle
+|faction = Boggers
+|title = Cultivator
+|boon = Inoculated
+|boonimage = inoculated
+|boondesc = Whenever you draw a Parasite card, heal 2 health or restore 2 resolve.
+|bane = Bog Sensitive
+|baneimage = bog sensitive
+|banedesc = Whenever you draw a Parasite card in negotiation or battle, take 2 damage.
+|deathloot = Bog Scimitar
 }}

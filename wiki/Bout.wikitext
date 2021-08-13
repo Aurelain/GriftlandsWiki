@@ -1,7 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| title = Promoted Luminitiate
+{{CharacterPage
+|quote = Something about the curl of Bout's lip when he's displeased makes it hard to believe his piety is genuine.
+|race = Human
+|title = Promoted Luminitiate
+|boon = Throng
+|boonimage = throng
+|boondesc = The first argument you create each negotiation has 2 bonus resolve.
+|bane = Affiliation
+|baneimage = affiliation
+|banedesc = At the start of each negotiation, gain 2 Vulnerability if your opponent is a Heshian.
+|deathloot = Luminitiate Coin
 }}

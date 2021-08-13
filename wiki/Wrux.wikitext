@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = civilian
-| title = Bartender
+{{CharacterPage
+|quote = Wrux has never met a paying customer he didn't have patience for.
+|race = Jarackle
+|faction = Civilian
+|title = Bartender
+|boon = Mixology
+|boonimage = mixology
+|boondesc = Whenever you drink to restore resolve, also restore 4 health.
+|bane = Tainted Supply
+|baneimage = tainted supply
+|banedesc = Drinking adds an additional drunk card.
+|deathloot = Liquid Courage
 }}

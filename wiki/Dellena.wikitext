@@ -1,14 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = cult of hesh
-| title = Priest
+{{CharacterPage
+|quote = Having your own parish is the closest a common Deltrean can get to nobility. The rules are different in Havaria, but maybe nobody told Dellena that.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Cult of Hesh
+|title = Priest
+|boon = Bio-Feedback
+|boonimage = bio-feedback
+|boondesc = Status Cards cost 1 less action in battle.
+|bane = Bad Faith
+|baneimage = bad faith
+|banedesc = At the start of each fight, add a Gnarled Effigy to your draw pile.
+|deathloot = Heshian Amulet
 }}
-
-{{quote|Having your own parish is the closest a common Deltrean can get to nobility. The rules are different in Havaria, but maybe nobody told Dellena that.|Dellena's Compendium Description}}'''Dellena''' is a character in {{Gamename}} and a [[Cult of Hesh]] Priest.
-
-== Death Loot ==
-If '''Dellena''' is killed in combat, he will drop a [[Heshian Amulet]].
-[[File:Heshian Amulet.png|none|thumb]]
-<br />
-[[Category:Characters]]

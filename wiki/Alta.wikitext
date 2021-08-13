@@ -1,16 +1,16 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = cult of hesh
-| title = Priest
+{{CharacterPage
+|quote = Alta's the type who thinks the sky itself is proof of her faith—'cause it hasn't fallen down, yet.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Cult of Hesh
+|title = Priest
+|boon = Bio-Feedback
+|boonimage = bio-feedback
+|boondesc = Status Cards cost 1 less action in battle.
+|bane = Bad Faith
+|baneimage = bad faith
+|banedesc = At the start of each fight, add a Gnarled Effigy to your draw pile.
+|deathloot = Heshian Amulet
 }}
-
-{{quote|Alta's the type who thinks the sky itself is proof of her faith — 'cause it hasn't fallen down, yet.|Alta's Compendium Description}}'''Alta''' is a character in {{Gamename}} and a [[Cult of Hesh]] Priest.
-
-
-She is one of the priests who give the mission [[Friend or Fanatic]], where [[Sal]] will be offered a reward to save a Cult of Hesh [[Luminari]] from [[Spree]] bandits. If completed, she will receive 65 shills.
-
-== Death Loot ==
-If '''Alta''' is killed in combat, she will drop a [[Heshian Amulet]].
-[[File:Heshian Amulet.png|none|thumb]]
-[[Category:Characters]]
+==Notes==
+'''Alta''' is one of the priests who give the mission [[Friend or Fanatic]], where [[Sal]] will be offered a reward to save a Cult of Hesh [[Luminari]] from [[Spree]] bandits. If completed, she will receive 65 shills.

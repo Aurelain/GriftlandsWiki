@@ -1,13 +1,14 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = civilian
-| title = Bartender
+{{CharacterPage
+|quote = A good bartender knows how to mix a drink. The better bartenders know how to fix a fight. Irkrow does both.
+|race = Jarackle
+|location = [[The Slurping Snail]]
+|faction = Civilian
+|title = Bartender
+|boon = Mixology
+|boonimage = mixology
+|boondesc = Whenever you drink to restore resolve, also restore 4 health.
+|bane = Tainted Supply
+|baneimage = tainted supply
+|banedesc = Drinking adds an additional drunk card.
+|deathloot = Liquid Courage
 }}
-
-'''Irkrow''' is a character in [[{{Gamename}}]] and players can find him in [[The Slurping Snail]], where he is a bartender. 
-
-
-[[Category:Characters]]

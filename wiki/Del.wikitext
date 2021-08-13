@@ -1,14 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = civilian
-| title = Foreman
+{{CharacterPage
+|quote = Word is, Del fights for his workers. But nobody's ever really selfless in the griftlands, right?
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Civilian
+|title = Foreman
+|boon = Authority
+|boonimage = authority
+|boondesc = At the start of each negotiation, add a random authority card to your draw pile.
+|bane = Blacklisted
+|baneimage = blacklisted
+|banedesc = At the start of each negotiation, discard a random card.
+|deathloot = Adrenaline Shot
 }}
-
-{{quote|Word is, Del fights for his workers. But nobody's ever really selfless in the griftlands, right?|Del's Compendium Description}}'''Del''' is a character in {{Gamename}} and a [[Civilian]] Foreman.
-
-== Death Loot ==
-If '''Del''' is killed in combat, he will drop an [[Adrenaline Shot]].
-[[File:Adrenaline Shot.png|none|thumb]]
-<br />
-[[Category:Characters]]

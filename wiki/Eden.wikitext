@@ -1,8 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = admiralty
-| title = Regional Commander
+{{CharacterPage
+|race = Human
+|faction = Admiralty
+|title = Regional Commander
+|boon = In On It
+|boonimage = in on it
+|boondesc = At the start of each negotiation, gain 1 Interrogate.
+|bane = Undermined
+|baneimage = undermined
+|banedesc = At the start of each negotiation, gain 5 Planted Evidence.
+|deathloot = Arachni-blade
 }}

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = rentorians
-| title = Diplomat
+{{CharacterPage
+|quote = Bordenkra holds her head like if she gets it high enough, it'll be immune to the Havarian smells.
+|race = Shroke
+|faction = Rentorians
+|title = Diplomat
+|boon = Envoy Pendant
+|boonimage = envoy pendant
+|boondesc = The first Diplomacy card you play each negotiation costs 1 less action.
+|bane = Scorned
+|baneimage = scorned
+|banedesc = The first Diplomacy card you play each negotiation costs 1 additional action.
+|deathloot = Veil
 }}

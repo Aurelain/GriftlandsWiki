@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = cult of hesh
-| title = Luminitiate
+{{CharacterPage
+|quote = Henders used to stick his head beneath the water in the hopes of getting a look at Hesh. The constant lack of oxygen might've had an effect.
+|race = Jarackle
+|faction = Cult of Hesh
+|title = Luminitiate
+|boon = Throng
+|boonimage = throng
+|boondesc = The first argument you create each negotiation has 2 bonus resolve.
+|bane = Affiliation
+|baneimage = affiliation
+|banedesc = At the start of each negotiation, gain 2 Vulnerability if your opponent is a Heshian.
+|deathloot = Luminitiate Coin
 }}

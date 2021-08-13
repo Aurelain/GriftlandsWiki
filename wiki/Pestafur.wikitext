@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = cult of hesh
-| title = Luminitiate
+{{CharacterPage
+|quote = Though she almost drowned once as a pup, Pestafur grew up a true-blue zealot with only the smallest fear of water.
+|race = Jarackle
+|faction = Cult of Hesh
+|title = Luminitiate
+|boon = Throng
+|boonimage = throng
+|boondesc = The first argument you create each negotiation has 2 bonus resolve.
+|bane = Affiliation
+|baneimage = affiliation
+|banedesc = At the start of each negotiation, gain 2 Vulnerability if your opponent is a Heshian.
+|deathloot = Luminitiate Coin
 }}

@@ -1,8 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = bilebroker
-| title = Sampler
+{{CharacterPage
+|race = Human
+|faction = Bilebroker
+|title = Sampler
+|boon = Doze Bug
+|boonimage = doze bug
+|boondesc = Whenever you sleep, increase your max health by 5.
+|bane = Spiked Drink
+|baneimage = spiked drink
+|banedesc = Gain an Ulcer card whenever you drink.
+|deathloot = Vapor Vial
 }}

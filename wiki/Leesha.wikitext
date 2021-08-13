@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = bilebroker
-| title = Chemist
+{{CharacterPage
+|quote = It's unclear whether Leesha's easygoing attitude is a result of her temperament, or the fumes radiating off her wares.
+|race = Human
+|faction = Bilebroker
+|title = Chemist
+|boon = Doze Bug
+|boonimage = doze bug
+|boondesc = Whenever you sleep, increase your max health by 5.
+|bane = Spiked Drink
+|baneimage = spiked drink
+|banedesc = Gain an Ulcer card whenever you drink.
+|deathloot = Vapor Vial
 }}

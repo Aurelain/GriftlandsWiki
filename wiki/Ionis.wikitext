@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = cult of hesh
-| title = Luminari
+{{CharacterPage
+|quote = Few folks survive the rigorous training needed to become Luminari. Ionis wears it like a halo of sunshine.
+|race = Human
+|faction = Cult of Hesh
+|title = Luminari
+|boon = Bell of Hesh
+|boonimage = bell of hesh
+|boondesc = Draw 1 extra card at the start of negotiation.
+|bane = Curse of Hesh
+|baneimage = curse of hesh
+|banedesc = Lose 1 action and draw a card on your first turn of battle.
+|deathloot = Heshian Mask
 }}

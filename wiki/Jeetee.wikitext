@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = civilian
-| title = Foreman
+{{CharacterPage
+|quote = Word is Jeetee's a good boss, but in Havaria that doesn't necessarily mean she's a fair one.
+|race = Human
+|faction = Civilian
+|title = Foreman
+|boon = Authority
+|boonimage = authority
+|boondesc = At the start of each negotiation, add a random authority card to your draw pile.
+|bane = Blacklisted
+|baneimage = blacklisted
+|banedesc = At the start of each negotiation, discard a random card.
+|deathloot = Adrenaline Shot
 }}

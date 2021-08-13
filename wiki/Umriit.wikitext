@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = cult of hesh
-| title = Luminari
+{{CharacterPage
+|quote = Luminari are supposed to wade in the deep water of their faith, but Umriit looks like she's got gills under her collar.
+|race = Human
+|faction = Cult of Hesh
+|title = Luminari
+|boon = Bell of Hesh
+|boonimage = bell of hesh
+|boondesc = Draw 1 extra card at the start of negotiation.
+|bane = Curse of Hesh
+|baneimage = curse of hesh
+|banedesc = Lose 1 action and draw a card on your first turn of battle.
+|deathloot = Heshian Mask
 }}

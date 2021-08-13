@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = cult of hesh
-| title = Promoted Priest
+{{CharacterPage
+|quote = Few folks make it as far as Prax without looking smug about it. Prax is no exception.
+|race = Human
+|faction = Cult of Hesh
+|title = Promoted Priest
+|boon = Bio-Feedback
+|boonimage = bio-feedback
+|boondesc = Status Cards cost 1 less action in battle.
+|bane = Bad Faith
+|baneimage = bad faith
+|banedesc = At the start of each fight, add a Gnarled Effigy to your draw pile.
+|deathloot = Blessed Heshian Amulet
 }}

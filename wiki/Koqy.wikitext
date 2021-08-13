@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = civilian
-| title = Bartender
+{{CharacterPage
+|quote = The Heshians say good food brings you closer to the divine. Koqy could be a priest.
+|race = Shroke
+|faction = Civilian
+|title = Bartender
+|boon = Mixology
+|boonimage = mixology
+|boondesc = Whenever you drink to restore resolve, also restore 4 health.
+|bane = Tainted Supply
+|baneimage = tainted supply
+|banedesc = Drinking adds an additional drunk card.
+|deathloot = Liquid Courage
 }}

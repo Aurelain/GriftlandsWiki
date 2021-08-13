@@ -1,13 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = cult of hesh
-| title = Zealot
+{{CharacterPage
+|quote = Brale gulps brine and breathes salt like he's spent one too many cycles dunking for Hesh.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Cult of Hesh
+|title = Zealot
+|boon = Grace of Hesh
+|boonimage = grace of hesh
+|boondesc = Heal 3 health whenever you win a negotiation.
+|bane = Heshian Obscenity
+|baneimage = heshian obscenity
+|banedesc = Your maximum hand size in negotiations is reduced by 2.
+|deathloot = Lumin Darts
 }}
-
-{{quote|Brale gulps brine and breathes salt like he's spent one too many cycles dunking for Hesh.|Brale's Compendium Description}}'''Brale''' is a character in {{Gamename}} and a [[Cult of Hesh]] Zealot.
-
-== Death Loot ==
-If '''Brale''' is killed in combat, he will drop [[Lumin darts|Lumin Darts]].
-[[File:Lumin Darts.png|none|thumb]]
-[[Category:Characters]]
