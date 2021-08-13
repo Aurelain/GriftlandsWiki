@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = admiralty
-| title = Goon
+{{CharacterPage
+|quote = It's easy to recognize the rodent-like cunning in Zex's eyes: it's a key survival trait in the griftlands.
+|race = Human
+|faction = Admiralty
+|title = Goon
+|boon = Piece of the Pie
+|boonimage = piece of the pie
+|boondesc = Gain 75 shills every morning.
+|bane = Hunted
+|baneimage = hunted
+|banedesc = All enemy Admiralty gain 1 Power at the start of battle.
+|deathloot = Admiralty Intel
 }}

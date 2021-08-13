@@ -1,5 +1,5 @@
 {{Character
-|name = {{#if:{{{name|}}}|{{{name}}}}}
+|name = {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}
 |image = {{#if:{{{image|}}}|{{{image}}}|{{PAGENAME}}_portrait.png}}
 |race = {{#if:{{{race|}}}| {{{race}}} }}
 |location = {{#if:{{{location|}}}| {{{location}}} }}

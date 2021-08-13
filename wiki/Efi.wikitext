@@ -1,14 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Goon
+{{CharacterPage
+|quote = It's clear that Efi is difficult to get along with. But aren't the most challenging conquests often the most rewarding?
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Admiralty
+|title = Goon
+|boon = Piece of the Pie
+|boonimage = piece of the pie
+|boondesc = Gain 75 shills every morning.
+|bane = Hunted
+|baneimage = hunted
+|banedesc = All enemy Admiralty gain 1 Power at the start of battle.
+|deathloot = Admiralty Intel
 }}
-
-{{quote|It's clear that Efi is difficult to get along with. But aren't the most challenging conquests often the most rewarding?|Efi's Compendium Description}}'''Efi''' is a character in {{Gamename}} and a [[Admiralty]] Goon
-
-== Death Loot ==
-If '''Efi''' is killed in combat, he will drop [[Admiralty Intel]].
-[[File:Admiralty Intel.png|none|thumb]]
-<br />
-[[Category:Characters]]

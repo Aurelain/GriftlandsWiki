@@ -1,24 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Guard
+{{CharacterPage
+|quote = It's clear at a glance that Alo dislikes her job. Maybe making it a little more pleasant might earn you some traction.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Admiralty
+|title = Guard
+|boon = Commander
+|boonimage = commander
+|boondesc = All allies gain +5 health in battle.
+|bane = Lowered Rank
+|baneimage = lowered rank
+|banedesc = Allies have 10% less max health in battle.
+|deathloot = Admiralty Requisition
 }}
-
-{{quote|It's clear at a glance that Alo dislikes her job. Maybe making it a little more pleasant might earn you some traction.|Alo's Compendium Description}}'''Alo''' is a character in {{Gamename}} and an [[Admiralty]] Guard.
-
-<br />
-
-== Death Loot ==
-If '''Alo''' is killed in combat, she will drop an [[Admiralty Requisition]].
-[[File:Admiralty Requisition.png|alt=|none|thumb]]
-<br />
-
-== Boon/Bane ==
-If '''Alo''' hates you, you will receive:
-
-=== Lowered Rank ===
-Allies have 10% less max health in battle.
-[[File:Graft lowered rank.png|none|thumb]]
-<br />
-[[Category:Characters]]

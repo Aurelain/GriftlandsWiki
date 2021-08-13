@@ -1,14 +1,14 @@
-{{Character
-| race = Jarackle
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Goon
+{{CharacterPage
+|quote = Surviving Admiralty bootcamp requires either the very cunning or the very resilient. It's unclear if Cobb is either of these.
+|race = Jarackle
+|location = Havaria - Murder Bay
+|faction = Admiralty
+|title = Goon
+|boon = Piece of the Pie
+|boonimage = piece of the pie
+|boondesc = Gain 75 shills every morning.
+|bane = Hunted
+|baneimage = hunted
+|banedesc = All enemy Admiralty gain 1 Power at the start of battle.
+|deathloot = Admiralty Intel
 }}
-
-{{quote|Surviving Admiralty bootcamp requires either the very cunning or the very resilient. It's unclear if Cobb is either of these.|Cobb's Compendium Description}}'''Cobb''' is a character in {{Gamename}} and a [[Admiralty]] Goon.
-
-== Death Loot ==
-If '''Cobb''' is killed in combat, he will drop [[Admiralty Intel]].
-[[File:Admiralty Intel.png|none|thumb]]
-<br />
-[[Category:Characters]]

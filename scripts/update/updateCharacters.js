@@ -64,7 +64,7 @@ const updateCharacters = (characters, grafts, cards) => {
             // console.log('futureWikitext:', futureWikitext);
             fs.writeFileSync(filePath, futureWikitext);
             count++;
-            if (count >= 10) {
+            if (count >= 40) {
                 break;
             }
         }
@@ -103,7 +103,9 @@ const generateCharacterWikitext = (character, grafts, cards) => {
     // }
 
     if (bio) {
-        draft += `|quote = ${bio}\n`;
+        let prettyBio = bio.split('<i>').join("'''"); // make it bold, because the quote is already italic
+        prettyBio = prettyBio.split('</i>').join("'''");
+        draft += `|quote = ${prettyBio}\n`;
     }
     if (species) {
         assertCard(species in RACE_WORDS, character, 'Unrecognized species!');

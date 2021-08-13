@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = admiralty
-| title = Promoted Goon
+{{CharacterPage
+|quote = Some folks might describe Prent as tenacious, others as just vindictive. Two coins, same purse.
+|race = Jarackle
+|faction = Admiralty
+|title = Promoted Goon
+|boon = Piece of the Pie
+|boonimage = piece of the pie
+|boondesc = Gain 75 shills every morning.
+|bane = Hunted
+|baneimage = hunted
+|banedesc = All enemy Admiralty gain 1 Power at the start of battle.
+|deathloot = Important Admiralty Intel
 }}

@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-11T21:18:49.014Z",
+    "lastPulled": "2021-08-13T19:55:36.784Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -54,8 +54,8 @@
             "revid": 10280
         },
         "Alo.wikitext": {
-            "sha1": "859eda9991618899542b57772cff6828c81f6c68",
-            "revid": 10467
+            "sha1": "65a90abe2b26e88e384c7e1d005ff75b2d0d27ce",
+            "revid": 17166
         },
         "Alongwy.wikitext": {
             "sha1": "088c6f677b57e32de77b3c3405872a7ee0ba7cf2",
@@ -486,8 +486,8 @@
             "revid": 14721
         },
         "Bebus.wikitext": {
-            "sha1": "c882eef8e3755ca5e4d9b30faf262ece4fdec727",
-            "revid": 10283
+            "sha1": "a89b9d4d4cd77268587b6ebb0ea2c41199f49893",
+            "revid": 17167
         },
         "Bio-strike.wikitext": {
             "sha1": "9f5a0d1751467015a135f97d3d2785977385f990",
@@ -2230,8 +2230,8 @@
             "revid": 17146
         },
         "Ceni.wikitext": {
-            "sha1": "f871b48ca2d4d7480043c6de62b1219d03acec2a",
-            "revid": 10485
+            "sha1": "b61e3a437a794b78758505b74e908a9882723141",
+            "revid": 17168
         },
         "Card.wikitext": {
             "sha1": "c95a24f75f4a60b1367b23f8092903d893c3edf8",
@@ -2434,8 +2434,8 @@
             "revid": 10487
         },
         "Cobb.wikitext": {
-            "sha1": "762f8081a475a08f17ffffe732717faedb8e486b",
-            "revid": 10488
+            "sha1": "83b16d92f7afa6545b16cad61e786f09f353478b",
+            "revid": 17169
         },
         "Clerks.wikitext": {
             "sha1": "179a6db9c7372cbae013f7916281564eb114e50e",
@@ -3234,8 +3234,8 @@
             "revid": 17147
         },
         "Efi.wikitext": {
-            "sha1": "ca5c0bc930f60cc3df0b6e4558ec2e3e014d3383",
-            "revid": 10500
+            "sha1": "8903fe2e90b65cc380c6d7b92cc8b65dc8be1150",
+            "revid": 17170
         },
         "Elle.wikitext": {
             "sha1": "13de47e386d12477ffbdd1048828bdebe38df141",
@@ -3838,8 +3838,8 @@
             "revid": 10508
         },
         "Fizluck.wikitext": {
-            "sha1": "91c5e85a0b064d173a47f4d7f270f16425105ca9",
-            "revid": 10514
+            "sha1": "61ff1ddfd852e69c8c44db533b2030a8cb99594c",
+            "revid": 17171
         },
         "Feint.wikitext": {
             "sha1": "6927e9b51ced0e2e084eddfa9f9f9103c23421aa",
@@ -7254,8 +7254,8 @@
             "revid": 10921
         },
         "Prent.wikitext": {
-            "sha1": "c882eef8e3755ca5e4d9b30faf262ece4fdec727",
-            "revid": 10397
+            "sha1": "474c4b3b0109b206444a3be0250da8ae0fa518b9",
+            "revid": 17172
         },
         "Ptchu.wikitext": {
             "sha1": "0d79dfd1005d0a34ba0df6fd5e0edfe528edaf34",
@@ -7818,8 +7818,8 @@
             "revid": 9318
         },
         "Riito.wikitext": {
-            "sha1": "b82c17d9d9655a718a220042d49c66406cae3e42",
-            "revid": 10404
+            "sha1": "97ddda02d922f1918c51a9de83bea84d8f7a883f",
+            "revid": 17173
         },
         "Ron.wikitext": {
             "sha1": "cab1b1336c4d7d05098f58ce3ce1bca9d2a3d8ec",
@@ -9642,8 +9642,8 @@
             "revid": 10426
         },
         "Teema.wikitext": {
-            "sha1": "009c784576407e6456c05c09c68ef57ae789772d",
-            "revid": 10427
+            "sha1": "61d9b112d5fbf925b7731d331a80e2653f4c10dd",
+            "revid": 17174
         },
         "Tei_Utaro.wikitext": {
             "sha1": "06f6d1cabf6d652b82c3fb31e2b3cd25fd4629ee",
@@ -11078,8 +11078,8 @@
             "revid": 10463
         },
         "Zex.wikitext": {
-            "sha1": "009c784576407e6456c05c09c68ef57ae789772d",
-            "revid": 10464
+            "sha1": "0fa4c843a2299b5cbcfb67e538fc4f80ff8e7797",
+            "revid": 17175
         },
         "Zita.wikitext": {
             "sha1": "eedf5d471d9cf27363a215d715ef202c87fcce75",
@@ -11402,8 +11402,8 @@
             "revid": 10947
         },
         "Template/CharacterPage.wikitext": {
-            "sha1": "593bbf5bcd0c6b999c43c7cc3ef2df66dc38d984",
-            "revid": 17142
+            "sha1": "c0f3f4342c7e3205248b4b513f628b729fc14f1a",
+            "revid": 17165
         },
         "Template/Disambig.wikitext": {
             "sha1": "5ee3a4160afd0d9da36e1e2cc63e983343792e8b",
