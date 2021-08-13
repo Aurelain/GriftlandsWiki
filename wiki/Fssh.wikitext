@@ -1,32 +1,26 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = Havaria - Murder Bay
-| faction = jakes
-| title = Bartender
-}}
-
-{{quote|Welcome back, Sal. Let's not waste much time, huh? You got work to do, and I got things to help you do it.|Fssh}}
-
-'''Fssh Menewene''' is an old friend of [[Sal]] and is the owner of the [[Grog n' Dog]]. She is a former bounty hunter and was responsible for training Sal on how to use her daggers when Sal was a child. 
-
-== Services ==
-
-*Fssh offers a random set of 3 [[Card#Item Cards|items]] to purchase that changes each day. 
-*She also sells food and alcohol that restores HP and Resolve, respectively.
-*Talking to Fssh allows the player to access Sal's room where [[Sal#Outfits|outfits]] can be changed and pets can be interacted with if owned.
-*If spoken with at the end of the night, the player can choose to sleep in their room which advances the story.
-*Fshh will '''like''' Sal by default, reducing the cost of her items, food and alcohol compared to other merchants. However, it's currently impossible to reach '''loved''' status with her so other merchants can potentially offer items at a better discount.
-
-==Boon/Bane==
-{{Boon/Bane
+{{CharacterPage
+|quote = Time hasn't been kind to Fssh, but then, it hasn't been kind to you, either.
+|race = Kra'deshi
+|location = Havaria - Murder Bay
+|faction = Jakes
+|title = Bartender
 |boon = Cozy
 |boonimage = cozy
 |boondesc = Gain 2 maximum resolve and 2 maximum health.
 |bane = Tainted Supply
 |baneimage = tainted supply
-|banedesc = Drinking adds an additional drunk card.}}
+|banedesc = Drinking adds an additional drunk card.
+|deathloot = Liquid Courage
+}}
+==Notes==
+'''Fssh Menewene''' is an old friend of [[Sal]] and is the owner of the [[Grog n' Dog]]. She is a former bounty hunter and was responsible for training Sal on how to use her daggers when Sal was a child. 
+
+== Services ==
+*Fssh offers a random set of 3 [[Card#Item Cards|items]] to purchase that changes each day. 
+*She also sells food and alcohol that restores HP and Resolve, respectively.
+*Talking to Fssh allows the player to access Sal's room where [[Sal#Outfits|outfits]] can be changed and pets can be interacted with if owned.
+*If spoken with at the end of the night, the player can choose to sleep in their room which advances the story.
+*Fshh will '''like''' Sal by default, reducing the cost of her items, food and alcohol compared to other merchants. However, it's currently impossible to reach '''loved''' status with her so other merchants can potentially offer items at a better discount.
 
 [[Category:Characters]]
 [[Category:Merchants]]

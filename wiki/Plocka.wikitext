@@ -1,12 +1,18 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| title = Professional
+{{CharacterPage
+|name = Plocka 'The Swab'
+|quote = Plocka keeps her purse strings tight, but she's been known to favor a friend in need.
+|race = Shroke
+|title = Professional
+|boon = Spark Visor
+|boonimage = spark visor
+|boondesc = At the start of battle, mark an enemy. Attacking that enemy grants you 8 Defense.
+|bane = Faulty Armor
+|baneimage = faulty armor
+|banedesc = Start each battle with 2 Exposed.
+|deathloot = Utility Belt
 }}
-
-'''Plocka 'The Swab'''' is a [[Shroke]] [[Spark Barons|Spark Baron]] Professional. She is notable as a graft merchant, selling up to 3 (Common, Uncommon, Rare) at scaling prices. She is a unique character because of the fact that she appears as the graft vendor in all three characters' stories.
+==Notes==
+'''Plocka 'The Swab'''' is notable as a graft merchant, selling up to 3 (Common, Uncommon, Rare) at scaling prices. She is a unique character because of the fact that she appears as the graft vendor in all three characters' stories.
 
 ==Encounters==
 

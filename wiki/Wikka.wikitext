@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = jakes
-| title = Promoted Dockhand
+{{CharacterPage
+|quote = Not unusual for someone like Wikka, hard-headed and steel-toed, to do well in the jakes.
+|race = Shroke
+|faction = Jakes
+|title = Promoted Dockhand
+|boon = Bargaining
+|boonimage = bargaining
+|boondesc = 20 shill discount from shopkeepers.
+|bane = Thin Skin
+|baneimage = thin skin
+|banedesc = The first time you take damage each fight, gain 2 Wound.
+|deathloot = Boosted Gaff
 }}

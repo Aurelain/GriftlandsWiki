@@ -1,21 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = jakes
-| title = Dockhand
+{{CharacterPage
+|quote = Despite her name, Brash is actually pretty level-headed.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Jakes
+|title = Dockhand
+|boon = Bargaining
+|boonimage = bargaining
+|boondesc = 20 shill discount from shopkeepers.
+|bane = Thin Skin
+|baneimage = thin skin
+|banedesc = The first time you take damage each fight, gain 2 Wound.
+|deathloot = Gaff
 }}
-
-{{quote|Despite her name, Brash is actually pretty level-headed.|Brale's Compendium Description}}'''Brash''' is a character in {{Gamename}} and a [[Jakes]] Dockhand.
-
-== Death Loot ==
-If '''Brash''' is killed in combat, she will drop a [[Gaff]].
-[[File:Gaff.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Brash''' hates you, you will receive:
-
-=== Thin Skin ===
-The first time you take damage each fight, gain 2 '''Wound'''.
-[[File:Graft thin skin.png|none|thumb]]
-<br />
-[[Category:Characters]]

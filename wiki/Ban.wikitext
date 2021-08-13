@@ -1,20 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = jakes
-| title = Smuggler
+{{CharacterPage
+|quote = Ban can knock some sense into you—or out. Your choice.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Jakes
+|title = Smuggler
+|boon = First Aid
+|boonimage = first aid
+|boondesc = Whenever you remove a debuff, Heal 5 health.
+|bane = Fragile Health
+|baneimage = fragile health
+|banedesc = Whenever you gain a debuff, take 2 damage.
+|deathloot = Triage
 }}
-
-{{quote|Ban can knock some sense into you— or out. Your choice.|Ban's Compendium Description}}'''Ban''' is a character in {{Gamename}} and a [[Jakes]] Smuggler.
-
-== Death Loot ==
-If '''Ban''' is killed in combat, she will drop a [[Triage]].
-[[File:Triage.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Ban''' hates you, you will receive:
-
-===Fragile Health===
-Whenever you gain a debuff, take 2 damage.
-[[File:Graft fragile health.png|none|thumb]]
-[[Category:Characters]]

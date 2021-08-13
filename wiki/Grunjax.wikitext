@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = jakes
-| title = Dockhand
+{{CharacterPage
+|quote = Grunjax has breath so rancid you can smell it after he's left the room. But he sure does have a nice smile.
+|race = Jarackle
+|faction = Jakes
+|title = Dockhand
+|boon = Bargaining
+|boonimage = bargaining
+|boondesc = 20 shill discount from shopkeepers.
+|bane = Thin Skin
+|baneimage = thin skin
+|banedesc = The first time you take damage each fight, gain 2 Wound.
+|deathloot = Gaff
 }}

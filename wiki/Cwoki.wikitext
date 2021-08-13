@@ -1,14 +1,14 @@
-{{Character
-| race = Kra'deshi
-| location = Havaria - Murder Bay
-| faction = jakes
-| title = Dockhand
+{{CharacterPage
+|quote = You've heard that Cwoki has a collection of trading cards depicting the upper echelon of the Heshian cult—from cardinals to archbishops. Of course, that's the Deltrean side. Unlikely Havarian clergy warrant any mention.
+|race = Kra'deshi
+|location = Havaria - Murder Bay
+|faction = Jakes
+|title = Dockhand
+|boon = Bargaining
+|boonimage = bargaining
+|boondesc = 20 shill discount from shopkeepers.
+|bane = Thin Skin
+|baneimage = thin skin
+|banedesc = The first time you take damage each fight, gain 2 Wound.
+|deathloot = Gaff
 }}
-
-{{quote|You've heard that Cwoki has a collection of trading cards depicting the upper echelon of the Heshian cult— from cardinals to archbishops. Of course, that's the Deltrean side. Unlikely Havarian clergy warrant any mention.|Cwoki's Compendium Description}}'''Cwoki''' is a character in {{Gamename}} and a [[Jakes]] Dockhand.
-
-== Death Loot ==
-If '''Cwoki''' is killed in combat, he will drop a [[Gaff]].
-[[File:Gaff.png|none|thumb]]
-<br />
-[[Category:Characters]]

@@ -1,15 +1,18 @@
-{{stub}}
-
-{{Character
-| image = Fellemo portrait.png
-| race = Kra'deshi
-| location = Havaria - Grout Bog
-| faction = spark barons
-| title = Regional Manager
+{{CharacterPage
+|quote = Fellemo's old grit has been softened somewhat by his new trappings.
+|race = Kra'deshi
+|location = Havaria - Grout Bog
+|faction = Spark Barons
+|title = Regional Manager
+|boon = Scheme
+|boonimage = scheme
+|boondesc = At the start of every negotiation gain either 3 Influence or 3 Dominance. Chosen randomly.
+|bane = Scandal
+|baneimage = scandal
+|banedesc = At the beginning of every negotiation, lose 1 maximum resolve permanently.
+|deathloot = Two Faced
 }}
-
-{{quote|Rook, you old Scoundrel! Figured you'd be able to move faster than that, even with that bum leg of yours. Let's get you to work, so you can see what I'm up against.|Fellemo}}
-
+==Notes==
 '''Lellyn Fellemo''' is the [[Spark Barons]] Regional Manager overseeing the [[Grout Bog]] excavations. A former [[Admiralty]] soldier and colleague of Rook, Fellemo sends Rook a hastily encoded summons to come seek him for immediate work.
 
 === Background ===

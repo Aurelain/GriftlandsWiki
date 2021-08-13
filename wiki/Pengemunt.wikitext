@@ -1,15 +1,19 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = Grout Bog - The Last Stand
-| faction = admiralty
-| title = Coin Trader
+{{CharacterPage
+|quote = Pengemunt carries himself with the tell-tale gait of an Aerostat officer.
+|race = Kra'deshi
+|location = Grout Bog - The Last Stand
+|faction = Admiralty
+|title = Coin Trader
+|boon = Sparring
+|boonimage = sparring
+|boondesc = Gain 1 bonus Defense on all cards that apply Defense.
+|bane = Bully
+|baneimage = bully
+|banedesc = Lose 1 Defense on all cards that apply Defense.
+|deathloot = Spear Head
 }}
-
-{{quote|Looking for coins? I've got some good ones for trade.|Pengemunt}}
-
-'''Pengemunt''' is a former Admiralty Aerostat soldier found in The Last Stand by Rook. He recognizes Rook's Aerostat uniform upon meeting him and offers to trade squadron coins with Rook. His coins carry various boosted effects that allow Rook to strengthen his negotiations by complimenting his deck strengths or compensate for its weaknesses. You can only trade with him once per day, and his inventory changes at the start of each day.
+==Notes==
+'''Pengemunt''' is a former Admiralty Aerostat soldier found in The Last Stand by [[Rook]]. He recognizes Rook's Aerostat uniform upon meeting him and offers to trade squadron coins with Rook. His coins carry various boosted effects that allow Rook to strengthen his negotiations by complimenting his deck strengths or compensate for its weaknesses. You can only trade with him once per day, and his inventory changes at the start of each day.
 
 '''See:''' [[Rook#Lucky Coins|Lucky Coins]]
 

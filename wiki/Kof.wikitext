@@ -1,15 +1,17 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = The Gro n' Dog
-| faction = jakes
-| title = Smuggler
+{{CharacterPage
+|quote = This smuggler has a reputation for negotiating steep fees for his services. Perhaps the origin of the Havarian phrase "coughing up the cash".
+|race = Shroke
+|location = The Gro n' Dog
+|faction = Jakes
+|title = Smuggler
+|boon = First Aid
+|boonimage = first aid
+|boondesc = Whenever you remove a debuff, Heal 5 health.
+|bane = Fragile Health
+|baneimage = fragile health
+|banedesc = Whenever you gain a debuff, take 2 damage.
+|deathloot = Triage
 }}
-
-<!-- {{quote|.|Kof}} -->
-'''Kof''' is a [[Jakes|Jake Smuggler]] and a patron at [[The Gro n' Dog]]. 
-
 == Background ==
 This smuggler has a reputation for negotiating steep fees for his services. Perhaps the origin of the Havarian phrase "coughing up the cash". 
 

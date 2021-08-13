@@ -1,12 +1,18 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = Grout Bog
-| faction = spree
-| title = Bartender
+{{CharacterPage
+|quote = Rest assured: you make a mess in his bar, and there'll be Hebbel to pay.
+|race = Shroke
+|location = Grout Bog
+|faction = Spree
+|title = Bartender
+|boon = Top Shelf
+|boonimage = top shelf
+|boondesc = Restore an additional 6 resolve when drinking.
+|bane = Tainted Supply
+|baneimage = tainted supply
+|banedesc = Drinking adds an additional drunk card.
+|deathloot = Liquid Courage
 }}
-
+==Notes==
 '''Hebbel''' is the proprietor of [[The Last Stand]] in [[Grout Bog]]. He prides himself on his family business and its independence from the '''Spark Barons'''. Hebbel acts as an informant for special clientele, passing along messages and delivering packages to clients.
 
 == Services ==

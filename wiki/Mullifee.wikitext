@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = admiralty
-| title = Guard Captain
+{{CharacterPage
+|quote = Mullifee's stern face has been hardened by age. Once, those who cared to know her stories were lulled to sleep with whispered ghost stories and lore.
+|race = Kra'deshi
+|faction = Admiralty
+|title = Guard Captain
+|boon = Family Favor
+|boonimage = family favor
+|boondesc = At the start of each negotiation, gain 3 Renown.
+|bane = Shunned
+|baneimage = shunned
+|banedesc = At the end of your first turn in negotiations, lose all Renown and Influence.
+|deathloot = Banquod Pendant
 }}

@@ -1,21 +1,14 @@
-{{Character
-| race = Kra'deshi
-| location = Havaria - Murder Bay
-| faction = rise
-| title = Rebel
+{{CharacterPage
+|quote = The life of a laborer is hard, but it seems the life of a rebel is even harder.
+|race = Kra'deshi
+|location = Havaria - Murder Bay
+|faction = Rise
+|title = Rebel
+|boon = Morale Boost
+|boonimage = morale boost
+|boondesc = At the end of their turn, surrendered allies gain 10% of their maximum health.
+|bane = Civil Unrest
+|baneimage = civil unrest
+|banedesc = All allies start battle with additional Panic.
+|deathloot = Guerrilla Tactic
 }}
-
-{{quote|Brenna is a true believer in the goals of the Rise, even if the Rise is not always a true believer in the goals of Brenna.|Brenna's Compendium Description}}'''Brenna''' is a character in {{Gamename}} and a [[Rise]] Rebel.
-
-== Death Loot ==
-If '''Brenna''' is killed in combat, she will drop a [[Guerrilla Tactic]].
-[[File:Guerrilla Tactic.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Brenna''' hates you, you will receive:
-
-=== Civil Unrest ===
-All allies start battle with additional '''Panic'''.
-[[File:Graft civil unrest.png|none|thumb]]
-<br />
-[[Category:Characters]]

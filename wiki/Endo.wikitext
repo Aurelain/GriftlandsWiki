@@ -1,14 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = cult of hesh
-| title = Priest
+{{CharacterPage
+|quote = Either Endo's got a smudge on his nose, or the call of the divine has turned his gaze within.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Cult of Hesh
+|title = Priest
+|boon = Bio-Feedback
+|boonimage = bio-feedback
+|boondesc = Status Cards cost 1 less action in battle.
+|bane = Bad Faith
+|baneimage = bad faith
+|banedesc = At the start of each fight, add a Gnarled Effigy to your draw pile.
+|deathloot = Heshian Amulet
 }}
-
-{{quote|Either Endo's got a smudge on his nose, or the call of the divine has turned his gaze within.|Endo's Compendium Description}}'''Endo''' is a character in {{Gamename}} and a [[Cult of Hesh]] Priest.
-
-== Death Loot ==
-If '''Endo''' is killed in combat, he will drop a [[Heshian Amulet.|Heshian Amulet]].
-[[File:Heshian Amulet.png|none|thumb]]
-<br />
-[[Category:Characters]]

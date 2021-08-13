@@ -1,14 +1,14 @@
-{{Character
-| race = Jarackle
-| location = Havaria - Murder Bay
-| faction = jakes
-| title = Smuggler
+{{CharacterPage
+|quote = Enit's success as a smuggler is nevertheless earned—in spite of her being known to skim a little off the top of whatever it is she's smuggling.
+|race = Jarackle
+|location = Havaria - Murder Bay
+|faction = Jakes
+|title = Smuggler
+|boon = First Aid
+|boonimage = first aid
+|boondesc = Whenever you remove a debuff, Heal 5 health.
+|bane = Fragile Health
+|baneimage = fragile health
+|banedesc = Whenever you gain a debuff, take 2 damage.
+|deathloot = Triage
 }}
-
-{{quote|Enit's success as a smuggler is nevertheless earned— in spite of her being known to skim a little off the top of whatever it is she's smuggling.|Enit's Compendium Description}}'''Enit''' is a character in {{Gamename}} and a [[Jakes]] Smuggler.
-
-== Death Loot ==
-If '''Enit''' is killed in combat, she will drop a [[Triage]].
-[[File:Triage.png|none|thumb]]
-<br />
-[[Category:Characters]]

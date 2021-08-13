@@ -1,11 +1,17 @@
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = civilian
-| title = Bartender
+{{CharacterPage
+|quote = Where Rug walks, flavor follows, which is a sad consequence of a seasoning pouch full of bullet holes.
+|race = Kra'deshi
+|faction = Civilian
+|title = Bartender
+|boon = Mixology
+|boonimage = mixology
+|boondesc = Whenever you drink to restore resolve, also restore 4 health.
+|bane = Tainted Supply
+|baneimage = tainted supply
+|banedesc = Drinking adds an additional drunk card.
+|deathloot = Liquid Courage
 }}
-
-[[File:Rug.png|thumb]]
+==Notes==
 Rug wanders around the Griftlands, looking for patrons willing to try out his culinary creations.
 {| class="wikitable"
 |+

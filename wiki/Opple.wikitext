@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = jakes
-| title = Lifter
+{{CharacterPage
+|quote = Best watch the manifest close, as Opple has a habit of doing black magic with the numbers.
+|race = Human
+|faction = Jakes
+|title = Lifter
+|boon = Quality Materials
+|boonimage = quality materials
+|boondesc = Whenever you play an Item card, gain 2 Defense.
+|bane = Back of the Line
+|baneimage = back of the line
+|banedesc = All items lose 1 use when added to your deck. (minimum of 1 use)
+|deathloot = Lifter Claw
 }}

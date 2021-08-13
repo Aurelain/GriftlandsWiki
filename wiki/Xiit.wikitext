@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = jakes
-| title = Smuggler
+{{CharacterPage
+|quote = Folks say Xiit is a miracle worker, but the miracle is that he manages to pull himself out of the gutter each day.
+|race = Shroke
+|faction = Jakes
+|title = Smuggler
+|boon = First Aid
+|boonimage = first aid
+|boondesc = Whenever you remove a debuff, Heal 5 health.
+|bane = Fragile Health
+|baneimage = fragile health
+|banedesc = Whenever you gain a debuff, take 2 damage.
+|deathloot = Triage
 }}

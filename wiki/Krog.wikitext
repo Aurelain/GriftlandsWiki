@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = jakes
-| title = Dockhand
+{{CharacterPage
+|quote = You'd bet your last shill that Krog knows his way around his own sleeve—preferably, though, you wouldn't bet against Krog.
+|race = Kra'deshi
+|faction = Jakes
+|title = Dockhand
+|boon = Bargaining
+|boonimage = bargaining
+|boondesc = 20 shill discount from shopkeepers.
+|bane = Thin Skin
+|baneimage = thin skin
+|banedesc = The first time you take damage each fight, gain 2 Wound.
+|deathloot = Gaff
 }}

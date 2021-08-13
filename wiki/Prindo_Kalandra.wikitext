@@ -1,16 +1,19 @@
-{{stub}}
-
-{{Character
-| image = Kalandra portrait.png
-| race = Human
-| location = Havaria - Grout Bog
-| faction = rise
-| title = Organizer
+{{CharacterPage
+|quote = A life of labor in the Bog has made Kalandra as cunning as she is adept.
+|race = Human
+|location = Havaria - Grout Bog
+|faction = Rise
+|title = Organizer
+|boon = Excavator
+|boonimage = excavator
+|boondesc = The first item card you play in battle is played twice.
+|bane = Buried
+|baneimage = buried
+|banedesc = At the start of each battle, gain 2 Impair.
+|deathloot = Battle Plan
 }}
-
-{{quote|My workers like me. That's reason enough for the Barons to cast me as a villain.|Kalandra}}
-
-'''Prindo Kalandra''' is the current leader of [[Rise|The Rise]], and is found in Grout Bog. Despite her role being known by the [[Spark Barons]], Kalandra is allowed to organize Rise activities throughout the Bog and is well protected by her supporters.
+==Notes==
+Despite her role being known by the [[Spark Barons]], Kalandra is allowed to organize Rise activities throughout the Bog and is well protected by her supporters.
 
 == Background ==
 

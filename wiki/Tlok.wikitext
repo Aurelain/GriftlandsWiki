@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = jakes
-| title = Dockhand
+{{CharacterPage
+|quote = Most jarackles struggle to get the respect they deserve, so it says a lot that folks speak Tlok's name like he's one to watch out for.
+|race = Jarackle
+|faction = Jakes
+|title = Dockhand
+|boon = Bargaining
+|boonimage = bargaining
+|boondesc = 20 shill discount from shopkeepers.
+|bane = Thin Skin
+|baneimage = thin skin
+|banedesc = The first time you take damage each fight, gain 2 Wound.
+|deathloot = Gaff
 }}

@@ -1,13 +1,19 @@
-{{Character
-| race = Jarackle
-| location = Havaria - Grout Bog
-| faction = admiralty
-| title = Weaponsmith
+{{CharacterPage
+|quote = Frizz crackles with static discharge from her wares. Best to stay a few feet back.
+|race = Jarackle
+|location = Havaria - Grout Bog
+|faction = Admiralty
+|title = Weaponsmith
+|boon = Weapons Expert
+|boonimage = weapons expert
+|boondesc = The first attack card you play each fight costs 0.
+|bane = Treachery
+|baneimage = treachery
+|banedesc = You can no longer gain any Defense on your first turn of battle.
+|deathloot = Lumin Jolt
 }}
-
-{{Quote|You still using those old things?|Frizz}}
-
-'''Frizz''' is an active Admiralty Weaponsmith that appears in Grout Bog as a limited time event. Rook can visit Frizz to request an upgrade for his Custom EH1076 Pistols.  
+==Notes==
+'''Frizz''' appears in Grout Bog as a limited time event. Rook can visit Frizz to request an upgrade for his Custom EH1076 Pistols.
 
 === Background ===
 

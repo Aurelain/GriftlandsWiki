@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = jakes
-| title = Lifter
+{{CharacterPage
+|quote = Gwale wasn't born to this life, but she sure claimed it as her own anyway.
+|race = Kra'deshi
+|faction = Jakes
+|title = Lifter
+|boon = Quality Materials
+|boonimage = quality materials
+|boondesc = Whenever you play an Item card, gain 2 Defense.
+|bane = Back of the Line
+|baneimage = back of the line
+|banedesc = All items lose 1 use when added to your deck. (minimum of 1 use)
+|deathloot = Lifter Claw
 }}

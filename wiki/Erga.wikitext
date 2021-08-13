@@ -1,14 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = jakes
-| title = Lifter
+{{CharacterPage
+|quote = Like a torn banner in the wind, Erga plays fast and loose.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Jakes
+|title = Lifter
+|boon = Quality Materials
+|boonimage = quality materials
+|boondesc = Whenever you play an Item card, gain 2 Defense.
+|bane = Back of the Line
+|baneimage = back of the line
+|banedesc = All items lose 1 use when added to your deck. (minimum of 1 use)
+|deathloot = Lifter Claw
 }}
-
-'''Erga''' is a character in {{Gamename}} and a [[Jakes]] Lifter.
-
-== Death Loot ==
-If '''Erga''' is killed in combat, he will drop a [[Lifter Claw]].
-[[File:Lifter Claw.png|none|thumb]]
-<br />
-[[Category:Characters]]

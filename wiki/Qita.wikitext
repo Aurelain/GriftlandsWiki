@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = jakes
-| title = Smuggler
+{{CharacterPage
+|quote = You've heard Qita's name spoken like it's got a razor's edge, but you don't remember the details.
+|race = Jarackle
+|faction = Jakes
+|title = Smuggler
+|boon = First Aid
+|boonimage = first aid
+|boondesc = Whenever you remove a debuff, Heal 5 health.
+|bane = Fragile Health
+|baneimage = fragile health
+|banedesc = Whenever you gain a debuff, take 2 damage.
+|deathloot = Triage
 }}
