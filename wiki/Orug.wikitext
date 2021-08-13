@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = civilian
-| title = Heavy Laborer
+{{CharacterPage
+|quote = Whether it's heavy lifting or heavy hitting, Orug's not afraid to get heavy.
+|race = Human
+|faction = Civilian
+|title = Heavy Laborer
+|boon = Heavy Lifting
+|boonimage = heavy lifting
+|boondesc = At the start of each battle, gain 4 Defense and 2 Temporary Power.
+|bane = Whispered Rumors
+|baneimage = whispered rumors
+|banedesc = Opponents start with an additional argument each negotiation.
+|deathloot = Worker's Gloves
 }}

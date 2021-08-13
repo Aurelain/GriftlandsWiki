@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = civilian
-| title = Wealthy Merchant
+{{CharacterPage
+|quote = Despite her name, Takt has none.
+|race = Kra'deshi
+|faction = Civilian
+|title = Wealthy Merchant
+|boon = Haggle Badge
+|boonimage = haggle badge
+|boondesc = You can negotiate for greater quest rewards.
+|bane = Bad Credit
+|baneimage = bad credit
+|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
+|deathloot = Spark Grenade
 }}

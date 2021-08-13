@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = civilian
-| title = Oshnu Wrangler
+{{CharacterPage
+|quote = Some folks love their beasts, and other folks just smell like them.
+|race = Human
+|faction = Civilian
+|title = Oshnu Wrangler
+|boon = Adhesive
+|boonimage = adhesive
+|boondesc = At the start of each battle, choose a card in your hand and give it Sticky.
+|bane = Bad Bookie
+|baneimage = bad bookie
+|banedesc = Lose 30 shills every morning.
+|deathloot = A Hot Tip
 }}

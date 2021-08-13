@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = civilian
-| title = Oshnu Wrangler
+{{CharacterPage
+|quote = When Ptchu introduces himself, people tend to back away. But the name isn't as contagious as it sounds.
+|race = Jarackle
+|faction = Civilian
+|title = Oshnu Wrangler
+|boon = Adhesive
+|boonimage = adhesive
+|boondesc = At the start of each battle, choose a card in your hand and give it Sticky.
+|bane = Bad Bookie
+|baneimage = bad bookie
+|banedesc = Lose 30 shills every morning.
+|deathloot = A Hot Tip
 }}

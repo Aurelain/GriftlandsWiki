@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = civilian
-| title = Laborer
+{{CharacterPage
+|quote = Toeren has the face of someone hard done by and almost done.
+|race = Jarackle
+|faction = Civilian
+|title = Laborer
+|boon = Voice of the People
+|boonimage = voice of the people
+|boondesc = Start all negotiations with a Voice of the People argument.
+|bane = Elitist
+|baneimage = elitist
+|banedesc = Feud Citizens that you meet for the first time will dislike you.
+|deathloot = Anchor
 }}

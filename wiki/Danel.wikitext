@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = civilian
-| title = Promoted Wealthy Merchant
+{{CharacterPage
+|quote = Danel is almost as good at spending money as he is at earning it--hopefully the balance never tips.
+|race = Jarackle
+|faction = Civilian
+|title = Promoted Wealthy Merchant
+|boon = Haggle Badge
+|boonimage = haggle badge
+|boondesc = You can negotiate for greater quest rewards.
+|bane = Bad Credit
+|baneimage = bad credit
+|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
+|deathloot = Lumin Grenade
 }}

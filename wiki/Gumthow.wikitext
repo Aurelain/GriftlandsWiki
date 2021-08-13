@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = civilian
-| title = Poor Merchant
+{{CharacterPage
+|quote = If Gumthow had a shill for every time she's been stiffed on a deal, she'd be able to retire.
+|race = Human
+|faction = Civilian
+|title = Poor Merchant
+|boon = Haggle Badge
+|boonimage = haggle badge
+|boondesc = You can negotiate for greater quest rewards.
+|bane = Bad Credit
+|baneimage = bad credit
+|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
+|deathloot = Defective Grenade
 }}

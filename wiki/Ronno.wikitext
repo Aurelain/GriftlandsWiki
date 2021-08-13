@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = jakes
-| title = Dockhand
+{{CharacterPage
+|quote = Apparently Ronno lost the hearing in her right earnub after a swamp gas explosion. Fortunately she hears extra-well out of the left one.
+|race = Shroke
+|faction = Jakes
+|title = Dockhand
+|boon = Bargaining
+|boonimage = bargaining
+|boondesc = 20 shill discount from shopkeepers.
+|bane = Thin Skin
+|baneimage = thin skin
+|banedesc = The first time you take damage each fight, gain 2 Wound.
+|deathloot = Gaff
 }}

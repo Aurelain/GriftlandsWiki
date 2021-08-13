@@ -1,21 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = civilian
-| title = Heavy Laborer
+{{CharacterPage
+|quote = The laborer rubs his elbows like it's been ten years since they ran out of grease.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Civilian
+|title = Heavy Laborer
+|boon = Heavy Lifting
+|boonimage = heavy lifting
+|boondesc = At the start of each battle, gain 4 Defense and 2 Temporary Power.
+|bane = Whispered Rumors
+|baneimage = whispered rumors
+|banedesc = Opponents start with an additional argument each negotiation.
+|deathloot = Worker's Gloves
 }}
-
-{{quote|The laborer rubs his elbows like it's been ten years since they ran out of grease.|Chake's Compendium Description}}'''Chake''' is a character in {{Gamename}} and a [[Civilian]] Heavy Laborer.
-
-== Death Loot ==
-If '''Chake''' is killed in combat, he will drop a [[Worker's Glove]].
-[[File:Worker's Glove.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Chake''' hates you, you will receive:
-
-=== Whispered Rumors ===
-Opponents start with an additional argument each negotiation.
-[[File:Graft whispered rumors.png|none|thumb]]
-<br />
-[[Category:Characters]]

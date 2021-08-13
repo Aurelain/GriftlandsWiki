@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = civilian
-| title = Wealthy Merchant
+{{CharacterPage
+|quote = You get the feeling Onnawor would do anything to turn a profit.
+|race = Human
+|faction = Civilian
+|title = Wealthy Merchant
+|boon = Haggle Badge
+|boonimage = haggle badge
+|boondesc = You can negotiate for greater quest rewards.
+|bane = Bad Credit
+|baneimage = bad credit
+|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
+|deathloot = Spark Grenade
 }}

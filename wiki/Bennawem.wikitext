@@ -1,17 +1,14 @@
-{{Character
-| race = Kra'deshi
-| location = Havaria - Murder Bay
-| faction = civilian
-| title = Wealthy Merchant
+{{CharacterPage
+|quote = Bennawem speaks with a Deltrean accent, implying he was born on the mainland.
+|race = Kra'deshi
+|location = Havaria - Murder Bay
+|faction = Civilian
+|title = Wealthy Merchant
+|boon = Haggle Badge
+|boonimage = haggle badge
+|boondesc = You can negotiate for greater quest rewards.
+|bane = Bad Credit
+|baneimage = bad credit
+|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
+|deathloot = Spark Grenade
 }}
-
-{{quote|He speaks with a Deltrean accent, implying he was born on the mainland.|Bennawem's Compendium Description}}'''Bennawem''' is a character in {{Gamename}} and an [[Civilian]] Wealthy Merchant.
-
-== Death Loot ==
-If '''Bennawem''' is killed in combat, he will drop a [[Spark Grenade]].
-[[File:Spark Grenade.png|none|thumb]]
-
-
-
-
-[[Category:Characters]]

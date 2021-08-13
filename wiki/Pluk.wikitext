@@ -1,12 +1,15 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = civilian
-| title = Heavy Laborer
+{{CharacterPage
+|quote = Between the fuel stains and the fire in her eyes, it's easy to see a bit of yourself in Pluk.
+|race = Human
+|faction = Civilian
+|title = Heavy Laborer
+|boon = Heavy Lifting
+|boonimage = heavy lifting
+|boondesc = At the start of each battle, gain 4 Defense and 2 Temporary Power.
+|bane = Whispered Rumors
+|baneimage = whispered rumors
+|banedesc = Opponents start with an additional argument each negotiation.
+|deathloot = Worker's Gloves
 }}
-
-'''Pluk''' is a character in [[{{Gamename}}]]. Pluk appears in quest [[Another Day Older and Deeper in Debt]]. Character [[Veep]] is in debt with '''Pluk'''.
-
-[[Category:Characters]]
+==Notes==
+'''Pluk''' appears in quest [[Another Day Older and Deeper in Debt]]. Character [[Veep]] is in debt with '''Pluk'''.

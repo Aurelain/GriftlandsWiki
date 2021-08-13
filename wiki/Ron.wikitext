@@ -1,8 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = civilian
-| title = Pearlie
+{{CharacterPage
+|race = Jarackle
+|faction = Civilian
+|title = Pearlie
+|boon = Local Chatter
+|boonimage = local chatter
+|boondesc = At the start of any negotiation against a Pearlie or Heshian, gain 3 Renown.
+|bane = Disapproval
+|baneimage = disapproval
+|banedesc = At the start of any negotiation against a Pearlie or Heshian, gain 1 Flustered.
+|deathloot = Pearlie Wallet
 }}

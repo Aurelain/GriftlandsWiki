@@ -1,21 +1,14 @@
-{{Character
-| race = Jarackle
-| location = Havaria - Murder Bay
-| faction = civilian
-| title = Heavy Laborer
+{{CharacterPage
+|quote = You might call Erbla radiant, but that's probably just the radiation.
+|race = Jarackle
+|location = Havaria - Murder Bay
+|faction = Civilian
+|title = Heavy Laborer
+|boon = Heavy Lifting
+|boonimage = heavy lifting
+|boondesc = At the start of each battle, gain 4 Defense and 2 Temporary Power.
+|bane = Whispered Rumors
+|baneimage = whispered rumors
+|banedesc = Opponents start with an additional argument each negotiation.
+|deathloot = Worker's Gloves
 }}
-
-{{quote|You might call Erbla radiant, but that's probably just the radiation.|Erbla's Compendium Description}}'''Erbla''' is a character in {{Gamename}} and a [[Civilian]] Heavy Laborer.
-
-== Death Loot ==
-If '''Erbla''' is killed in combat, she will drop a [[Worker's Glove]].
-[[File:Worker's Glove.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Erbla''' loves you, you will receive:
-
-=== Heavy Lifting ===
-At the start of each battle, gain 4 '''Defense''' and 2 '''Temporary Power'''.
-[[File:Graft heavy lifting.png|none|thumb]]
-<br />
-[[Category:Characters]]

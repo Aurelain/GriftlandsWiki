@@ -1,23 +1,14 @@
-{{Character
-| race = Shroke
-| location = Havaria - Murder Bay
-| faction = civilian
-| title = Laborer
+{{CharacterPage
+|quote = Ekel's made a reputation of keeping her chin up and taking the blows that come her way. Not sure that's a reputation anyone should want, really.
+|race = Shroke
+|location = Havaria - Murder Bay
+|faction = Civilian
+|title = Laborer
+|boon = Voice of the People
+|boonimage = voice of the people
+|boondesc = Start all negotiations with a Voice of the People argument.
+|bane = Elitist
+|baneimage = elitist
+|banedesc = Feud Citizens that you meet for the first time will dislike you.
+|deathloot = Anchor
 }}
-
-{{quote|Ekel's made a reputation of keeping her chin up and taking the blows that come her way. Not sure that's a reputation anyone should want, really.|Ekel's Compendium Description}}'''Ekel''' is a character in {{Gamename}} and a [[Civilian]] Laborer.
-
-She appears in the quest [[Attack Rival]], where [[Rudana]] pays [[Sal]] to lay a beat-down on Ekel.
-
-== Death Loot ==
-If '''Ekel''' is killed in combat, she will drop an [[Anchor]].
-[[File:Anchor.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Ekel''' loves you, you will receive:
-
-=== Voice of the People ===
-Start all negotiations with a '''Voice of the People''' argument.
-[[File:Graft voice of the people.png|none|thumb]]
-<br />
-[[Category:Characters]]

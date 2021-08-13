@@ -1,12 +1,15 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = civilian
-| title = Laborer
+{{CharacterPage
+|quote = By the callouses on his hand and the heavy sigh on his lips, it's clear Veep has been worked to the bone.
+|race = Human
+|faction = Civilian
+|title = Laborer
+|boon = Voice of the People
+|boonimage = voice of the people
+|boondesc = Start all negotiations with a Voice of the People argument.
+|bane = Elitist
+|baneimage = elitist
+|banedesc = Feud Citizens that you meet for the first time will dislike you.
+|deathloot = Anchor
 }}
-
-'''Veep''' is a [[human]] character in [[Griftlands]]. He is in debt with [[Pluk]]. He plays a role in the quest [[Another Day Older and Deeper in Debt]]. 
-
-[[Category:Characters]]
+==Notes==
+'''Veep''' is in debt with [[Pluk]]. He plays a role in the quest [[Another Day Older and Deeper in Debt]].

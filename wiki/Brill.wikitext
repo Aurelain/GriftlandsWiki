@@ -1,14 +1,14 @@
-{{Character
-| race = Jarackle
-| location = Havaria - Murder Bay
-| faction = civilian
-| title = Laborer
+{{CharacterPage
+|quote = You wouldn't want Brill's job. But then, neither does Brill.
+|race = Jarackle
+|location = Havaria - Murder Bay
+|faction = Civilian
+|title = Laborer
+|boon = Voice of the People
+|boonimage = voice of the people
+|boondesc = Start all negotiations with a Voice of the People argument.
+|bane = Elitist
+|baneimage = elitist
+|banedesc = Feud Citizens that you meet for the first time will dislike you.
+|deathloot = Anchor
 }}
-
-{{quote|You wouldn't want Brill's job. But then, neither does Brill.|Brill's Compendium Description}}'''Brill''' is a character in {{Gamename}} and a [[Civilian]] Laborer.
-
-== Death Loot ==
-If '''Brill''' is killed in combat, he will drop an [[Anchor]]'''.'''
-[[File:Anchor.png|none|thumb]]
-<br />
-[[Category:Characters]]

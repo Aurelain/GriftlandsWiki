@@ -1,31 +1,13 @@
-{{Character
-| race = Jarackle
-| location = 
-| faction = civilian
-| title = Wealthy Merchant
-}}
-
-
-{{quote|Cash's nom de gruerre is more aspirational than accurate.|Cash's Compendium Description}}
-'''Cash''' is a character in {{Gamename}} and a [[Civilian]] Wealthy Merchant.
-__TOC__
-{{clear}}
-==Boon/Bane==
-{{Boon/Bane
+{{CharacterPage
+|quote = Cash's nom de guerre is more aspirational than accurate.
+|race = Jarackle
+|faction = Civilian
+|title = Wealthy Merchant
 |boon = Haggle Badge
 |boonimage = haggle badge
 |boondesc = You can negotiate for greater quest rewards.
 |bane = Bad Credit
 |baneimage = bad credit
-|banedesc = Buying anything from shopkeepers costs an additional 20 shills.}}
-
-==Death Loot==
-If '''Cash''' is killed in combat, she will drop a [[Spark Grenade]].
-
-===Spark Grenade===
-*Deals 6-9 damage and costs 1 action per turn.
-*Targets 2 random enemies and deals piercing damage.
-*Destroys after 1 use.
-<br>[[File:Spark Grenade.png|thumb|alt=|none]]
-
-[[Category:Civilian]]
+|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
+|deathloot = Spark Grenade
+}}

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = civilian
-| title = Promoted Laborer
+{{CharacterPage
+|quote = In true Havarian fashion, Milleeree's promoted status seems to have been prompted by something other than her lackluster work ethic.
+|race = Kra'deshi
+|faction = Civilian
+|title = Promoted Laborer
+|boon = Voice of the People
+|boonimage = voice of the people
+|boondesc = Start all negotiations with a Voice of the People argument.
+|bane = Elitist
+|baneimage = elitist
+|banedesc = Feud Citizens that you meet for the first time will dislike you.
+|deathloot = Polished Anchor
 }}

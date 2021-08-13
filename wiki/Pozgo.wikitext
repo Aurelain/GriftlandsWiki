@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = jakes
-| title = Dockhand
+{{CharacterPage
+|quote = "Pozgo" was the legendary ruler of a long-forgotten planet. You wonder if '''this''' Pozgo lived up to his parents' expectations.
+|race = Human
+|faction = Jakes
+|title = Dockhand
+|boon = Bargaining
+|boonimage = bargaining
+|boondesc = 20 shill discount from shopkeepers.
+|bane = Thin Skin
+|baneimage = thin skin
+|banedesc = The first time you take damage each fight, gain 2 Wound.
+|deathloot = Gaff
 }}
