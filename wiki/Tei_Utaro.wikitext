@@ -1,8 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = cult of hesh
-| title = Luminari
+{{CharacterPage
+|race = Human
+|faction = Cult of Hesh
+|title = Luminari
+|boon = Puppeteer
+|boonimage = puppeteer
+|boondesc = Giving gifts to Heshians costs half as much.
+|bane = Sway
+|baneimage = sway
+|banedesc = At the start of any negotiation against Admiralty or Heshians, your opponent gains 1 Interrogate.
+|deathloot = Tei Drone Strike
 }}

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = spark barons
-| title = Promoted Security Guard
+{{CharacterPage
+|quote = A steely gaze can't distract from the twitch of Karet's fingers, like he's dissecting a piece of Vagrant tech in his head.
+|race = Jarackle
+|faction = Spark Barons
+|title = Promoted Security Guard
+|boon = Weapons Supplier
+|boonimage = weapons supplier
+|boondesc = Receive a random item card every morning.
+|bane = Sketchy Equipment
+|baneimage = sketchy equipment
+|banedesc = Take 1 damage whenever you use an item.
+|deathloot = Stable Shock Core
 }}

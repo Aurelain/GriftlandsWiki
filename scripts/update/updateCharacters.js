@@ -29,6 +29,7 @@ const FACTION_WORDS = {
     RENTORIAN: 'Rentorians',
     RISE: 'Rise',
     SPARK_BARONS: 'Spark Barons',
+    NEUTRAL: 'Neutral',
 };
 
 // =====================================================================================================================

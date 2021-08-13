@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spark barons
-| title = Promoted Security Guard
+{{CharacterPage
+|quote = You're not sure what Selaynia invented to get himself into the Spark Barons, but if you had to guess, you wouldn't say mouthwash.
+|race = Human
+|faction = Spark Barons
+|title = Promoted Security Guard
+|boon = Weapons Supplier
+|boonimage = weapons supplier
+|boondesc = Receive a random item card every morning.
+|bane = Sketchy Equipment
+|baneimage = sketchy equipment
+|banedesc = Take 1 damage whenever you use an item.
+|deathloot = Stable Shock Core
 }}

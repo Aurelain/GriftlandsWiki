@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = spark barons
-| title = Security Guard
+{{CharacterPage
+|quote = This kra'deshi has a reputation for holding the group together, for good or ill.
+|race = Kra'deshi
+|faction = Spark Barons
+|title = Security Guard
+|boon = Weapons Supplier
+|boonimage = weapons supplier
+|boondesc = Receive a random item card every morning.
+|bane = Sketchy Equipment
+|baneimage = sketchy equipment
+|banedesc = Take 1 damage whenever you use an item.
+|deathloot = Shock Core
 }}
