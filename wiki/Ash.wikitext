@@ -1,23 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = spree
-| title = Raider
+{{CharacterPage
+|quote = It's hard work being a bandit—even harder when you're hooked on the slurry. But Ash gets the job done.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Spree
+|title = Raider
+|boon = Regimented
+|boonimage = regimented
+|boondesc = All allied Spree have +10 Health in battle.
+|bane = Brutality
+|baneimage = brutality
+|banedesc = Status cards cost 1 additional action in battle.
+|deathloot = Heavy Cleaver
 }}
-
-{{quote|It's hard work being a bandit — even harder when you're hooked on the slurry. But Ash gets the job done.|Ash's Compendium Description}}
-
-'''Ash''' is a character in {{Gamename}} and a [[Spree]] Raider.
-
-== Death Loot ==
-If '''Ash''' is killed in combat, he will drop a [[Heavy Cleaver]].
-[[File:Heavy Cleaver.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Ash''' hates you, you will receive:
-
-=== Brutality ===
-Status cards cost 1 additional action in battle.
-[[File:Graft brutality.png|none|thumb]]
-<br />
-[[Category:Characters]]

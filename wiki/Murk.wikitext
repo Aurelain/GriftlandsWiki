@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spree
-| title = Thief
+{{CharacterPage
+|quote = For a criminal, Murk is pretty weak in resolve—but he makes up for it by being quick on his feet.
+|race = Human
+|faction = Spree
+|title = Thief
+|boon = Surprise Attack
+|boonimage = surprise attack
+|boondesc = Gain 1 action at the start of battle.
+|bane = Outwitted
+|baneimage = outwitted
+|banedesc = Pin a random card at the start of battle.
+|deathloot = Makeshift Dagger
 }}

@@ -1,21 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Guard
+{{CharacterPage
+|quote = Sometimes when you stare into the void, Feporo stares back.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Admiralty
+|title = Guard
+|boon = Commander
+|boonimage = commander
+|boondesc = All allies gain +5 health in battle.
+|bane = Lowered Rank
+|baneimage = lowered rank
+|banedesc = Allies have 10% less max health in battle.
+|deathloot = Admiralty Requisition
 }}
-
-{{quote|Sometimes when you satre into the void, Feporo stares back.|Feporo's Compendium Description}}'''Feporo''' is a character in {{Gamename}} and a [[Admiralty]] Guard.
-
-== Death Loot ==
-If '''Feporo''' is killed in combat, she will drop a [[Admiralty Requisition]].
-[[File:Admiralty Requistion.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Feporo''' loves you, you will receive:
-
-=== Commander ===
-All alies gain +5 health in battle.
-[[File:Graft commander.png|none|thumb]]
-<br />
-[[Category:Characters]]

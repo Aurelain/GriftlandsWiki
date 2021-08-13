@@ -1,24 +1,14 @@
-{{Character
-| race = Shroke
-| location = Havaria - Murder Bay
-| faction = spree
-| title = Raider
+{{CharacterPage
+|quote = Good bandits are hard to come by. Fortunately, there's Durno.
+|race = Shroke
+|location = Havaria - Murder Bay
+|faction = Spree
+|title = Raider
+|boon = Regimented
+|boonimage = regimented
+|boondesc = All allied Spree have +10 Health in battle.
+|bane = Brutality
+|baneimage = brutality
+|banedesc = Status cards cost 1 additional action in battle.
+|deathloot = Heavy Cleaver
 }}
-
-{{quote|Good bandits are hard to come by. Fortunately, there's Durno.|Durno's Compendium Description.}}
-
-'''Durno''' is a character in {{Gamename}} and a [[Spree]] Raider.
-
-== Death Loot ==
-If '''Durno''' is killed in combat, he will drop a [[Heavy Cleaver]].
-[[File:Heavy Cleaver.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Durno''' loves you, you will receive:
-
-=== Regimented ===
-All alied bandits have 10+ Health in battle.
-[[File:Graft regimented.png|none|thumb]]
-<br />
-
-[[Category:Characters]]

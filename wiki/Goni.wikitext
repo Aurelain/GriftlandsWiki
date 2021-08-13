@@ -1,12 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = spree
-| title = Thug
+{{CharacterPage
+|quote = If you had to get robbed, it wouldn't be too bad to get robbed by a face like Goni's.
+|race = Shroke
+|faction = Spree
+|title = Thug
+|boon = King Hit
+|boonimage = king hit
+|boondesc = +4 Damage on the first attack in battle.
+|bane = Marked
+|baneimage = marked
+|banedesc = Enemy Spree join battle with less Panic.
+|deathloot = Makeshift Dagger
 }}
-
-'''Goni''' is a character in {{Gamename}}. He is one of the [[Spree]] and tries to track down [[Nand]].
-
-[[Category:Spree]]

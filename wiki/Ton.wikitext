@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = admiralty
-| title = Guard
+{{CharacterPage
+|quote = In the grand scheme of things, Ton does pretty well for himself. On the day to day, though, he usually comes up short.
+|race = Human
+|faction = Admiralty
+|title = Guard
+|boon = Commander
+|boonimage = commander
+|boondesc = All allies gain +5 health in battle.
+|bane = Lowered Rank
+|baneimage = lowered rank
+|banedesc = Allies have 10% less max health in battle.
+|deathloot = Admiralty Requisition
 }}

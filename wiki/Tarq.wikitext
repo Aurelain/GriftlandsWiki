@@ -1,8 +1,15 @@
-{{stub}}
+{{CharacterPage
+|quote = You haven't heard much about Tarq, but you're pretty sure you saw his name carved into a table at the Grog n' Dog. Someone else's name was carved under it—and then gouged out. 
 
-{{Character
-| race = Jarackle
-| location = 
-| faction = spree
-| title = Captain
+Even bandits get the blues.
+|race = Jarackle
+|faction = Spree
+|title = Captain
+|boon = Savagery
+|boonimage = savagery
+|boondesc = +1 Bleed to all cards that apply Bleed.
+|bane = Terrorized
+|baneimage = terrorized
+|banedesc = When gained, 2 random Spree dislike you.
+|deathloot = Grisly Trophy
 }}

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spree
-| title = Raider
+{{CharacterPage
+|quote = Hiqu's mysterious poetry has been found scribbled in privies from Murder Bay to the Bread Fields.
+|race = Human
+|faction = Spree
+|title = Raider
+|boon = Regimented
+|boonimage = regimented
+|boondesc = All allied Spree have +10 Health in battle.
+|bane = Brutality
+|baneimage = brutality
+|banedesc = Status cards cost 1 additional action in battle.
+|deathloot = Heavy Cleaver
 }}

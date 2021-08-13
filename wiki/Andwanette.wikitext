@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = civilian
-| title = Socialite
+{{CharacterPage
+|quote = Andwanette has the kind of face that's built to last.
+|race = Shroke
+|faction = Civilian
+|title = Socialite
+|boon = Celebrity
+|boonimage = celebrity
+|boondesc = At the start of each negotiation, gain 3 Renown and 2 Influence.
+|bane = Ostracized
+|baneimage = ostracized
+|banedesc = At the start of each negotiation, you gain 2 Vulnerability.
+|deathloot = Brain Pearl
 }}

@@ -1,8 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = admiralty
-| title = Investigator
+{{CharacterPage
+|race = Kra'deshi
+|faction = Admiralty
+|title = Investigator
+|boon = Informant
+|boonimage = informant
+|boondesc = At the start of every negotiation, incept 5 Planted Evidence for your opponent.
+|bane = Watched
+|baneimage = watched
+|banedesc = The first time you deploy an argument in each negotiation, it takes 1 damage.
+|deathloot = Classified File
 }}

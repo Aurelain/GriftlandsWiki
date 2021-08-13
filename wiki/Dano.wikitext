@@ -1,14 +1,14 @@
-{{Character
-| race = Shroke
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Guard
+{{CharacterPage
+|quote = Word is Dano spends her downtime knitting and her uptime hitting. Best to approach her when her hands are empty, either way.
+|race = Shroke
+|location = Havaria - Murder Bay
+|faction = Admiralty
+|title = Guard
+|boon = Commander
+|boonimage = commander
+|boondesc = All allies gain +5 health in battle.
+|bane = Lowered Rank
+|baneimage = lowered rank
+|banedesc = Allies have 10% less max health in battle.
+|deathloot = Admiralty Requisition
 }}
-
-{{quote|Word is Dano spends her downtime knitting and her uptime hitting. Best to approach her when her hands are empty, either way.|Dano's Compendium Description}}'''Dano''' is a character in {{Gamename}} and an [[Admiralty]] Guard.
-
-== Death Loot ==
-If '''Dano''' is killed in combat, she will drop an [[Admiralty Requisition]].
-[[File:Admiralty Requistion.png|none|thumb]]
-<br />
-[[Category:Characters]]

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spree
-| title = Captain
+{{CharacterPage
+|quote = As her name suggests, Justice is firm, ruthless, and has very little sense of irony.
+|race = Human
+|faction = Spree
+|title = Captain
+|boon = Savagery
+|boonimage = savagery
+|boondesc = +1 Bleed to all cards that apply Bleed.
+|bane = Terrorized
+|baneimage = terrorized
+|banedesc = When gained, 2 random Spree dislike you.
+|deathloot = Grisly Trophy
 }}

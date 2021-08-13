@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = spree
-| title = Promoted Thug
+{{CharacterPage
+|quote = It doesn't take much to be a cut above the rest in the Spree—just a good knife and a long reach. Tee has both.
+|race = Shroke
+|faction = Spree
+|title = Promoted Thug
+|boon = King Hit
+|boonimage = king hit
+|boondesc = +4 Damage on the first attack in battle.
+|bane = Marked
+|baneimage = marked
+|banedesc = Enemy Spree join battle with less Panic.
+|deathloot = Sharpened Makeshift Dagger
 }}

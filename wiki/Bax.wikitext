@@ -1,27 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = spree
-| title = Thug
+{{CharacterPage
+|quote = Bax is dangerously predictable: he'll sell you out for a hit of slurry, then break your heart when he feels bad about it.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Spree
+|title = Thug
+|boon = King Hit
+|boonimage = king hit
+|boondesc = +4 Damage on the first attack in battle.
+|bane = Marked
+|baneimage = marked
+|banedesc = Enemy Spree join battle with less Panic.
+|deathloot = Makeshift Dagger
 }}
-
-{{quote|Bax is dangerously predictable: he'll sell you out for a hit of slurry, then break your heart when he feels bad about it.|Bax's Compendium Description}}'''Bax''' is a character in {{Gamename}} and a [[Spree]] Thug.
-
-== Death Loot ==
-If '''Bax''' is killed in combat, he will drop a [[Makeshift Dagger]].
-[[File:Makeshift Dagger.png|none|thumb]]
-
-== Boon/Bane ==
-If '''Bax''' loves you, you will receive:
-
-=== King Hit ===
-+4 Damage on the first attack in battle.
-[[File:Graft sucker punch.png|none|thumb]]
-
-
-If '''Bax''' hates you, you will receive:
-
-=== Marked ===
-Enemy Spree join battle with less '''Panic'''.
-[[File:Graft marked.png|none|thumb]]
-[[Category:Characters]]

@@ -1,12 +1,14 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = admiralty
-| title = Guard
+{{CharacterPage
+|quote = Monid supposedly knows the entire Heshian tract by heart, but since she's the only one that does you'll just have to take her word for it.
+|race = Kra'deshi
+|location = [[The Slurping Snail]]
+|faction = Admiralty
+|title = Guard
+|boon = Commander
+|boonimage = commander
+|boondesc = All allies gain +5 health in battle.
+|bane = Lowered Rank
+|baneimage = lowered rank
+|banedesc = Allies have 10% less max health in battle.
+|deathloot = Admiralty Requisition
 }}
-
-'''Monid''' is a character in [[{{Gamename}}]]. Players can find him in [[The Slurping Snail]]. He is an admirality guard.
-
-[[Category:Characters]]

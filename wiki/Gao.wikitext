@@ -1,14 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Guard
+{{CharacterPage
+|quote = Gao has one of those faces you love to hate. Or hate to love? It's interchangeable, really.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Admiralty
+|title = Guard
+|boon = Commander
+|boonimage = commander
+|boondesc = All allies gain +5 health in battle.
+|bane = Lowered Rank
+|baneimage = lowered rank
+|banedesc = Allies have 10% less max health in battle.
+|deathloot = Admiralty Requisition
 }}
-
-{{quote|Gao has one of those faces you love to hate. Or hate to love? It's interchangeable, really.|Gao's Compendium Description}}'''Gao''' is a character in {{Gamename}} and a [[Admiralty]] Guard.
-
-== Death Loot ==
-If '''Gao''' is killed in combat, he will drop a [[Admiralty Requisition]].
-[[File:Admiralty Requistion.png|none|thumb]]
-<br />
-[[Category:Characters]]

@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = admiralty
-| title = Guard
+{{CharacterPage
+|quote = It's hard to believe Heleet has a reputation for being a bit of a Casanova, but then you always were immune to such charms.
+|race = Kra'deshi
+|faction = Admiralty
+|title = Guard
+|boon = Commander
+|boonimage = commander
+|boondesc = All allies gain +5 health in battle.
+|bane = Lowered Rank
+|baneimage = lowered rank
+|banedesc = Allies have 10% less max health in battle.
+|deathloot = Admiralty Requisition
 }}

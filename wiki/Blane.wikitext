@@ -1,13 +1,14 @@
-{{Character
-| race = Human
-| location = Havaria - Murder Bay
-| faction = spree
-| title = Thief
+{{CharacterPage
+|quote = Apparently Blane once dreamed of being a monster hunter, so his life satisfaction is undoubtedly not high.
+|race = Human
+|location = Havaria - Murder Bay
+|faction = Spree
+|title = Thief
+|boon = Surprise Attack
+|boonimage = surprise attack
+|boondesc = Gain 1 action at the start of battle.
+|bane = Outwitted
+|baneimage = outwitted
+|banedesc = Pin a random card at the start of battle.
+|deathloot = Makeshift Dagger
 }}
-
-{{quote|Apparently Blane once dreamed of being a monster hunter, so his life satisfaction is undoubtedly not high.|Blane's Compendium Description}}'''Blane''' is a character in {{Gamename}} and a [[Spree]] Thief.
-
-== Death Loot ==
-If '''Blane''' is killed in combat, he will drop a [[Makeshift Dagger]].
-[[File:Makeshift Dagger.png|none|thumb]]
-[[Category:Characters]]

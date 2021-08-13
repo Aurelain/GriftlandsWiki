@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = admiralty
-| title = Investigator
+{{CharacterPage
+|quote = Few Admiralty have seen as much hardship as Gheckt, and that's not just because she has a name that sounds like a hairball.
+|race = Jarackle
+|faction = Admiralty
+|title = Investigator
+|boon = Informant
+|boonimage = informant
+|boondesc = At the start of every negotiation, incept 5 Planted Evidence for your opponent.
+|bane = Watched
+|baneimage = watched
+|banedesc = The first time you deploy an argument in each negotiation, it takes 1 damage.
+|deathloot = Classified File
 }}

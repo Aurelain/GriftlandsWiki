@@ -1,12 +1,15 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = 
-| faction = admiralty
-| title = Guard
+{{CharacterPage
+|quote = Rumor has it Nand has been thinking about running for leadership. It's unfortunate that he doesn't live in a democracy.
+|race = Kra'deshi
+|faction = Admiralty
+|title = Guard
+|boon = Commander
+|boonimage = commander
+|boondesc = All allies gain +5 health in battle.
+|bane = Lowered Rank
+|baneimage = lowered rank
+|banedesc = Allies have 10% less max health in battle.
+|deathloot = Admiralty Requisition
 }}
-
-'''Nand''' is a character in [[{{Gamename}}]]. He is a guard and appears in quest [[Another Day Older and Deeper in Debt]].
-
-[[Category:Characters]]
+==Notes==
+'''Nand''' appears in quest [[Another Day Older and Deeper in Debt]].

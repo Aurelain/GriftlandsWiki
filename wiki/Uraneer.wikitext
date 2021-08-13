@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spree
-| title = Thief
+{{CharacterPage
+|quote = Uraneer's fingers are so sticky it's a wonder she doesn't cling to the walls.
+|race = Human
+|faction = Spree
+|title = Thief
+|boon = Surprise Attack
+|boonimage = surprise attack
+|boondesc = Gain 1 action at the start of battle.
+|bane = Outwitted
+|baneimage = outwitted
+|banedesc = Pin a random card at the start of battle.
+|deathloot = Makeshift Dagger
 }}
