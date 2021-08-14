@@ -1,7 +1,6 @@
-{{stub}}
-
-{{Character
-| race = Mech
-| location = 
-| title = Automech
+{{CharacterPage
+|race = Mech
+|faction = Neutral
+|title = Automech
+|deathloot = Screamer
 }}

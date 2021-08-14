@@ -1,8 +1,5 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = boggers
-| title = High Priest
+{{CharacterPage
+|race = Shroke
+|faction = Boggers
+|title = High Priest
 }}

@@ -1,7 +1,6 @@
-{{stub}}
-
-{{Character
-| race = Mech
-| location = 
-| title = Defensive Program
+{{CharacterPage
+|race = Mech
+|faction = Neutral
+|title = Defensive Program
+|deathloot = Predictive Blast
 }}

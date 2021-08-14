@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = spark barons
-| title = Sharpshooter
+{{CharacterPage
+|quote = Anyone with Weezil's name on their lips best be careful how they speak it.
+|race = Jarackle
+|faction = Spark Barons
+|title = Sharpshooter
+|boon = Conditioning
+|boonimage = conditioning
+|boondesc = At the start of each battle, gain 3 Power. Whenever you take damage from an enemy, lose 1 Power. You can only lose 3 total Power from this.
+|bane = Hounded
+|baneimage = hounded
+|banedesc = Regain 30% less hp when sleeping.
+|deathloot = Weezil's Scope
 }}

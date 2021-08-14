@@ -1,13 +1,13 @@
-{{stub}}
-
-{{Character
-| location = 
-| title = Slobbering Aberration
+{{CharacterPage
+|faction = Monster
+|title = Slobbering Aberration
+|deathloot = Shroog Fang
 }}
-
+==Notes==
 '''Shroogs''' are apex predators of the Roaloch. Most Shroogs in Havaria are in their younger stages, and are called Shrooglets. They are often used as attack animals, and are good at it too. Shrooglets that live long enough grow into adult Shroogs, which, as possibly demonstrated in [[Sal|Sal's]] story, are extremely dangerous.
 
 == Physiology ==
+{{stub}}
 
 == Boss Fight ==
 The Slobbering Aberration Shroog has the buff '''Maternal Instinct'''. It has the effect: "Gains 1 [[Power]] when an ally dies." This will not trigger if the Shroog is stunned. <br/>
@@ -23,12 +23,7 @@ Their actions are:
 * Head Butt (2-3 damage)
 * Rev up (Gain 5 [[Defense]]. Gain 2 [[Power]])
 *
+The Shrooglets have no death loot.
 
 == Adult Shroogs ==
 An adult Shroog can appear as a possible Boss in Sal's story, on Day 3, the other being the [[Drusks|Drusks]].
-
-== Death Loot ==
-The Shroog will drop a [[Shroog Fang]].
-[[File:Shroog Fang.png|thumb|alt=|none]]
-
-The Shrooglets have no death loot.

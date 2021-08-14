@@ -1,16 +1,21 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = Havaria, Grout Bog
-| faction = rentorians
-| title = Hunter
+{{CharacterPage
+|quote = Threekwa. The name is a noble one in Rentorian lands, even if his actions in these parts speak otherwise.
+|race = Shroke
+|location = Havaria, Grout Bog
+|faction = Rentorians
+|title = Hunter
+|boon = Rentorian Battle Armor
+|boonimage = rentorian battle armor
+|boondesc = Gain 3 Power at the start of each battle. Lose 3 Power the first time you take any damage.
+|bane = Informed Enemies
+|baneimage = informed enemies
+|banedesc = Take 2 damage every time you play a card on the first turn of battle.
+|deathloot = War Story
 }}
-
-{{quote|Besides, look at you. A bum leg. No pension, no friends. Maybe you should ''let'' me put you down.|Threekwa, to Rook}}
-
+==Notes==
 '''Threekwa''' is a Boss who is usually fought by [[Rook]] in [[Grout Bog]]. A [[Rentoria|Rentorians]] Hunter, he formerly traded the secrets of his island nation with Rook. Years later, he would track Rook to his mission in Grout Bog and attempt to assassinate him.
 == Encounters ==
+{{stub}}
 === Grout Bog ===
 Threekwa usually appears at the Grout Bog Dead Drop as a possible Boss, the other being the Heshite [[Eonwe]]. Rook is given the option to either Intimidate Threekwa into leaving, or fighting him.
 

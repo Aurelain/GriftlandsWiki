@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = spark barons
-| title = Turncoat
+{{CharacterPage
+|quote = You've met Buleet's type before, and they've always ended up dead.
+|race = Shroke
+|faction = Spark Barons
+|title = Turncoat
+|boon = Boosted Cybernetics
+|boonimage = boosted cybernetics
+|boondesc = Gain 3 Mending at the start of each battle.
+|bane = Misinformation
+|baneimage = misinformation
+|banedesc = Opponent arguments deal 2 bonus damage in negotiation.
+|deathloot = Bolstered Plating
 }}

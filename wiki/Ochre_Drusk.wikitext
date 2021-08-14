@@ -1,6 +1,4 @@
-{{stub}}
-
-{{Character
-| location = 
-| title = Shambling Conglomeration
+{{CharacterPage
+|faction = Monster
+|title = Shambling Conglomeration
 }}

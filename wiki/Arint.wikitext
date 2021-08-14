@@ -1,14 +1,18 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = Havaria - Grout Bog
-| faction = spark barons
-| title = Lieutenant
+{{CharacterPage
+|quote = Arint was apparently head-hunted from a Luminari training facility, so she's no doubt as fervent as she is mercenary.
+|race = Shroke
+|location = Havaria - Grout Bog
+|faction = Spark Barons
+|title = Lieutenant
+|boon = On The List
+|boonimage = on the list
+|boondesc = All friendly arguments come into play with 1 additional resolve.
+|bane = Faulty Connections
+|baneimage = faulty connections
+|banedesc = All friendly arguments come into play with 1 less resolve.
+|deathloot = Level Orange Clearance
 }}
-
-{{quote|I will be watching you, Grifter. I suggest you watch yourself.|Arint}}
-
+==Notes==
 '''Arint''' is [[Fellemo|Fellemo's]] Lieutenant and Spark Baron stationed in Grout Bog. Arint takes her position very seriously, and is highly trusted by Fellemo to carry out her responsibilities. 
 
 == Background ==
@@ -31,7 +35,3 @@ Arint has a small amount of reliably strong attacks that she will cycle through 
 * Power Surge: At a low HP, she will gain one stack of Power Surge. This changes her attack cycle to only use Power Surge until she surrenders or dies. While Power Surging, she will repeat the Power Surge attack, dealing higher damage than staff whip at a 13 average damage.
 
 Arint places a status card called [[Strange Chemical]] in your deck each time she lands an attack. Occasionally, she will prepare her chest cannon attack; this attack deals heavy damage in addition to +4 damage per '''Strange Chemical''' in your hand.
-
-:Arint drops [[Level Orange Clearance]] upon death.
-
-[[Category:Characters]][[Category:Enemies]][[Category:Spark Barons]][[Category:Shroke]]

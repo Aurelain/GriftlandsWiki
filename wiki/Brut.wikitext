@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = spark barons
-| title = Bruiser
+{{CharacterPage
+|quote = Folks say Brut has a bubbly personality, but you think it might just be gas.
+|race = Shroke
+|faction = Spark Barons
+|title = Bruiser
+|boon = Hard Knocks
+|boonimage = hard knocks
+|boondesc = After playing 10 cards, your next attack deals 8 bonus damage.
+|bane = Shellshock
+|baneimage = shellshock
+|banedesc = At the end of every turn, lose 2 Defense.
+|deathloot = Brut's Bat
 }}

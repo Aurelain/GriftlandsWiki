@@ -1,7 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| title = Freelance Bodyguard
+{{CharacterPage
+|race = Human
+|faction = Neutral
+|title = Freelance Bodyguard
+|boon = Wrist Rocket
+|boonimage = wrist rocket
+|boondesc = After your first attack each turn, deal 2 additional damage to your target.
+|bane = Punchy
+|baneimage = punchy
+|banedesc = The first Maneuver card you play each fight is Expended.
+|deathloot = Overdriver
 }}

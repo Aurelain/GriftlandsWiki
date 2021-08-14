@@ -1,6 +1,5 @@
-{{stub}}
-
-{{Character
-| location = 
-| title = Forgotten Relic
+{{CharacterPage
+|faction = Monster
+|title = Forgotten Relic
+|deathloot = Drusk Core
 }}

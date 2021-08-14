@@ -1,15 +1,18 @@
-{{stub}}
-
-{{Character
-| race = Kra'deshi
-| location = Havaria - Murder Bay
-| faction = admiralty
-| title = Intelligence Officer
+{{CharacterPage
+|quote = She looks young for an Admiralty officer of her rank, suggesting either competence or nepotism.
+|race = Kra'deshi
+|location = Havaria - Murder Bay
+|faction = Admiralty
+|title = Intelligence Officer
+|boon = Admiralty Medals
+|boonimage = admiralty medals
+|boondesc = All friendly arguments gain 1 Composure at the start of your turn.
+|bane = Wrong Papers
+|baneimage = wrong papers
+|banedesc = At the start of every negotiation, gain 2 Flustered.
+|deathloot = Charged Disc
 }}
-
-{{Quote|The Admiralty gets its cut or you get cut, understand? Now scoot. I have schemes to incubate, plots to hatch.|Oolo}}
-
-
+==Notes==
 '''Oolo Ollowano''' is the [[Admiralty]] Intelligence Officer headquartered in [[Murder Bay]]. Calm, cool, and ruthlessly cunning, Oolo has a scheme for everything. Oolo is forced to deal with rampant corruption among her ranks. But, as long as they wear the badge and follow her orders, she can make an exception.
 
 == Encounters ==

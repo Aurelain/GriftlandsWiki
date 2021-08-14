@@ -1,5 +1,4 @@
-{{stub}}
-
-{{Character
-| location = 
+{{CharacterPage
+|faction = Monster
 }}
+{{stub}}

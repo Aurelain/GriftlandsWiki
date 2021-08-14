@@ -1,8 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = cult of hesh
-| title = Rogue Zealot
+{{CharacterPage
+|quote = If Hesh has a will, it probably works through Gorgula.
+|race = Human
+|faction = Cult of Hesh
+|title = Rogue Zealot
+|boon = Heshian Armature
+|boonimage = heshian armature
+|boondesc = Whenever you gain Fully Charged, gain 2 Overcharge.
+|bane = Gremlins
+|baneimage = gremlins
+|banedesc = At the end of your first turn each battle, take 2 damage per Charge.
+|deathloot = Lumin Bio-Accelerator
 }}

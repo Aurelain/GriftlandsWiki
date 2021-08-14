@@ -1,6 +1,4 @@
-{{stub}}
-
-{{Character
-| location = 
-| title = Lumbering Brute
+{{CharacterPage
+|faction = Monster
+|title = Lumbering Brute
 }}

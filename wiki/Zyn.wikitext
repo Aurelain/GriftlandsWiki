@@ -1,19 +1,22 @@
-{{stub}}
-
-{{Character
-| race = Phicket
-| location = Murder Bay
-| faction = jakes
-| title = Assassin
+{{CharacterPage
+|quote = Like all well-trained assassins, Zyn leaps before you look.
+|race = Phicket
+|location = Murder Bay
+|faction = Jakes
+|title = Assassin
+|boon = Sharpened Blades
+|boonimage = sharpened blades
+|boondesc = All your attacks apply 2 Bleed on your first turn of battle.
+|bane = Hemophiliac
+|baneimage = hemophiliac
+|banedesc = Bleed cards deal 2 bonus damage to you.
+|deathloot = Zyn's Razor
 }}
-
-'''Zyn''' is a [[Jakes]] [[Assassin]] working for [[Kashio]]. He is known for his blade, which applies [[Bleed]] with every slice.
+==Notes==
+'''Zyn''' is working for [[Kashio]]. He is known for his blade, which applies [[Bleed]] with every slice.
 
 == Gallery ==
 <gallery>
 File:Zyn.jpg|Normal Zyn.
 File:Zyn combat.jpg|Zyn in combat.
 </gallery>
-
-
-[[Category:Characters]]

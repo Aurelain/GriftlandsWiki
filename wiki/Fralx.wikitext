@@ -1,8 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = 
-| faction = jakes
-| title = Protégé
+{{CharacterPage
+|race = Shroke
+|faction = Jakes
+|title = Protégé
+|boon = Capitalization
+|boonimage = capitalization
+|boondesc = Your attacks deal 2 additional damage to targets affected by Impair.
+|bane = Rattled
+|baneimage = rattled
+|banedesc = Enemy attacks against you deal 1 bonus damage if you have Impair.
+|deathloot = High Yield Lumin Bomb
 }}

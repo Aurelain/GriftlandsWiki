@@ -1,24 +1,18 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spark barons
-| title = Drone Master
-}}
-
-{{Quote|Jeol's blank gaze is a little unnerving, but you've cracked harder heads.|Compendium}}
-
-'''Jeol''' is a Human Spark Baron Drone Master. He is one of three possible bosses that show up on [[Sal|Sal's]] first day, fought in [[The Grog n' Dog]].
-
-==Relationship==
-{{Boon/Bane
+{{CharacterPage
+|quote = Jeol's blank gaze is a little unnerving, but you've cracked harder heads.
+|race = Human
+|faction = Spark Barons
+|title = Drone Master
 |boon = Drone Mastery
 |boonimage = drone mastery
-|boondesc = All allied Mech gain 10+ max health.
+|boondesc = Allied mechs have 10 additional max Health.
 |bane = Drone Supplier
 |baneimage = drone supplier
-|banedesc = Combat drone card cost 1+ more.}}
+|banedesc = Combat Drone cards cost 1 additional action.
+|deathloot = Prototype Drone
+}}
+==Notes==
+'''Jeol''' is one of three possible bosses that show up on [[Sal|Sal's]] first day, fought in [[The Grog n' Dog]].
 
 ==Combat==
 Jeol wields a spark shotgun and can call in drones to attack his enemies.

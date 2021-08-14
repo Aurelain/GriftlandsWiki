@@ -1,15 +1,13 @@
-{{stub}}
-
-{{Character
-| race = Shroke
-| location = Havaria - Murder Bay
-| faction = spark barons
-| title = Freelancer
+{{CharacterPage
+|quote = The biggest debt-broker in Murder Bay, Kashio was once an indentured laborer who earned herself a reputation as a self-made kingpin.
+|race = Shroke
+|location = Havaria - Murder Bay
+|faction = Spark Barons
+|title = Freelancer
 }}
+==Notes==
 
-{{Quote|The biggest debt-broker in Murder Bay, Kashio was once an indentured laborer who earned herself a reputation as a self-made kingpin.|Compendium}}
-
-'''Kashio T'jarak''' is a [[Spark Barons|Spark Baron]] and criminal kingpin living on [[Havaria]]. Formerly an indentured laborer, she is now the biggest debt-broker in Murder Bay. She formerly sold Sal into servitude to the Derricks when Sal was a child.
+'''Kashio T'jarak''' is a criminal kingpin living on [[Havaria]]. Formerly an indentured laborer, she is now the biggest debt-broker in Murder Bay. She formerly sold Sal into servitude to the Derricks when Sal was a child.
 
 === Background ===
 Kashio was once a Derrick laborer. It is revealed during Rook's story that Kashio discovered AutoMech technology while excavating in the [[Grout Bog]], and sold the technology to the [[Spark Barons]], buying off her debt and suddenly making her one of the most powerful individuals on Havaria. Due to being a Spark Baron and her profession as a debt-broker she has many enemies in Havaria, earning her a hefty bounty and one which Sal hopes to capitalize on.

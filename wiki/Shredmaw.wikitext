@@ -1,6 +1,5 @@
-{{stub}}
-
-{{Character
-| location = 
-| title = Devouring Horror
+{{CharacterPage
+|faction = Monster
+|title = Devouring Horror
+|deathloot = Shredmaw Shell
 }}

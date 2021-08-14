@@ -30,6 +30,17 @@ const FACTION_WORDS = {
     RISE: 'Rise',
     SPARK_BARONS: 'Spark Barons',
     NEUTRAL: 'Neutral',
+    NEUTRAL_FACTION: 'Neutral',
+    MONSTER_FACTION: 'Monster',
+};
+
+/**
+ * We're skipping these, because they are not normal CharacterPages
+ */
+const FORBIDDEN_NAMES = {
+    Sal: true,
+    Rook: true,
+    Smith: true,
 };
 
 // =====================================================================================================================
@@ -43,6 +54,9 @@ const updateCharacters = (characters, grafts, cards) => {
     for (const id in characters) {
         const character = characters[id];
         const {name} = character;
+        if (name in FORBIDDEN_NAMES) {
+            continue;
+        }
         const filePath = STORAGE + '/' + getFilePath(name, '');
         assertCard(fs.existsSync(filePath), character, 'Character does not exist in wiki!');
 
@@ -150,8 +164,8 @@ const generateCharacterWikitext = (character, grafts, cards) => {
 const generateWikitext = (existingWikitext, futureCardWikitext) => {
     let draft = existingWikitext;
 
-    draft = draft.replace(/{{stub}}/i, '');
-    draft = draft.replace(/{{Reupload.*?}}/i, '');
+    // draft = draft.replace(/{{stub}}/i, '');
+    // draft = draft.replace(/{{Reupload.*?}}/i, '');
 
     draft = draft.replace(/{{Character[\s\S]*?}}/, futureCardWikitext);
 

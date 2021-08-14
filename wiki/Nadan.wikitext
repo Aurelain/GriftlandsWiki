@@ -1,14 +1,18 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| faction = spree
-| title = Leader
+{{CharacterPage
+|quote = With a face like his, it's no wonder Nadan has a reputation, even if he thinks it's bigger than it is.
+|race = Human
+|faction = Spree
+|title = Leader
+|boon = Chieftain
+|boonimage = chieftain
+|boondesc = All allied Spree gain 2 Power at the start of battle.
+|bane = Kill List
+|baneimage = kill list
+|banedesc = Enemy Spree gain 2 Power at the start of battle.
+|deathloot = Nadan's Blade
 }}
-
-{{quote|Another day in the Feud, huh?|Nadan}}
-'''Nadan''' is a character in [[{{Gamename}}]] and [[Spree|the Spree]] leader of Murder Bay. He doesn't talk much, but rumors have it he's less brutish than his reputation suggests.
+==Notes==
+'''Nadan''' is the [[Spree|the Spree]] leader of Murder Bay. He doesn't talk much, but rumors have it he's less brutish than his reputation suggests.
 
 ==Background==
 Nadan leads the Spree in less of a commander role and more as a mentor and tactician, planning targets and distributing funds as needed, pulling strings from behind the curtains. He doesn't talk much and prefers having other Spree members handle his business for him. His face was terribly disfigured during an attack on an Admiralty shipment when a box packed with explosives was detonated. In the ensuing chaos, he was forced to flee and was shot in the face with a blaster pistol. It is revealed by Oolo that the explosion was an accident, but Nadan took the loss of his friends too personally and thus they hold a mutual grudge against each other. Nadan would see Oolo killed, though Oolo would rather see Nadan captured, if nothing else but to torture him for information he holds on Murder Bay.

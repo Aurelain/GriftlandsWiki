@@ -1,22 +1,17 @@
-{{stub}}
-
-{{Character
-| race = Jarackle
-| location = 
-| faction = spark barons
-| title = Boss
-}}
-
-'''Sparky''' is one of the boss that's fightable on [[Sal]] campaign on day 1, he have some learnable pattern and can charge his weapon for massive amount of damage.
-
-==Relationship==
-{{Boon/Bane
-|boonimage = system shock
+{{CharacterPage
+|race = Jarackle
+|faction = Spark Barons
+|title = Boss
 |boon = System Shock
-|boondesc = If you don't attack last turn, gain 2 Temporary Power.
-|baneimage = short circuit
+|boonimage = system shock
+|boondesc = If you didn't attack last turn, gain 2 Temporary Power.
 |bane = Short Circuit
-|banedesc = Whenever you gain [[Power]], take 2 damage.}}
+|baneimage = short circuit
+|banedesc = Take 2 damage whenever you gain Power.
+|deathloot = Sparky's Oppressor Cell
+}}
+==Notes==
+'''Sparky''' is one of the boss that's fightable on [[Sal]] campaign on day 1, he have some learnable pattern and can charge his weapon for massive amount of damage.
 
 ==Gallery==
 <gallery>

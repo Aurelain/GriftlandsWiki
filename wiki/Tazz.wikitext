@@ -1,7 +1,12 @@
-{{stub}}
-
-{{Character
-| race = Human
-| location = 
-| title = Freelance Bodyguard
+{{CharacterPage
+|race = Human
+|faction = Neutral
+|title = Freelance Bodyguard
+|boon = Hard Headed
+|boonimage = hard headed
+|boondesc = Whenever you play a manipulate card, apply 1 Composure to a random friendly argument.
+|bane = Butt Kicked
+|baneimage = butt kicked
+|banedesc = Whenever you draw an item card, your core argument takes 2 resolve damage.
+|deathloot = Underdriver
 }}
