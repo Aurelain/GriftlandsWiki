@@ -2,7 +2,7 @@
 |quote = With a name like Ashgora it's clear he comes from pedigree. No doubt his parents wish he'd stop drowning in the gene pool.
 |race = Human
 |location = Havaria - Murder Bay
-|faction = admiralty
+|faction = Admiralty
 |title = Patrol Leader
 |boon = Sparring
 |boonimage = sparring

@@ -2,7 +2,7 @@
 |quote = Cambury has a reputation for eloquence and poise in difficult situations. It'd be fun to see if it holds up.
 |race = Human
 |location = Havaria - Murder Bay
-|faction = admiralty
+|faction = Admiralty
 |title = Patrol Leader
 |boon = Sparring
 |boonimage = sparring

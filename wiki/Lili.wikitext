@@ -1,8 +1,8 @@
 {{CharacterPage
+|quote = Word is, Lili would sell his own grandmother if he thought he could buy her back at half price next week.
 |race = Human
 |faction = Civilian
 |title = Wealthy Merchant
-|quote = Word is, Lili would sell his own grandmother if he thought he could buy her back at half price next week.
 |boon = Haggle Badge
 |boonimage = haggle badge
 |boondesc = You can negotiate for greater quest rewards.

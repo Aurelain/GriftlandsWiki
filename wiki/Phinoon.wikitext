@@ -1,7 +1,7 @@
 {{CharacterPage
 |quote = Phinoon is often seen killing it on the dance floor, but it's unclear if this means he's a good dancer or a terrible hunter.
 |race = Kra'deshi
-|faction = admiralty
+|faction = Admiralty
 |title = Patrol Leader
 |boon = Sparring
 |boonimage = sparring

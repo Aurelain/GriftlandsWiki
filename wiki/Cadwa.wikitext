@@ -1,5 +1,5 @@
 {{CharacterPage
-|quote = The name 'Cadwa' comes from an old folk story about outsmarting a cruel foreman, but as a bureaucrat ''this'' Cadwa definitely has the upper hand.
+|quote = The name 'Cadwa' comes from an old folk story about outsmarting a cruel foreman, but as a bureaucrat '''this''' Cadwa definitely has the upper hand.
 |race = Kra'deshi
 |location = Havaria - Murder Bay
 |faction = Admiralty

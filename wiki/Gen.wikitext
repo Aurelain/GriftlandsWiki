@@ -1,7 +1,7 @@
 {{CharacterPage
 |quote = Folks say Gen has been seen talking to revolutionary types, but how would anyone know? It's not like they wear a uniform.
 |race = Human
-|faction = admiralty
+|faction = Admiralty
 |title = Patrol Leader
 |boon = Sparring
 |boonimage = sparring

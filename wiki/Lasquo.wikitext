@@ -1,7 +1,7 @@
 {{CharacterPage
 |quote = As with most Admiralty, Lasquo is only hard on crime that doesn't pay.
 |race = Human
-|faction = admiralty
+|faction = Admiralty
 |title = Clerk
 |boon = Authorization
 |boonimage = authorization

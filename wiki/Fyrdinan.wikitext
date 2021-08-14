@@ -2,7 +2,7 @@
 |quote = Shroke aren't usually drawn to bureaucracy but then, who is?
 |race = Shroke
 |location = Havaria - Murder Bay
-|faction = admiralty
+|faction = Admiralty
 |title = Clerk
 |boon = Authorization
 |boonimage = authorization

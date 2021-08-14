@@ -2,7 +2,7 @@
 |quote = You've heard Ebbe has a steel gut, a steel toe, and a steely eye. So don't punch him in any of those places.
 |race = Human
 |location = Havaria - Murder Bay
-|faction = admiralty
+|faction = Admiralty
 |title = Patrol Leader
 |boon = Sparring
 |boonimage = sparring

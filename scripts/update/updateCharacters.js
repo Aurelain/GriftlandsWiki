@@ -61,16 +61,12 @@ const updateCharacters = (characters, grafts, cards) => {
         assertCard(fs.existsSync(filePath), character, 'Character does not exist in wiki!');
 
         const existingWikitext = (fs.existsSync(filePath) && fs.readFileSync(filePath, 'utf8')) || '';
-        // assertCard(existingWikitext.match(/{{CardPage\b/), card, `Wiki page is not a CardPage!\n${existingWikitext}`);
-        if (!existingWikitext.match(/{{Character\b/)) {
-            continue;
-        }
-        // if (!existingWikitext.match(/{{CardPage\b/)) {
-        //     continue;
-        // }
-        // if (id !== 'ammo_pouch') {
-        //     continue;
-        // }
+        assertCard(
+            existingWikitext.match(/{{CharacterPage\b/),
+            character,
+            `Wiki page is not a CharacterPage!\n${existingWikitext}`
+        );
+
         const existingCharacter = parseCharacterFromWikitext(existingWikitext);
         const futureCharacter = {...character, ...existingCharacter};
         const futureCharacterWikitext = generateCharacterWikitext(futureCharacter, grafts, cards);

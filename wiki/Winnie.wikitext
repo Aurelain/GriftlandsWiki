@@ -1,7 +1,7 @@
 {{CharacterPage
 |quote = There's a curl to Winnie's lip that might suggest a sense of humor buried deep down inside—or maybe just a bad smell.
 |race = Human
-|faction = admiralty
+|faction = Admiralty
 |title = Patrol Leader
 |boon = Sparring
 |boonimage = sparring

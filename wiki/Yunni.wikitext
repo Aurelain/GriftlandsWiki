@@ -5,10 +5,10 @@
 |title = Clerk
 |boon = Authorization
 |boonimage = authorization
-|boondesc = Once a day, you can ask a nearby member of the [[Admiralty]] to help you in battle or negotiation.
+|boondesc = Once a day, you can ask a nearby member of the Admiralty to help you in battle or negotiation.
 |bane = Red Tape
 |baneimage = red tape
-|banedesc = Members of the [[Admiralty]] will not help you in battle or negotiation.
+|banedesc = Members of the Admiralty will not help you in battle or negotiation.
 |deathloot = Letter Opener
 }}
 ==Notes==
