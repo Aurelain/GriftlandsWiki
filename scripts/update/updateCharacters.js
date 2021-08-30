@@ -98,6 +98,12 @@ const parseCharacterFromWikitext = (wikitext) => {
         if (fieldName === 'location') {
             character.location = value;
         }
+        if (fieldName === 'name') {
+            character.forcedName = value;
+        }
+        if (fieldName === 'image') {
+            character.forcedImage = value;
+        }
     }
     return character;
 };
@@ -106,12 +112,16 @@ const parseCharacterFromWikitext = (wikitext) => {
  *
  */
 const generateCharacterWikitext = (character, grafts, cards) => {
-    const {bio, species, location, faction_id, title, loved_graft, hated_graft, death_item} = character;
+    const {bio, species, location, faction_id, title, loved_graft, hated_graft, death_item, forcedName, forcedImage} =
+        character;
 
     let draft = '{{CharacterPage\n';
-    // if (name.includes(':')) {
-    //     draft += `|image = ${name.split(':').join('')}.png\n`;
-    // }
+    if (forcedName) {
+        draft += `|name = ${forcedName}\n`;
+    }
+    if (forcedImage) {
+        draft += `|image = ${forcedImage}\n`;
+    }
 
     if (bio) {
         let prettyBio = bio.split('<i>').join("'''"); // make it bold, because the quote is already italic
