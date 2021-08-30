@@ -1,0 +1,7 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Smarts
+  |body=<center>Gain an extra action at the start of your turn, then reduce '''Smarts''' by 1.
+
+'''Smarts''' is an argument with 6 resolve.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

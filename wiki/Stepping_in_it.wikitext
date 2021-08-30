@@ -53,3 +53,6 @@ Finally, you will be asked to declare an item. You will choose one of three opti
 [[Mole Fixer]]<br>
 [[Trade Secrets]]<br>
 [[Grist for the Mill]]
+
+[[Category:Rook Quests]]
+[[Category:Quests]]

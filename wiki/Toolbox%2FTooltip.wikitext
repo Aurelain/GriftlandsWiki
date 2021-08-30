@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Toolbox
+  |body=<center>This card contains other cards that can be improvised. This card stays in your hand at the end of your turn, is placed in your hand at the start of every turn and is '''Destroyed''' once empty.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

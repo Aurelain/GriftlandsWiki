@@ -1,0 +1,15 @@
+'''Bog Boil''' is a Negotiation [[Key Words|key word]] for [[Rook]].
+
+==Effect==
+In game description: "'''Bog Boil''' targets an opponent argument each turn for 3-3 damage.
+
+Restore resolve to a random friendly argument equal to the resolve lost from '''Bog Boil''''s attack.
+
+'''Bog Boil''' is an argument with 4 resolve.".
+
+==Notes==
+The following card have the [[Key Words|key word]] '''Bog Boil'''
+* [[Bog Enlightenment]]
+
+
+[[Category:Keywords]]

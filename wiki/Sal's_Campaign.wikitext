@@ -1,10 +1,12 @@
 
 This article contains heavy spoilers for the sal campaign. Consider playing the campaign atleast once before reading it.<br>
-For an overview of when limited opportunities are available sometimes, consider [[Hunting_Kashio#Timeline|this]] article.
 
 == Day 1 [[Welcome to Havaria]] ==
 * Choose a [[Welcome_to_Havaria#Lost and Found|starting bonus]].<br>
-* Complete 2 [[Welcome_to_Havaria#Pick_a_Job|Job Quests]].<br>
+* Complete 1 [[Welcome_to_Havaria#Pick_a_Job|Job Quests]].<br>
+* Get 1 Limited Time Opportunity.<br>
+* Complete 1 [[Welcome_to_Havaria#Pick_a_Job|Job Quests]].<br>
+* Get 1 Limited Time Opportunity.<br>
 * Complete 1 [[Welcome_to_Havaria#Night_Merchants|Night Merchant Quest]].<br>
 * Complete 1 [[Welcome_to_Havaria#boss fight|Boss Fight]].<br>
 * You will be able to sleep restoring all or 50% of your [[health]] and [[resolve]] depending on [[difficulty]].
@@ -14,6 +16,7 @@ Strategy note: You can't eat or drink after visiting the night market, because e
 == Day 2 [[Picking Sides]] ==
 * [[Picking_Sides|Choose a side]].<br>
 * Complete 1 [[Picking_Sides#Faction_quests|Faction quest]].<br>
+* Get 1 Limited Time Opportunity.<br>
 * You will be able to sleep, but you are ambushed by an Assassin Boss, either:
 ** [[Zyn]]
 ** [[Hanbi]].
@@ -21,7 +24,8 @@ Strategy note: You can't eat or drink after visiting the night market, because e
 * You will be able to sleep restoring all or 50% of your [[health]] and [[resolve]] depending on [[difficulty]].
 
 == Day 3 [[Getting Settled]] ==
-* Choose one of 2 [[Getting_Settled#Faction_quests|Faction quests]].<br>
+* Choose and complete one of 2 [[Getting_Settled#Faction_quests|Faction quests]].<br>
+* Get 1 Limited Time Opportunity.<br>
 * Then help [[Fssh]] get contraband from the docks in the quest [[Roaloch and Load]].<br>
 ** This involves 2 negotiations or fights,<br>
 ** and then a boss fight against either:<br>
@@ -31,6 +35,7 @@ Strategy note: You can't eat or drink after visiting the night market, because e
 
 == Day 4 [[Final Pieces]] ==
 * Complete 1 [[Faction Side Quest]].<br>
+* Get 1 Limited Time Opportunity.<br>
 * Complete either:
 ** [[Capture Nadan]], if you sided with Admiralty,
 ** [[Assassinate Oolo]], if you sided with the Spree.
@@ -44,3 +49,5 @@ Strategy note: You can't eat or drink after visiting the night market, because e
 ** go directly for the boss fight.
 If you partake at the auction you will most likely get discovered by the end boss and have to fight,
 but the fighting condition are the same in both choices.
+
+[[Category:Quests]]

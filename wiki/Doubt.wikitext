@@ -1,0 +1,12 @@
+'''Doubt''' is a Negotiation [[Key Words|key word]] for [[Sal]].
+
+==Effect==
+In game description: "Targets a friendly argument each turn for 1 damage per stack of '''Doubt'''".
+
+==Notes==
+The key word appears on the cards:
+* [[Seeds of Doubt]]
+* [[White Lie]]
+
+
+[[Category:Keywords]]

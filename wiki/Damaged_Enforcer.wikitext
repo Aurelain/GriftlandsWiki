@@ -43,3 +43,5 @@ Signals a [[Spark Barons|Spark Baron]] with further dialogue options.
 * DRIVER
 * GATE
 * XOR
+
+[[Category:Event]]

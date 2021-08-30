@@ -89,6 +89,11 @@ Smiths's unlock-able card sets are as follows:
 *[[Destructive and Bulwark]]
 *[[Crescendo and The Pain Train]]
 
+== NPC Encounters ==
+===Death Loot===
+If killed in combat, '''Smith''' drops [[Smith's Canteen]]:<br/>
+{{CardLink|Smith's Canteen}}
+
 {{stub}}
 [[Category:Heroes]]
 [[Category:Kra'deshi]]

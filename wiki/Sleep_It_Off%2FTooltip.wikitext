@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Sleep It Off
+  |body=<center>This card is removed upon sleep.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

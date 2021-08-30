@@ -7,4 +7,9 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Toolbox]]
+|special1 = Call in Rise Rebel
+|special2 = Call in Rise Pamphleteer
+|special3 = Call in Rise Automech
+|special4 = Call in Rise Radical
+|special5 = Cancel
 }}

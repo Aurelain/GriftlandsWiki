@@ -1,0 +1,8 @@
+'''Impatience''' is a Negotiation [[Key Words|key word]].
+
+==Effect==
+In game description: "Owner's Intents and Arguments deploy with +1 damage
+
+Owner's Arguments deploy with +1 resolve".
+
+[[Category:Keywords]]

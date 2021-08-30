@@ -1,0 +1,11 @@
+'''Recoverable Health''' is a Battle [[Key Words|key word]] for [[Smith]].
+
+==Effect==
+In game description: "The Wastrel Smith can [[Alleviate]] this much health. This is increased by the amount of damage taken on your turn".
+
+==Notes==
+The key word appears on the cards:
+* [[Gumption]]
+
+
+[[Category:Keywords]]

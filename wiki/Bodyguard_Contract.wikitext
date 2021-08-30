@@ -7,4 +7,9 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Toolbox]]
+|special1 = Reflector Shield
+|special2 = Single Out
+|special3 = Misdirection
+|special4 = Get Down!
+|special5 = Cancel
 }}

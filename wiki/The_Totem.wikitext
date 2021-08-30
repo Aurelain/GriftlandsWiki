@@ -9,3 +9,5 @@ Upgrade any negotiation card.
 == Leave the Shrine == 
 
 Do nothing.
+
+[[Category:Event]]

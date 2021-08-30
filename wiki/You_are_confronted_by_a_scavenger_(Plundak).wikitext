@@ -11,3 +11,5 @@ She sells you grafts and items that you died with in a previous run.
 
 
 == Buy Elbow Strike ==
+
+[[Category:Event]]

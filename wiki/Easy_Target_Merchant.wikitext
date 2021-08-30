@@ -2,7 +2,7 @@
 
 == Buy Recycler ==
 
-Spend 100 Shills. Acquire Recycler.
+Spend 100 {{Shills}}. Acquire Recycler.
 
 == Rob Srunc ==
 
@@ -13,4 +13,5 @@ Srunc will hate you.
 == Decline Offer ==
 
 Nothing
-[[Category:Characters]]
+
+[[Category:Event]]

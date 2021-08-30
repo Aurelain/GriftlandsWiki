@@ -1,5 +1,5 @@
 {
-    "lastPulled": "2021-08-13T19:55:36.784Z",
+    "lastPulled": "2021-08-30T20:10:46.082Z",
     "pageMetadata": {
         "Admiralty.wikitext": {
             "sha1": "fd16bd4c36aa3afc51af8ad91868b721f6b7403d",
@@ -42,8 +42,8 @@
             "revid": 4908
         },
         "A_Mysterious_Figure_Approaches_You.wikitext": {
-            "sha1": "ace1978b4c6ff31fbc14be160533d80e50205ae4",
-            "revid": 10242
+            "sha1": "53c1025d34cafe661f8864faf8a89dfd30690312",
+            "revid": 17478
         },
         "Activator_and_Options.wikitext": {
             "sha1": "abe413e09dadf52ba6a1397f88618253692206ba",
@@ -62,7 +62,7 @@
             "revid": 17296
         },
         "Alta.wikitext": {
-            "sha1": "2f4896aeefa4f44f276bef2f660dac7ab32f02c4",
+            "sha1": "f3e923cf75efe9ed9d3b699984746bce275f8c62",
             "revid": 17216
         },
         "Admiralty%2FTooltip.wikitext": {
@@ -274,8 +274,8 @@
             "revid": 17297
         },
         "Auction_Day.wikitext": {
-            "sha1": "c47fadc37666894593905d29a6d7a556fb6c05f0",
-            "revid": 10048
+            "sha1": "35eb870f6fc87a34affe73612a425e29b9a75356",
+            "revid": 17472
         },
         "Asset_Recovery.wikitext": {
             "sha1": "445ea27da242e44edcccbe29018b34281846595c",
@@ -582,8 +582,8 @@
             "revid": 14483
         },
         "Baron_Forces.wikitext": {
-            "sha1": "a82af6c21dfb44b52765e3a4b019743be19a5ea6",
-            "revid": 14577
+            "sha1": "adf07de7e2ca240173eb377dbb22674005b86d7a",
+            "revid": 17439
         },
         "Beast_Master_II.wikitext": {
             "sha1": "5ee17c0438832f079f293ef9fff424ab485c0b4b",
@@ -790,8 +790,8 @@
             "revid": 14485
         },
         "Bodyguard_Contract.wikitext": {
-            "sha1": "7ee847c94d6fb6c77d73abc33797ad8d399a8ce1",
-            "revid": 14582
+            "sha1": "886a3c00f2ceab2938c498ddd473e6cb6ee49839",
+            "revid": 17440
         },
         "Bog_Doom.wikitext": {
             "sha1": "0917177174eb9658e28c393dd57fae4aec773b41",
@@ -2006,8 +2006,8 @@
             "revid": 1254
         },
         "Brave_Merchant.wikitext": {
-            "sha1": "5018ce37eff8d171768436f01f61e5f78dc41600",
-            "revid": 9392
+            "sha1": "aeaaf442a1938f0f51dda89c6093cefd7abf16e1",
+            "revid": 17474
         },
         "Brazen_Attack.wikitext": {
             "sha1": "eb727cc2f18a839a00e6ea4977720032429c3834",
@@ -2026,8 +2026,8 @@
             "revid": 17299
         },
         "Brenna.wikitext": {
-            "sha1": "2ee265e19e938bd88cdc28997689b4bb825294a2",
-            "revid": 17300
+            "sha1": "b03e30ac8aacf1eed560daaea010cf28cc41db2f",
+            "revid": 17493
         },
         "Brill.wikitext": {
             "sha1": "c0021f038ceb855650f07ff24255bbdee95507c4",
@@ -2970,8 +2970,8 @@
             "revid": 11382
         },
         "Damaged_Enforcer.wikitext": {
-            "sha1": "afed6a395b6b06245595bda67ea06f44fbaee23b",
-            "revid": 13028
+            "sha1": "2a4eaa2956fefe5c5b1e8e3d75c36a79afc895bd",
+            "revid": 17486
         },
         "Defective_Grenade.wikitext": {
             "sha1": "ea7eae6ba91f510ca593b9d09b933dd939fd9c79",
@@ -3098,8 +3098,8 @@
             "revid": 17074
         },
         "Dud.wikitext": {
-            "sha1": "aaf4c67f0733f36bc17539db9e3d439c85616430",
-            "revid": 10942
+            "sha1": "0a36648492473c8c9e9303ca080c103532c618bb",
+            "revid": 17451
         },
         "Dud%2FTooltip.wikitext": {
             "sha1": "486d24d6f88164c4999128ed5d95ea1b4071d111",
@@ -3218,8 +3218,8 @@
             "revid": 9683
         },
         "Easy_Target_Merchant.wikitext": {
-            "sha1": "eba8cbd0b6bfaa77958e62dd114c5212e41ee49b",
-            "revid": 9413
+            "sha1": "ea1a72731785d82b5f0f102ca5a11c710d338fef",
+            "revid": 17480
         },
         "Elbow_Strike.wikitext": {
             "sha1": "110fc189df69fe6cdc823dc5cfea7cf143210945",
@@ -3970,8 +3970,8 @@
             "revid": 12440
         },
         "Final_Pieces.wikitext": {
-            "sha1": "b3eeeaf1b4f9748d666656d1bf6de867396f7921",
-            "revid": 13113
+            "sha1": "73bb3f707fd91793567c005841aae9f0799cb1a0",
+            "revid": 17471
         },
         "Fever.wikitext": {
             "sha1": "3bd0e2535e91eed0ba4ba73c6d38a82801724b4d",
@@ -4010,8 +4010,8 @@
             "revid": 17307
         },
         "Friend_or_Fanatic.wikitext": {
-            "sha1": "72b910a921216727336e846543a8e98bea215871",
-            "revid": 2403
+            "sha1": "ee9063181ba4dc315da03144cd7e7048e19ac130",
+            "revid": 17490
         },
         "Freighter.wikitext": {
             "sha1": "5e81e31873e2b00856bbe2bc6267b0c3b73edabd",
@@ -4338,8 +4338,8 @@
             "revid": 10588
         },
         "Getting_Settled.wikitext": {
-            "sha1": "77a1d91392a77d24286da7e49331f2a341e83c86",
-            "revid": 12656
+            "sha1": "da1059581fdf9cf98fa323ac20e27ee54ca42b15",
+            "revid": 17469
         },
         "Grandiosity.wikitext": {
             "sha1": "2a2c2ca2fb7be6b3422279709b45ea348d648a85",
@@ -5002,8 +5002,8 @@
             "revid": 14875
         },
         "Injured_Person.wikitext": {
-            "sha1": "7c1c09ab74211103765246d38cf67fceb3aebcbd",
-            "revid": 9797
+            "sha1": "a5995261f48da7c8c1087b8d5fed54483ad1d4ad",
+            "revid": 17475
         },
         "Injured_Person%2FTranscript.wikitext": {
             "sha1": "332a712e05f32bb6bb16f006f3dce782244612ce",
@@ -5434,8 +5434,8 @@
             "revid": 17312
         },
         "Krog_Approaches_You,_Wearing_a_Smile.wikitext": {
-            "sha1": "eb2722cbd64ca8c60374295590424d3f67d808bf",
-            "revid": 9730
+            "sha1": "d0fb52ccb486ed12619749df60eccf7d6d131704",
+            "revid": 17476
         },
         "Kra'deshi%2FTooltip.wikitext": {
             "sha1": "4ef20e2cde04caf8dee776958831e5059a20e1d1",
@@ -5810,8 +5810,8 @@
             "revid": 17240
         },
         "Middle_Man.wikitext": {
-            "sha1": "e89837253dad2f14ef1e2913c85797150d68c7db",
-            "revid": 2205
+            "sha1": "1c2ac4123732e2a4f6aba6f6ea81fb50fb93a471",
+            "revid": 17489
         },
         "Mandible.wikitext": {
             "sha1": "cf01ac524914fc0d15e83b13dcf329c72e444302",
@@ -7010,8 +7010,8 @@
             "revid": 17319
         },
         "Pets.wikitext": {
-            "sha1": "bebebfc994743614da7581206c5c90d10e623e05",
-            "revid": 10222
+            "sha1": "256343a8d3b3f5b9f664747e06b89f1aae4db0b6",
+            "revid": 17461
         },
         "Plot_Armor.wikitext": {
             "sha1": "c3083f363d909ffa48f366350bdd1d1122e90e08",
@@ -7090,8 +7090,8 @@
             "revid": 17425
         },
         "Phroluk.wikitext": {
-            "sha1": "32388390874ded13a0d337fffb4dd23e7ebb65cb",
-            "revid": 17320
+            "sha1": "d12568d24974626e7a04daa1fe6e3a29d20a4b9f",
+            "revid": 17429
         },
         "Phrylotas.wikitext": {
             "sha1": "275aa20cd54b7e4225e646130bf292ad63b808fd",
@@ -7118,8 +7118,8 @@
             "revid": 17098
         },
         "Picking_Sides.wikitext": {
-            "sha1": "345bf29407fbc25cced051c51d6f74042546c4d0",
-            "revid": 13030
+            "sha1": "f422c511f9576d74a91fc6fcbdc37c3f5e2dcdf0",
+            "revid": 17468
         },
         "Patient_Prediction.wikitext": {
             "sha1": "3627a55bd4fdd95d7efab57f30dae32ed566ad4a",
@@ -7606,8 +7606,8 @@
             "revid": 1131
         },
         "Relationships.wikitext": {
-            "sha1": "763a181ed123c36d6d8ccadb19a2dce200bcda2c",
-            "revid": 13130
+            "sha1": "66fec53c8e663c6218a42e6edc83549a6375217b",
+            "revid": 17462
         },
         "Rentoria.wikitext": {
             "sha1": "da2799a349bfe998e331d8a5a900fe07f2ba36a2",
@@ -7634,8 +7634,8 @@
             "revid": 9760
         },
         "Rejecting_the_indifference_of_Hesh.wikitext": {
-            "sha1": "a8cfa639126e7b4b3c3e205672d1ce1d0f18f488",
-            "revid": 9791
+            "sha1": "84d84da215cf0f3efec3e5c15855e696fb51ea5f",
+            "revid": 17479
         },
         "Relentless.wikitext": {
             "sha1": "c4934750d5c31436e31eaf0b6cba263ab6399b3e",
@@ -7802,8 +7802,8 @@
             "revid": 14832
         },
         "Rook.wikitext": {
-            "sha1": "85b629a04a62217c312ca3042a8de8d360fb3085",
-            "revid": 13117
+            "sha1": "32e7580bf6bbe7000ef746f54c1d1018dd6db82c",
+            "revid": 17413
         },
         "Rise.wikitext": {
             "sha1": "13e6bcd3d5645a9700a5ce1afe854f4cf8d5d539",
@@ -7970,12 +7970,12 @@
             "revid": 13443
         },
         "Roaloch_and_Load.wikitext": {
-            "sha1": "83e4150425d1b0ed3874fb5c27142dadd00892fe",
-            "revid": 13072
+            "sha1": "2fc4921d322c595bac03b15dc8d4f620a1cd49aa",
+            "revid": 17470
         },
         "Rook's_Campaign.wikitext": {
-            "sha1": "5f623a2f6838c7140666213cb69543085f4a4f35",
-            "revid": 14906
+            "sha1": "397ec4dacefc6fec31125ae179224a6aa9890a57",
+            "revid": 17466
         },
         "Rook's_Spare_Coin.wikitext": {
             "sha1": "fa180154e4b9452975be3d32bff15b3e20caf07f",
@@ -7994,20 +7994,20 @@
             "revid": 14443
         },
         "Rise_Forces.wikitext": {
-            "sha1": "6f3335a89734882032fcdda234b6fa4780a3ce03",
-            "revid": 14637
+            "sha1": "1ed5ced0f0a39732d7b1705718b0df51297de7b8",
+            "revid": 17438
         },
         "Rise_Manifesto.wikitext": {
             "sha1": "73732911df7ba109b860bbbac2eb23a991c5db21",
             "revid": 14638
         },
         "Sal.wikitext": {
-            "sha1": "68c51323f6642f3188bc3700d73268e39656a5bb",
-            "revid": 10953
+            "sha1": "b34e546f3040c668615bc75a2bd76f4528a43314",
+            "revid": 17412
         },
         "Rugged_Compression_Gear.wikitext": {
-            "sha1": "72cbd0bdcbc69f647c5a8283384942ac06aa0bf4",
-            "revid": 1119
+            "sha1": "f04e416ceb147bf56b73c428a2071a92bd094c3c",
+            "revid": 17491
         },
         "Rudana.wikitext": {
             "sha1": "292604f3f3e43a9ab922431b6191eb1896ed4f7d",
@@ -8042,8 +8042,8 @@
             "revid": 17364
         },
         "Sal's_Campaign.wikitext": {
-            "sha1": "3247048b461d85ef8bf751b56f97101283245608",
-            "revid": 13125
+            "sha1": "65ee1e4f4f900a919bc48d815c61a8fd44d3c888",
+            "revid": 17465
         },
         "Rooted_Clean_Open.wikitext": {
             "sha1": "ac7a323296845dc6f82b78d2b00641e3b5d97260",
@@ -8210,8 +8210,8 @@
             "revid": 13645
         },
         "Sal_Gets_An_Envelope.wikitext": {
-            "sha1": "3ab95a4fb40be56bd09bba49a2768d1395c0033c",
-            "revid": 12603
+            "sha1": "0f058f28bafb3f5dc22e4477d0aa772c28e715f7",
+            "revid": 17483
         },
         "Seethe.wikitext": {
             "sha1": "ca9f245a7b7f96587376e5e49a02aed69f90deb6",
@@ -8430,8 +8430,8 @@
             "revid": 12695
         },
         "Shel's_Event.wikitext": {
-            "sha1": "d19aa5ee687127fffde663a10c1f9e718e814086",
-            "revid": 4850
+            "sha1": "26312a215eef8b3147d7d9fc2de5a2ba77fc8509",
+            "revid": 17477
         },
         "Sharpen.wikitext": {
             "sha1": "ed1c988b954671cfc49f2cd5305d32f272b8fe51",
@@ -8598,8 +8598,8 @@
             "revid": 14647
         },
         "Smith.wikitext": {
-            "sha1": "04aa618c6deb3dfafb8f9a25f5b1f2c1cd160976",
-            "revid": 14741
+            "sha1": "ccbe5c95095fc0efd6133d93c601c94328866830",
+            "revid": 17414
         },
         "Spark_Barons.wikitext": {
             "sha1": "050a6e9f9e8d8b8bf8a737a1094c5e865de38a79",
@@ -8822,8 +8822,8 @@
             "revid": 9640
         },
         "Sparky.wikitext": {
-            "sha1": "013d5cb830b32656e6c1cdeae69e02a63015d5f5",
-            "revid": 17405
+            "sha1": "611b2bdee495e4a7c8c417fbf6c2e3a2624d9946",
+            "revid": 17492
         },
         "Specialty.wikitext": {
             "sha1": "28017c02ee5a39442e83dcbab5c85cdca5547d6c",
@@ -9002,8 +9002,8 @@
             "revid": 17118
         },
         "Stepping_in_it.wikitext": {
-            "sha1": "7bf9fbc8d8576e4100fca5f0b8affd0ff0bf65d4",
-            "revid": 14894
+            "sha1": "502162aa284769dbc835a25016a9b06804ce69f8",
+            "revid": 17473
         },
         "Stem.wikitext": {
             "sha1": "ed800379faaa7aad1b755a1ad62931c845252547",
@@ -9806,8 +9806,8 @@
             "revid": 1870
         },
         "The_Totem.wikitext": {
-            "sha1": "4272e4799b56a2362398b0b98beb888a57473008",
-            "revid": 2136
+            "sha1": "a489e4461616d165eb6e7f51359d36ce6064a706",
+            "revid": 17481
         },
         "Threekwa.wikitext": {
             "sha1": "c4096f1c731a33aebbfef5bab0e22dcfaaf71b12",
@@ -10602,8 +10602,8 @@
             "revid": 1786
         },
         "Wandering_Chef.wikitext": {
-            "sha1": "4f4ac74ade4d0c4a12920b49ba8a899a35eea6e1",
-            "revid": 9731
+            "sha1": "8044d2c8137463348abb9bfad96849a17d7e51ff",
+            "revid": 17482
         },
         "War_Story.wikitext": {
             "sha1": "dd241b559a5c3d956ffd6d338d6f19be52f6c521",
@@ -10798,8 +10798,8 @@
             "revid": 14659
         },
         "Welcome_to_Havaria.wikitext": {
-            "sha1": "c7c910ccff9091f36f6cd08a486a8fc2c7c2d217",
-            "revid": 10707
+            "sha1": "8ed32273178a12dfa22c66372ade38e0ebf0dd75",
+            "revid": 17467
         },
         "Weight.wikitext": {
             "sha1": "bdadeaee3cd2ea2215faf7379470cee645b5a2ef",
@@ -11018,20 +11018,20 @@
             "revid": 2139
         },
         "You_find_a_small_patch_of_bogberries_growing_by_the_wayside.wikitext": {
-            "sha1": "ad177d1994b4e475e8754a2051ea4e9a86357c98",
-            "revid": 9910
+            "sha1": "1ff3ed9d33e49051011245d351306df64f388562",
+            "revid": 17488
         },
         "You_come_across_a_plant_that_you_recognize_from_a_book.wikitext": {
-            "sha1": "3df70fd852784e34f61d1053608b9be3ddce27ca",
-            "revid": 9906
+            "sha1": "ab121939597d6e4f49d5a293c9f8a3b5235a2d0d",
+            "revid": 17487
         },
         "You_are_confronted_by_a_scavenger_(Plundak).wikitext": {
-            "sha1": "e535101b3dd8ab690211f1f12e3ae0470dc68b2c",
-            "revid": 10069
+            "sha1": "2713de269da093e536a9b9b9ccd5e5b8afe86526",
+            "revid": 17484
         },
         "You_find_a_Jake_sitting_by_the_side_of_the_road..wikitext": {
-            "sha1": "32cb77a4d97210704d3fcc645d29d536690e26d2",
-            "revid": 9735
+            "sha1": "58257a7bd4f695db7c4a3217943c8f447683e602",
+            "revid": 17485
         },
         "Wretched_Strike.wikitext": {
             "sha1": "07e2b064644fff78bc2e12bb0ed39c15f3b97592",
@@ -11402,8 +11402,8 @@
             "revid": 10947
         },
         "Template/CharacterPage.wikitext": {
-            "sha1": "c0f3f4342c7e3205248b4b513f628b729fc14f1a",
-            "revid": 17165
+            "sha1": "89be5802fdae0cb92185c80c1693d5f8bb24e615",
+            "revid": 17428
         },
         "Template/Disambig.wikitext": {
             "sha1": "5ee3a4160afd0d9da36e1e2cc63e983343792e8b",
@@ -23057,6 +23057,98 @@
         "Template/CharacterPage%2Fdoc.wikitext": {
             "sha1": "243614c0a0c5e5198d26c81de69059ab55242f9a",
             "revid": 17137
+        },
+        "Wanted!.wikitext": {
+            "sha1": "26d5e2ea3f90a0007983af474eaf7a44ef924099",
+            "revid": 17430
+        },
+        "Wanted!%2FTooltip.wikitext": {
+            "sha1": "fa82e855345cc7b402562d87dda499d1a62f3b96",
+            "revid": 17431
+        },
+        "Impatience.wikitext": {
+            "sha1": "c32f2d5ec99e21e4211b754c3fb308edd4202ab1",
+            "revid": 17432
+        },
+        "Impatience%2FTooltip.wikitext": {
+            "sha1": "03d0347e508e1e35a3eda8bafe433e0245430e35",
+            "revid": 17433
+        },
+        "Flourish.wikitext": {
+            "sha1": "a4652543bb89c0930f4b5426c2b31e3e65431f1c",
+            "revid": 17434
+        },
+        "Flourish%2FTooltip.wikitext": {
+            "sha1": "e689761e952c3190d0c8fede6d7d9cf8085e2d2b",
+            "revid": 17435
+        },
+        "Toolbox.wikitext": {
+            "sha1": "4f62772f1af0360e7b211661d595195ab9438281",
+            "revid": 17436
+        },
+        "Toolbox%2FTooltip.wikitext": {
+            "sha1": "95bfd0cc8a932a742313bb700a3bc28e3223bccb",
+            "revid": 17437
+        },
+        "Keepsake.wikitext": {
+            "sha1": "6853c8464e34a73ff73b5cb47566118f2747babc",
+            "revid": 17441
+        },
+        "Keepsake%2FTooltip.wikitext": {
+            "sha1": "cd80652d6e14213387364268b260175927ed8577",
+            "revid": 17442
+        },
+        "Sleep_It_Off.wikitext": {
+            "sha1": "7120b8148a41ed7c0a0efcc9ec2cc384500e1e75",
+            "revid": 17443
+        },
+        "Sleep_It_Off%2FTooltip.wikitext": {
+            "sha1": "777a73814fe4ac50c43033b831f7797a0d886e40",
+            "revid": 17444
+        },
+        "Alleviate.wikitext": {
+            "sha1": "676e9ca3f7294f718fc25ae9d41d9f1db5453ff9",
+            "revid": 17445
+        },
+        "Alleviate%2FTooltip.wikitext": {
+            "sha1": "169f3d960e14a0928c51c2ce4cb59347594267ec",
+            "revid": 17446
+        },
+        "Doubt.wikitext": {
+            "sha1": "bb9a05e3f0c15182f0f46b8aba550dfad52cc845",
+            "revid": 17447
+        },
+        "Doubt%2FTooltip.wikitext": {
+            "sha1": "227c107da2e2fc4c1cdb9d2e49c02276981711d3",
+            "revid": 17448
+        },
+        "Recoverable_Health.wikitext": {
+            "sha1": "bed0ec7cb72b67b757e055bbcf2f354dd42278ba",
+            "revid": 17449
+        },
+        "Recoverable_Health%2FTooltip.wikitext": {
+            "sha1": "ba7ce6fa1d82b8235974d17e5ff0283c276ed90f",
+            "revid": 17450
+        },
+        "Bog_Boil.wikitext": {
+            "sha1": "5d1da046415bdcff370f37eab68612e8c932aad3",
+            "revid": 17452
+        },
+        "Bog_Boil%2FTooltip.wikitext": {
+            "sha1": "832e4027e64fe940595f13507a4a9d5260c6822f",
+            "revid": 17453
+        },
+        "Smarts.wikitext": {
+            "sha1": "bc3d2b052ee7d9c069d095bf815f7681453aae89",
+            "revid": 17454
+        },
+        "Smarts%2FTooltip.wikitext": {
+            "sha1": "961bb40b973c1f704adce4b986bbf77efb496989",
+            "revid": 17455
+        },
+        "Smith's_Campaign.wikitext": {
+            "sha1": "4b565569ac425806781bcb40071d5ab382c53d32",
+            "revid": 17464
         }
     }
 }

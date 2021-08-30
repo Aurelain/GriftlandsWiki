@@ -29,3 +29,6 @@ Nadan is now vulnerable. It's a boss fight! <br/>
 If Nadan is captured alive, he will hate you. The oshnu (and its owner) leave. <br/>
 Something happens on the way to Oolo. If Nadan is alive, you can release him or not. <br/>
 You report to Oolo. If you brought Nadan, Oolo will like you more.
+
+[[Category:Sal Quests]]
+[[Category:Quests]]

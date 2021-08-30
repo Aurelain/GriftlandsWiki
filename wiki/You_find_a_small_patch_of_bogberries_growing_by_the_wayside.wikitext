@@ -14,3 +14,5 @@ Heal 5 HP or more
 Heal 5 Resolve or more and gain !bloated
 == Eat the striped one ==
 Gain 5 Resolve
+
+[[Category:Event]]

@@ -7,4 +7,9 @@
 |decktype = Battle
 |cardtype = Maneuver
 |keywords = [[Toolbox]]
+|special1 = Call in Spark Baron Goon
+|special2 = Call in Spark Baron Taskmaster
+|special3 = Call in Spark Baron Professional
+|special4 = Call in Spark Baron Automech
+|special5 = Cancel
 }}

@@ -1,0 +1,14 @@
+'''Smarts''' is a Negotiation [[Key Words|key word]] for [[Sal]].
+
+==Effect==
+In game description: "Gain an extra action at the start of your turn, then reduce '''Smarts''' by 1.
+
+'''Smarts''' is an argument with 6 resolve.".
+
+==Notes==
+The following cards have this [[Key Words|key word]]:
+* [[Just the Facts]]
+* [[Know It All]]
+
+
+[[Category:Keywords]]

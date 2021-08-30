@@ -1,5 +1,5 @@
 
-This article contains heavy spoilers for the sal campaign. Consider playing the campaign at least once before reading it.
+This article contains heavy spoilers for the [[Rook]] campaign. Consider playing the campaign at least once before reading it.
 
 == Day 1 [[Stepping in it]] and [[Infiltrate the Barons]] or [[Infiltrate the Rise]]==
 === Morning [[Stepping in it]] ===
@@ -50,3 +50,5 @@ The Expedition consists of:
 * Encounter with Boggers
 * Fight Fellemo, fight Kalandra or leave them.
 * The Boss Fights: [[Glofriam]] and [[Grout Monster]].
+
+[[Category:Quests]]

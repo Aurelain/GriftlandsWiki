@@ -8,7 +8,7 @@
 | title = Bounty Hunter
 }}
 
-{{quote|A bounty hunter with a chip on her shoulder and a glint in her eye, Sal escapes a life of servitude to claim the ultimate bounty—and get her revenge.|Sal's Compendium Description}}
+{{quote|Sal's eyes suggest a bright mind, but the roughness of her hands show a hard life.|Sal's Compendium Description}}
 
 '''Sal Fallon''' (aka "[[Ik-Derrick]]") is a player character in {{Gamename}}. She is featured as a bounty hunter, who returns after ten years to the crime-ridden continent named [[Havaria]]. She once was sold into [[Derrick]] servitude by the criminal debt-broker [[Kashio]] and had to work as a slave. Sal is charismatic and bold, but a bit impatient. She utilizes twin daggers in combat.
 
@@ -88,7 +88,21 @@ If playing as Smith, Sal will warily approach the player in Pearl-On-The-Foam wi
 * Sal can be paid by Smith to lie to Vixmalli, telling him that she chased Smith out of town. She will then love the player and grant you her boon.
 * Sal is more serious and lacks the cheeky quips she usually says in her main campaign. It can be assumed that she was fresh off the derricks when she meets Smith.
 
-<br />
+===Boon/Bane===
+{{Boon/Bane
+|boon = People Person
+|boonimage = people person
+|boondesc = At the start of each negotiation, gain 2 Influence and 2 Dominance.
+|bane = Wrong Side
+|baneimage = wrong side
+|banedesc = At the start of each negotiation, gain 1 Doubt.
+}}
+
+===Death Loot===
+If killed in combat, '''Sal''' drops [[Red Scarf]]:<br/>
+{{CardLink|Red Scarf}}
+
+
 == Gallery ==
 
 === Outfits ===

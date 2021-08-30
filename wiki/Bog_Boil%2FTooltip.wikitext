@@ -1,0 +1,9 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Bog Boil
+  |body=<center>'''Bog Boil''' targets an opponent argument each turn for 3-3 damage.
+
+Restore resolve to a random friendly argument equal to the resolve lost from '''Bog Boil''''s attack.
+
+'''Bog Boil''' is an argument with 4 resolve.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

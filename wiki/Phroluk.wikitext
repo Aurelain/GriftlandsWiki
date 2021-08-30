@@ -1,4 +1,5 @@
 {{CharacterPage
+|name = Phroluk 'Of the Beasts'
 |quote = Some people keep pets. Phroluk keeps battle steeds.
 |race = Shroke
 |faction = Spree

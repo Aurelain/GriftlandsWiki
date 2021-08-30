@@ -23,3 +23,5 @@ First berries - Next any = 5 heal and get card
 Horrible Rash
 
 Horrible Rash is a unique status card that applies Flustered when drawn.
+
+[[Category:Event]]

@@ -1,0 +1,17 @@
+'''Sleep It Off''' is a generic [[Key Words|key word]] on some [[Status cards]].
+
+==Effect==
+In game description: "This card is removed upon sleep".
+
+==Notes==
+The key word appears on the cards:
+* [[Bloated]]
+* [[Gassy]]
+* [[Sick]]
+* [[Slurred Speech]]
+* [[Spooked]]
+* [[Tipsy]]
+* [[Ulcer]]
+* [[Weary]]
+
+[[Category:Keywords]]

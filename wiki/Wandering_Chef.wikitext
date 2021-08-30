@@ -7,7 +7,7 @@ You bite down on a caramelized leech, and it explodes into spores...
 The {civilian bartender} is trying to open a restaurant in Murder Bay. You can:
 
 # Promise not to tell anyone: 
-## Gain negotiation card: Sick. 
+## Gain negotiation card: [[Sick]]. 
 ## The {civilian bartender} will like you.
 # Scold the {civilian bartender}
 ##Prevents the status card from being added to your deck
@@ -35,8 +35,10 @@ The {civilian bartender} is trying to open a restaurant in Murder Bay. You can:
 <br />
 == Try the oshnu bile tartar ==
 
-# Gain Battle Card: Well Fed (Heal 5 and destroy, unique status card)
+# Gain Battle Card: [[Well Fed]] (Heal 5 and destroy, unique status card)
 
 == Decline the offer ==
 
 Do nothing. The {civilian bartender} will dislike you.
+
+[[Category:Event]]

@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Recoverable Health‏‎
+  |body=<center>The Wastrel Smith can '''Alleviate''' this much health. This is increased by the amount of damage taken on your turn.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

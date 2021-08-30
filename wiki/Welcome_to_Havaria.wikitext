@@ -75,3 +75,4 @@ After completing the job, the person that you chose will lead you to the night m
 After you discover the night market, you'll need to go to the Grog n' Dog. There you will encounter [[Kashio]]. After exchanging some words, she'll depart, leaving her bodyguard to deal with you. Before fighting with him, you have a chance to convince the bouncer of the Grog n' Dog to fight with you. The bodyguard will either be [[Sparky]], [[Jeol]] or [[Buleet]]. After defeating the boss, you'll need to rest, which will restore your health and resolve and progress you to the next day.
 
 [[Category:Sal Quests]]
+[[Category:Quests]]

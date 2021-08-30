@@ -1,0 +1,7 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Impatience
+  |body=<center>Owner's Intents and Arguments deploy with +1 damage.
+
+Owner's Arguments deploy with +1 resolve.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

@@ -22,3 +22,4 @@ The negotiation ends the first time and auction item argument is destroyed by yo
 The auction participants will attack your arguments and the auction item arguments. Destroying an auction participant will replace it with a new auction participant argument. 
 
 [[Category:Sal Quests]]
+[[Category:Quests]]

@@ -8,3 +8,5 @@ Convince [[Pazlock]] to complete his transaction with [[Voh]].
 *Starting Bonus
 *50 Shills
 *Restoration - Restore 20 health or 10 resolve
+
+[[Category:Quests]]

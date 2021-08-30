@@ -131,12 +131,12 @@ Just like their wild variant, Fleads gain flat defense every turn from '''chitin
 
 *
 
-== Enforcer RETURN ==
+== Enforcer ==
 
-=== Enforcer RETURN in Combat ===
+=== Enforcer in Combat ===
 
 *'''Metallic:''' Immune to Bleed and Wound
-*'''Hover Pack:''' When pet is hit, reduce its number of attacks this turn by 1. If no attacks remain, pet becomes stunned
+*'''Hover Pack:''' When pet is hit, reduce its number of attacks this turn by 1. Gets stunned when counter reaches zero.
 
 == AutoDog ==
 
@@ -144,7 +144,7 @@ Just like their wild variant, Fleads gain flat defense every turn from '''chitin
 
 *'''Metallic:''' Immune to Bleed and Wound
 
-== Racing Oshnu (Smith's campaign)\ ==
+== Racing Oshnu (Smith's campaign) ==
 
 === Racing Oshnus in Combat ===
 

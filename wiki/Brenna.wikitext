@@ -12,3 +12,7 @@
 |banedesc = All allies start battle with additional Panic.
 |deathloot = Guerrilla Tactic
 }}
+
+Sells autodog combat mech for 187 shills if you complete a quest chain to help her find  and protect  a buyer from opposing Shock  Barons  for goods. 
+
+<br />

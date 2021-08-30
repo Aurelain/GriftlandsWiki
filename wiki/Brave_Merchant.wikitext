@@ -16,4 +16,5 @@ Begin a negotiation fight. The {Civilian Downtrodden Merchant} will have +10 res
 == Defend yourself! ==
 
 Begin a combat.
-[[Category:Characters]]
+
+[[Category:Event]]

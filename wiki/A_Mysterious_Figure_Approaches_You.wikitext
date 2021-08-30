@@ -186,3 +186,5 @@ The Bilebroker will ask you to take one of four bottles for research. Their effe
 <small>-Heals 8 Health.</small>
 
 <small>-Gain 1 Power.</small>
+
+[[Category:Event]]

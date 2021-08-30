@@ -73,3 +73,5 @@ A Zealot is accusing you of being a non-Believer. The outcomes are as follows:
 '''Convince _____ You are faithful to Hesh:'''
 
 -Sal will initiate a negotiation with the Zealot
+
+[[Category:Event]]

@@ -1,0 +1,12 @@
+'''Toolbox''' is a Battle [[Key Words|key word]] for [[Rook]].
+
+==Effect==
+In game description: "This card contains other cards that can be improvised. This card stays in your hand at the end of your turn, is placed in your hand at the start of every turn and is [[Destroy|Destroyed]] once empty".
+
+==Notes==
+The cards with this keyword are: 
+* [[Baron Forces]]
+* [[Bodyguard Contract]]
+* [[Rise Forces]]
+
+[[Category:Keywords]]

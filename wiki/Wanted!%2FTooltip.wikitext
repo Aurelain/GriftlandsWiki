@@ -1,0 +1,7 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Wanted!
+  |body=<center>When destroyed, owner's core argument takes 6 to 9 resolve damage and gains 1 '''Impatience'''.
+
+'''Wanted!''' is an argument with 2 resolve.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

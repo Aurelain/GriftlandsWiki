@@ -205,6 +205,18 @@ or
 * Fight with Rook against the boss.
 ** If the boss is spared, Rook will finish them off, surprising Sal. Rook will then Like Sal.
 ** If the boss is killed by Sal, Rook will Love Sal.
+===Boon/Bane===
+{{Boon/Bane
+|boon = Grumpy Scowl
+|boonimage = grumpy scowl
+|boondesc = At the start of each negotiation, gain 2 Heated.
+|bane = Contagious
+|baneimage = contagious
+|banedesc = Gain a random Parasite card.
+}}
+===Death Loot===
+If killed in combat, '''Rook''' drops [[Rook's Spare Coin]]:<br/>
+{{CardLink|Rook's Spare Coin}}
 
 == Random Encounters ==
 

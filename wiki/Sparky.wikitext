@@ -11,7 +11,14 @@
 |deathloot = Sparky's Oppressor Cell
 }}
 ==Notes==
-'''Sparky''' is one of the boss that's fightable on [[Sal]] campaign on day 1, he have some learnable pattern and can charge his weapon for massive amount of damage.
+'''Sparky''' is one of the boss that's fightable on [[Sal's campaign]] on day 1. He has some learnable pattern and can charge his weapon for massive amount of damage.
+
+== Combat ==
+'''Sparky''''s actions are:
+* Spark Grenade (attack all)
+* Spark Charge (gain first Spark Charge and gets 4 [[Counter]] and 7 [[Defense]])
+* Take Aim (gain second Spark Charge)
+* ?? (attack all high damage, lose all Spark Charge)
 
 ==Gallery==
 <gallery>

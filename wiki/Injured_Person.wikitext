@@ -92,3 +92,4 @@ This side quest activates when the player saves the injured person. The injured 
 See [[Injured Person/Transcript]].
 
 [[Category:Sal Quests]]
+[[Category:Event]]

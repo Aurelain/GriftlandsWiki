@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Doubt
+  |body=<center>Targets a friendly argument each turn for 1 damage per stack of '''Doubt'''.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

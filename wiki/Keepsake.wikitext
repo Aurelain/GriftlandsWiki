@@ -1,0 +1,6 @@
+'''Keepsake''' is a general [[Key Words|key word]] used in the [[Daily Challenge]].
+
+==Effect==
+In game description: "Gain additional points if this is still in your deck at the end of the daily challenge".
+
+[[Category:Keywords]]

@@ -17,3 +17,5 @@ Krog: I'll flip this shill, and you call it in the air.  Double your money if th
 -Place a bet of 150 shills
 
 Note that heads has a 90% chance to land. This is based on Rook's campaign, where you can get Krog's Coin, having a 90% chance to land on heads.
+
+[[Category:Event]]

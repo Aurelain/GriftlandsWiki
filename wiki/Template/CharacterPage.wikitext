@@ -9,7 +9,8 @@
 <!-- ====================== Q U O T E  ====================== -->
 {{#if:{{{quote|}}}|{{Quote|{{{quote}}}}}}}
 <!-- ====================== B R I E F ======================= -->
-'''{{{name|{{PAGENAME}}}}}''' is a character in {{Gamename}} and a <!--
+'''{{{name|{{PAGENAME}}}}}''' is a character in {{Gamename}} and <!--
+-->{{#ifeq:{{{faction|}}}|Admiralty|an|a}} <!--
 -->{{#if:{{{faction|}}}|[[{{{faction}}}]]|}} <!--
 -->{{#if:{{{title|}}}|{{{title}}}|}}.
 <!-- ====================== B O O N   /   B A N E =========== -->
@@ -27,7 +28,7 @@
 <!-- ====================== D E A T H   L O O T ============= -->
 {{#if:{{{deathloot|}}}|
 ==Death Loot==
-If killed in combat, '''{{{name|{{PAGENAME}}}}}''' drops a [[{{{deathloot}}}]]:<br/>
+If killed in combat, '''{{{name|{{PAGENAME}}}}}''' drops [[{{{deathloot}}}]]:<br/>
 {{CardLink|{{{deathloot}}}}}
 }}
 <noinclude>{{clear}}{{doc}}</noinclude>

@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Keepsake
+  |body=<center>Gain additional points if this is still in your deck at the end of the daily challenge.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

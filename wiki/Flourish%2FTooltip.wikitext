@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Flourish‏‎ 
+  |body=<center>This is a special attack that will '''Expend''' and '''Burnout'''.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

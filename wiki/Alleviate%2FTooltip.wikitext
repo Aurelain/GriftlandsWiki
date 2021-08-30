@@ -1,0 +1,5 @@
+{{ {{{1|Tooltip hover box}}}
+  |title=Alleviate
+  |body=<center>Recover health up to the amount you have lost this turn.
+</center>
+}}<noinclude>[[Category:Tooltip templates]]</noinclude>

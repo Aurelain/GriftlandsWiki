@@ -1,0 +1,11 @@
+'''Wanted!''' is a Negotiation [[Key Words|key word]] for [[Sal]].
+
+==Effect==
+In game description: "When destroyed, owner's core argument takes 6 to 9 resolve damage and gains 1 [[Impatience]].
+
+'''Wanted!''' is an argument with 2 resolve".
+
+==Notes==
+This keyword appears on [[Bounty Hunter]].
+
+[[Category:Keywords]]

@@ -1,0 +1,53 @@
+This article contains heavy spoilers for the [[Smith]] campaign. Consider playing the campaign at least once before reading it.
+
+== Day 1 [[Sweet Relief]], [[Meet Tei]] and [[The Bar Hits Back]]==
+=== Morning [[Sweet Relief]] ===
+* Draft a Negotiation card or a Battle card
+* To get the [[Sweet_Relief|starting bonus]]: Negotiate or Battle the guard.
+* Complete 1 [[Faction Quest]] for Sweet Moreef.
+
+=== Evening [[Meet Tei]] and [[The Bar Hits Back]]===
+* Get 1 Limited Time Opportunity.
+* Unlock the Party Store
+* Complete 1 [[Meet Tei|Faction Quest]] for Tei Utaro.
+* Complete 1 [[The Bar Hits Back|Boss Fight]]. Either: [[Brut]] or [[Weezil]]
+
+== Day 2 [[Pick a Suitor]], [[Tei's request]] and [[The Marriage Contract]]==
+=== Morning [[Pick a Suitor]]===
+* Pick either [[Andwanette]] or [[Denikus]] as a suitor.
+* Complete 1 [[Pick a Suitor|Faction Quest]] for the suitor.
+
+=== Evening [[Tei's request]] and [[The Marriage Contract]]===
+* Get 1 Limited Time Opportunity.
+* Complete 1 [[Tei's request|Faction Quest]] for Tei Utaro. Either: [[Dog and Pony Show]] or [[The Ctenophorian Heresy]]
+* Complete 1 [[The Marriage Contract|Boss Fight]]. Either: [[Mark Nine Nine]] or [[Felek]] and [[Tazz]]
+* Choose to kill [[Theroux]] or not.
+
+== Day 3 [[Pick a Side]], [[The Ambush]] and [[Cult Machinations]] ==
+=== Morning [[Pick a Side]] ===
+* Pick either [[Eden]] or [[Seemli]] as target.
+* Complete 1 [[Pick a Side|Faction Quest]] for the target.
+
+=== Evening [[The Ambush]] and [[Cult Machinations]] ===
+* Lure the target to the ambush with a negotiation.
+* Choose to side with [[Mullifee]] or not.
+* Fight [[Mullifee]], [[Eden]] or [[Seemli]] depending on your choices.
+* Negotiate or fight your way into the ritual.
+* Choose to push [[Pallitriax]] or fight Tei Utaro with Pallitriax.
+* Complete 1 Boss Fight: Either: [[Lumbering Brute Droad]] or [[Devouring Horror Shredmaw]].
+
+== Day 4 [[Sampling Error]] and [[The Big Beach Party at the End of the World]] ==
+=== Morning [[Sampling Error]] ===
+* Get a sample of the behemoth for [[Leesha]].
+* Receive mind boggling revelations from a [[Boggers]] Cultivator.
+
+=== Evening [[The Big Beach Party at the End of the World]] ===
+* Get 1 Limited Time Opportunity.
+* In the bar is everyone who is alive and does not Hate you. (It's possible to get an empty bar.)
+* Pick someone to steal an ID for you and someone to compromise the catering. 
+* Get into the party.
+* Deal with [[Palamborat]].
+* Negotiate or fight [[Vixmalli]].
+* Complete 1 Boss Fight: [[Vix of Hesh]]
+
+[[Category:Quests]]

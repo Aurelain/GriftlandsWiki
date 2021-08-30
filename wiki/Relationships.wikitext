@@ -389,7 +389,7 @@ The argument continuously deals ranged damage until destroyed.-->
 |style="text-align:center"|[[File:Graft bad faith.png|64px]]<br>'''Bad Faith'''
 |At the start of each fight, add a [[Gnarled Effigy]] to your draw pile.
 |[[Cult of Hesh]] Priest
-|
+|This could actually be beneficial to Smith, since he can still moxie from the damage caused by [[Gnarled Effigy]].
 |- id="Heshian Obscenity"
 |style="text-align:center"|[[File:Graft heshian obscenity.png|64px]]<br>'''Heshian Obscenity'''
 |Your maximum hand size in negotiations is reduced by 2.
