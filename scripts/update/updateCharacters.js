@@ -144,15 +144,18 @@ const generateCharacterWikitext = (character, grafts, cards) => {
     }
     if (loved_graft) {
         assertCard(loved_graft in grafts, character, 'Unknown loved_graft!');
-        assertCard(hated_graft in grafts, character, 'Unknown hated_graft!');
         const boon = grafts[loved_graft];
-        const bane = grafts[hated_graft];
         draft += `|boon = ${boon.name}\n`;
         draft += `|boonimage = ${boon.name.toLowerCase()}\n`;
         draft += `|boondesc = ${boon.desc}\n`;
-        draft += `|bane = ${bane.name}\n`;
-        draft += `|baneimage = ${bane.name.toLowerCase()}\n`;
-        draft += `|banedesc = ${bane.desc}\n`;
+        if (hated_graft) {
+            // Note: Some characters are missing the hated_graft (e.g. Pallitriax)
+            assertCard(hated_graft in grafts, character, 'Unknown hated_graft!');
+            const bane = grafts[hated_graft];
+            draft += `|bane = ${bane.name}\n`;
+            draft += `|baneimage = ${bane.name.toLowerCase()}\n`;
+            draft += `|banedesc = ${bane.desc}\n`;
+        }
     }
     if (death_item) {
         assertCard(death_item in cards, character, 'Unknown death_item!');

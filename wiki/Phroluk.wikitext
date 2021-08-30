@@ -4,11 +4,5 @@
 |race = Shroke
 |faction = Spree
 |title = Raider
-|boon = Regimented
-|boonimage = regimented
-|boondesc = All allied Spree have +10 Health in battle.
-|bane = Brutality
-|baneimage = brutality
-|banedesc = Status cards cost 1 additional action in battle.
 |deathloot = Heavy Cleaver
 }}

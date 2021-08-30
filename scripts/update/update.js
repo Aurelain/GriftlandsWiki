@@ -48,7 +48,7 @@ const update = async () => {
         const characters = await getCharacters(scriptsZip);
         await writeCharactersSheet(characters);
 
-        // updateCards(cards);
+        updateCards(cards);
 
         updateCharacters(characters, grafts, cards);
     } catch (e) {

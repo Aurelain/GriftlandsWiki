@@ -9613,7 +9613,7 @@
     ],
     [
         "Classic Smith",
-        "Replace all [[Brag]] cards in your deck with [[Bully]] cards.<br/>[[Expend]]",
+        "Replace all [[Brag]] cards in your deck with [[Bully]] cards and add them to your hand.<br/>[[Expend]]",
         "classic_smith",
         "N/classic_smith",
         "Smith",
@@ -23581,7 +23581,7 @@
     ],
     [
         "Pale Smith",
-        "Replace all [[Brag]] cards in your deck with [[Bully]] cards.<br/>[[Expend]]",
+        "Replace all [[Brag]] cards in your deck with [[Bully]] cards and add them to your hand.<br/>[[Expend]]",
         "classic_smith_plus2",
         "N/classic_smith",
         "Smith",
@@ -24877,7 +24877,7 @@
     ],
     [
         "Promoted Smith",
-        "Replace all [[Brag]] cards in your deck with randomly upgraded [[Bully]] cards.<br/>[[Expend]]",
+        "Replace all [[Brag]] cards in your deck with randomly upgraded [[Bully]] cards and add them to your hand.<br/>[[Expend]]",
         "classic_smith_plus",
         "N/classic_smith",
         "Smith",

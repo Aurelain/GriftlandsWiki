@@ -4,11 +4,5 @@
 |location = Havaria - Murder Bay
 |faction = Cult of Hesh
 |title = Priest
-|boon = Bio-Feedback
-|boonimage = bio-feedback
-|boondesc = Status Cards cost 1 less action in battle.
-|bane = Bad Faith
-|baneimage = bad faith
-|banedesc = At the start of each fight, add a Gnarled Effigy to your draw pile.
 |deathloot = Heshian Amulet
 }}

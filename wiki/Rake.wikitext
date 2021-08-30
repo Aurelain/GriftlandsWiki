@@ -3,11 +3,5 @@
 |race = Human
 |faction = Jakes
 |title = Smuggler
-|boon = First Aid
-|boonimage = first aid
-|boondesc = Whenever you remove a debuff, Heal 5 health.
-|bane = Fragile Health
-|baneimage = fragile health
-|banedesc = Whenever you gain a debuff, take 2 damage.
 |deathloot = Triage
 }}

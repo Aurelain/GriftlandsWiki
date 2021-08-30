@@ -4,12 +4,6 @@
 |location = Grout Bog
 |faction = Spree
 |title = Bartender
-|boon = Top Shelf
-|boonimage = top shelf
-|boondesc = Restore an additional 6 resolve when drinking.
-|bane = Tainted Supply
-|baneimage = tainted supply
-|banedesc = Drinking adds an additional drunk card.
 |deathloot = Liquid Courage
 }}
 ==Notes==

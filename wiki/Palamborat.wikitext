@@ -2,11 +2,5 @@
 |race = Human
 |faction = Deltreans
 |title = Diplomat
-|boon = Haggle Badge
-|boonimage = haggle badge
-|boondesc = You can negotiate for greater quest rewards.
-|bane = Bad Credit
-|baneimage = bad credit
-|banedesc = Buying anything from shopkeepers costs an additional 20 shills.
 |deathloot = Diplomat's Badge
 }}

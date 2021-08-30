@@ -7,9 +7,6 @@
 |boon = Cozy
 |boonimage = cozy
 |boondesc = Gain 2 maximum resolve and 2 maximum health.
-|bane = Tainted Supply
-|baneimage = tainted supply
-|banedesc = Drinking adds an additional drunk card.
 |deathloot = Liquid Courage
 }}
 ==Notes==

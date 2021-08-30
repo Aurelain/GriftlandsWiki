@@ -5,8 +5,5 @@
 |boon = Anointed
 |boonimage = anointed
 |boondesc = At the start of every negotiation, gain 1 Wrath of Hesh.
-|bane = Heathen
-|baneimage = heathen
-|banedesc = At the start of each negotiation, your opponent gains 1 Prayer of Hesh.
 |deathloot = Lumin Canister
 }}
